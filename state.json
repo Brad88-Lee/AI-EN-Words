@@ -13,7 +13,7 @@
  "skipped_rounds": [],
  "consecutive_human_rounds": 0,
  "output_sha256": {},
- "open_issue": null,
+ "open_issue": 24,
  "updated_at": "2026-11-02T04:31:37+08:00",
  "round_stats": {
   "started_at": "2026-11-02T00:51:33+08:00",
