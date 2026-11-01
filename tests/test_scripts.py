@@ -17,6 +17,12 @@ def fx(name):
     return os.path.join(FIX, name)
 
 
+def stripped(name, d):
+    """fixture 內有 _case／_expect 註解欄位（匯入後台不接受），給 check_batch 前先去掉。"""
+    data = [{k: v for k, v in e.items() if not k.startswith('_')} for e in json.load(open(fx(name), encoding='utf-8'))]
+    p = os.path.join(d, name); json.dump(data, open(p, 'w', encoding='utf-8'), ensure_ascii=False); return p
+
+
 def warns(out):
     """取出「警告／WARN」段落的各行。"""
     for key in ('## 警告明細', '## WARN'):
@@ -27,7 +33,8 @@ def warns(out):
 
 class OkSet(unittest.TestCase):
     def test_check_batch_no_warn(self):
-        code, out = run('check_batch.py', fx('hyphen_apostrophe_ok.json'), fx('hyphen_apostrophe_ok_words.txt'))
+        with tempfile.TemporaryDirectory() as d:
+            code, out = run('check_batch.py', stripped('hyphen_apostrophe_ok.json', d), fx('hyphen_apostrophe_ok_words.txt'))
         self.assertEqual(code, 0, out)
         self.assertEqual(warns(out), [], out)
 
@@ -61,7 +68,7 @@ class Units(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p = os.path.join(d, 'vocab_0001.json')
             json.dump(vocab, open(p, 'w', encoding='utf-8'))
-            data = [e for e in json.load(open(fx('hyphen_apostrophe_ok.json'), encoding='utf-8')) if e['word'] in ('check-in', "o'clock")]
+            data = [{k: v for k, v in e.items() if not k.startswith('_')} for e in json.load(open(fx('hyphen_apostrophe_ok.json'), encoding='utf-8')) if e['word'] in ('check-in', "o'clock")]
             q = os.path.join(d, 'a.json')
             json.dump(data, open(q, 'w', encoding='utf-8'), ensure_ascii=False)
             code, out = run('check_batch.py', q, p)

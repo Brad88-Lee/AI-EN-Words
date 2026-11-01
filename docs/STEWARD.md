@@ -22,18 +22,21 @@
    - 內容：A＝`check_batch`＋`check_extra`；B＝`validate_b`；C＝`check_batch`＋`check_extra`＋`diff_check`。任何 ERROR → **驗證失敗**（計 attempt）。
 3. 通過 → `gh pr merge --squash`（綁定驗證時的 commit）→ `apply-result` 推進 `state.json`、寫 `jobs.md`、`master/`、`used_emoji.txt`、`metrics/rounds.csv`。
 4. 失敗 → 先把 PR 的檔案與檢查報告複製進 `attempts/N####-X-try#/` 並推上 `main`，**再**關 PR。`attempt+1`；`attempt` 達 3 或錯誤簽章與上次相同 → `needs_human` 並開 Issue。
-5. 時限 `DEADLINE_HOURS=3`（暫定，Phase 2 量測後定）。
+5. 時限依階段：A 3 小時、B 5 小時、C 3 小時（`scripts/steward.py` 的 `DEADLINE_HOURS`，暫定，Phase 2 量測後定）。**B 的時限必須大於你設的 Codex 輪詢間隔**，否則每輪 B 都會被判停滯。
 
 ## 復原機制（審查後補強）
 - **不計 attempt 的交付**（fork、AGENT 不合法、過期、改到允許路徑外）：只要還在 `waiting`，總管會重設時限並**重新喚醒**；同一階段**連續 3 次**就轉 `needs_human` 並開 Issue（`noncount_streak`）。
-- **`continue` 一律有效**：不論目前是 `waiting`／`paused`／`needs_human`，都重設時限、清掉 `open_issue`（關掉停滯／人工處理 Issue）、重新喚醒。
+- **`continue` 一律有效**：不論目前是 `waiting`／`paused`／`needs_human`，都重設時限、清掉 `open_issue`（關掉停滯／人工處理 Issue）、重新喚醒。`continue` 是基礎設施動作，**不計入「連續人工輪」**。
+- **補回跳過的輪**（`redo --round`）：補完會回到原本中斷的階段與 attempt（若全部已做完則回到 `done`）；批檔在該批全部到齊時才合成，已存在就不重做。`redo` 到 C 時會釋出該輪用過的 emoji（從 `used_emoji.txt` 移除）。
+- **驗證期間 PR 又被推新 commit**：`gh pr merge` 的 commit 不符時視為「已被取代」，略過，不開 Issue；新的 `synchronize` 事件會重新驗證。
+- C 通過後也會寫 `reports/check/N####_C.md`（WARN 供人工抽查）。
 - **任何驗證通過**都會清掉 `open_issue`。
 - **symlink**：PR 內的輸出檔或回報檔若是 symlink（或上層目錄是 symlink），直接拒絕，不讀、不複製。
 - **人工修檔失敗**寫到 `attempts/N####-X-human-<時間>/`，不覆寫 AI 那次的 `try#` 目錄。
 - 人工修檔的回報檔：`AGENT: human`，且 **`ATTEMPT` 必須等於 `state.json` 的 `attempt`**，否則被判過期。
 
 ## 喚醒
-- **Claude（A、C）**：總管把 state 推進到 A 或 C 時，開一個 Issue，標題 `[wake-claude] N#### A attempt 1`。Claude 的排程任務用「GitHub 事件：議題已開啟」觸發，篩選用「標題**包含** `[wake-claude]`」（Phase 0 實測：不能用「開頭為」）。Claude 被叫醒後**仍然只看 `state.json`**，忽略 Issue 內容。
+- **Claude（A、C）**：總管把 state 推進到 A 或 C 時，開一個 Issue，標題 `[wake-claude-A] N#### attempt 1` 或 `[wake-claude-C] N#### attempt 1`（A、C 分開，這樣 A、C 用不同模型的兩個任務不會互相叫醒）。Claude 的排程任務用「GitHub 事件：議題已開啟」觸發，篩選用標題「**包含**」`[wake-claude-A]`（或 `-C`；單一任務負責兩者就用 `[wake-claude`）。Phase 0 實測：不能用「開頭為」。Claude 被叫醒後**仍然只看 `state.json`**，忽略 Issue 內容。
 - **Codex（B）**：不能被 Actions 叫醒（`github-actions[bot]` 的 `@codex` 留言連接器不回應）。用 Codex 雲端排程輪詢；排程要「從綁定 `AI-EN-Words` 環境的對話」建立。
 - 備案：Claude 另設每小時排程輪詢；`stall_check` 逾時會開 Issue 通知你。
 
@@ -49,7 +52,7 @@
 
 ## 初次啟動（Phase 2 之前）
 `state.json` 現在是 `status=paused`。你要先做：
-1. **Claude**：建立排程任務（`claude.ai/code/routines`）：repo `AI-EN-Words`、環境 Default、觸發＝GitHub 事件「議題：已開啟」＋標題「包含」`[wake-claude]`、模型 Sonnet 5.5（A）。prompt 第一句：`先讀 repo 根目錄的 CLAUDE.md 並依其行事。`（C 要不要換 Opus 5.5 見 HANDOFF §2，同一個任務同模型；要分開就建兩個任務）。建議再加一個每小時的排程觸發當備案。
+1. **Claude**：建立排程任務（`claude.ai/code/routines`）：repo `AI-EN-Words`、環境 Default、觸發＝GitHub 事件「議題：已開啟」＋標題「包含」`[wake-claude-A]`、模型 Sonnet 5.5（A）。prompt 第一句：`先讀 repo 根目錄的 CLAUDE.md 並依其行事。`C 另建一個任務，標題篩選 `[wake-claude-C]`（模型見 HANDOFF §2；若 effort 選不到，以平台預設為準）。兩個任務都不要開 Issue 以外的觸發，備案的每小時排程可另外加。建議再加一個每小時的排程觸發當備案。
 2. **Codex**：從綁定 `AI-EN-Words` 環境的對話建立排程，prompt 第一句：`先 cd /workspace/AI-EN-Words，讀 AGENTS.md 並依其行事。`；環境網路要能連 `github.com`、`api.github.com`（Phase 0 是全開放測試，縮窄尚未驗證）。
 3. 確認 Settings → Actions → General → Workflow permissions 為 Read and write。
 4. 跑 `continue`，觀察第 1 輪（Phase 2：1 輪 → 3 輪 → 10 輪…）。

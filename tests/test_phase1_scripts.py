@@ -143,7 +143,7 @@ class Reports(unittest.TestCase):
 
 class ValidateB(unittest.TestCase):
     def base(self):
-        A = jl('A_0409.json'); B = jl('B_0409.json'); B['gate'] = {'pass': True}; return A, B
+        A = jl('A_0409.json'); B = jl('B_0409.json'); B['gate'] = {'pass': True}; B['batch'] = 'N0001'; return A, B
 
     def test_real_ok(self):
         A, B = self.base(); self.assertEqual(validate_b.validate_b(A, B)[0], [])
@@ -179,12 +179,9 @@ class Misc(unittest.TestCase):
             self.assertEqual(open(out, encoding='utf-8').read(), '💡(lamp)\n'); self.assertIn('略過 Emoji 13+', o)
 
     def test_constants_in_sync(self):
-        for f, name in (('check_batch.py', 'TOPICS'), ('apply_b.py', 'TOP')):
+        for f in ('check_batch.py', 'apply_b.py'):       # 常數只放在 vocab_schema.py，不得再各自定義一份
             s = open(os.path.join(SCRIPTS, f), encoding='utf-8').read()
-            m = re.search(name + r'="([^"]+)"\.split', s); self.assertTrue(m, f)
-            self.assertEqual(m.group(1).split('、'), vocab_schema.TOPICS, f)
-        s = open(os.path.join(SCRIPTS, 'check_batch.py'), encoding='utf-8').read()
-        m = re.search(r"POS=\{([^}]+)\}", s); self.assertEqual({x.strip("' ") for x in m.group(1).split(',')}, vocab_schema.POS)
+            self.assertIn('from vocab_schema import', s, f); self.assertNotIn('日常生活、飲食', s, f)
 
     def test_vocab_files(self):
         import glob

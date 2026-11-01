@@ -18,6 +18,7 @@ def validate_b(A, B, count=None):
         if k not in B: add(f'缺欄位 {k}')
     if errs: return errs, warns
     n = count if count is not None else len(A)
+    if not (isinstance(B['batch'], str) and re.fullmatch(r'N\d{4}', B['batch'])): add(f"batch 應為 N####，收到 {B['batch']!r}")
     if len(A) != n: add(f'A 筆數 {len(A)} 不等於應有筆數 {n}')
     if B['checked'] != n: add(f"checked={B['checked']}，應為 {n}")
     if not isinstance(B['reviewed'], list) or len(B['reviewed']) != n: add(f"reviewed 筆數應為 {n}")

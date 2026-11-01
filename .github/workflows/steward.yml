@@ -86,7 +86,11 @@ jobs:
           python3 scripts/steward.py validate-pr --repo . --now "$NOW" --pr-json "$T/pr.json" --pr-dir pr --out "$T/result.json"
           VERDICT="$(jq -r .verdict "$T/result.json")"
           if [ "$VERDICT" = "pass" ]; then
-            gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"
+            if ! gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"; then
+              CUR="$(gh pr view "$PR" --json headRefOid,state -q '.headRefOid + " " + .state')"
+              if [ "$CUR" != "$SHA OPEN" ]; then echo "驗證期間 PR 已更新或關閉（$CUR），略過；新的 synchronize 事件會重新驗證"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+              exit 1
+            fi
             git fetch -q origin main && git reset -q --hard origin/main
           fi
           python3 scripts/steward.py apply-result --repo . --now "$NOW" --result "$T/result.json" --pr-dir pr --actions "$T/actions.json"

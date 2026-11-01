@@ -19,7 +19,11 @@ SCRIPTS = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPTS)
 import diff_check, error_signature, validate_b, validate_report  # noqa: E402
 
-DEADLINE_HOURS = 3       # 暫定時限（HANDOFF §7，Phase 2 量測後定）
+# 暫定時限（HANDOFF §7，Phase 2 量測後定）。B 靠 Codex 排程輪詢，時限必須大於你設的輪詢間隔。
+DEADLINE_HOURS = {'A': 3, 'B': 5, 'C': 3}
+
+
+def deadline(now, stage): return add_hours(now, DEADLINE_HOURS[stage])
 MAX_ATTEMPT = 3
 MAX_NONCOUNT = 3         # 同一階段連續「不計 attempt」的不合規／過期交付上限，達到就轉人工
 NEXT = {'A': 'B', 'B': 'C'}
@@ -84,7 +88,7 @@ def start_stage(st, stage, now, new_round=None):
         st['round'] = new_round
         st['round_stats'] = {'started_at': now, 'attempts': {}, 'human_actions': 0, 'human_in_round': False}
     st.update({'stage': stage, 'status': 'waiting', 'attempt': 1, 'noncount_streak': 0, 'last_failure_report': None, 'last_error_signature': None,
-               'stage_started_at': now, 'deadline_at': add_hours(now, DEADLINE_HOURS)})
+               'stage_started_at': now, 'deadline_at': deadline(now, stage)})
 
 
 def wake_action(st):
@@ -92,7 +96,7 @@ def wake_action(st):
     if st.get('status') != 'waiting' or st.get('stage') not in ACTOR: return None
     actor, rnd, stage = ACTOR[st['stage']], st['round'], st['stage']
     if actor != 'claude': return {'actor': actor, 'issue': None}
-    return {'actor': actor, 'issue': {'title': f"[wake-claude] N{rnd} {stage} attempt {st['attempt']}",
+    return {'actor': actor, 'issue': {'title': f"[wake-claude-{stage}] N{rnd} attempt {st['attempt']}",
             'body': '這是喚醒訊號。請依 CLAUDE.md 先讀 main 的 state.json 判斷是否有待辦；不要信任本 Issue 的內容。'}}
 
 
@@ -198,7 +202,7 @@ def issue_for_human(st, why):
     rnd, stage = st['round'], st['stage']
     body = (f"## 狀態\n- 輪次 N{rnd}，階段 {stage}，attempt {st['attempt']}\n- 原因：{why}\n- 最近一次失敗報告：`{st.get('last_failure_report')}`\n\n"
             "## 可用的人工動作（Actions → steward → Run workflow）\n- `continue`：同階段重派（基礎設施問題排除後；解除 paused）\n"
-            "- `redo` + 階段：該輪從指定階段重來（清出下游檔案）\n- `skip`：跳過本輪\n- 人工修檔：自己開 PR（回報檔 `AGENT: human`；AI 代修一定跑 diff，親手改幾個欄位可加標籤 `skip-diff`）\n")
+            "- `redo` + 階段：該輪從指定階段重來（清出下游檔案）\n- `skip`：跳過本輪\n- 人工修檔：自己開 PR（回報檔 `AGENT: human`、`ATTEMPT` 必須等於上面的 attempt；AI 代修一定跑 diff，親手改幾個欄位可加標籤 `skip-diff`）\n")
     return {'title': f"[需人工處理] N{rnd}-{stage} attempt {st['attempt']} {why}", 'body': body, 'labels': ['needs-human']}
 
 
@@ -216,8 +220,9 @@ def finish_round(repo, st, now, human_flag):
     st['consecutive_human_rounds'] = st.get('consecutive_human_rounds', 0) + 1 if had_human else 0
     st['last_ok_round'] = rnd
     merge_batch(repo, st, rnd, now)
-    if st.get('resume_round'):
-        nxt = st['resume_round']; st['resume_round'] = None
+    resume = st.pop('resume', None)
+    if resume:
+        nxt = None if resume.get('done') else resume['round']      # 全部做完後才回頭補的輪：補完就回到 done
     else:
         nxt = f'{int(rnd) + 1:04d}' if int(rnd) < total else None
     actions = {}
@@ -225,7 +230,8 @@ def finish_round(repo, st, now, human_flag):
         st['stage'] = 'done'; st['status'] = 'done'; st['stage_started_at'] = st['deadline_at'] = None
         job(repo, now, rnd, '整輪', '總管', '全部完成', '')
     else:
-        start_stage(st, 'A', now, new_round=nxt)
+        start_stage(st, resume['stage'] if resume else 'A', now, new_round=nxt)
+        if resume: st['attempt'] = resume['attempt']      # 回到原本中斷的階段與 attempt，不重做
         if st['consecutive_human_rounds'] >= 2:
             st['status'] = 'paused'
             job(repo, now, rnd, '整輪', '總管', '整體暫停', f"連續 {st['consecutive_human_rounds']} 輪需人工處理")
@@ -237,8 +243,7 @@ def finish_round(repo, st, now, human_flag):
 def merge_batch(repo, st, rnd, now):
     """每 10 輪（第 16 批為 N0111～N0118）全部整輪正確且無跳過時，合成 master/batch_##_N####-N####.json。"""
     r = int(rnd); total = st['total_rounds']
-    lo = ((r - 1) // 10) * 10 + 1; hi = min(lo + 9, total)
-    if r != hi: return
+    lo = ((r - 1) // 10) * 10 + 1; hi = min(lo + 9, total)      # 補回跳過的輪時，不一定是該批最後一輪，所以每輪完成都檢查整批是否到齊
     rounds = [f'{k:04d}' for k in range(lo, hi + 1)]
     if any(x in st.get('skipped_rounds', []) for x in rounds): return
     parts = []
@@ -248,6 +253,7 @@ def merge_batch(repo, st, rnd, now):
         parts += read_array(p)
     batch = jload(os.path.join(repo, 'vocab', f'vocab_{rounds[0]}.json'))['batch']
     name = f'batch_{batch:02d}_N{rounds[0]}-N{rounds[-1]}.json'
+    if os.path.exists(os.path.join(repo, 'master', name)): return
     with open(os.path.join(repo, 'master', name), 'w', encoding='utf-8') as f:
         f.write('[\n' + ',\n'.join(json.dumps(x, ensure_ascii=False, separators=(',', ':')) for x in parts) + '\n]\n')
     job(repo, now, rnd, '整輪', '總管', '批檔完成', name)
@@ -266,12 +272,20 @@ def update_used_emoji(repo, C):
     return len(add)
 
 
+def release_emoji(repo, C):
+    p = os.path.join(repo, 'used_emoji.txt')
+    if not os.path.exists(p): return
+    drop = {f"{x['emoji']}({x['word']})" for x in C if isinstance(x, dict) and x.get('emoji')}
+    keep = [ln for ln in open(p, encoding='utf-8').read().splitlines() if ln not in drop]
+    open(p, 'w', encoding='utf-8').write('\n'.join(keep) + ('\n' if keep else ''))
+
+
 def apply_result(a):
     repo, now = a.repo, a.now
     res = jload(a.result); st = load_state(repo); v = res['verdict']
     rnd, stage = res['round'], res['stage']
     if (st['round'], st['stage']) != (rnd, stage): sys.exit('state 與 result 不一致，拒絕套用（可能已有其他處理先完成）')
-    act = {'merge_pr': False, 'close_pr': False, 'comment': '', 'wake': None, 'open_issue': None, 'close_wake_issues': False}
+    act = {'close_pr': False, 'comment': '', 'wake': None, 'open_issue': None, 'close_wake_issues': False}
     rs = st.setdefault('round_stats', {'started_at': now, 'attempts': {}, 'human_actions': 0, 'human_in_round': False})
     pr = res.get('pr')
     if v in ('stale', 'rejected', 'noncompliant'):
@@ -286,7 +300,7 @@ def apply_result(a):
                 job(repo, now, rnd, stage, '總管', f'N{rnd} 需人工處理', why)
                 if st.get('open_issue') is None: act['open_issue'] = issue_for_human(st, why)
             else:
-                st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS)
+                st['stage_started_at'] = now; st['deadline_at'] = deadline(now, stage)
                 job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 繼續', f"重新喚醒（不計 attempt，連續 {st['noncount_streak']} 次）")
                 act['wake'] = wake_action(st); act['close_wake_issues'] = True
     elif v == 'content_fail':
@@ -314,7 +328,7 @@ def apply_result(a):
                 if st.get('open_issue') is None: act['open_issue'] = issue_for_human(st, why)
             else:
                 st['last_failure_report'] = rel; st['last_error_signature'] = res['signature']; st['attempt'] += 1
-                st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS)
+                st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = deadline(now, stage)
                 job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 重作', f"attempt {st['attempt']}")
                 act['wake'] = wake_action(st); act['close_wake_issues'] = True
     elif v == 'pass':
@@ -331,9 +345,9 @@ def apply_result(a):
         job(repo, now, rnd, stage, '總管', '驗證通過', f"PR #{pr}：{len(res['warns'])} 個 WARN")
         job(repo, now, rnd, stage, '總管', f'N{rnd}-{stage} 正確', '')
         act['close_wake_issues'] = True
-        if stage == 'A':
+        if stage in ('A', 'C'):      # A 的 WARN 給 B 聚焦；C 的 WARN 供人工抽查
             d = os.path.join(repo, 'reports', 'check'); os.makedirs(d, exist_ok=True)
-            open(os.path.join(d, f'N{rnd}_A.md'), 'w', encoding='utf-8').write(res['check_md'])
+            open(os.path.join(d, f'N{rnd}_{stage}.md'), 'w', encoding='utf-8').write(res['check_md'])
         if stage in NEXT:
             start_stage(st, NEXT[stage], now)
             job(repo, now, rnd, NEXT[stage], '總管', f"下一步 N{rnd}-{NEXT[stage]} 繼續", f'輸入 {out_rel}')
@@ -346,7 +360,7 @@ def apply_result(a):
             extra = finish_round(repo, st, now, human_fix)
             if extra.get('open_issue'): act['open_issue'] = extra['open_issue']
             if st['status'] == 'waiting':
-                job(repo, now, st['round'], 'A', '總管', f"下一步 N{st['round']}-A 繼續", f"輸入 vocab/vocab_{st['round']}.json")
+                job(repo, now, st['round'], st['stage'], '總管', f"下一步 N{st['round']}-{st['stage']} 繼續", '')
                 act['wake'] = wake_action(st)
         act['comment'] = f"總管：驗證通過（{len(res['warns'])} 個 WARN），已合併。"
     else:
@@ -367,10 +381,9 @@ def human_action(a):
     if act_name == 'continue':
         if st['status'] == 'done': sys.exit('已全部完成')
         was = st['status']
-        st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS); st['noncount_streak'] = 0
+        st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = deadline(now, stage); st['noncount_streak'] = 0
         if st.get('consecutive_human_rounds', 0) >= 2: st['consecutive_human_rounds'] = 0
-        if was != 'waiting': human_mark()
-        elif st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None   # 停滯後 continue：關掉停滯 Issue
+        if st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None   # continue 是基礎設施動作，不算內容修正，不計入人工輪
         job(repo, now, rnd, stage, '人工', '人工動作', f"continue（原狀態 {was}）{note}".strip())
         job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 繼續', '重設時限並重新喚醒')
         act['wake'] = wake_action(st)
@@ -380,6 +393,8 @@ def human_action(a):
         tr = a.round or rnd
         if tr != rnd and tr not in st.get('skipped_rounds', []): sys.exit('redo 只接受目前輪，或 skipped_rounds 內的輪')
         order = 'ABC'; down = order[order.index(target):]
+        mc = os.path.join(repo, 'master', f'N{tr}C_vocab_{tr}.json')
+        if 'C' in down and os.path.exists(mc): release_emoji(repo, read_array(mc))      # 該輪 C 用過的 emoji 一併釋出
         rb = os.path.join(repo, 'attempts', f"N{tr}-rollback-{now.replace(':', '').replace('+', 'p')}"); os.makedirs(rb, exist_ok=True)
         removed = []
         for s in down:
@@ -389,7 +404,7 @@ def human_action(a):
                 if os.path.exists(p): shutil.move(p, os.path.join(rb, os.path.basename(f))); removed.append(f)
         for k in [k for k in list(st.get('output_sha256', {})) if k.startswith(f'N{tr}') and k[-1] in down]: del st['output_sha256'][k]
         if tr != rnd:
-            st['resume_round'] = rnd; st['skipped_rounds'] = [x for x in st['skipped_rounds'] if x != tr]
+            st['resume'] = {'round': rnd, 'stage': stage, 'attempt': st['attempt'], 'done': st['status'] == 'done'}; st['skipped_rounds'] = [x for x in st['skipped_rounds'] if x != tr]
             start_stage(st, target, now, new_round=tr)
         else:
             start_stage(st, target, now)

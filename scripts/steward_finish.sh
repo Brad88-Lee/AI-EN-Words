@@ -28,7 +28,7 @@ commit_push "$MSG"
 
 # 2. 關掉舊的喚醒 Issue
 if [ "$(jqr '.close_wake_issues // false')" = "true" ]; then
-  for n in $(gh issue list --state open --limit 100 --json number,title -q '.[] | select(.title | startswith("[wake-claude]")) | .number'); do
+  for n in $(gh issue list --state open --limit 100 --json number,title -q '.[] | select(.title | startswith("[wake-claude")) | .number'); do
     gh issue close "$n" --comment "總管：階段已處理，關閉喚醒訊號。" || true
   done
 fi

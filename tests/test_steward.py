@@ -1,6 +1,8 @@
 """總管 steward.py 的情境測試：在暫存 repo 裡模擬完整一輪與各種失敗、人工動作。
 用 tests/fixtures/real 的真實資料（Final 當作乾淨的 A／C，A_0410 當作有 ERROR 的 A）。"""
 import json, os, shutil, subprocess, sys, tempfile, unittest
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'scripts'))
+import diff_check, validate_b, validate_report  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STEWARD = os.path.join(ROOT, 'scripts', 'steward.py')
@@ -9,6 +11,11 @@ NOW = '2026-11-01T10:00:00+08:00'
 
 
 def jl(name): return json.load(open(os.path.join(REAL, name), encoding='utf-8'))
+
+
+def run(script, *args):
+    r = subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', script), *args], capture_output=True, text=True, encoding='utf-8')
+    return r.returncode, r.stdout + r.stderr
 
 
 def wj(p, d):
@@ -81,7 +88,7 @@ class FullRound(unittest.TestCase):
         self.assertTrue(os.path.exists(os.path.join(e.repo, 'reports/check/N0001_A.md')))
         r = e.deliver('B', '0001', e.B(A1)); self.assertEqual(r['verdict'], 'pass', r)
         e.merge('B', '0001'); act = e.apply(); st = e.state()
-        self.assertEqual((st['stage'], st['status']), ('C', 'waiting')); self.assertIn('[wake-claude] N0001 C', act['wake']['issue']['title'])
+        self.assertEqual((st['stage'], st['status']), ('C', 'waiting')); self.assertIn('[wake-claude-C] N0001', act['wake']['issue']['title'])
         r = e.deliver('C', '0001', A1); self.assertEqual(r['verdict'], 'pass', r)
         e.merge('C', '0001'); act = e.apply(); st = e.state()
         self.assertEqual((st['round'], st['stage'], st['status']), ('0002', 'A', 'waiting')); self.assertEqual(st['last_ok_round'], '0001')
@@ -101,7 +108,7 @@ class FullRound(unittest.TestCase):
         e.set_state(dict(e.state(), round='0002'))
         r = e.deliver('A', '0002', bad); self.assertEqual(r['verdict'], 'content_fail'); self.assertTrue(any('Emoji' in x['msg'] for x in r['errors']))
         act = e.apply(); st = e.state()
-        self.assertEqual((st['attempt'], st['status']), (2, 'waiting')); self.assertTrue(act['close_pr']); self.assertIn('[wake-claude] N0002 A attempt 2', act['wake']['issue']['title'])
+        self.assertEqual((st['attempt'], st['status']), (2, 'waiting')); self.assertTrue(act['close_pr']); self.assertIn('[wake-claude-A] N0002 attempt 2', act['wake']['issue']['title'])
         self.assertTrue(os.path.exists(os.path.join(e.repo, 'attempts/N0002-A-try1/check_report.md')))
         self.assertTrue(os.path.exists(os.path.join(e.repo, 'attempts/N0002-A-try1/N0002A_vocab_0002.json')))
         r = e.deliver('A', '0002', bad, attempt=2); self.assertEqual(r['verdict'], 'content_fail')       # 同樣的錯 → 簽章重複
@@ -146,7 +153,7 @@ class FullRound(unittest.TestCase):
 
     def test_human_continue_redo_skip(self):
         e = self.e; e.set_state(dict(e.state(), status='paused'))
-        act = e.human('continue'); st = e.state(); self.assertEqual(st['status'], 'waiting'); self.assertIn('[wake-claude] N0001 A', act['wake']['issue']['title'])
+        act = e.human('continue'); st = e.state(); self.assertEqual(st['status'], 'waiting'); self.assertIn('[wake-claude-A] N0001', act['wake']['issue']['title'])
         A1 = jl('Final_0409.json'); e.deliver('A', '0001', A1); e.merge('A', '0001'); e.apply()
         e.human('redo', stage='A'); st = e.state()
         self.assertEqual((st['stage'], st['status'], st['attempt']), ('A', 'waiting', 1)); self.assertFalse(os.path.exists(os.path.join(e.repo, 'out_A/N0001A_vocab_0001.json')))
@@ -176,7 +183,7 @@ class Recovery(unittest.TestCase):
         e = self.e; e.set_state(dict(e.state(), deadline_at='2026-11-01T09:00:00+08:00', open_issue=9))
         act = e.human('continue'); st = e.state()
         self.assertEqual(st['status'], 'waiting'); self.assertGreater(st['deadline_at'], NOW); self.assertIsNone(st['open_issue'])
-        self.assertEqual(act.get('close_issue'), 9); self.assertIn('[wake-claude] N0001 A', act['wake']['issue']['title'])
+        self.assertEqual(act.get('close_issue'), 9); self.assertIn('[wake-claude-A] N0001', act['wake']['issue']['title'])
 
     def test_any_pass_clears_open_issue(self):
         e = self.e; e.set_state(dict(e.state(), open_issue=5))
@@ -224,6 +231,86 @@ class Recovery(unittest.TestCase):
         e.steward('apply-result', '--result', os.path.join(e.tmp.name, 'res.json'), '--pr-dir', e.pr, '--actions', os.path.join(e.tmp.name, 'act.json'))
         names = sorted(os.listdir(os.path.join(e.repo, 'attempts'))); self.assertTrue(names and all('try' not in n for n in names), names)
         self.assertEqual(e.state()['status'], 'needs_human'); self.assertEqual(e.state()['attempt'], 1)
+
+
+class ReviewFollowups(unittest.TestCase):
+    """審查第 4～11 項。"""
+    def setUp(self): self.e = Env()
+    def tearDown(self): self.e.close()
+
+    def run_round(self, rnd, data):
+        e = self.e
+        for stage, d in (('A', data), ('B', e.B(data)), ('C', data)):
+            r = e.deliver(stage, rnd, d); self.assertEqual(r['verdict'], 'pass', (rnd, stage, r['errors'][:2])); e.merge(stage, rnd); e.apply()
+
+    def test_stage_deadlines_and_c_report(self):
+        e = self.e; A1 = jl('Final_0409.json'); e.deliver('A', '0001', A1); e.merge('A', '0001'); e.apply()
+        self.assertEqual(e.state()['deadline_at'], '2026-11-01T15:00:00+08:00')           # B 的時限是 5 小時
+        e.deliver('B', '0001', e.B(A1)); e.merge('B', '0001'); e.apply(); self.assertEqual(e.state()['deadline_at'], '2026-11-01T13:00:00+08:00')
+        e.deliver('C', '0001', A1); e.merge('C', '0001'); e.apply()
+        self.assertTrue(os.path.exists(os.path.join(e.repo, 'reports/check/N0001_C.md')))
+
+    def test_continue_not_counted_as_human(self):
+        e = self.e; e.set_state(dict(e.state(), status='paused')); e.human('continue')
+        self.assertFalse(e.state()['round_stats']['human_in_round'])
+        self.run_round('0001', jl('Final_0409.json')); self.assertEqual(e.state()['consecutive_human_rounds'], 0)
+
+    def test_batch_after_skipped_round_is_filled_and_resume(self):
+        e = self.e; A1, A2 = jl('Final_0409.json'), jl('Final_0410.json')
+        e.human('skip'); self.assertEqual(e.state()['round'], '0002')
+        self.run_round('0002', A2); st = e.state(); self.assertEqual(st['status'], 'done')
+        self.assertFalse([f for f in os.listdir(os.path.join(e.repo, 'master')) if f.startswith('batch_')])     # 有跳過的輪，不合批
+        e.human('redo', stage='A', round='0001'); st = e.state(); self.assertEqual((st['round'], st['stage'], st['status']), ('0001', 'A', 'waiting'))
+        self.run_round('0001', A1); st = e.state()
+        self.assertEqual((st['round'], st['status']), ('0001', 'done'))                       # 補完回到 done，不重做第 2 輪
+        self.assertTrue(os.path.exists(os.path.join(e.repo, 'master/batch_05_N0001-N0002.json')))
+        self.assertEqual(st['skipped_rounds'], [])
+
+    def test_redo_other_round_resumes_exact_stage(self):
+        e = self.e; A1, A2 = jl('Final_0409.json'), jl('Final_0410.json')
+        e.human('skip'); r = e.deliver('A', '0002', A2); e.merge('A', '0002'); e.apply()
+        e.set_state(dict(e.state(), attempt=2))                                                # 第 2 輪停在 B 的第 2 次
+        e.human('redo', stage='A', round='0001'); self.run_round('0001', A1); st = e.state()
+        self.assertEqual((st['round'], st['stage'], st['attempt']), ('0002', 'B', 2))      # skip 與 redo 都算人工，連續 2 輪會 paused，屬正常
+
+    def test_release_emoji(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('steward', STEWARD); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+        p = os.path.join(self.e.repo, 'used_emoji.txt'); open(p, 'w', encoding='utf-8').write('💡(lamp)\n🍎(apple)\n')
+        m.release_emoji(self.e.repo, [{'word': 'lamp', 'emoji': '💡'}]); self.assertEqual(open(p, encoding='utf-8').read(), '🍎(apple)\n')
+
+
+class StricterChecks(unittest.TestCase):
+    def test_report_lenient(self):
+        t = "round: 0001\nSTAGE: A\nAGENT: Claude Code\nATTEMPT: 1\nOUTPUT: out_A/N0001A_vocab_0001.json\nGATE-A: PASS\n---\n"
+        self.assertTrue(validate_report.validate(t, 'A', '0001', 1)['ok'])
+        self.assertTrue(validate_report.validate(t.replace('round: 0001', 'ROUND: n0001').replace('Claude Code', 'claude'), 'A', '0001', 1)['ok'])
+        self.assertEqual(validate_report.validate(t.replace('Claude Code', 'Gemini'), 'A', '0001', 1)['errors'][0]['kind'], 'noncompliant')
+
+    def test_check_batch_new_errors(self):
+        with tempfile.TemporaryDirectory() as d:
+            data = [json.loads(json.dumps(x)) for x in jl('Final_0409.json')]
+            data[0]['pos_list'] = ['n.']; data[1]['senses'][0]['examples'][0]['zh'] = ''; data[2] = {'word': data[2]['word'], 'error': '無法處理'}
+            p = os.path.join(d, 'a.json'); json.dump(data, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
+            w = os.path.join(d, 'w.txt'); open(w, 'w').write('\n'.join(x['word'] for x in data))
+            code, out = run('check_batch.py', p, w, '--band', '50')
+        self.assertEqual(code, 1); self.assertIn('多餘欄位', out); self.assertIn('是空的', out); self.assertIn('需重作', out)
+
+    def test_diff_value_mismatch(self):
+        A, C, B = jl('A_0409.json'), jl('Cai_0409.json'), jl('B_0409.json')
+        with tempfile.TemporaryDirectory() as d:
+            out, j = os.path.join(d, 'c.json'), os.path.join(d, 'r.json')
+            run('apply_b.py', os.path.join(REAL, 'A_0409.json'), os.path.join(REAL, 'B_0409.json'), '--out', out, '--json', j)
+            r = json.load(open(j, encoding='utf-8'))
+        extra = [{'word': w, 'path': 'senses[%d].zh' % i} for w, i in (('climate', 0), ('detail', 1), ('truth', 0))]
+        block = {'a_count': 50, 'c_count': 50, 'applied': r['applied'], 'skipped': r['skipped'], 'extra_changes': extra, 'nulls': r['nulls']}
+        self.assertEqual(diff_check.diff_check(A, C, B, block), [])
+        C2 = json.loads(json.dumps(C)); next(x for x in C2 if x['word'] == 'shame')['senses'][0]['examples'][1]['en'] = '被偷換成別的句子 not the fix.'
+        self.assertIn('applied_value_mismatch', [e['code'] for e in diff_check.diff_check(A, C2, B, block)])
+
+    def test_validate_b_batch_format(self):
+        A = jl('A_0409.json'); B = jl('B_0409.json'); B['gate'] = {'pass': True}
+        self.assertTrue(any('batch' in e['msg'] for e in validate_b.validate_b(A, B)[0]))      # 舊版 "04-09" 不合 N####
 
 
 if __name__ == '__main__':
