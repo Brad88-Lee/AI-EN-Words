@@ -51,4 +51,10 @@
   - 該任務的 prompt 要求 AI 說明「是哪個事件叫醒你」。手動執行時 AI 回答「排程觸發」，與平台標籤「手動」不符 → AI 對自己如何被啟動的自述不可信，須看平台標籤或事件內容。
   - 文件載明 GitHub 事件有每任務、每帳號的每小時上限，超過會被丟棄 → 事件喚醒不能是唯一機制，需保留輪詢備案。
   - ⬜ 未測：Codex 的 `@codex` 留言喚醒。
+- 2026-11-01 事件喚醒實測（Codex，PR #13，以 GitHub 上的留言時間為證，UTC）：
+  - ✅ **`@codex` 由人類身分寫下時，`chatgpt-codex-connector[bot]` 約 9～10 秒內回應**：PR 說明／標題含 `@codex`（PR #12、#13 建立後立即回覆，無人留言）、使用者留言 14:00:18 → 回覆 14:00:27。
+  - ❌ **`github-actions[bot]` 用 `GITHUB_TOKEN` 留的 `@codex`（13:49:00）11 分鐘內無任何回應** → Actions 無法用 `@codex` 留言喚醒 Codex（單一樣本，但連接器對人類留言一致有回應、對 bot 留言一致無回應）。
+  - 回應內容皆為「To use Codex here, create an environment for this repo」：連接器找不到可用環境。已確認：Codex 環境 `AI-EN-Words` 存在、已發佈（畫面顯示「環境已發布」，發佈鈕發佈後不會變灰）、GitHub App 對 `AI-EN-Words` 有讀寫授權、帳號已連結。原因未明；懷疑連接器查的是 `chatgpt.com/codex/cloud/settings/environments` 的環境清單，與對話式建立的環境不同（⬜ 未驗證）。
+  - 副作用：在 PR 標題、說明寫 `@codex` 會誤觸發連接器（若環境可用將消耗額度）。
+  - 結論：Codex 端不採事件喚醒，改用雲端排程輪詢（從綁定 `AI-EN-Words` 環境的對話建立）；若改用有人類身分的 PAT 發留言可能可行，但 Public repo 不建議放 token。
 

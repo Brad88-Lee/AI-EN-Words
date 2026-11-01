@@ -7,7 +7,7 @@
 ## 1. §12 喚醒方式：刪除「API trigger」前提（使用者沒有 API）
 - 官方文件列三種觸發：Schedule（最短 1 小時）、GitHub event（Pull request／Release／Issue，需安裝 Claude GitHub App）、API。
 - 建議：Claude 端以 **GitHub event 喚醒為主、Schedule 輪詢為備案**。✅ 已實測：Actions 用 `GITHUB_TOKEN` 開 Issue 可叫醒 Claude 排程任務（觸發條件「議題：已開啟」；篩選要用「包含」；延遲約 1 分鐘內，單一樣本）。有每小時上限，故輪詢備案不可省。喚醒後 AI 仍須讀 `state.json` 判斷該不該動，不可信任事件內容。
-- Codex 端：雲端排程可建立 ✅；最短間隔、能否被事件喚醒 ⬜。
+- Codex 端：雲端排程可建立 ✅；最短間隔 ⬜。✅ 實測 `@codex` 留言喚醒：人類身分的留言／PR 說明約 10 秒內被 `chatgpt-codex-connector` 收到，但 `github-actions[bot]` 的留言**沒有被回應** → Actions 不能喚醒 Codex，Codex 端採**雲端排程輪詢**。另連接器目前回覆「請建立環境」（環境存在且已發佈，原因未明）。
 - ✅ 總管步驟間用 `repository_dispatch` 串接成立（`GITHUB_TOKEN` 發出的 dispatch 會觸發下一個 run，ping → chain-1 → chain-2），不需要 PAT。
 
 ## 2. §9.1 作者白名單：改成「同 repo 分支」把關
