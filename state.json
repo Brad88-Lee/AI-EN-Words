@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "round": "0001",
+ "total_rounds": 118,
+ "stage": "A",
+ "status": "paused",
+ "attempt": 1,
+ "last_failure_report": null,
+ "last_error_signature": null,
+ "stage_started_at": null,
+ "deadline_at": null,
+ "last_ok_round": null,
+ "skipped_rounds": [],
+ "consecutive_human_rounds": 0,
+ "output_sha256": {},
+ "open_issue": null,
+ "updated_at": "2026-11-01T23:19:00+08:00"
+}
