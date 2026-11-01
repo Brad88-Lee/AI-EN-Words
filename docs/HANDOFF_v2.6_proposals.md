@@ -56,3 +56,19 @@
 4. Opus 5.5 是否可選 effort。
 5. GitHub 手機 app 觸發 `workflow_dispatch`。
 6. Actions runner 上的 Python／`emoji`。
+
+## 9. 決定紀錄（2026-11-01，使用者）
+| 項目 | 決定 | 備註 |
+|---|---|---|
+| §9.1 作者白名單 | **同意**改為「同 repo 分支」把關，加 `AGENT:` 簽名欄位 | 簽名只是過濾，不是驗證；不加時間（時間由 Actions 蓋章，回報檔已有 `REPORTED_AT`）。建議改加 `ATTEMPT:`（AI 抄寫 `state.json` 的 `attempt`），讓總管能擋掉舊嘗試的過期交付 — 待使用者確認 |
+| B 的交付 | **同意**；加「失敗重試」（最多 3 次，回報檔記錄）、「PR 已存在視為成功」、允許 `codex/` 前綴 | |
+| 模型與思考程度 | **同意**：§2 表格改為「期望值」，實際由平台預設決定 | |
+| prompt_B | **同意**：第一步 `cd /workspace/AI-EN-Words`，確認 origin，不符就停止 | |
+| Claude 腳本 | **同意**：一律 `python3 -m pip install emoji` | |
+| 例句長度 | **統一為「約 8～18 個英文字」**：prompt_B 第二節的「8～16」改為「8～18」；`check_batch.py` 的 5～25 字 WARN 範圍另議 | 此為使用者明確授權的規則本文修改，覆蓋 HANDOFF §11.0 的「不改規則本文」 |
+| Allow Actions to create PRs | 只在採用「Actions 自動開 PR」備案時才勾 | |
+| 分支保護 | Phase 1 再評估 | |
+| Phase 1 | **等使用者說開始**（`CLAUDE.md`、`AGENTS.md`、`state.json`、`jobs.md`、`vocab/` 切檔等） | |
+| §12 事件喚醒測試 | **待使用者確認**測試設計後再做 | 見對話 |
+
+以上決定尚未寫回 HANDOFF 與 prompt 檔（它們不在本 repo）；套用在 Phase 1 一併處理。
