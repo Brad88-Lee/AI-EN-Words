@@ -15,7 +15,7 @@ def simp(x):
     return any(ch in EXTRA_SIMP or ('\u4e00'<=ch<='\u9fff' and not _in_big5(ch)) for ch in x)
 TOPICS="日常生活、飲食、家庭與人際、學校與學習、工作與商業、金融與會計、健康與身體、情緒與性格、動物、植物與自然、天氣與環境、科技與網路、交通與旅行、運動與休閒、藝術與文化、社會與法律、科學、歷史與地理、抽象概念與其他".split('、')
 POS={'n.','v.','adj.','adv.','prep.','conj.','pron.','det.','interj.'}
-MAINLAND="軟件 視頻 質量 信息 網絡 程序 出租車 土豆 鼠標 屏幕 內存 公交車 酸奶 默認 激活 打印 文檔 硬盤 服務器 調試 登錄 短信 地鐵 馬鈴薯泥".split()
+import taiwan_terms
 # 「程序」「質量」等在科學/正式語境可能合理，列為 warn 而非 error
 def variants(w):
     w=w.lower(); out={w}
@@ -48,7 +48,7 @@ def load_list(p):
         m=re.match(r'^\d+[.、)]\s*(.+)$',line); ws.append((m.group(1) if m else line).strip().lower())
     return ws
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('json'); ap.add_argument('list'); ap.add_argument('--band',type=int,default=25); ap.add_argument('--out')
+    ap=argparse.ArgumentParser(); ap.add_argument('json'); ap.add_argument('list'); ap.add_argument('--band',type=int,default=25); ap.add_argument('--out'); ap.add_argument('--json',dest='jsonout',help='把錯誤與警告寫成 JSON（給 error_signature.py 用）')
     a=ap.parse_args()
     exp=load_list(a.list)
     raw=open(a.json,encoding='utf-8').read().strip()
@@ -95,7 +95,7 @@ def main():
         senses=d.get('senses')
         if not isinstance(senses,list) or not 1<=len(senses)<=3: add(i,w,'error','senses 數量不是 1～3'); continue
         enl=[];zhl=[]
-        seen_pos=set()
+        seen_pos=set(); ml={}
         for si,s in enumerate(senses):
             pos=s.get('pos')
             if pos not in POS: add(i,w,'error',f's{si} pos 不合法：{pos}')
@@ -114,9 +114,10 @@ def main():
                 if not 5<=len(en.split())<=25: add(i,w,'warn',f's{si}e{ei} 英文長度 {len(en.split())} 字')
                 if simp(zz) or simp(zh): add(i,w,'error',f's{si}e{ei} 疑似簡體字')
                 if re.search(r'[,;?!]',zz) or re.search(r'[一-鿿]\.',zz): add(i,w,'warn',f's{si}e{ei} 中文使用半形標點')
-                for m in MAINLAND:
-                    if m in zz or m in zh: add(i,w,'warn',f's{si}e{ei} 可能大陸用語：{m}')
+                for t,note in taiwan_terms.hits([zz,zh],d.get('topics')): ml[t]=note
+                if has_english(zz): add(i,w,'warn',f's{si}e{ei} 例句中文夾英文：{zz[:30]}')
             if len(set(ens))<3: add(i,w,'error',f's{si} 例句重複')
+        for t,note in ml.items(): add(i,w,'warn',f'可能大陸用語：{t}'+(f'（{note}）' if note else ''))
         tp=d.get('topics')
         if not isinstance(tp,list) or not 1<=len(tp)<=5: add(i,w,'error','topics 數量不對')
         else:
@@ -152,5 +153,7 @@ def main():
     txt='\n'.join(out)
     if a.out: open(a.out,'w',encoding='utf-8').write(txt)
     print(txt[:3500])
+    if a.jsonout:
+        json.dump({'errors':[{'src':'check_batch','word':w,'msg':m} for i,w,sev,m in sorted(issues) if sev=='error'],'warns':[{'src':'check_batch','word':w,'msg':m} for i,w,sev,m in sorted(issues) if sev=='warn']},open(a.jsonout,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
     sys.exit(1 if any(x[2]=='error' for x in issues) else 0)
 main()

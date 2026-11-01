@@ -8,11 +8,11 @@ import json,re,sys,os,glob,argparse,collections
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import emoji as E
 import wordforms
-MAINLAND="軟件 視頻 質量 信息 網絡 出租車 土豆 鼠標 屏幕 內存 公交車 酸奶 頭盔 默認 激活 文檔 硬盤 服務器 調試 登錄 短信 校服 堵塞 項目 地鐵 打印 激光 優化 數據庫 老師傅".split()
-MAINLAND_OK={'質量':'mass 在物理上台灣也用「質量」，請人工確認'}  # 這些降為 WARN 且附註
+import taiwan_terms
+
 ELL='⋯⋯'
-AN_EXC_AN={'hour','honest','honor','honour','heir','hourly'}
-AN_EXC_A={'university','user','one','european','unit','uniform','useful','usual','union','unique','united','use','used','utensil','once','ubiquitous','euro','eu','unicorn','universe','utility'}
+
+
 FILLER=[r'\bevery single\b',r'\banytime\b',r'\bdaily\b']
 forms=wordforms.forms
 def expand(paths):
@@ -28,7 +28,7 @@ def load(p):
     raw=re.sub(r'^```(?:json)?\s*|\s*```$','',raw)
     d=json.loads(raw); return d if isinstance(d,list) else d.get('words',d)
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('json'); ap.add_argument('--history',nargs='*',default=[]); ap.add_argument('--out'); a=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('json'); ap.add_argument('--history',nargs='*',default=[]); ap.add_argument('--out'); ap.add_argument('--json',dest='jsonout',help='把錯誤與警告寫成 JSON（給 error_signature.py 用）'); a=ap.parse_args()
     data=load(a.json)
     hist=collections.defaultdict(list)
     for h in expand(a.history):
@@ -52,9 +52,8 @@ def main():
         fl=forms(w)
         for si,s in enumerate(d.get('senses',[])):
             zh=s.get('zh','')
-            for m in MAINLAND:
-                if m in zh or any(m in e.get('zh','') for e in s.get('examples',[])):
-                    add('WARN',w,f's{si} 可能非台灣用語：{m}'+('（'+MAINLAND_OK[m]+'）' if m in MAINLAND_OK else ''))
+            for t,note in taiwan_terms.hits([zh]+[e.get('zh','') for e in s.get('examples',[])],d.get('topics')):
+                add('WARN',w,f's{si} 可能非台灣用語：{t}'+(f'（{note}）' if note else ''))
             if ELL in json.dumps(s,ensure_ascii=False): add('WARN',w,f's{si} 使用「⋯⋯」，專案慣例是「…」')
             for ei,e in enumerate(s.get('examples',[])):
                 en=e.get('en',''); toks=re.findall(r"[A-Za-z]+(?:['’-][A-Za-z]+)*",en)
@@ -64,13 +63,8 @@ def main():
                     inside=[t for t in low if w.lower() in t]
                     if inside: add('WARN',w,f's{si}e{ei} 目標字只出現在複合詞內（{inside[0]}），會影響畫面標示：{en[:60]}')
                 for m in re.finditer(r"\b(a|an)\s+([A-Za-z]+)(-?)",en,flags=re.I):
-                    art,nx,hy=m.group(1).lower(),m.group(2).lower(),m.group(3)
-                    if len(nx)==1 and hy=='-': vow=nx in wordforms.AN_LETTERS  # X-ray、e-mail、U-turn：看字母名稱的發音
-                    else:
-                        vow=nx[0] in 'aeiou'
-                        if nx in AN_EXC_AN: vow=True
-                        if nx in AN_EXC_A: vow=False
-                    if (art=='a' and vow) or (art=='an' and not vow): add('WARN',w,f's{si}e{ei} 冠詞可能不對：{art} {nx}')
+                    art,orig,hy=m.group(1),m.group(2),m.group(3)
+                    if not wordforms.article_ok(art,orig.lower(),hy=='-',orig): add('WARN',w,f's{si}e{ei} 冠詞可能不對：{art.lower()} {orig.lower()}')
                 for f in FILLER:
                     if w.lower() in f: continue
                     if re.search(f,en,flags=re.I): add('WARN',w,f's{si}e{ei} 疑似贅字：{re.search(f,en,flags=re.I).group(0)}')
@@ -80,5 +74,7 @@ def main():
     t='\n'.join(txt)
     if a.out: open(a.out,'w',encoding='utf-8').write(t)
     print(t)
+    if a.jsonout:
+        json.dump({'errors':[{'src':'check_extra','word':w,'msg':m} for l,w,m in err],'warns':[{'src':'check_extra','word':w,'msg':m} for l,w,m in wr]},open(a.jsonout,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
     sys.exit(1 if err else 0)
 main()
