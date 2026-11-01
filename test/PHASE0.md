@@ -45,3 +45,10 @@
   - Codex 第一次推送／開 PR 遇 proxy 錯誤，重試後成功；原因未知（推測與剛發佈環境有關，未驗證）→ prompt 要求失敗時重試。
   - 過去 `main` 上有 ChatGPT 相關的直接 commit（`cbe70a7`），repo 目前無分支保護。
   - 未驗證：環境網路縮窄後是否仍可推送；Codex／Claude 排程重複執行穩定性；GitHub 手機 app 觸發；Actions runner 的 Python／emoji（`ubuntu-latest` 已遷移至 Ubuntu 26）。
+- 2026-11-01 事件喚醒實測（Claude）：
+  - ✅ **Actions 用 `GITHUB_TOKEN` 開的 Issue 能叫醒 Claude 排程任務**。Issue #11（`github-actions` 建立，21:32:02 +08:00）→ 任務 21:32 出現新紀錄，標籤為「GitHub」；任務回覆寫明「GitHub webhook 的 `issues.opened`」並引用 #11。延遲約 1 分鐘內（單一樣本）。
+  - 篩選條件要用「**包含**」：Issue 標題是 `[wake-test] …`，用「開頭為 `wake-test`」不符合，#9、#10 因此未觸發（篩選設錯，非 bot 事件被忽略）。
+  - 該任務的 prompt 要求 AI 說明「是哪個事件叫醒你」。手動執行時 AI 回答「排程觸發」，與平台標籤「手動」不符 → AI 對自己如何被啟動的自述不可信，須看平台標籤或事件內容。
+  - 文件載明 GitHub 事件有每任務、每帳號的每小時上限，超過會被丟棄 → 事件喚醒不能是唯一機制，需保留輪詢備案。
+  - ⬜ 未測：Codex 的 `@codex` 留言喚醒。
+
