@@ -21,6 +21,7 @@ import diff_check, error_signature, validate_b, validate_report  # noqa: E402
 
 DEADLINE_HOURS = 3       # 暫定時限（HANDOFF §7，Phase 2 量測後定）
 MAX_ATTEMPT = 3
+MAX_NONCOUNT = 3         # 同一階段連續「不計 attempt」的不合規／過期交付上限，達到就轉人工
 NEXT = {'A': 'B', 'B': 'C'}
 ACTOR = {'A': 'claude', 'B': 'codex', 'C': 'claude'}
 OUT_RE = re.compile(r'^out_([ABC])/N(\d{4})\1_vocab_\2\.json$')
@@ -65,6 +66,15 @@ def read_array(p):
     return d if isinstance(d, list) else d.get('words', d)
 
 
+def safe_file(root, rel):
+    """PR 目錄內的檔案必須是真實檔案：拒絕 symlink（本身或上層目錄），避免讀到 runner 上的其他檔案。回傳 (ok, 原因)。"""
+    p = os.path.join(root, rel)
+    if not os.path.lexists(p): return True, ''
+    if os.path.islink(p) or not os.path.isfile(p): return False, f'{rel} 不是一般檔案（symlink 或特殊檔案）'
+    if os.path.commonpath([os.path.realpath(p), os.path.realpath(root)]) != os.path.realpath(root): return False, f'{rel} 的實際位置在 PR 目錄之外'
+    return True, ''
+
+
 def py(script, *args):
     return subprocess.run([sys.executable, os.path.join(SCRIPTS, script), *args], capture_output=True, text=True, encoding='utf-8')
 
@@ -73,7 +83,7 @@ def start_stage(st, stage, now, new_round=None):
     if new_round is not None:
         st['round'] = new_round
         st['round_stats'] = {'started_at': now, 'attempts': {}, 'human_actions': 0, 'human_in_round': False}
-    st.update({'stage': stage, 'status': 'waiting', 'attempt': 1, 'last_failure_report': None, 'last_error_signature': None,
+    st.update({'stage': stage, 'status': 'waiting', 'attempt': 1, 'noncount_streak': 0, 'last_failure_report': None, 'last_error_signature': None,
                'stage_started_at': now, 'deadline_at': add_hours(now, DEADLINE_HOURS)})
 
 
@@ -133,6 +143,9 @@ def validate_pr(a):
         other = [f for f in files if not (OUT_RE.match(f) or REP_RE.match(f))]
         if other: return done('rejected', f'改到允許路徑以外的檔案：{sorted(other)[:3]}')
         return done('stale', f'檔案屬於其他輪次或階段：{sorted(files - allowed)[:3]}')
+    for rel in (out_rel, rep_rel):
+        ok, why = safe_file(prd, rel)
+        if not ok: return done('rejected', why)
     rep_p = os.path.join(prd, rep_rel)
     if not os.path.exists(rep_p): return _fail(res, a, 'content', [{'src': 'validate_report', 'word': '', 'msg': f'缺回報檔 {rep_rel}'}], rnd, stage)
     text = open(rep_p, encoding='utf-8').read()
@@ -265,14 +278,27 @@ def apply_result(a):
         ev = {'stale': '過期交付', 'rejected': '拒絕', 'noncompliant': '拒絕'}[v]
         job(repo, now, rnd, stage, '總管', ev, f"PR #{pr}：{'; '.join(res['reasons'])[:200]}")
         act.update(close_pr=True, comment=f"總管：{ev}（不計 attempt）。{'; '.join(res['reasons'])}")
+        if st['status'] == 'waiting' and st['stage'] in ACTOR:      # 還在等 AI：重設時限並重新喚醒，避免漏接後卡死
+            st['noncount_streak'] = st.get('noncount_streak', 0) + 1
+            if st['noncount_streak'] >= MAX_NONCOUNT:
+                st['status'] = 'needs_human'; rs['human_in_round'] = True
+                why = f"連續 {st['noncount_streak']} 次不合規或過期交付"
+                job(repo, now, rnd, stage, '總管', f'N{rnd} 需人工處理', why)
+                if st.get('open_issue') is None: act['open_issue'] = issue_for_human(st, why)
+            else:
+                st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS)
+                job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 繼續', f"重新喚醒（不計 attempt，連續 {st['noncount_streak']} 次）")
+                act['wake'] = wake_action(st); act['close_wake_issues'] = True
     elif v == 'content_fail':
-        d = os.path.join(repo, 'attempts', f"N{rnd}-{stage}-try{st['attempt']}")
+        tag = f"human-{now.replace(':', '').replace('+', 'p')}" if res.get('human_fix') else f"try{st['attempt']}"
+        d = os.path.join(repo, 'attempts', f"N{rnd}-{stage}-{tag}")      # 人工修檔失敗不覆寫 AI 那次的紀錄
         os.makedirs(d, exist_ok=True)
         for f in paths(rnd, stage):
-            src = os.path.join(a.pr_dir, f) if a.pr_dir else None
-            if src and os.path.exists(src): shutil.copy(src, os.path.join(d, os.path.basename(f)))
+            if not a.pr_dir or not safe_file(a.pr_dir, f)[0]: continue
+            src = os.path.join(a.pr_dir, f)
+            if os.path.isfile(src): shutil.copyfile(src, os.path.join(d, os.path.basename(f)))
         open(os.path.join(d, 'check_report.md'), 'w', encoding='utf-8').write(res['check_md'])
-        rel = f"attempts/N{rnd}-{stage}-try{st['attempt']}/check_report.md"
+        rel = f"attempts/N{rnd}-{stage}-{tag}/check_report.md"
         job(repo, now, rnd, stage, '總管', '驗證失敗', f"PR #{pr}：{len(res['errors'])} 個必修項目，簽章 {res['signature']}")
         job(repo, now, rnd, stage, '總管', f'N{rnd}-{stage} 錯誤', '')
         act.update(close_pr=True, comment=f"總管：驗證失敗，必修 {len(res['errors'])} 項，詳見 {rel}。")
@@ -301,7 +327,7 @@ def apply_result(a):
         if human_fix:
             rs['human_in_round'] = True; rs['human_actions'] = rs.get('human_actions', 0) + 1
             job(repo, now, rnd, stage, '人工', '人工修檔', f"PR #{pr}｜diff {'跳過' if res.get('diff_skipped') else '執行'}")
-            if st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None
+        if st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None   # 任何通過都表示問題已解
         job(repo, now, rnd, stage, '總管', '驗證通過', f"PR #{pr}：{len(res['warns'])} 個 WARN")
         job(repo, now, rnd, stage, '總管', f'N{rnd}-{stage} 正確', '')
         act['close_wake_issues'] = True
@@ -340,13 +366,14 @@ def human_action(a):
         if st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None
     if act_name == 'continue':
         if st['status'] == 'done': sys.exit('已全部完成')
-        if st['status'] == 'waiting': job(repo, now, rnd, stage, '人工', '人工動作', f'continue（本來就是 waiting，無變更）{note}')
-        else:
-            st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS)
-            if st.get('consecutive_human_rounds', 0) >= 2: st['consecutive_human_rounds'] = 0
-            human_mark(); job(repo, now, rnd, stage, '人工', '人工動作', f'continue {note}'.strip())
-            job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 繼續', '')
-            act['wake'] = wake_action(st)
+        was = st['status']
+        st['status'] = 'waiting'; st['stage_started_at'] = now; st['deadline_at'] = add_hours(now, DEADLINE_HOURS); st['noncount_streak'] = 0
+        if st.get('consecutive_human_rounds', 0) >= 2: st['consecutive_human_rounds'] = 0
+        if was != 'waiting': human_mark()
+        elif st.get('open_issue') is not None: act['close_issue'] = st['open_issue']; st['open_issue'] = None   # 停滯後 continue：關掉停滯 Issue
+        job(repo, now, rnd, stage, '人工', '人工動作', f"continue（原狀態 {was}）{note}".strip())
+        job(repo, now, rnd, stage, '總管', f'下一步 N{rnd}-{stage} 繼續', '重設時限並重新喚醒')
+        act['wake'] = wake_action(st)
     elif act_name == 'redo':
         target = a.stage
         if target not in ('A', 'B', 'C'): sys.exit('redo 需要 --stage A／B／C')

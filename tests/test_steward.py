@@ -167,5 +167,64 @@ class FullRound(unittest.TestCase):
         self.assertIsNone(json.load(open(os.path.join(e.tmp.name, 'act.json'), encoding='utf-8'))['open_issue'])   # 已有 open_issue 不重複開
 
 
+class Recovery(unittest.TestCase):
+    """審查第 1～3 項：復原路徑、symlink、人工修檔失敗不覆寫。"""
+    def setUp(self): self.e = Env()
+    def tearDown(self): self.e.close()
+
+    def test_stall_then_continue_recovers(self):
+        e = self.e; e.set_state(dict(e.state(), deadline_at='2026-11-01T09:00:00+08:00', open_issue=9))
+        act = e.human('continue'); st = e.state()
+        self.assertEqual(st['status'], 'waiting'); self.assertGreater(st['deadline_at'], NOW); self.assertIsNone(st['open_issue'])
+        self.assertEqual(act.get('close_issue'), 9); self.assertIn('[wake-claude] N0001 A', act['wake']['issue']['title'])
+
+    def test_any_pass_clears_open_issue(self):
+        e = self.e; e.set_state(dict(e.state(), open_issue=5))
+        r = e.deliver('A', '0001', jl('Final_0409.json')); self.assertEqual(r['verdict'], 'pass'); e.merge('A', '0001'); act = e.apply()
+        self.assertIsNone(e.state()['open_issue']); self.assertEqual(act.get('close_issue'), 5)
+
+    def test_noncounted_rewake_and_limit(self):
+        e = self.e; A1 = jl('Final_0409.json')
+        e.deliver('A', '0001', A1, agent='codex'); act = e.apply(); st = e.state()
+        self.assertEqual((st['status'], st['attempt'], st['noncount_streak']), ('waiting', 1, 1))
+        self.assertIsNotNone(act['wake']['issue']); self.assertTrue(act['close_wake_issues']); self.assertGreater(st['deadline_at'], NOW)
+        e.deliver('A', '0001', A1, agent='codex'); e.apply()
+        e.deliver('A', '0001', A1, agent='codex'); act = e.apply(); st = e.state()
+        self.assertEqual(st['status'], 'needs_human'); self.assertIn('連續 3 次', act['open_issue']['title']); self.assertEqual(st['attempt'], 1)
+
+    def test_streak_reset_by_valid_delivery(self):
+        e = self.e; A1 = jl('Final_0409.json')
+        e.deliver('A', '0001', A1, agent='codex'); e.apply(); self.assertEqual(e.state()['noncount_streak'], 1)
+        e.deliver('A', '0001', A1); e.merge('A', '0001'); e.apply(); self.assertEqual(e.state()['noncount_streak'], 0)
+
+    def test_stale_while_needs_human_does_not_rewake(self):
+        e = self.e; e.set_state(dict(e.state(), status='needs_human'))
+        e.deliver('A', '0001', jl('Final_0409.json'), agent='claude'); act = e.apply()
+        self.assertIsNone(act['wake']); self.assertEqual(e.state()['status'], 'needs_human')
+
+    def test_symlink_rejected(self):
+        e = self.e; A1 = jl('Final_0409.json'); e.deliver('A', '0001', A1)
+        secret = os.path.join(e.tmp.name, 'secret.txt'); open(secret, 'w').write('TOKEN=abc')
+        out = os.path.join(e.pr, 'out_A/N0001A_vocab_0001.json'); os.remove(out); os.symlink(secret, out)
+        e.steward('validate-pr', '--pr-json', os.path.join(e.tmp.name, 'pr.json'), '--pr-dir', e.pr, '--out', os.path.join(e.tmp.name, 'res.json'))
+        r = json.load(open(os.path.join(e.tmp.name, 'res.json'), encoding='utf-8')); self.assertEqual(r['verdict'], 'rejected'); self.assertIn('symlink', r['reasons'][0])
+        e.apply(); self.assertFalse(os.path.exists(os.path.join(e.repo, 'attempts', 'N0001-A-try1')))
+        self.assertNotIn('TOKEN', ''.join(open(os.path.join(dp, f), errors='ignore').read() for dp, _, fs in os.walk(e.repo) for f in fs))
+
+    def test_symlink_dir_rejected(self):
+        e = self.e; e.deliver('A', '0001', jl('Final_0409.json'))
+        real = os.path.join(e.tmp.name, 'elsewhere'); shutil.move(os.path.join(e.pr, 'reports'), real); os.symlink(real, os.path.join(e.pr, 'reports'))
+        e.steward('validate-pr', '--pr-json', os.path.join(e.tmp.name, 'pr.json'), '--pr-dir', e.pr, '--out', os.path.join(e.tmp.name, 'res.json'))
+        self.assertEqual(json.load(open(os.path.join(e.tmp.name, 'res.json'), encoding='utf-8'))['verdict'], 'rejected')
+
+    def test_human_failures_do_not_overwrite(self):
+        e = self.e; e.set_state(dict(e.state(), round='0002', status='needs_human')); bad = jl('A_0410.json')
+        e.deliver('A', '0002', bad, agent='human'); e.apply()
+        e.deliver('A', '0002', bad, agent='human')
+        e.steward('apply-result', '--result', os.path.join(e.tmp.name, 'res.json'), '--pr-dir', e.pr, '--actions', os.path.join(e.tmp.name, 'act.json'))
+        names = sorted(os.listdir(os.path.join(e.repo, 'attempts'))); self.assertTrue(names and all('try' not in n for n in names), names)
+        self.assertEqual(e.state()['status'], 'needs_human'); self.assertEqual(e.state()['attempt'], 1)
+
+
 if __name__ == '__main__':
     unittest.main()
