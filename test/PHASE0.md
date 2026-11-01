@@ -3,9 +3,9 @@
 狀態標記：✅ 已實測　⬜ 未做　👤 需要使用者操作
 
 ## A. 前置：GitHub 設定（👤，HANDOFF §11.5）
-- ⬜ Settings → Actions → General → Workflow permissions 選 **Read and write permissions**（否則 ping 無法 push）
-- ⬜ 建立標籤 `needs-human`、`skip-diff`
-- ⬜ 把本分支的 `.github/workflows/ping.yml`、`pr_probe.yml` 合併進 `main`（`workflow_dispatch`、`repository_dispatch` 只認預設分支上的 workflow）
+- ✅ Settings → Actions → General → Workflow permissions 為 **Read and write permissions**（ping 已能 push 到 `main`）
+- ✅ 已建立標籤 `needs-human`、`skip-diff`（使用者自述，我未用工具核對）
+- ✅ `ping.yml`、`pr_probe.yml` 已合併進 `main`（PR #3、#4；`workflow_dispatch`、`repository_dispatch` 只認預設分支上的 workflow）
 
 ## B. 環境清單（§11.4）
 | 項目 | 結果 |
@@ -14,7 +14,7 @@
 | 本對話容器：Python 3.13.18、git 2.43.0；`pip install emoji` 經 proxy 成功（emoji 2.16.0） | ✅ |
 | **Claude routine 的環境**（與本對話容器可能不同） | ⬜ 👤 建好 routine 後，讓它跑一次 `python3 --version; pip install emoji; git push` 並回報 |
 | Codex 雲端：clone、開 PR、setup script、網路、Python／emoji | ⬜ 👤 |
-| GitHub Actions runner | ⬜ 跑 ping 後確認（`ubuntu-latest` 內建 Python 3、`gh`） |
+| GitHub Actions runner | 部分：ping 與 pr-probe 在 `ubuntu-latest` 跑成功；Python 版本、`pip install emoji` 尚未在 runner 上測（Phase 1 要測）。Actions 註記：`ubuntu-latest` 標籤自 2026-10-19 起遷移到 Ubuntu 26，需確認 Python／emoji 相容 |
 | 手機 GitHub app：看 Issue 推播、觸發 `workflow_dispatch`、對 PR 加標籤 | ⬜ 👤 |
 
 ## C. §12 五項未驗證事項
@@ -33,4 +33,8 @@
 4. 若鏈只跑到第 1 行：總管步驟間要改用 PAT 或排程，要回頭改 HANDOFF §12。
 
 ## E. 結論欄（做完再填）
-- 
+- 2026-11-01 實測（以 `main` 上 `test/ping.md` 與 Actions 紀錄為證）：
+  - `workflow_dispatch`：手機網頁版與電腦網頁皆可手動觸發。
+  - **`repository_dispatch` 串接成立**：手動 run（15:32:35）→ ping（15:32:43）→ ping-chain-1（15:32:52）→ ping-chain-2（15:33:02），後三筆 actor 皆為 `github-actions[bot]`，由前一個 run 用 `GITHUB_TOKEN` 送出。HANDOFF §12「不用 PAT」的說法成立；單一 `concurrency` 群組下連續 dispatch 沒有被丟掉。
+  - **PR 作者身分不能當白名單**：Claude Code 對話 session 開的 PR #3、#4，`user.login=Brad88-Lee`、`user.type=User`。但 `head.repo` 等於 base repo、`fork=false`，可改用「同 repo 分支」把關（§9.1 待改）。routine、Codex 開的 PR 尚未測。
+  - 尚未驗證：routine 喚醒方式、模型指定、routine／Codex 的環境與 PR 身分、GitHub app 手機版觸發。
