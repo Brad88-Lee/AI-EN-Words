@@ -8,6 +8,10 @@ on:
         description: 備註
         required: false
         default: ''
+      chain:
+        description: 送出 repository_dispatch（ping）串接測試：預期再多 2 行 ping-chain-1、ping-chain-2
+        type: boolean
+        default: false
   repository_dispatch:
     types: [ping, ping-chain-1, ping-chain-2]
 permissions:
@@ -36,6 +40,11 @@ jobs:
           git commit -m "ping: $EVENT $ACTION"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Start the chain from a manual run (GITHUB_TOKEN sends repository_dispatch)
+        if: github.event_name == 'workflow_dispatch' && inputs.chain
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api "repos/${GITHUB_REPOSITORY}/dispatches" -f event_type=ping
       - name: Chain to the next ping (tests repository_dispatch with GITHUB_TOKEN)
         if: github.event.action == 'ping' || github.event.action == 'ping-chain-1'
         env:
