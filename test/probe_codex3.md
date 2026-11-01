@@ -31,3 +31,12 @@ Post "https://api.github.com/graphql": proxyconnect tcp: dial tcp 172.31.0.157:8
 python3 --version：Python 3.12.14
 
 模型名稱：Codex（GPT-6；依本對話提供的模型識別）
+
+### 第二次 PR 建立錯誤
+
+Exit code: 1
+
+```text
+a pull request for branch "codex/probe-3" into branch "main" already exists:
+https://github.com/Brad88-Lee/AI-EN-Words/pull/7
+```
