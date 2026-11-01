@@ -1,0 +1,141 @@
+# 總管（HANDOFF §3）：驗證 AI 的 PR、合併、推進 state.json、重派；以及人工動作。
+# 所有判斷都在 scripts/steward.py；這個 workflow 只負責 checkout、呼叫腳本、git 與 gh。
+# 安全：使用 pull_request_target，workflow 與腳本一律來自 main；PR 的檔案只當資料讀取（checkout 到 pr/），不執行其中任何程式。
+name: steward
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review, labeled]
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 人工動作（continue＝同階段重派／解除暫停；redo＝重作；skip＝跳過本輪；imported＝標記已匯入）
+        type: choice
+        options: [continue, redo, skip, imported]
+        required: true
+      stage:
+        description: redo 用：從哪個階段重來（A／B／C）
+        required: false
+        default: ''
+      round:
+        description: redo 用：四位數輪次（預設目前輪；也可填 skipped_rounds 內的輪）
+        required: false
+        default: ''
+      batch:
+        description: imported 用：批號，例如 05
+        required: false
+        default: ''
+      note:
+        description: 備註
+        required: false
+        default: ''
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency:
+  group: steward
+  cancel-in-progress: false
+env:
+  TZ: Asia/Taipei
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  reject-fork:
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PRs from forks (never checked out)
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "總管：這個流程只接受本 repo 分支的 PR，已關閉。" || true
+          gh pr close "$PR" --repo "$GITHUB_REPOSITORY" || true
+
+  pr:
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Keep the PR checkout out of git
+        run: echo "pr/" >> .git/info/exclude
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install emoji
+      - name: Validate, merge, apply
+        id: run
+        env:
+          PR: ${{ github.event.pull_request.number }}
+          SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          export NOW="$(date +%Y-%m-%dT%H:%M:%S%:z)"; echo "NOW=$NOW" >> "$GITHUB_ENV"
+          STATE="$(gh pr view "$PR" --json state -q .state)"
+          if [ "$STATE" != "OPEN" ]; then echo "PR 已 $STATE，略過"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          T="$RUNNER_TEMP"
+          gh pr view "$PR" --json number,headRepository,headRepositoryOwner,labels,files \
+            | jq --arg base "$GITHUB_REPOSITORY" '{number, head_repo: (.headRepositoryOwner.login + "/" + .headRepository.name), base_repo: $base, labels: [.labels[].name], files: [.files[].path]}' > "$T/pr.json"
+          python3 scripts/steward.py validate-pr --repo . --now "$NOW" --pr-json "$T/pr.json" --pr-dir pr --out "$T/result.json"
+          VERDICT="$(jq -r .verdict "$T/result.json")"
+          if [ "$VERDICT" = "pass" ]; then
+            gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"
+            git fetch -q origin main && git reset -q --hard origin/main
+          fi
+          python3 scripts/steward.py apply-result --repo . --now "$NOW" --result "$T/result.json" --pr-dir pr --actions "$T/actions.json"
+          echo "verdict=$VERDICT" >> "$GITHUB_OUTPUT"
+      - name: Commit state and post actions
+        if: steps.run.outputs.skip != '1'
+        env:
+          PR: ${{ github.event.pull_request.number }}
+          VERDICT: ${{ steps.run.outputs.verdict }}
+        run: bash scripts/steward_finish.sh "$RUNNER_TEMP/actions.json" "PR #$PR $VERDICT" "$PR"
+      - name: Report steward failure
+        if: failure()
+        run: |
+          gh issue create --title "[總管失敗] workflow run ${{ github.run_id }}" \
+            --body "總管執行失敗：$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}。可能是已合併但 state 沒推進；檢查 state.json 與 jobs.md 後以人工動作處理。" --label needs-human || true
+
+  human:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply human action
+        env:
+          IN_ACTION: ${{ inputs.action }}
+          IN_STAGE: ${{ inputs.stage }}
+          IN_ROUND: ${{ inputs.round }}
+          IN_BATCH: ${{ inputs.batch }}
+          IN_NOTE: ${{ inputs.note }}
+        run: |
+          set -euo pipefail
+          export NOW="$(date +%Y-%m-%dT%H:%M:%S%:z)"; echo "NOW=$NOW" >> "$GITHUB_ENV"
+          ARGS=(--repo . --now "$NOW" --action "$IN_ACTION" --actions "$RUNNER_TEMP/actions.json")
+          [ -n "$IN_STAGE" ] && ARGS+=(--stage "$IN_STAGE")
+          [ -n "$IN_ROUND" ] && ARGS+=(--round "$IN_ROUND")
+          [ -n "$IN_BATCH" ] && ARGS+=(--batch "$IN_BATCH")
+          [ -n "$IN_NOTE" ] && ARGS+=(--note "$IN_NOTE")
+          python3 scripts/steward.py human-action "${ARGS[@]}"
+      - name: Commit state and post actions
+        env:
+          IN_ACTION: ${{ inputs.action }}
+        run: bash scripts/steward_finish.sh "$RUNNER_TEMP/actions.json" "human action $IN_ACTION"
+      - name: Report failure
+        if: failure()
+        run: |
+          gh issue create --title "[總管失敗] 人工動作 ${{ inputs.action }}" \
+            --body "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}" --label needs-human || true
