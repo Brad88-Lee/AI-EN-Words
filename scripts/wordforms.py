@@ -49,3 +49,36 @@ def contains_exact(text, w):
 
 # 字母名稱以母音音開頭 → 用 an（X-ray、M-shaped、S-curve、F-word）；其餘用 a（U-turn、T-shirt、B-side）
 AN_LETTERS = set('aefhilmnorsx')
+
+
+# ---- 冠詞 a／an 的發音判斷 ----
+AN_EXC_AN = {'hour', 'hourly', 'honest', 'honestly', 'honor', 'honour', 'honorable', 'heir', 'heiress', 'herb'}
+AN_EXC_A = {'one', 'once', 'ubiquitous', 'ufo', 'unanimous', 'unanimously', 'unicorn', 'unique', 'uniquely',
+            'use', 'used', 'useful', 'useless', 'user', 'users', 'usual', 'usually', 'utensil', 'utensils',
+            'utility', 'utilities', 'utopia', 'euro', 'euros', 'eucalyptus', 'european', 'eu', 'ewe', 'eulogy'}
+
+
+def starts_with_vowel_sound(word):
+    """英文單字（非縮寫）開頭是否為母音發音，供 a／an 判斷。"""
+    w = word.lower()
+    if w in AN_EXC_AN:
+        return True
+    if w in AN_EXC_A:
+        return False
+    if re.match(r'^uni(?!n|m)', w):   # uni-（唸 /juː/）：union、unit、universe、uniform；unin-/unim-（唸 /ʌn/）除外
+        return False
+    if re.match(r'^(use|usu|uti)', w):
+        return False
+    return w[:1] in 'aeiou'
+
+
+def article_ok(art, nxt, hyphen_after=False, original=None):
+    """回傳 True/False：art（a／an）搭配 nxt 是否正確。original 是原文大小寫，用來辨識縮寫（MBA、FBI）。"""
+    art = art.lower()
+    if len(nxt) == 1 and hyphen_after:                 # X-ray、e-mail、U-turn：看字母名稱
+        vow = nxt.lower() in AN_LETTERS
+    elif original and len(original) >= 2 and original.isupper():   # 全大寫縮寫：看第一個字母的名稱
+        vow = original[0].lower() in AN_LETTERS
+    else:
+        vow = starts_with_vowel_sound(nxt)
+    return (art == 'an') == vow

@@ -1,0 +1,1676 @@
+[
+{
+"word": "feature",
+"senses": [
+{
+"pos": "n.",
+"zh": "特色；特徵；功能",
+"examples": [
+{
+"en": "The main feature of this new phone is its battery life.",
+"zh": "這支新手機的主要特色是它的電池續航力。"
+},
+{
+"en": "Her facial features closely resemble those of her older sister.",
+"zh": "她的面貌特徵與她的姊姊非常相似。"
+},
+{
+"en": "This application includes a useful search feature for fast navigation.",
+"zh": "這個應用程式包含一個有用的搜尋功能以利快速瀏覽。"
+}
+]
+},
+{
+"pos": "v.",
+"zh": "以…為特色；由…主演",
+"examples": [
+{
+"en": "The museum concert will feature several world-famous musicians tonight.",
+"zh": "博物館今晚的音樂會將以幾位世界著名的音樂家為特色。"
+},
+{
+"en": "The new action movie features a popular young actor.",
+"zh": "這部新的動作電影由一位受歡迎的年輕演員主演。"
+},
+{
+"en": "The menu features local organic vegetables and fresh seafood.",
+"zh": "菜單以當地的有機蔬菜和新鮮海鮮為特色。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"科技與網路"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "shame",
+"senses": [
+{
+"pos": "n.",
+"zh": "羞恥；遺憾",
+"examples": [
+{
+"en": "It is a great shame that you missed the party.",
+"zh": "你錯過了派對真是太遺憾了。"
+},
+{
+"en": "He felt a deep sense of shame after lying to his parents.",
+"zh": "他在對父母撒謊後感到深深的羞恥。"
+},
+{
+"en": "What a shame that the weather ruined our outdoor picnic.",
+"zh": "天氣毀了我們的戶外野餐，真是太可惜了。"
+}
+]
+}
+],
+"topics": [
+"情緒與性格"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "goal",
+"senses": [
+{
+"pos": "n.",
+"zh": "目標；球門；進球",
+"examples": [
+{
+"en": "My primary goal is to pass the English exam this semester.",
+"zh": "我這學期的主要目標是通過英文考試。"
+},
+{
+"en": "The soccer player kicked the ball directly into the goal.",
+"zh": "這名足球員把球直接踢進了球門。"
+},
+{
+"en": "She scored the winning goal in the last minute of play.",
+"zh": "她在比賽最後一分鐘踢進了致勝球。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"運動與休閒"
+],
+"emoji": "🎯",
+"image_query": "soccer goal net"
+},
+{
+"word": "require",
+"senses": [
+{
+"pos": "v.",
+"zh": "需要；要求",
+"examples": [
+{
+"en": "Plants require sufficient sunlight and water to grow well.",
+"zh": "植物需要充足的陽光和水才能生長得好。"
+},
+{
+"en": "The international school requires students to wear uniforms every day.",
+"zh": "這所國際學校要求學生每天穿制服。"
+},
+{
+"en": "This job requires good communication skills and team experience.",
+"zh": "這份工作需要良好的溝通技巧和團隊經驗。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"工作與商業"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "dragon",
+"senses": [
+{
+"pos": "n.",
+"zh": "龍",
+"examples": [
+{
+"en": "The fantasy novel tells a story about a friendly green dragon.",
+"zh": "這本奇幻小說講述了一個關於一隻友善綠龍的故事。"
+},
+{
+"en": "People row colorful boats during the Dragon Boat Festival in Taiwan.",
+"zh": "人們在台灣端午節期間划著繽紛的龍舟。"
+},
+{
+"en": "An ancient giant dragon guarded the hidden treasure inside the cave.",
+"zh": "一隻古老的巨龍守護著山洞裡藏著的寶藏。"
+}
+]
+}
+],
+"topics": [
+"歷史與地理",
+"藝術與文化"
+],
+"emoji": "🐉",
+"image_query": "mythical dragon"
+},
+{
+"word": "printer",
+"senses": [
+{
+"pos": "n.",
+"zh": "印表機",
+"examples": [
+{
+"en": "Our office printer is running out of paper and ink.",
+"zh": "我們辦公室的印表機紙張和墨水快用完了。"
+},
+{
+"en": "Please connect your laptop to the wireless printer to print documents.",
+"zh": "請將您的筆記型電腦連接至無線印表機以列印文件。"
+},
+{
+"en": "The technician fixed the broken printer in less than ten minutes.",
+"zh": "技術人員在不到十分鐘內修好了故障的印表機。"
+}
+]
+}
+],
+"topics": [
+"科技與網路",
+"工作與商業"
+],
+"emoji": "🖨️",
+"image_query": "office printer machine"
+},
+{
+"word": "surface",
+"senses": [
+{
+"pos": "n.",
+"zh": "表面；平面",
+"examples": [
+{
+"en": "The surface of the quiet lake was as smooth as glass.",
+"zh": "平靜的湖面像玻璃一樣光滑。"
+},
+{
+"en": "Please wipe the dusty table surface clean with a wet cloth.",
+"zh": "請用濕布把滿是灰塵的桌子表面擦乾淨。"
+},
+{
+"en": "Rough surfaces increase friction when objects move across them.",
+"zh": "粗糙的表面會在物體移動時增加摩擦力。"
+}
+]
+},
+{
+"pos": "v.",
+"zh": "浮出水面；顯露",
+"examples": [
+{
+"en": "The submarine slowly surfaced after completing its underwater training.",
+"zh": "這艘潛水艇在完成水下訓練後慢慢浮出水面。"
+},
+{
+"en": "New evidence surfaced during the second investigation of the case.",
+"zh": "在該案的第二次調查中顯露出了新的證據。"
+},
+{
+"en": "The swimmer surfaced to take a deep breath of air.",
+"zh": "游泳者浮出水面吸了一大口空氣。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"科學"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "victory",
+"senses": [
+{
+"pos": "n.",
+"zh": "勝利；成功",
+"examples": [
+{
+"en": "The team celebrated their basketball championship victory with enthusiasm.",
+"zh": "球隊熱情地慶祝他們的籃球錦標賽勝利。"
+},
+{
+"en": "Hard work and practice brought them a glorious victory yesterday.",
+"zh": "努力與練習在昨天為他們帶來了輝煌的勝利。"
+},
+{
+"en": "The candidate announced her election victory to her supporters tonight.",
+"zh": "候選人今晚向她的支持者宣布了選舉勝利。"
+}
+]
+}
+],
+"topics": [
+"運動與休閒",
+"社會與法律"
+],
+"emoji": null,
+"image_query": "sports team victory"
+},
+{
+"word": "particular",
+"senses": [
+{
+"pos": "adj.",
+"zh": "特定的；挑剔的",
+"examples": [
+{
+"en": "Is there any particular song you would like to hear?",
+"zh": "有哪首特定的歌曲你想聽嗎？"
+},
+{
+"en": "She is very particular about the cleanliness of her bedroom.",
+"zh": "她對自己臥室的整潔非常挑剔。"
+},
+{
+"en": "We paid attention to this particular detail during our research.",
+"zh": "我們在研究過程中注意到了這個特定的細節。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "aircraft",
+"senses": [
+{
+"pos": "n.",
+"zh": "航空器；飛機",
+"examples": [
+{
+"en": "The new passenger aircraft landed safely at the busy airport.",
+"zh": "這架新客機安全降落在繁忙的機場。"
+},
+{
+"en": "Military aircraft flew over the city during the national celebration.",
+"zh": "軍用飛機在國家慶典期間飛越城市上空。"
+},
+{
+"en": "Engineers are designing a light aircraft powered by solar energy.",
+"zh": "工程師正設計一架由太陽能驅動的輕型航空器。"
+}
+]
+}
+],
+"topics": [
+"交通與旅行",
+"科技與網路"
+],
+"emoji": "✈️",
+"image_query": "passenger aircraft flying"
+},
+{
+"word": "valuable",
+"senses": [
+{
+"pos": "adj.",
+"zh": "寶貴的；有價值的；貴重的",
+"examples": [
+{
+"en": "Thank you for sharing your valuable experience with our class.",
+"zh": "感謝您與我們班分享您寶貴的經驗。"
+},
+{
+"en": "She keeps all her valuable jewelry in a safe.",
+"zh": "她把所有貴重的首飾保存在保險箱裡。"
+},
+{
+"en": "This old painting is extremely valuable to art collectors worldwide.",
+"zh": "這幅古老的畫作對全世界的藝術收藏家來說極具價值。"
+}
+]
+}
+],
+"topics": [
+"金融與會計",
+"日常生活"
+],
+"emoji": "💎",
+"image_query": null
+},
+{
+"word": "judgment",
+"senses": [
+{
+"pos": "n.",
+"zh": "判斷；判決",
+"examples": [
+{
+"en": "You need to use good judgment when making important decisions.",
+"zh": "在做出重大決定時，你需要運用良好的判斷。"
+},
+{
+"en": "The judge delivered his final judgment in the courtroom.",
+"zh": "法官在法庭上宣布了最終判決。"
+},
+{
+"en": "In my judgment, this plan needs more careful consideration.",
+"zh": "依我的判斷，這個計劃需要更審慎的考量。"
+}
+]
+}
+],
+"topics": [
+"社會與法律",
+"家庭與人際"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "industry",
+"senses": [
+{
+"pos": "n.",
+"zh": "工業；產業",
+"examples": [
+{
+"en": "The semiconductor industry plays a critical role in Taiwan's economy.",
+"zh": "半導體產業在台灣經濟中扮演著關鍵角色。"
+},
+{
+"en": "Tourism is a major industry in this scenic coastal town.",
+"zh": "觀光業是這個風景優美的海岸小鎮的主要產業。"
+},
+{
+"en": "The movie industry attracts millions of young people every year.",
+"zh": "電影產業每年吸引數以百萬計的年輕人。"
+}
+]
+}
+],
+"topics": [
+"工作與商業",
+"金融與會計"
+],
+"emoji": "🏭",
+"image_query": "factory industry buildings"
+},
+{
+"word": "truth",
+"senses": [
+{
+"pos": "n.",
+"zh": "真相；事實",
+"examples": [
+{
+"en": "It is always best to tell the truth to your parents.",
+"zh": "對父母說實話總是最好的選擇。"
+},
+{
+"en": "The reporter worked hard to discover the truth behind the scandal.",
+"zh": "記者努力工作以發掘醜聞背後的真相。"
+},
+{
+"en": "There is a grain of truth in what he said.",
+"zh": "他說的話裡有一絲事實。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "beyond",
+"senses": [
+{
+"pos": "prep.",
+"zh": "超出；超越；在…較遠的一邊",
+"examples": [
+{
+"en": "The beauty of the mountain view was beyond all description.",
+"zh": "山景之美超乎所有言語的形容。"
+},
+{
+"en": "Our house is located just beyond the forest.",
+"zh": "我們的房子就位在森林的另一邊。"
+},
+{
+"en": "The cost of repairs was far beyond our original budget.",
+"zh": "維修費用遠遠超出了我們原先的預算。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "chess",
+"senses": [
+{
+"pos": "n.",
+"zh": "西洋棋",
+"examples": [
+{
+"en": "My grandfather taught me how to play chess when I was young.",
+"zh": "我祖父在我年輕時教我下西洋棋。"
+},
+{
+"en": "They sat in the park and played a quiet game of chess.",
+"zh": "他們坐在公園裡下了一局平靜的西洋棋。"
+},
+{
+"en": "She is the president of our high school chess club.",
+"zh": "她是我們高中西洋棋社的社長。"
+}
+]
+}
+],
+"topics": [
+"運動與休閒",
+"學校與學習"
+],
+"emoji": "♟️",
+"image_query": "wooden chess pieces"
+},
+{
+"word": "basic",
+"senses": [
+{
+"pos": "adj.",
+"zh": "基礎的；基本的",
+"examples": [
+{
+"en": "Students learn basic math skills in elementary school.",
+"zh": "學生在國小學習基礎的數學技能。"
+},
+{
+"en": "Clean drinking water is a basic need for all human beings.",
+"zh": "乾淨的飲用水是所有人類的基本需求。"
+},
+{
+"en": "This introductory course covers the basic concepts of computer programming.",
+"zh": "這門入門課程涵蓋了電腦程式設計的基礎概念。"
+}
+]
+}
+],
+"topics": [
+"學校與學習"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "detail",
+"senses": [
+{
+"pos": "n.",
+"zh": "細節；詳情",
+"examples": [
+{
+"en": "Please pay attention to every small detail of the contract.",
+"zh": "請注意合約中的每一個小細節。"
+},
+{
+"en": "The travel agent explained the details of the tour package.",
+"zh": "旅行社專員解釋了套裝行程的詳情。"
+},
+{
+"en": "His report covers all important details of the project development.",
+"zh": "他的報告涵蓋了專案開發的所有重要細節。"
+}
+]
+},
+{
+"pos": "v.",
+"zh": "詳細說明",
+"examples": [
+{
+"en": "The user guide details how to set up the software.",
+"zh": "這份使用指南詳細說明了如何設定軟體。"
+},
+{
+"en": "She detailed her experiences during her trip across Europe last summer.",
+"zh": "她詳細說明了去年夏天橫跨歐洲旅行時的經歷。"
+},
+{
+"en": "The manager detailed the new work procedures to all staff.",
+"zh": "經理向全體員工詳細說明了新的工作流程。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"工作與商業"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "dull",
+"senses": [
+{
+"pos": "adj.",
+"zh": "枯燥乏味的；鈍的；暗淡的",
+"examples": [
+{
+"en": "The lecture was so dull that many students fell asleep.",
+"zh": "這場講座太枯燥乏味了，許多學生都睡著了。"
+},
+{
+"en": "This knife is too dull to cut the fresh meat properly.",
+"zh": "這把刀太鈍了，沒辦法好好切新鮮肉品。"
+},
+{
+"en": "The sky looked gray and dull on that cold rainy afternoon.",
+"zh": "在那個寒冷下雨的下午，天空看起來陰暗又沉悶。"
+}
+]
+}
+],
+"topics": [
+"情緒與性格",
+"日常生活"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "manager",
+"senses": [
+{
+"pos": "n.",
+"zh": "經理；主管",
+"examples": [
+{
+"en": "The general manager approved our proposal for the new marketing campaign.",
+"zh": "總經理核准了我們新行銷活動的企劃案。"
+},
+{
+"en": "She works hard as a store manager at a large supermarket.",
+"zh": "她在一間大型超市擔任門市經理，工作非常努力。"
+},
+{
+"en": "Our project manager assigned tasks to team members this morning.",
+"zh": "我們的專案主管今天早上指派了任務給團隊成員。"
+}
+]
+}
+],
+"topics": [
+"工作與商業"
+],
+"emoji": null,
+"image_query": "office manager desk"
+},
+{
+"word": "pan",
+"senses": [
+{
+"pos": "n.",
+"zh": "平底鍋；烤盤",
+"examples": [
+{
+"en": "She melted some fresh butter in a hot frying pan.",
+"zh": "她在熱平底鍋裡融化了一些新鮮奶油。"
+},
+{
+"en": "He washed the dirty pan after cooking eggs for breakfast.",
+"zh": "他在煮完早餐雞蛋後洗乾淨了髒鍋子。"
+},
+{
+"en": "Pour the cake batter into a round baking pan.",
+"zh": "將蛋糕麵糊倒入圓形烤盤中。"
+}
+]
+}
+],
+"topics": [
+"飲食",
+"日常生活"
+],
+"emoji": "🍳",
+"image_query": "frying pan stove"
+},
+{
+"word": "instrument",
+"senses": [
+{
+"pos": "n.",
+"zh": "樂器；儀器",
+"examples": [
+{
+"en": "The piano is her favorite musical instrument to play at home.",
+"zh": "鋼琴是她在家中最喜歡彈奏的樂器。"
+},
+{
+"en": "Surgeons must sterilize all medical instruments before performing surgery.",
+"zh": "外科醫師在進行手術前必須消毒所有醫療儀器。"
+},
+{
+"en": "Scientists used a delicate measurement instrument to collect atmospheric data.",
+"zh": "科學家使用精密測量儀器收集大氣數據。"
+}
+]
+}
+],
+"topics": [
+"藝術與文化",
+"科學"
+],
+"emoji": null,
+"image_query": "musical instrument violin"
+},
+{
+"word": "environment",
+"senses": [
+{
+"pos": "n.",
+"zh": "環境；自然環境",
+"examples": [
+{
+"en": "We should reduce plastic waste to protect our natural environment.",
+"zh": "我們應該減少塑膠垃圾以保護我們的自然環境。"
+},
+{
+"en": "The new elementary school creates a comfortable learning environment for children.",
+"zh": "這所新小學為孩子們營造了一個舒適的學習環境。"
+},
+{
+"en": "Air pollution poses a serious threat to the urban environment.",
+"zh": "空氣污染對都市環境構成了嚴重威脅。"
+}
+]
+}
+],
+"topics": [
+"天氣與環境",
+"植物與自然"
+],
+"emoji": null,
+"image_query": "green nature forest"
+},
+{
+"word": "tofu",
+"senses": [
+{
+"pos": "n.",
+"zh": "豆腐",
+"examples": [
+{
+"en": "Stinky tofu is a famous traditional night market snack in Taiwan.",
+"zh": "臭豆腐是台灣知名的傳統夜市小吃。"
+},
+{
+"en": "She added fresh tofu and green onions to the miso soup.",
+"zh": "她在味噌湯裡加入了鮮豆腐和蔥花。"
+},
+{
+"en": "Tofu is a rich source of plant protein for vegetarians.",
+"zh": "豆腐是素食者優質的植物蛋白質來源。"
+}
+]
+}
+],
+"topics": [
+"飲食"
+],
+"emoji": null,
+"image_query": "white tofu cubes"
+},
+{
+"word": "supper",
+"senses": [
+{
+"pos": "n.",
+"zh": "晚餐；宵夜",
+"examples": [
+{
+"en": "The whole family sat together and enjoyed a light supper.",
+"zh": "全家人坐在一起享用簡單的晚餐。"
+},
+{
+"en": "What would you like to eat for supper this evening?",
+"zh": "你今晚晚餐想吃什麼？"
+},
+{
+"en": "She cooked hot noodle soup for a late-night supper after work.",
+"zh": "她在下班後煮了熱麵湯當宵夜。"
+}
+]
+}
+],
+"topics": [
+"飲食",
+"日常生活"
+],
+"emoji": "🍲",
+"image_query": "family meal table"
+},
+{
+"word": "nod",
+"senses": [
+{
+"pos": "v.",
+"zh": "點頭；打瞌睡",
+"examples": [
+{
+"en": "She nodded her head in agreement with my proposal.",
+"zh": "她點頭表示同意我的提議。"
+},
+{
+"en": "The tired student began to nod off during the long speech.",
+"zh": "這名疲憊的學生在長篇演講中開始打瞌睡。"
+},
+{
+"en": "He nodded politely to greet his new neighbor this morning.",
+"zh": "他今天早上禮貌地向新鄰居點頭致意。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "點頭；同意",
+"examples": [
+{
+"en": "With a quick nod of his head, he left the office.",
+"zh": "他快速地點了點頭後便離開了辦公室。"
+},
+{
+"en": "The manager gave us a nod of approval for the project.",
+"zh": "經理對我們的專案表示點頭認可。"
+},
+{
+"en": "A silent nod was enough to convey her complete understanding.",
+"zh": "默默的點頭就足以傳達她完全理解了。"
+}
+]
+}
+],
+"topics": [
+"家庭與人際",
+"日常生活"
+],
+"emoji": null,
+"image_query": "person nodding head"
+},
+{
+"word": "field",
+"senses": [
+{
+"pos": "n.",
+"zh": "田野；運動場；領域",
+"examples": [
+{
+"en": "Green rice fields stretched across the wide country landscape.",
+"zh": "綠油油的稻田延伸穿過廣闊的鄉村景色。"
+},
+{
+"en": "Students gathered on the sports field for morning exercise.",
+"zh": "學生們聚集在操場上做晨操。"
+},
+{
+"en": "Dr. Wang is a leading expert in the field of artificial intelligence.",
+"zh": "王博士是人工智慧領域的頂尖專家。"
+}
+]
+}
+],
+"topics": [
+"植物與自然",
+"運動與休閒",
+"學校與學習"
+],
+"emoji": "🌾",
+"image_query": "green grass field"
+},
+{
+"word": "success",
+"senses": [
+{
+"pos": "n.",
+"zh": "成功；成就",
+"examples": [
+{
+"en": "Hard work and perseverance are key elements for achieving success.",
+"zh": "努力與堅持是取得成功的關鍵要素。"
+},
+{
+"en": "The school charity concert was a huge success last weekend.",
+"zh": "這場學校慈善音樂會上週末獲得了巨大的成功。"
+},
+{
+"en": "Her new business venture proved to be a remarkable success.",
+"zh": "她的新創事業被證明是一次卓越的成功。"
+}
+]
+}
+],
+"topics": [
+"工作與商業",
+"學校與學習"
+],
+"emoji": "🏆",
+"image_query": null
+},
+{
+"word": "stone",
+"senses": [
+{
+"pos": "n.",
+"zh": "石頭；石塊；果核",
+"examples": [
+{
+"en": "Children threw small stones into the calm river water.",
+"zh": "孩子們把小石頭扔進平靜的河水裡。"
+},
+{
+"en": "The ancient castle was built with heavy gray stone blocks.",
+"zh": "這座古老的城堡是用沉重的灰色石塊建造的。"
+},
+{
+"en": "Remove the hard stone before eating the juicy peach.",
+"zh": "吃多汁的蜜桃前請先把硬果核去除。"
+}
+]
+}
+],
+"topics": [
+"植物與自然",
+"日常生活"
+],
+"emoji": null,
+"image_query": "natural stone rock"
+},
+{
+"word": "personality",
+"senses": [
+{
+"pos": "n.",
+"zh": "性格；個性；名人",
+"examples": [
+{
+"en": "She has an outgoing personality and makes friends very easily.",
+"zh": "她性格外向，非常容易交朋友。"
+},
+{
+"en": "Each of the twins has a completely different personality.",
+"zh": "這對雙胞胎中的每一個都有著截然不同的個性。"
+},
+{
+"en": "Several famous television personalities attended the red carpet event.",
+"zh": "幾位著名的電視名人出席了這場紅毯盛會。"
+}
+]
+}
+],
+"topics": [
+"情緒與性格",
+"家庭與人際"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "pop",
+"senses": [
+{
+"pos": "v.",
+"zh": "發出砰聲；快速出現",
+"examples": [
+{
+"en": "The red balloon popped with a loud sound at the party.",
+"zh": "紅氣球在派對上發出砰的一聲破裂了。"
+},
+{
+"en": "An interesting idea suddenly popped into my head yesterday.",
+"zh": "昨天我腦海中突然浮現出一個有趣的點子。"
+},
+{
+"en": "I need to pop into the grocery store for fresh milk.",
+"zh": "我需要快速順道去雜貨店買新鮮牛奶。"
+}
+]
+},
+{
+"pos": "adj.",
+"zh": "流行音樂的；通俗的",
+"examples": [
+{
+"en": "She loves listening to Taiwanese pop music during her free time.",
+"zh": "她空閒時間喜歡聽台灣流行音樂。"
+},
+{
+"en": "Pop culture influences young people's fashion and speech trends.",
+"zh": "流行文化影響著年輕人的時尚與用語潮流。"
+},
+{
+"en": "He bought tickets for the pop star's world concert tour.",
+"zh": "他買了這位流行巨星世界巡迴音樂會的門票。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "流行音樂；砰聲；汽水",
+"examples": [
+{
+"en": "Classical music and pop are two very different musical genres.",
+"zh": "古典音樂和流行音樂是兩種非常不同的音樂流派。"
+},
+{
+"en": "We heard a loud pop coming from the kitchen microwave.",
+"zh": "我們聽到廚房微波爐發出一聲巨響。"
+},
+{
+"en": "He opened a cold can of pop on a hot summer afternoon.",
+"zh": "他在炎熱的夏日午後打開了一罐冰涼的汽水。"
+}
+]
+}
+],
+"topics": [
+"藝術與文化",
+"日常生活"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "salty",
+"senses": [
+{
+"pos": "adj.",
+"zh": "鹹的；含鹽的",
+"examples": [
+{
+"en": "This vegetable soup is a bit too salty for my taste.",
+"zh": "這碗蔬菜湯對我的口味來說有點太鹹了。"
+},
+{
+"en": "Ocean water tastes salty because it contains various dissolved minerals.",
+"zh": "海水喝起來鹹鹹的，因為它含有各種溶解的礦物質。"
+},
+{
+"en": "I love eating salty potato chips while watching action movies.",
+"zh": "我喜歡邊看動作電影邊吃鹹味洋芋片。"
+}
+]
+}
+],
+"topics": [
+"飲食"
+],
+"emoji": "🧂",
+"image_query": null
+},
+{
+"word": "paste",
+"senses": [
+{
+"pos": "n.",
+"zh": "醬；膏；黏貼劑",
+"examples": [
+{
+"en": "Spread garlic paste evenly on a slice of French bread.",
+"zh": "把蒜蓉醬均勻塗抹在法國麵包片上。"
+},
+{
+"en": "Rub a small amount of cleaning paste onto the stain.",
+"zh": "把少量清潔膏塗抹在污漬上。"
+},
+{
+"en": "The children used paste to complete their art project.",
+"zh": "孩子們用漿糊完成他們的美勞作品。"
+}
+]
+},
+{
+"pos": "v.",
+"zh": "貼上；黏貼",
+"examples": [
+{
+"en": "Copy the text from a website and paste it into a document.",
+"zh": "從網站複製文字並將其貼上到文件中。"
+},
+{
+"en": "She pasted several old family photos onto the memory board.",
+"zh": "她把幾張家族舊照片黏貼在回憶板上。"
+},
+{
+"en": "Please paste the mailing label neatly on the package front.",
+"zh": "請將郵寄標籤整齊地貼在包裹正面。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"科技與網路"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "task",
+"senses": [
+{
+"pos": "n.",
+"zh": "任務；工作",
+"examples": [
+{
+"en": "Cleaning the whole garage was a challenging physical task for us.",
+"zh": "打掃整個車庫對我們來說是一項具挑戰性的體力工作。"
+},
+{
+"en": "Our primary task today is to complete the weekly financial report.",
+"zh": "我們今天的首要任務是完成每週財務報告。"
+},
+{
+"en": "The manager assigned a new design task to the creative team.",
+"zh": "經理把一項新的設計任務指派給創意團隊。"
+}
+]
+}
+],
+"topics": [
+"工作與商業",
+"學校與學習"
+],
+"emoji": null,
+"image_query": "checklist task list"
+},
+{
+"word": "division",
+"senses": [
+{
+"pos": "n.",
+"zh": "部門；除法；分歧",
+"examples": [
+{
+"en": "She works as a senior manager in the sales division.",
+"zh": "她在業務部門擔任資深經理。"
+},
+{
+"en": "Students practiced long division problems in math class.",
+"zh": "學生們在數學課上練習長除法題目。"
+},
+{
+"en": "There is a deep division of opinions regarding the proposal.",
+"zh": "對於這項提案存在著深刻的意見分歧。"
+}
+]
+}
+],
+"topics": [
+"工作與商業",
+"學校與學習"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "novel",
+"senses": [
+{
+"pos": "n.",
+"zh": "小說",
+"examples": [
+{
+"en": "She spent the rainy weekend reading a thick detective novel.",
+"zh": "她花了這個下雨的週末閱讀一本厚厚的偵探小說。"
+},
+{
+"en": "The famous author spent two years writing her new novel.",
+"zh": "這位著名的作者花了兩年時間寫她的新小說。"
+},
+{
+"en": "This popular historical novel was adapted into an award-winning movie.",
+"zh": "這部熱門歷史小說被改編成了一部獲獎電影。"
+}
+]
+},
+{
+"pos": "adj.",
+"zh": "新穎的；新奇的",
+"examples": [
+{
+"en": "The scientist proposed a novel approach to solving the energy problem.",
+"zh": "這位科學家提出了一種解決能源問題的新穎方法。"
+},
+{
+"en": "Using solar panels to charge smartphones is a novel idea.",
+"zh": "使用太陽能板給智慧型手機充電是一個新穎的想法。"
+},
+{
+"en": "The company introduced a novel marketing strategy to boost sales.",
+"zh": "該公司推出了一項新穎的行銷策略來提昇銷售額。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"藝術與文化"
+],
+"emoji": null,
+"image_query": "reading novel book"
+},
+{
+"word": "advice",
+"senses": [
+{
+"pos": "n.",
+"zh": "建議；忠告",
+"examples": [
+{
+"en": "My grandfather gave me some wise advice about life yesterday.",
+"zh": "我祖父昨天給了我一些關於人生的明智建議。"
+},
+{
+"en": "It is always good to seek professional medical advice first.",
+"zh": "先尋求專業醫療建議總是好的。"
+},
+{
+"en": "She followed her teacher's useful advice and passed the test.",
+"zh": "她聽從了老師有用的建議並通過了測驗。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"家庭與人際"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "pain",
+"senses": [
+{
+"pos": "n.",
+"zh": "疼痛；痛苦",
+"examples": [
+{
+"en": "He took some medicine to relieve the sharp pain in his head.",
+"zh": "他吃了藥來緩解頭部的劇烈疼痛。"
+},
+{
+"en": "She felt a sudden pain in her back while lifting a box.",
+"zh": "她在搬箱子時，背部突然感到一陣疼痛。"
+},
+{
+"en": "Time can gradually heal emotional pain caused by personal loss.",
+"zh": "時間可以逐漸治癒個人損失帶來的心理痛苦。"
+}
+]
+}
+],
+"topics": [
+"健康與身體",
+"情緒與性格"
+],
+"emoji": "😣",
+"image_query": null
+},
+{
+"word": "forth",
+"senses": [
+{
+"pos": "adv.",
+"zh": "向前；向外；來回",
+"examples": [
+{
+"en": "The small pendulum swung back and forth inside the wall clock.",
+"zh": "小擺錘在壁鐘裡來回擺動。"
+},
+{
+"en": "Green leaves and colorful flowers burst forth during the spring season.",
+"zh": "綠葉和繽紛的花朵在春季盛開綻放。"
+},
+{
+"en": "They set forth on a long journey across the quiet ocean.",
+"zh": "他們啟程展開橫跨平靜海洋的長途旅程。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "belief",
+"senses": [
+{
+"pos": "n.",
+"zh": "信念；信仰",
+"examples": [
+{
+"en": "Her strong belief in honesty guided her decisions throughout life.",
+"zh": "她對誠實的堅定信念指引著她一生的決定。"
+},
+{
+"en": "Freedom of religious belief is protected by law in Taiwan.",
+"zh": "宗教信仰自由在台灣受到法律保護。"
+},
+{
+"en": "It is my firm belief that education can change the world.",
+"zh": "我堅定相信教育可以改變世界。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "edition",
+"senses": [
+{
+"pos": "n.",
+"zh": "版本；版次",
+"examples": [
+{
+"en": "The publisher released a revised edition of the English textbook.",
+"zh": "出版商推出了這本英文教科書的修訂版。"
+},
+{
+"en": "I bought a limited edition of my favorite novel.",
+"zh": "我買了我最喜歡的小說的限量版。"
+},
+{
+"en": "The morning edition of the local newspaper arrived on time.",
+"zh": "地方報紙的早報如期送達。"
+}
+]
+}
+],
+"topics": [
+"學校與學習",
+"日常生活"
+],
+"emoji": null,
+"image_query": "printed book edition"
+},
+{
+"word": "climate",
+"senses": [
+{
+"pos": "n.",
+"zh": "氣候；景氣",
+"examples": [
+{
+"en": "Taiwan has a humid subtropical climate with warm wet summers.",
+"zh": "台灣擁有潮濕的副熱帶氣候，夏季溫暖潮濕。"
+},
+{
+"en": "Global climate change affects agricultural production and marine ecosystems.",
+"zh": "全球氣候變遷影響著農業生產與海洋生態系統。"
+},
+{
+"en": "The economic climate has improved significantly over the past year.",
+"zh": "經濟景氣在過去一年有了顯著改善。"
+}
+]
+}
+],
+"topics": [
+"天氣與環境",
+"植物與自然"
+],
+"emoji": null,
+"image_query": "climate weather world"
+},
+{
+"word": "negative",
+"senses": [
+{
+"pos": "adj.",
+"zh": "負面的；消極的；陰性的；負數的",
+"examples": [
+{
+"en": "A negative attitude towards learning will hinder student academic progress.",
+"zh": "消極的學習態度會妨礙學生的學業進步。"
+},
+{
+"en": "Her medical test result came back negative for the flu virus.",
+"zh": "她的醫療檢測結果顯示流感病毒呈陰性。"
+},
+{
+"en": "Minus five is an example of a negative number in math.",
+"zh": "負五是數學中負數的一個範例。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "負面因素；底片",
+"examples": [
+{
+"en": "We must consider both the positives and negatives of this plan.",
+"zh": "我們必須同時考量這個計劃的正面與負面因素。"
+},
+{
+"en": "The photographer stored the old camera negatives in a cool drawer.",
+"zh": "攝影師將舊相機底片存放在涼爽的抽屜裡。"
+},
+{
+"en": "Despite a few negatives, the hotel is still a good choice for families.",
+"zh": "儘管有一些缺點，這家飯店仍是適合家庭的好選擇。"
+}
+]
+}
+],
+"topics": [
+"情緒與性格",
+"健康與身體"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "vote",
+"senses": [
+{
+"pos": "v.",
+"zh": "投票；表決",
+"examples": [
+{
+"en": "Citizens will vote for their preferred candidate in the upcoming election.",
+"zh": "公民將在即將到來的選舉中投給他們心儀的候選人。"
+},
+{
+"en": "The committee voted to approve the new building budget yesterday.",
+"zh": "委員會昨天投票通過了新建築預算案。"
+},
+{
+"en": "We voted on where to go for our class graduation trip.",
+"zh": "我們就班級畢業旅行要去哪裡進行了表決。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "選票；投票",
+"examples": [
+{
+"en": "Each club member has one vote in the annual election.",
+"zh": "每位社團成員在年度選舉中都有一票。"
+},
+{
+"en": "The motion passed by a unanimous vote during the meeting.",
+"zh": "該動議在會議期間獲得全體一致通過。"
+},
+{
+"en": "The final vote count showed a clear victory for the leader.",
+"zh": "最終得票數顯示這位領導者明顯獲勝。"
+}
+]
+}
+],
+"topics": [
+"社會與法律",
+"學校與學習"
+],
+"emoji": "🗳️",
+"image_query": "voting ballot box"
+},
+{
+"word": "lend",
+"senses": [
+{
+"pos": "v.",
+"zh": "借出；借給",
+"examples": [
+{
+"en": "Could you lend me your dictionary for a few minutes?",
+"zh": "你能借我你的字典幾分鐘嗎？"
+},
+{
+"en": "The bank agreed to lend money to young people starting new businesses.",
+"zh": "銀行同意貸款給創業的年輕人。"
+},
+{
+"en": "She kindly lent her warm coat to her shivering friend.",
+"zh": "她好心地把保暖的外套借給發抖的朋友。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"金融與會計"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "favorite",
+"senses": [
+{
+"pos": "adj.",
+"zh": "最喜愛的",
+"examples": [
+{
+"en": "Chocolate ice cream is my favorite dessert on hot summer days.",
+"zh": "巧克力冰淇淋是我在炎熱夏天最喜愛的甜點。"
+},
+{
+"en": "What is your favorite subject to study in high school?",
+"zh": "你在高中最喜愛的學習科目是什麼？"
+},
+{
+"en": "This scenic park is her favorite place for a morning jog.",
+"zh": "這座風景優美的公園是她最喜愛的晨跑地點。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "最喜愛的人事物；有望獲勝者",
+"examples": [
+{
+"en": "Among all these books, this novel is my personal favorite.",
+"zh": "在所有這些書中，這本小說是我個人的最愛。"
+},
+{
+"en": "The experienced runner is the clear favorite to win the race.",
+"zh": "這位經驗豐富的跑者顯然是贏得比賽的大熱門。"
+},
+{
+"en": "Add this useful website to your browser favorites for quick access.",
+"zh": "將這個實用的網站加入瀏覽器最愛以便快速造訪。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"情緒與性格"
+],
+"emoji": "⭐",
+"image_query": null
+},
+{
+"word": "lift",
+"senses": [
+{
+"pos": "v.",
+"zh": "舉起；抬起；解除",
+"examples": [
+{
+"en": "He can lift heavy boxes easily because he exercises regularly.",
+"zh": "他能輕鬆舉起沉重的箱子，因為他定期運動。"
+},
+{
+"en": "Please lift your feet so I can sweep the floor.",
+"zh": "請抬起你的腳，我才能掃地。"
+},
+{
+"en": "The government decided to lift the temporary travel warning.",
+"zh": "政府決定解除臨時旅遊警示。"
+}
+]
+},
+{
+"pos": "n.",
+"zh": "電梯；搭便車；提振",
+"examples": [
+{
+"en": "We took the lift directly to the twentieth floor of the building.",
+"zh": "我們搭電梯直接到大樓的二十樓。"
+},
+{
+"en": "My classmate offered me a lift home after school.",
+"zh": "我同學提議放學後載我一程回家。"
+},
+{
+"en": "The good news gave the whole team a big lift.",
+"zh": "這個好消息讓全隊士氣大振。"
+}
+]
+}
+],
+"topics": [
+"日常生活",
+"交通與旅行"
+],
+"emoji": null,
+"image_query": "elevator lift doors"
+},
+{
+"word": "latter",
+"senses": [
+{
+"pos": "adj.",
+"zh": "後者的；後半期的",
+"examples": [
+{
+"en": "The latter half of the movie was much more exciting.",
+"zh": "這部電影的後半段精彩多了。"
+},
+{
+"en": "In the latter part of his career, he wrote books.",
+"zh": "在他的生涯後半期，他撰寫書籍。"
+},
+{
+"en": "She preferred the latter option presented during the team discussion.",
+"zh": "她偏好團隊討論時提出的後者選項。"
+}
+]
+},
+{
+"pos": "pron.",
+"zh": "後者",
+"examples": [
+{
+"en": "If I must choose between tea and coffee, I usually prefer the latter.",
+"zh": "如果要在茶和咖啡之間選擇，我通常偏好後者。"
+},
+{
+"en": "Between apples and oranges, he chose the latter as a snack.",
+"zh": "在蘋果和橘子之間，他選擇了後者當點心。"
+},
+{
+"en": "Both plans sound good, but the latter is more affordable.",
+"zh": "兩個計劃聽起來都不錯，但後者比較划算。"
+}
+]
+}
+],
+"topics": [
+"抽象概念與其他"
+],
+"emoji": null,
+"image_query": null
+},
+{
+"word": "shy",
+"senses": [
+{
+"pos": "adj.",
+"zh": "害羞的；膽小的",
+"examples": [
+{
+"en": "The shy little girl hid behind her mother when strangers arrived.",
+"zh": "當陌生人來到時，這個害羞的小女孩躲在媽媽背後。"
+},
+{
+"en": "He feels too shy to speak in front of large audiences.",
+"zh": "他覺得太害羞，不敢在大批觀眾面前演講。"
+},
+{
+"en": "She gave a shy smile and answered the question quietly.",
+"zh": "她害羞地笑了笑，並安靜地回答了問題。"
+}
+]
+}
+],
+"topics": [
+"情緒與性格",
+"家庭與人際"
+],
+"emoji": "😳",
+"image_query": null
+},
+{
+"word": "region",
+"senses": [
+{
+"pos": "n.",
+"zh": "地區；區域；地方",
+"examples": [
+{
+"en": "This mountain region is famous for producing high-quality tea.",
+"zh": "這個山區以生產高品質茶葉而聞名。"
+},
+{
+"en": "Heavy rain caused severe flooding in the southern coastal region.",
+"zh": "大雨在南部沿海地區造成了嚴重淹水。"
+},
+{
+"en": "Rare wild animals inhabit the remote forest region of the island.",
+"zh": "罕見的野生動物棲息在這座島嶼的偏遠森林區域。"
+}
+]
+}
+],
+"topics": [
+"歷史與地理",
+"天氣與環境"
+],
+"emoji": null,
+"image_query": "geographical region map"
+}
+]
