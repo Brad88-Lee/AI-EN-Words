@@ -60,7 +60,7 @@
 ## 9. 決定紀錄（2026-11-01，使用者）
 | 項目 | 決定 | 備註 |
 |---|---|---|
-| §9.1 作者白名單 | **同意**改為「同 repo 分支」把關，加 `AGENT:` 簽名欄位 | 簽名只是過濾，不是驗證；不加時間（時間由 Actions 蓋章，回報檔已有 `REPORTED_AT`）。建議改加 `ATTEMPT:`（AI 抄寫 `state.json` 的 `attempt`），讓總管能擋掉舊嘗試的過期交付 — 待使用者確認 |
+| §9.1 作者白名單 | **同意**改為「同 repo 分支」把關，加 `AGENT:` 簽名欄位 | 簽名只是過濾，不是驗證；不加時間（時間由 Actions 蓋章，回報檔已有 `REPORTED_AT`）。**已決定加 `ATTEMPT:`**（AI 抄寫 `state.json` 的 `attempt`），總管比對，不符記為過期交付、不計 attempt |
 | B 的交付 | **同意**；加「失敗重試」（最多 3 次，回報檔記錄）、「PR 已存在視為成功」、允許 `codex/` 前綴 | |
 | 模型與思考程度 | **同意**：§2 表格改為「期望值」，實際由平台預設決定 | |
 | prompt_B | **同意**：第一步 `cd /workspace/AI-EN-Words`，確認 origin，不符就停止 | |
@@ -69,6 +69,6 @@
 | Allow Actions to create PRs | 只在採用「Actions 自動開 PR」備案時才勾 | |
 | 分支保護 | Phase 1 再評估 | |
 | Phase 1 | **等使用者說開始**（`CLAUDE.md`、`AGENTS.md`、`state.json`、`jobs.md`、`vocab/` 切檔等） | |
-| §12 事件喚醒測試 | **待使用者確認**測試設計後再做 | 見對話 |
+| §12 事件喚醒測試 | **同意測試**；Claude 用 GitHub event（Issue opened），Codex 用 `@codex` 留言；workflow 為 `.github/workflows/wake_test.yml` | 結果待測，寫入 `test/PHASE0.md` |
 
 以上決定尚未寫回 HANDOFF 與 prompt 檔（它們不在本 repo）；套用在 Phase 1 一併處理。
