@@ -3,16 +3,23 @@
  "round": "0001",
  "total_rounds": 118,
  "stage": "A",
- "status": "paused",
+ "status": "waiting",
  "attempt": 1,
  "last_failure_report": null,
  "last_error_signature": null,
- "stage_started_at": null,
- "deadline_at": null,
+ "stage_started_at": "2026-11-02T00:51:33+08:00",
+ "deadline_at": "2026-11-02T03:51:33+08:00",
  "last_ok_round": null,
  "skipped_rounds": [],
  "consecutive_human_rounds": 0,
  "output_sha256": {},
  "open_issue": null,
- "updated_at": "2026-11-01T23:19:00+08:00"
+ "updated_at": "2026-11-02T00:51:33+08:00",
+ "round_stats": {
+  "started_at": "2026-11-02T00:51:33+08:00",
+  "attempts": {},
+  "human_actions": 0,
+  "human_in_round": false
+ },
+ "noncount_streak": 0
 }
