@@ -23,8 +23,8 @@
 | 1 | Actions 以 API trigger 喚醒 Claude routine | 👤 建 routine 並取得 API trigger；token 才需要放 Actions secret（Public repo，不要貼在對話或檔案） | ⬜ |
 | 2 | 喚醒 Codex；Codex 能否排程；排程時如何指定思考檔位 | 👤 在 Codex 雲端試 | ⬜ |
 | 3 | routine 能否分別指定模型 | 👤 建 routine 時看有無模型選擇器；回報檔 `MODEL:` 只是自述，不可當證據 | ⬜ |
-| 4 | 手機 GitHub app 能否觸發 `workflow_dispatch` | 👤 Actions → ping → Run workflow | ⬜ |
-| 5 | 兩個 AI 的 App 開 PR 時的作者身分 | 讓 Claude、Codex 各開一個 PR，看 `pr-probe` 的 job summary（login／type） | ⬜ |
+| 4 | 手機 GitHub app 能否觸發 `workflow_dispatch` | 👤 Actions → ping → Run workflow | ✅ 手機**網頁版**可觸發（2026-11-01 14:51 +08:00）；GitHub app 本身未測 |
+| 5 | 兩個 AI 的 App 開 PR 時的作者身分 | 讓 Claude、Codex 各開一個 PR，看 `pr-probe` 的 job summary（login／type） | 部分：Claude Code 對話 session 用 GitHub 工具開的 PR #3，作者是 `Brad88-Lee`／`User`（不是 bot）。**routine、Codex 未測**；作者名不能當白名單 |
 
 ## D. repository_dispatch 串接
 1. 👤 Actions → ping → Run workflow（備註填「manual」）→ `test/ping.md` 應多一行 `event=workflow_dispatch`。

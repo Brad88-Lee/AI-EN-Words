@@ -15,6 +15,9 @@ jobs:
           TYPE: ${{ github.event.pull_request.user.type }}
           ACTOR: ${{ github.actor }}
           HEAD: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+          IS_FORK: ${{ github.event.pull_request.head.repo.fork }}
         run: |
           {
             echo "### PR author probe"
@@ -22,4 +25,6 @@ jobs:
             echo "- user.type: \`$TYPE\`"
             echo "- github.actor: \`$ACTOR\`"
             echo "- head branch: \`$HEAD\`"
+            echo "- head repo: \`$HEAD_REPO\`（base repo: \`$BASE_REPO\`，fork: \`$IS_FORK\`）"
+            if [ "$HEAD_REPO" = "$BASE_REPO" ]; then echo "- same-repo branch: yes"; else echo "- same-repo branch: NO"; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
