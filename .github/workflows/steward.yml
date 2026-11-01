@@ -85,6 +85,7 @@ jobs:
             | jq --arg base "$GITHUB_REPOSITORY" '{number, head_repo: (.headRepositoryOwner.login + "/" + .headRepository.name), base_repo: $base, labels: [.labels[].name], files: [.files[].path]}' > "$T/pr.json"
           python3 scripts/steward.py validate-pr --repo . --now "$NOW" --pr-json "$T/pr.json" --pr-dir pr --out "$T/result.json"
           VERDICT="$(jq -r .verdict "$T/result.json")"
+          if [ "$VERDICT" = "ignored" ]; then echo "不是 AI 交付的 PR（沒有改任何 out_X／回報檔），總管不處理"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ "$VERDICT" = "pass" ]; then
             if ! gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"; then
               CUR="$(gh pr view "$PR" --json headRefOid,state -q '.headRefOid + " " + .state')"
@@ -100,7 +101,8 @@ jobs:
         env:
           PR: ${{ github.event.pull_request.number }}
           VERDICT: ${{ steps.run.outputs.verdict }}
-        run: bash scripts/steward_finish.sh "$RUNNER_TEMP/actions.json" "PR #$PR $VERDICT" "$PR"
+        run: |
+          bash scripts/steward_finish.sh "$RUNNER_TEMP/actions.json" "PR #$PR $VERDICT" "$PR"
       - name: Report steward failure
         if: failure()
         run: |

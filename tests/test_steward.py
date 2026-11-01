@@ -313,5 +313,33 @@ class StricterChecks(unittest.TestCase):
         self.assertTrue(any('batch' in e['msg'] for e in validate_b.validate_b(A, B)[0]))      # 舊版 "04-09" 不合 N####
 
 
+class WorkflowAndIgnore(unittest.TestCase):
+    def test_dev_pr_ignored(self):
+        e = Env()
+        try:
+            wj(os.path.join(e.tmp.name, 'pr.json'), {'number': 3, 'head_repo': 'o/r', 'base_repo': 'o/r', 'labels': [], 'files': ['scripts/steward.py', 'docs/STEWARD.md']})
+            e.steward('validate-pr', '--pr-json', os.path.join(e.tmp.name, 'pr.json'), '--pr-dir', e.pr, '--out', os.path.join(e.tmp.name, 'res.json'))
+            self.assertEqual(json.load(open(os.path.join(e.tmp.name, 'res.json'), encoding='utf-8'))['verdict'], 'ignored')
+            before = e.state(); act = e.apply(); self.assertEqual(act, {}); self.assertEqual(e.state(), before)       # 不動 state、不關 PR
+            wj(os.path.join(e.tmp.name, 'pr.json'), {'number': 3, 'head_repo': 'o/r', 'base_repo': 'o/r', 'labels': [], 'files': ['scripts/steward.py', 'out_A/N0001A_vocab_0001.json']})
+            e.steward('validate-pr', '--pr-json', os.path.join(e.tmp.name, 'pr.json'), '--pr-dir', e.pr, '--out', os.path.join(e.tmp.name, 'res.json'))
+            self.assertEqual(json.load(open(os.path.join(e.tmp.name, 'res.json'), encoding='utf-8'))['verdict'], 'rejected')   # 夾帶其他檔案仍然拒絕
+        finally: e.close()
+
+    def test_workflow_run_blocks_are_valid_bash(self):
+        """單行 `run:` 裡若出現「 #」，YAML 會當註解砍掉後半行（曾造成總管失敗）。逐一用 bash -n 檢查所有 run 區塊。"""
+        try: import yaml
+        except ImportError: self.skipTest('需要 PyYAML')
+        import glob, re as _re
+        for f in glob.glob(os.path.join(ROOT, '.github', 'workflows', '*.yml')):
+            d = yaml.safe_load(open(f, encoding='utf-8'))
+            for jn, job in d['jobs'].items():
+                for st in job.get('steps', []):
+                    if 'run' not in st: continue
+                    code = _re.sub(r'\$\{\{.*?\}\}', 'X', st['run'])
+                    r = subprocess.run(['bash', '-n'], input=code, capture_output=True, text=True)
+                    self.assertEqual(r.returncode, 0, f'{os.path.basename(f)} {jn}: {st.get("name", st["run"][:40])}: {r.stderr}')
+
+
 if __name__ == '__main__':
     unittest.main()

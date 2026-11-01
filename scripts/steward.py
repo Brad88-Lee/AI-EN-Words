@@ -9,7 +9,7 @@
   stall-check   逾時偵測（不計 attempt）。
   record-issue  把開好的 Issue 編號寫回 state.open_issue。
 
-verdict：pass／content_fail（計 attempt）／stale（過期交付）／noncompliant（AGENT 不合法）／rejected（改到允許路徑外或 fork），
+verdict：ignored（沒有任何 out_X／回報檔的 PR，例如開發或文件 PR，總管完全不處理）／pass／content_fail（計 attempt）／stale（過期交付）／noncompliant（AGENT 不合法）／rejected（改到允許路徑外或 fork），
 後三者不計 attempt。所有時間由 --now 傳入（ISO 8601，+08:00），腳本不讀系統時鐘。
 """
 import argparse, csv, glob, hashlib, json, os, re, shutil, subprocess, sys, tempfile
@@ -137,6 +137,8 @@ def validate_pr(a):
         if reason: res['reasons'].append(reason)
         jsave(a.out, res); print(f'verdict={v}', *res['reasons'][:3]); return 0
     if pr.get('head_repo') != pr.get('base_repo'): return done('rejected', 'PR 的分支不在本 repo（fork）')
+    if not any(OUT_RE.match(f) or REP_RE.match(f) for f in pr.get('files', [])):
+        return done('ignored', '沒有任何 out_X／回報檔，不是 AI 交付的 PR（開發或文件 PR 由人工審核）')
     if stage not in ('A', 'B', 'C') or status not in ('waiting', 'needs_human', 'paused'): return done('stale', f'目前 stage={stage} status={status}，不接受交付')
     human = status in ('needs_human', 'paused')
     out_rel, rep_rel = paths(rnd, stage)
@@ -283,6 +285,7 @@ def release_emoji(repo, C):
 def apply_result(a):
     repo, now = a.repo, a.now
     res = jload(a.result); st = load_state(repo); v = res['verdict']
+    if v == 'ignored': jsave(a.actions, {}); print('ignored，無動作'); return 0
     rnd, stage = res['round'], res['stage']
     if (st['round'], st['stage']) != (rnd, stage): sys.exit('state 與 result 不一致，拒絕套用（可能已有其他處理先完成）')
     act = {'close_pr': False, 'comment': '', 'wake': None, 'open_issue': None, 'close_wake_issues': False}
