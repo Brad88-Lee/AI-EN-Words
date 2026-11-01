@@ -1,7 +1,7 @@
 # scripts/
 
 全部用 Python 3 執行。需要 `emoji` 套件：`python3 -m pip install emoji`（一律用 `python3 -m pip`）。其餘只用標準函式庫。
-測試：`python3 -m unittest discover -s tests -v`（29 項，含 `tests/fixtures/real/` 的真實批次資料）。
+測試：`python3 -m unittest discover -s tests -v`（39 項，含 `tests/fixtures/real/` 的真實批次資料）。
 
 | 腳本 | 用途 | 誰用 |
 |---|---|---|
@@ -13,6 +13,7 @@
 | `error_signature.py *.json [--prev 簽章]` | 把各檢查的 `--json` 錯誤正規化成簽章，偵測「同樣的錯再犯」（HANDOFF §8.2） | 總管 |
 | `apply_b.py A.json B.json --out C.json [--json r.json]` | 用程式把 B 的修正套到 A（C 輸出模式「乙」的工具；甲模式下可用來交叉核對） | 備用 |
 | `used_emoji.py 檔案… [--out used_emoji.txt]` | 產生「已用過的 emoji」清單，每行 `emoji(word)`；略過 Emoji 13+ | 總管 |
+| `steward.py` ＋ `steward_finish.sh` | 總管的判斷與狀態機（validate-pr／apply-result／human-action／stall-check），由 `.github/workflows/steward.yml` 與 `stall_check.yml` 呼叫。說明見 `docs/STEWARD.md` | Actions |
 | `make_vocab.py 總表.txt` | 從單字總表切出 `vocab/vocab_####.json` | 一次性 |
 
 共用模組：`wordforms.py`（變化形、a/an）、`taiwan_terms.py`（大陸用語清單，兩支檢查共用）、`vocab_schema.py`（topics、詞性、issue 類型、path 格式）。
