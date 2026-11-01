@@ -24,6 +24,14 @@
 4. 失敗 → 先把 PR 的檔案與檢查報告複製進 `attempts/N####-X-try#/` 並推上 `main`，**再**關 PR。`attempt+1`；`attempt` 達 3 或錯誤簽章與上次相同 → `needs_human` 並開 Issue。
 5. 時限 `DEADLINE_HOURS=3`（暫定，Phase 2 量測後定）。
 
+## 復原機制（審查後補強）
+- **不計 attempt 的交付**（fork、AGENT 不合法、過期、改到允許路徑外）：只要還在 `waiting`，總管會重設時限並**重新喚醒**；同一階段**連續 3 次**就轉 `needs_human` 並開 Issue（`noncount_streak`）。
+- **`continue` 一律有效**：不論目前是 `waiting`／`paused`／`needs_human`，都重設時限、清掉 `open_issue`（關掉停滯／人工處理 Issue）、重新喚醒。
+- **任何驗證通過**都會清掉 `open_issue`。
+- **symlink**：PR 內的輸出檔或回報檔若是 symlink（或上層目錄是 symlink），直接拒絕，不讀、不複製。
+- **人工修檔失敗**寫到 `attempts/N####-X-human-<時間>/`，不覆寫 AI 那次的 `try#` 目錄。
+- 人工修檔的回報檔：`AGENT: human`，且 **`ATTEMPT` 必須等於 `state.json` 的 `attempt`**，否則被判過期。
+
 ## 喚醒
 - **Claude（A、C）**：總管把 state 推進到 A 或 C 時，開一個 Issue，標題 `[wake-claude] N#### A attempt 1`。Claude 的排程任務用「GitHub 事件：議題已開啟」觸發，篩選用「標題**包含** `[wake-claude]`」（Phase 0 實測：不能用「開頭為」）。Claude 被叫醒後**仍然只看 `state.json`**，忽略 Issue 內容。
 - **Codex（B）**：不能被 Actions 叫醒（`github-actions[bot]` 的 `@codex` 留言連接器不回應）。用 Codex 雲端排程輪詢；排程要「從綁定 `AI-EN-Words` 環境的對話」建立。
