@@ -13,8 +13,8 @@ def _in_big5(ch):
 def simp(x):
     """含有不在 Big5（台灣標準字集）內的漢字，視為簡體字。晒、软、视 等會被抓到；床、吃、家具 等異體或正體字不會。"""
     return any(ch in EXTRA_SIMP or ('\u4e00'<=ch<='\u9fff' and not _in_big5(ch)) for ch in x)
-TOPICS="日常生活、飲食、家庭與人際、學校與學習、工作與商業、金融與會計、健康與身體、情緒與性格、動物、植物與自然、天氣與環境、科技與網路、交通與旅行、運動與休閒、藝術與文化、社會與法律、科學、歷史與地理、抽象概念與其他".split('、')
-POS={'n.','v.','adj.','adv.','prep.','conj.','pron.','det.','interj.'}
+from vocab_schema import TOPICS,POS
+ALLOWED_KEYS={'word','senses','topics','emoji','image_query'}
 import taiwan_terms
 # 「程序」「質量」等在科學/正式語境可能合理，列為 warn 而非 error
 def variants(w):
@@ -22,7 +22,6 @@ def variants(w):
     stems=[w]
     if w.endswith('e'): stems.append(w[:-1])
     if w.endswith('y'): stems.append(w[:-1]+'i')
-    if len(w)>2 and w[-1]==w[-2]: pass
     if len(w)>=3: stems.append(w[:-1]+w[-1]*2)
     return stems
 def has_english(zh):
@@ -53,12 +52,11 @@ def main():
     exp=load_list(a.list)
     raw=open(a.json,encoding='utf-8').read().strip()
     raw=re.sub(r'^```(?:json)?\s*|\s*```$','',raw)
-    truncated=False
     syntax_bad=[]
     try: data=json.loads(raw)
     except json.JSONDecodeError as e:
         # 改成逐行解析（精簡格式：每個單字一行），單行語法錯誤只影響該字
-        data=[]; truncated=False
+        data=[]
         for ln,line in enumerate(raw.split('\n')):
             t=line.strip().rstrip(',')
             if t in ('','[',']','```','```json'): continue
@@ -75,7 +73,6 @@ def main():
     bad_words={w for w,_,_ in syntax_bad}
     missing=[w for w in exp if w not in set(got) and w not in bad_words]
     extra=[w for w in got if w and w not in set(exp)]
-    if truncated: missing=[w for w in missing if exp.index(w)<len(got)]  # 截斷的缺漏不逐字報
     for w in missing: add(exp.index(w),w,'error','清單中的字沒有出現（漏字）')
     for w in extra: add(got.index(w),w,'error','不在清單內的字（多出或被改寫）')
     c=collections.Counter(got)
@@ -91,7 +88,9 @@ def main():
         if not isinstance(d,dict): add(i,'?','error','不是物件'); continue
         w=(d.get('word') or '').lower()
         i=pos_of.get(w,i)
-        if 'error' in d: add(i,w,'warn',f"AI 回報錯誤：{d['error']}"); continue
+        if 'error' in d: add(i,w,'error',f"AI 回報錯誤（無法匯入，需重作）：{d['error']}"); continue
+        extra_keys=set(d)-ALLOWED_KEYS
+        if extra_keys: add(i,w,'error',f'多餘欄位（匯入後台不接受）：{sorted(extra_keys)}')
         senses=d.get('senses')
         if not isinstance(senses,list) or not 1<=len(senses)<=3: add(i,w,'error','senses 數量不是 1～3'); continue
         enl=[];zhl=[]
@@ -111,6 +110,7 @@ def main():
                 ens.append(en.lower())
                 enl.append(len(en.split())); zhl.append(len(zz))
                 if not contains(en,w): add(i,w,'warn',f's{si}e{ei} 英文例句可能不含該字（變化形可能誤報）：{en[:50]}')
+                if not en.strip() or not zz.strip(): add(i,w,'error',f's{si}e{ei} 例句英文或中文是空的')
                 if not 5<=len(en.split())<=25: add(i,w,'warn',f's{si}e{ei} 英文長度 {len(en.split())} 字')
                 if simp(zz) or simp(zh): add(i,w,'error',f's{si}e{ei} 疑似簡體字')
                 if re.search(r'[,;?!]',zz) or re.search(r'[一-鿿]\.',zz): add(i,w,'warn',f's{si}e{ei} 中文使用半形標點')
@@ -141,7 +141,7 @@ def main():
             round(statistics.mean(x[2] for x in st),1) if st else '',
             round(statistics.mean(x[3] for x in st),2) if st else '',
             round(sum(1 for x in st if x[4])/len(st),2) if st else ''))
-    out=[f'# 檢查報告：{a.json}\n',f'清單 {len(exp)} 字，收到 {len(data)} 筆{"（JSON 被截斷，已救回完整物件）" if truncated else ""}\n',
+    out=[f'# 檢查報告：{a.json}\n',f'清單 {len(exp)} 字，收到 {len(data)} 筆""\n',
         '| 範圍 | 收到 | 錯誤 | 警告 | 例句平均字數 | 中譯平均字數 | 平均詞性數 | emoji 空值率 |','|---|---|---|---|---|---|---|---|']
     for r in rows: out.append(f'| {r[0]}–{r[1]} | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} | {r[7]} | {r[8]} |')
     out.append('\n## 錯誤明細\n')

@@ -1,7 +1,7 @@
 # scripts/
 
 全部用 Python 3 執行。需要 `emoji` 套件：`python3 -m pip install emoji`（一律用 `python3 -m pip`）。其餘只用標準函式庫。
-測試：`python3 -m unittest discover -s tests -v`（39 項，含 `tests/fixtures/real/` 的真實批次資料）。
+測試：`python3 -m unittest discover -s tests -v`（56 項，含 `tests/fixtures/real/` 的真實批次資料）。
 
 | 腳本 | 用途 | 誰用 |
 |---|---|---|

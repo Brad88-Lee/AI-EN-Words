@@ -36,9 +36,10 @@ def validate(text, stage, rnd, attempt, allow_human=False):
     fields, block, block_err = parse_report(text); errors = []
     def add(kind, msg): errors.append({'kind': kind, 'msg': msg})
     exp_round = f'N{rnd}'
-    if fields.get('ROUND', '').upper() != exp_round: add('stale', f'ROUND 應為 {exp_round}，收到 {fields.get("ROUND") or "（缺）"}')
+    if re.sub(r'^[Nn]', '', fields.get('ROUND', '').strip()) != rnd: add('stale', f'ROUND 應為 {exp_round}，收到 {fields.get("ROUND") or "（缺）"}')   # N0001／0001／n0001 皆可
     if fields.get('STAGE', '').upper() != stage: add('stale', f'STAGE 應為 {stage}，收到 {fields.get("STAGE") or "（缺）"}')
-    ag = fields.get('AGENT', '').lower()
+    m_ag = re.match(r'(?i)\s*(claude|codex|human)', fields.get('AGENT', ''))
+    ag = m_ag.group(1).lower() if m_ag else fields.get('AGENT', '').lower()   # 「Claude Code」「codex (GPT)」取前綴
     ok_agents = AGENTS[stage] | ({'human'} if allow_human else set())
     if ag not in ok_agents: add('noncompliant', f'AGENT 應為 {sorted(ok_agents)} 之一，收到 {ag or "（缺）"}')
     at = fields.get('ATTEMPT', '')

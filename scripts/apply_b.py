@@ -11,7 +11,8 @@
 套用後請再跑 check_batch.py 與 check_extra.py。"""
 import json,re,sys,argparse,copy,collections
 SEV={'high':3,'medium':2,'low':1,'uncertain':0}
-TOP="日常生活、飲食、家庭與人際、學校與學習、工作與商業、金融與會計、健康與身體、情緒與性格、動物、植物與自然、天氣與環境、科技與網路、交通與旅行、運動與休閒、藝術與文化、社會與法律、科學、歷史與地理、抽象概念與其他".split('、')
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from vocab_schema import TOPICS as TOP
 FUNC={'a','an','the','his','her','their','your','my','our','its','of','to','in','on','at','for','with','by','from','and','or','is','are','was','were','be','s'}
 def content_changed(old,new):
     """英文改動是否牽涉實詞：只增減冠詞、所有格、連字號、標點等虛詞不算，不需要提醒中文要同步。"""

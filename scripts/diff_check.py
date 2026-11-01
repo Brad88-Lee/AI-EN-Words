@@ -9,6 +9,7 @@
  4. B 中 fix=null、severity≠uncertain、path 為 emoji／image_query 的每一筆，C 的值必須為 null，否則 diff:null_missing。
  5. skipped 的 path 必須無差異，否則 diff:skipped_changed。
  6. 筆數、順序必須與 A 相同；回報檔 a_count／c_count 必須相符。
+ 7. applied 的欄位，C 的值必須等於 B 的 fix（有意調整請列 extra_changes），否則 diff:applied_value_mismatch。
 有任何錯誤結束碼為 1。"""
 import argparse, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -37,17 +38,23 @@ def diff_check(A, C, B, block):
     extra = {(x['word'], x['path']) for x in block.get('extra_changes', [])}
     skipped = {(x['word'], x['path']) for x in block.get('skipped', [])}
     nulls = {(x['word'], x['path']) for x in block.get('nulls', [])}
-    diffs = set(); vals = {}
+    fixes = {(i['word'], i['path']): i.get('fix') for i in issues if i.get('severity') != 'uncertain' and 'word' in i and 'path' in i and i.get('fix') is not None}
+    diffs = set()
     for a, c in zip(A, C):
         fa, fc = vocab_schema.flatten(a), vocab_schema.flatten(c)
         for p in set(fa) | set(fc):
             if fa.get(p, '\0MISSING') != fc.get(p, '\0MISSING'):
-                diffs.add((a['word'], p)); vals[(a['word'], p)] = fc.get(p)
+                diffs.add((a['word'], p))
     ok_a = applied & active
     allowed = set(ok_a) | extra
     for w, p in ok_a:
         if p.endswith('.en'): allowed.add((w, p[:-3] + '.zh'))
     for w, p in sorted(diffs - allowed): add('unexpected', w, p, '值有差異但不在 applied（且對應 B 的 issue）、也不在 extra_changes')
+    for w, p in sorted((applied & active) & diffs):
+        if (w, p) in fixes and (w, p) not in extra:
+            cw = next(c for c in C if c.get('word') == w)
+            cur = vocab_schema.flatten(cw).get(p)
+            if cur != fixes[(w, p)]: add('applied_value_mismatch', w, p, f'applied 宣稱套用 B 的 fix，但 C 的值不同；若是有意調整請改列 extra_changes')
     for w, p in sorted(applied - diffs): add('claimed_not_applied', w, p, 'applied 宣稱已套用，但 A 與 C 的值相同')
     for w, p in sorted(skipped & diffs): add('skipped_changed', w, p, 'skipped 的欄位在 C 有差異')
     for i in issues:
