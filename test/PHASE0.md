@@ -57,4 +57,11 @@
   - 回應內容皆為「To use Codex here, create an environment for this repo」：連接器找不到可用環境。已確認：Codex 環境 `AI-EN-Words` 存在、已發佈（畫面顯示「環境已發布」，發佈鈕發佈後不會變灰）、GitHub App 對 `AI-EN-Words` 有讀寫授權、帳號已連結。原因未明；懷疑連接器查的是 `chatgpt.com/codex/cloud/settings/environments` 的環境清單，與對話式建立的環境不同（⬜ 未驗證）。
   - PR #12、#13 建立當下（無人留言）連接器就回覆。原因有兩種可能，**目前無法區分**：(a) PR 說明／標題含 `@codex`；(b) 帳號的「自動審查」（觸發條件：建立 PR 時）已開啟。對照：較早的 PR #7、#8 建立時沒有連接器留言（#8 說明不含 `@codex`），但當時自動審查是否已開啟不明。下次開不含 `@codex` 的 PR 時可觀察。若是 (b)，每個 PR 都會觸發連接器，需評估額度。
   - 結論：Codex 端不採事件喚醒，改用雲端排程輪詢（從綁定 `AI-EN-Words` 環境的對話建立）；若改用有人類身分的 PAT 發留言可能可行，但 Public repo 不建議放 token。
+- 2026-11-01 Codex 連接器「請建立環境」的排除結果（PR #13）：
+  - ✅ **`@codex review` 正常**：連接器加 👀 反應、貼出 Codex Review Summary、完成審查（Manual request）。審查路徑不需要另建環境。
+  - ❌ **`@codex <一般任務>` 仍回「To use Codex here, create an environment for this repo」**，重新連結 GitHub 外掛程式後亦同（已排除連結過期）。
+  - 🔶 Codex 自己讀官方文件後的說明（使用者轉述，我讀不到該文件）：GitHub 留言的 `review` 以外任務會啟動 **Codex Cloud (Legacy)** chat；過渡期間 GitHub／Linear／Code Review 流程留在 Legacy；新版已發佈環境不供這條路徑使用。Legacy 環境設定頁為 `chatgpt.com/codex/settings/environments`（與連接器連結的 `/codex/cloud/settings/environments` 不同，後者會跳轉到新對話）。
+  - 結論：連接器與 GitHub 的 trigger 本身是通的；一般任務路徑卡在 Legacy 環境。對流程無影響（B 走排程輪詢；bot 留言本來就不觸發）。要不要為了手動 `@codex` 任務去建 Legacy 環境，由使用者決定。
+  - 已排除：Draft PR（PR #12 非 Draft 亦同）、GitHub App 權限、帳號連結、環境未發佈、重新連結。
+  - 附帶觀察：連接器說明寫「Reviews are triggered when you: open a PR for review / mark a draft as ready / comment @codex review」。但 PR #12（非 Draft、13:41 建立）沒有被自動審查，所以「每個新 PR 都會觸發審查、消耗額度」尚未確認；下一個不含 `@codex` 字樣的非 Draft PR 可觀察。
 
