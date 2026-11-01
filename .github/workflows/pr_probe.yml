@@ -1,0 +1,25 @@
+# Phase 0：記錄 PR 作者的實際身分（白名單用）。只讀，不寫 repo。Phase 1 前可刪除。
+name: pr-probe
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show PR author
+        env:
+          LOGIN: ${{ github.event.pull_request.user.login }}
+          TYPE: ${{ github.event.pull_request.user.type }}
+          ACTOR: ${{ github.actor }}
+          HEAD: ${{ github.event.pull_request.head.ref }}
+        run: |
+          {
+            echo "### PR author probe"
+            echo "- user.login: \`$LOGIN\`"
+            echo "- user.type: \`$TYPE\`"
+            echo "- github.actor: \`$ACTOR\`"
+            echo "- head branch: \`$HEAD\`"
+          } | tee -a "$GITHUB_STEP_SUMMARY"

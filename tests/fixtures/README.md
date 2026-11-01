@@ -40,3 +40,8 @@
 4. `zh` 夾英文的 WARN：決定是否放行單一大寫字母（`X 光`）或常見縮寫。
 
 以上都是舊腳本的行為；改版後請用這組案例再跑一次，期望 ok 組 0 WARN、bad 組全抓到。
+
+## 改版後（scripts/ 內的新版）
+`python3 -m unittest discover -s tests -v` → 12 項全過：ok 組 0 WARN，bad 組的 7 個問題全部抓到。
+改動：連字號詞整詞比對（`wordforms.py`）、a/an 依字母名稱發音判斷（`X-ray`、`U-turn`）、zh 允許 1～4 個大寫字母片段（`X 光`）、`check_batch.py` 有 ERROR 時 exit 1 並可直接讀 `vocab_####.json`、`check_extra.py --history` 可給目錄。
+尚未驗證：沒有真實批次資料可做迴歸比對，非連字號詞的行為只靠程式碼比對確認沒改，沒有實跑。
