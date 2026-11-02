@@ -555,3 +555,5 @@
 🏅(medal)
 ✖️(multiply)
 🍄(mushroom)
+🥞(pancake)
+🐧(penguin)
