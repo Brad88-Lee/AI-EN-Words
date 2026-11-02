@@ -1,0 +1,641 @@
+{
+  "batch": "N0014",
+  "checked": 50,
+  "reviewed": [
+    "feather",
+    "fighter",
+    "firework",
+    "fist",
+    "flame",
+    "flash",
+    "flavor",
+    "flesh",
+    "float",
+    "flock",
+    "flood",
+    "fold",
+    "follower",
+    "fond",
+    "forever",
+    "fortune",
+    "fountain",
+    "freeze",
+    "frequent",
+    "fright",
+    "fuel",
+    "fund",
+    "fur",
+    "gallon",
+    "gamble",
+    "gang",
+    "gap",
+    "glance",
+    "global",
+    "glory",
+    "glow",
+    "gossip",
+    "governor",
+    "grab",
+    "graduate",
+    "grasp",
+    "greenhouse",
+    "grin",
+    "grocery",
+    "guidance",
+    "gum",
+    "hairdresser",
+    "hallway",
+    "handful",
+    "handy",
+    "harbor",
+    "harm",
+    "harmful",
+    "harvest",
+    "hasty"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "feather",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "羽毛作為多根填充物時應使用複數 feathers。",
+      "fix": "The pillow is filled with soft feathers from ducks."
+    },
+    {
+      "word": "feather",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個枕頭裡填滿了柔軟的鴨毛。"
+    },
+    {
+      "word": "fighter",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第一句使用參與格鬥運動的選手義，原釋義未列出；三句未示範戰場上的戰士。",
+      "fix": "格鬥選手；鬥士；戰鬥機"
+    },
+    {
+      "word": "firework",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "煙火表演應搭配 hold a fireworks display，不能以 set off a show 表示舉辦表演。",
+      "fix": "The city holds a large fireworks display on New Year's Eve."
+    },
+    {
+      "word": "firework",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這座城市在跨年夜舉辦盛大的煙火表演。"
+    },
+    {
+      "word": "flavor",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "its unique flavor of tea 搭配生硬，改為描述餐廳茶品的風味。",
+      "fix": "The tea served at this restaurant has a rich, distinctive flavor."
+    },
+    {
+      "word": "flavor",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這家餐廳供應的茶具有濃郁而獨特的風味。"
+    },
+    {
+      "word": "float",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "浮板是拿著使用的輔具，wear a float 與原中文的浮板不符。",
+      "fix": "Beginners hold a float to support themselves while learning to swim."
+    },
+    {
+      "word": "float",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "初學者學游泳時會拿著浮板支撐身體。"
+    },
+    {
+      "word": "float",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句使用游泳輔具「浮板」義，中文釋義未列出。",
+      "fix": "浮標；花車；浮板"
+    },
+    {
+      "word": "fold",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "waited for an answer 是等待別人答覆，「等著回答」容易誤解為自己將要回答。",
+      "fix": "她雙手交叉在胸前，等待答覆。"
+    },
+    {
+      "word": "follower",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為一般追隨者或球迷，沒有使用宗教「信徒」義。",
+      "fix": "追隨者；粉絲"
+    },
+    {
+      "word": "fond",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "fond memories 指溫馨的回憶，不是喜歡的回憶，應補上此義。",
+      "fix": "喜愛的；溫馨的"
+    },
+    {
+      "word": "forever",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上與誰出遊的具體情境。",
+      "fix": "I will remember this trip with my family forever."
+    },
+    {
+      "word": "forever",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我會永遠記得這趟與家人一起的旅行。"
+    },
+    {
+      "word": "forever",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上畢業後維繫友誼的情境。",
+      "fix": "They promised to stay friends forever after finishing high school."
+    },
+    {
+      "word": "forever",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他們承諾高中畢業後也要永遠做朋友。"
+    },
+    {
+      "word": "fortune",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「賺了一大筆財富」搭配不自然，make a fortune 應譯為賺了一大筆錢。",
+      "fix": "他在網路上賣二手書賺了一大筆錢。"
+    },
+    {
+      "word": "fountain",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為噴泉設施，未使用自然湧出的「泉水」義。",
+      "fix": "噴泉"
+    },
+    {
+      "word": "freeze",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上此結冰溫度適用的壓力條件。",
+      "fix": "Water freezes at zero degrees Celsius under normal atmospheric pressure."
+    },
+    {
+      "word": "freeze",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "在正常大氣壓力下，水會在攝氏零度結冰。"
+    },
+    {
+      "word": "frequent",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句描述造訪、降雨與班車的頻率，未使用一般「常見的」意思。",
+      "fix": "頻繁的"
+    },
+    {
+      "word": "frequent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上降雨影響旅行的具體情境。",
+      "fix": "Frequent rain made our walking tour of the island difficult."
+    },
+    {
+      "word": "frequent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "頻繁的降雨讓我們徒步遊覽這座島嶼時困難重重。"
+    },
+    {
+      "word": "frequent",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上常去咖啡廳的目的。",
+      "fix": "She frequents that cafe on weekends to read and relax."
+    },
+    {
+      "word": "frequent",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她週末常去那家咖啡廳閱讀、放鬆。"
+    },
+    {
+      "word": "frequent",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上吸引遊客的原因。",
+      "fix": "Tourists frequent this beach in summer because the water is clear."
+    },
+    {
+      "word": "frequent",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "夏天遊客常到這片海灘，因為那裡的海水清澈。"
+    },
+    {
+      "word": "fuel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上漲價對駕駛人的影響。",
+      "fix": "Fuel prices rose again this month, increasing costs for drivers."
+    },
+    {
+      "word": "fuel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個月燃料價格又上漲了，增加了駕駛人的開銷。"
+    },
+    {
+      "word": "fuel",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上機場作業的具體情境。",
+      "fix": "Workers fueled the plane before takeoff while passengers waited inside the terminal."
+    },
+    {
+      "word": "fuel",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "工作人員在起飛前為飛機加油，乘客則在航廈內等候。"
+    },
+    {
+      "word": "fund",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上校外旅行的目的地。",
+      "fix": "Local businesses funded the school trip to the science museum."
+    },
+    {
+      "word": "fund",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "當地商家資助了這次前往科學博物館的校外旅行。"
+    },
+    {
+      "word": "fur",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上另一項具體外觀特徵。",
+      "fix": "The cat has soft white fur and bright green eyes."
+    },
+    {
+      "word": "fur",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這隻貓有柔軟的白色皮毛和明亮的綠眼睛。"
+    },
+    {
+      "word": "fur",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上毛皮領子的用途。",
+      "fix": "Her winter coat has a fur collar to keep her neck warm."
+    },
+    {
+      "word": "fur",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她的冬季外套有毛皮領子，能讓頸部保暖。"
+    },
+    {
+      "word": "gamble",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "gambled on a new product 是在新產品上冒險，並非把產品當作押上的賭注。",
+      "fix": "公司在一項新產品上冒險一搏，結果成功了。"
+    },
+    {
+      "word": "gamble",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句皆為冒險決策，沒有實際賭博活動的用法。",
+      "fix": "冒險"
+    },
+    {
+      "word": "glance",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 glance through the newspaper 指快速瀏覽，釋義只列瞥一眼未涵蓋。",
+      "fix": "瞥一眼；瀏覽"
+    },
+    {
+      "word": "global",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為全球範圍，沒有使用全面或整體的意思。",
+      "fix": "全球的"
+    },
+    {
+      "word": "global",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上全球性問題的影響範圍。",
+      "fix": "Global warming is a serious problem that affects every country."
+    },
+    {
+      "word": "global",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "全球暖化是影響每個國家的嚴重問題。"
+    },
+    {
+      "word": "global",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上電影成功的具體表現。",
+      "fix": "The movie became a global success and attracted millions of viewers."
+    },
+    {
+      "word": "global",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這部電影在全球大受歡迎，吸引了數百萬名觀眾。"
+    },
+    {
+      "word": "gossip",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上職場避免散播謠言的情境。",
+      "fix": "Please don't gossip about your coworkers or spread rumors about them."
+    },
+    {
+      "word": "gossip",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "請不要議論同事的私事，也不要散播關於他們的謠言。"
+    },
+    {
+      "word": "governor",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句以州長為背景，沒有使用殖民地總督或省長的意思。",
+      "fix": "州長"
+    },
+    {
+      "word": "graduate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句只說 students 卻概括二十二歲畢業，應明確限定為大學生。",
+      "fix": "Most university students graduate at the age of twenty-two."
+    },
+    {
+      "word": "graduate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "大部分大學生在二十二歲時畢業。"
+    },
+    {
+      "word": "grasp",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上難以理解的原因。",
+      "fix": "The explanation is beyond my grasp because it uses unfamiliar terms."
+    },
+    {
+      "word": "grasp",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這段解釋超出了我的理解範圍，因為其中使用了我不熟悉的術語。"
+    },
+    {
+      "word": "gum",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句為刷牙太用力後牙齦疼痛的過去事件，「會痛」改成了習慣或可能性。",
+      "fix": "我刷牙太用力，之後牙齦就痛了。"
+    },
+    {
+      "word": "hallway",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上學生安靜行走的校園情境。",
+      "fix": "Students walked quietly down the hallway while other classes were taking tests."
+    },
+    {
+      "word": "hallway",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "其他班級正在考試時，學生們安靜地走過走廊。"
+    },
+    {
+      "word": "handy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上善用工具的實際例子。",
+      "fix": "My father is handy with tools and repairs our furniture himself."
+    },
+    {
+      "word": "handy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我爸爸擅長使用工具，會自己修理家裡的家具。"
+    },
+    {
+      "word": "harbor",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指建築物藏有灰塵與昆蟲，不是故意庇護或隱藏罪犯的「窩藏」。",
+      "fix": "懷有；藏有"
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上長時間暴露於大音量的情境。",
+      "fix": "Listening to loud music for hours can harm your ears."
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "連續聽好幾個小時的大聲音樂可能會傷害你的耳朵。"
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上污染的來源。",
+      "fix": "Pollution from nearby factories harms fish in the river."
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "附近工廠造成的污染傷害了河裡的魚。"
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上商譽受損的實際影響。",
+      "fix": "The scandal harmed the company's reputation and caused it to lose customers."
+    },
+    {
+      "word": "harm",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這起醜聞損害了公司的名聲，導致公司流失顧客。"
+    },
+    {
+      "word": "harvest",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句僅 6 字且「損壞收成」搭配生硬，改為明確的減產情境。",
+      "fix": "Heavy rain reduced the corn harvest in this region."
+    },
+    {
+      "word": "harvest",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "大雨使這個地區的玉米收成減少。"
+    },
+    {
+      "word": "harvest",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上採收與果實成熟的關係。",
+      "fix": "They harvest the apples in October when the fruit is ripe."
+    },
+    {
+      "word": "harvest",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他們在十月蘋果成熟時採收。"
+    },
+    {
+      "word": "harvest",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上手工收割的歷史背景。",
+      "fix": "Farmers harvested the wheat by hand before modern machines became common."
+    },
+    {
+      "word": "harvest",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "在現代機械普及之前，農夫們以手工收割小麥。"
+    },
+    {
+      "word": "harvest",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "此處 harvest vegetables 是採收蔬菜，「收成了蔬菜」的動賓搭配不自然。",
+      "fix": "我們採收了足夠過冬的蔬菜。"
+    }
+  ]
+}
