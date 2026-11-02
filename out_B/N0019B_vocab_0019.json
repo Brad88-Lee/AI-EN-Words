@@ -1,0 +1,355 @@
+{
+  "batch": "N0019",
+  "checked": 50,
+  "reviewed": [
+    "practical",
+    "preparation",
+    "presence",
+    "pretend",
+    "prevent",
+    "previous",
+    "probable",
+    "process",
+    "producer",
+    "profit",
+    "promote",
+    "proof",
+    "property",
+    "pub",
+    "punch",
+    "puppet",
+    "pure",
+    "quote",
+    "racial",
+    "rank",
+    "rate",
+    "raw",
+    "ray",
+    "razor",
+    "react",
+    "reaction",
+    "reasonable",
+    "receipt",
+    "receiver",
+    "recognize",
+    "recorder",
+    "reduce",
+    "regional",
+    "relax",
+    "release",
+    "reliable",
+    "relief",
+    "religious",
+    "rely",
+    "remain",
+    "remote",
+    "replace",
+    "represent",
+    "representative",
+    "republic",
+    "request",
+    "reserve",
+    "resist",
+    "resource",
+    "response"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "presence",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "found no presence 搭配生硬，改用檢測物質存在與否的典型搭配 test for the presence。",
+      "fix": "Scientists tested the water for the presence of harmful chemicals."
+    },
+    {
+      "word": "presence",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "科學家檢測水中是否存在有害化學物質。"
+    },
+    {
+      "word": "promote",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上規律運動的具體益處。",
+      "fix": "Regular exercise promotes good health and helps people manage stress."
+    },
+    {
+      "word": "promote",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "規律運動能促進健康，也能幫助人們調適壓力。"
+    },
+    {
+      "word": "property",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上進入私人土地需取得許可的情境。",
+      "fix": "This land is private property, so visitors need permission to enter."
+    },
+    {
+      "word": "property",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這塊地是私人財產，因此訪客需要獲得許可才能進入。"
+    },
+    {
+      "word": "property",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "財物無人看管應使用 unattended，leave your property alone 搭配不自然。",
+      "fix": "Please do not leave your property unattended in the lobby."
+    },
+    {
+      "word": "property",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "請不要把你的財物留在大廳無人看管。"
+    },
+    {
+      "word": "punch",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "動詞最常用的「拳打」義未列出，應以中性的拳擊訓練例句補足。",
+      "fix": "拳打；打孔；用力按"
+    },
+    {
+      "word": "punch",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句與第一句重複示範打孔且僅 5 字，改示範遺漏的常用拳打義。",
+      "fix": "He punched the training bag during his boxing lesson."
+    },
+    {
+      "word": "punch",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他在拳擊課上揮拳擊打沙包。"
+    },
+    {
+      "word": "punch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "名詞最常用的「一拳」義未列出，不應只收飲料義。",
+      "fix": "一拳；潘趣飲料"
+    },
+    {
+      "word": "punch",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "三句原本皆為飲料，補入中性拳擊訓練情境以示範遺漏的一拳義。",
+      "fix": "The boxer landed a punch on the bag during practice."
+    },
+    {
+      "word": "punch",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那名拳擊手在練習時一拳打中沙包。"
+    },
+    {
+      "word": "punch",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "補回最常用的第一義「拳打」後，hole punch 對應打孔而非第一個意思。",
+      "fix": "person punching bag"
+    },
+    {
+      "word": "pure",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上純果汁沒有添加糖的具體特徵。",
+      "fix": "This bottle contains pure orange juice with no added sugar."
+    },
+    {
+      "word": "pure",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這瓶裡裝的是沒有加糖的純柳橙汁。"
+    },
+    {
+      "word": "racial",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上慶典呈現種族多元的具體方式。",
+      "fix": "The festival celebrates racial diversity through music, food, and dance."
+    },
+    {
+      "word": "racial",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這場慶典透過音樂、美食與舞蹈，展現對種族多元的肯定。"
+    },
+    {
+      "word": "rate",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上餐廳獲得好評的具體原因。",
+      "fix": "Customers rate this restaurant highly for its friendly service and fresh food."
+    },
+    {
+      "word": "rate",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "顧客因為這家餐廳服務親切、食物新鮮，而給予很高的評價。"
+    },
+    {
+      "word": "rate",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上作文獲得優等評價的原因。",
+      "fix": "Teachers rated her essay as excellent because her ideas were clearly expressed."
+    },
+    {
+      "word": "rate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "老師因為她清楚表達了想法，而將她的文章評為優等。"
+    },
+    {
+      "word": "receipt",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 return it 的 it 容易指向 receipt，應明確指出退回購買的商品。",
+      "fix": "Please keep the receipt in case you need to return your purchase."
+    },
+    {
+      "word": "receipt",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "in case 表示以備需要時使用，不是避免退貨的「以免」；並配合英文指代修正。",
+      "fix": "請保留收據，以備需要退貨時使用。"
+    },
+    {
+      "word": "regional",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上觀光客喜愛地方菜餚的原因。",
+      "fix": "Regional dishes are popular with tourists who want to try local flavors."
+    },
+    {
+      "word": "regional",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "地方菜餚很受想品嘗在地風味的觀光客歡迎。"
+    },
+    {
+      "word": "relax",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句以逗號直接連接兩個獨立句，改用分號並補上明確情境。",
+      "fix": "Relax; there is still plenty of time before the train leaves."
+    },
+    {
+      "word": "relax",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "放輕鬆，離火車出發還有很多時間。"
+    },
+    {
+      "word": "reliable",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "三句同時描述人、交通服務及資料來源，可靠性不限於情緒或性格，應歸抽象特質。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "remote",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上更換電池的實際情境。",
+      "fix": "The remote needs new batteries because it no longer works."
+    },
+    {
+      "word": "remote",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "遙控器已經不能用了，需要換新電池。"
+    },
+    {
+      "word": "request",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a table 指一張餐桌，不是單一座位，原譯「一張安靜座位」也有量詞搭配問題。",
+      "fix": "她要求安排一張靠近花園、位置安靜的餐桌。"
+    },
+    {
+      "word": "resist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文抵禦的是颱風帶來的強風，中文漏掉 winds 而泛指整個颱風。",
+      "fix": "這座老橋建造得足以抵禦颱風的強風。"
+    },
+    {
+      "word": "resource",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上珍惜並合理使用水資源的情境。",
+      "fix": "Water is a precious natural resource, so we should use it wisely."
+    },
+    {
+      "word": "resource",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "水是珍貴的天然資源，因此我們應該善加利用。"
+    }
+  ]
+}
