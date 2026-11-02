@@ -1,0 +1,315 @@
+{
+  "batch": "N0023",
+  "checked": 50,
+  "reviewed": [
+    "timber",
+    "tobacco",
+    "ton",
+    "toss",
+    "tough",
+    "tourism",
+    "tourist",
+    "tow",
+    "trader",
+    "trail",
+    "transport",
+    "traveler",
+    "tray",
+    "trend",
+    "tribe",
+    "tricky",
+    "troop",
+    "tropical",
+    "trunk",
+    "truthful",
+    "tug",
+    "tune",
+    "tutor",
+    "twin",
+    "twist",
+    "union",
+    "unite",
+    "unity",
+    "urban",
+    "vacant",
+    "van",
+    "vanish",
+    "variety",
+    "various",
+    "vary",
+    "vase",
+    "vehicle",
+    "verse",
+    "victim",
+    "violence",
+    "violent",
+    "violet",
+    "visible",
+    "vision",
+    "vitamin",
+    "vivid",
+    "wage",
+    "wagon",
+    "wander",
+    "warmth"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "ton",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "ton 是抽象重量單位，貨物秤只顯示相關工具，不能直接表示一公噸。",
+      "fix": null
+    },
+    {
+      "word": "toss",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "bag 未限定是背包，原譯自行加入袋子的種類。",
+      "fix": "他把袋子扔到沙發上，然後坐了下來。"
+    },
+    {
+      "word": "tough",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句形容肉難嚼，第三句形容教練嚴厲，堅韌與強硬未精確表達這兩種用法。",
+      "fix": "艱難的；嚴厲的；難嚼的"
+    },
+    {
+      "word": "tough",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句涵蓋食物口感、決策難度及人的態度，不能只歸為情緒與性格。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "tow",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句名詞用法皆指拖曳或拖吊服務，沒有指稱拖車車輛本身。",
+      "fix": "拖曳；拖吊"
+    },
+    {
+      "word": "tow",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "帆船在較大的船後方被拖曳，原譯卻把較大的拖曳船放在後面。",
+      "fix": "那艘帆船被前方較大的船拖著走。"
+    },
+    {
+      "word": "transport",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是抽象運輸活動，巴士圖片對應後面的交通工具義。",
+      "fix": null
+    },
+    {
+      "word": "tray",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般盤子不一定是 tray，應明確列出例句中的餐盤與烤盤。",
+      "fix": "托盤；餐盤；烤盤"
+    },
+    {
+      "word": "tropical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆描述熱帶地區或氣候，沒有以 tropical 單獨表達過度炎熱的用法。",
+      "fix": "熱帶的"
+    },
+    {
+      "word": "tune",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項是名詞曲調，tuning guitar 對應後面的動詞調音，應移除。",
+      "fix": null
+    },
+    {
+      "word": "tutor",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上輔導的科目與地點。",
+      "fix": "She tutors younger students in math at the library after school."
+    },
+    {
+      "word": "tutor",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她放學後在圖書館輔導年紀較小的學生學數學。"
+    },
+    {
+      "word": "twin",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上飯店房間的具體設施。",
+      "fix": "The hotel room has twin beds and a small balcony."
+    },
+    {
+      "word": "twin",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這間飯店房間有兩張單人床和一個小陽台。"
+    },
+    {
+      "word": "twist",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第二句 twisted his ankle 指扭傷腳踝，原釋義未列出受傷義。",
+      "fix": "扭轉；扭傷；扭絞"
+    },
+    {
+      "word": "union",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第二句 student union 是學生會，不是工會；三句未使用一般聯盟的意思。",
+      "fix": "工會；學生會；結合"
+    },
+    {
+      "word": "unity",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為人群的團結，沒有將分立單位整合成一體的統一義。",
+      "fix": "團結；一致"
+    },
+    {
+      "word": "variety",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上飲食多樣化的具體目的。",
+      "fix": "A healthy diet needs variety to provide all the nutrients we need."
+    },
+    {
+      "word": "variety",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "健康的飲食需要多樣化，才能提供我們所需的各種營養素。"
+    },
+    {
+      "word": "vary",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上購物比價的實際情境。",
+      "fix": "Prices vary from store to store, so compare them before buying."
+    },
+    {
+      "word": "vary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "各家店的價格不一樣，所以購買前要先比價。"
+    },
+    {
+      "word": "verse",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 verse 指歌曲的一段歌詞，未列此義；三句沒有把 verse 當成韻文這種文體的用法。",
+      "fix": "詩句；詩節；歌詞段落"
+    },
+    {
+      "word": "victim",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句描述災害受災者，第三句為失竊被害人，沒有需要犧牲或喪生的意思。",
+      "fix": "受害者；受災者"
+    },
+    {
+      "word": "vitamin",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上選擇水果作點心的日常情境。",
+      "fix": "Oranges are rich in vitamin C and make a healthy snack."
+    },
+    {
+      "word": "vitamin",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "柳橙富含維他命 C，是健康的點心。"
+    },
+    {
+      "word": "vivid",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 vivid memory 表示記憶清晰鮮明，不是描述方式生動或顏色鮮豔。",
+      "fix": "生動的；鮮豔的；清晰的"
+    },
+    {
+      "word": "wagon",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為馬車或手拉車，未示範鐵路貨車等用法。",
+      "fix": "四輪馬車；手拉車"
+    },
+    {
+      "word": "wagon",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是四輪馬車，red wagon 容易呈現第二個意思的兒童手拉車。",
+      "fix": "horse drawn wagon"
+    },
+    {
+      "word": "wander",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 mind wander 是分心或思緒飄移，原釋義只有步行漫遊的意思。",
+      "fix": "閒逛；漫步；分心"
+    },
+    {
+      "word": "wander",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "mind wander 在此為聽演講時分心，「思緒開始飄走」不自然。",
+      "fix": "在冗長的演講中，他開始分心了。"
+    },
+    {
+      "word": "warmth",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "fire 未限定是火爐，原譯自行加入取暖設備。",
+      "fix": "我們坐在火的旁邊，享受暖意。"
+    }
+  ]
+}
