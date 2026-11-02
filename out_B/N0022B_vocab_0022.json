@@ -1,0 +1,489 @@
+{
+  "batch": "N0022",
+  "checked": 50,
+  "reviewed": [
+    "strip",
+    "structure",
+    "stubborn",
+    "studio",
+    "stuff",
+    "substance",
+    "subtract",
+    "suburb",
+    "suck",
+    "suffer",
+    "sufficient",
+    "suicide",
+    "sum",
+    "summary",
+    "summit",
+    "superior",
+    "surround",
+    "survey",
+    "survivor",
+    "suspect",
+    "suspicion",
+    "swear",
+    "sweat",
+    "swell",
+    "swift",
+    "sword",
+    "tablet",
+    "tag",
+    "tailor",
+    "tame",
+    "tap",
+    "tasty",
+    "tease",
+    "technical",
+    "technique",
+    "teenage",
+    "temper",
+    "temporary",
+    "tend",
+    "tender",
+    "territory",
+    "thankful",
+    "theory",
+    "thirst",
+    "thread",
+    "threat",
+    "threaten",
+    "tide",
+    "tight",
+    "tighten"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "strip",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "調整例句補足常用脫掉義後，餘下兩句皆為剝去表面材料，不再使用拆除義。",
+      "fix": "剝去；脫掉"
+    },
+    {
+      "word": "strip",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "三句原本皆為剝除表面材料，未示範已列的脫掉義，改用脫濕外套的日常情境。",
+      "fix": "He stripped off his wet jacket before entering the house."
+    },
+    {
+      "word": "strip",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他進屋前脫掉了濕外套。"
+    },
+    {
+      "word": "structure",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是抽象結構，建築物圖片對應後面的具體建築物義，應移除。",
+      "fix": null
+    },
+    {
+      "word": "stubborn",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "原翻譯變成汙漬洗不掉襯衫，受詞關係顛倒；應表示襯衫上的汙漬洗不掉。",
+      "fix": "我襯衫上這塊頑固的汙漬怎麼洗也洗不掉。"
+    },
+    {
+      "word": "studio",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別使用藝術工作室、錄音室及套房，未示範攝影棚義。",
+      "fix": "工作室；錄音室；套房"
+    },
+    {
+      "word": "stuff",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都泛指物品，未以 stuff 指某種原料或材質。",
+      "fix": "東西"
+    },
+    {
+      "word": "suffer",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上關懷動物的具體行動。",
+      "fix": "I hate to see animals suffer, so I volunteer at a shelter."
+    },
+    {
+      "word": "suffer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我不忍心看到動物受苦，所以到收容所當志工。"
+    },
+    {
+      "word": "sum",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "中文漏譯 today，應保留今天這堂課的時間資訊。",
+      "fix": "讓我來總結今天這堂課的重點。"
+    },
+    {
+      "word": "summit",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "⛰ 與已用於 mountain 的 ⛰️ 是同一圖示，且整座山與山頂不是近義詞。",
+      "fix": null
+    },
+    {
+      "word": "superior",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上語言能力較好的具體原因。",
+      "fix": "Her English is superior to mine because she practices every day."
+    },
+    {
+      "word": "superior",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她每天練習，所以英文比我好。"
+    },
+    {
+      "word": "superior",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指職場上司或上級，沒有使用按年齡或輩分區分的長輩義。",
+      "fix": "上司；上級"
+    },
+    {
+      "word": "surround",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上四周高山對交通的影響。",
+      "fix": "Tall mountains surround the small village, making it difficult to reach."
+    },
+    {
+      "word": "surround",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "高山環繞這個小村莊，使人難以抵達。"
+    },
+    {
+      "word": "surround",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上校園花園的用途。",
+      "fix": "A beautiful garden surrounds the school and provides space for outdoor lessons."
+    },
+    {
+      "word": "surround",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "一座美麗的花園環繞學校，提供戶外上課的空間。"
+    },
+    {
+      "word": "survey",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是抽象的調查，clipboard survey 較像實體問卷，並非第一個意思。",
+      "fix": null
+    },
+    {
+      "word": "survivor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "cancer survivor 指癌症存活者，不一定已完全康復，原譯加入了康復狀態。",
+      "fix": "她是一名癌症存活者，如今會幫助其他病人。"
+    },
+    {
+      "word": "suspect",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上案件調查尚未結束的情境。",
+      "fix": "No suspect has been found yet, so the investigation continues."
+    },
+    {
+      "word": "suspect",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "目前還沒找到嫌疑人，因此調查仍在進行。"
+    },
+    {
+      "word": "suspicion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為猜想或疑心，沒有明確指犯罪嫌疑的用法。",
+      "fix": "懷疑；疑心"
+    },
+    {
+      "word": "sweat",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句不要擔心的慣用語使用 worry 的意思，只有流汗義未涵蓋。",
+      "fix": "流汗；出汗；擔心"
+    },
+    {
+      "word": "sweat",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句以逗號直接連接兩個獨立句，應改用分號。",
+      "fix": "Don't sweat it; we still have plenty of time."
+    },
+    {
+      "word": "sweat",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "別擔心，時間還很充裕。"
+    },
+    {
+      "word": "swell",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是一陣高漲的掌聲，未使用實體隆起義，應列出聲浪用法。",
+      "fix": "湧浪；一陣聲浪"
+    },
+    {
+      "word": "tablet",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上醫生告知服藥方式的具體情境。",
+      "fix": "The doctor told me to take one tablet after each meal."
+    },
+    {
+      "word": "tablet",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "醫生告訴我每餐飯後服用一顆藥片。"
+    },
+    {
+      "word": "technical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句指技術能力、技術問題及專業術語，沒有工藝製作的用法。",
+      "fix": "技術的；專門的"
+    },
+    {
+      "word": "technique",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上繪畫技巧的具體效果。",
+      "fix": "She uses a special painting technique to create realistic shadows."
+    },
+    {
+      "word": "technique",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她運用一種特別的繪畫技巧，畫出逼真的陰影。"
+    },
+    {
+      "word": "temper",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "a calm temper 搭配生硬，改用 keep your temper 的典型用法。",
+      "fix": "Keeping your temper helps you solve problems calmly."
+    },
+    {
+      "word": "temper",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "保持冷靜有助於你平心靜氣地解決問題。"
+    },
+    {
+      "word": "temper",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上經驗使人較理性的實際影響。",
+      "fix": "Experience will temper his excitement and help him make realistic plans."
+    },
+    {
+      "word": "temper",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "經驗會使他不再那麼興奮，並幫助他擬定切合實際的計畫。"
+    },
+    {
+      "word": "tender",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句膝蓋 tender 是觸碰時疼痛，不是柔軟，原釋義未列出。",
+      "fix": "嫩的；溫柔的；觸痛的"
+    },
+    {
+      "word": "tender",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "tender 指觸碰或按壓時會痛，原譯只說一般疼痛而漏掉此特徵。",
+      "fix": "比賽後，我的膝蓋觸碰時仍會痛。"
+    },
+    {
+      "word": "thirst",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上展現求知慾的具體活動。",
+      "fix": "She has a thirst for knowledge and reads widely every day."
+    },
+    {
+      "word": "thirst",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她渴求知識，每天都廣泛閱讀。"
+    },
+    {
+      "word": "thread",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句故事的 thread 是敘事脈絡，不是供推理用的線索。",
+      "fix": "線；脈絡；思路"
+    },
+    {
+      "word": "threat",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為危害或隱憂，沒有以言語恐嚇他人的用法。",
+      "fix": "威脅；隱憂"
+    },
+    {
+      "word": "threaten",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句以逗號直接連接兩個獨立句，應改用分號。",
+      "fix": "The boss did not threaten anyone; he only gave a warning."
+    },
+    {
+      "word": "threaten",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "老闆沒有威脅任何人，只是提出警告。"
+    },
+    {
+      "word": "tide",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "the tide is low 描述低潮位，不一定仍在退潮，應區分潮位與潮水正在退去。",
+      "fix": "現在潮位低，所以我們可以在海灘上走。"
+    },
+    {
+      "word": "tight",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上行程緊湊的原因。",
+      "fix": "Our schedule is tight this week because of the upcoming conference."
+    },
+    {
+      "word": "tight",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "因為即將舉行研討會，我們這星期的行程很緊湊。"
+    },
+    {
+      "word": "tight",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 sleep tight 是安穩地睡，不是緊緊或牢牢地，應補足此義。",
+      "fix": "緊緊地；牢牢地；安穩地"
+    },
+    {
+      "word": "tight",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上晚安對話中明早見面的情境。",
+      "fix": "Sleep tight, and I will see you at breakfast tomorrow."
+    },
+    {
+      "word": "tight",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "睡個好覺，我明天早餐時會見到你。"
+    },
+    {
+      "word": "tighten",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句 tighten the screw 是旋緊或鎖緊螺絲，拉緊與收緊未清楚涵蓋。",
+      "fix": "鎖緊；拉緊；收緊；加強"
+    },
+    {
+      "word": "tighten",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上繫緊皮帶的具體目的。",
+      "fix": "He tightened his belt before running to keep his pants in place."
+    },
+    {
+      "word": "tighten",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他跑步前把皮帶繫緊，以免褲子滑落。"
+    }
+  ]
+}
