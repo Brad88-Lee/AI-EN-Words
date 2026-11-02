@@ -1,0 +1,1121 @@
+{
+  "batch": "N0002",
+  "checked": 50,
+  "reviewed": [
+    "eighteen",
+    "eighty",
+    "eleven",
+    "english",
+    "everywhere",
+    "exam",
+    "february",
+    "fifteen",
+    "fifty",
+    "film",
+    "five",
+    "forty",
+    "four",
+    "fourteen",
+    "friday",
+    "frisbee",
+    "gas",
+    "granddaughter",
+    "grandson",
+    "gym",
+    "halloween",
+    "hers",
+    "hey",
+    "hi",
+    "his",
+    "is",
+    "january",
+    "july",
+    "june",
+    "kitten",
+    "ma'am",
+    "math",
+    "monday",
+    "movement",
+    "mrt",
+    "my",
+    "nice-looking",
+    "nineteen",
+    "ninety",
+    "november",
+    "o'clock",
+    "october",
+    "ok",
+    "one",
+    "our",
+    "ours",
+    "overpass",
+    "pe",
+    "photo",
+    "pleased"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "eighteen",
+      "path": "senses[0].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "turn eighteen 中的 eighteen 並未限定名詞，無法示範本義項標示的限定詞用法。",
+      "fix": "My cousin will invite eighteen friends to his birthday party."
+    },
+    {
+      "word": "eighteen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我表哥會邀請十八位朋友參加他的生日派對。"
+    },
+    {
+      "word": "eighteen",
+      "path": "senses[1].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "台灣一般選舉投票年齡為二十歲，十八歲僅適用公投等特定情形；原句未區分投票種類而誤導，改用中性的大學生活情境。",
+      "fix": "At eighteen, my cousin left home to study at university."
+    },
+    {
+      "word": "eighteen",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我表哥十八歲時離家去上大學。"
+    },
+    {
+      "word": "eighteen",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Nine plus nine makes eighteen, as our math teacher explained."
+    },
+    {
+      "word": "eighteen",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "正如數學老師所解釋的，九加九等於十八。"
+    },
+    {
+      "word": "eighty",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She lived to be nearly eighty and stayed active throughout her life."
+    },
+    {
+      "word": "eighty",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她活到將近八十歲，一生都保持活躍。"
+    },
+    {
+      "word": "eighty",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Ten times eight is eighty, as shown on the board."
+    },
+    {
+      "word": "eighty",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "如黑板上所示，十乘以八等於八十。"
+    },
+    {
+      "word": "eleven",
+      "path": "senses[0].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "at eleven thirty 的 eleven 為時間數字，未示範限定詞修飾名詞的用法。",
+      "fix": "We need eleven tickets for the movie on Friday night."
+    },
+    {
+      "word": "eleven",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們需要十一張星期五晚上的電影票。"
+    },
+    {
+      "word": "eleven",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本義項三句分別談數字、鐘點與背號，沒有十一歲的用法。",
+      "fix": "十一"
+    },
+    {
+      "word": "eleven",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The meeting ended at eleven, just before our lunch break."
+    },
+    {
+      "word": "eleven",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "會議在十一點結束，正好在我們午休之前。"
+    },
+    {
+      "word": "english",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She speaks English very well and often helps foreign visitors."
+    },
+    {
+      "word": "english",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她的英語說得很好，經常幫助外國遊客。"
+    },
+    {
+      "word": "english",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "full English breakfast 指全套英式早餐，完整的英式早餐未自然呈現此餐點名稱。",
+      "fix": "我阿姨在飯店點了一份全套英式早餐。"
+    },
+    {
+      "word": "everywhere",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "I looked everywhere for my keys before leaving for school."
+    },
+    {
+      "word": "everywhere",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "出門上學前，我到處找我的鑰匙。"
+    },
+    {
+      "word": "february",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My birthday is in February, two weeks after my sister's."
+    },
+    {
+      "word": "february",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的生日在二月，比姊姊的生日晚兩週。"
+    },
+    {
+      "word": "fifteen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My sister is fifteen years old and attends high school."
+    },
+    {
+      "word": "fifteen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我姊姊十五歲，目前就讀高中。"
+    },
+    {
+      "word": "fifteen",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本義項三句未使用十五歲的年齡義。",
+      "fix": "十五"
+    },
+    {
+      "word": "fifteen",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Fifteen is half of thirty, as our teacher explained."
+    },
+    {
+      "word": "fifteen",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "正如老師所解釋的，十五是三十的一半。"
+    },
+    {
+      "word": "fifty",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The tickets for the school concert cost fifty dollars each."
+    },
+    {
+      "word": "fifty",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "學校音樂會的票每張五十元。"
+    },
+    {
+      "word": "fifty",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My aunt is fifty years old and works as a nurse."
+    },
+    {
+      "word": "fifty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我阿姨五十歲，職業是護理師。"
+    },
+    {
+      "word": "fifty",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 in his fifties 指五十多歲，不是恰好五十歲，須呈現此年齡範圍。",
+      "fix": "五十；五十多歲"
+    },
+    {
+      "word": "fifty",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Fifty is the number printed on my new team jersey."
+    },
+    {
+      "word": "fifty",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我新球衣上印的背號是五十號。"
+    },
+    {
+      "word": "fifty",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字且與第一句同屬算式情境，改以成績用法增加情境變化。",
+      "fix": "She scored fifty on the test and decided to study harder."
+    },
+    {
+      "word": "fifty",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她考試得了五十分，決定更加用功。"
+    },
+    {
+      "word": "five",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The train leaves in five minutes, so we should hurry."
+    },
+    {
+      "word": "five",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "火車五分鐘後出發，所以我們得趕快。"
+    },
+    {
+      "word": "five",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本義項的三個例句均未使用五歲的年齡義。",
+      "fix": "五"
+    },
+    {
+      "word": "five",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Five is the number between four and six on this chart."
+    },
+    {
+      "word": "five",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "在這張表上，五是介於四和六之間的數字。"
+    },
+    {
+      "word": "forty",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My uncle is forty years old and works at a bank."
+    },
+    {
+      "word": "forty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我叔叔四十歲，在銀行工作。"
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Forty is four times ten, as our teacher explained."
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "正如老師所解釋的，四十是十的四倍。"
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My mother just turned forty and celebrated with her friends."
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我媽媽剛滿四十歲，並和朋友們一起慶祝。"
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Our train arrives at platform forty in ten minutes."
+    },
+    {
+      "word": "forty",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們的火車十分鐘後抵達四十號月台。"
+    },
+    {
+      "word": "four",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Four is an even number, just like six and eight."
+    },
+    {
+      "word": "four",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "四和六、八一樣，都是偶數。"
+    },
+    {
+      "word": "four",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Write a four in the box next to your name."
+    },
+    {
+      "word": "four",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "在你名字旁邊的方框裡寫一個四。"
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My cousin is fourteen years old and loves playing basketball."
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我表妹十四歲，很喜歡打籃球。"
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The school library has fourteen computers for students to use."
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "學校圖書館有十四台電腦供學生使用。"
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Fourteen is an even number between thirteen and fifteen."
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "十四是介於十三和十五之間的偶數。"
+    },
+    {
+      "word": "fourteen",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "under fourteen 不包含十四歲，原譯十四歲以下容易誤解為包含十四歲。",
+      "fix": "未滿十四歲的女孩可以加入青少年隊。"
+    },
+    {
+      "word": "granddaughter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Her granddaughter visits her every weekend and brings her lunch."
+    },
+    {
+      "word": "granddaughter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她的孫女每個週末都會來探望她，並帶午餐給她。"
+    },
+    {
+      "word": "grandson",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Their grandson lives in another city and calls them every week."
+    },
+    {
+      "word": "grandson",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他們的孫子住在別的城市，每週都會打電話給他們。"
+    },
+    {
+      "word": "halloween",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Children wear costumes on Halloween and collect candy from neighbors."
+    },
+    {
+      "word": "halloween",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "孩子們在萬聖節會穿上各種裝扮，向鄰居要糖果。"
+    },
+    {
+      "word": "hers",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My room is bigger than hers, but hers has a balcony."
+    },
+    {
+      "word": "hers",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的房間比她的大，但她的房間有陽台。"
+    },
+    {
+      "word": "hey",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Hey, is this your pencil case on the floor?"
+    },
+    {
+      "word": "hey",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "喂，地板上這個鉛筆盒是你的嗎？"
+    },
+    {
+      "word": "hi",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Hi, my name is Amy, and I'm your new classmate."
+    },
+    {
+      "word": "hi",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "嗨，我的名字是艾咪，我是你的新同學。"
+    },
+    {
+      "word": "his",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The red bike is his, and the blue one is mine."
+    },
+    {
+      "word": "his",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "那輛紅色腳踏車是他的，藍色那輛是我的。"
+    },
+    {
+      "word": "is",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別示範身分、狀態與位置，沒有表示存在的有義。",
+      "fix": "是；在"
+    },
+    {
+      "word": "is",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Where is the nearest bus stop for the airport bus?"
+    },
+    {
+      "word": "is",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "最近的機場巴士站在哪裡？"
+    },
+    {
+      "word": "january",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "School starts again in late January after the winter break."
+    },
+    {
+      "word": "january",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "寒假過後，學校在一月下旬重新開學。"
+    },
+    {
+      "word": "july",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Summer vacation begins in July and lasts for two months."
+    },
+    {
+      "word": "july",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "暑假從七月開始，為期兩個月。"
+    },
+    {
+      "word": "june",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My sister will graduate from high school in June."
+    },
+    {
+      "word": "june",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我姊姊六月要從高中畢業了。"
+    },
+    {
+      "word": "kitten",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She named her new kitten Lucky when she brought it home."
+    },
+    {
+      "word": "kitten",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她把新小貓帶回家時，為牠取名叫幸運。"
+    },
+    {
+      "word": "ma'am",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Can I take your order now, ma'am, or do you need more time?"
+    },
+    {
+      "word": "ma'am",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "女士，現在可以為您點餐了嗎，還是您需要多一點時間？"
+    },
+    {
+      "word": "math",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "數學是抽象學科，依規則不應填入具體作業場景的圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "movement",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The baby's playful movements made everyone in the room laugh."
+    },
+    {
+      "word": "movement",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "寶寶逗趣的動作讓房間裡的每個人都笑了。"
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The train arrives in nineteen minutes, so we should hurry."
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "火車十九分鐘後到站，所以我們得趕快。"
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "He joined the army at nineteen after finishing high school."
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他高中畢業後，在十九歲時入伍。"
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Nineteen is the number printed on my ticket for the tour."
+    },
+    {
+      "word": "nineteen",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的旅遊行程票券上印的號碼是十九號。"
+    },
+    {
+      "word": "ninety",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My great-grandmother is ninety years old and still lives independently."
+    },
+    {
+      "word": "ninety",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我曾祖母九十歲了，仍然獨立生活。"
+    },
+    {
+      "word": "ninety",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The test lasts ninety minutes, so please manage your time carefully."
+    },
+    {
+      "word": "ninety",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這場考試為時九十分鐘，請妥善分配時間。"
+    },
+    {
+      "word": "ninety",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Ninety is the number printed on the front of his jersey."
+    },
+    {
+      "word": "ninety",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他球衣正面印的背號是九十號。"
+    },
+    {
+      "word": "ninety",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Grandpa lived to be nearly ninety and enjoyed gardening every day."
+    },
+    {
+      "word": "ninety",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "爺爺活到將近九十歲，每天都享受園藝的樂趣。"
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The weather gets cooler in November, so remember to bring a jacket."
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "十一月的天氣變得比較涼，所以記得帶件外套。"
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My cousin's wedding is in November at a hotel near the station."
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我表姊的婚禮十一月在車站附近的飯店舉行。"
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "We will visit Kyoto in November next year to see the autumn leaves."
+    },
+    {
+      "word": "november",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們明年十一月要去京都看秋葉。"
+    },
+    {
+      "word": "o'clock",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The shop opens at nine o'clock, just after breakfast."
+    },
+    {
+      "word": "o'clock",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這家商店九點鐘開門，正好是早餐過後。"
+    },
+    {
+      "word": "o'clock",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Dinner is ready at seven o'clock, so please come home before then."
+    },
+    {
+      "word": "o'clock",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "晚餐七點鐘準備好，請在那之前回家。"
+    },
+    {
+      "word": "october",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My family went hiking last October to enjoy the cooler weather."
+    },
+    {
+      "word": "october",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們全家去年十月去健行，享受較涼爽的天氣。"
+    },
+    {
+      "word": "ok",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Ok, let's start the lesson by reviewing yesterday's homework."
+    },
+    {
+      "word": "ok",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "好，我們先複習昨天的作業，開始今天的課。"
+    },
+    {
+      "word": "ok",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Ok, that makes sense now that you have explained the rule."
+    },
+    {
+      "word": "ok",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "好，聽了你對規則的解釋，我現在懂了。"
+    },
+    {
+      "word": "one",
+      "path": "senses[2].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 one 泛指一般人，並非代替單一物品的那個或一個。",
+      "fix": "一個；那個；一般人"
+    },
+    {
+      "word": "one",
+      "path": "senses[2].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Which one do you like better, the red bag or the blue one?"
+    },
+    {
+      "word": "one",
+      "path": "senses[2].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你比較喜歡哪一個，紅色的包包還是藍色的？"
+    },
+    {
+      "word": "our",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "We painted our classroom door green during the summer vacation."
+    },
+    {
+      "word": "our",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們在暑假期間把教室的門漆成綠色。"
+    },
+    {
+      "word": "ours",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Your house is bigger than ours and has a larger garden."
+    },
+    {
+      "word": "ours",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你們的房子比我們的大，花園也比較大。"
+    },
+    {
+      "word": "overpass",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The bus drove under the overpass on its way downtown."
+    },
+    {
+      "word": "overpass",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "公車往市區行駛途中從高架橋下方駛過。"
+    },
+    {
+      "word": "pe",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "PE teacher 與 PE clothes 使用體育的科目義，不只指一堂體育課。",
+      "fix": "體育；體育課"
+    },
+    {
+      "word": "pleased",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句不足七個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "I am pleased to meet you and welcome you to our team."
+    },
+    {
+      "word": "pleased",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "很高興認識您，也歡迎您加入我們的團隊。"
+    }
+  ]
+}
