@@ -1,0 +1,313 @@
+{
+  "batch": "N0007",
+  "checked": 50,
+  "reviewed": [
+    "mall",
+    "march",
+    "marker",
+    "marvelous",
+    "microwave",
+    "minus",
+    "monster",
+    "mosquito",
+    "napkin",
+    "nest",
+    "omit",
+    "onion",
+    "operation",
+    "oven",
+    "overseas",
+    "ox",
+    "painter",
+    "parrot",
+    "passenger",
+    "pause",
+    "pepper",
+    "pigeon",
+    "pile",
+    "pineapple",
+    "pollute",
+    "pollution",
+    "powder",
+    "precious",
+    "professor",
+    "pronounce",
+    "pump",
+    "purse",
+    "quit",
+    "rectangle",
+    "regret",
+    "remind",
+    "rob",
+    "rush",
+    "saucer",
+    "scarf",
+    "scientist",
+    "semester",
+    "shrimp",
+    "sincere",
+    "sink",
+    "skate",
+    "ski",
+    "skillful",
+    "skinny",
+    "slender"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "marker",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "白板書寫情境的 marker 應譯為白板筆，簽字筆未精確對應此用途。",
+      "fix": "請用白板筆把你的名字寫在白板上。"
+    },
+    {
+      "word": "minus",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Ten minus four equals six, as shown on the board."
+    },
+    {
+      "word": "minus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "如黑板上所示，十減四等於六。"
+    },
+    {
+      "word": "monster",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句皆指怪物，沒有以龐然大物指稱巨大物體的用法。",
+      "fix": "怪物；妖怪"
+    },
+    {
+      "word": "mosquito",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "avoid every mosquito bite 對一般防蚊建議加入不必要的絕對化表達，改為自然的防叮情境。",
+      "fix": "Wear long sleeves to protect yourself from mosquito bites in the forest."
+    },
+    {
+      "word": "mosquito",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "在森林裡穿長袖衣物，保護自己免受蚊子叮咬。"
+    },
+    {
+      "word": "omit",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "省略鹽與湯會味道很淡的搭配生硬，宜自然表達不加鹽與湯的味道。",
+      "fix": "如果不加鹽，湯的味道會很淡。"
+    },
+    {
+      "word": "ox",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "ox 常指作役用的牛，尤其閹牛，原譯一般公牛容易與 bull 混淆。",
+      "fix": "役牛；牛"
+    },
+    {
+      "word": "pepper",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 pepper someone with questions 指接連提問，不能只以使佈滿解釋。",
+      "fix": "撒胡椒粉；使佈滿；接連提問"
+    },
+    {
+      "word": "pile",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "storm 並未限定降雨，積雪情境應呈現暴風雪而非暴風雨。",
+      "fix": "暴風雪過後，屋頂上積了厚厚的雪。"
+    },
+    {
+      "word": "pineapple",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This pineapple is sweet and juicy, so we bought another one."
+    },
+    {
+      "word": "pineapple",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這顆鳳梨又甜又多汁，所以我們又買了一顆。"
+    },
+    {
+      "word": "pollute",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "鎮上附近的地點搭配不自然，near our town 應譯為小鎮附近。",
+      "fix": "工廠不應該污染我們小鎮附近的河川。"
+    },
+    {
+      "word": "pronounce",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "第三句的 pronounce 是正式宣布或判定，不是一般的宣稱。",
+      "fix": "發音；宣布；判定"
+    },
+    {
+      "word": "pump",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 gas pump 指加油機，原義項未列出此用途；泵與幫浦亦重複。",
+      "fix": "幫浦；打氣筒；加油機"
+    },
+    {
+      "word": "purse",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "零錢包 emoji 對應後列的錢包義，未對應第一個意思女用小包。",
+      "fix": null
+    },
+    {
+      "word": "regret",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句將 expressed regret 譯為表示歉意，中文義項也須涵蓋此正式致歉用法。",
+      "fix": "後悔；遺憾；歉意"
+    },
+    {
+      "word": "rush",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句沒有急流的水流義；首句 a rush of customers 指湧入的人潮。",
+      "fix": "匆忙；繁忙時段；人潮"
+    },
+    {
+      "word": "shrimp",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Some people are allergic to shrimp and must avoid eating it."
+    },
+    {
+      "word": "shrimp",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "有些人對蝦子過敏，必須避免食用。"
+    },
+    {
+      "word": "sincere",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "請接受我對你的幫忙致上誠摯的謝意句法不順，應將致謝原因與謝意分清。",
+      "fix": "對於你的幫忙，請接受我誠摯的謝意。"
+    },
+    {
+      "word": "sink",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The bathroom sink is leaking again, so please call a plumber."
+    },
+    {
+      "word": "sink",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "浴室的洗手台又在漏水了，請找水電工來。"
+    },
+    {
+      "word": "skate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句將 skate 譯為玩滑板，動詞義項須涵蓋此用法。",
+      "fix": "溜冰；滑冰；玩滑板"
+    },
+    {
+      "word": "skate",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "名詞 skate 在此應指溜冰鞋，不應將滑板列為一般名詞義。",
+      "fix": "溜冰鞋"
+    },
+    {
+      "word": "skate",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "原句名詞 skate 被誤譯成滑板，改為輪子卡住的溜冰鞋情境，明確示範正確名詞義。",
+      "fix": "A wheel on my skate got stuck in a crack in the road."
+    },
+    {
+      "word": "skate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的溜冰鞋有一個輪子卡在路面的裂縫裡。"
+    },
+    {
+      "word": "ski",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "滑雪板本身不宜描述為 tight，應明確檢查固定器是否牢固，並示範常見的成對複數用法。",
+      "fix": "Put on your skis and check that the bindings are secure."
+    },
+    {
+      "word": "ski",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "穿上滑雪板，檢查固定器是否牢固。"
+    },
+    {
+      "word": "skinny",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 skinny jeans 指緊身牛仔褲，原義項只有形容身材瘦的意思。",
+      "fix": "很瘦的；瘦巴巴的；緊身的"
+    },
+    {
+      "word": "skinny",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "牛仔褲的量詞應用條，原譯一件牛仔褲不自然。",
+      "fix": "她在特價時買了一條緊身牛仔褲。"
+    }
+  ]
+}
