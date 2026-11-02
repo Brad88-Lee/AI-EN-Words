@@ -1,0 +1,329 @@
+{
+  "batch": "N0020",
+  "checked": 50,
+  "reviewed": [
+    "responsibility",
+    "restrict",
+    "reveal",
+    "ribbon",
+    "rid",
+    "ripe",
+    "risk",
+    "roar",
+    "roast",
+    "robbery",
+    "robe",
+    "rocket",
+    "rot",
+    "rotten",
+    "rough",
+    "roughly",
+    "routine",
+    "rug",
+    "rumor",
+    "rust",
+    "sack",
+    "sake",
+    "salary",
+    "satisfactory",
+    "sauce",
+    "sausage",
+    "saving",
+    "scarce",
+    "scary",
+    "scatter",
+    "scholar",
+    "scholarship",
+    "scientific",
+    "scissors",
+    "scout",
+    "scream",
+    "scrub",
+    "seal",
+    "security",
+    "senior",
+    "sensible",
+    "separation",
+    "sexual",
+    "sexy",
+    "shadow",
+    "shallow",
+    "shampoo",
+    "shepherd",
+    "shiny",
+    "shorten"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "roar",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句描述觀眾進球時歡呼，釋義未列出人群歡呼的用法。",
+      "fix": "吼叫；歡呼；轟鳴"
+    },
+    {
+      "word": "roar",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用體育場的歡呼聲義，只有動物吼聲與機械轟鳴聲未清楚涵蓋。",
+      "fix": "吼聲；轟鳴聲；歡呼聲"
+    },
+    {
+      "word": "roast",
+      "path": "senses[1].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "原句 roast 直接修飾 beef，屬形容詞用法，應改為獨立名詞以示範一塊烤肉。",
+      "fix": "The family shared a large roast with potatoes for Sunday lunch."
+    },
+    {
+      "word": "roast",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "全家人星期天午餐一起分食一大塊烤肉，搭配馬鈴薯。"
+    },
+    {
+      "word": "robbery",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "robbery 指涉及武力或威脅的搶劫，不能泛指不一定涉及武力的盜竊。",
+      "fix": "搶劫；搶案"
+    },
+    {
+      "word": "rocket",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為航太火箭或其模型，沒有使用煙火「沖天炮」義。",
+      "fix": "火箭"
+    },
+    {
+      "word": "rocket",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上假期銷售額上升的具體原因。",
+      "fix": "Sales rocketed during the holiday season after the store offered discounts."
+    },
+    {
+      "word": "rocket",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "商店推出折扣後，銷售額在假期期間急遽攀升。"
+    },
+    {
+      "word": "rot",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "蛀牙的典型用語為 tooth decay，tooth rot 不適合作為常用搭配教材，改為木材腐朽的名詞用法。",
+      "fix": "Inspect the wooden window frames regularly for signs of rot."
+    },
+    {
+      "word": "rot",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "定期檢查木製窗框是否有腐朽的跡象。"
+    },
+    {
+      "word": "rough",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "give me a rough idea of the cost 指告知大概費用，「給我一個費用」搭配不自然。",
+      "fix": "你可以告訴我大概需要多少費用嗎？"
+    },
+    {
+      "word": "routine",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "原句 routine 直接修飾 tests，屬形容詞用法，並未示範名詞義。",
+      "fix": "The new employee quickly adjusted to the routine of office work."
+    },
+    {
+      "word": "routine",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "新員工很快就適應了辦公室工作的日常作息。"
+    },
+    {
+      "word": "routine",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為例行或日常活動，未明確使用令人厭煩的「乏味的」意思。",
+      "fix": "例行的；日常的"
+    },
+    {
+      "word": "sake",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "名詞釋義不宜列介系詞用語「為了」；三句均涉及為某人的利益著想。",
+      "fix": "緣故；利益"
+    },
+    {
+      "word": "sausage",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為一般香腸，未示範醃製風乾的臘腸。",
+      "fix": "香腸"
+    },
+    {
+      "word": "scholar",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指研究或參加學術研討會的學者，沒有獎學金得主的用法。",
+      "fix": "學者"
+    },
+    {
+      "word": "seal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句 wax seal 是封蠟留下的封印，不是用來蓋印的印章工具。",
+      "fix": "海豹；封印；封條"
+    },
+    {
+      "word": "seal",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "high",
+      "detail": "sealed the deal 表示敲定交易，不一定涉及實際簽署文件，不能直接等同簽訂。",
+      "fix": "密封；封上；敲定"
+    },
+    {
+      "word": "security",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "安全維護人員或勤務的 security 在台灣慣稱保全，不用保安。",
+      "fix": "安全；保全；保障"
+    },
+    {
+      "word": "senior",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上高中畢業後升學的具體情境。",
+      "fix": "The seniors will graduate in June and begin college in September."
+    },
+    {
+      "word": "senior",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "畢業班學生六月畢業，九月開始上大學。"
+    },
+    {
+      "word": "senior",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上年齡與共同興趣的比較情境。",
+      "fix": "He is ten years my senior but shares many of my interests."
+    },
+    {
+      "word": "senior",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他比我年長十歲，卻和我有許多共同興趣。"
+    },
+    {
+      "word": "sensible",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 sensible shoes 指實用、適合步行的鞋子，釋義未列實用義。",
+      "fix": "明智的；理智的；合理的；實用的"
+    },
+    {
+      "word": "sexual",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 sexual reproduction 是有性生殖，與原釋義中一般性或性別不同，應明列此生物學用法。",
+      "fix": "性的；有關性別的；有性生殖的"
+    },
+    {
+      "word": "sexual",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句僅 6 字且 reproduce 與 reproduction 重複，改為有性生殖的具體生物學特徵。",
+      "fix": "Sexual reproduction allows offspring to inherit traits from two parents."
+    },
+    {
+      "word": "sexual",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "有性生殖使後代能從雙親遺傳特徵。"
+    },
+    {
+      "word": "shadow",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句為員工跟隨資深同仁見習，並非秘密跟蹤或遮蔽，應列出職場用法。",
+      "fix": "跟蹤；遮蔽；跟隨見習"
+    },
+    {
+      "word": "shampoo",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆以 shampoo 指洗髮精產品，沒有名詞洗髮活動的用法。",
+      "fix": "洗髮精"
+    },
+    {
+      "word": "shampoo",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句指用清潔劑洗刷地毯，原釋義只有洗髮，未涵蓋物品清洗。",
+      "fix": "洗髮；用清潔劑洗刷"
+    },
+    {
+      "word": "shampoo",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "every other day 是每隔一天的固定頻率，「隔天洗一次」容易讀成只在次日洗一次。",
+      "fix": "她每隔一天洗一次頭髮。"
+    },
+    {
+      "word": "shepherd",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "bus 未限定為遊覽車，應避免自行加上車輛用途。",
+      "fix": "老師引導學生們登上巴士。"
+    }
+  ]
+}
