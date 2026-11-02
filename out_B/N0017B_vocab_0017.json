@@ -1,0 +1,371 @@
+{
+  "batch": "N0017",
+  "checked": 50,
+  "reviewed": [
+    "mental",
+    "merry",
+    "mess",
+    "microphone",
+    "mighty",
+    "miracle",
+    "misery",
+    "missile",
+    "mission",
+    "mist",
+    "mob",
+    "mobile",
+    "moist",
+    "moisture",
+    "monk",
+    "moral",
+    "motel",
+    "moth",
+    "motor",
+    "multiply",
+    "murder",
+    "muscle",
+    "mushroom",
+    "mystery",
+    "naked",
+    "nap",
+    "native",
+    "navy",
+    "neat",
+    "necessity",
+    "neighborhood",
+    "nickname",
+    "normal",
+    "novelist",
+    "nun",
+    "oak",
+    "observe",
+    "occasion",
+    "odd",
+    "onto",
+    "opposite",
+    "optimistic",
+    "oral",
+    "organic",
+    "original",
+    "outdoor",
+    "outdoors",
+    "outer",
+    "outline",
+    "owe"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "missile",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "threw it across the room 表示丟到房間另一頭，「丟過房間」不自然。",
+      "fix": "孩子們做了一支紙飛彈，把它丟到房間的另一頭。"
+    },
+    {
+      "word": "mob",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為粉絲、購物者等聚集的人群，沒有明確示範使用暴力的「暴民」。",
+      "fix": "一大群人"
+    },
+    {
+      "word": "mobile",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句形容高齡者能自如行動，僅列可移動的或行動的不足以說明此用法。",
+      "fix": "可移動的；行動的；行動自如的"
+    },
+    {
+      "word": "mobile",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "形容人的 mobile 指能自如行動，「行動很方便」容易誤解為交通便利。",
+      "fix": "我爺爺八十歲了，行動仍然很自如。"
+    },
+    {
+      "word": "motel",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "checked in 表示辦理入住手續，「辦理了入住」缺少自然的受詞搭配。",
+      "fix": "開了很久的車之後，我們在汽車旅館辦理了入住手續。"
+    },
+    {
+      "word": "muscle",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上游泳所鍛鍊的身體部位。",
+      "fix": "Swimming helps build strong muscles in your arms and legs."
+    },
+    {
+      "word": "muscle",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "游泳有助於鍛鍊出強健的手臂與腿部肌肉。"
+    },
+    {
+      "word": "native",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上使用第二語言的實際情境。",
+      "fix": "English is not my native language, but I use it at work."
+    },
+    {
+      "word": "native",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "英文不是我的母語，但我工作時會使用英文。"
+    },
+    {
+      "word": "native",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上當地人熟悉城市的情境。",
+      "fix": "He is a native of Taipei who knows the city well."
+    },
+    {
+      "word": "native",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他是台北人，對這座城市很熟悉。"
+    },
+    {
+      "word": "navy",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "原句 navy 直接修飾 jacket，屬形容詞用法；改用 in navy 明確示範名詞的顏色義。",
+      "fix": "She chose a jacket in navy for the school trip."
+    },
+    {
+      "word": "navy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她為校外旅行挑了一件海軍藍的外套。"
+    },
+    {
+      "word": "nickname",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以身高取「矮子」的綽號容易涉及外貌嘲弄，改為中性的跑步特長情境。",
+      "fix": "His classmates nicknamed him Speedy because he ran so fast."
+    },
+    {
+      "word": "nickname",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他的同學因為他跑得很快而給他取了「飛毛腿」的綽號。"
+    },
+    {
+      "word": "oak",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上松鼠收集橡實的目的。",
+      "fix": "Squirrels collected acorns under the oak to store for winter."
+    },
+    {
+      "word": "oak",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "松鼠在橡樹下收集橡實，準備儲存起來過冬。"
+    },
+    {
+      "word": "observe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "植物應用「它們」指稱，不應使用動物代名詞「牠們」。",
+      "fix": "學生們觀察植物，並記錄它們的生長情況。"
+    },
+    {
+      "word": "observe",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上遵守校規的具體目的。",
+      "fix": "Everyone must observe the school rules to keep the campus safe."
+    },
+    {
+      "word": "observe",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "每個人都必須遵守校規，維護校園安全。"
+    },
+    {
+      "word": "observe",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "observe 是抽象的觀察動作，放大鏡是相關工具，不能直接代表第一義項。",
+      "fix": null
+    },
+    {
+      "word": "occasion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆表示場合、時刻或某次事件，沒有使用做某事的「機會」義。",
+      "fix": "場合；時刻"
+    },
+    {
+      "word": "odd",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一個意思是抽象的奇怪，例句也包含零工，僅列學校分類不能涵蓋主要用法。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "onto",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上貓跳上桌子的具體目的。",
+      "fix": "The cat jumped onto the table to reach the food."
+    },
+    {
+      "word": "onto",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那隻貓跳到桌子上，想吃到食物。"
+    },
+    {
+      "word": "opposite",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the opposite word of cold 搭配不自然，改用 opposite opinions 示範形容詞相反的用法。",
+      "fix": "The two students expressed opposite opinions during the class discussion."
+    },
+    {
+      "word": "opposite",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "兩名學生在課堂討論中表達了相反的看法。"
+    },
+    {
+      "word": "optimistic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上面對困難仍樂觀的情境。",
+      "fix": "She is optimistic about the future despite her recent difficulties."
+    },
+    {
+      "word": "optimistic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "儘管最近遇到困難，她對未來仍很樂觀。"
+    },
+    {
+      "word": "oral",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "keeps your oral health good 搭配生硬，改用 maintain good oral health。",
+      "fix": "Brushing your teeth twice a day helps maintain good oral health."
+    },
+    {
+      "word": "oral",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "每天刷牙兩次有助於維持良好的口腔健康。"
+    },
+    {
+      "word": "organic",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句使用有機農產品與肥料的意思，沒有使用與生物體相關的「有機體的」義。",
+      "fix": "有機的"
+    },
+    {
+      "word": "original",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 in the original 表示以原文閱讀，原作與原件未清楚涵蓋語言上的原文義。",
+      "fix": "原作；原件；原文"
+    },
+    {
+      "word": "outdoor",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上喜愛健行的原因。",
+      "fix": "Hiking is my favorite outdoor activity because I enjoy mountain scenery."
+    },
+    {
+      "word": "outdoor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "健行是我最喜歡的戶外活動，因為我喜歡山景。"
+    },
+    {
+      "word": "outline",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是抽象的「大綱」，drawing an outline 容易對應第二個意思「輪廓」。",
+      "fix": null
+    },
+    {
+      "word": "owe",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上預定還款時間的日常情境。",
+      "fix": "I owe my brother ten dollars and will repay him tomorrow."
+    },
+    {
+      "word": "owe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我欠哥哥十塊錢，明天會還給他。"
+    }
+  ]
+}
