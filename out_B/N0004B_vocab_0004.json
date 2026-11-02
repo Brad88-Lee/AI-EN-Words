@@ -1,0 +1,497 @@
+{
+  "batch": "N0004",
+  "checked": 50,
+  "reviewed": [
+    "confucius",
+    "dad",
+    "england",
+    "europe",
+    "european",
+    "everybody",
+    "france",
+    "germany",
+    "good-looking",
+    "her",
+    "heroine",
+    "herself",
+    "him",
+    "himself",
+    "hostess",
+    "hualian",
+    "its",
+    "itself",
+    "japan",
+    "japanese",
+    "kaohsiung",
+    "korea",
+    "korean",
+    "ktv",
+    "left-hand",
+    "mandarin",
+    "me",
+    "might",
+    "myself",
+    "ourselves",
+    "philippines",
+    "phone",
+    "plane",
+    "policewoman",
+    "right-hand",
+    "russia",
+    "salesperson",
+    "singapore",
+    "somebody",
+    "taichung",
+    "tainan",
+    "taiwanese",
+    "thanksgiving",
+    "them",
+    "themselves",
+    "treatment",
+    "tv",
+    "we",
+    "would",
+    "yeah"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "confucius",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "learned about 指學習相關知識，學到了孔子的搭配不自然。",
+      "fix": "我們在歷史課上學習了與孔子有關的知識。"
+    },
+    {
+      "word": "england",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "England 精確指英格蘭，不能與包含其他構成國的英國等同。",
+      "fix": "英格蘭"
+    },
+    {
+      "word": "england",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "England 應譯為英格蘭，原譯英國未保留地理範圍。",
+      "fix": "我的表哥正在英格蘭念商學。"
+    },
+    {
+      "word": "europe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "close to each other 表示距離相近，不一定表示國界彼此相鄰。",
+      "fix": "歐洲有許多彼此距離相近的國家。"
+    },
+    {
+      "word": "europe",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "traveled around 不表示已遊遍整個歐洲，原譯範圍過度擴大。",
+      "fix": "他們去年夏天搭火車在歐洲各地旅行。"
+    },
+    {
+      "word": "european",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She enjoys European history and art and often visits museums."
+    },
+    {
+      "word": "european",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她喜歡歐洲的歷史與藝術，經常參觀博物館。"
+    },
+    {
+      "word": "european",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This restaurant serves traditional European food made with fresh local ingredients."
+    },
+    {
+      "word": "european",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這家餐廳供應以新鮮當地食材製作的傳統歐洲料理。"
+    },
+    {
+      "word": "germany",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Germany is known for making cars sold around the world."
+    },
+    {
+      "word": "germany",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "德國以製造銷往世界各地的汽車聞名。"
+    },
+    {
+      "word": "her",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "read aloud 指朗讀出聲，不一定要求提高音量，原譯大聲容易誤導。",
+      "fix": "老師請她把故事朗讀出來。"
+    },
+    {
+      "word": "her",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Her bag is under the desk next to the window."
+    },
+    {
+      "word": "her",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她的書包在窗邊的書桌底下。"
+    },
+    {
+      "word": "her",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Her new teacher is very friendly and answers questions patiently."
+    },
+    {
+      "word": "her",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她的新老師非常友善，會耐心回答問題。"
+    },
+    {
+      "word": "herself",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Mary bought herself a new notebook for her science class."
+    },
+    {
+      "word": "herself",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "瑪莉為了上自然課，幫自己買了一本新筆記本。"
+    },
+    {
+      "word": "herself",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She made the cake by herself for her mother's birthday."
+    },
+    {
+      "word": "herself",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這個蛋糕是她為媽媽生日獨自做的。"
+    },
+    {
+      "word": "himself",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "He cut himself while cooking dinner and put on a bandage."
+    },
+    {
+      "word": "himself",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他煮晚餐時割傷了自己，並用繃帶包紮。"
+    },
+    {
+      "word": "himself",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The boy dressed himself for school without any help from his parents."
+    },
+    {
+      "word": "himself",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這個男孩沒讓父母幫忙，自己穿好衣服去上學。"
+    },
+    {
+      "word": "hostess",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "餐廳帶位的 hostess 是接待員，原譯女服務生未精確區分接待帶位與一般餐飲服務。",
+      "fix": "女主人；女接待員；女主持人"
+    },
+    {
+      "word": "hostess",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "此處 hostess 的工作是餐廳接待帶位，宜明確譯為女接待員。",
+      "fix": "一位女接待員帶我們到靠窗的座位。"
+    },
+    {
+      "word": "hostess",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "restaurant hostess 對應餐廳接待員，未對應第一個意思女主人。",
+      "fix": null
+    },
+    {
+      "word": "itself",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The door closed by itself when a strong wind blew."
+    },
+    {
+      "word": "itself",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "一陣強風吹來時，門自己關上了。"
+    },
+    {
+      "word": "korea",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句都以韓國為情境，未示範朝鮮半島的整體地理義。",
+      "fix": "韓國"
+    },
+    {
+      "word": "korean",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "alphabet 指一套字母系統，不是單一字母或字母的一種類型。",
+      "fix": "韓語是用一套特殊的字母系統書寫的。"
+    },
+    {
+      "word": "left-hand",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "指引轉向宜使用 left-hand turn，原句 left-hand corner 的方向搭配不自然。",
+      "fix": "Take the next left-hand turn to reach the bank."
+    },
+    {
+      "word": "left-hand",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "在下一個路口左轉就能到銀行。"
+    },
+    {
+      "word": "left-hand",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "left-hand finger 不是表達左手手指的自然搭配，改用典型的 left-hand glove。",
+      "fix": "He lost his left-hand glove while walking home from school."
+    },
+    {
+      "word": "left-hand",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他放學走路回家時，弄丟了左手的手套。"
+    },
+    {
+      "word": "mandarin",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "low",
+      "detail": "國語與普通話在此重複列出同一語言，且例句使用台灣慣用的國語。",
+      "fix": "國語；橘子"
+    },
+    {
+      "word": "mandarin",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She teaches Mandarin to foreign students at a local university."
+    },
+    {
+      "word": "mandarin",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她在當地的一所大學教外國學生國語。"
+    },
+    {
+      "word": "myself",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "I prepared this lunch myself before leaving for school."
+    },
+    {
+      "word": "myself",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "出門上學前，我自己準備了這份午餐。"
+    },
+    {
+      "word": "philippines",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My neighbor comes from the Philippines and teaches English nearby."
+    },
+    {
+      "word": "philippines",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的鄰居來自菲律賓，在附近教英文。"
+    },
+    {
+      "word": "plane",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句全部使用飛機義，沒有平面的幾何義。",
+      "fix": "飛機"
+    },
+    {
+      "word": "right-hand",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "right-hand fingers 不是表達右手手指的自然搭配，改用典型的 right-hand glove。",
+      "fix": "He lost his right-hand glove on the way to school."
+    },
+    {
+      "word": "right-hand",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他上學途中弄丟了右手的手套。"
+    },
+    {
+      "word": "taiwanese",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "fried chicken 泛指炸雞，不限於雞排，原譯額外縮小食物範圍。",
+      "fix": "我愛台灣的街頭小吃，尤其是炸雞。"
+    },
+    {
+      "word": "them",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "I will call them after dinner to discuss our travel plans."
+    },
+    {
+      "word": "them",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "晚餐後我會打電話給他們，討論我們的旅行計畫。"
+    },
+    {
+      "word": "them",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The teacher gave them some homework to finish before Friday."
+    },
+    {
+      "word": "them",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "老師給了他們一些要在星期五之前完成的功課。"
+    },
+    {
+      "word": "themselves",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，且原譯將 room 擅自限定為教室，修正時一併保留房間的原義。",
+      "fix": "The students cleaned the room themselves after the birthday party."
+    },
+    {
+      "word": "themselves",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "生日派對後，學生們自己打掃了房間。"
+    },
+    {
+      "word": "tv",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "We watch TV together after dinner in the living room."
+    },
+    {
+      "word": "tv",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們晚餐後會一起在客廳看電視。"
+    }
+  ]
+}
