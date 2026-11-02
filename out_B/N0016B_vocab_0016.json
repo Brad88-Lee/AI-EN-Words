@@ -1,0 +1,369 @@
+{
+  "batch": "N0016",
+  "checked": 50,
+  "reviewed": [
+    "junk",
+    "keyboard",
+    "kidney",
+    "kit",
+    "knight",
+    "knit",
+    "knot",
+    "label",
+    "lace",
+    "ladder",
+    "lately",
+    "laughter",
+    "laundry",
+    "lawn",
+    "leak",
+    "leap",
+    "learning",
+    "leather",
+    "leisure",
+    "lemonade",
+    "leopard",
+    "liberty",
+    "lifetime",
+    "lighthouse",
+    "lily",
+    "limb",
+    "litter",
+    "lively",
+    "lobby",
+    "locate",
+    "location",
+    "log",
+    "loose",
+    "lord",
+    "luggage",
+    "lung",
+    "magical",
+    "magnet",
+    "maid",
+    "majority",
+    "mankind",
+    "marble",
+    "mathematical",
+    "mayor",
+    "meadow",
+    "meaningful",
+    "meanwhile",
+    "medal",
+    "melt",
+    "mend"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "knight",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指穿盔甲的中世紀騎士，沒有使用現代受封「爵士」的意思。",
+      "fix": "騎士"
+    },
+    {
+      "word": "knot",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上打結修補漁網的明確目的。",
+      "fix": "The fisherman knotted the broken threads to repair his net."
+    },
+    {
+      "word": "knot",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "漁夫把斷掉的線打結，修補他的漁網。"
+    },
+    {
+      "word": "label",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "label every picture 是為每張圖片加上標示，「標明每一張圖片」沒有清楚表達此動作。",
+      "fix": "學生必須為報告中的每張圖片加上標示。"
+    },
+    {
+      "word": "ladder",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為可搬移、攀爬的梯子，未使用「階梯」義。",
+      "fix": "梯子"
+    },
+    {
+      "word": "lately",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上忙碌的具體原因。",
+      "fix": "I have been very busy lately preparing for my final exams."
+    },
+    {
+      "word": "lately",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我最近一直忙著準備期末考。"
+    },
+    {
+      "word": "laundry",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為洗衣活動、待洗衣物及洗衣服務，沒有以 laundry 指洗衣店的用法。",
+      "fix": "待洗衣物；洗衣"
+    },
+    {
+      "word": "laundry",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上家庭分工的日常情境。",
+      "fix": "I do the laundry every weekend while my brother cleans the kitchen."
+    },
+    {
+      "word": "laundry",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "每個週末我洗衣服，哥哥則打掃廚房。"
+    },
+    {
+      "word": "leak",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「修好了瓦斯外洩」搭配不自然，應明確表達修復漏氣問題。",
+      "fix": "水電工很快就修復了瓦斯漏氣的問題。"
+    },
+    {
+      "word": "leap",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 my heart leaped 指心臟猛然跳動，釋義未列出；三句未使用進步的「躍進」義。",
+      "fix": "跳躍；猛然跳動"
+    },
+    {
+      "word": "leap",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "leap year 是「閏年」的固定詞組，沒有示範此名詞義項所列的跳躍或飛躍。",
+      "fix": "With one leap, the dog cleared the low garden fence."
+    },
+    {
+      "word": "leap",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "狗縱身一躍，就跳過了花園的低矮圍籬。"
+    },
+    {
+      "word": "learning",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為學習活動，沒有使用知識或學識的「學問」義。",
+      "fix": "學習"
+    },
+    {
+      "word": "limb",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "left limb 未指明是左手或左腳，醫療情境中部位含糊，改為明確的雙下肢。",
+      "fix": "The patient could not move either of his lower limbs."
+    },
+    {
+      "word": "limb",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那位病人的雙下肢都無法動彈。"
+    },
+    {
+      "word": "litter",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上登山時自行帶走垃圾的具體做法。",
+      "fix": "Don't litter on the mountain trail; carry your trash back down."
+    },
+    {
+      "word": "litter",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "不要在登山步道上亂丟垃圾，請把垃圾帶下山。"
+    },
+    {
+      "word": "lively",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 lively talk 指熱烈的交談，未列此義；三句也沒有使用描述呈現方式的「生動的」義。",
+      "fix": "活潑的；熱烈的；熱鬧的"
+    },
+    {
+      "word": "locate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句使用找出位置或位於的意思，沒有示範主動「設置」設施的用法。",
+      "fix": "找出位置；位於"
+    },
+    {
+      "word": "log",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "wrote the trip 搭配不自然，應表示記錄航程的細節。",
+      "fix": "The captain recorded details of the voyage in the ship's log."
+    },
+    {
+      "word": "log",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "船長把這趟航程的細節記錄在航海日誌裡。"
+    },
+    {
+      "word": "log",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "中文漏譯 every day 的每日頻率。",
+      "fix": "請每天記錄你的工作時數。"
+    },
+    {
+      "word": "lord",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為領主或貴族爵位，未使用指上帝的宗教義。",
+      "fix": "領主；勳爵"
+    },
+    {
+      "word": "magnet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "high",
+      "detail": "第三句 magnet 比喻能吸引人的地方或事物，不是抽象的吸引力本身。",
+      "fix": "磁鐵；有吸引力的人或事物"
+    },
+    {
+      "word": "maid",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "飯店中打掃房間的 maid 是房務人員，僅譯女服務員容易與餐飲服務人員混淆。",
+      "fix": "這名女房務人員每天早上打掃飯店房間。"
+    },
+    {
+      "word": "majority",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「以大多數票數通過」有冗詞，應直接說以大多數票通過。",
+      "fix": "這項計畫以大多數票通過。"
+    },
+    {
+      "word": "mankind",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上研究人類歷史的具體方法。",
+      "fix": "Scientists study the history of mankind by examining ancient tools and bones."
+    },
+    {
+      "word": "mankind",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "科學家透過研究古代工具和骨骼來了解人類的歷史。"
+    },
+    {
+      "word": "marble",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是大理石，glass marbles 卻對應第二個意思彈珠。",
+      "fix": "white marble"
+    },
+    {
+      "word": "mathematical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆表示與數學相關，未使用非數學事物「精確的」意思。",
+      "fix": "數學的"
+    },
+    {
+      "word": "meaningful",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「隔著房間給了我一個眼神」語句生硬，across the room 應表示從房間另一頭望向對方。",
+      "fix": "她從房間另一頭對我投以意味深長的眼神。"
+    },
+    {
+      "word": "medal",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為運動比賽獎牌，沒有示範表彰功績的勳章。",
+      "fix": "獎牌"
+    },
+    {
+      "word": "melt",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上春季氣溫變化的具體情境。",
+      "fix": "Snow melts quickly when spring brings warmer weather to the mountains."
+    },
+    {
+      "word": "melt",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "春天為山區帶來較暖的天氣時，雪很快就會融化。"
+    },
+    {
+      "word": "melt",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上烹調程序的具體步驟。",
+      "fix": "Heat the butter gently until it melts, then add the flour."
+    },
+    {
+      "word": "melt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "用小火加熱奶油直到融化，再加入麵粉。"
+    }
+  ]
+}
