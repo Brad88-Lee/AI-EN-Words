@@ -1,0 +1,401 @@
+{
+  "batch": "N0009",
+  "checked": 50,
+  "reviewed": [
+    "determine",
+    "election",
+    "element",
+    "export",
+    "gasoline",
+    "hometown",
+    "import",
+    "injury",
+    "investigate",
+    "lover",
+    "melon",
+    "missing",
+    "monthly",
+    "opportunity",
+    "organize",
+    "photographer",
+    "product",
+    "protection",
+    "scale",
+    "volume",
+    "voter",
+    "waterfall",
+    "weapon",
+    "weekly",
+    "widen",
+    "yearly",
+    "aboard",
+    "acceptable",
+    "accurate",
+    "ache",
+    "additional",
+    "advanced",
+    "advertise",
+    "adviser",
+    "afford",
+    "afterward",
+    "agriculture",
+    "alley",
+    "amaze",
+    "ambassador",
+    "ambition",
+    "announce",
+    "anxious",
+    "anyhow",
+    "apart",
+    "appeal",
+    "approve",
+    "apron",
+    "ash",
+    "aside"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "monthly",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The magazine comes out monthly and includes interviews with local artists."
+    },
+    {
+      "word": "monthly",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這本雜誌每月出刊一次，收錄了當地藝術家的訪談。"
+    },
+    {
+      "word": "monthly",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Rent is paid monthly, not yearly, under our rental agreement."
+    },
+    {
+      "word": "monthly",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "依照我們的租約，租金按月支付，而不是按年。"
+    },
+    {
+      "word": "product",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句只有商品與數學乘積，未示範抽象結果的產物義。",
+      "fix": "產品；乘積"
+    },
+    {
+      "word": "scale",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "第三句使用比例尺，原列刻度與鱗片均未由三句示範，須以實際用法修正。",
+      "fix": "規模；磅秤；比例尺"
+    },
+    {
+      "word": "scale",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 scale up its business 指擴大營業規模，不是圖像的按比例縮放。",
+      "fix": "攀登；按比例縮放；擴大規模"
+    },
+    {
+      "word": "scale",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "kitchen scale 對應後列的磅秤，而非第一個抽象意思規模。",
+      "fix": null
+    },
+    {
+      "word": "volume",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句問水瓶容積，中文義項須同時涵蓋容器容量而不只物體體積。",
+      "fix": "音量；冊；體積；容積"
+    },
+    {
+      "word": "volume",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This dictionary has two volumes with clear examples for beginners."
+    },
+    {
+      "word": "volume",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這部字典共有兩冊，提供適合初學者的清楚例句。"
+    },
+    {
+      "word": "voter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "投票證件規定因地區而異，原句未限定地區，補明台灣情境以免被當成全球通則。",
+      "fix": "Every voter in Taiwan must bring an ID card to the polling station."
+    },
+    {
+      "word": "voter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "台灣的每位選民都必須攜帶身分證到投票所。"
+    },
+    {
+      "word": "weekly",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The newsletter is sent out weekly to all club members."
+    },
+    {
+      "word": "weekly",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這份會訊每週寄給所有社團成員一次。"
+    },
+    {
+      "word": "weekly",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "He calls his grandmother weekly to ask about her health."
+    },
+    {
+      "word": "weekly",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他每週打電話給奶奶，關心她的健康。"
+    },
+    {
+      "word": "yearly",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "You should see a dentist yearly to check your teeth."
+    },
+    {
+      "word": "yearly",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你應該每年看一次牙醫，檢查牙齒。"
+    },
+    {
+      "word": "yearly",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The report is updated yearly to include the latest sales figures."
+    },
+    {
+      "word": "yearly",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這份報告每年更新一次，納入最新的銷售數據。"
+    },
+    {
+      "word": "aboard",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Welcome aboard! Please find your seat and fasten your seat belt."
+    },
+    {
+      "word": "aboard",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "歡迎登機！請找到您的座位，並繫好安全帶。"
+    },
+    {
+      "word": "aboard",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "by noon 包含中午這個時點，譯為到中午時較精確。",
+      "fix": "到中午時，所有乘客都已登船。"
+    },
+    {
+      "word": "aboard",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "We had lunch aboard the train while traveling to Kaohsiung."
+    },
+    {
+      "word": "aboard",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們搭車前往高雄時，在火車上吃了午餐。"
+    },
+    {
+      "word": "aboard",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Many tourists were aboard the ferry when it left the harbor."
+    },
+    {
+      "word": "aboard",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "渡輪離港時，船上有許多遊客。"
+    },
+    {
+      "word": "accurate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This watch keeps accurate time even after years of daily use."
+    },
+    {
+      "word": "accurate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這支手錶即使每天使用多年，走時仍然很準。"
+    },
+    {
+      "word": "ache",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My legs ached after the marathon, so I rested at home."
+    },
+    {
+      "word": "ache",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "跑完馬拉松後，我的雙腿很痛，所以我在家休息。"
+    },
+    {
+      "word": "ache",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She ached to see her family again after a year abroad."
+    },
+    {
+      "word": "ache",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "在國外待了一年後，她渴望再次見到家人。"
+    },
+    {
+      "word": "advanced",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This phone uses advanced technology to take clear pictures at night."
+    },
+    {
+      "word": "advanced",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這支手機運用先進科技，在夜間拍出清晰的照片。"
+    },
+    {
+      "word": "advertise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "concert 泛指音樂會，原文未限定為歌唱表演的演唱會。",
+      "fix": "我們需要向更多學生宣傳這場音樂會。"
+    },
+    {
+      "word": "afford",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Many students can't afford expensive textbooks without financial help."
+    },
+    {
+      "word": "afford",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "很多學生若沒有經濟援助，就買不起昂貴的課本。"
+    },
+    {
+      "word": "agriculture",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "農業是抽象產業與學科，farm field crops 描述相關農田與作物，依規則應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "ambassador",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "台灣駐日職稱為代表，原句誤稱大使；改為具有正式大使職務的外交情境。",
+      "fix": "Japan's ambassador to France met the local mayor."
+    },
+    {
+      "word": "ambassador",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "日本駐法國大使會見了當地市長。"
+    }
+  ]
+}
