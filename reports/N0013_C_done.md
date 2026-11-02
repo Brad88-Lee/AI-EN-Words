@@ -1,0 +1,15 @@
+ROUND: N0013
+STAGE: C
+AGENT: claude
+ATTEMPT: 1
+OUTPUT: out_C/N0013C_vocab_0013.json
+GATE-C: PASS｜筆數 50/50｜套用 51｜跳過 0｜null 0/0
+MODEL: unknown
+REPORTED_AT: 2026-11-02T21:30:00+08:00
+---
+```json
+{"a_count": 50, "c_count": 50, "applied": [{"word": "dislike", "path": "senses[0].examples[0].en"}, {"word": "dislike", "path": "senses[0].examples[0].zh"}, {"word": "ditch", "path": "senses[0].zh"}, {"word": "ditch", "path": "senses[1].zh"}, {"word": "dock", "path": "senses[0].zh"}, {"word": "dock", "path": "senses[1].examples[1].en"}, {"word": "dock", "path": "senses[1].examples[1].zh"}, {"word": "dose", "path": "senses[0].examples[1].zh"}, {"word": "drain", "path": "senses[1].zh"}, {"word": "dramatic", "path": "topics"}, {"word": "drip", "path": "senses[1].zh"}, {"word": "drown", "path": "senses[0].examples[0].en"}, {"word": "drown", "path": "senses[0].examples[0].zh"}, {"word": "drown", "path": "senses[0].examples[1].en"}, {"word": "drown", "path": "senses[0].examples[1].zh"}, {"word": "drown", "path": "senses[0].zh"}, {"word": "dump", "path": "senses[0].examples[1].zh"}, {"word": "dust", "path": "senses[1].examples[2].en"}, {"word": "dust", "path": "senses[1].examples[2].zh"}, {"word": "echo", "path": "senses[0].examples[1].en"}, {"word": "echo", "path": "senses[0].examples[1].zh"}, {"word": "echo", "path": "senses[1].examples[0].en"}, {"word": "echo", "path": "senses[1].examples[0].zh"}, {"word": "echo", "path": "senses[1].zh"}, {"word": "editor", "path": "senses[0].zh"}, {"word": "educational", "path": "senses[0].examples[1].en"}, {"word": "educational", "path": "senses[0].examples[1].zh"}, {"word": "electronic", "path": "senses[0].examples[2].en"}, {"word": "electronic", "path": "senses[0].examples[2].zh"}, {"word": "emergency", "path": "senses[1].zh"}, {"word": "emotional", "path": "senses[0].zh"}, {"word": "engage", "path": "senses[0].zh"}, {"word": "entry", "path": "senses[0].zh"}, {"word": "exchange", "path": "senses[1].examples[2].en"}, {"word": "exchange", "path": "senses[1].examples[2].zh"}, {"word": "expectation", "path": "senses[0].examples[0].en"}, {"word": "expectation", "path": "senses[0].examples[0].zh"}, {"word": "experiment", "path": "senses[1].examples[0].en"}, {"word": "experiment", "path": "senses[1].examples[0].zh"}, {"word": "explode", "path": "senses[0].zh"}, {"word": "faint", "path": "senses[1].examples[0].en"}, {"word": "faint", "path": "senses[1].examples[0].zh"}, {"word": "fairly", "path": "senses[0].examples[1].en"}, {"word": "fairly", "path": "senses[0].examples[1].zh"}, {"word": "familiar", "path": "senses[0].zh"}, {"word": "familiar", "path": "senses[0].examples[0].en"}, {"word": "familiar", "path": "senses[0].examples[0].zh"}, {"word": "familiar", "path": "senses[0].examples[1].en"}, {"word": "familiar", "path": "senses[0].examples[1].zh"}, {"word": "fare", "path": "senses[0].examples[0].en"}, {"word": "fare", "path": "senses[0].examples[0].zh"}], "skipped": [], "extra_changes": [], "nulls": []}
+```
+---
+A 50 筆、C 50 筆。B 的 51 筆 issue 逐筆核對後全數套用（皆為對應欄位，英文改動的中文已由 B 同步）。
+無跳過、無額外修改、無 null 欄位。
