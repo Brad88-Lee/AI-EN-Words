@@ -4,11 +4,11 @@
  "total_rounds": 118,
  "stage": "C",
  "status": "waiting",
- "attempt": 1,
- "last_failure_report": null,
- "last_error_signature": null,
- "stage_started_at": "2026-11-02T09:02:11+08:00",
- "deadline_at": "2026-11-02T12:02:11+08:00",
+ "attempt": 2,
+ "last_failure_report": "attempts/N0001-C-try1/check_report.md",
+ "last_error_signature": "c2118990dd750ca7",
+ "stage_started_at": "2026-11-02T09:03:20+08:00",
+ "deadline_at": "2026-11-02T12:03:20+08:00",
  "last_ok_round": null,
  "skipped_rounds": [],
  "consecutive_human_rounds": 0,
@@ -17,7 +17,7 @@
   "N0001B": "94a90009d27fd2d8e3816e99f284546ebd2fe6e529dc878343fa6ef32a6fa540"
  },
  "open_issue": null,
- "updated_at": "2026-11-02T09:02:11+08:00",
+ "updated_at": "2026-11-02T09:03:20+08:00",
  "round_stats": {
   "started_at": "2026-11-02T00:51:33+08:00",
   "attempts": {
