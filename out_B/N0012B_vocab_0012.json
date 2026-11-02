@@ -1,0 +1,345 @@
+{
+  "batch": "N0012",
+  "checked": 50,
+  "reviewed": [
+    "communicate",
+    "comparison",
+    "compete",
+    "complaint",
+    "concert",
+    "conclusion",
+    "cone",
+    "connect",
+    "conscious",
+    "considerable",
+    "constant",
+    "continent",
+    "cooker",
+    "costly",
+    "cradle",
+    "crane",
+    "crash",
+    "crawl",
+    "creative",
+    "creator",
+    "creature",
+    "credit",
+    "crew",
+    "cricket",
+    "criminal",
+    "crispy",
+    "crop",
+    "crown",
+    "cupboard",
+    "dairy",
+    "dam",
+    "dare",
+    "darling",
+    "dash",
+    "decade",
+    "deck",
+    "deed",
+    "definition",
+    "deposit",
+    "designer",
+    "desirable",
+    "destroy",
+    "devil",
+    "dim",
+    "dime",
+    "dine",
+    "dip",
+    "dirt",
+    "discount",
+    "disk"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "compete",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "競爭同一個獎學金的搭配及量詞不自然，宜用爭取同一項獎學金。",
+      "fix": "許多學生爭取同一項獎學金。"
+    },
+    {
+      "word": "cone",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "orange traffic cone 對應後列的交通錐形物，第一個意思圓錐體應用幾何圖像呈現。",
+      "fix": "geometric cone"
+    },
+    {
+      "word": "cradle",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "until it was quiet 的 it 指涉不清，搖搖籃與四周安靜的關係不自然，改為明確的哄睡情境。",
+      "fix": "She gently rocked the cradle until the baby fell asleep."
+    },
+    {
+      "word": "cradle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她輕輕搖著搖籃，直到寶寶睡著。"
+    },
+    {
+      "word": "cradle",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The nurse cradled the baby carefully while checking his temperature."
+    },
+    {
+      "word": "cradle",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "護理師量體溫時，小心地托抱著寶寶。"
+    },
+    {
+      "word": "crash",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句只示範巨響、撞車與電腦當機，沒有墜毀義。",
+      "fix": "撞擊；巨響；當機"
+    },
+    {
+      "word": "crash",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個動詞例句分別為撞牆、當機與海浪拍打岩石，未示範墜毀義。",
+      "fix": "撞上；當機；拍打"
+    },
+    {
+      "word": "crawl",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "crawl 指捷泳，通常稱自由式，不是蛙式以外的所有泳法。",
+      "fix": "爬行；自由式"
+    },
+    {
+      "word": "creature",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句均為生物或動物，未示範稱呼人的傢伙義。",
+      "fix": "生物；動物"
+    },
+    {
+      "word": "credit",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示賒帳應使用 on credit，pay by credit 容易被理解成信用卡付款。",
+      "fix": "You can buy goods on credit at this shop."
+    },
+    {
+      "word": "credit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你可以在這家店賒帳購買商品。"
+    },
+    {
+      "word": "cricket",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "England 指英格蘭，原譯英國擴大了地理範圍。",
+      "fix": "板球在印度和英格蘭是很受歡迎的運動。"
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "He has no criminal record and hopes to work at a bank."
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他沒有犯罪紀錄，希望到銀行工作。"
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Stealing is a criminal act that can lead to serious consequences."
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "偷竊是可能造成嚴重後果的犯罪行為。"
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The lawyer works on criminal cases and often appears in court."
+    },
+    {
+      "word": "criminal",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這位律師處理刑事案件，經常出庭。"
+    },
+    {
+      "word": "dairy",
+      "path": "senses[0].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "原句 dairy 修飾 products，屬形容詞用法，未示範此處標示的名詞乳製品義。",
+      "fix": "She avoids dairy because milk and cheese upset her stomach."
+    },
+    {
+      "word": "dairy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她避免食用乳製品，因為牛奶和起司會讓她胃不舒服。"
+    },
+    {
+      "word": "darling",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My darling daughter just turned ten and celebrated with her classmates."
+    },
+    {
+      "word": "darling",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我親愛的女兒剛滿十歲，和同學們一起慶祝。"
+    },
+    {
+      "word": "darling",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Your darling puppy has big brown eyes and a tiny nose."
+    },
+    {
+      "word": "darling",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你那隻可愛的小狗有棕色的大眼睛和小巧的鼻子。"
+    },
+    {
+      "word": "dash",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "贏得了一百公尺短跑缺少比賽的語意成分，應自然表達在短跑比賽中獲勝。",
+      "fix": "他在學校的一百公尺短跑比賽中獲勝。"
+    },
+    {
+      "word": "designer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "a set of clothes 指一套衣服，原譯一系列擴大了數量與規模。",
+      "fix": "設計師向我們展示了一套新衣服。"
+    },
+    {
+      "word": "desirable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "值得想要的是不自然的直譯，可用既有的理想的與吸引人的精確呈現。",
+      "fix": "理想的；吸引人的"
+    },
+    {
+      "word": "devil",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 lucky devil 指走運的傢伙，並不表示道德上是壞蛋，原義項未涵蓋。",
+      "fix": "魔鬼；惡魔；傢伙"
+    },
+    {
+      "word": "dim",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 screen will dim 是不及物的變暗，原義項只有使變暗的及物用法。",
+      "fix": "使變暗；變暗"
+    },
+    {
+      "word": "dime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "十分錢硬幣不是台灣常用的幣值表達，宜稱一角硬幣。",
+      "fix": "一角硬幣"
+    },
+    {
+      "word": "dime",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "十分錢硬幣的幣值表達不自然，改以一角硬幣對應十美分。",
+      "fix": "在美國，一枚一角硬幣價值十美分。"
+    },
+    {
+      "word": "dime",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "十分錢硬幣不符合台灣常用說法，宜用一角硬幣。",
+      "fix": "他在人行道上撿到一枚一角硬幣。"
+    },
+    {
+      "word": "dime",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "十分錢硬幣不符合台灣常用說法，宜用一角硬幣。",
+      "fix": "我需要一枚一角硬幣來使用這台舊機器。"
+    },
+    {
+      "word": "dip",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "a quick dip 指短暫下水或游泳，不是以很快的動作泡水，原譯快速泡一下不自然。",
+      "fix": "我們去泳池裡游一下吧。"
+    }
+  ]
+}
