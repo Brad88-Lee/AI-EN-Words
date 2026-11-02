@@ -553,3 +553,5 @@
 📍(location)
 🧲(magnet)
 🏅(medal)
+✖️(multiply)
+🍄(mushroom)
