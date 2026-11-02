@@ -1,0 +1,129 @@
+{
+  "batch": "N0006",
+  "checked": 50,
+  "reviewed": [
+    "dumpling",
+    "elect",
+    "envy",
+    "fancy",
+    "fashionable",
+    "faucet",
+    "fence",
+    "flashlight",
+    "flour",
+    "flute",
+    "frank",
+    "freezer",
+    "frighten",
+    "garage",
+    "geography",
+    "gesture",
+    "golf",
+    "greedy",
+    "hammer",
+    "handkerchief",
+    "hanger",
+    "heater",
+    "hire",
+    "homesick",
+    "honesty",
+    "horrible",
+    "humid",
+    "humor",
+    "humorous",
+    "hunger",
+    "information",
+    "intelligent",
+    "interrupt",
+    "invent",
+    "invitation",
+    "jazz",
+    "jealous",
+    "jeep",
+    "kangaroo",
+    "kilometer",
+    "kindergarten",
+    "kingdom",
+    "koala",
+    "lettuce",
+    "lick",
+    "lightning",
+    "loaf",
+    "lock",
+    "loser",
+    "magician"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "flashlight",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "in case 表示預備應付可能停電，不是帶手電筒可以避免停電。",
+      "fix": "帶一支手電筒，以備停電時使用。"
+    },
+    {
+      "word": "geography",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思地理是抽象學科，world map 是相關教材而非該義本身，依規則應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "gesture",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "揮手作為道別的手勢搭配生硬且重複，應自然表達為揮手示意道別。",
+      "fix": "他揮手示意道別。"
+    },
+    {
+      "word": "gesture",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "比向不是自然的台灣中文搭配，應明確表達朝空桌比手勢。",
+      "fix": "服務生朝窗邊的空桌比了個手勢。"
+    },
+    {
+      "word": "humid",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "humid 本身僅指潮濕，並不包含炎熱；第一句另外使用 hot 才表示熱。",
+      "fix": "潮濕的"
+    },
+    {
+      "word": "invitation",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "wedding invitation card 對應後列的邀請函，不是第一個抽象意思邀請。",
+      "fix": null
+    },
+    {
+      "word": "jazz",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "爵士樂是抽象的音樂類型，jazz band 描述樂團而非音樂本身，依規則應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "kingdom",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "王國是政治或地理實體，山丘上的城堡不等於王國，不能直接代表第一義項。",
+      "fix": null
+    }
+  ]
+}
