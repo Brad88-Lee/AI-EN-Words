@@ -1,0 +1,803 @@
+{
+  "batch": "N0018",
+  "checked": 50,
+  "reviewed": [
+    "owl",
+    "ownership",
+    "pad",
+    "pal",
+    "palace",
+    "palm",
+    "pancake",
+    "panic",
+    "parade",
+    "paradise",
+    "parcel",
+    "passage",
+    "passion",
+    "passport",
+    "pat",
+    "patience",
+    "pave",
+    "pea",
+    "peanut",
+    "pearl",
+    "peel",
+    "penguin",
+    "penny",
+    "perform",
+    "performance",
+    "permission",
+    "permit",
+    "persuade",
+    "pill",
+    "pilot",
+    "pine",
+    "pint",
+    "pit",
+    "pitch",
+    "pity",
+    "plastic",
+    "plenty",
+    "plug",
+    "pole",
+    "political",
+    "politician",
+    "politics",
+    "poll",
+    "portion",
+    "portrait",
+    "poster",
+    "postpone",
+    "pottery",
+    "pour",
+    "poverty"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "pad",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是墊子，notepad and pen 卻對應第二個意思便條本。",
+      "fix": "soft cushion pad"
+    },
+    {
+      "word": "pad",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「一本便條紙」量詞搭配不自然，a pad of paper 應表達便條本。",
+      "fix": "他把電話號碼寫在便條本上。"
+    },
+    {
+      "word": "pad",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "球員保護雙腿通常穿戴成對護墊，原句 a pad 的單數與情境不合。",
+      "fix": "Soccer players wear pads to protect their legs during games."
+    },
+    {
+      "word": "pad",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "足球員在比賽期間穿戴護墊來保護雙腿。"
+    },
+    {
+      "word": "palace",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆與王室宮殿或故宮名稱相關，未示範私人豪宅的用法。",
+      "fix": "宮殿"
+    },
+    {
+      "word": "pancake",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上用餐即將結束的對話情境。",
+      "fix": "Would you like another pancake before we clear the table?"
+    },
+    {
+      "word": "pancake",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們收拾餐桌之前，你還想再吃一片鬆餅嗎？"
+    },
+    {
+      "word": "parade",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句只明確示範一般遊行，沒有軍事閱兵情境。",
+      "fix": "遊行"
+    },
+    {
+      "word": "paradise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上具體的蜜月地點。",
+      "fix": "They spent their honeymoon in paradise on a quiet tropical island."
+    },
+    {
+      "word": "paradise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他們在一座寧靜的熱帶島嶼上度過蜜月，彷彿置身天堂。"
+    },
+    {
+      "word": "passage",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第一句是供閱讀的一段文章，未必為單一段落；第三句使用時間流逝義，並非通過。",
+      "fix": "一段文章；通道；流逝"
+    },
+    {
+      "word": "passion",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上展現音樂熱情的具體活動。",
+      "fix": "She has a passion for music and plays the violin daily."
+    },
+    {
+      "word": "passion",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她熱愛音樂，每天都會拉小提琴。"
+    },
+    {
+      "word": "passport",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上到期前辦理換發的旅行準備情境。",
+      "fix": "I need to renew my passport before it expires next March."
+    },
+    {
+      "word": "passport",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我的護照明年三月到期，我需要在到期前換發護照。"
+    },
+    {
+      "word": "pat",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上輕拍的部位及原先正在小睡的情境。",
+      "fix": "A gentle pat on the shoulder woke him from his nap."
+    },
+    {
+      "word": "pat",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他被輕輕拍了一下肩膀，就從小睡中醒來。"
+    },
+    {
+      "word": "pave",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "三句皆為道路或地面鋪設，應以交通分類為主，與法律沒有直接關聯。",
+      "fix": [
+        "交通與旅行"
+      ]
+    },
+    {
+      "word": "pea",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上豌豆生長於豆莢內的具體特徵。",
+      "fix": "Peas are small, round vegetables that grow inside green pods."
+    },
+    {
+      "word": "pea",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "豌豆是長在綠色豆莢裡的小型圓形蔬菜。"
+    },
+    {
+      "word": "pearl",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句奶茶中的 pearls 指粉圓，並非牡蠣產生的寶石珍珠，應列出食品義。",
+      "fix": "珍珠；粉圓"
+    },
+    {
+      "word": "pearl",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "extra pearls 明確指多加粉圓，不能只泛稱不明種類的「加料」。",
+      "fix": "我點了多加珍珠的奶茶。"
+    },
+    {
+      "word": "peel",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句描述油漆自行剝落，原釋義只有主動剝皮與削皮，未涵蓋此不及物用法。",
+      "fix": "剝皮；削皮；剝落"
+    },
+    {
+      "word": "penguin",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上企鵝利用翅膀游泳的具體特徵。",
+      "fix": "Penguins cannot fly, but they use their wings to swim."
+    },
+    {
+      "word": "penguin",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "企鵝不會飛，但會用翅膀游泳。"
+    },
+    {
+      "word": "penguin",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上企鵝走過冰面後的動作。",
+      "fix": "The penguin waddled across the ice and slid into the water."
+    },
+    {
+      "word": "penguin",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那隻企鵝在冰面上搖搖擺擺地走著，然後滑進水裡。"
+    },
+    {
+      "word": "penny",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上自然的對話前情，並保留原有慣用語。",
+      "fix": "You seem quiet today. A penny for your thoughts?"
+    },
+    {
+      "word": "penny",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "你今天好像很安靜。你在想什麼，說來聽聽。"
+    },
+    {
+      "word": "perform",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上手術過程克服困難的情境。",
+      "fix": "The doctor performed the surgery successfully despite several unexpected difficulties."
+    },
+    {
+      "word": "perform",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "儘管遇到幾個意外的困難，醫生仍成功完成了手術。"
+    },
+    {
+      "word": "performance",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句使用車輛的「性能」義，中文釋義未列出。",
+      "fix": "表演；表現；績效；性能"
+    },
+    {
+      "word": "permit",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上申請許可證與工作的關係。",
+      "fix": "He applied for a work permit before accepting the job."
+    },
+    {
+      "word": "permit",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他在接受這份工作前申請了工作許可證。"
+    },
+    {
+      "word": "pill",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上醫生告知服藥方式的具體情境。",
+      "fix": "The doctor told me to take one pill after each meal."
+    },
+    {
+      "word": "pill",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "醫生告訴我每餐飯後服用一顆藥丸。"
+    },
+    {
+      "word": "pilot",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為駕駛飛機的人員，沒有使用船舶領航員的意思。",
+      "fix": "飛行員"
+    },
+    {
+      "word": "pine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上山坡與村莊的位置關係。",
+      "fix": "Tall pine trees cover the mountain slopes near our village."
+    },
+    {
+      "word": "pine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們村莊附近的山坡上長滿了高大的松樹。"
+    },
+    {
+      "word": "pine",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上松木桌的具體特徵。",
+      "fix": "The table is made of pine and has a smooth surface."
+    },
+    {
+      "word": "pine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這張桌子是松木做的，表面很光滑。"
+    },
+    {
+      "word": "pine",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上主人離開的背景。",
+      "fix": "The dog pined for its owner while she was away."
+    },
+    {
+      "word": "pine",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "主人不在時，那隻狗一直思念著她。"
+    },
+    {
+      "word": "pitch",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 pitch an idea 表示向對方推銷點子，原釋義未列出此用法。",
+      "fix": "投（球）；搭（帳篷）；推銷"
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "high",
+      "detail": "第三句 sales pitch 指推銷說詞，而非推銷活動本身，需使名詞義精確。",
+      "fix": "球場；音高；推銷說詞"
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上球員進場時的球賽情境。",
+      "fix": "The players walked onto the pitch as the crowd cheered."
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "觀眾歡呼時，球員們走進球場。"
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "clear 通常描述聲音而非音高，改用 raise the pitch 的典型搭配。",
+      "fix": "The singer raised the pitch of her voice for the final note."
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這位歌手在最後一個音符提高了音高。"
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上推銷成功的具體結果。",
+      "fix": "His sales pitch impressed the customers and led to several orders."
+    },
+    {
+      "word": "pitch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他的推銷說詞讓顧客印象深刻，並促成了幾筆訂單。"
+    },
+    {
+      "word": "pity",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上不願接受同情的具體情境。",
+      "fix": "He didn't want anyone's pity after failing the important exam."
+    },
+    {
+      "word": "pity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "重要考試失利後，他不希望得到任何人的同情。"
+    },
+    {
+      "word": "pity",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上旅客面臨的困境。",
+      "fix": "She pitied the tired travelers who had missed the last train."
+    },
+    {
+      "word": "pity",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她同情那些錯過末班火車的疲憊旅客。"
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上玩具材質與清潔的關係。",
+      "fix": "This toy is made of plastic, so it is easy to clean."
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個玩具是塑膠做的，所以很容易清洗。"
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上海洋動物受到塑膠傷害的原因。",
+      "fix": "Plastic can harm sea animals if they mistake it for food."
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "如果海洋動物把塑膠誤認為食物，塑膠就可能傷害牠們。"
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "原句 plastic 修飾 bottles，屬形容詞用法，應改為明確的塑膠材料名詞用法。",
+      "fix": "This factory turns recycled plastic into new chairs and tables."
+    },
+    {
+      "word": "plastic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這家工廠將回收塑膠製成新的桌椅。"
+    },
+    {
+      "word": "plastic",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上使用塑膠杯玩耍的地點。",
+      "fix": "The kids played with plastic cups in the sandbox."
+    },
+    {
+      "word": "plastic",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "孩子們在沙坑裡玩塑膠杯。"
+    },
+    {
+      "word": "plug",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上旅途中插頭與插座不合的情境。",
+      "fix": "This plug doesn't fit the socket in our hotel room."
+    },
+    {
+      "word": "plug",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個插頭和我們飯店房間的插座不合。"
+    },
+    {
+      "word": "pole",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上南極地區的氣候特徵。",
+      "fix": "Penguins live near the South Pole, where the climate is very cold."
+    },
+    {
+      "word": "pole",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "企鵝生活在南極附近，那裡的氣候非常寒冷。"
+    },
+    {
+      "word": "political",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上中性的公共交通討論主題。",
+      "fix": "The students held a political debate about improving public transportation."
+    },
+    {
+      "word": "political",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "學生們舉辦了一場關於改善大眾運輸的政治辯論。"
+    },
+    {
+      "word": "political",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上合作解決問題的中性情境。",
+      "fix": "The city faces serious political problems that require cooperation among leaders."
+    },
+    {
+      "word": "political",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這座城市面臨嚴重的政治問題，需要領導人合作解決。"
+    },
+    {
+      "word": "politician",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上到校討論公共服務的中性目的。",
+      "fix": "The politician visited our school yesterday to discuss local public services."
+    },
+    {
+      "word": "politician",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那位政治人物昨天到我們學校討論地方公共服務。"
+    },
+    {
+      "word": "politician",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上提出承諾的競選情境。",
+      "fix": "Many politicians promise to lower prices during their election campaigns."
+    },
+    {
+      "word": "politician",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "許多政治人物在競選期間承諾降低物價。"
+    },
+    {
+      "word": "politics",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指政治事務或話題，沒有把 politics 作為學科「政治學」的明確用法。",
+      "fix": "政治"
+    },
+    {
+      "word": "poll",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第二句 the polls 指投票所，中文釋義未列出。",
+      "fix": "民意調查；投票；投票所"
+    },
+    {
+      "word": "poll",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上選民等候投票所開放的情境。",
+      "fix": "The polls open at eight o'clock, so voters are waiting outside."
+    },
+    {
+      "word": "poll",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "投票所八點開放，因此選民正在外面等候。"
+    },
+    {
+      "word": "poll",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上意見調查的具體主題。",
+      "fix": "The company polled its customers online about the new product."
+    },
+    {
+      "word": "poll",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "公司在網路上調查顧客對新產品的意見。"
+    },
+    {
+      "word": "poster",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school fair 指學校園遊會，不一定是校慶，原翻譯限定了未提及的活動背景。",
+      "fix": "社團為學校園遊會製作了一張海報。"
+    },
+    {
+      "word": "pottery",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上手工陶器的製作者。",
+      "fix": "The shop sells beautiful handmade pottery made by local artists."
+    },
+    {
+      "word": "pottery",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那家店販售由當地藝術家製作的漂亮手工陶器。"
+    },
+    {
+      "word": "pour",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上倒果汁後的家庭互動。",
+      "fix": "She poured juice into the glass and handed it to her son."
+    },
+    {
+      "word": "pour",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她把果汁倒進杯子裡，再把杯子遞給兒子。"
+    },
+    {
+      "word": "pour",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上下大雨對戶外活動的影響。",
+      "fix": "Rain poured down all afternoon, forcing us to cancel the picnic."
+    },
+    {
+      "word": "pour",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "雨整個下午都下得很大，迫使我們取消野餐。"
+    },
+    {
+      "word": "poverty",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上貧困家庭的具體需求。",
+      "fix": "Many families here live in poverty and need help buying food."
+    },
+    {
+      "word": "poverty",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這裡許多家庭生活在貧困中，需要協助才能購買食物。"
+    },
+    {
+      "word": "poverty",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上慈善機構減少貧窮的實際做法。",
+      "fix": "The charity works to reduce poverty by providing education and job training."
+    },
+    {
+      "word": "poverty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個慈善機構透過提供教育與職業訓練來減少貧窮。"
+    }
+  ]
+}
