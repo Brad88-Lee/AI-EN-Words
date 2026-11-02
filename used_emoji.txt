@@ -558,3 +558,5 @@
 🥞(pancake)
 🐧(penguin)
 🧾(receipt)
+🎀(ribbon)
+🚀(rocket)
