@@ -1,0 +1,313 @@
+{
+  "batch": "N0001",
+  "checked": 50,
+  "reviewed": [
+    "switch",
+    "technology",
+    "text",
+    "tire",
+    "tissue",
+    "tone",
+    "typical",
+    "unless",
+    "upset",
+    "wealth",
+    "weigh",
+    "whenever",
+    "wherever",
+    "whisper",
+    "whoever",
+    "wire",
+    "yam",
+    "basics",
+    "gymnasium",
+    "password",
+    "rocky",
+    "terrorism",
+    "terrorist",
+    "dialogue",
+    "drawing",
+    "fireman",
+    "saleswoman",
+    "actually",
+    "advertisement",
+    "america",
+    "american",
+    "anyone",
+    "april",
+    "are",
+    "armchair",
+    "august",
+    "autumn",
+    "beginning",
+    "birthday",
+    "candy",
+    "careless",
+    "childlike",
+    "chinese",
+    "christmas",
+    "classroom",
+    "could",
+    "crowded",
+    "december",
+    "easter",
+    "eight"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "reason": "",
+    "pass": true
+  },
+  "issues": [
+    {
+      "word": "switch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用 switch off 的關閉義，但中文義項未涵蓋開關設備的用法。",
+      "fix": "轉換；改變；交換；開啟或關閉"
+    },
+    {
+      "word": "technology",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "make medical technology 搭配不自然，技術宜搭配 develop。",
+      "fix": "My uncle works for a company that develops medical technology."
+    },
+    {
+      "word": "technology",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "我叔叔任職於一家研發醫療技術的公司。"
+    },
+    {
+      "word": "tire",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項為動詞的疲倦義，car tire 卻對應第二義項的輪胎。",
+      "fix": null
+    },
+    {
+      "word": "tissue",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 tissue paper 指包裝用薄紙，未列在中文義項中。",
+      "fix": "面紙；組織；薄紙"
+    },
+    {
+      "word": "tone",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tone 在此為電話的提示音，原譯僅作聲音而未呈現該義。",
+      "fix": "通話結束時，電話發出了響亮的提示音。"
+    },
+    {
+      "word": "wealth",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，宜補成約八至十八字的完整教材例句。",
+      "fix": "Good health is worth far more than great wealth."
+    },
+    {
+      "word": "wealth",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "身體健康遠比龐大的財富更有價值。"
+    },
+    {
+      "word": "whoever",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，可補明完成何事與離開何處以符合例句長度。",
+      "fix": "Whoever finishes the assignment first can leave the classroom early."
+    },
+    {
+      "word": "whoever",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "不管誰先完成作業，都可以提早離開教室。"
+    },
+    {
+      "word": "wire",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "用 thin line 表示綁板子的金屬線不夠自然明確，宜以修理圍籬呈現 wire 的綁接用法。",
+      "fix": "He wired the two boards together to repair the fence."
+    },
+    {
+      "word": "wire",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "他用金屬線把兩塊板子綁在一起，以修理圍籬。"
+    },
+    {
+      "word": "yam",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "第一義項第一個意思為山藥，烤地瓜 emoji 對應的是後列的地瓜義。",
+      "fix": null
+    },
+    {
+      "word": "actually",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句詢問對方是否真的住在車站附近，中文義項漏列強調真實性的真的義。",
+      "fix": "實際上；真的"
+    },
+    {
+      "word": "april",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五個英文字，宜補成符合約八至十八字的日常例句。",
+      "fix": "My birthday is in April, two weeks after my sister's."
+    },
+    {
+      "word": "april",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "我的生日在四月，比姊姊的生日晚兩週。"
+    },
+    {
+      "word": "autumn",
+      "path": "senses[0].examples[2].en",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "in the middle of autumn 僅指秋季中段，不等於中文所譯的中秋節，應明確寫出節名並保留目標字。",
+      "fix": "We eat moon cakes during the Mid-Autumn Festival each autumn."
+    },
+    {
+      "word": "autumn",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "我們每年秋天都會在中秋節吃月餅。"
+    },
+    {
+      "word": "birthday",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，宜補成有明確慶生情境且符合長度的例句。",
+      "fix": "Today is my best friend's birthday, so I bought her a gift."
+    },
+    {
+      "word": "birthday",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "今天是我最要好的朋友的生日，所以我買了一份禮物送她。"
+    },
+    {
+      "word": "chinese",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句將 the Chinese 譯為華人，中文義項應涵蓋此族群義並避免中文與華語重複列義。",
+      "fix": "中文；中國人；華人"
+    },
+    {
+      "word": "december",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五個英文字，宜補出具體學校情境以符合例句長度。",
+      "fix": "Winter vacation starts in December at my cousin's school."
+    },
+    {
+      "word": "december",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "我表弟學校的寒假從十二月開始。"
+    },
+    {
+      "word": "december",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，宜補成符合約八至十八字的天氣情境例句。",
+      "fix": "The weather is usually cold and dry here in December."
+    },
+    {
+      "word": "december",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "這裡十二月的天氣通常寒冷乾燥。"
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五個英文字，宜補成符合約八至十八字的課堂例句。",
+      "fix": "Four plus four makes eight, as the teacher explained."
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "正如老師所解釋的，四加四等於八。"
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五個英文字，宜補明公車路線與班次以符合例句長度。",
+      "fix": "The last bus to the airport leaves at eight."
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "前往機場的末班公車八點出發。"
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "原句的 eight 修飾 people，無法示範本義項標示的名詞用法，宜改為數字名稱。",
+      "fix": "The number eight is considered lucky in some cultures."
+    },
+    {
+      "word": "eight",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文須同步忠實對應。",
+      "fix": "在某些文化中，數字八被認為很幸運。"
+    }
+  ]
+}
