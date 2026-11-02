@@ -1,0 +1,475 @@
+{
+  "batch": "N0013",
+  "checked": 50,
+  "reviewed": [
+    "dislike",
+    "ditch",
+    "dive",
+    "dock",
+    "dose",
+    "doubtful",
+    "drag",
+    "dragonfly",
+    "drain",
+    "dramatic",
+    "drip",
+    "drown",
+    "drunk",
+    "dump",
+    "dust",
+    "eager",
+    "echo",
+    "edit",
+    "editor",
+    "educate",
+    "educational",
+    "efficient",
+    "elbow",
+    "elderly",
+    "electricity",
+    "electronic",
+    "elevator",
+    "emergency",
+    "emotional",
+    "emperor",
+    "engage",
+    "enjoyable",
+    "entry",
+    "erase",
+    "excellence",
+    "exchange",
+    "exhibition",
+    "expectation",
+    "experiment",
+    "explode",
+    "explore",
+    "extreme",
+    "fade",
+    "faint",
+    "fairly",
+    "fairy",
+    "faith",
+    "fake",
+    "familiar",
+    "fare"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "reason": "",
+    "pass": true
+  },
+  "issues": [
+    {
+      "word": "dislike",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上具體原因以符合約 8～18 字的例句標準。",
+      "fix": "Many children dislike green vegetables because they taste bitter."
+    },
+    {
+      "word": "dislike",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "許多孩子不喜歡青菜，因為吃起來有苦味。"
+    },
+    {
+      "word": "ditch",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為排水用的溝渠，沒有使用軍事上的「壕溝」義。",
+      "fix": "水溝"
+    },
+    {
+      "word": "ditch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "例句使用「放棄計畫」與「蹺課」義，釋義未列出；「擺脫」也未獲例句示範。",
+      "fix": "丟棄；放棄；蹺課"
+    },
+    {
+      "word": "dock",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指停靠或卸貨的碼頭，沒有使用修造船用的「船塢」義。",
+      "fix": "碼頭"
+    },
+    {
+      "word": "dock",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上船隻種類與停靠目的。",
+      "fix": "Several fishing boats dock here every weekend to unload their catch."
+    },
+    {
+      "word": "dock",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "每個週末都有幾艘漁船停靠在這裡卸下漁獲。"
+    },
+    {
+      "word": "dose",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「少量的劑量」搭配不自然，small dose 應譯為小劑量的藥。",
+      "fix": "醫生一開始先給她小劑量的藥。"
+    },
+    {
+      "word": "drain",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第一句 drain the pasta 是「瀝乾」而非直接排出義大利麵，應明列此義。",
+      "fix": "排出；瀝乾；耗盡"
+    },
+    {
+      "word": "dramatic",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "三句中兩句使用變化幅度大的抽象義，只列藝術分類無法涵蓋主要用法。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "drip",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句使用醫療上的「點滴」義，中文釋義未列出。",
+      "fix": "水滴；滴水聲；點滴"
+    },
+    {
+      "word": "drown",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "learn not to drown 不是自然的游泳教學搭配，改用常見的水域安全情境。",
+      "fix": "Children can drown in shallow water, so adults must watch them."
+    },
+    {
+      "word": "drown",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "孩子在淺水中也可能溺水，因此大人必須看顧他們。"
+    },
+    {
+      "word": "drown",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "以 drown 描述整座花園不自然，改為水淹根部使植物死亡的明確用法。",
+      "fix": "Heavy rain can drown young plants by flooding their roots."
+    },
+    {
+      "word": "drown",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "大雨會淹沒幼苗的根部，可能使幼苗淹死。"
+    },
+    {
+      "word": "drown",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 drowned out 使用聲音「蓋過」另一聲音的意思，應明列以免誤解為實際淹水。",
+      "fix": "溺水；淹死；淹沒；蓋過"
+    },
+    {
+      "word": "dump",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "bag 未限定為背包，翻譯不應自行加入背包種類。",
+      "fix": "他把袋子往沙發上一扔就坐下了。"
+    },
+    {
+      "word": "dust",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上蛋糕種類及撒粉時機。",
+      "fix": "She dusted the chocolate cake with sugar before serving it."
+    },
+    {
+      "word": "dust",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "她在端出巧克力蛋糕前，先在上面撒了糖粉。"
+    },
+    {
+      "word": "echo",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "made every sound create an echo 搭配生硬，改用 produce an echo。",
+      "fix": "Every shout produced an echo in the empty hall."
+    },
+    {
+      "word": "echo",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "每一聲喊叫都在空蕩蕩的大廳裡產生回音。"
+    },
+    {
+      "word": "echo",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上聲音產生的情境。",
+      "fix": "Their voices echoed across the valley as they called for help."
+    },
+    {
+      "word": "echo",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "他們呼救時，聲音在山谷裡迴盪。"
+    },
+    {
+      "word": "echo",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為聲音或話語迴盪，未示範主動重複別人話語的「重複」義。",
+      "fix": "迴盪"
+    },
+    {
+      "word": "editor",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句只有一般編輯與編輯軟體，沒有明確示範「主編」職務。",
+      "fix": "編輯；編輯軟體"
+    },
+    {
+      "word": "educational",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上具體的參訪地點。",
+      "fix": "The trip to the science museum was both fun and educational."
+    },
+    {
+      "word": "educational",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "這趟科學博物館之旅既有趣又有教育意義。"
+    },
+    {
+      "word": "electronic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字且情境籠統，補上使用辭典的目的。",
+      "fix": "Many students use electronic dictionaries to look up new words."
+    },
+    {
+      "word": "electronic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "許多學生使用電子辭典查詢生字。"
+    },
+    {
+      "word": "emergency",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為緊急用途或應變情境，沒有示範「備用的」意思。",
+      "fix": "緊急的"
+    },
+    {
+      "word": "emotional",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第一句 felt emotional 表示情緒激動，不等同容易受情緒支配的「情緒化」。",
+      "fix": "情感的；情緒激動的；感人的"
+    },
+    {
+      "word": "engage",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為使參與、吸引及從事，未使用「訂婚」義。",
+      "fix": "使參與；吸引；從事"
+    },
+    {
+      "word": "entry",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句未示範字典或紀錄中的「條目」義，應移除未涵蓋的意思。",
+      "fix": "進入；入口；參賽作品"
+    },
+    {
+      "word": "exchange",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上查詢匯率的實際使用情境。",
+      "fix": "The exchange rate changes daily, so check it before buying foreign currency."
+    },
+    {
+      "word": "exchange",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "匯率每天都在變動，因此購買外幣前要先確認匯率。"
+    },
+    {
+      "word": "expectation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上超出預期的具體原因。",
+      "fix": "The hotel exceeded our expectations with its clean rooms and friendly staff."
+    },
+    {
+      "word": "expectation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "這間飯店乾淨的客房和親切的員工讓我們的體驗超出預期。"
+    },
+    {
+      "word": "experiment",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上材料實驗的具體用途。",
+      "fix": "Scientists experiment with new materials to make safer bicycle helmets."
+    },
+    {
+      "word": "experiment",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "科學家用新材料做實驗，以製作更安全的自行車安全帽。"
+    },
+    {
+      "word": "explode",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句只有氣球與煙火爆開，以及銷量暴增，未使用情緒等「爆發」義。",
+      "fix": "爆炸；暴增"
+    },
+    {
+      "word": "faint",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上明確的日常情境。",
+      "fix": "She felt dizzy and nearly fainted after skipping breakfast."
+    },
+    {
+      "word": "faint",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "她沒吃早餐，覺得頭暈，差點昏倒。"
+    },
+    {
+      "word": "fairly",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上與公平對待相關的教師行為。",
+      "fix": "The teacher treats all students fairly and listens to their concerns."
+    },
+    {
+      "word": "fairly",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "老師公平對待所有學生，也會聆聽他們的疑慮。"
+    },
+    {
+      "word": "familiar",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指認得或了解的「熟悉」，沒有示範一般普遍存在的「常見」。",
+      "fix": "熟悉的"
+    },
+    {
+      "word": "familiar",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上聽歌時的具體反應。",
+      "fix": "The song sounded familiar, but I could not remember its title."
+    },
+    {
+      "word": "familiar",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "這首歌聽起來很耳熟，但我想不起歌名。"
+    },
+    {
+      "word": "familiar",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上軟體的用途。",
+      "fix": "Are you familiar with this software for editing photos?"
+    },
+    {
+      "word": "familiar",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "你熟悉這款用來編輯照片的軟體嗎？"
+    },
+    {
+      "word": "fare",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上搭車的目的地。",
+      "fix": "The bus fare to the city center is thirty dollars."
+    },
+    {
+      "word": "fare",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，中文翻譯須同步更新。",
+      "fix": "搭公車到市中心的車資是三十元。"
+    }
+  ]
+}
