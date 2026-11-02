@@ -1,0 +1,16 @@
+ROUND: N0022
+STAGE: C
+AGENT: claude
+ATTEMPT: 1
+OUTPUT: out_C/N0022C_vocab_0022.json
+GATE-C: PASS｜筆數 50/50｜套用 53｜跳過 0｜null 3/3
+MODEL: unknown
+REPORTED_AT: 2026-11-03T06:30:00+08:00
+---
+```json
+{"a_count": 50, "c_count": 50, "applied": [{"word": "strip", "path": "senses[1].zh"}, {"word": "strip", "path": "senses[1].examples[1].en"}, {"word": "strip", "path": "senses[1].examples[1].zh"}, {"word": "structure", "path": "image_query"}, {"word": "stubborn", "path": "senses[0].examples[1].zh"}, {"word": "studio", "path": "senses[0].zh"}, {"word": "stuff", "path": "senses[0].zh"}, {"word": "suffer", "path": "senses[0].examples[2].en"}, {"word": "suffer", "path": "senses[0].examples[2].zh"}, {"word": "sum", "path": "senses[1].examples[0].zh"}, {"word": "summit", "path": "emoji"}, {"word": "superior", "path": "senses[0].examples[1].en"}, {"word": "superior", "path": "senses[0].examples[1].zh"}, {"word": "superior", "path": "senses[1].zh"}, {"word": "surround", "path": "senses[0].examples[0].en"}, {"word": "surround", "path": "senses[0].examples[0].zh"}, {"word": "surround", "path": "senses[0].examples[2].en"}, {"word": "surround", "path": "senses[0].examples[2].zh"}, {"word": "survey", "path": "image_query"}, {"word": "survivor", "path": "senses[0].examples[1].zh"}, {"word": "suspect", "path": "senses[1].examples[2].en"}, {"word": "suspect", "path": "senses[1].examples[2].zh"}, {"word": "suspicion", "path": "senses[0].zh"}, {"word": "sweat", "path": "senses[1].zh"}, {"word": "sweat", "path": "senses[1].examples[2].en"}, {"word": "sweat", "path": "senses[1].examples[2].zh"}, {"word": "swell", "path": "senses[1].zh"}, {"word": "tablet", "path": "senses[0].examples[1].en"}, {"word": "tablet", "path": "senses[0].examples[1].zh"}, {"word": "technical", "path": "senses[0].zh"}, {"word": "technique", "path": "senses[0].examples[1].en"}, {"word": "technique", "path": "senses[0].examples[1].zh"}, {"word": "temper", "path": "senses[0].examples[2].en"}, {"word": "temper", "path": "senses[0].examples[2].zh"}, {"word": "temper", "path": "senses[1].examples[2].en"}, {"word": "temper", "path": "senses[1].examples[2].zh"}, {"word": "tender", "path": "senses[0].zh"}, {"word": "tender", "path": "senses[0].examples[2].zh"}, {"word": "thirst", "path": "senses[0].examples[2].en"}, {"word": "thirst", "path": "senses[0].examples[2].zh"}, {"word": "thread", "path": "senses[0].zh"}, {"word": "threat", "path": "senses[0].zh"}, {"word": "threaten", "path": "senses[0].examples[1].en"}, {"word": "threaten", "path": "senses[0].examples[1].zh"}, {"word": "tide", "path": "senses[0].examples[0].zh"}, {"word": "tight", "path": "senses[0].examples[1].en"}, {"word": "tight", "path": "senses[0].examples[1].zh"}, {"word": "tight", "path": "senses[1].zh"}, {"word": "tight", "path": "senses[1].examples[2].en"}, {"word": "tight", "path": "senses[1].examples[2].zh"}, {"word": "tighten", "path": "senses[0].zh"}, {"word": "tighten", "path": "senses[0].examples[2].en"}, {"word": "tighten", "path": "senses[0].examples[2].zh"}], "skipped": [], "extra_changes": [], "nulls": [{"word": "structure", "path": "image_query"}, {"word": "summit", "path": "emoji"}, {"word": "survey", "path": "image_query"}]}
+```
+---
+A 50 筆、C 50 筆。B 的 53 筆 issue 逐筆驗證後全數套用，無跳過，無額外修改。
+null：structure／survey 的 image_query、summit 的 emoji。
+check_batch 與 check_extra 皆 ERROR 0、WARN 0。
