@@ -461,3 +461,8 @@
 😟(worry)
 🟡(yellow)
 🦓(zebra)
+🧑‍🚒(fireman)
+🍂(autumn)
+🍬(candy)
+🎄(christmas)
+8️⃣(eight)
