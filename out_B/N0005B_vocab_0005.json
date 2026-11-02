@@ -1,0 +1,401 @@
+{
+  "batch": "N0005",
+  "checked": 50,
+  "reviewed": [
+    "you",
+    "your",
+    "admire",
+    "advise",
+    "alphabet",
+    "ambulance",
+    "angel",
+    "apologize",
+    "assistant",
+    "assume",
+    "basement",
+    "besides",
+    "bitter",
+    "blouse",
+    "bomb",
+    "bookcase",
+    "bowling",
+    "broadcast",
+    "brunch",
+    "bucket",
+    "buffet",
+    "bundle",
+    "cable",
+    "cafeteria",
+    "campus",
+    "captain",
+    "carpet",
+    "closet",
+    "coach",
+    "colorful",
+    "complain",
+    "confuse",
+    "cotton",
+    "cough",
+    "crab",
+    "cruel",
+    "dawn",
+    "decorate",
+    "decrease",
+    "desire",
+    "dessert",
+    "dinosaur",
+    "dishonest",
+    "dizzy",
+    "dolphin",
+    "donkey",
+    "doughnut",
+    "downtown",
+    "drugstore",
+    "dumb"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "you",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "helping me with my homework 指協助完成功課，不是代替我寫功課。",
+      "fix": "謝謝你協助我完成功課。"
+    },
+    {
+      "word": "your",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Is this your umbrella or mine, or does it belong to someone else?"
+    },
+    {
+      "word": "your",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這把雨傘是你的、我的，還是別人的？"
+    },
+    {
+      "word": "advise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "advised 指提出建議，未表示提醒已知事項。",
+      "fix": "我們的經理建議我們提早完成報告。"
+    },
+    {
+      "word": "alphabet",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Children learn the alphabet in kindergarten before they start reading."
+    },
+    {
+      "word": "alphabet",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "孩子們在幼兒園開始學習閱讀之前，先學字母表。"
+    },
+    {
+      "word": "alphabet",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The English alphabet has twenty-six letters, from A to Z."
+    },
+    {
+      "word": "alphabet",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "英文字母表有二十六個字母，從 A 到 Z。"
+    },
+    {
+      "word": "apologize",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文沒有指定向大家道歉，應移除新增的道歉對象。",
+      "fix": "我為開會遲到而道歉。"
+    },
+    {
+      "word": "besides",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Besides English, she also speaks Japanese and a little Korean."
+    },
+    {
+      "word": "besides",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "除了英文以外，她也會說日文和一點韓文。"
+    },
+    {
+      "word": "bitter",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "felt bitter about losing 指不滿或怨懟，不只是感到痛苦。",
+      "fix": "苦的；憤憤不平的；嚴寒的"
+    },
+    {
+      "word": "bitter",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "felt bitter about 輸球是憤憤不平，原譯苦澀未呈現不滿情緒。",
+      "fix": "她對輸掉比賽感到憤憤不平。"
+    },
+    {
+      "word": "bomb",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the old war 搭配生硬，改為清楚且中性的戰後博物館情境。",
+      "fix": "The museum displays a bomb found near the city after the war."
+    },
+    {
+      "word": "bomb",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "博物館展示一顆戰後在城市附近發現的炸彈。"
+    },
+    {
+      "word": "bomb",
+      "path": "senses[1].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the old war 不是自然的戰爭背景表達，改為清楚的歷史情境。",
+      "fix": "Planes bombed the bridge during the war to stop enemy supplies."
+    },
+    {
+      "word": "bomb",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "戰爭期間，飛機轟炸那座橋，以阻斷敵方的補給。"
+    },
+    {
+      "word": "cable",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "My grandparents watch cable every evening after they finish dinner."
+    },
+    {
+      "word": "cable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我的祖父母每天晚上吃完晚餐後都看有線電視。"
+    },
+    {
+      "word": "captain",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "ship captain 對應第二個意思船長，而非第一個意思隊長。",
+      "fix": null
+    },
+    {
+      "word": "captain",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Who captained your team last season when you won the championship?"
+    },
+    {
+      "word": "captain",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "你們球隊上一季贏得冠軍時，是誰擔任隊長？"
+    },
+    {
+      "word": "closet",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "I never wear 描述平常從來不穿，並非過去從未穿過的經驗。",
+      "fix": "衣櫥裡塞滿了我從來不穿的衣服。"
+    },
+    {
+      "word": "complain",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Customers complained about the slow service at the new restaurant."
+    },
+    {
+      "word": "complain",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "顧客抱怨那家新餐廳的服務太慢。"
+    },
+    {
+      "word": "confuse",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The long instructions confused many students during the science experiment."
+    },
+    {
+      "word": "confuse",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "自然實驗時，冗長的說明讓許多學生感到困惑。"
+    },
+    {
+      "word": "dawn",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The day dawned bright and clear after a night of heavy rain."
+    },
+    {
+      "word": "dawn",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "下了一整夜大雨後，那天天亮時天氣晴朗。"
+    },
+    {
+      "word": "dawn",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Morning dawned over the quiet village as farmers prepared for work."
+    },
+    {
+      "word": "dawn",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "寧靜的村莊迎來黎明，農夫們正準備工作。"
+    },
+    {
+      "word": "decorate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句都指裝飾或佈置，未使用授勳義。",
+      "fix": "裝飾；佈置"
+    },
+    {
+      "word": "decorate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "festival 泛指節慶，原文未指定為園遊會。",
+      "fix": "我們為節慶佈置了教室。"
+    },
+    {
+      "word": "decorate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She decorated the cake with strawberries for her sister's birthday."
+    },
+    {
+      "word": "decorate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她為姊姊的生日，用草莓裝飾了蛋糕。"
+    },
+    {
+      "word": "doughnut",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "I bought a doughnut for breakfast on my way to school."
+    },
+    {
+      "word": "doughnut",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我在上學途中買了一個甜甜圈當早餐。"
+    },
+    {
+      "word": "doughnut",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "She put sugar on each doughnut before serving them to guests."
+    },
+    {
+      "word": "doughnut",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她把甜甜圈端給客人前，在每個上面加了糖。"
+    },
+    {
+      "word": "downtown",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "They walked downtown after lunch to visit the new bookstore."
+    },
+    {
+      "word": "downtown",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "午餐後，他們走路到市中心，逛那家新書店。"
+    },
+    {
+      "word": "downtown",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "downtown 明確指市中心，原譯市區的範圍較廣。",
+      "fix": "一間位於市中心的新圖書館明年將開放。"
+    }
+  ]
+}
