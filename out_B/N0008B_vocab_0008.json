@@ -1,0 +1,353 @@
+{
+  "batch": "N0008",
+  "checked": 50,
+  "reviewed": [
+    "spaghetti",
+    "steal",
+    "steam",
+    "stomach",
+    "stormy",
+    "stove",
+    "straw",
+    "swan",
+    "talent",
+    "talkative",
+    "tangerine",
+    "tank",
+    "tent",
+    "terrific",
+    "thumb",
+    "tower",
+    "trace",
+    "trumpet",
+    "tub",
+    "tunnel",
+    "underwear",
+    "unique",
+    "vest",
+    "vocabulary",
+    "volleyball",
+    "wrist",
+    "bless",
+    "detect",
+    "energetic",
+    "foggy",
+    "hug",
+    "slice",
+    "yell",
+    "achieve",
+    "advantage",
+    "adventure",
+    "airline",
+    "arrest",
+    "audience",
+    "aware",
+    "badly",
+    "banker",
+    "career",
+    "chat",
+    "citizen",
+    "collection",
+    "confirm",
+    "county",
+    "democracy",
+    "democratic"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "steal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 stole the show 表示搶盡風頭，並非偷竊或悄悄地做，原義項未涵蓋。",
+      "fix": "偷；悄悄地做；搶盡風頭"
+    },
+    {
+      "word": "stormy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "stormy talk 搭配生硬，改用能明確表達激烈爭論的 stormy argument。",
+      "fix": "Their stormy argument ended when the teacher came in."
+    },
+    {
+      "word": "stormy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "老師一進來，他們激烈的爭論就結束了。"
+    },
+    {
+      "word": "tangerine",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "for the holiday 只說為了過節，未指明橘子是裝飾用途。",
+      "fix": "我們為了過節，在桌上放了一顆橘子。"
+    },
+    {
+      "word": "tank",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句魚缸與第三句水塔是明確的容器用途，原義項僅以容器籠統涵蓋。",
+      "fix": "水槽；油箱；魚缸；水塔"
+    },
+    {
+      "word": "trace",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 trace family history back 指追溯；第二句描地圖則是描摹，原義項未精確涵蓋。",
+      "fix": "追蹤；查出；描摹；追溯"
+    },
+    {
+      "word": "tunnel",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The rabbit tunneled under the fence to reach the garden."
+    },
+    {
+      "word": "tunnel",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "兔子在柵欄底下挖洞穿過，進入花園。"
+    },
+    {
+      "word": "underwear",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "enough 指足夠，不是多帶幾件額外衣物，原譯改變數量要求。",
+      "fix": "為這趟三天的旅行帶足夠的內衣褲。"
+    },
+    {
+      "word": "unique",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Every snowflake has a unique shape when you look closely."
+    },
+    {
+      "word": "unique",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "仔細觀察時，每片雪花都有獨特的形狀。"
+    },
+    {
+      "word": "vocabulary",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Reading books will build your vocabulary and improve your writing."
+    },
+    {
+      "word": "vocabulary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "閱讀書籍可以增加你的字彙量，並提升寫作能力。"
+    },
+    {
+      "word": "hug",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Give your grandma a big hug when you see her."
+    },
+    {
+      "word": "hug",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "見到奶奶時，給她一個大大的擁抱。"
+    },
+    {
+      "word": "slice",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "He ate three slices of watermelon after playing basketball outside."
+    },
+    {
+      "word": "slice",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他在外面打完籃球後，吃了三片西瓜。"
+    },
+    {
+      "word": "slice",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Slice the apple into thin pieces before adding it to the salad."
+    },
+    {
+      "word": "slice",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "先把蘋果切成薄片，再加入沙拉中。"
+    },
+    {
+      "word": "yell",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Don't yell at your little sister just because she made a mistake."
+    },
+    {
+      "word": "yell",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "不要只因為妹妹犯了錯，就對她大吼大叫。"
+    },
+    {
+      "word": "achieve",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The team achieved great success this year by working closely together."
+    },
+    {
+      "word": "achieve",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這支團隊今年透過密切合作，獲得了很大的成功。"
+    },
+    {
+      "word": "badly",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "表達過意不去應用連綴動詞加形容詞 felt bad；為保留目標字 badly，改為程度副詞的典型用法。",
+      "fix": "He badly wanted to join the team after watching the match."
+    },
+    {
+      "word": "badly",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "他看完比賽後，非常想加入那支球隊。"
+    },
+    {
+      "word": "career",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "在教書方面有長久而愉快的事業搭配生硬，career 在此應自然表達為教學生涯。",
+      "fix": "他有一段長久而愉快的教學生涯。"
+    },
+    {
+      "word": "chat",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The students chatted online after class about their science project."
+    },
+    {
+      "word": "chat",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "學生們下課後在網路上聊起他們的自然科學專題。"
+    },
+    {
+      "word": "citizen",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "投票年齡依地區及選舉種類而異，原句未限定地區卻一概寫十八歲；改為中性的市民生活情境。",
+      "fix": "Every citizen can help keep the city clean by sorting waste."
+    },
+    {
+      "word": "citizen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "每位市民都能藉由垃圾分類來協助維持市容整潔。"
+    },
+    {
+      "word": "collection",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "collection 是收藏品，不能像展覽一樣搭配 opened；原譯也把收藏品變成收藏展。",
+      "fix": "The museum displayed a new art collection for visitors this week."
+    },
+    {
+      "word": "collection",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "博物館這星期為訪客展出了新的藝術收藏品。"
+    },
+    {
+      "word": "confirm",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Please confirm your seat by e-mail before the concert on Friday."
+    },
+    {
+      "word": "confirm",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "請在星期五的音樂會之前，以電子郵件確認你的座位。"
+    },
+    {
+      "word": "democracy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Students in Taiwan learn about democracy and voting in school."
+    },
+    {
+      "word": "democracy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "台灣的學生會在學校學習民主制度與投票的相關知識。"
+    }
+  ]
+}
