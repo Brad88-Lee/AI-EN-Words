@@ -529,3 +529,5 @@
 🦺(vest)
 🏐(volleyball)
 🤗(hug)
+⛽(gasoline)
+🍈(melon)
