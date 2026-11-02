@@ -1,0 +1,345 @@
+{
+  "batch": "N0015",
+  "checked": 50,
+  "reviewed": [
+    "hatch",
+    "hay",
+    "headline",
+    "headquarters",
+    "heal",
+    "heap",
+    "heel",
+    "hell",
+    "helmet",
+    "hesitate",
+    "hint",
+    "historian",
+    "historic",
+    "hollow",
+    "holy",
+    "honor",
+    "hopeful",
+    "horn",
+    "horror",
+    "hourly",
+    "housekeeper",
+    "hum",
+    "hut",
+    "icy",
+    "imagination",
+    "immediate",
+    "impress",
+    "indoor",
+    "indoors",
+    "industrial",
+    "inferior",
+    "inform",
+    "inn",
+    "inner",
+    "innocent",
+    "inspect",
+    "inspector",
+    "inventor",
+    "ivory",
+    "jail",
+    "jar",
+    "jelly",
+    "jet",
+    "jewel",
+    "jewelry",
+    "journey",
+    "joyful",
+    "juicy",
+    "jungle",
+    "junior"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "hatch",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「爬下去機房」語序不自然，應明確表示往下爬到機房。",
+      "fix": "水手打開艙口，爬到下方的機房。"
+    },
+    {
+      "word": "hay",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "hay 專指割下曬乾的草料，「牧草」未限定乾燥狀態，容易與生長中的草混淆。",
+      "fix": "乾草"
+    },
+    {
+      "word": "heap",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上用餐時的具體情境。",
+      "fix": "She heaped rice onto my plate before passing me the vegetables."
+    },
+    {
+      "word": "heap",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她把飯堆在我的盤子上，然後把蔬菜遞給我。"
+    },
+    {
+      "word": "heel",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是人體「腳跟」，high heel shoe 卻對應第二個意思「鞋跟」。",
+      "fix": "human heel"
+    },
+    {
+      "word": "hell",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 felt like hell 使用痛苦處境的比喻義，原釋義未涵蓋。",
+      "fix": "地獄；痛苦的處境"
+    },
+    {
+      "word": "hesitate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上遲疑的具體情境。",
+      "fix": "She hesitated before opening the door to the unfamiliar room."
+    },
+    {
+      "word": "hesitate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她在打開那間陌生房間的門之前遲疑了一下。"
+    },
+    {
+      "word": "hollow",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，改用空心樹幹提供棲身處的自然情境。",
+      "fix": "The hollow tree trunk provided a home for small animals."
+    },
+    {
+      "word": "hollow",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "空心的樹幹為小動物提供了住處。"
+    },
+    {
+      "word": "holy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "holy book 未指明特定宗教，不應直接限定為基督教的「聖經」。",
+      "fix": "他們每個星期天一起閱讀聖典。"
+    },
+    {
+      "word": "hopeful",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "人對結果「感到有希望」搭配不自然，felt hopeful 應表達抱持希望。",
+      "fix": "學生們對考試結果抱持希望。"
+    },
+    {
+      "word": "horn",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第二句在樂隊演奏的 horn 為法國號，應明確列出以免與一般號角混淆。",
+      "fix": "喇叭；法國號；角"
+    },
+    {
+      "word": "horror",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句使用驚恐感受或恐怖類型，沒有以 horror 指稱某件可怕事物的例句。",
+      "fix": "恐怖；驚駭"
+    },
+    {
+      "word": "hourly",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上新聞定期更新的目的。",
+      "fix": "The website updates the news hourly to keep readers informed."
+    },
+    {
+      "word": "hourly",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這個網站每小時更新一次新聞，讓讀者掌握最新消息。"
+    },
+    {
+      "word": "hum",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為機械或人聲的嗡嗡聲，沒有使用哼唱曲調的「哼唱聲」義。",
+      "fix": "嗡嗡聲"
+    },
+    {
+      "word": "icy",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 icy look 表示冷淡的眼神，釋義未列出人際態度的冷淡義。",
+      "fix": "結冰的；冰冷的；冷淡的"
+    },
+    {
+      "word": "imagination",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上運用想像力的具體活動。",
+      "fix": "Children use their imagination to invent stories about magical worlds."
+    },
+    {
+      "word": "imagination",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "孩子們運用想像力，創作關於魔法世界的故事。"
+    },
+    {
+      "word": "immediate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 immediate family 表示關係最親近的家人，原釋義未清楚涵蓋，三句也未示範直接原因等「直接的」義。",
+      "fix": "立即的；眼前的；最親近的"
+    },
+    {
+      "word": "immediate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "immediate family 可包含配偶及兄弟姊妹，不能限縮為法律分類中的直系親屬。",
+      "fix": "只有最親近的家人來參加這場小聚會。"
+    },
+    {
+      "word": "indoor",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句主詞 We 在中文中遺漏，應保留我們興建泳池的意思。",
+      "fix": "我們在健身房蓋了一座室內游泳池。"
+    },
+    {
+      "word": "inferior",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為品質或自我評價較差的意思，未使用地位「次要的」義。",
+      "fix": "較差的；劣等的"
+    },
+    {
+      "word": "inn",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「供應所有房客早餐」語序生硬，需清楚標示早餐供應給房客。",
+      "fix": "這間旅館供應早餐給所有房客。"
+    },
+    {
+      "word": "inner",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "find 只表示尋找，原句沒有曾經失去力量的背景，不應增譯為「找回」。",
+      "fix": "她試著尋找內心的力量。"
+    },
+    {
+      "word": "innocent",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 innocent mistake 為無心的失誤，釋義未列出無心或無惡意的意思。",
+      "fix": "無辜的；天真的；無罪的；無心的"
+    },
+    {
+      "word": "inspector",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為一般檢查或查票人員，未示範警察職級的「督察」。",
+      "fix": "檢查員"
+    },
+    {
+      "word": "jail",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指監獄或入獄，沒有明確使用監獄內單一「牢房」的意思。",
+      "fix": "監獄"
+    },
+    {
+      "word": "jet",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句 jet 指水流噴出的噴嘴，釋義未列出；三句也沒有 jet 作為噴射流本身的用法。",
+      "fix": "噴射機；噴嘴"
+    },
+    {
+      "word": "juicy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上果實成熟的具體情境。",
+      "fix": "This peach is sweet and juicy because it is fully ripe."
+    },
+    {
+      "word": "juicy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這顆桃子已經熟透，所以又甜又多汁。"
+    },
+    {
+      "word": "junior",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "high",
+      "detail": "第一句 my junior 只表示年紀比自己小，不一定是輩分較低的晚輩。",
+      "fix": "年紀較輕的人；後輩；大三學生"
+    },
+    {
+      "word": "junior",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上年齡與工作經驗的比較情境。",
+      "fix": "He is three years my junior but has more work experience."
+    },
+    {
+      "word": "junior",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他比我小三歲，卻有更多工作經驗。"
+    }
+  ]
+}
