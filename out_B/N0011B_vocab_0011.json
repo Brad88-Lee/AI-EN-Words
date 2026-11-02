@@ -1,0 +1,185 @@
+{
+  "batch": "N0011",
+  "checked": 50,
+  "reviewed": [
+    "buffalo",
+    "bull",
+    "bullet",
+    "bump",
+    "bunch",
+    "bury",
+    "bush",
+    "buzz",
+    "cabin",
+    "canyon",
+    "capable",
+    "capture",
+    "carpenter",
+    "carriage",
+    "cart",
+    "cast",
+    "casual",
+    "cattle",
+    "cave",
+    "champion",
+    "charm",
+    "cheek",
+    "cheerful",
+    "cherry",
+    "chest",
+    "chill",
+    "chilly",
+    "chimney",
+    "chip",
+    "chop",
+    "cigarette",
+    "cinema",
+    "circus",
+    "civil",
+    "clay",
+    "cleaner",
+    "client",
+    "clinic",
+    "clip",
+    "clothe",
+    "clown",
+    "clue",
+    "cock",
+    "cocktail",
+    "coconut",
+    "collar",
+    "colony",
+    "column",
+    "comfort",
+    "committee"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "bump",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "低矮通道的撞頭情境應明確寫門框，on the low door 容易誤指門板。",
+      "fix": "Be careful not to bump your head on the low doorframe."
+    },
+    {
+      "word": "bump",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "小心不要把頭撞到低矮的門框。"
+    },
+    {
+      "word": "bunch",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "bunch of grapes 對應後列的串，第一個意思束應以花束呈現。",
+      "fix": "bunch of flowers"
+    },
+    {
+      "word": "capable",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文只描述能迅速解決問題，總能額外加入了每次都能成功的絕對語氣。",
+      "fix": "她是一位能幹的經理，能迅速解決問題。"
+    },
+    {
+      "word": "charm",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "小銀飾吊飾重複且句法生硬，應直接表達小銀吊飾。",
+      "fix": "她戴著一條有小銀吊飾的手鍊。"
+    },
+    {
+      "word": "cheek",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The baby has soft pink cheeks and a bright smile."
+    },
+    {
+      "word": "cheek",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這個寶寶臉頰粉嫩柔軟，笑容燦爛。"
+    },
+    {
+      "word": "clothe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "children in need 指有需要或需要幫助的孩子，原譯需要的孩子語意不完整。",
+      "fix": "這個慈善機構協助有需要的孩子獲得衣物。"
+    },
+    {
+      "word": "cock",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "A cock crowed loudly at dawn and woke the farmer."
+    },
+    {
+      "word": "cock",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "一隻公雞在黎明時大聲啼叫，叫醒了農夫。"
+    },
+    {
+      "word": "cocktail",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "fruit cocktail 常指什錦水果，原義項只譯為水果雞尾酒而未呈現此食品義。",
+      "fix": "雞尾酒；什錦水果"
+    },
+    {
+      "word": "cocktail",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "改為飯後甜點情境，明確示範 fruit cocktail 的常見什錦水果義，避免與水果酒飲混淆。",
+      "fix": "Mom ordered a fruit cocktail for dessert after dinner."
+    },
+    {
+      "word": "cocktail",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "媽媽晚餐後點了一份什錦水果當甜點。"
+    },
+    {
+      "word": "coconut",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句未直接示範所列的椰肉義，改以椰肉絲明確補足此義項。",
+      "fix": "She added grated coconut to the cake for extra flavor."
+    },
+    {
+      "word": "coconut",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "她在蛋糕裡加入椰肉絲，增添風味。"
+    }
+  ]
+}
