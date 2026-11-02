@@ -549,3 +549,7 @@
 😁(grin)
 🐣(hatch)
 ⛑️(helmet)
+🐆(leopard)
+📍(location)
+🧲(magnet)
+🏅(medal)
