@@ -1,0 +1,329 @@
+{
+  "batch": "N0010",
+  "checked": 50,
+  "reviewed": [
+    "assist",
+    "athlete",
+    "attitude",
+    "attract",
+    "attractive",
+    "automatic",
+    "automobile",
+    "avenue",
+    "awake",
+    "awaken",
+    "award",
+    "awful",
+    "awkward",
+    "background",
+    "bacon",
+    "bacteria",
+    "baggage",
+    "bait",
+    "bamboo",
+    "bang",
+    "bare",
+    "barely",
+    "barn",
+    "barrel",
+    "bay",
+    "bead",
+    "beam",
+    "beast",
+    "beetle",
+    "beneath",
+    "benefit",
+    "berry",
+    "bet",
+    "bind",
+    "bleed",
+    "bloody",
+    "bold",
+    "boot",
+    "bore",
+    "brake",
+    "brass",
+    "bravery",
+    "breast",
+    "breath",
+    "breathe",
+    "breeze",
+    "bride",
+    "bubble",
+    "bud",
+    "budget"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "awaken",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為從睡眠喚醒及喚起興趣或熱愛，未示範使人覺悟的使覺醒義。",
+      "fix": "喚醒；喚起"
+    },
+    {
+      "word": "award",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "best reader 指閱讀表現最佳者，不一定是閱讀量最多的學生。",
+      "fix": "學校每年都會頒獎給閱讀表現最好的學生。"
+    },
+    {
+      "word": "award",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "獎盃已在 used_emoji.txt 用於 best，award 與 best 並非近義詞，依規則須移除。",
+      "fix": null
+    },
+    {
+      "word": "awful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "糟透的與極糟的重複；awful headache 指頭痛嚴重，應精確涵蓋此程度義。",
+      "fix": "糟透的；嚴重的"
+    },
+    {
+      "word": "bacteria",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Some bacteria help us digest food and keep our intestines healthy."
+    },
+    {
+      "word": "bacteria",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "有些細菌能幫助我們消化食物，維持腸道健康。"
+    },
+    {
+      "word": "bait",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 bait someone into an argument 指故意挑釁，引誘不足以呈現惹怒對方的用法。",
+      "fix": "在鉤上裝餌；引誘；挑釁"
+    },
+    {
+      "word": "bamboo",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "This basket is made of bamboo grown near the village."
+    },
+    {
+      "word": "bamboo",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "這個籃子是用村莊附近種植的竹子做的。"
+    },
+    {
+      "word": "bare",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The trees are bare in winter after their leaves fall."
+    },
+    {
+      "word": "bare",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "樹葉落下後，樹木在冬天變得光禿禿的。"
+    },
+    {
+      "word": "bare",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bared the branches 表示吹落葉子而使枝條裸露，不是把枝葉都吹光。",
+      "fix": "寒風吹落了老樹的葉子，露出光禿禿的枝條。"
+    },
+    {
+      "word": "barn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "low",
+      "detail": "穀倉重複列出兩次，應刪除重複義項。",
+      "fix": "穀倉；牲口棚"
+    },
+    {
+      "word": "barrel",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句均為容器或桶的計量單位，沒有槍管的用法。",
+      "fix": "桶；一桶的量"
+    },
+    {
+      "word": "beam",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句發送的是無線電訊號，不能只以發射光線限定；第二句也使用照耀義。",
+      "fix": "微笑；照耀；發送"
+    },
+    {
+      "word": "beam",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "wooden beam 指後列的梁，不是第一個意思光束。",
+      "fix": null
+    },
+    {
+      "word": "beast",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句皆指故事或動物中的野獸，未用來形容殘暴的人。",
+      "fix": "野獸；猛獸"
+    },
+    {
+      "word": "beneath",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個介系詞例句只有空間上的在下面，未示範地位低於或不值得的用法。",
+      "fix": "在……下面"
+    },
+    {
+      "word": "beneath",
+      "path": "senses[1].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "原句 beneath us 帶有受詞，屬介系詞用法；改為不帶受詞的副詞例句。",
+      "fix": "We stood on the bridge and watched the river flowing beneath."
+    },
+    {
+      "word": "beneath",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "我們站在橋上，看著河水在下方流過。"
+    },
+    {
+      "word": "benefit",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "Regular exercise has many health benefits, including a stronger heart."
+    },
+    {
+      "word": "benefit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "規律運動對健康有許多好處，包括讓心臟更強健。"
+    },
+    {
+      "word": "benefit",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "為了本地學校的利益而舉辦的搭配生硬，for the benefit of 在此應自然表達為幫助學校。",
+      "fix": "這場音樂會是為了幫助本地學校而舉辦的。"
+    },
+    {
+      "word": "bind",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 binds 指把社團成員聯繫在一起，不是捆綁或合約約束。",
+      "fix": "綁；捆；約束；聯繫"
+    },
+    {
+      "word": "bloody",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都是一般醫療情境的流血或沾血，未示範暴力事件的血腥義。",
+      "fix": "流血的；沾血的"
+    },
+    {
+      "word": "bore",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五至六個英文字，補入具體情境以符合約八至十八字的教材標準。",
+      "fix": "The lecture was such a bore that several students fell asleep."
+    },
+    {
+      "word": "bore",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "那場演講無聊得讓好幾位學生都睡著了。"
+    },
+    {
+      "word": "brake",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "low",
+      "detail": "煞車與剎車為同義異寫，不應重複列為兩個意思。",
+      "fix": "煞車"
+    },
+    {
+      "word": "breast",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "breast 最常用的乳房義未列出，不能只以胸部或胸膛籠統涵蓋。",
+      "fix": "乳房；胸部；胸肉"
+    },
+    {
+      "word": "breast",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般寶寶胸背檢查宜用 chest，原句 breast 不符合典型現代醫療搭配；改為中性健康檢查情境。",
+      "fix": "The doctor explained how regular checks can detect breast cancer early."
+    },
+    {
+      "word": "breast",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "醫生解釋定期檢查如何及早發現乳癌。"
+    },
+    {
+      "word": "breathe",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "植物吸收二氧化碳主要屬光合作用，原句將此與呼吸混同；改為正確的吸入新鮮空氣用法。",
+      "fix": "Open the window so we can breathe in some fresh air."
+    },
+    {
+      "word": "breathe",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文翻譯須同步忠實對應。",
+      "fix": "打開窗戶，讓我們吸入一些新鮮空氣。"
+    }
+  ]
+}
