@@ -1,0 +1,521 @@
+{
+  "batch": "N0021",
+  "checked": 50,
+  "reviewed": [
+    "shortly",
+    "shovel",
+    "shrink",
+    "sigh",
+    "signal",
+    "significant",
+    "silk",
+    "similarity",
+    "sin",
+    "sip",
+    "situation",
+    "skip",
+    "slave",
+    "sleeve",
+    "slippery",
+    "slope",
+    "snap",
+    "solid",
+    "somehow",
+    "sometime",
+    "sorrow",
+    "specific",
+    "spice",
+    "spill",
+    "spin",
+    "spinach",
+    "spit",
+    "spite",
+    "splash",
+    "spoil",
+    "spray",
+    "spy",
+    "squeeze",
+    "squirrel",
+    "stable",
+    "stadium",
+    "staff",
+    "stare",
+    "starve",
+    "statue",
+    "steady",
+    "steep",
+    "sticky",
+    "stiff",
+    "sting",
+    "stir",
+    "stitch",
+    "stool",
+    "strategy",
+    "strength"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "shortly",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "第三句 answered shortly 表示回答生硬或不耐煩，不宜教成僅指內容簡短。",
+      "fix": "不久；馬上；不耐煩地"
+    },
+    {
+      "word": "shortly",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "answered shortly 強調不客氣或不耐煩的語氣，原譯只說簡短而漏掉態度。",
+      "fix": "她不耐煩地回答了問題，然後就坐下了。"
+    },
+    {
+      "word": "signal",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上打方向燈的交通安全目的。",
+      "fix": "Drivers should signal before they turn so others can react safely."
+    },
+    {
+      "word": "signal",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "駕駛人轉彎前應打方向燈示意，讓其他用路人能安全應對。"
+    },
+    {
+      "word": "slippery",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句以逗號直接連接兩個獨立句，應改用分號。",
+      "fix": "Be careful; the floor is slippery after the rain."
+    },
+    {
+      "word": "slippery",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "小心，雨後的地板很滑。"
+    },
+    {
+      "word": "slippery",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「把牠掉到地上」搭配錯誤，英文也沒有指定掉到地上。",
+      "fix": "那條魚太滑了，我差點讓牠從手中滑落。"
+    },
+    {
+      "word": "slope",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句皆為地形斜坡，沒有使用傾斜程度的「坡度」義。",
+      "fix": "斜坡"
+    },
+    {
+      "word": "snap",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 a snap of his fingers 指彈指的動作，只有啪的一聲未清楚涵蓋。",
+      "fix": "啪的一聲；彈指"
+    },
+    {
+      "word": "solid",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上觀察水結冰的具體場所。",
+      "fix": "Water becomes solid when it freezes in the freezer."
+    },
+    {
+      "word": "solid",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "水在冷凍庫裡結冰時，會變成固態。"
+    },
+    {
+      "word": "solid",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "solid wood 是與貼皮或合成木材相對的實木，不宜只解釋為中間沒有空洞。",
+      "fix": "這張桌子是用實木做的。"
+    },
+    {
+      "word": "specific",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上要求例子的討論目的。",
+      "fix": "Please give me a specific example to support your opinion."
+    },
+    {
+      "word": "specific",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "請舉一個具體的例子來支持你的看法。"
+    },
+    {
+      "word": "spice",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "第二句是加入帶辣味的香料，不是把抽象的味道當作食材加入；三句未獨立示範辛辣味義。",
+      "fix": "香料；樂趣"
+    },
+    {
+      "word": "spice",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "add a little spice 是加入調味香料，「在湯裡加一點辛辣味」不自然。",
+      "fix": "如果你喜歡辣，就在湯裡加一點辣味香料。"
+    },
+    {
+      "word": "spill",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "「灑得我的作業到處都是」變成作業散落各處，沒有表達咖啡灑滿作業的意思。",
+      "fix": "我的作業上灑滿了咖啡。"
+    },
+    {
+      "word": "spite",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "「儘管」是整個 in spite of 的介系詞片語意思，不能直接列為名詞 spite 的釋義。",
+      "fix": "惡意；怨恨"
+    },
+    {
+      "word": "spite",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上兩人原有的友誼背景。",
+      "fix": "Jealousy and spite ruined their friendship after years of trust."
+    },
+    {
+      "word": "spite",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "嫉妒與怨恨毀了他們多年互信的友誼。"
+    },
+    {
+      "word": "spite",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句只示範 in spite of 的儘管用法，改為直接示範名詞的惡意義。",
+      "fix": "There was no spite in her criticism of my report."
+    },
+    {
+      "word": "spite",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她對我報告的批評並無惡意。"
+    },
+    {
+      "word": "splash",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上避免油漆濺落的具體情境。",
+      "fix": "Don't splash paint on the floor while painting the walls."
+    },
+    {
+      "word": "splash",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "粉刷牆壁時，不要把油漆濺到地板上。"
+    },
+    {
+      "word": "spoil",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上野餐因雨改變的結果。",
+      "fix": "The rain spoiled our picnic plans, so we ate indoors."
+    },
+    {
+      "word": "spoil",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這場雨破壞了我們的野餐計畫，所以我們改在室內用餐。"
+    },
+    {
+      "word": "spray",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項是動詞噴灑，spray bottle 只呈現工具，應改為實際噴水動作。",
+      "fix": "spraying water"
+    },
+    {
+      "word": "spray",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上接近瀑布而被水花打溼的情境。",
+      "fix": "The waterfall's spray wet our jackets as we crossed the bridge."
+    },
+    {
+      "word": "spray",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們過橋時，瀑布的水花打溼了外套。"
+    },
+    {
+      "word": "spy",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此圖示的常見聯想是偵探，容易與第一義項的間諜混淆。",
+      "fix": null
+    },
+    {
+      "word": "spy",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "spy 此處表示看見或發現，原句沒有額外的尋找動作，不應增譯。",
+      "fix": "賞鳥的人用望遠鏡發現了稀有的鳥。"
+    },
+    {
+      "word": "squeeze",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上擠檸檬的目的，中文也須明確表達擠入的是汁。",
+      "fix": "Squeeze a lemon into the tea to add a fresh flavor."
+    },
+    {
+      "word": "squeeze",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "把一顆檸檬的汁擠進茶裡，增添清新風味。"
+    },
+    {
+      "word": "squirrel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上松鼠儲藏食物的具體方式。",
+      "fix": "Squirrels store food in hidden places to prepare for the winter."
+    },
+    {
+      "word": "squirrel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "松鼠把食物藏在隱密的地方，準備過冬。"
+    },
+    {
+      "word": "stable",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上病人接受治療後的醫療情境。",
+      "fix": "The patient's condition is stable now after receiving emergency treatment."
+    },
+    {
+      "word": "stable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "病人接受緊急治療後，現在狀況已經穩定。"
+    },
+    {
+      "word": "stable",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上照顧馬匹的日常工作。",
+      "fix": "She cleans the stable before breakfast and feeds the horses."
+    },
+    {
+      "word": "stable",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她早餐前會打掃馬廄，並餵馬。"
+    },
+    {
+      "word": "staff",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fifty teachers 是五十位教師，教職員會額外包含非教師的職員。",
+      "fix": "我們學校有五十位教師。"
+    },
+    {
+      "word": "stare",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上凝視時保持沉默的情境。",
+      "fix": "He gave me a long stare without saying a word."
+    },
+    {
+      "word": "stare",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他一言不發地久久盯著我看。"
+    },
+    {
+      "word": "stare",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "stare 是持續盯視，不能譯成短暫的一瞥。",
+      "fix": "老師冷冷地盯著我們，讓我們安靜下來。"
+    },
+    {
+      "word": "starve",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上長時間健行後飢餓的情境。",
+      "fix": "I'm starving after the long hike; can we eat soon?"
+    },
+    {
+      "word": "starve",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "健行這麼久，我餓壞了；我們可以快點吃飯嗎？"
+    },
+    {
+      "word": "sting",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是刺痛的感覺，bee sting 對應後面的昆蟲螫傷義，不是抽象的第一義。",
+      "fix": null
+    },
+    {
+      "word": "sting",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上使用肥皂洗臉的具體情境。",
+      "fix": "The soap made my eyes sting when I washed my face."
+    },
+    {
+      "word": "sting",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我洗臉時，肥皂讓眼睛刺痛。"
+    },
+    {
+      "word": "stir",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上攪入糖後喝咖啡的動作。",
+      "fix": "She stirred sugar into her coffee before taking a sip."
+    },
+    {
+      "word": "stir",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她把糖攪進咖啡裡，再喝了一小口。"
+    },
+    {
+      "word": "stitch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文 cloth 是布料，不限定單一塊；「把這塊布縫在一起」未說清楚縫合對象。",
+      "fix": "請沿著邊緣把布料縫合在一起。"
+    },
+    {
+      "word": "strategy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上調整行銷策略的具體目的。",
+      "fix": "The company changed its marketing strategy to attract more young customers."
+    },
+    {
+      "word": "strategy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這家公司改變了行銷策略，以吸引更多年輕顧客。"
+    },
+    {
+      "word": "strategy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上下棋需規劃後續步法的原因。",
+      "fix": "Chess requires patience and strategy because players must plan several moves ahead."
+    },
+    {
+      "word": "strategy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "西洋棋需要耐心與策略，因為棋手必須提前規劃好幾步。"
+    },
+    {
+      "word": "strength",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上誠實這項長處的實際影響。",
+      "fix": "Honesty is her greatest strength and makes her a trusted friend."
+    },
+    {
+      "word": "strength",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "誠實是她最大的長處，也讓她成為值得信賴的朋友。"
+    }
+  ]
+}
