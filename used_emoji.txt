@@ -562,3 +562,5 @@
 🚀(rocket)
 🐿️(squirrel)
 🏟️(stadium)
+🚐(van)
+🏺(vase)
