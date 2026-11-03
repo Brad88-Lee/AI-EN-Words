@@ -580,3 +580,4 @@
 🧮(calculate)
 🛫(departure)
 🕵️(detective)
+📠(fax)
