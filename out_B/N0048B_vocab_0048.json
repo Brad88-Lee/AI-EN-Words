@@ -1,0 +1,397 @@
+{
+  "batch": "N0048",
+  "checked": 50,
+  "reviewed": [
+    "tolerant",
+    "tolerate",
+    "tomb",
+    "tortoise",
+    "tragedy",
+    "tragic",
+    "transfer",
+    "transform",
+    "translate",
+    "translation",
+    "translator",
+    "transportation",
+    "tremble",
+    "tremendous",
+    "triumph",
+    "troublesome",
+    "tumble",
+    "twig",
+    "universal",
+    "urge",
+    "urgent",
+    "usage",
+    "vain",
+    "vast",
+    "vegetarian",
+    "vessel",
+    "violate",
+    "violation",
+    "virtue",
+    "virus",
+    "visual",
+    "vital",
+    "voluntary",
+    "volunteer",
+    "voyage",
+    "waken",
+    "website",
+    "welfare",
+    "wink",
+    "wit",
+    "witch",
+    "withdraw",
+    "witness",
+    "workout",
+    "wreck",
+    "yawn",
+    "youthful",
+    "addict",
+    "ambiguous",
+    "arms"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "tortoise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "tortoise 特指陸龜，烏龜容易與水棲龜類混淆，三句也皆為陸龜。",
+      "fix": "陸龜"
+    },
+    {
+      "word": "transfer",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句的 bank transfer 指銀行轉帳，原名詞義項未列出。",
+      "fix": "轉帳；調動；轉乘"
+    },
+    {
+      "word": "transfer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "office 指辦公室，原文未指定該據點為分公司。",
+      "fix": "我爸爸上個月被調到臺中辦公室。"
+    },
+    {
+      "word": "transform",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上鍋爐的實際情境。",
+      "fix": "Heat can transform liquid water into steam in a boiler."
+    },
+    {
+      "word": "transform",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "熱能可以使鍋爐中的液態水變成水蒸氣。"
+    },
+    {
+      "word": "translate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句的轉換與轉化為重複義項，應合併。",
+      "fix": "翻譯；轉化"
+    },
+    {
+      "word": "translator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "翻譯者與譯者重複，第三句的應用程式則應以翻譯工具涵蓋。",
+      "fix": "譯者；翻譯工具"
+    },
+    {
+      "word": "transportation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "提供免費交通搭配不完整，應表達提供免費交通服務。",
+      "fix": "這座城市為長者提供免費的交通服務。"
+    },
+    {
+      "word": "transportation",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象的交通運輸，公車查詢僅呈現第二義的運輸工具。",
+      "fix": null
+    },
+    {
+      "word": "tremendous",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆表達規模或程度很大，未使用很棒的品質義，巨大與極大亦重複。",
+      "fix": "巨大的"
+    },
+    {
+      "word": "tremendous",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "極大幫忙不是自然的中文搭配，應表達給予莫大的協助。",
+      "fix": "謝謝你在這個專案上給予莫大的協助。"
+    },
+    {
+      "word": "urge",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "urge 含有敦促或力勸的語氣，原譯僅說鼓勵，語氣不足。",
+      "fix": "我們的老師敦促我們每個月至少讀一本書。"
+    },
+    {
+      "word": "urgent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上需要緊急照護的事故情境。",
+      "fix": "The patient needs urgent medical care after the serious accident."
+    },
+    {
+      "word": "urgent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這名病人在嚴重事故後需要緊急醫療照護。"
+    },
+    {
+      "word": "vain",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "照鏡子的情境中 vain 指愛慕虛榮，不能譯成重視面子的愛面子。",
+      "fix": "他很愛慕虛榮，每隔幾分鐘就照一次鏡子。"
+    },
+    {
+      "word": "vegetarian",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為名詞素食者，沙拉碗呈現的是食物，未對應人的身分。",
+      "fix": null
+    },
+    {
+      "word": "violation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為違反規定或違規，未使用侵犯權利義。",
+      "fix": "違反；違規"
+    },
+    {
+      "word": "virtue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "優點與益處在此重複，應合併並保留美德義。",
+      "fix": "美德；益處"
+    },
+    {
+      "word": "visual",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為視覺相關用法，未使用看得見的義，視覺的與視覺上的亦重複。",
+      "fix": "視覺的"
+    },
+    {
+      "word": "volunteer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "願意與自願重複，應刪除冗詞。",
+      "fix": "誰要自願打掃教室？"
+    },
+    {
+      "word": "waken",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為喚醒或醒來，未使用喚起感情等抽象義。",
+      "fix": "喚醒；醒來"
+    },
+    {
+      "word": "website",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "website 指網站，不能與單一網頁混為一談，三句也皆為網站。",
+      "fix": "網站"
+    },
+    {
+      "word": "welfare",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "幸福與福祉在此重複，應合併並保留福利義。",
+      "fix": "福利；福祉"
+    },
+    {
+      "word": "welfare",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "offers good welfare 搭配不自然，員工福利措施應以 supports employee welfare 表達。",
+      "fix": "The company supports employee welfare by offering paid holidays."
+    },
+    {
+      "word": "welfare",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這家公司提供有薪假，以增進員工福祉。"
+    },
+    {
+      "word": "wink",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用星星閃爍義，原動詞義項未列出。",
+      "fix": "眨眼；使眼色；閃爍"
+    },
+    {
+      "word": "wit",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現機智或風趣，未使用一般知識或智慧義。",
+      "fix": "機智；風趣"
+    },
+    {
+      "word": "wit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "十分的機智搭配不自然，應以十分機智地修飾回答。",
+      "fix": "她十分機智地回答了那個難題。"
+    },
+    {
+      "word": "witch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "女巫與巫婆重複，應合併為單一義項。",
+      "fix": "女巫"
+    },
+    {
+      "word": "witness",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指簽署婚姻文件的人，見證是行為，應明確列為見證人。",
+      "fix": "目擊者；證人；見證人"
+    },
+    {
+      "word": "witness",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上簽署文件的時機。",
+      "fix": "Two witnesses signed the wedding document at the end of the ceremony."
+    },
+    {
+      "word": "witness",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "儀式結束時，兩位見證人在結婚文件上簽了名。"
+    },
+    {
+      "word": "witness",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "目睹與親眼看到重複，應合併並保留見證義。",
+      "fix": "目睹；見證"
+    },
+    {
+      "word": "wreck",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 a wreck 指身心俱疲的人，現有義項僅涵蓋毀壞物品。",
+      "fix": "殘骸；失事的船或車；身心俱疲的人"
+    },
+    {
+      "word": "arms",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "arms 常用的武器義未列出，原稿僅呈現 arm 的複數手臂義，應補足。",
+      "fix": "武器；手臂"
+    },
+    {
+      "word": "arms",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原稿三句皆為手臂義，改以中性的歷史文物情境示範常見武器義。",
+      "fix": "The museum displays arms and armor from several historical periods."
+    },
+    {
+      "word": "arms",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "博物館展示來自幾個歷史時期的武器與盔甲。"
+    },
+    {
+      "word": "arms",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原稿缺少武器義例句，改以中性的協議情境示範。",
+      "fix": "The two countries signed an agreement to limit the sale of arms."
+    },
+    {
+      "word": "arms",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "兩國簽署協議，限制武器銷售。"
+    },
+    {
+      "word": "arms",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補入常見的武器義後，分類需涵蓋社會法律與歷史，並保留手臂的健康分類。",
+      "fix": [
+        "社會與法律",
+        "歷史與地理",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "arms",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義已補正為武器，原查詢是第二義的手臂，需對應第一義。",
+      "fix": "historical weapons"
+    }
+  ]
+}
