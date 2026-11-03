@@ -591,3 +591,4 @@
 🔁(repetition)
 🛰️(satellite)
 🔭(telescope)
+😉(wink)
