@@ -1,0 +1,305 @@
+{
+  "batch": "N0040",
+  "checked": 50,
+  "reviewed": [
+    "idol",
+    "ignorance",
+    "ignorant",
+    "illustrate",
+    "illustration",
+    "imaginary",
+    "imaginative",
+    "imitate",
+    "imitation",
+    "immigrant",
+    "immigration",
+    "impact",
+    "imply",
+    "impose",
+    "impression",
+    "incident",
+    "incredible",
+    "indication",
+    "infant",
+    "infection",
+    "influential",
+    "informative",
+    "ingredient",
+    "initial",
+    "injure",
+    "innocence",
+    "input",
+    "insert",
+    "inspiration",
+    "install",
+    "instinct",
+    "instruct",
+    "instructor",
+    "insult",
+    "insurance",
+    "intellectual",
+    "intelligence",
+    "intend",
+    "intense",
+    "intensive",
+    "intention",
+    "interfere",
+    "intermediate",
+    "interpret",
+    "intimate",
+    "invade",
+    "invention",
+    "invest",
+    "involve",
+    "isolate"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "reason": "",
+    "pass": true
+  },
+  "issues": [
+    {
+      "word": "idol",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用神像義，中文義項未列出。",
+      "fix": "偶像；神像"
+    },
+    {
+      "word": "imitation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上模仿對象以符合例句長度與情境要求。",
+      "fix": "Children learn language partly through imitation of adult speech."
+    },
+    {
+      "word": "imitation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "孩子有一部分是透過模仿成人的言語來學習語言的。"
+    },
+    {
+      "word": "imitation",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "仿製品模仿的是產品，原句以品牌本身作為模仿對象不夠精確。",
+      "fix": "This bag is a cheap imitation of a famous designer's handbag."
+    },
+    {
+      "word": "imitation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個包包是某位知名設計師手提包的廉價仿製品。"
+    },
+    {
+      "word": "immigrant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "low",
+      "detail": "移民與外來移民重複，應合併為單一義項。",
+      "fix": "移民"
+    },
+    {
+      "word": "impact",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "汽車的 front 指車頭，並未指定整個前半部。",
+      "fix": "汽車的車頭在撞擊中受損了。"
+    },
+    {
+      "word": "impact",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補足物價類別與受影響家庭的具體情境。",
+      "fix": "Rising food prices will impact many families with limited incomes."
+    },
+    {
+      "word": "impact",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "食品價格上漲將對許多收入有限的家庭造成影響。"
+    },
+    {
+      "word": "infant",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆使用嬰兒義，未呈現所列的幼兒義。",
+      "fix": "嬰兒"
+    },
+    {
+      "word": "infection",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上洗手時機以符合例句長度要求。",
+      "fix": "Washing your hands before meals helps prevent infection."
+    },
+    {
+      "word": "infection",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "飯前洗手有助於預防感染。"
+    },
+    {
+      "word": "ingredient",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用構成成功的要素義，中文義項未列出。",
+      "fix": "食材；原料；成分；要素"
+    },
+    {
+      "word": "injure",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "被刀子弄傷自己混用了被動與反身結構，語意不順。",
+      "fix": "小心，別用刀子弄傷自己。"
+    },
+    {
+      "word": "innocence",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改以具體的家庭情境呈現天真義。",
+      "fix": "The child's innocence reminded her grandfather of his own childhood."
+    },
+    {
+      "word": "innocence",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個孩子的天真讓她的祖父想起了自己的童年。"
+    },
+    {
+      "word": "input",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句未使用資源投入義，應移除未示範的投入義。",
+      "fix": "輸入；意見"
+    },
+    {
+      "word": "input",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "enter 指特定的 Enter 鍵，確認鍵未準確保留按鍵名稱。",
+      "fix": "請輸入你的密碼，然後按下 Enter 鍵。"
+    },
+    {
+      "word": "intelligence",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句未使用情報義，第三句的人工智慧用法則需以智慧義涵蓋。",
+      "fix": "智力；智慧"
+    },
+    {
+      "word": "intelligence",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上測量方式以提供完整的測驗情境。",
+      "fix": "The test measures a child's intelligence through various problem-solving tasks."
+    },
+    {
+      "word": "intelligence",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這項測驗透過各種解決問題的任務來衡量孩子的智力。"
+    },
+    {
+      "word": "intention",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "傷害你感受的搭配不自然，應以傷害感情表達 hurt your feelings。",
+      "fix": "我並沒有要傷害你感情的意思。"
+    },
+    {
+      "word": "intermediate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "三句皆為中級課程情境，且未示範中間的義，第三句改為旅程中途停留。",
+      "fix": "We made an intermediate stop in Taipei before reaching Kaohsiung."
+    },
+    {
+      "word": "intermediate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們在抵達高雄之前，中途在臺北停留了一次。"
+    },
+    {
+      "word": "intimate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句以 intimate 描述咖啡館溫馨的氣氛，所列義項未充分涵蓋此用法。",
+      "fix": "親密的；私密的；溫馨的"
+    },
+    {
+      "word": "invention",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象的發明行為，現有查詢描繪的是第二義的發明物。",
+      "fix": null
+    },
+    {
+      "word": "invest",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "一家小事業的量詞搭配不自然，small business 在此指小型企業。",
+      "fix": "她決定把積蓄投資在一家小型企業上。"
+    },
+    {
+      "word": "isolate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句分別使用病人隔離、村莊隔絕及找出成因義，原義項未完整對應。",
+      "fix": "使隔離；使隔絕；找出"
+    },
+    {
+      "word": "isolate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "嚴重感染不一定具有傳染性，應明確使用具傳染性的感染來說明隔離原因。",
+      "fix": "Doctors isolate patients with contagious infections to protect other people."
+    },
+    {
+      "word": "isolate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "為了保護其他人，醫生會隔離患有傳染病的病人。"
+    }
+  ]
+}
