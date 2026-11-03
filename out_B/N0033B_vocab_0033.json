@@ -1,0 +1,259 @@
+{
+  "batch": "N0033",
+  "checked": 50,
+  "reviewed": [
+    "candidate",
+    "cane",
+    "canoe",
+    "capacity",
+    "capitalist",
+    "cargo",
+    "carve",
+    "cease",
+    "celebration",
+    "chamber",
+    "championship",
+    "characteristic",
+    "charity",
+    "cherish",
+    "chew",
+    "choke",
+    "chorus",
+    "circular",
+    "circulate",
+    "circulation",
+    "circumstance",
+    "civilian",
+    "civilization",
+    "clarify",
+    "clash",
+    "classification",
+    "classify",
+    "claw",
+    "cliff",
+    "clumsy",
+    "coarse",
+    "code",
+    "collapse",
+    "colleague",
+    "combination",
+    "comedy",
+    "commander",
+    "commerce",
+    "commit",
+    "communication",
+    "community",
+    "companion",
+    "competition",
+    "competitive",
+    "competitor",
+    "complicate",
+    "compose",
+    "composer",
+    "composition",
+    "concentrate"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "candidate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "公司面試職位候選人時應稱應徵者，原譯「應試者」將求職情境誤導為考試情境。",
+      "fix": "公司為業務職位面試了五位應徵者。"
+    },
+    {
+      "word": "cane",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "by hand 表示以人工方式收割，不是直接徒手割甘蔗。",
+      "fix": "農夫以人工方式砍下甘蔗莖，再送到工廠。"
+    },
+    {
+      "word": "capitalist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "few rules 只表示少量規範，原譯「越少越好」額外加入追求最少規範的比較意思。",
+      "fix": "有些資本主義者認為市場應該只有少數規範。"
+    },
+    {
+      "word": "carve",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示開創事業的典型搭配為 carve out a career，原句漏掉 out。",
+      "fix": "She worked hard to carve out a career in the fashion industry."
+    },
+    {
+      "word": "carve",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她努力在時尚產業中開創一番事業。"
+    },
+    {
+      "word": "charity",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "a fair job 無法自然表達待遇公平的工作，應明確使用 a job with fair pay。",
+      "fix": "He does not want charity; he wants a job with fair pay."
+    },
+    {
+      "word": "charity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他不想要施捨，而是想要一份待遇公平的工作。"
+    },
+    {
+      "word": "choke",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句未清楚指出受煙影響的人，改以房內的人為受詞，明確示範使窒息義。",
+      "fix": "Smoke from the kitchen began to choke the people in the room."
+    },
+    {
+      "word": "choke",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "廚房冒出的煙開始讓房裡的人喘不過氣。"
+    },
+    {
+      "word": "circulate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "靜息時血液不會固定每分鐘完整循環許多次，改用循環運送氧氣的明確敘述。",
+      "fix": "Blood circulates through the body, carrying oxygen to our cells."
+    },
+    {
+      "word": "circulate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "血液在體內循環，把氧氣運送到細胞。"
+    },
+    {
+      "word": "civilian",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "civilian life 中 civilian 是修飾 life 的形容詞，不能作為名詞義項的示例。",
+      "fix": "After leaving the army, he lived as a civilian again."
+    },
+    {
+      "word": "civilian",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "離開軍隊後，他再次以平民身分生活。"
+    },
+    {
+      "word": "clash",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個名詞例句均為意見衝突或配色不協調，沒有示範物理碰撞義。",
+      "fix": "衝突；不協調"
+    },
+    {
+      "word": "clash",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "Her shirt is a clash with the skirt 搭配不自然，應使用 a clash between 兩件衣物的句型。",
+      "fix": "There is a clash between her yellow shirt and red skirt."
+    },
+    {
+      "word": "clash",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她的黃襯衫和紅裙子配色不協調。"
+    },
+    {
+      "word": "clash",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個動詞例句均為時程衝突、意見衝突或配色不協調，沒有示範相撞義。",
+      "fix": "衝突；不協調"
+    },
+    {
+      "word": "clash",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "多數例句為一般時程、意見或顏色的衝突，僅列家庭與人際不能涵蓋主要用法。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "coarse",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "His coarse language shocked the teachers during the school meeting."
+    },
+    {
+      "word": "coarse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "學校會議期間，他粗俗的言詞讓老師們很震驚。"
+    },
+    {
+      "word": "collapse",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句名詞 collapse 表示身體昏倒，原義項漏列，應補上以免誤解為事業失敗。",
+      "fix": "倒塌；崩潰；昏倒"
+    },
+    {
+      "word": "combination",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "combination 只表示共同出現，原譯「加乘」額外暗示效果倍增。",
+      "fix": "風雨交加導致比賽取消。"
+    },
+    {
+      "word": "compose",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Twelve students compose the school band that plays at every assembly."
+    },
+    {
+      "word": "compose",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "十二位學生組成了每次集會都會演奏的學校樂隊。"
+    }
+  ]
+}
