@@ -1,0 +1,323 @@
+{
+  "batch": "N0034",
+  "checked": 50,
+  "reviewed": [
+    "concentration",
+    "concept",
+    "concerning",
+    "concrete",
+    "conductor",
+    "conference",
+    "confess",
+    "confidence",
+    "confusion",
+    "congratulate",
+    "congress",
+    "conquer",
+    "conscience",
+    "consequence",
+    "consequent",
+    "conservative",
+    "consist",
+    "consistent",
+    "constitute",
+    "constitution",
+    "construct",
+    "construction",
+    "constructive",
+    "consultant",
+    "consume",
+    "consumer",
+    "container",
+    "content",
+    "contest",
+    "context",
+    "continual",
+    "continuous",
+    "contrary",
+    "contrast",
+    "contribute",
+    "contribution",
+    "convenience",
+    "convention",
+    "conventional",
+    "converse",
+    "convey",
+    "convince",
+    "cooperate",
+    "cooperation",
+    "cooperative",
+    "cope",
+    "copper",
+    "cord",
+    "correspond",
+    "costume"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "concentration",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「打斷你的專心」中文搭配不自然，應表達音樂使人分心。",
+      "fix": "讀書時，大聲的音樂會讓你分心。"
+    },
+    {
+      "word": "concrete",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "混凝土靠水化作用硬化，原句僅以幾天完全乾透描述其可用狀態，容易混淆乾燥與硬化。",
+      "fix": "Fresh concrete needs time to harden before it can support heavy loads."
+    },
+    {
+      "word": "concrete",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "新澆置的混凝土需要時間硬化，才能承受重物。"
+    },
+    {
+      "word": "conference",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "中文不能說「開了會談」，應直接用「會談」作動詞。",
+      "fix": "老師放學後與湯姆的父母會談。"
+    },
+    {
+      "word": "constitute",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Twelve months constitute one year in the calendar we use."
+    },
+    {
+      "word": "constitute",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "在我們使用的曆法中，十二個月構成一年。"
+    },
+    {
+      "word": "constitute",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Copying another student's answers constitutes cheating, even during a short quiz."
+    },
+    {
+      "word": "constitute",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "即使是小考，抄襲其他同學的答案也算作弊。"
+    },
+    {
+      "word": "constitute",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "本字主要表示一般事物的構成，學生比例與月份例句都不屬社會法律領域。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "constitution",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 constitution 指社團章程，原義項未列，且三句均未示範物質或結構的組成義。",
+      "fix": "憲法；體質；章程"
+    },
+    {
+      "word": "construct",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句主要為建築、學習與概念建構，沒有科技網路用法，第一分類不應為科技與網路。",
+      "fix": [
+        "工作與商業",
+        "學校與學習"
+      ]
+    },
+    {
+      "word": "consume",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原譯省略 every week 的每週時間範圍。",
+      "fix": "青少年每週攝取的糖分往往過多。"
+    },
+    {
+      "word": "content",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個名詞例句均為演講或影片內容及含糖量，沒有示範目錄義。",
+      "fix": "內容；含量"
+    },
+    {
+      "word": "content",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Many websites offer free video content for students learning English."
+    },
+    {
+      "word": "content",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "許多網站提供免費的影片內容，供學英文的學生使用。"
+    },
+    {
+      "word": "content",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "content to wait 表示願意或甘願等待，原義項僅列滿足與滿意，未清楚涵蓋此用法。",
+      "fix": "滿足的；滿意的；願意的"
+    },
+    {
+      "word": "continual",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Continual phone calls interrupted our dinner, so we turned off the phone."
+    },
+    {
+      "word": "continual",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "接二連三的電話打斷了我們的晚餐，因此我們關掉了電話。"
+    },
+    {
+      "word": "continuous",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "連續車流、供水與降雨皆為一般的持續狀態，本字並非主要屬於科學領域。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "contrast",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "black and white 作為置於 photo 前的複合形容詞時應加連字號。",
+      "fix": "The black-and-white photo shows a strong contrast between light and shadow."
+    },
+    {
+      "word": "contrast",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這張黑白照片呈現出光影之間強烈的對比。"
+    },
+    {
+      "word": "contribute",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Regular exercise contributes to good health by keeping our bodies active."
+    },
+    {
+      "word": "contribute",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "規律運動讓身體保持活躍，有助於身體健康。"
+    },
+    {
+      "word": "contribution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句 contribution 指投出的作品而非投稿行為，原義項「投稿」未清楚區分。",
+      "fix": "貢獻；捐款；投稿作品"
+    },
+    {
+      "word": "conventional",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句描述傳統婚禮、菜色與常規職業，未示範個人習慣的意思。",
+      "fix": "傳統的；常規的"
+    },
+    {
+      "word": "cooperation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "報到例句中的 cooperation 指配合程序，原義項只有合作與協力，應補列配合義。",
+      "fix": "合作；協力；配合"
+    },
+    {
+      "word": "cooperative",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一義項描述願意配合的性格，名詞則是合作社，應優先列情緒性格並納入工作商業。",
+      "fix": [
+        "情緒與性格",
+        "工作與商業"
+      ]
+    },
+    {
+      "word": "copper",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "copper coins 中 copper 修飾 coins，應改用名詞複數 coppers 清楚示範銅幣義。",
+      "fix": "He found a few old coppers in the bottom drawer."
+    },
+    {
+      "word": "copper",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他在最底下的抽屜裡找到幾枚舊銅幣。"
+    },
+    {
+      "word": "cord",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有細繩與電線，未示範身體組織等條索構造的意思。",
+      "fix": "細繩；電線"
+    },
+    {
+      "word": "cord",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "electric cord 對應第二個意思電線，而非第一個意思細繩。",
+      "fix": "cotton cord"
+    }
+  ]
+}
