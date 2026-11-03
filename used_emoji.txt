@@ -571,3 +571,6 @@
 🌞(sunlight)
 🌇(sunset)
 🌷(tulip)
+🧙(wizard)
+🧑‍🔧(mechanic)
+♻️(recycle)
