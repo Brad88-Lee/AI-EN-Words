@@ -1,0 +1,497 @@
+{
+  "batch": "N0044",
+  "checked": 50,
+  "reviewed": [
+    "pest",
+    "phenomenon",
+    "philosopher",
+    "philosophical",
+    "philosophy",
+    "photography",
+    "physical",
+    "physician",
+    "physicist",
+    "pioneer",
+    "plentiful",
+    "plot",
+    "plum",
+    "plumber",
+    "poisonous",
+    "polish",
+    "portable",
+    "portray",
+    "possess",
+    "possession",
+    "postage",
+    "potential",
+    "precise",
+    "predict",
+    "prediction",
+    "pregnancy",
+    "pregnant",
+    "presentation",
+    "preserve",
+    "prevention",
+    "prime",
+    "primitive",
+    "privacy",
+    "privilege",
+    "procedure",
+    "proceed",
+    "productive",
+    "profession",
+    "professional",
+    "profitable",
+    "prominent",
+    "promising",
+    "promotion",
+    "prompt",
+    "pronunciation",
+    "proposal",
+    "prosper",
+    "prosperity",
+    "prosperous",
+    "protein"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "phenomenon",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現自然現象或引起轟動的事物，未使用奇蹟義。",
+      "fix": "現象；非凡的人事物"
+    },
+    {
+      "word": "philosophical",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上哲學問題的主題。",
+      "fix": "The book raises several philosophical questions about right and wrong."
+    },
+    {
+      "word": "philosophical",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本書提出了幾個關於對錯的哲學問題。"
+    },
+    {
+      "word": "philosophy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "後兩句談教學與經營理念，並非人生觀，原義項應對應實際例句。",
+      "fix": "哲學；理念"
+    },
+    {
+      "word": "photography",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 photography 指攝影作品，攝影與攝影術則重複。",
+      "fix": "攝影；攝影作品"
+    },
+    {
+      "word": "physical",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上學生運動的效益以提供完整情境。",
+      "fix": "Regular physical exercise helps students stay healthy and concentrate in class."
+    },
+    {
+      "word": "physical",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "規律的體能運動有助於學生保持健康，並在課堂上專心。"
+    },
+    {
+      "word": "physical",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "重力是作用力，原句將它直接稱為基本定律不精確，改用典型的物理性質搭配。",
+      "fix": "The physical properties of water change when it freezes."
+    },
+    {
+      "word": "physical",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "水結冰時，物理性質會改變。"
+    },
+    {
+      "word": "physical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個例句分別為身體與物理相關用法，未使用有形物質的意思。",
+      "fix": "身體的；物理的"
+    },
+    {
+      "word": "physical",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "健康檢查與體檢重複，應合併。",
+      "fix": "健康檢查"
+    },
+    {
+      "word": "pioneer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "率先與先驅重複，應刪除冗詞。",
+      "fix": "我們學校是使用平板電腦學習的先驅。"
+    },
+    {
+      "word": "plot",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "found out the plot 搭配不自然，應以 uncovered a plot 表達揭發陰謀。",
+      "fix": "The detective uncovered a plot to steal the museum's painting."
+    },
+    {
+      "word": "plot",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "偵探揭發了一項偷走博物館畫作的陰謀。"
+    },
+    {
+      "word": "plum",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為李子或李樹，未使用梅子及深紫紅色義。",
+      "fix": "李子"
+    },
+    {
+      "word": "polish",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句使用指甲油義，原列的光澤義未呈現，應調整為對應例句的義項。",
+      "fix": "亮光劑；指甲油；擦亮"
+    },
+    {
+      "word": "polish",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "指甲油應塗在指甲上，原句以手指作受詞不夠精確，改為典型的塗指甲油用法。",
+      "fix": "She applied red nail polish before going to the party."
+    },
+    {
+      "word": "polish",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她去派對前擦了紅色指甲油。"
+    },
+    {
+      "word": "possession",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "important 指重要，原譯珍貴未精確保留重要性的意思。",
+      "fix": "他最重要的物品是一把舊吉他。"
+    },
+    {
+      "word": "postage",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "郵資是費用，郵票查詢呈現的是相關物品而非第一義本身。",
+      "fix": null
+    },
+    {
+      "word": "potential",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "潛力與潛能重複，應合併。",
+      "fix": "潛力"
+    },
+    {
+      "word": "pregnancy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上寶寶出生的結果以提供完整情境。",
+      "fix": "Her pregnancy lasted nine months, and the baby was born healthy."
+    },
+    {
+      "word": "pregnancy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的孕期歷時九個月，寶寶出生時很健康。"
+    },
+    {
+      "word": "preserve",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上果醬的保存方式。",
+      "fix": "She preserves fruit by making jam and storing it in jars."
+    },
+    {
+      "word": "preserve",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她把水果做成果醬，裝罐保存。"
+    },
+    {
+      "word": "preserve",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "兩個水果例句的 preserves 指果醬，並非通常指糖漬或乾燥水果的蜜餞。",
+      "fix": "果醬；保護區"
+    },
+    {
+      "word": "preserve",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "plum preserves 在此為李子果醬，不能譯成蜜餞。",
+      "fix": "我媽媽用自家樹上的李子做了果醬。"
+    },
+    {
+      "word": "prime",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用數學上的質數義，原義項未列出，主要與首要則重複。",
+      "fix": "主要的；最好的；質數的"
+    },
+    {
+      "word": "prime",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上判斷七為質數的理由。",
+      "fix": "Seven is a prime number because its only positive factors are one and seven."
+    },
+    {
+      "word": "prime",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "七是質數，因為它的正因數只有一和七。"
+    },
+    {
+      "word": "primitive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上石製工具的用途。",
+      "fix": "Primitive people made tools from stone to hunt and prepare food."
+    },
+    {
+      "word": "primitive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "原始人用石頭製作工具，以狩獵和準備食物。"
+    },
+    {
+      "word": "privacy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "隱私與私密在所列例句中重複，應合併。",
+      "fix": "隱私"
+    },
+    {
+      "word": "privacy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上社群媒體的隱私權情境。",
+      "fix": "Everyone has the right to privacy, including on social media."
+    },
+    {
+      "word": "privacy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "每個人都有隱私權，在社群媒體上也不例外。"
+    },
+    {
+      "word": "privacy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "強力密碼不是自然的中文搭配，應表達密碼的安全強度。",
+      "fix": "這個應用程式用高強度密碼保護你的隱私。"
+    },
+    {
+      "word": "privilege",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句只呈現特權與榮幸，未示範優惠義。",
+      "fix": "特權；榮幸"
+    },
+    {
+      "word": "procedure",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "醫療 procedure 不一定是手術，不應自行限定為手術步驟。",
+      "fix": "醫生向病人說明了處置的步驟。"
+    },
+    {
+      "word": "profession",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為職業義，未使用同業集體或專業知識義。",
+      "fix": "職業"
+    },
+    {
+      "word": "profession",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，改以填寫申請表的情境呈現職業義。",
+      "fix": "The application form asks you to state your profession clearly."
+    },
+    {
+      "word": "profession",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "申請表要求你清楚填寫自己的職業。"
+    },
+    {
+      "word": "profession",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上工程師的工作內容。",
+      "fix": "By profession, she is an engineer who designs bridges and tunnels."
+    },
+    {
+      "word": "profession",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的職業是工程師，負責設計橋梁與隧道。"
+    },
+    {
+      "word": "professional",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句皆為專業人士，未呈現職業選手義。",
+      "fix": "專業人士"
+    },
+    {
+      "word": "promising",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上仍須研究的限制以提供完整情境。",
+      "fix": "The test results look promising, but further research is needed."
+    },
+    {
+      "word": "promising",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "測試結果看來很有希望，但仍需進一步研究。"
+    },
+    {
+      "word": "promotion",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "未指定聯賽名稱時，the first league 不如 the top division 能準確表達最高級別的聯賽。",
+      "fix": "The team's promotion to the top division delighted its fans."
+    },
+    {
+      "word": "promotion",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "球隊升上頂級聯賽，讓球迷非常高興。"
+    },
+    {
+      "word": "prompt",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為準時義，原義項未明確列出。",
+      "fix": "迅速的；及時的；準時的"
+    },
+    {
+      "word": "prompt",
+      "path": "senses[2].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為寫作題目義，提示與提示訊息則重複。",
+      "fix": "提示；寫作題目"
+    },
+    {
+      "word": "prosper",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句描述植物茁壯成長，原義項未涵蓋此用法。",
+      "fix": "繁榮；興旺；茁壯成長"
+    },
+    {
+      "word": "prosperous",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指未來富足，原義項未明確涵蓋，繁榮與興旺則重複。",
+      "fix": "繁榮的；富足的"
+    },
+    {
+      "word": "protein",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "build strong muscles 表示增強或形成肌肉，原譯鍛鍊把營養作用改成運動行為。",
+      "fix": "運動員需要足夠的蛋白質來增強肌肉。"
+    },
+    {
+      "word": "protein",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "protein foods 查詢的是蛋白質的食物來源，而非蛋白質本身。",
+      "fix": null
+    }
+  ]
+}
