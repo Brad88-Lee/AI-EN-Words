@@ -581,3 +581,6 @@
 🛫(departure)
 🕵️(detective)
 📠(fax)
+⛴️(ferry)
+😠(furious)
+🧬(gene)
