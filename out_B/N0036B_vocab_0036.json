@@ -1,0 +1,329 @@
+{
+  "batch": "N0036",
+  "checked": 50,
+  "reviewed": [
+    "devote",
+    "differ",
+    "digest",
+    "digital",
+    "dignity",
+    "diligence",
+    "diploma",
+    "disadvantage",
+    "disappoint",
+    "disaster",
+    "discipline",
+    "discourage",
+    "disguise",
+    "disgust",
+    "dismiss",
+    "disorder",
+    "dispute",
+    "distinct",
+    "distinguish",
+    "distinguished",
+    "distribute",
+    "distribution",
+    "district",
+    "disturb",
+    "divine",
+    "divorce",
+    "dominant",
+    "dominate",
+    "draft",
+    "dread",
+    "drift",
+    "drill",
+    "drowsy",
+    "durable",
+    "dusty",
+    "dye",
+    "dynamic",
+    "dynasty",
+    "earnest",
+    "economic",
+    "economical",
+    "economics",
+    "economist",
+    "economy",
+    "efficiency",
+    "elastic",
+    "electronics",
+    "elegant",
+    "elementary",
+    "eliminate"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "dignity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「有尊嚴的尊重對待」結構重複且不通順，應清楚表達維護尊嚴並給予尊重。",
+      "fix": "對待每個人時，都應維護其尊嚴並給予尊重。"
+    },
+    {
+      "word": "disadvantage",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表達面對對手時處於劣勢，應使用 at a disadvantage 並清楚比較雙方球員身高。",
+      "fix": "The team was at a disadvantage against opponents with taller players."
+    },
+    {
+      "word": "disadvantage",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "對手的球員較高，使這支隊伍處於劣勢。"
+    },
+    {
+      "word": "disguise",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "中文不能說「穿著喬裝」，應表達演員作了喬裝。",
+      "fix": "這位演員在劇中作了巧妙的喬裝。"
+    },
+    {
+      "word": "disgust",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The messy bathroom disgusted the guests who had just arrived."
+    },
+    {
+      "word": "disgust",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "凌亂的浴室讓剛抵達的客人們感到厭惡。"
+    },
+    {
+      "word": "disorder",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "disorder 表示具體疾病時為可數名詞，原句單數 sleep disorder 缺冠詞，改用複數泛指。",
+      "fix": "Sleep disorders can make it hard to focus during lessons at school."
+    },
+    {
+      "word": "disorder",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "睡眠障礙會讓人很難在學校上課時集中注意力。"
+    },
+    {
+      "word": "distribute",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句把產品配送至商店使用配銷義，原義項漏列，且三句未示範消息散布的意思。",
+      "fix": "分發；分配；配銷"
+    },
+    {
+      "word": "disturb",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「吵到了我們睡覺」中文結構不通順，應表達干擾睡眠。",
+      "fix": "隔壁傳來的大聲音樂干擾了我們的睡眠。"
+    },
+    {
+      "word": "dominant",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "人類眼睛顏色受多個基因影響，不宜概括為家庭中單一顯性特徵，改用典型的豌豆花色示例。",
+      "fix": "In pea plants, purple flowers are a dominant trait."
+    },
+    {
+      "word": "dominant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "在豌豆植株中，紫花是顯性特徵。"
+    },
+    {
+      "word": "dominate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "高塔例句表示在景觀中占顯著位置，原義項只有控制或競爭優勢的意思。",
+      "fix": "支配；主導；占優勢；在……中占顯著位置"
+    },
+    {
+      "word": "dominate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Large companies dominate the smartphone market because of their strong brands."
+    },
+    {
+      "word": "dominate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "大公司憑藉強大的品牌優勢主導智慧型手機市場。"
+    },
+    {
+      "word": "draft",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "short 指信件篇幅簡短，不代表內容簡單。",
+      "fix": "她草擬了一封寫給房東的簡短信件。"
+    },
+    {
+      "word": "dread",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "I dread going to the dentist because I dislike the noise."
+    },
+    {
+      "word": "dread",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我很怕去看牙醫，因為我不喜歡那種噪音。"
+    },
+    {
+      "word": "drift",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "from job to job 描述漫無目標地生活或換工作，原義項只列漫無目的地走路。",
+      "fix": "漂流；飄移；漫無目標地生活"
+    },
+    {
+      "word": "drowsy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "station 未明確指定為公路休息站，原譯擅自限縮停靠地點。",
+      "fix": "昏昏欲睡的司機在下一站停下來休息。"
+    },
+    {
+      "word": "dynasty",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "run the business as a dynasty 未清楚表達世代延續的商業家族，原譯「把企業當成世家經營」也不自然。",
+      "fix": "Three generations of the family built a successful business dynasty."
+    },
+    {
+      "word": "dynasty",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這個家族的三代人建立了一個成功的商業世家。"
+    },
+    {
+      "word": "earnest",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "always does her homework 表示總會完成作業，原文沒有按時的意思。",
+      "fix": "她是個認真的女孩，總是會寫作業。"
+    },
+    {
+      "word": "economical",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「過了一趟旅行」中文搭配不當，應表達住朋友家使旅行花費較低。",
+      "fix": "我們這趟旅行住在朋友家，因此相當省錢。"
+    },
+    {
+      "word": "economics",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「經濟層面並不容易」中文搭配不清楚，這裡應說經營涉及的財務問題不簡單。",
+      "fix": "經營小店涉及的財務問題並不簡單。"
+    },
+    {
+      "word": "efficiency",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此句談節省電力的運作效率，不是達成效果的效能。",
+      "fix": "這台機器運作有效率，能節省很多電。"
+    },
+    {
+      "word": "elastic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The skirt has an elastic waistband that makes it comfortable to wear."
+    },
+    {
+      "word": "elastic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這條裙子的鬆緊腰帶讓它穿起來很舒適。"
+    },
+    {
+      "word": "elastic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「自行安排日子」搭配不自然，原文指安排每天的行程。",
+      "fix": "有彈性的時程表讓員工能自行安排每天的行程。"
+    },
+    {
+      "word": "electronics",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Please keep electronics away from water to avoid damaging them."
+    },
+    {
+      "word": "electronics",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "請讓電子產品遠離水，以免損壞。"
+    },
+    {
+      "word": "elementary",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "We started with elementary math lessons before moving on to harder topics."
+    },
+    {
+      "word": "elementary",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我們先上基礎數學課，再進一步學習較難的主題。"
+    }
+  ]
+}
