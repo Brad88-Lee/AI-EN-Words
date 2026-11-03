@@ -596,3 +596,4 @@
 📡(antenna)
 🏧(atm)
 🌨️(blizzard)
+🌵(cactus)
