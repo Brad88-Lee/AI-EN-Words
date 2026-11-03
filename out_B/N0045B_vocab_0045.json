@@ -1,0 +1,409 @@
+{
+  "batch": "N0045",
+  "checked": 50,
+  "reviewed": [
+    "protest",
+    "psychological",
+    "psychologist",
+    "psychology",
+    "publication",
+    "publicity",
+    "publish",
+    "publisher",
+    "pursue",
+    "pursuit",
+    "quarrel",
+    "quilt",
+    "radar",
+    "rage",
+    "rainfall",
+    "raisin",
+    "realistic",
+    "rebel",
+    "recall",
+    "reception",
+    "recipe",
+    "recognition",
+    "recovery",
+    "recreation",
+    "reduction",
+    "refer",
+    "reference",
+    "reflect",
+    "reflection",
+    "reform",
+    "refugee",
+    "refusal",
+    "regarding",
+    "register",
+    "registration",
+    "regulate",
+    "regulation",
+    "relaxation",
+    "relieve",
+    "reluctant",
+    "remark",
+    "remarkable",
+    "remedy",
+    "renew",
+    "repetition",
+    "representation",
+    "reputation",
+    "rescue",
+    "research",
+    "researcher"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "publicity",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現宣傳及媒體曝光，未使用知名度義。",
+      "fix": "宣傳；媒體曝光"
+    },
+    {
+      "word": "publish",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為報紙刊登照片，原義項未明確列出刊登義。",
+      "fix": "出版；發行；發表；刊登"
+    },
+    {
+      "word": "radar",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此圖示通常表示衛星天線或通訊，容易混淆雷達與衛星通訊。",
+      "fix": null
+    },
+    {
+      "word": "rainfall",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象的降雨量，heavy rain 只呈現下雨情景，未表示雨量。",
+      "fix": null
+    },
+    {
+      "word": "raisin",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上食材用途，並避免把乾燥方式限定為日曬。",
+      "fix": "A raisin is a dried grape often used in bread."
+    },
+    {
+      "word": "raisin",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "葡萄乾是葡萄乾燥後製成的，常用來製作麵包。"
+    },
+    {
+      "word": "realistic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "實際的與切合實際的重複，應合併。",
+      "fix": "切合實際的；逼真的"
+    },
+    {
+      "word": "rebel",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上青少年反抗的具體規定。",
+      "fix": "Teenagers sometimes rebel against their parents' rules about screen time."
+    },
+    {
+      "word": "rebel",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "青少年有時會反抗父母對螢幕使用時間的規定。"
+    },
+    {
+      "word": "reception",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句為婚宴，歡迎會不足以涵蓋這類正式宴會。",
+      "fix": "接待處；宴會；接收效果"
+    },
+    {
+      "word": "recognition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句為科技上的臉部辨識，應以辨識明確表示。",
+      "fix": "辨識；認可；表彰"
+    },
+    {
+      "word": "recognition",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "open the screen 不能表示解鎖螢幕，應使用 unlock the screen。",
+      "fix": "The phone uses facial recognition to unlock the screen."
+    },
+    {
+      "word": "recognition",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這支手機使用臉部辨識來解鎖螢幕。"
+    },
+    {
+      "word": "reflect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句為回顧思考所學內容，反省容易誤導為檢討過錯。",
+      "fix": "反射；反映；反思"
+    },
+    {
+      "word": "reflect",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "reflect on what you have learned 指思考所學，並未涉及檢討錯誤。",
+      "fix": "花點時間思考你學到了什麼。"
+    },
+    {
+      "word": "refusal",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上拒絕幫忙的專題情境。",
+      "fix": "His refusal to help with the project surprised everyone in class."
+    },
+    {
+      "word": "refusal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他拒絕協助這個專題，讓班上每個人都很驚訝。"
+    },
+    {
+      "word": "refusal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "refusal of her job application 搭配不自然，應以 refusal to hire her 表示拒絕聘用。",
+      "fix": "The company's refusal to hire her was a serious disappointment."
+    },
+    {
+      "word": "refusal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這家公司拒絕聘用她，讓她大失所望。"
+    },
+    {
+      "word": "regarding",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "your order 指訂單，原譯自行改成訂購的商品，且未明確表達信件是關於該訂單。",
+      "fix": "我寫這封信，是要談你上週的訂單。"
+    },
+    {
+      "word": "register",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為報名營隊，原義項未明確列出報名義。",
+      "fix": "註冊；登記；報名"
+    },
+    {
+      "word": "registration",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的 registration 指汽車登記證，未列在原義項中，掛號義則未使用。",
+      "fix": "註冊；登記；登記證"
+    },
+    {
+      "word": "registration",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上費用涵蓋的教材內容。",
+      "fix": "The registration fee is fifty dollars, including all course materials."
+    },
+    {
+      "word": "registration",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "註冊費為五十元，包含所有課程教材。"
+    },
+    {
+      "word": "regulation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為具體規定或法規，未使用管理的行為義。",
+      "fix": "規定；法規"
+    },
+    {
+      "word": "relaxation",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上工作後聽音樂放鬆的情境。",
+      "fix": "Soft music can help with relaxation after a stressful workday."
+    },
+    {
+      "word": "relaxation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在工作壓力大的一天結束後，輕柔的音樂有助於放鬆。"
+    },
+    {
+      "word": "relieve",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改以醫師處方的情境呈現緩解頭痛。",
+      "fix": "The doctor prescribed medicine to relieve the patient's persistent headache."
+    },
+    {
+      "word": "relieve",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "醫生開藥來緩解病人持續的頭痛。"
+    },
+    {
+      "word": "remark",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上看手錶的動作以提供清楚情境。",
+      "fix": "\"It's getting late,\" he remarked as he checked his watch."
+    },
+    {
+      "word": "remark",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他看著手錶說：「時間不早了。」"
+    },
+    {
+      "word": "remedy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上療法所針對的症狀。",
+      "fix": "My grandmother knows many natural remedies for common cold symptoms."
+    },
+    {
+      "word": "remedy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我奶奶知道許多緩解常見感冒症狀的天然療法。"
+    },
+    {
+      "word": "renew",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為證件更新或效期延長及恢復友誼，未使用續約義。",
+      "fix": "更新；延長效期；恢復"
+    },
+    {
+      "word": "renew",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上兩國恢復友誼的背景。",
+      "fix": "The two countries renewed their friendship after years of difficult relations."
+    },
+    {
+      "word": "renew",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "兩國在多年的關係緊張之後，重新建立了友誼。"
+    },
+    {
+      "word": "repetition",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "asked for no repetition 搭配生硬，應以 warned us against a repetition 表達提醒勿重犯。",
+      "fix": "The teacher warned us against a repetition of the same mistake."
+    },
+    {
+      "word": "repetition",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "老師提醒我們，別再犯同樣的錯。"
+    },
+    {
+      "word": "representation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "後兩句為繪畫及地圖的描繪義，原義項未明確列出，象徵義則未使用。",
+      "fix": "代表；描繪"
+    },
+    {
+      "word": "rescue",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上需要救援的具體情境。",
+      "fix": "The dog came to her rescue when she fell into the river."
+    },
+    {
+      "word": "rescue",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她掉進河裡時，那隻狗前來救她。"
+    },
+    {
+      "word": "research",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上投入時間與耐心的研究目的。",
+      "fix": "Good research takes time and patience to produce reliable results."
+    },
+    {
+      "word": "research",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "好的研究需要時間與耐心，才能產生可靠的結果。"
+    }
+  ]
+}
