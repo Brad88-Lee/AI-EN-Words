@@ -1,0 +1,857 @@
+{
+  "batch": "N0056",
+  "checked": 50,
+  "reviewed": [
+    "creditor",
+    "crib",
+    "crook",
+    "crooked",
+    "cross-country",
+    "crouch",
+    "cruiser",
+    "crumb",
+    "crumble",
+    "crunch",
+    "crust",
+    "cubic",
+    "culminate",
+    "cult",
+    "cutting",
+    "cylinder",
+    "daffodil",
+    "dame",
+    "dandruff",
+    "daring",
+    "dart",
+    "day-to-day",
+    "daybreak",
+    "dealing",
+    "decimal",
+    "decorative",
+    "decree",
+    "dedicated",
+    "deduce",
+    "deduction",
+    "defender",
+    "defiant",
+    "deficiency",
+    "deficient",
+    "degenerate",
+    "degrade",
+    "delinquent",
+    "demise",
+    "demonstrator",
+    "denote",
+    "denounce",
+    "deployment",
+    "deport",
+    "descendant",
+    "designate",
+    "detached",
+    "detection",
+    "deteriorate",
+    "deterioration",
+    "devalue"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "crook",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "crook 泛指不法之徒，不限於以詐騙為手法的人。",
+      "fix": "不法之徒；彎曲處"
+    },
+    {
+      "word": "crooked",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The crooked salesman cheated customers who trusted his promises."
+    },
+    {
+      "word": "crooked",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那位不老實的業務員欺騙了相信他承諾的顧客。"
+    },
+    {
+      "word": "crumb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "碎屑與麵包屑重疊，應標明食物碎屑以區別一般材料碎屑。",
+      "fix": "食物碎屑；一點點"
+    },
+    {
+      "word": "crunch",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The fresh snow crunched under our boots as we walked home."
+    },
+    {
+      "word": "crunch",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們走路回家時，靴子底下的新雪嘎吱作響。"
+    },
+    {
+      "word": "crunch",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "This cereal adds a pleasant crunch to my morning yogurt."
+    },
+    {
+      "word": "crunch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這種麥片為我早餐的優格增添了宜人的酥脆口感。"
+    },
+    {
+      "word": "crust",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "派皮對應第二義餅皮，未對應第一義麵包皮。",
+      "fix": "bread crust"
+    },
+    {
+      "word": "cubic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The volume of this container is measured in cubic centimeters."
+    },
+    {
+      "word": "cubic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個容器的體積以立方公分為單位測量。"
+    },
+    {
+      "word": "cutting",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "cutting blade 表示切割用刀片，cutting 本身不表示鋒利，應移除此義並改用正確例句。",
+      "fix": "尖刻的；刺骨的"
+    },
+    {
+      "word": "cutting",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "His cutting remark during the meeting hurt his colleague's feelings."
+    },
+    {
+      "word": "cutting",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他在會議上說的尖刻話語傷了同事的感情。"
+    },
+    {
+      "word": "cutting",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句中的 cutting 表示切割用途而非鋒利，改用影評情境示範尖刻義。",
+      "fix": "The review offered a cutting criticism of the actor's performance."
+    },
+    {
+      "word": "cutting",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "影評對這位演員的演出提出尖刻的批評。"
+    },
+    {
+      "word": "cylinder",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The mechanic checked all four cylinders in the car's engine."
+    },
+    {
+      "word": "cylinder",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "技師檢查了汽車引擎中的四個汽缸。"
+    },
+    {
+      "word": "daffodil",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Daffodils bloom in early spring along the garden path."
+    },
+    {
+      "word": "daffodil",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "水仙花在早春沿著花園小徑綻放。"
+    },
+    {
+      "word": "dame",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般女士義屬舊式用語，不能與現代中性稱呼女士直接等同使用。",
+      "fix": "女爵士；女士（舊式用語）"
+    },
+    {
+      "word": "daring",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "膽量與膽識在此同義重複，應合併。",
+      "fix": "膽量"
+    },
+    {
+      "word": "dart",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "We played darts in the game room during the party."
+    },
+    {
+      "word": "dart",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "派對期間，我們在遊戲室玩飛鏢。"
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The squirrel darted up the tree when it heard our footsteps."
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "松鼠聽到我們的腳步聲，便飛快地竄上樹。"
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The child darted across the playground to catch up with his friends."
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那個小孩飛快地衝過操場，想追上朋友們。"
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "His eyes darted around the room as he searched for his keys."
+    },
+    {
+      "word": "dart",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他找鑰匙時，目光迅速掃過房間各處。"
+    },
+    {
+      "word": "day-to-day",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個例句皆指日常事務，沒有示範逐日變動的意思。",
+      "fix": "日常的"
+    },
+    {
+      "word": "day-to-day",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Her day-to-day work includes answering emails and arranging meetings."
+    },
+    {
+      "word": "day-to-day",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的日常工作包括回覆電子郵件及安排會議。"
+    },
+    {
+      "word": "daybreak",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "黎明與破曉是同義重複，應合併。",
+      "fix": "黎明"
+    },
+    {
+      "word": "daybreak",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The farmers get up before daybreak to feed their livestock."
+    },
+    {
+      "word": "daybreak",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "農夫們天亮前就起床餵養家畜。"
+    },
+    {
+      "word": "daybreak",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The sky turned pink at daybreak as we packed our tent."
+    },
+    {
+      "word": "daybreak",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們收拾帳篷時，破曉的天空變成粉紅色。"
+    },
+    {
+      "word": "daybreak",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "daybreak 是天初亮的黎明，不是太陽升起本身，日出查詢容易混淆。",
+      "fix": "dawn over hills"
+    },
+    {
+      "word": "dealing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "往來與應對方式在顧客例句中重疊，配合名詞 dealings 的常用搭配合併。",
+      "fix": "交易；往來"
+    },
+    {
+      "word": "dealing",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Honest dealing is important in business because it builds trust."
+    },
+    {
+      "word": "dealing",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "誠信交易對做生意很重要，因為這能建立信任。"
+    },
+    {
+      "word": "dealing",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表達與顧客的往來通常使用複數 dealings，原句用單數 dealing 搭配 polite 不自然。",
+      "fix": "His dealings with customers have always been polite and professional."
+    },
+    {
+      "word": "dealing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他與顧客往來時一向有禮又專業。"
+    },
+    {
+      "word": "decimal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "小數點分隔的是整數部分與小數部分，原文直接說整數與分數不夠精準。",
+      "fix": "A decimal point separates the whole number part from the fractional part."
+    },
+    {
+      "word": "decimal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "小數點把整數部分與小數部分分開。"
+    },
+    {
+      "word": "decimal",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Write the fraction as a decimal before comparing the two numbers."
+    },
+    {
+      "word": "decimal",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "比較這兩個數之前，先把這個分數寫成小數。"
+    },
+    {
+      "word": "decimal",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Round the decimal to two places before recording the measurement."
+    },
+    {
+      "word": "decimal",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "記錄測量結果前，先把這個小數四捨五入到小數點後兩位。"
+    },
+    {
+      "word": "decorative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裝飾的與裝飾用的在此同義重複，應合併。",
+      "fix": "裝飾性的"
+    },
+    {
+      "word": "decorative",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Decorative lights hung across the street during the town's annual festival."
+    },
+    {
+      "word": "decorative",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "小鎮的年度慶典期間，街道上方掛著裝飾用的燈。"
+    },
+    {
+      "word": "dedicated",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敬業與專心投入都指全心投入的人，應合併並與專用義區分。",
+      "fix": "全心投入的；專用的"
+    },
+    {
+      "word": "dedicated",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The dedicated volunteers worked all weekend to clean up the beach."
+    },
+    {
+      "word": "dedicated",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "全心投入的志工整個週末都在清理海灘。"
+    },
+    {
+      "word": "deduce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推斷與推論在這三個例句中同義重複，應合併。",
+      "fix": "推斷"
+    },
+    {
+      "word": "deduction",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "稅額扣除額用語重複，且容易與直接抵減稅額的稅額扣抵混淆。",
+      "fix": "報稅時的扣除額可以幫你省下很多錢。"
+    },
+    {
+      "word": "defender",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文只說球到達球門前，未明說已構成射門，應避免增加射進的意思。",
+      "fix": "在球到達球門前，後衛把球擋了下來。"
+    },
+    {
+      "word": "defiant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "態度反抗的中文搭配不自然，應表達不肯屈服的態度。",
+      "fix": "工人們不肯屈服，持續要求合理的薪資。"
+    },
+    {
+      "word": "deficiency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "缺乏與不足重複，與計畫缺失義分列即可。",
+      "fix": "缺乏；缺失"
+    },
+    {
+      "word": "deficient",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "缺乏的與不足的同義重複，應合併並保留有缺陷義。",
+      "fix": "缺乏的；有缺陷的"
+    },
+    {
+      "word": "deficient",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The doctor found that her diet was deficient in iron."
+    },
+    {
+      "word": "deficient",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "醫生發現她的飲食缺乏鐵質。"
+    },
+    {
+      "word": "deficient",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The team was deficient in experience but eager to learn."
+    },
+    {
+      "word": "deficient",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這支團隊雖然經驗不足，卻很渴望學習。"
+    },
+    {
+      "word": "degenerate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Without regular exercise, muscles may degenerate and gradually lose their strength."
+    },
+    {
+      "word": "degenerate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "缺乏規律運動時，肌肉可能退化，逐漸失去力量。"
+    },
+    {
+      "word": "degrade",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Some plastic bags take many years to degrade in the natural environment."
+    },
+    {
+      "word": "degrade",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "有些塑膠袋在自然環境中需要多年才會分解。"
+    },
+    {
+      "word": "demise",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "遺漏常見的死亡義，原列終結、消亡及倒閉也高度重疊。",
+      "fix": "死亡；終結"
+    },
+    {
+      "word": "demise",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的死亡義，採用傳記中的中性敘述。",
+      "fix": "The biography describes the famous painter's demise at the age of eighty."
+    },
+    {
+      "word": "demise",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本傳記描述了那位著名畫家在八十歲時逝世的情形。"
+    },
+    {
+      "word": "demise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The company's sudden demise surprised workers who had expected steady growth."
+    },
+    {
+      "word": "demise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "公司突然倒閉，讓那些原本預期公司會穩定成長的員工感到驚訝。"
+    },
+    {
+      "word": "denote",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "表示與代表在此為同義重複，應合併。",
+      "fix": "表示"
+    },
+    {
+      "word": "denote",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "A red warning light denotes danger near the factory entrance."
+    },
+    {
+      "word": "denote",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "工廠入口附近的紅色警示燈表示危險。"
+    },
+    {
+      "word": "denote",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯把指定的字母 x 改成某個字母，漏掉具體資訊。",
+      "fix": "在數學中，字母 x 常用來表示未知數。"
+    },
+    {
+      "word": "denounce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "denounce 指公開而強烈地譴責，不只是一般指責，兩個義項應合併。",
+      "fix": "公開譴責"
+    },
+    {
+      "word": "denounce",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Teachers denounced cheating on exams during the school assembly."
+    },
+    {
+      "word": "denounce",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "老師們在學校集會上公開譴責考試作弊。"
+    },
+    {
+      "word": "denounce",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原譯指責未保留 denounce 公開譴責的語氣。",
+      "fix": "許多球迷公開譴責裁判不公平的判決。"
+    },
+    {
+      "word": "deployment",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "announced 未交代未來時間，原譯加入即將而改變時序。",
+      "fix": "公司公布了新軟體上線的消息。"
+    },
+    {
+      "word": "deployment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "holiday 不一定是連假，原譯增加了假日連續的資訊。",
+      "fix": "假日期間的繁忙時段，增派人員有所幫助。"
+    },
+    {
+      "word": "descendant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後代與子孫的血緣承襲義重複，後代也能涵蓋鳥類例句。",
+      "fix": "後代"
+    },
+    {
+      "word": "descendant",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Scientists have found evidence that modern birds are descendants of dinosaurs."
+    },
+    {
+      "word": "descendant",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "科學家發現了現代鳥類是恐龍後代的證據。"
+    },
+    {
+      "word": "designate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Yellow lines designate the parking spaces in the hotel parking lot."
+    },
+    {
+      "word": "designate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "黃色標線標示出飯店停車場裡的停車位。"
+    },
+    {
+      "word": "detached",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容態度時主要表示不帶感情或不涉入，未必是貶義的冷漠。",
+      "fix": "獨棟的；不帶感情的；分離的"
+    },
+    {
+      "word": "detached",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "lying 只描述所在位置，原譯掉在加入了掉落動作。",
+      "fix": "那個已脫離本體的把手擱在地上。"
+    },
+    {
+      "word": "detection",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發現與察覺在此重疊，保留技術偵測及一般發現兩義即可。",
+      "fix": "偵測；發現"
+    },
+    {
+      "word": "deteriorate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "惡化與變壞在此同義重複，應合併。",
+      "fix": "惡化"
+    },
+    {
+      "word": "deteriorate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The weather will deteriorate this weekend, with heavy rain expected."
+    },
+    {
+      "word": "deteriorate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這週末天氣將會變差，預計會下大雨。"
+    },
+    {
+      "word": "deterioration",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句分別示範病情或空氣品質惡化及道路損壞，沒有單獨示範退化義。",
+      "fix": "惡化；損壞"
+    },
+    {
+      "word": "devalue",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Don't devalue your own work just because someone criticizes it."
+    },
+    {
+      "word": "devalue",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "別只因為有人批評，就貶低自己的成果。"
+    }
+  ]
+}
