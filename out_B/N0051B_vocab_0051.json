@@ -1,0 +1,361 @@
+{
+  "batch": "N0051",
+  "checked": 50,
+  "reviewed": [
+    "agitation",
+    "ai",
+    "aide",
+    "airlift",
+    "alarming",
+    "allegation",
+    "alleged",
+    "alleviate",
+    "allied",
+    "alloy",
+    "ambush",
+    "amendment",
+    "amends",
+    "amiable",
+    "amicable",
+    "ammunition",
+    "amnesty",
+    "anecdote",
+    "angler",
+    "antarctic",
+    "antenna",
+    "antibody",
+    "apartheid",
+    "appall",
+    "appalling",
+    "apparatus",
+    "appendix",
+    "appraisal",
+    "appreciable",
+    "apprehension",
+    "aptitude",
+    "arbitrary",
+    "arc",
+    "architectural",
+    "arctic",
+    "armor",
+    "artery",
+    "artifact",
+    "artillery",
+    "ascertain",
+    "ascribe",
+    "aspiration",
+    "assessment",
+    "assignment",
+    "assimilate",
+    "assured",
+    "asylum",
+    "atm",
+    "atrocity",
+    "attached"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "agitation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均呈現激動、不安等情緒，未明確呈現煽動行為。",
+      "fix": "激動；不安"
+    },
+    {
+      "word": "aide",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "助理與助手重複，應合併並保留幕僚義。",
+      "fix": "助理；幕僚"
+    },
+    {
+      "word": "airlift",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為空運行動，貨機查詢只呈現運輸工具，未直接呈現此名詞義。",
+      "fix": null
+    },
+    {
+      "word": "alarming",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "alarming 必有令人不安或擔憂的負面意味，單寫驚人的容易與驚喜混淆。",
+      "fix": "令人擔憂的"
+    },
+    {
+      "word": "alarming",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "sleep late 通常指睡到很晚，原譯晚睡應以 go to bed late 表達。",
+      "fix": "The number of students who go to bed late is alarming."
+    },
+    {
+      "word": "alarming",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "晚睡的學生人數多得令人擔心。"
+    },
+    {
+      "word": "alleged",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "涉嫌的竊賊搭配生硬，應以竊盜嫌疑人保留尚未證實的意思。",
+      "fix": "這名竊盜嫌疑人接受了警方詢問。"
+    },
+    {
+      "word": "allied",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同盟的與聯盟的重複，應合併並保留相關義。",
+      "fix": "同盟的；相關的"
+    },
+    {
+      "word": "alloy",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為製成合金，泛稱混合過於廣泛，易誤用於普通混合物。",
+      "fix": "製成合金"
+    },
+    {
+      "word": "alloy",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "金屬錠不一定是合金，原查詢可能呈現純金屬，應明確指定合金。",
+      "fix": "alloy ingots"
+    },
+    {
+      "word": "ambush",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為記者突然攔堵歌手，原義項未列出攔堵義，埋伏則不足以精確表示及物動作。",
+      "fix": "伏擊；攔堵"
+    },
+    {
+      "word": "ambush",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "埋伏獵物搭配不自然，應以伏擊獵物表達直接針對獵物的動作。",
+      "fix": "狼群在高高的草叢中伏擊獵物。"
+    },
+    {
+      "word": "amends",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句指彌補過錯，賠償與補償重複，且賠償容易被限縮為金錢損失。",
+      "fix": "補償"
+    },
+    {
+      "word": "amnesty",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為圖書館對逾期書籍免罰的情境，原義項未涵蓋。",
+      "fix": "大赦；特赦；免罰"
+    },
+    {
+      "word": "angler",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "釣客與垂釣者重複，應合併。",
+      "fix": "釣客"
+    },
+    {
+      "word": "antarctic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上企鵝取得食物的情境。",
+      "fix": "Many penguins in the Antarctic region depend on the ocean for food."
+    },
+    {
+      "word": "antarctic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多生活在南極地區的企鵝仰賴海洋取得食物。"
+    },
+    {
+      "word": "antenna",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "描述螞蟻以一對觸角感知環境時，應使用複數 antennae。",
+      "fix": "An ant uses its antennae to sense its surroundings."
+    },
+    {
+      "word": "antenna",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "螞蟻用牠的觸角感知周遭環境。"
+    },
+    {
+      "word": "appall",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句的 that way 未交代具體情況，需依賴額外背景，改為完整的參觀情境。",
+      "fix": "The poor conditions at the animal shelter appalled the visiting students."
+    },
+    {
+      "word": "appall",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "動物收容所的惡劣環境讓參觀的學生震驚。"
+    },
+    {
+      "word": "apparatus",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為儀器或設備，未使用機構義。",
+      "fix": "儀器；設備"
+    },
+    {
+      "word": "apparatus",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上測試呼吸裝置的時機。",
+      "fix": "The firefighters tested the breathing apparatus before entering the smoky building."
+    },
+    {
+      "word": "apparatus",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "消防員進入濃煙瀰漫的建築物前，先測試呼吸裝置。"
+    },
+    {
+      "word": "apprehension",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為憂慮或不安，未使用理解義。",
+      "fix": "憂慮；不安"
+    },
+    {
+      "word": "aptitude",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "天資與資質重複，應合併並保留性向義。",
+      "fix": "天資；性向"
+    },
+    {
+      "word": "architectural",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上求學後工作的情境。",
+      "fix": "She studied architectural design at university before joining a local firm."
+    },
+    {
+      "word": "architectural",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她在大學主修建築設計，之後加入了一家當地公司。"
+    },
+    {
+      "word": "arctic",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上北極居民稀少的環境背景。",
+      "fix": "Few people live in the Arctic because of its extreme climate."
+    },
+    {
+      "word": "arctic",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "由於氣候極端，北極地區的居民很少。"
+    },
+    {
+      "word": "ascribe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句為認定作品出自某位作者，認為是未完整表達 ascribe to 的歸屬用法。",
+      "fix": "把……歸因於；認為……出自"
+    },
+    {
+      "word": "assignment",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原稿未示範已列的指派義，第三句改為角色分派，並減少作業情境重複。",
+      "fix": "The assignment of roles helped every student understand the group project."
+    },
+    {
+      "word": "assignment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "分派角色讓每位學生更了解這項小組專題。"
+    },
+    {
+      "word": "asylum",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為向他國尋求庇護，未使用收容所義。",
+      "fix": "庇護"
+    },
+    {
+      "word": "atm",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "並非所有提款機或跨行設備都支援同一卡片查詢餘額，原句 any ATM 過度概括。",
+      "fix": "You can check your balance at the ATM inside the bank."
+    },
+    {
+      "word": "atm",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "你可以在銀行內的自動櫃員機查詢餘額。"
+    },
+    {
+      "word": "atrocity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴行與殘暴行為重複，應合併。",
+      "fix": "暴行"
+    }
+  ]
+}
