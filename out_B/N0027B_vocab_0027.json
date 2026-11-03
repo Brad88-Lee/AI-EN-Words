@@ -1,0 +1,161 @@
+{
+  "batch": "N0027",
+  "checked": 50,
+  "reviewed": [
+    "grandchild",
+    "grandparent",
+    "greatly",
+    "grown-up",
+    "halfway",
+    "handbag",
+    "hardworking",
+    "hassle",
+    "headmaster",
+    "headphones",
+    "headset",
+    "heartbreak",
+    "heavenly",
+    "hidden",
+    "high-rise",
+    "hijacker",
+    "hiker",
+    "honestly",
+    "hopefully",
+    "illness",
+    "imaginable",
+    "immediately",
+    "impersonal",
+    "improvement",
+    "increasingly",
+    "india",
+    "inference",
+    "informal",
+    "informed",
+    "investment",
+    "investor",
+    "invisible",
+    "kindly",
+    "kindness",
+    "lavatory",
+    "leading",
+    "leaflet",
+    "learner",
+    "lifestyle",
+    "loneliness",
+    "long-standing",
+    "long-term",
+    "lorry",
+    "lychee",
+    "maker",
+    "man-made",
+    "manageable",
+    "management",
+    "memorandum",
+    "midday"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "grandchild",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "grandchild 也包括外孫女，原義項只列出外孫，遺漏常見的女性親屬對應。",
+      "fix": "孫子；孫女；外孫；外孫女"
+    },
+    {
+      "word": "grandchild",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "grandchild 未交代性別，原譯「孫子」擅自指定為男性。",
+      "fix": "她的第一個孫輩在春天出生。"
+    },
+    {
+      "word": "grandchild",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "grandchild 未交代性別，原譯「孫女」擅自指定為女性。",
+      "fix": "只要她的孫輩來訪，阿嬤就會烤餅乾。"
+    },
+    {
+      "word": "grandchild",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "Each grandchild 包含各個性別的孫輩，且 New Year dinner 未指定為除夕年夜飯。",
+      "fix": "每位孫輩在新年晚餐上都收到一個紅包。"
+    },
+    {
+      "word": "headset",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢包含四個英文字，超過允許的三字上限。",
+      "fix": "microphone headset"
+    },
+    {
+      "word": "hiker",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "showed us the way 表示指路，原譯「帶我們走向」增添實際帶路的行動。",
+      "fix": "一位親切的登山客為我們指了通往山頂的路。"
+    },
+    {
+      "word": "hopefully",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "hopefully 表示希望或但願，原譯「應該能」把期盼改成可能性的推測。",
+      "fix": "我們希望能在中午前抵達台南。"
+    },
+    {
+      "word": "impersonal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「非個人的」未清楚表達正式報告中不帶個人情感的語氣。",
+      "fix": "冷淡的；不帶個人情感的"
+    },
+    {
+      "word": "informed",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "informed choice 指有充分資訊依據的選擇，不能僅用描述人的消息靈通或知情涵蓋。",
+      "fix": "消息靈通的；知情的；有充分依據的"
+    },
+    {
+      "word": "lavatory",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "free 在此指無人使用，原譯詢問是否有人使用，與英文詢問的狀態相反。",
+      "fix": "請詢問空服員洗手間目前是否空著。"
+    },
+    {
+      "word": "long-standing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅說是一項家庭傳統，未指定為說話者自己家的傳統。",
+      "fix": "除夕夜吃水餃是一項由來已久的家庭傳統。"
+    },
+    {
+      "word": "lorry",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "unloaded 表示卸下箱子，原譯「開始卸下」額外加入原文沒有的起始意義。",
+      "fix": "司機把他的貨車停在倉庫旁邊，並卸下箱子。"
+    }
+  ]
+}
