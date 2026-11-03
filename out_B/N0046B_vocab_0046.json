@@ -1,0 +1,257 @@
+{
+  "batch": "N0046",
+  "checked": 50,
+  "reviewed": [
+    "resemble",
+    "reservation",
+    "resign",
+    "resignation",
+    "resistance",
+    "resolution",
+    "resolve",
+    "restore",
+    "restriction",
+    "retain",
+    "retire",
+    "retreat",
+    "revenge",
+    "revision",
+    "revolution",
+    "revolutionary",
+    "reward",
+    "rhyme",
+    "rhythm",
+    "riddle",
+    "robber",
+    "romance",
+    "route",
+    "rural",
+    "rusty",
+    "sacrifice",
+    "satellite",
+    "satisfaction",
+    "scarcely",
+    "scold",
+    "scoop",
+    "scratch",
+    "sculpture",
+    "secure",
+    "seize",
+    "settler",
+    "severe",
+    "sew",
+    "shade",
+    "shady",
+    "shameful",
+    "shave",
+    "shelter",
+    "shift",
+    "sightseeing",
+    "signature",
+    "significance",
+    "singular",
+    "site",
+    "sketch"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "resemble",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "more than 比較像誰的程度，並不表示她不像爸爸。",
+      "fix": "比起爸爸，她更像媽媽。"
+    },
+    {
+      "word": "resign",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文指在這家公司工作十年後辭職，原譯未交代這段任職經歷。",
+      "fix": "在這家公司工作十年後，他決定辭職。"
+    },
+    {
+      "word": "resignation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無奈接受為動詞片語，應以名詞義表達第三句的無奈心境。",
+      "fix": "辭職；辭呈；無奈"
+    },
+    {
+      "word": "restriction",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上解除旅遊限制的背景。",
+      "fix": "Travel restrictions were lifted last week after the storm passed."
+    },
+    {
+      "word": "restriction",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "暴風雨過後，旅遊限制在上週解除了。"
+    },
+    {
+      "word": "retreat",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "名詞最常見的撤退義未列出，應補上並以例句示範。",
+      "fix": "撤退；休憩處；研習營"
+    },
+    {
+      "word": "retreat",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原有兩句皆為休憩處，改用中性的軍事情境補足名詞常見的撤退義。",
+      "fix": "The soldiers began their retreat after receiving orders from their commander."
+    },
+    {
+      "word": "retreat",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "士兵接到指揮官的命令後，開始撤退。"
+    },
+    {
+      "word": "revenge",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "贏下再戰搭配生硬，應完整表達再次交手並獲勝。",
+      "fix": "球隊在再次交手時獲勝，漂亮地報了去年落敗之仇。"
+    },
+    {
+      "word": "revision",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 revision 指修訂版，現有義項僅列修訂行為，修訂與修改亦重複。",
+      "fix": "修訂；修訂版；複習"
+    },
+    {
+      "word": "rhyme",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "一組押韻搭配不完整，應表達兩字形成押韻效果。",
+      "fix": "在這首詩裡，moon 和 soon 形成了很好的押韻效果。"
+    },
+    {
+      "word": "rural",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鄉村的與鄉下的重複，應合併。",
+      "fix": "鄉村的"
+    },
+    {
+      "word": "satisfaction",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上服務各階段的商業情境。",
+      "fix": "Customer satisfaction is our top priority at every stage of service."
+    },
+    {
+      "word": "satisfaction",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在服務的每個階段，顧客滿意度都是我們的首要考量。"
+    },
+    {
+      "word": "scarcely",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "幾乎沒有剩下食物的搭配生硬，應調整否定詞與動詞的順序。",
+      "fix": "冰箱裡幾乎沒剩食物。"
+    },
+    {
+      "word": "secure",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "堅固不宜直接形容膠帶黏著力，應以強力膠帶表達 strong tape。",
+      "fix": "我們用強力膠帶把箱子固定好。"
+    },
+    {
+      "word": "sew",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句缺乏表示把釦子縫上去的搭配，應使用 sew a button onto a shirt。",
+      "fix": "My grandmother taught me how to sew a button onto a shirt."
+    },
+    {
+      "word": "sew",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "奶奶教我怎麼把釦子縫到襯衫上。"
+    },
+    {
+      "word": "shady",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "銀行帳號應為 bank account number，bank number 無法準確表達。",
+      "fix": "Avoid shady websites that ask for your bank account number."
+    },
+    {
+      "word": "shady",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "避免使用要求你提供銀行帳號的可疑網站。"
+    },
+    {
+      "word": "shelter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "擋風的庇護搭配不自然，應直接表達帳篷提供的擋風效果很少。",
+      "fix": "帳篷幾乎無法替我們擋風。"
+    },
+    {
+      "word": "shift",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個工作例句均指一段值班時段，班次比表示工作制度或輪替行為的輪班更精確。",
+      "fix": "班次；轉變"
+    },
+    {
+      "word": "singular",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句未限定 everyone 為主詞，容易誤導成只要出現 everyone 後面就一定使用單數動詞。",
+      "fix": "Use a singular verb when everyone is the subject of a sentence."
+    },
+    {
+      "word": "singular",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "everyone 作為句子的主詞時，要用單數動詞。"
+    }
+  ]
+}
