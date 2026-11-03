@@ -564,3 +564,4 @@
 🏟️(stadium)
 🚐(van)
 🏺(vase)
+🍭(lollipop)
