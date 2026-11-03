@@ -89,7 +89,7 @@
   "N0025B": "10085bdf10bd76701edb4e451ddabf040ddc52ca297e22b6e9f4b4f2f8054910",
   "N0025C": "34f0bf3e2446c50d5ff4498202f3306bd7b1159dcce1a95d395fd4bf9e6b88b2"
  },
- "open_issue": null,
+ "open_issue": 157,
  "updated_at": "2026-11-03T13:48:12+08:00",
  "round_stats": {
   "started_at": "2026-11-03T09:01:57+08:00",
