@@ -1,0 +1,273 @@
+{
+  "batch": "N0047",
+  "checked": 50,
+  "reviewed": [
+    "skyscraper",
+    "slight",
+    "slogan",
+    "socket",
+    "software",
+    "solar",
+    "spade",
+    "spare",
+    "spark",
+    "spear",
+    "species",
+    "spiritual",
+    "splendid",
+    "split",
+    "sprinkle",
+    "stab",
+    "status",
+    "stem",
+    "stereo",
+    "stocking",
+    "strengthen",
+    "strive",
+    "stroke",
+    "submarine",
+    "suggestion",
+    "summarize",
+    "surgeon",
+    "surgery",
+    "surrender",
+    "surroundings",
+    "suspicious",
+    "syllable",
+    "sympathetic",
+    "sympathy",
+    "systematic",
+    "technician",
+    "technological",
+    "telescope",
+    "tendency",
+    "tense",
+    "tension",
+    "terror",
+    "theme",
+    "thorough",
+    "thoughtful",
+    "tickle",
+    "timetable",
+    "timid",
+    "tolerable",
+    "tolerance"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "slight",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "機率宜用高低或大小形容，不能說輕微的下雨機率。",
+      "fix": "今天下午下雨的機率很低。"
+    },
+    {
+      "word": "socket",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現插座與肩關節窩，槽義未使用，關節窩也應具體列出。",
+      "fix": "插座；關節窩"
+    },
+    {
+      "word": "socket",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此圖示是插頭，與第一義的插座不同，容易混淆兩種物品。",
+      "fix": null
+    },
+    {
+      "word": "solar",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上行星繞太陽運行的關係。",
+      "fix": "The solar system has eight planets that orbit the sun."
+    },
+    {
+      "word": "solar",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "太陽系有八顆繞太陽運行的行星。"
+    },
+    {
+      "word": "spark",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "火花與火星在此重複，應合併並保留契機義。",
+      "fix": "火花；契機"
+    },
+    {
+      "word": "species",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為生物學的物種，單寫種類容易被誤解為任意分類。",
+      "fix": "物種"
+    },
+    {
+      "word": "split",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "split the bill 未明定平均分攤，原譯不宜自行加上平均。",
+      "fix": "朋友們飯後分攤了帳單。"
+    },
+    {
+      "word": "stereo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "音響與立體音響在三個例句中指同一類設備，應合併。",
+      "fix": "立體音響"
+    },
+    {
+      "word": "strengthen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "增強手臂和雙腿的搭配不自然，應以強健表達肢體變強。",
+      "fix": "游泳可以強健你的手臂和雙腿。"
+    },
+    {
+      "word": "strive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "努力與盡力而為重複，應直接表達努力發揮最佳表現。",
+      "fix": "學生應該在考試中努力發揮最佳表現。"
+    },
+    {
+      "word": "stroke",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句的 strokes 指字的筆畫，一筆未清楚表達這個名詞義。",
+      "fix": "中風；筆畫；泳式"
+    },
+    {
+      "word": "stroke",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "並非每個中文字都有數筆筆畫，一及乙等字僅有一畫，原句概括不正確。",
+      "fix": "Students practice the strokes needed to write Chinese characters correctly."
+    },
+    {
+      "word": "stroke",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學生練習正確書寫中文字所需的筆畫。"
+    },
+    {
+      "word": "submarine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "under the sea 指水下，原譯海底容易誤指海床。",
+      "fix": "潛水艇可以在水下待上好幾個星期。"
+    },
+    {
+      "word": "surgeon",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句沒有病人的前文，his knee 易被理解為外科醫生自己的膝蓋，應明確交代病人。",
+      "fix": "The surgeon spent three hours repairing the injured player's knee."
+    },
+    {
+      "word": "surgeon",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "外科醫生花了三個小時修復那位受傷球員的膝蓋。"
+    },
+    {
+      "word": "surrender",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "考場交出手機的典型對象為考試的學生，原句使用訪客不符一般考試情境。",
+      "fix": "Students must surrender their phones before entering the exam room."
+    },
+    {
+      "word": "surrender",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學生進入考場前必須交出手機。"
+    },
+    {
+      "word": "surroundings",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "周遭環境與四周在這些例句中重複，應合併。",
+      "fix": "周遭環境"
+    },
+    {
+      "word": "syllable",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上重音位置以提供完整的發音教學情境。",
+      "fix": "The word banana has three syllables, with stress on the second."
+    },
+    {
+      "word": "syllable",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "banana 這個字有三個音節，重音落在第二個音節。"
+    },
+    {
+      "word": "sympathetic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "我們多給一些時間的請求容易誤解成由我們給時間，原文是我們要求更多時間。",
+      "fix": "經理對我們提出的延長時間請求表示支持。"
+    },
+    {
+      "word": "thoughtful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句修飾經過思考的回答，深思的不夠自然精確，應為深思熟慮的。",
+      "fix": "體貼的；深思熟慮的"
+    },
+    {
+      "word": "tolerable",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "heat was hot 語意重複且搭配不自然，應以 weather was hot 描述天氣炎熱。",
+      "fix": "The weather was hot but tolerable in the shade."
+    },
+    {
+      "word": "tolerable",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "天氣很熱，但待在陰涼處就還能忍受。"
+    }
+  ]
+}
