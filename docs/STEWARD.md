@@ -8,6 +8,7 @@
 |---|---|
 | `.github/workflows/steward.yml` | 兩個入口：AI 的 PR（`pull_request_target`）、人工動作（`workflow_dispatch`） |
 | `.github/workflows/stall_check.yml` | 每小時逾時偵測 |
+| `.github/workflows/wake_watchdog.yml`、`scripts/wake_watchdog.py` | 喚醒看門狗：開完 `[wake-claude-A／C]` Issue 後由 `steward_finish.sh` dispatch；15 分鐘內沒看到 Claude 動作（遠端沒有喚醒後更新的 `claude/N####-X` 分支）就關舊 Issue、重開一個（標題加「(重派 k)」），最多 3 次，仍無動作開 `[喚醒失敗]`（needs-human）。狀態一推進（包含手動加速進到 B）就自動結束；只開／關 Issue，不碰 `state.json`，concurrency 群組與 `steward` 分開 |
 | `scripts/steward.py` | 所有判斷與狀態機（可在本機測試：`tests/test_steward.py`） |
 | `scripts/steward_finish.sh` | 提交並推送狀態、處理 PR／Issue |
 
@@ -38,6 +39,7 @@
 ## 喚醒
 - **Claude（A、C）**：總管把 state 推進到 A 或 C 時，開一個 Issue，標題 `[wake-claude-A] N#### attempt 1` 或 `[wake-claude-C] N#### attempt 1`（A、C 分開，這樣 A、C 用不同模型的兩個任務不會互相叫醒）。Claude 的排程任務用「GitHub 事件：議題已開啟」觸發，篩選用標題「**包含**」`[wake-claude-A]`（或 `-C`；單一任務負責兩者就用 `[wake-claude`）。Phase 0 實測：不能用「開頭為」。Claude 被叫醒後**仍然只看 `state.json`**，忽略 Issue 內容。
 - **Codex（B）**：不能被 Actions 叫醒（`github-actions[bot]` 的 `@codex` 留言連接器不回應）。用 Codex 雲端排程輪詢；排程要「從綁定 `AI-EN-Words` 環境的對話」建立。
+- 保底：喚醒看門狗（見上表）會在 15 分鐘後重派漏掉的喚醒（GitHub 事件偶爾送不到 Claude 的 routine；實測 2026-11-03 發生過兩次）。GitHub 的 `schedule` 不保證準時，`stall_check` 只當最後一道保險。
 - 備案：Claude 另設每小時排程輪詢；`stall_check` 逾時會開 Issue 通知你。
 
 ## 人工動作（Actions → steward → Run workflow）

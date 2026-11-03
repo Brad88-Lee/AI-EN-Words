@@ -55,4 +55,7 @@ fi
 # 6. 喚醒下一個 AI（只有 claude 用 Issue；codex 靠自己的排程輪詢）
 if [ "$(jqr '.wake.issue != null')" = "true" ]; then
   gh issue create --title "$(jqr '.wake.issue.title')" --body "$(jqr '.wake.issue.body')"
+  # 7. 啟動喚醒看門狗（獨立 workflow；失敗不影響主流程）。GITHUB_TOKEN 建立的 Issue 不會觸發 workflow，所以用 workflow_dispatch。
+  gh workflow run wake_watchdog.yml --ref main -f stage="$(jq -r .stage state.json)" -f round="$(jq -r .round state.json)" -f attempt="$(jq -r .attempt state.json)" \
+    || echo "警告：喚醒看門狗啟動失敗（不影響主流程）" >&2
 fi
