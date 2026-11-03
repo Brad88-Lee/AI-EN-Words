@@ -1,0 +1,441 @@
+{
+  "batch": "N0052",
+  "checked": 50,
+  "reviewed": [
+    "attempted",
+    "authoritative",
+    "auto",
+    "automation",
+    "autonomous",
+    "avail",
+    "aviary",
+    "axis",
+    "backing",
+    "baffle",
+    "bail",
+    "bandit",
+    "bankruptcy",
+    "barefoot",
+    "barge",
+    "barometer",
+    "barrack",
+    "barracks",
+    "barricade",
+    "bash",
+    "basically",
+    "bastard",
+    "battalion",
+    "battlefield",
+    "bazaar",
+    "bearing",
+    "beckon",
+    "bent",
+    "besiege",
+    "bewilder",
+    "bibliography",
+    "binding",
+    "binoculars",
+    "biochemistry",
+    "birdie",
+    "bitch",
+    "blacksmith",
+    "bland",
+    "blare",
+    "bleak",
+    "blizzard",
+    "bloc",
+    "blockade",
+    "blues",
+    "blunder",
+    "bob",
+    "bog",
+    "boiling",
+    "bolster",
+    "bombard"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "attempted",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此形容詞表示已嘗試但未成功完成，「企圖的」未清楚表達此義。",
+      "fix": "未遂的；未成功的"
+    },
+    {
+      "word": "attempted",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "attempted joke 指沒有奏效的玩笑，原譯未表達這層意思。",
+      "fix": "他為自己在會議上沒開好的玩笑道歉。"
+    },
+    {
+      "word": "authoritative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容聲音時表示威嚴或自信，不必然是在發出命令，且可信與權威義重疊。",
+      "fix": "權威的；威嚴的"
+    },
+    {
+      "word": "auto",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The company sells auto parts online to customers across the country."
+    },
+    {
+      "word": "auto",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這家公司在網路上向全國各地的顧客販售汽車零件。"
+    },
+    {
+      "word": "avail",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個動詞例句皆使用利用義，沒有例句呈現有益於之義。",
+      "fix": "利用"
+    },
+    {
+      "word": "avail",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句過短，且 of little avail 比 to little avail 更適合此處的名詞搭配。",
+      "fix": "His apology was of little avail after he had missed the deadline."
+    },
+    {
+      "word": "avail",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他錯過截止期限後，道歉也沒什麼用處。"
+    },
+    {
+      "word": "avail",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "享用不適合搭配折扣，且 until Friday 不宜譯成週五前。",
+      "fix": "顧客可享有這項折扣，優惠至週五為止。"
+    },
+    {
+      "word": "backing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "支持與後盾重複，實物例句指紙板襯底，並非用來緩衝的襯墊。",
+      "fix": "支持；襯底"
+    },
+    {
+      "word": "baffle",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "His strange answer baffled the teacher during the science lesson."
+    },
+    {
+      "word": "baffle",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他在自然課上的奇怪答案讓老師困惑。"
+    },
+    {
+      "word": "bail",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "動詞遺漏常見的交保釋放義，改列該義並配合例句涵蓋其餘舀水及退出義。",
+      "fix": "使交保釋放；舀水；退出"
+    },
+    {
+      "word": "bail",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的交保釋放義，以中性的司法程序情境示範。",
+      "fix": "His family bailed him out after the judge set the amount."
+    },
+    {
+      "word": "bail",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "法官訂定保釋金額後，他的家人替他交保。"
+    },
+    {
+      "word": "bankruptcy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "破產是法律或財務狀態，未必倒閉，三個例句也未呈現倒閉義。",
+      "fix": "破產"
+    },
+    {
+      "word": "barracks",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Each barracks holds about forty people during the training program."
+    },
+    {
+      "word": "barracks",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "訓練期間，每間營房大約可容納四十人。"
+    },
+    {
+      "word": "barricade",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Fallen trees barricaded the mountain road after the severe storm."
+    },
+    {
+      "word": "barricade",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "猛烈風暴過後，倒下的樹木堵住了山路。"
+    },
+    {
+      "word": "bash",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「猛力一擊那顆球」的動詞搭配不通順，應改用擊打。",
+      "fix": "她用球棒猛力擊打那顆球。"
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "遺漏當代常見的粗俗罵人義，且非婚生子女義屬帶貶意的舊稱，須標示語域。",
+      "fix": "混蛋（粗俗用語）；非婚生子女（舊稱）"
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見粗俗義，使用字典說明情境避免直接辱罵他人。",
+      "fix": "The dictionary labels bastard as an offensive word for an unpleasant person."
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "字典將 bastard 列為冒犯性的罵人用語，用來指討厭的人。"
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以小說中的歷史稱呼說明舊義，避免將帶貶意的稱呼當成一般用語。",
+      "fix": "In the old novel, the child called a bastard could not inherit land."
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在那部舊小說中，被稱為 bastard 的孩子不能繼承土地。"
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以歷史傳記用語交代舊義，明確指出其非婚生含義。",
+      "fix": "The historical biography describes the duke as a bastard born outside marriage."
+    },
+    {
+      "word": "bastard",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本歷史傳記稱那位公爵為 bastard，指他是非婚生子女。"
+    },
+    {
+      "word": "bewilder",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The strange map bewildered the tourists as they searched for the station."
+    },
+    {
+      "word": "bewilder",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "遊客尋找車站時，那張奇怪的地圖讓他們一頭霧水。"
+    },
+    {
+      "word": "bewilder",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "His sudden question bewildered me during the job interview."
+    },
+    {
+      "word": "bewilder",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "面試時，他突如其來的問題讓我感到困惑。"
+    },
+    {
+      "word": "binding",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The judge's decision is binding on both parties in the dispute."
+    },
+    {
+      "word": "binding",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "法官的裁決對爭議雙方都有約束力。"
+    },
+    {
+      "word": "birdie",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "高爾夫義僅列音譯，未說明其為低於標準桿一桿的成績。",
+      "fix": "小鳥；羽毛球；低於標準桿一桿的成績"
+    },
+    {
+      "word": "birdie",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "博蒂並非台灣常用的高爾夫譯名，宜以小鳥球及其桿數含義表達。",
+      "fix": "她在最後一洞打出了低於標準桿一桿的小鳥球。"
+    },
+    {
+      "word": "bitch",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "遺漏常見的辱稱義，須標示其冒犯性的語域。",
+      "fix": "母狗；潑婦（辱稱）"
+    },
+    {
+      "word": "bitch",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以字典用語補充常見辱稱義，避免示範對特定人物的辱罵。",
+      "fix": "The dictionary marks bitch as offensive when used to insult a person."
+    },
+    {
+      "word": "bitch",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "字典指出，用 bitch 來辱罵他人具有冒犯性。"
+    },
+    {
+      "word": "blockade",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Protesters blockaded the main road during a peaceful demonstration."
+    },
+    {
+      "word": "blockade",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "抗議者在一場和平示威中封鎖了主要道路。"
+    },
+    {
+      "word": "blockade",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "blockade 通常表示人為封鎖，積雪阻塞道路宜用 block，故改以人為封鎖的中性情境呈現。",
+      "fix": "Local officials blockaded the mountain pass after the avalanche."
+    },
+    {
+      "word": "blockade",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "雪崩發生後，地方官員封鎖了山口。"
+    },
+    {
+      "word": "blues",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Rainy weather gives me the blues when I cannot go outside."
+    },
+    {
+      "word": "blues",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "下雨天無法出門時，我會覺得心情鬱悶。"
+    },
+    {
+      "word": "bombard",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Reporters bombarded the mayor with questions during the press conference."
+    },
+    {
+      "word": "bombard",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "記者在記者會上用一連串問題轟炸市長。"
+    }
+  ]
+}
