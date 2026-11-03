@@ -1,0 +1,297 @@
+{
+  "batch": "N0035",
+  "checked": 50,
+  "reviewed": [
+    "cottage",
+    "council",
+    "counter",
+    "courageous",
+    "courtesy",
+    "coward",
+    "crack",
+    "craft",
+    "creation",
+    "creep",
+    "critic",
+    "critical",
+    "criticism",
+    "criticize",
+    "cruelty",
+    "crush",
+    "cue",
+    "cunning",
+    "curiosity",
+    "curl",
+    "curse",
+    "cushion",
+    "damp",
+    "deadline",
+    "declare",
+    "decoration",
+    "defeat",
+    "defend",
+    "defense",
+    "defensive",
+    "definite",
+    "delicate",
+    "delight",
+    "delightful",
+    "demand",
+    "demonstrate",
+    "demonstration",
+    "dense",
+    "depart",
+    "departure",
+    "dependent",
+    "depression",
+    "deserve",
+    "desperate",
+    "despite",
+    "destruction",
+    "detective",
+    "determination",
+    "device",
+    "devise"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "creation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "網站通常稱為建立或建置，原譯「網站的創造過程」是生硬的逐字翻譯。",
+      "fix": "我們團隊花了六個月建立這個網站。"
+    },
+    {
+      "word": "critic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "critic 指評論者本人，中文「影評」是評論內容，應改為影評人。",
+      "fix": "這位影評人給了這部電影四顆星。"
+    },
+    {
+      "word": "critical",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「對……頗有批評」中文搭配不自然，應清楚表達持批評態度。",
+      "fix": "老師對我寫文章的方式持批評態度。"
+    },
+    {
+      "word": "criticism",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均指負面批評，未使用文學或藝術作品的評論義。",
+      "fix": "批評"
+    },
+    {
+      "word": "cunning",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "cunning plan 指巧妙的計畫，原義項只列適合描述人的狡猾、精明與機靈。",
+      "fix": "狡猾的；精明的；巧妙的"
+    },
+    {
+      "word": "cunning",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "計畫應描述為巧妙，不能以描述人反應靈敏的「機靈」修飾。",
+      "fix": "他想出一個巧妙的計畫來贏得比賽。"
+    },
+    {
+      "word": "curl",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Smoke curled up from the chimney into the cold morning air."
+    },
+    {
+      "word": "curl",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "煙從煙囪盤旋而上，飄入清晨冰冷的空氣中。"
+    },
+    {
+      "word": "curl",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "combed 表示用梳子梳，原譯「撥開」省略了梳理的動作。",
+      "fix": "他用梳子把一綹捲髮從臉前梳開。"
+    },
+    {
+      "word": "cushion",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "This chair needs a softer cushion to support my back."
+    },
+    {
+      "word": "cushion",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這張椅子需要更軟的靠墊來支撐我的背部。"
+    },
+    {
+      "word": "cushion",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「緩衝你的跌落」搭配生硬，應明確表達減輕跌倒時的衝擊。",
+      "fix": "你在體育課跌倒時，厚墊子能減輕衝擊。"
+    },
+    {
+      "word": "deadline",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "to meet the deadline 表示目的，原譯「趕上了」擅自斷言已成功達成。",
+      "fix": "我們工作到很晚，為的是趕上截止期限。"
+    },
+    {
+      "word": "declare",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The mayor declared the festival open after a short speech."
+    },
+    {
+      "word": "declare",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "市長發表簡短演說後，宣布慶典開始。"
+    },
+    {
+      "word": "decoration",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The living room needs more decoration before our guests arrive."
+    },
+    {
+      "word": "decoration",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "客人抵達前，客廳需要再多加一些裝飾。"
+    },
+    {
+      "word": "defeat",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Defeat taught him to practice harder before the next tennis match."
+    },
+    {
+      "word": "defeat",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "失敗教會他在下一場網球賽前要更努力練習。"
+    },
+    {
+      "word": "defensive",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Defensive driving can help prevent accidents on busy city roads."
+    },
+    {
+      "word": "defensive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "防禦性駕駛有助於預防繁忙市區道路上的事故。"
+    },
+    {
+      "word": "delicate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She wore a delicate silver necklace to her sister's wedding."
+    },
+    {
+      "word": "delicate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她戴著一條精緻的銀項鍊參加姊姊的婚禮。"
+    },
+    {
+      "word": "demonstration",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "本字常用於示威活動，原義項漏列這個常見意思，應以中性的道路安全情境補足。",
+      "fix": "示範；展示；示威"
+    },
+    {
+      "word": "demonstration",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原資料漏掉常見的示威義，改寫第三句以配合補列的義項。",
+      "fix": "Students held a peaceful demonstration to ask for safer roads near school."
+    },
+    {
+      "word": "demonstration",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "學生舉行和平示威，要求改善學校附近的道路安全。"
+    },
+    {
+      "word": "depart",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "depart the bus 不是自然的下公車用法，改用典型的 depart from 地點搭配。",
+      "fix": "The tourists departed from the hotel after breakfast this morning."
+    },
+    {
+      "word": "depart",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "遊客們今天早上吃完早餐後便離開飯店。"
+    },
+    {
+      "word": "dependent",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "形容詞義項「取決於」缺少被其他因素決定的狀態描述，應改為形容詞式中文。",
+      "fix": "依賴的；由其他因素決定的"
+    }
+  ]
+}
