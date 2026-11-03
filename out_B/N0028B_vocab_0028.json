@@ -1,0 +1,299 @@
+{
+  "batch": "N0028",
+  "checked": 50,
+  "reviewed": [
+    "middle-aged",
+    "milkshake",
+    "moonlight",
+    "moustache",
+    "movable",
+    "naturalist",
+    "naval",
+    "necessarily",
+    "newcomer",
+    "newscaster",
+    "nonetheless",
+    "nonstop",
+    "northeast",
+    "northwest",
+    "noun",
+    "nursing",
+    "nylon",
+    "oh",
+    "olympic",
+    "one-sided",
+    "opener",
+    "opening",
+    "ought",
+    "overweight",
+    "pacific",
+    "part-time",
+    "participle",
+    "particularly",
+    "payment",
+    "petal",
+    "postal",
+    "powerless",
+    "preferable",
+    "presently",
+    "punishment",
+    "qualified",
+    "rarely",
+    "reader",
+    "readily",
+    "reading",
+    "rebuild",
+    "related",
+    "relatively",
+    "repeatedly",
+    "requirement",
+    "restless",
+    "reunite",
+    "rewrite",
+    "rider",
+    "running"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "milkshake",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「吸不動吸管」誤把吸管當成吸取的對象，應表達難以用吸管喝奶昔。",
+      "fix": "這杯奶昔太濃稠，我幾乎無法用吸管喝。"
+    },
+    {
+      "word": "nonetheless",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "高價與高品質沒有形成 nonetheless 所需的讓步關係，改為低價卻仍有優良品質。",
+      "fix": "The price is low, but the quality is nonetheless excellent."
+    },
+    {
+      "word": "nonetheless",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "價格低廉，但品質依然極佳。"
+    },
+    {
+      "word": "nursing",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "nursing home 提供護理照護，台灣的安養院不必然提供此類服務，應譯為護理之家。",
+      "fix": "我奶奶住在公園附近的護理之家。"
+    },
+    {
+      "word": "one-sided",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 one-sided story 使用「片面的」意思，原義項未明確列出。",
+      "fix": "單方面的；一面倒的；片面的"
+    },
+    {
+      "word": "opener",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個中文意思為開瓶器，原查詢 can opener 對應的是第二個意思開罐器。",
+      "fix": "bottle opener"
+    },
+    {
+      "word": "opening",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "opening hours 使用「營業的」意思，原義項未涵蓋，且例句未指定開幕活動。",
+      "fix": "開始的；營業的"
+    },
+    {
+      "word": "opening",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "opening speech 在此是典禮開始時的致詞，原文未說這是開幕典禮。",
+      "fix": "校長在典禮上致開場詞。"
+    },
+    {
+      "word": "participle",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯省略 a broken window 這個用來示範分詞的詞組，讀者無法得知「這個詞組」所指。",
+      "fix": "在「a broken window」這個詞組中，broken 是一個分詞。"
+    },
+    {
+      "word": "payment",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "due on the fifth 表示五日到期，原譯「五日前」錯把到期日排除在可繳款時間之外。",
+      "fix": "第一期款項在下個月五日到期。"
+    },
+    {
+      "word": "payment",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "直接以電子郵件寄送款項的方式不清楚，改用明確的銀行轉帳付款情境。",
+      "fix": "Please make your payment by bank transfer before Friday."
+    },
+    {
+      "word": "payment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "請在星期五之前以銀行轉帳付款。"
+    },
+    {
+      "word": "petal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "This flower has five white petals around a yellow center."
+    },
+    {
+      "word": "petal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這朵花有五片白色花瓣圍著黃色的花心。"
+    },
+    {
+      "word": "powerless",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "警衛例句談無權准許入場，應補列缺乏權限的意思。",
+      "fix": "無力的；無能為力的；無權的"
+    },
+    {
+      "word": "powerless",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "句首 Without a ticket 在文法上修飾警衛，與原句想表達訪客沒票的意思不符。",
+      "fix": "Since the visitor had no ticket, the guard was powerless to admit him."
+    },
+    {
+      "word": "powerless",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "由於訪客沒有票，警衛無權讓他進入。"
+    },
+    {
+      "word": "presently",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The doctor will see you presently, so please take a seat."
+    },
+    {
+      "word": "presently",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "醫生很快就會幫你看診，請先坐下。"
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "My uncle rarely eats meat because he prefers fresh vegetables."
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我叔叔很少吃肉，因為他比較喜歡新鮮蔬菜。"
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "It rarely snows in southern Taiwan, except in the high mountains."
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "台灣南部除了高山地區以外，很少下雪。"
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She rarely complains about her homework, even when it is difficult."
+    },
+    {
+      "word": "rarely",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她很少抱怨功課，即使功課很難也是如此。"
+    },
+    {
+      "word": "reading",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "reading list 表示閱讀書單，三句均未直接使用 reading 表示「讀物」，應移除此未示範義。",
+      "fix": "閱讀；讀數"
+    },
+    {
+      "word": "reading",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The thermometer reading was thirty-seven degrees when the nurse checked."
+    },
+    {
+      "word": "reading",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "護理師檢查時，溫度計的讀數是三十七度。"
+    },
+    {
+      "word": "related",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "首義與三句中兩句均表達一般事物的關聯，僅列家庭與人際不能涵蓋主要用法。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    }
+  ]
+}
