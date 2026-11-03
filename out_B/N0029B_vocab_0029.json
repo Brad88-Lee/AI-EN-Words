@@ -1,0 +1,465 @@
+{
+  "batch": "N0029",
+  "checked": 50,
+  "reviewed": [
+    "sadden",
+    "sanction",
+    "saying",
+    "schoolmate",
+    "seaside",
+    "second-hand",
+    "settlement",
+    "setup",
+    "shining",
+    "short-sighted",
+    "short-term",
+    "shortcut",
+    "sickness",
+    "smoky",
+    "south-east",
+    "south-west",
+    "specialized",
+    "sportsperson",
+    "staircase",
+    "statement",
+    "storey",
+    "storyteller",
+    "suffering",
+    "sunbathe",
+    "sunlight",
+    "sunrise",
+    "sunset",
+    "supporter",
+    "surely",
+    "tablecloth",
+    "tack",
+    "teen",
+    "televise",
+    "thinking",
+    "thunderstorm",
+    "toothpaste",
+    "training",
+    "traveling",
+    "tulip",
+    "typewriter",
+    "typist",
+    "underground",
+    "understanding",
+    "underwater",
+    "underweight",
+    "unexpected",
+    "unknown",
+    "unlike",
+    "untouched",
+    "unusual"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "sanction",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個動詞例句均表示批准或准許，完全沒有使用制裁義。",
+      "fix": "批准；認可"
+    },
+    {
+      "word": "second-hand",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 second-hand 修飾 heard，屬副詞用法，不能作為形容詞義項的示例。",
+      "fix": "This second-hand account of the accident may not be accurate."
+    },
+    {
+      "word": "second-hand",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這份轉述的事故經過可能不正確。"
+    },
+    {
+      "word": "shortcut",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "「快捷方式」不是此處的台灣慣用譯法，鍵盤操作應用「快速鍵」對應。",
+      "fix": "捷徑；快速鍵"
+    },
+    {
+      "word": "sickness",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Regular exercise can help prevent sickness and improve your health."
+    },
+    {
+      "word": "sickness",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "規律運動有助於預防疾病並改善健康。"
+    },
+    {
+      "word": "south-east",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "A south-east wind brought warm rain to the coastal villages."
+    },
+    {
+      "word": "south-east",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "東南風為沿海村莊帶來了溫暖的雨。"
+    },
+    {
+      "word": "south-west",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "a south-west town 缺少自然明確的方位參照，改用 south-west coast 表達形容詞用法。",
+      "fix": "They live in a small town on the south-west coast of England."
+    },
+    {
+      "word": "south-west",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他們住在英格蘭西南海岸的一個小鎮。"
+    },
+    {
+      "word": "sportsperson",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句都描述實際參與運動的運動員，未示範僅愛好運動的人。",
+      "fix": "運動員"
+    },
+    {
+      "word": "storey",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Their apartment building has twelve storeys and two elevators."
+    },
+    {
+      "word": "storey",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他們的公寓大樓有十二層樓和兩部電梯。"
+    },
+    {
+      "word": "storyteller",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "My grandmother is a wonderful storyteller who keeps us entertained."
+    },
+    {
+      "word": "storyteller",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我外婆是個很會說故事的人，總能讓我們聽得開心。"
+    },
+    {
+      "word": "sunrise",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The farmers start work at sunrise to avoid the midday heat."
+    },
+    {
+      "word": "sunrise",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "農夫們在日出時開始工作，以避開正午的酷熱。"
+    },
+    {
+      "word": "sunset",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Please come home before sunset so we can have dinner together."
+    },
+    {
+      "word": "sunset",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "請在日落前回家，這樣我們就能一起吃晚餐。"
+    },
+    {
+      "word": "surely",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "You will surely enjoy this movie if you like funny stories."
+    },
+    {
+      "word": "surely",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "如果你喜歡有趣的故事，一定會喜歡這部電影。"
+    },
+    {
+      "word": "surely",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The bus will surely arrive soon, so let us wait here."
+    },
+    {
+      "word": "surely",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "公車一定很快就會到，所以我們就在這裡等吧。"
+    },
+    {
+      "word": "tablecloth",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "I spilled juice on the tablecloth while reaching for my plate."
+    },
+    {
+      "word": "tablecloth",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我伸手拿盤子時，把果汁灑在桌布上了。"
+    },
+    {
+      "word": "tack",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "縫紉用 tack 指正式縫製前暫時疏縫，僅寫「縫合」會遺漏其關鍵特徵。",
+      "fix": "用圖釘釘住；暫時縫住"
+    },
+    {
+      "word": "tack",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "hem 可指各種衣物的摺邊，原文沒有指定為褲腳。",
+      "fix": "她在正式縫好之前，先把衣物的摺邊暫時縫住。"
+    },
+    {
+      "word": "teen",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She loves reading teen novels about friendship and school life."
+    },
+    {
+      "word": "teen",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她喜歡讀關於友誼與校園生活的青少年小說。"
+    },
+    {
+      "word": "televise",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「在全國電視轉播」搭配不完整，應清楚表達透過電視向全國播送。",
+      "fix": "決賽將透過電視向全國轉播。"
+    },
+    {
+      "word": "televise",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原譯缺少連接電視媒介與轉播動作的成分，語句不通順。",
+      "fix": "這場演講已於星期五晚上透過電視現場轉播。"
+    },
+    {
+      "word": "televise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Not every school event is televised on the local news."
+    },
+    {
+      "word": "televise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "並非每場學校活動都會在地方電視新聞上播出。"
+    },
+    {
+      "word": "thinking",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均描述思考過程或思維方式，沒有示範表示觀點的「想法」義。",
+      "fix": "思考；思維"
+    },
+    {
+      "word": "underground",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Underground water supplies the whole village during the dry season."
+    },
+    {
+      "word": "underground",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "旱季期間，地下水供應整個村莊。"
+    },
+    {
+      "word": "underground",
+      "path": "senses[2].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The cables are buried underground to protect them from strong winds."
+    },
+    {
+      "word": "underground",
+      "path": "senses[2].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "電纜埋在地下，以免受到強風損害。"
+    },
+    {
+      "word": "understanding",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 reached an understanding 表示達成共識，原義項漏列此協議意義。",
+      "fix": "理解；諒解；共識"
+    },
+    {
+      "word": "underwater",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The camera still works underwater, so we can photograph the fish."
+    },
+    {
+      "word": "underwater",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這台相機在水下仍然可以使用，因此我們能拍攝魚群。"
+    },
+    {
+      "word": "underweight",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Being underweight can affect your health and make you feel tired."
+    },
+    {
+      "word": "underweight",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "體重過輕可能影響健康，並使你感到疲倦。"
+    },
+    {
+      "word": "unexpected",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The test results were unexpected, so the teacher checked them again."
+    },
+    {
+      "word": "unexpected",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "測驗結果出乎意料，因此老師又檢查了一次。"
+    },
+    {
+      "word": "unknown",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 unknown city 使用不熟悉或陌生的意思，原義項未明確涵蓋。",
+      "fix": "未知的；不知名的；陌生的"
+    },
+    {
+      "word": "unlike",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 unlike each other 是帶受詞的介系詞用法，且雙胞胎同年沒有構成有效讓步，改用不帶受詞的形容詞句型。",
+      "fix": "Although they were twins, they were quite unlike in appearance."
+    },
+    {
+      "word": "unlike",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "雖然他們是雙胞胎，但外貌相當不同。"
+    },
+    {
+      "word": "untouched",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The island remains untouched by tourism because visitors need special permits."
+    },
+    {
+      "word": "untouched",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這座島因為遊客需要特別許可，仍未受到觀光的影響。"
+    }
+  ]
+}
