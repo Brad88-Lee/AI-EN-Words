@@ -1,0 +1,417 @@
+{
+  "batch": "N0039",
+  "checked": 50,
+  "reviewed": [
+    "globe",
+    "glorious",
+    "goods",
+    "gown",
+    "grace",
+    "graceful",
+    "gracious",
+    "graduation",
+    "grammar",
+    "grateful",
+    "gratitude",
+    "grave",
+    "greasy",
+    "greeting",
+    "grief",
+    "grind",
+    "guarantee",
+    "guardian",
+    "guilt",
+    "guilty",
+    "gulf",
+    "habitual",
+    "halt",
+    "handwriting",
+    "hardship",
+    "hardware",
+    "harmony",
+    "harsh",
+    "hatred",
+    "hawk",
+    "herd",
+    "hesitation",
+    "hive",
+    "homeland",
+    "honeymoon",
+    "hook",
+    "horizon",
+    "horrify",
+    "hose",
+    "household",
+    "humanity",
+    "humidity",
+    "hurricane",
+    "hush",
+    "hydrogen",
+    "identical",
+    "identification",
+    "identify",
+    "idiom",
+    "idle"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "grace",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個名詞例句分別是優雅、風度與寬限期，未示範恩惠義。",
+      "fix": "優雅；風度；寬限"
+    },
+    {
+      "word": "graceful",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 graceful reply 表示得體、有風度的回答，原義項未清楚涵蓋。",
+      "fix": "優雅的；優美的；得體的"
+    },
+    {
+      "word": "graceful",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The swan is a graceful bird that moves smoothly across the lake."
+    },
+    {
+      "word": "graceful",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "天鵝是一種優雅的鳥，在湖面上平順地游動。"
+    },
+    {
+      "word": "grateful",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "help with my homework 只表示協助功課，原譯「幫我寫功課」容易變成代寫作業。",
+      "fix": "我很感激你在功課上給我的協助。"
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The store offers a money-back guarantee if the product is faulty."
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "如果產品有瑕疵，這家商店提供退費保證。"
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "We guarantee delivery within three days after receiving your payment."
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "收到您的款項後，我們保證三天內送達。"
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Hard work does not guarantee success, but it improves your chances."
+    },
+    {
+      "word": "guarantee",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "努力並不保證成功，但能提高成功的機會。"
+    },
+    {
+      "word": "habitual",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Habitual lateness can upset your coworkers and delay the whole team."
+    },
+    {
+      "word": "habitual",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "習慣性遲到可能讓同事不高興，並耽誤整個團隊。"
+    },
+    {
+      "word": "halt",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The storm halted all train service between the two cities."
+    },
+    {
+      "word": "halt",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "暴風雨使兩座城市之間的所有火車停駛。"
+    },
+    {
+      "word": "harmony",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The neighbors live together in harmony and help one another."
+    },
+    {
+      "word": "harmony",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "鄰居們和睦相處，並互相幫助。"
+    },
+    {
+      "word": "harmony",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The choir sang in perfect harmony during the school concert."
+    },
+    {
+      "word": "harmony",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "合唱團在學校音樂會上唱出完美的和聲。"
+    },
+    {
+      "word": "harsh",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 harsh light 表示刺眼，原義項漏列此意思，且三句未示範刺耳聲音義。",
+      "fix": "嚴苛的；惡劣的；刺眼的"
+    },
+    {
+      "word": "harsh",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The harsh light hurt my eyes when I entered the room."
+    },
+    {
+      "word": "harsh",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我走進房間時，刺眼的光線弄痛了我的眼睛。"
+    },
+    {
+      "word": "herd",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "herd 未交代動物種類，原譯「牛群」擅自指定為牛。",
+      "fix": "農夫在山丘上看顧他的牧群。"
+    },
+    {
+      "word": "hesitation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "His hesitation made the teacher wait before starting the next question."
+    },
+    {
+      "word": "hesitation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他的遲疑讓老師等了一會兒，才開始問下一個問題。"
+    },
+    {
+      "word": "horizon",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Traveling can broaden your horizons by introducing you to different cultures."
+    },
+    {
+      "word": "horizon",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "旅行讓你接觸不同文化，進而拓展視野。"
+    },
+    {
+      "word": "household",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Her household budget is carefully planned to avoid unnecessary spending."
+    },
+    {
+      "word": "household",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她的家庭預算規劃得很仔細，以避免不必要的支出。"
+    },
+    {
+      "word": "humanity",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有全人類、人類歷史及仁愛，未示範人類本性的意思。",
+      "fix": "人類；仁愛"
+    },
+    {
+      "word": "humanity",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The discovery helped all of humanity by making drinking water safer."
+    },
+    {
+      "word": "humanity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這項發現使飲用水更安全，造福了全人類。"
+    },
+    {
+      "word": "humidity",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The humidity is high in summer, so clothes take longer to dry."
+    },
+    {
+      "word": "humidity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "夏天的濕度很高，因此衣服需要較長時間才會乾。"
+    },
+    {
+      "word": "hydrogen",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Hydrogen is the lightest element and is found in water."
+    },
+    {
+      "word": "hydrogen",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "氫是最輕的元素，也是水的組成成分。"
+    },
+    {
+      "word": "hydrogen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Some new buses run on hydrogen instead of diesel fuel."
+    },
+    {
+      "word": "hydrogen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "有些新型公車以氫氣而非柴油作為燃料。"
+    },
+    {
+      "word": "identical",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Her answer was identical to mine, including the same spelling mistake."
+    },
+    {
+      "word": "identical",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她的答案和我的完全相同，連拼字錯誤都一樣。"
+    },
+    {
+      "word": "identification",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Students need identification to borrow books from the school library."
+    },
+    {
+      "word": "identification",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "學生需要出示身分證件，才能向學校圖書館借書。"
+    },
+    {
+      "word": "idle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 idle talk 指無意義的空談，原義項未列出無意義的意思。",
+      "fix": "閒置的；無所事事的；懶散的；無意義的"
+    },
+    {
+      "word": "idle",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "idled away the summer 表示虛度夏天，原義項沒有涵蓋虛度時間的及物用法。",
+      "fix": "閒晃；空轉；怠速；虛度"
+    }
+  ]
+}
