@@ -1,0 +1,401 @@
+{
+  "batch": "N0038",
+  "checked": 50,
+  "reviewed": [
+    "feast",
+    "feedback",
+    "ferry",
+    "fertile",
+    "fetch",
+    "fiction",
+    "fierce",
+    "finance",
+    "financial",
+    "fireplace",
+    "flatter",
+    "flea",
+    "flee",
+    "flexible",
+    "fluent",
+    "flush",
+    "foam",
+    "forbid",
+    "forecast",
+    "formation",
+    "formula",
+    "fort",
+    "fortunate",
+    "foundation",
+    "founder",
+    "frame",
+    "frequency",
+    "freshman",
+    "frost",
+    "frown",
+    "frustrate",
+    "fulfill",
+    "functional",
+    "fundamental",
+    "funeral",
+    "furious",
+    "furnish",
+    "furthermore",
+    "gallery",
+    "gaze",
+    "gear",
+    "gene",
+    "generosity",
+    "genuine",
+    "germ",
+    "gifted",
+    "gigantic",
+    "giggle",
+    "ginger",
+    "glimpse"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "feedback",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The customer feedback was mostly positive after we improved the service."
+    },
+    {
+      "word": "feedback",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我們改善服務後，顧客的回饋大多是正面的。"
+    },
+    {
+      "word": "fertile",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為肥沃土地或富有創造力的想像，未示範能生育的意思。",
+      "fix": "肥沃的；富創造力的"
+    },
+    {
+      "word": "fetch",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🐕 代表狗，不能表達第一義項取來的動作，容易使學生誤認為動物名詞。",
+      "fix": null
+    },
+    {
+      "word": "finance",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "studied finance 只表示研讀財務金融，原譯「主修」額外指定學位主修領域。",
+      "fix": "她在台北的一所大學研讀財務金融。"
+    },
+    {
+      "word": "flatter",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 was flattered 表示受寵若驚，原義項漏列，且奉承與諂媚重複。",
+      "fix": "奉承；使受寵若驚；使顯得好看"
+    },
+    {
+      "word": "flatter",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "That blue dress flatters her figure without being too tight."
+    },
+    {
+      "word": "flatter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "那件藍色洋裝不會太緊，又能襯托她的身形。"
+    },
+    {
+      "word": "flee",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fled 帶有逃離的意思，原譯僅說離開，漏掉逃走的語意。",
+      "fix": "他逃離那個國家，去尋找更好的生活。"
+    },
+    {
+      "word": "fluent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "His fluent speech impressed the judges at the English competition."
+    },
+    {
+      "word": "fluent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他在英文比賽中流暢的演講讓評審印象深刻。"
+    },
+    {
+      "word": "flush",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Her face flushed with embarrassment when she forgot her lines."
+    },
+    {
+      "word": "flush",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她忘記台詞時，窘得滿臉通紅。"
+    },
+    {
+      "word": "foam",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "床墊例句中的 foam 指泡棉材料，不是液體表面的泡沫，應補列此意思。",
+      "fix": "泡沫；泡棉"
+    },
+    {
+      "word": "foam",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The sea foamed around the rocks as the waves crashed against them."
+    },
+    {
+      "word": "foam",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "海浪拍打岩石時，海水在岩石周圍翻起泡沫。"
+    },
+    {
+      "word": "forbid",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The sign forbids entry to visitors without an appointment."
+    },
+    {
+      "word": "forbid",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這塊告示牌禁止未預約的訪客進入。"
+    },
+    {
+      "word": "formula",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "寶寶喝奶與成功方法的例句分別使用配方奶及方法義，原義項未明確涵蓋。",
+      "fix": "公式；配方；配方奶；方法"
+    },
+    {
+      "word": "foundation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "concrete 是混凝土，不是僅作為其原料之一的水泥。",
+      "fix": "這棟房子有穩固的混凝土地基。"
+    },
+    {
+      "word": "frame",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句表示表述問題，第三句表示框住景物，原義項僅有裝框與構思，未完整涵蓋。",
+      "fix": "裝框；構思；表述；框住"
+    },
+    {
+      "word": "frequency",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "every ten minutes 是時間間隔，不能直接作為 frequency is 後的頻率值，改用每小時的班次數。",
+      "fix": "The company increased bus frequency to six departures an hour."
+    },
+    {
+      "word": "frequency",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "公司把公車班次增加為每小時六班。"
+    },
+    {
+      "word": "frown",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "frown on 表示不贊成某種行為，而不僅是不悅，原義項應補列此意思。",
+      "fix": "皺眉；不贊成"
+    },
+    {
+      "word": "frown",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "A frown appeared on her face when she read the bill."
+    },
+    {
+      "word": "frown",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她讀到帳單時，臉上露出不悅的神情。"
+    },
+    {
+      "word": "frustrate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "排隊例句中的 frustrate 表示使人煩躁不耐，原義項只有沮喪與受挫。",
+      "fix": "使沮喪；使受挫；使煩躁"
+    },
+    {
+      "word": "frustrate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Long waiting lines frustrate many customers during the holiday sales."
+    },
+    {
+      "word": "frustrate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "節慶特賣期間，大排長龍讓許多顧客感到不耐煩。"
+    },
+    {
+      "word": "functional",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句分別描述實用廚房、實用功能及可運作機器，未示範功能方面的意思。",
+      "fix": "實用的；可運作的"
+    },
+    {
+      "word": "furious",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "furious 是情緒狀態的抽象形容詞，angry face 只描述一般生氣表情，應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "gallery",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句都是藝術或照片展覽場所，沒有示範建築走廊義，應改列展覽廳。",
+      "fix": "美術館；畫廊；展覽廳"
+    },
+    {
+      "word": "gear",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "bicycle gears 指齒輪，對應第三個意思，未對應第一個意思裝備。",
+      "fix": "camping gear"
+    },
+    {
+      "word": "gene",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Eye color is determined by genes that we inherit from our parents."
+    },
+    {
+      "word": "gene",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "眼睛的顏色由我們從父母遺傳的基因決定。"
+    },
+    {
+      "word": "germ",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Germs spread easily in crowded places where people gather closely."
+    },
+    {
+      "word": "germ",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "人們密集聚集的擁擠場所很容易傳播病菌。"
+    },
+    {
+      "word": "giggle",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She let out a nervous giggle before answering the difficult question."
+    },
+    {
+      "word": "giggle",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她回答那個困難的問題前，發出一聲緊張的輕笑。"
+    },
+    {
+      "word": "ginger",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "描述頭髮顏色時，ginger 指紅棕或橙紅色，而非薑黃色。",
+      "fix": "薑；紅棕色"
+    },
+    {
+      "word": "ginger",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the color of ginger 容易被理解為薑本身的黃色，改以 shade of ginger 清楚示範髮色名詞義。",
+      "fix": "Her hair was a bright shade of ginger in the sunlight."
+    },
+    {
+      "word": "ginger",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她的頭髮在陽光下呈現明亮的紅棕色。"
+    }
+  ]
+}
