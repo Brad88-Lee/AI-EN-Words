@@ -1,0 +1,617 @@
+{
+  "batch": "N0042",
+  "checked": 50,
+  "reviewed": [
+    "maturity",
+    "measurable",
+    "mechanical",
+    "memorable",
+    "memorial",
+    "memorize",
+    "merchant",
+    "mercy",
+    "mere",
+    "merit",
+    "messenger",
+    "messy",
+    "microscope",
+    "mild",
+    "mill",
+    "miner",
+    "mineral",
+    "minimum",
+    "minister",
+    "ministry",
+    "mischief",
+    "miserable",
+    "misfortune",
+    "mislead",
+    "misunderstand",
+    "moderate",
+    "modest",
+    "modesty",
+    "monitor",
+    "monument",
+    "moreover",
+    "motivate",
+    "motivation",
+    "mountainous",
+    "muddy",
+    "multiple",
+    "murderer",
+    "murmur",
+    "mutual",
+    "mysterious",
+    "namely",
+    "needy",
+    "neglect",
+    "negotiate",
+    "nevertheless",
+    "nightmare",
+    "noble",
+    "nonsense",
+    "nowadays",
+    "nuclear"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "memorable",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句描述密碼容易記住，原義項未涵蓋好記義。",
+      "fix": "難忘的；好記的"
+    },
+    {
+      "word": "memorial",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現紀念碑或紀念物，未使用所列的紀念館義。",
+      "fix": "紀念碑；紀念物"
+    },
+    {
+      "word": "merchant",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均未明確使用批發商義，商人不一定從事批發。",
+      "fix": "商人；商家"
+    },
+    {
+      "word": "mercy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "仁慈與慈悲重複，應合併。",
+      "fix": "仁慈；寬恕"
+    },
+    {
+      "word": "mere",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "僅僅的與只不過的重複，三句也未明確使用微不足道義。",
+      "fix": "僅僅的"
+    },
+    {
+      "word": "merit",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的 on merit 指憑實力，原義項未明確涵蓋。",
+      "fix": "優點；價值；實力"
+    },
+    {
+      "word": "merit",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上獎勵的給予者以提供完整情境。",
+      "fix": "Her hard work merits a reward from the school."
+    },
+    {
+      "word": "merit",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的努力值得學校給予獎勵。"
+    },
+    {
+      "word": "merit",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上做決定前須關注問題的情境。",
+      "fix": "The problem merits our careful attention before we make a decision."
+    },
+    {
+      "word": "merit",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個問題值得我們在做決定前仔細關注。"
+    },
+    {
+      "word": "messenger",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "信差與送信的人重複，應合併。",
+      "fix": "信差；傳訊者"
+    },
+    {
+      "word": "messy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "公司經歷兩位合夥人的離婚不自然，應直接描述合夥人的合約爭執。",
+      "fix": "The business partners faced a messy dispute over their contract."
+    },
+    {
+      "word": "messy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這些生意合夥人因合約問題陷入棘手的爭執。"
+    },
+    {
+      "word": "mill",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上麵粉的銷售對象以提供完整情境。",
+      "fix": "Farmers mill the wheat into flour before selling it to bakeries."
+    },
+    {
+      "word": "mill",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "農夫把小麥磨成麵粉後，再將麵粉賣給麵包店。"
+    },
+    {
+      "word": "miner",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上煤礦工人的工作環境。",
+      "fix": "My great-grandfather was a coal miner who worked deep underground."
+    },
+    {
+      "word": "miner",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我的曾祖父曾是一名在地下深處工作的煤礦工人。"
+    },
+    {
+      "word": "miner",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "輪完長班不是自然的台灣用語，應直接描述長時間工作結束。",
+      "fix": "礦工們結束長時間的輪班工作後，從坑道裡走了出來。"
+    },
+    {
+      "word": "minister",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上記者提問的政策主題。",
+      "fix": "The minister answered questions from reporters about the new education policy."
+    },
+    {
+      "word": "minister",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "部長回答了記者關於新教育政策的提問。"
+    },
+    {
+      "word": "ministry",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "Ministry of Health 僅指衛生部，原文未包含福利業務或指定台灣機關。",
+      "fix": "衛生部宣布了一項新的流感計畫。"
+    },
+    {
+      "word": "mischief",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "頑皮與淘氣重複，應合併。",
+      "fix": "頑皮；惡作劇"
+    },
+    {
+      "word": "miserable",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句描述惡劣的生活環境，原義項未明確涵蓋環境品質差的用法。",
+      "fix": "悲慘的；痛苦的；惡劣的"
+    },
+    {
+      "word": "misfortune",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "厄運與惡運重複，應合併。",
+      "fix": "不幸；厄運"
+    },
+    {
+      "word": "misunderstand",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上問題內容，並保留正確的過去式 misunderstood。",
+      "fix": "I think you misunderstood my question about the homework deadline."
+    },
+    {
+      "word": "misunderstand",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我想你誤會了我關於作業截止期限的問題。"
+    },
+    {
+      "word": "misunderstand",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上具體習俗以提供清楚情境。",
+      "fix": "Many tourists misunderstand the local custom of removing shoes indoors."
+    },
+    {
+      "word": "misunderstand",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多遊客會誤解當地進屋脫鞋的習俗。"
+    },
+    {
+      "word": "modest",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句的 modest increase 指幅度不大的成長，適度的未明確表達規模小的意思。",
+      "fix": "謙虛的；樸素的；幅度不大的"
+    },
+    {
+      "word": "modesty",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆使用謙虛義，謙遜與其重複，且未呈現樸實義。",
+      "fix": "謙虛"
+    },
+    {
+      "word": "monitor",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為心率監測器，監視器容易被誤解為監視影像設備。",
+      "fix": "螢幕；監測器；班長"
+    },
+    {
+      "word": "monument",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句只呈現紀念碑及古蹟，未使用紀念館義。",
+      "fix": "紀念碑；古蹟"
+    },
+    {
+      "word": "mountainous",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "mountainous 應描述多山地區，直接修飾道路不如山區用法精確。",
+      "fix": "Traveling through mountainous areas can make some passengers feel carsick."
+    },
+    {
+      "word": "mountainous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "行經山區可能會讓部分乘客暈車。"
+    },
+    {
+      "word": "mountainous",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均描述多山或山區，未使用巨大的義項。",
+      "fix": "多山的；山區的"
+    },
+    {
+      "word": "multiple",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "multiple-choice 作前置複合修飾語原應加連字號，但複合詞不符目標字規則，改用獨立的 multiple。",
+      "fix": "The school offers multiple courses in art, music, and science."
+    },
+    {
+      "word": "multiple",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學校提供多門藝術、音樂和科學課程。"
+    },
+    {
+      "word": "multiple",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆表示數量不只一個，未呈現多樣或多重層次的意思。",
+      "fix": "多個的"
+    },
+    {
+      "word": "multiple",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上正反例以呈現倍數的數學意義。",
+      "fix": "Twelve is a multiple of three, but fourteen is not."
+    },
+    {
+      "word": "multiple",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "十二是三的倍數，但十四不是。"
+    },
+    {
+      "word": "multiple",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "每個數都有無限多個倍數，原句的特定倍數缺乏界定，應提供範圍與基數。",
+      "fix": "Students must list every multiple of five below thirty."
+    },
+    {
+      "word": "multiple",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學生必須列出所有小於三十的五的倍數。"
+    },
+    {
+      "word": "murmur",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上低語聲的來源以提供清楚情境。",
+      "fix": "A soft murmur filled the library as students discussed their projects."
+    },
+    {
+      "word": "murmur",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學生討論專題時，圖書館裡充滿輕聲細語。"
+    },
+    {
+      "word": "murmur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低語與喃喃聲重複，應合併並保留溪流的潺潺聲義。",
+      "fix": "低語聲；潺潺聲"
+    },
+    {
+      "word": "murmur",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上母親在旁的照護情境。",
+      "fix": "The baby murmured in her sleep while her mother watched nearby."
+    },
+    {
+      "word": "murmur",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "媽媽在旁看著寶寶時，寶寶在睡夢中喃喃出聲。"
+    },
+    {
+      "word": "murmur",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上低聲交談的時機以提供完整情境。",
+      "fix": "He murmured something to the waiter before leaving the restaurant."
+    },
+    {
+      "word": "murmur",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他在離開餐廳前，對服務生小聲說了些話。"
+    },
+    {
+      "word": "mutual",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "彼此互相語意重複，應刪除冗詞。",
+      "fix": "我們互相尊重。"
+    },
+    {
+      "word": "mutual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相互的與彼此的重複，應合併並保留共同義。",
+      "fix": "相互的；共同的"
+    },
+    {
+      "word": "needy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上免費午餐的提供管道。",
+      "fix": "Many needy students receive free lunches through the school meal program."
+    },
+    {
+      "word": "needy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多清寒學生透過學校的供餐計畫獲得免費午餐。"
+    },
+    {
+      "word": "neglect",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上花園疏於照料的背景。",
+      "fix": "The garden was neglected for years after its owner moved away."
+    },
+    {
+      "word": "neglect",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "花園主人搬走後，這座花園就疏於照料了好幾年。"
+    },
+    {
+      "word": "neglect",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句描述花園疏於照料的情況，原義項未明確涵蓋。",
+      "fix": "疏忽；忽視；疏於照料；忘了做"
+    },
+    {
+      "word": "neglect",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上建築失去維護的背景。",
+      "fix": "The old building fell into neglect after the factory closed."
+    },
+    {
+      "word": "neglect",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "工廠關閉後，這棟老建築因疏於維護而逐漸荒廢。"
+    },
+    {
+      "word": "neglect",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "疏忽與怠忽重複，建築及公園兩句則需明確呈現疏於照料義。",
+      "fix": "疏忽；疏於照料"
+    },
+    {
+      "word": "noble",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "the old country 指故國或祖國，不能直譯成舊國。",
+      "fix": "他出身於故國的一個貴族家庭。"
+    },
+    {
+      "word": "noble",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上城堡的典型環境。",
+      "fix": "The nobles lived in large castles surrounded by high stone walls."
+    },
+    {
+      "word": "noble",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "貴族們住在四周有高大石牆環繞的大城堡裡。"
+    },
+    {
+      "word": "noble",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上舉行舞會的目的。",
+      "fix": "Many nobles attended the royal ball to celebrate the prince's birthday."
+    },
+    {
+      "word": "noble",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多貴族出席了慶祝王子生日的皇家舞會。"
+    },
+    {
+      "word": "nowadays",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上寫信減少的原因。",
+      "fix": "People rarely write personal letters nowadays because email is more convenient."
+    },
+    {
+      "word": "nowadays",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "現今人們很少寫私人信件，因為電子郵件更方便。"
+    },
+    {
+      "word": "nowadays",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "現今、現在與如今是重複的同義詞，應合併。",
+      "fix": "現今"
+    },
+    {
+      "word": "nuclear",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句涉及台灣核能使用的政治爭議，改為中性的博物館科普情境。",
+      "fix": "The museum explains how nuclear power is used to generate electricity."
+    },
+    {
+      "word": "nuclear",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這間博物館說明核能如何用來發電。"
+    }
+  ]
+}
