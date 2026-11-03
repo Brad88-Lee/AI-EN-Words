@@ -1,0 +1,657 @@
+{
+  "batch": "N0024",
+  "checked": 50,
+  "reviewed": [
+    "warn",
+    "wax",
+    "weaken",
+    "wealthy",
+    "weave",
+    "web",
+    "weed",
+    "weep",
+    "wheat",
+    "whip",
+    "whistle",
+    "wicked",
+    "wipe",
+    "wisdom",
+    "wrap",
+    "yolk",
+    "youngster",
+    "zipper",
+    "zone",
+    "almond",
+    "comma",
+    "controller",
+    "countable",
+    "dealer",
+    "deepen",
+    "expressive",
+    "fearful",
+    "grasshopper",
+    "grassy",
+    "hateful",
+    "holder",
+    "lollipop",
+    "necktie",
+    "ongoing",
+    "playful",
+    "porcelain",
+    "queer",
+    "rag",
+    "someday",
+    "stale",
+    "underlying",
+    "wed",
+    "armed",
+    "bulb",
+    "database",
+    "farther",
+    "mostly",
+    "freezing",
+    "goodness",
+    "oneself"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "warn",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "warn 通常針對風險或不利後果，一般告知促銷不適合用 warned about the sale，改為警告即將截止。",
+      "fix": "I warned him that the sale would end soon, but he still missed it."
+    },
+    {
+      "word": "warn",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我提醒他特價活動快結束了，但他還是錯過了。"
+    },
+    {
+      "word": "wealthy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上協助教育及醫療的具體方式。",
+      "fix": "Wealthy countries can help poorer ones by supporting education and health care."
+    },
+    {
+      "word": "wealthy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "富裕國家可以透過支持教育與醫療來幫助較貧窮的國家。"
+    },
+    {
+      "word": "weave",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都為實物編織，沒有使用編造故事等比喻義。",
+      "fix": "編織"
+    },
+    {
+      "word": "weave",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上編織籃子的具體用途。",
+      "fix": "Grandma weaves baskets from dried grass to sell at the local market."
+    },
+    {
+      "word": "weave",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "奶奶用乾草編織籃子，拿到當地市場販售。"
+    },
+    {
+      "word": "weave",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "實際編織物品的常用過去式為 wove，weaved 通常用於迂迴穿行的意思。",
+      "fix": "She wove a flower crown for her little sister."
+    },
+    {
+      "word": "weave",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她替年幼的妹妹編了一個花冠。"
+    },
+    {
+      "word": "wheat",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上穀粒成熟與收割時機的關係。",
+      "fix": "Farmers harvest wheat in early summer when the grain is ready."
+    },
+    {
+      "word": "wheat",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "農夫在初夏穀粒成熟時收割小麥。"
+    },
+    {
+      "word": "whistle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "火車的汽笛聲及裁判吹哨子的哨聲，不是人用嘴吹出的口哨聲，應清楚區分。",
+      "fix": "哨子；哨聲；汽笛聲"
+    },
+    {
+      "word": "whistle",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上裁判吹哨暫停比賽的情境。",
+      "fix": "The referee's whistle stopped the match after a player fell."
+    },
+    {
+      "word": "whistle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "一名球員跌倒後，裁判的哨聲讓比賽暫停。"
+    },
+    {
+      "word": "wipe",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用刪除電腦檔案的意思，應明列以免把操作理解成擦拭實物。",
+      "fix": "擦拭；抹去；刪除"
+    },
+    {
+      "word": "wipe",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上擦桌子的工具。",
+      "fix": "Please wipe the table after dinner with a damp cloth."
+    },
+    {
+      "word": "wipe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "晚餐後請用濕布把桌子擦乾淨。"
+    },
+    {
+      "word": "wrap",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句 plastic wrap 為塑膠膜類包材，不是紙，包裝紙的釋義過窄。",
+      "fix": "包裝材料；披肩；捲餅"
+    },
+    {
+      "word": "wrap",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "plastic wrap 在台灣慣稱保鮮膜，不是塑膠包裝紙。",
+      "fix": "把保鮮膜丟進垃圾桶。"
+    },
+    {
+      "word": "youngster",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上放學後與朋友遊玩的情境。",
+      "fix": "Many youngsters enjoy playing online games with their friends after school."
+    },
+    {
+      "word": "youngster",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "許多年輕人喜歡放學後和朋友玩線上遊戲。"
+    },
+    {
+      "word": "zone",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義是抽象的區域或地帶，警告標誌只是相關物品，不能直接代表該義。",
+      "fix": null
+    },
+    {
+      "word": "zone",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上交通告示的具體要求。",
+      "fix": "This is a no-parking zone, so please move your car."
+    },
+    {
+      "word": "zone",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這裡是禁止停車的區域，請把車移走。"
+    },
+    {
+      "word": "zone",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "school zone 指學校附近需注意學童的區域，不是專門留給學童使用的專區。",
+      "fix": "這座城市在車站附近新劃設了學校周邊交通安全區。"
+    },
+    {
+      "word": "almond",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都使用果仁或其製品，沒有使用杏仁樹的意思。",
+      "fix": "杏仁"
+    },
+    {
+      "word": "almond",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "avoid dairy 包含不食用乳酪等乳製品，不限於不喝乳製品。",
+      "fix": "杏仁奶很受不食用乳製品的人歡迎。"
+    },
+    {
+      "word": "controller",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第二句為航空管制員，第三句為財務主管，原來的操控者及管理員未精確涵蓋職務。",
+      "fix": "控制器；管制員；財務主管"
+    },
+    {
+      "word": "deepen",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上河水變深時應注意安全的情境。",
+      "fix": "The river deepens near the bridge, so swimmers should be careful."
+    },
+    {
+      "word": "deepen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "河水在橋附近變深，因此游泳的人應該小心。"
+    },
+    {
+      "word": "deepen",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上共同參與的具體活動。",
+      "fix": "Working together on the school play helped deepen their friendship."
+    },
+    {
+      "word": "deepen",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "一起參與校園戲劇的工作，使他們的友誼更加深厚。"
+    },
+    {
+      "word": "expressive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上眼神表達感受的特徵。",
+      "fix": "She has big, expressive eyes that reveal how she feels."
+    },
+    {
+      "word": "expressive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她有一雙大而富有表情的眼睛，能流露出她的感受。"
+    },
+    {
+      "word": "expressive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上表演對觀眾的影響。",
+      "fix": "The dancer gave an expressive performance that moved the entire audience."
+    },
+    {
+      "word": "expressive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "那位舞者的表演很有感染力，感動了全場觀眾。"
+    },
+    {
+      "word": "grasshopper",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上蚱蜢停在葉子後的動作。",
+      "fix": "A grasshopper jumped onto the leaf and began to eat."
+    },
+    {
+      "word": "grasshopper",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "一隻蚱蜢跳到葉子上，開始進食。"
+    },
+    {
+      "word": "hateful",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一、三句描述言語或訊息充滿惡意，原釋義只有引人厭惡而未表達散發惡意的意思。",
+      "fix": "令人厭惡的；充滿惡意的"
+    },
+    {
+      "word": "hateful",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上反霸凌教育中的具體影響。",
+      "fix": "Bullying is a hateful act that can seriously hurt others."
+    },
+    {
+      "word": "hateful",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "霸凌是令人厭惡的行為，可能會嚴重傷害他人。"
+    },
+    {
+      "word": "holder",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句筆筒是容器，第三句為杯架；三句沒有使用套子的意思。",
+      "fix": "持有者；容器；支架"
+    },
+    {
+      "word": "holder",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是持有者，desk pen holder 對應後面的容器或支架義。",
+      "fix": null
+    },
+    {
+      "word": "necktie",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "領帶在台灣應說打領帶或繫領帶，不說穿著領帶。",
+      "fix": "我父親打著領帶去上班。"
+    },
+    {
+      "word": "ongoing",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a project with a client 表示與客戶合作進行專案，原譯沒有保留合作關係。",
+      "fix": "我們正在和一位大客戶合作進行專案。"
+    },
+    {
+      "word": "playful",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「心情很愛玩鬧」的搭配不自然，playful mood 應表示玩興很濃。",
+      "fix": "他今天早上玩興很濃。"
+    },
+    {
+      "word": "porcelain",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "原句 porcelain 直接修飾 vase，屬形容詞用法，未示範此名詞義項。",
+      "fix": "She wrapped each piece of porcelain carefully before moving house."
+    },
+    {
+      "word": "porcelain",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她搬家前仔細包好每一件瓷器。"
+    },
+    {
+      "word": "queer",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "遺漏現今常見、與性別或性傾向認同相關的酷兒用法。",
+      "fix": "奇怪的；酷兒的"
+    },
+    {
+      "word": "queer",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆示範奇怪義，補入當代常見的酷兒形容詞用法。",
+      "fix": "The library displayed books by queer writers during its diversity event."
+    },
+    {
+      "word": "queer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "圖書館在多元文化活動期間展示酷兒作家的書籍。"
+    },
+    {
+      "word": "someday",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上未來旅行想參與的活動。",
+      "fix": "I hope to visit Japan someday and explore its historic temples."
+    },
+    {
+      "word": "someday",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我希望有一天能去日本，探索當地具有歷史意義的寺廟。"
+    },
+    {
+      "word": "stale",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上空氣不流通的具體原因。",
+      "fix": "The room smelled of stale air because the windows were closed."
+    },
+    {
+      "word": "stale",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "房間的窗戶都關著，空氣聞起來很悶濁。"
+    },
+    {
+      "word": "bulb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "high",
+      "detail": "鬱金香的 bulb 在植物學上為鱗莖，與球莖的構造不同，應用精確名稱。",
+      "fix": "燈泡；鱗莖"
+    },
+    {
+      "word": "bulb",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "鬱金香的地下貯藏器官是鱗莖，不是植物學分類中的球莖。",
+      "fix": "鬱金香的鱗莖要在秋天種下。"
+    },
+    {
+      "word": "database",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "資料庫是抽象資料集合，伺服器是相關硬體，不能直接等同資料庫。",
+      "fix": null
+    },
+    {
+      "word": "farther",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上沿海灘繼續前進的目的。",
+      "fix": "We walked farther along the beach to find a quiet spot."
+    },
+    {
+      "word": "farther",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們沿著海灘走得更遠，想找一個安靜的地方。"
+    },
+    {
+      "word": "mostly",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上主要飲食與偶爾換餐的對比。",
+      "fix": "We mostly eat rice for dinner, but sometimes we have noodles."
+    },
+    {
+      "word": "mostly",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們晚餐大多吃米飯，但有時會吃麵。"
+    },
+    {
+      "word": "freezing",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "描述人冷得要命通常用 be freezing，felt freezing 搭配不自然。",
+      "fix": "I was freezing after waiting at the bus stop for an hour."
+    },
+    {
+      "word": "freezing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我在公車站牌等了一個小時，冷得要命。"
+    },
+    {
+      "word": "freezing",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指食物的冷凍處理，與冰點或自然結冰不同，應補列。",
+      "fix": "冰點；結冰；冷凍"
+    },
+    {
+      "word": "freezing",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上異常寒冷的冬季情境。",
+      "fix": "The pipes broke because of freezing during the unusually cold winter."
+    },
+    {
+      "word": "freezing",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "在那個異常寒冷的冬天，水管因結冰而破裂。"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為善良與食物營養，沒有具體優點或有利特質的用法。",
+      "fix": "善良；營養價值"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上善良感動他人的具體情境。",
+      "fix": "We were touched by her goodness when she helped our family."
+    },
+    {
+      "word": "goodness",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她幫助我們一家人時，我們被她的善良感動。"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上忘記錢包造成的實際困境。",
+      "fix": "Goodness, I forgot my wallet and cannot pay for lunch!"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "天啊，我忘了帶錢包，沒辦法付午餐錢！"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上對時間感到驚訝的原因。",
+      "fix": "Goodness, it is already ten o'clock, and I haven't finished my homework!"
+    },
+    {
+      "word": "goodness",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "天啊，已經十點了，我還沒寫完功課！"
+    }
+  ]
+}
