@@ -1,0 +1,657 @@
+{
+  "batch": "N0043",
+  "checked": 50,
+  "reviewed": [
+    "numerous",
+    "nursery",
+    "obedient",
+    "objection",
+    "objective",
+    "observation",
+    "obtain",
+    "occasional",
+    "occupation",
+    "occupy",
+    "offend",
+    "offense",
+    "offensive",
+    "opera",
+    "oppose",
+    "option",
+    "orbit",
+    "orchestra",
+    "orphan",
+    "otherwise",
+    "outcome",
+    "outstanding",
+    "oval",
+    "overcoat",
+    "overcome",
+    "overlook",
+    "overnight",
+    "overthrow",
+    "oxygen",
+    "pace",
+    "panel",
+    "parachute",
+    "paragraph",
+    "partial",
+    "partnership",
+    "passive",
+    "pasta",
+    "paw",
+    "peculiar",
+    "peep",
+    "peer",
+    "penalty",
+    "percent",
+    "percentage",
+    "perfection",
+    "perfume",
+    "permanent",
+    "persuasion",
+    "persuasive",
+    "pessimistic"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "reason": "",
+    "pass": true
+  },
+  "issues": [
+    {
+      "word": "numerous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "許多的與為數眾多的重複，應合併。",
+      "fix": "許多的"
+    },
+    {
+      "word": "nursery",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢為第二義的育嬰室，應對應第一義的托兒所。",
+      "fix": "day nursery children"
+    },
+    {
+      "word": "observation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指記錄的觀察結果，原義項未明確列出。",
+      "fix": "觀察；觀測；觀察結果；意見"
+    },
+    {
+      "word": "observation",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "觀察是抽象概念，科學家觀察的畫面未直接對應此抽象名詞。",
+      "fix": null
+    },
+    {
+      "word": "occasional",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原句指偶爾喝咖啡，原譯把偶爾錯置於喜歡之前。",
+      "fix": "他喜歡偶爾在晚餐後喝杯咖啡。"
+    },
+    {
+      "word": "occupation",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上教學所需特質以提供完整情境。",
+      "fix": "Teaching is a rewarding occupation that requires patience and creativity."
+    },
+    {
+      "word": "occupation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "教書是一份需要耐心與創意，也很有成就感的職業。"
+    },
+    {
+      "word": "occupation",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "職業是抽象分類，工作中的人物未具體呈現這個抽象名詞。",
+      "fix": null
+    },
+    {
+      "word": "occupy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "老人的博愛座搭配不自然，應忠實表達保留給長者的座位。",
+      "fix": "請不要占用保留給長者的座位。"
+    },
+    {
+      "word": "offend",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上發生冒犯的課堂情境。",
+      "fix": "Her rude words offended the teacher during the class discussion."
+    },
+    {
+      "word": "offend",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她在課堂討論時說的無禮話語冒犯了老師。"
+    },
+    {
+      "word": "offense",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 offense 指進攻球員這個集體，並非進攻行為本身。",
+      "fix": "冒犯；違規；進攻；進攻陣容"
+    },
+    {
+      "word": "offense",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文的 offense 是得分的進攻球員，不能將進攻行為當作攻進三球的主體。",
+      "fix": "我們隊的進攻球員在上半場攻進了三球。"
+    },
+    {
+      "word": "oppose",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆呈現反對態度，未呈現實際抵制行動。",
+      "fix": "反對"
+    },
+    {
+      "word": "option",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上具體餐點以提供清楚情境。",
+      "fix": "The menu has several vegetarian options, including soup and salads."
+    },
+    {
+      "word": "option",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "菜單上有好幾種素食選擇，包括湯品與沙拉。"
+    },
+    {
+      "word": "orbit",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上進入軌道的發射背景。",
+      "fix": "The satellite entered orbit after a successful launch from the space center."
+    },
+    {
+      "word": "orbit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那顆衛星從太空中心成功發射後，進入了軌道。"
+    },
+    {
+      "word": "orbit",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上繞行對象及目的。",
+      "fix": "Several satellites orbit the Earth to collect data about the weather."
+    },
+    {
+      "word": "orbit",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "好幾顆衛星繞行地球，以蒐集天氣資料。"
+    },
+    {
+      "word": "orchestra",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "樂團是較廣泛的稱呼，與管弦樂團並列未增加獨立義項。",
+      "fix": "管弦樂團"
+    },
+    {
+      "word": "orchestra",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上樂團排練的目的。",
+      "fix": "The orchestra practices every Tuesday evening for its annual concert."
+    },
+    {
+      "word": "orchestra",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "管弦樂團每週二晚上都為年度音樂會練習。"
+    },
+    {
+      "word": "orphan",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "獨處的小孩不一定是孤兒，現有查詢容易混淆孤兒與獨處。",
+      "fix": null
+    },
+    {
+      "word": "otherwise",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "otherwise 為連接副詞，不能僅以逗號連接前後兩個獨立子句。",
+      "fix": "Hurry up; otherwise, we will miss the bus."
+    },
+    {
+      "word": "otherwise",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "快點，否則我們會趕不上公車。"
+    },
+    {
+      "word": "outstanding",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傑出的與優秀的重複，應合併並保留未付清義。",
+      "fix": "傑出的；未付清的"
+    },
+    {
+      "word": "oval",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上鏡框的材質與色澤以提供具體情境。",
+      "fix": "The mirror has an oval frame made of dark wood."
+    },
+    {
+      "word": "oval",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這面鏡子有一個深色木製的橢圓形框架。"
+    },
+    {
+      "word": "oval",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原句僅六字且與前句同用 has an oval shape，改以跑道呈現不同情境。",
+      "fix": "The runners train on an oval track near our school."
+    },
+    {
+      "word": "oval",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "跑者在我們學校附近的橢圓形跑道上訓練。"
+    },
+    {
+      "word": "oval",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上剪裁形狀的用途。",
+      "fix": "Cut the cloth into an oval to make a small placemat."
+    },
+    {
+      "word": "oval",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "把布剪成橢圓形，做成一張小餐墊。"
+    },
+    {
+      "word": "overlook",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上可見景物以提供具體旅遊情境。",
+      "fix": "Our hotel room overlooks the ocean and a small fishing harbor."
+    },
+    {
+      "word": "overlook",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "從我們的飯店房間可以眺望大海和一座小漁港。"
+    },
+    {
+      "word": "overnight",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "雪在一夜之間下了下來有重複且不自然的動詞搭配。",
+      "fix": "夜裡下了雪，覆蓋了街道。"
+    },
+    {
+      "word": "overnight",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "arrive overnight 搭配不典型，原譯也自行加上隔天一早，改用典型的隔夜配送情境。",
+      "fix": "The store can ship your package overnight for an extra fee."
+    },
+    {
+      "word": "overnight",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "只要額外付費，這家店就能將你的包裹隔夜送達。"
+    },
+    {
+      "word": "overthrow",
+      "path": "senses[0].examples[1].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原句與第三句皆為叛軍計畫或試圖推翻統治者，改以歷史課本呈現不同句型。",
+      "fix": "The history textbook explains why the monarchy was overthrown."
+    },
+    {
+      "word": "overthrow",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本歷史課本說明了君主政體被推翻的原因。"
+    },
+    {
+      "word": "oxygen",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上魚獲取氧氣的方式。",
+      "fix": "Fish take dissolved oxygen from the water through their gills."
+    },
+    {
+      "word": "oxygen",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "魚透過鰓從水中獲取溶氧。"
+    },
+    {
+      "word": "panel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小組與專家小組重複且過於籠統，第二句實指評選優勝者的評審小組。",
+      "fix": "面板；評審小組"
+    },
+    {
+      "word": "parachute",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上降落傘減緩下墜的原理。",
+      "fix": "A parachute slows a person's fall by increasing air resistance."
+    },
+    {
+      "word": "parachute",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "降落傘透過增加空氣阻力來減緩人的下墜速度。"
+    },
+    {
+      "word": "parachute",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上使用空投的原因。",
+      "fix": "Supplies were parachuted to the village after floods blocked the roads."
+    },
+    {
+      "word": "parachute",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "洪水阻斷道路後，補給品被空投到那個村莊。"
+    },
+    {
+      "word": "paragraph",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "paragraph 指段落，節通常是包含多段的較大文章單位。",
+      "fix": "段落"
+    },
+    {
+      "word": "paragraph",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上朗讀與答題的順序。",
+      "fix": "Please read the first paragraph aloud before answering the questions."
+    },
+    {
+      "word": "paragraph",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "回答問題前，請先把第一段大聲唸出來。"
+    },
+    {
+      "word": "partial",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上部分退款的適用情境。",
+      "fix": "We offer a partial refund if you cancel your reservation."
+    },
+    {
+      "word": "partial",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "如果你取消預約，我們會退還部分款項。"
+    },
+    {
+      "word": "partial",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上偏好的蛋糕口味。",
+      "fix": "She is partial to chocolate cake with fresh strawberries."
+    },
+    {
+      "word": "partial",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她特別偏愛搭配新鮮草莓的巧克力蛋糕。"
+    },
+    {
+      "word": "paw",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上狗伸出腳掌的互動情境。",
+      "fix": "The dog gave me his paw when I offered a treat."
+    },
+    {
+      "word": "paw",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我拿點心給那隻狗時，牠把前掌伸給了我。"
+    },
+    {
+      "word": "peep",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "偷看自己的考試答案缺乏合理情境，應以考試時不可偷看他人答案示範。",
+      "fix": "Do not peep at another student's answers during the test."
+    },
+    {
+      "word": "peep",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "考試時，不要偷看其他同學的答案。"
+    },
+    {
+      "word": "peer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同儕與同輩重複，應合併。",
+      "fix": "同儕"
+    },
+    {
+      "word": "peer",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上青少年參考同儕意見的情境。",
+      "fix": "Teenagers often listen to their peers when choosing what to wear."
+    },
+    {
+      "word": "peer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "青少年在選擇穿著時，常會聽同儕的意見。"
+    },
+    {
+      "word": "penalty",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的取消票券費用為違約金，原義項未列出。",
+      "fix": "處罰；罰款；違約金；罰球"
+    },
+    {
+      "word": "penalty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "ticket 未限定為機票，不應自行加入航空情境。",
+      "fix": "如果你退票，就要支付一筆違約金。"
+    },
+    {
+      "word": "perfection",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上烘焙成品的具體口感。",
+      "fix": "The cake was baked to perfection, with a light, fluffy texture."
+    },
+    {
+      "word": "perfection",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "蛋糕烤得恰到好處，口感輕盈鬆軟。"
+    },
+    {
+      "word": "perfection",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "練習改善的是演唱表現，不能說歌曲本身因練習而變得完美。",
+      "fix": "She practiced the song until she could sing it to perfection."
+    },
+    {
+      "word": "perfection",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她反覆練習這首歌，直到能完美地唱出來。"
+    },
+    {
+      "word": "permanent",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "permanent job 表示固定而非臨時的工作，正職未準確區別聘用期限。",
+      "fix": "他在銀行找到了一份固定工作。"
+    },
+    {
+      "word": "permanent",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上固定地址與家庭住處的關係。",
+      "fix": "Her permanent address is in Taichung, where her family lives."
+    },
+    {
+      "word": "permanent",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的固定地址在臺中，也就是她家人住的地方。"
+    },
+    {
+      "word": "persuasion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為說服的行為或技巧，未明確使用說服力義。",
+      "fix": "說服"
+    },
+    {
+      "word": "pessimistic",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆描述悲觀預期，未呈現消極不行動的意思。",
+      "fix": "悲觀的"
+    },
+    {
+      "word": "pessimistic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上悲觀看法影響團隊的比賽情境。",
+      "fix": "Her pessimistic view upset the team before the final match."
+    },
+    {
+      "word": "pessimistic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "決賽前，她悲觀的看法讓團隊感到沮喪。"
+    }
+  ]
+}
