@@ -578,3 +578,5 @@
 🩰(ballet)
 🔋(battery)
 🧮(calculate)
+🛫(departure)
+🕵️(detective)
