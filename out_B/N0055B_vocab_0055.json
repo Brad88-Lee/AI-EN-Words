@@ -1,0 +1,633 @@
+{
+  "batch": "N0055",
+  "checked": 50,
+  "reviewed": [
+    "computing",
+    "con",
+    "conceit",
+    "condemnation",
+    "condom",
+    "confer",
+    "configuration",
+    "congressional",
+    "congressman",
+    "consciousness",
+    "considering",
+    "consolidate",
+    "consortium",
+    "conspicuous",
+    "constable",
+    "constituency",
+    "constituent",
+    "constrain",
+    "consuming",
+    "contaminant",
+    "contemplation",
+    "contender",
+    "contentment",
+    "contingent",
+    "contradictory",
+    "contributor",
+    "contrive",
+    "converge",
+    "conversely",
+    "convertible",
+    "convoy",
+    "cop",
+    "cordial",
+    "cork",
+    "corps",
+    "correction",
+    "correlate",
+    "corrode",
+    "cosmic",
+    "cosmopolitan",
+    "costing",
+    "councilor",
+    "counterclockwise",
+    "countless",
+    "coup",
+    "courier",
+    "covering",
+    "covet",
+    "crap",
+    "creak"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "computing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "運算與電腦運算在本字例句中重複，保留電腦運算及電腦科技兩類用法即可。",
+      "fix": "電腦運算；電腦科技"
+    },
+    {
+      "word": "conceit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "自負與自大在此為同義重複，應合併。",
+      "fix": "自負"
+    },
+    {
+      "word": "condemnation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆示範譴責，未呈現宣告有罪義，指責與譴責亦重疊。",
+      "fix": "譴責"
+    },
+    {
+      "word": "condemnation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The mayor's remarks drew widespread condemnation from parents at the meeting."
+    },
+    {
+      "word": "condemnation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "市長的發言在會議上招來家長們的廣泛譴責。"
+    },
+    {
+      "word": "confer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "商議與協商在此重複，與授予義分列即可。",
+      "fix": "商議；授予"
+    },
+    {
+      "word": "configuration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "設定與組態在電腦例句中指相同的配置資訊，應合併以避免重複。",
+      "fix": "配置；設定"
+    },
+    {
+      "word": "congressional",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字指國會，尤其美國國會，不泛指所有地方議會。",
+      "fix": "國會的（尤指美國國會）"
+    },
+    {
+      "word": "congressman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此性別用語通常指男性國會議員，原義項未標示性別。",
+      "fix": "男性國會議員（尤指美國眾議員）"
+    },
+    {
+      "word": "congressman",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "穿西裝的男人可能是一般上班族，無法對應國會議員這項職務。",
+      "fix": "US congressman speaking"
+    },
+    {
+      "word": "consciousness",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生理意識與知覺重疊，影片例句則指對議題的認知，不宜解作道德覺悟。",
+      "fix": "知覺；認知"
+    },
+    {
+      "word": "consciousness",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "對塑膠垃圾的意識不符合中文搭配，應表達對該議題認知的提升。",
+      "fix": "這支影片提升了大眾對塑膠垃圾的認知。"
+    },
+    {
+      "word": "consciousness",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "She regained consciousness in the hospital after the operation."
+    },
+    {
+      "word": "consciousness",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "手術後，她在醫院裡恢復了意識。"
+    },
+    {
+      "word": "consolidate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鞏固與加強在此重複，三句由合併及鞏固兩義即可涵蓋。",
+      "fix": "合併；鞏固"
+    },
+    {
+      "word": "consortium",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "例句示範學校或銀行的合作聯盟，沒有使用一般協會義。",
+      "fix": "聯盟；財團"
+    },
+    {
+      "word": "conspicuous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "顯眼與引人注目同義，合併後也能涵蓋引人注意的缺席。",
+      "fix": "引人注目的"
+    },
+    {
+      "word": "conspicuous",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Her conspicuous absence from the final rehearsal worried her classmates."
+    },
+    {
+      "word": "conspicuous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她缺席最後一次彩排一事引人注意，令同學們很擔心。"
+    },
+    {
+      "word": "constable",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "constable 通常指警員，不等同於巡佐這項不同的警察職級。",
+      "fix": "警員（英國等地）"
+    },
+    {
+      "word": "constituent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "構成的與組成的在此為同義重複，應合併。",
+      "fix": "組成的"
+    },
+    {
+      "word": "constrain",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為限制或約束，沒有例句示範強迫某人做事。",
+      "fix": "限制"
+    },
+    {
+      "word": "constrain",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "School rules should not constrain students' creativity in art classes."
+    },
+    {
+      "word": "constrain",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學校規則不該限制學生在美術課上的創造力。"
+    },
+    {
+      "word": "consuming",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "consuming 單獨通常表示強烈而佔據心神，不能直接以耗時解釋，吞噬義也未有合適例句。",
+      "fix": "強烈的"
+    },
+    {
+      "word": "consuming",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "耗時通常用 time-consuming，而該複合詞不符合目標字規則，改用 consuming fear 的典型搭配。",
+      "fix": "A consuming fear of failure kept him awake before the exam."
+    },
+    {
+      "word": "consuming",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "強烈的失敗恐懼讓他在考試前無法入睡。"
+    },
+    {
+      "word": "consuming",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "以 more consuming 單獨表示更耗神不自然，改用 consuming curiosity 示範強烈義。",
+      "fix": "Her consuming curiosity led her to read every book on the subject."
+    },
+    {
+      "word": "consuming",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她強烈的好奇心促使她讀遍這個主題的每一本書。"
+    },
+    {
+      "word": "contemplation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個例句均為沉思或考慮，沒有例句使用凝視義。",
+      "fix": "沉思；考慮"
+    },
+    {
+      "word": "contender",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "競爭者與爭奪者在此同義，應合併。",
+      "fix": "競爭者"
+    },
+    {
+      "word": "contingent",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指代表團或一組人，沒有軍事分遣隊的例句。",
+      "fix": "代表團；一組人"
+    },
+    {
+      "word": "contingent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個義項都是取決於某條件，應合併並保留條件依存關係。",
+      "fix": "取決於某條件的"
+    },
+    {
+      "word": "contradictory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字強調互相矛盾，不只是立場對立，三句也皆使用矛盾義。",
+      "fix": "互相矛盾的"
+    },
+    {
+      "word": "contradictory",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The two reports gave contradictory answers about the cause of the accident."
+    },
+    {
+      "word": "contradictory",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這兩份報告對事故原因提出了互相矛盾的答案。"
+    },
+    {
+      "word": "contributor",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "健康例句指促成因素，原義項未列出，捐贈也不限於捐款。",
+      "fix": "投稿人；捐贈者；促成因素"
+    },
+    {
+      "word": "contributor",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "良好健康是重複且不自然的搭配，應以促進健康表達。",
+      "fix": "運動是促進健康的主要因素。"
+    },
+    {
+      "word": "contrive",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "contrive a way 或 plan 表示想出辦法，原義項未精確列出，設法做到與想辦法則重複。",
+      "fix": "想出；設法做到"
+    },
+    {
+      "word": "contrive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "設法想出辦法重複，改用想出辦法即可保留原意。",
+      "fix": "她想出一個辦法和他見面。"
+    },
+    {
+      "word": "conversely",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "improves study 搭配不自然，改用 improves learning 並清楚表達反向影響。",
+      "fix": "Good sleep improves learning; conversely, poor sleep makes studying more difficult."
+    },
+    {
+      "word": "conversely",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "睡得好能提升學習效果；反過來說，睡不好會讓讀書更吃力。"
+    },
+    {
+      "word": "convoy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只描述共同行進的車隊，未示範護送隊義。",
+      "fix": "車隊"
+    },
+    {
+      "word": "corps",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "marching band corps 混合兩種團體稱呼，改用慣用的 drum and bugle corps。",
+      "fix": "She joined a drum and bugle corps at her school."
+    },
+    {
+      "word": "corps",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她加入了學校的鼓號樂隊。"
+    },
+    {
+      "word": "correction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個義項皆指改正錯誤，修改範圍過廣，應合併為更正義。",
+      "fix": "更正"
+    },
+    {
+      "word": "correlate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "correlate 指對應項，不一定就是表格的一個欄位，原譯過度限縮。",
+      "fix": "每個變數在第二張表中都有各自的對應項目。"
+    },
+    {
+      "word": "corrode",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "鏽通常是腐蝕產物，將鏽直接當成腐蝕原因不精確，改以濕氣示範。",
+      "fix": "Moisture can corrode the bike's metal parts if you leave it outside."
+    },
+    {
+      "word": "corrode",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "如果把腳踏車放在外面，濕氣可能會腐蝕它的金屬零件。"
+    },
+    {
+      "word": "cosmic",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指宇宙相關事物，cosmic mystery 在此不是體積浩瀚的謎團。",
+      "fix": "宇宙的"
+    },
+    {
+      "word": "cosmic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "cosmic 在此表示宇宙的，不能以浩瀚形容謎團大小。",
+      "fix": "宇宙究竟有多大，是個宇宙之謎。"
+    },
+    {
+      "word": "councilor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "councilor 通常指地方議會成員，市議員是其中一種，應避免重複及誤指國會議員。",
+      "fix": "地方議員"
+    },
+    {
+      "word": "counterclockwise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Turn the handle counterclockwise to open the bathroom window."
+    },
+    {
+      "word": "counterclockwise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "逆時針轉動把手，就能打開浴室窗戶。"
+    },
+    {
+      "word": "counterclockwise",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The machine makes a counterclockwise turn before returning to its starting position."
+    },
+    {
+      "word": "counterclockwise",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這台機器先逆時針轉動，再回到起始位置。"
+    },
+    {
+      "word": "countless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無數與數不清在此同義重複，應合併。",
+      "fix": "無數的"
+    },
+    {
+      "word": "courier",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "by courier 使用快遞服務義，原義項未明列，而三句沒有導遊義。",
+      "fix": "快遞員；快遞服務"
+    },
+    {
+      "word": "courier",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "We sent the original documents to the client by courier."
+    },
+    {
+      "word": "courier",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們用快遞把文件正本寄給客戶。"
+    },
+    {
+      "word": "courier",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，且原中譯容易把隔夜快遞誤解為擱到隔夜才寄出，補明送達目的。",
+      "fix": "The documents were couriered overnight so they would arrive before the meeting."
+    },
+    {
+      "word": "courier",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這些文件以隔日送達的快遞寄送，以便在會議前抵達。"
+    },
+    {
+      "word": "covet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原列三個近義詞重複，應明確表達強烈想擁有某物，而不只是羨慕。",
+      "fix": "強烈渴望擁有"
+    },
+    {
+      "word": "covet",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Many collectors covet this rare stamp because of its unusual design."
+    },
+    {
+      "word": "covet",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多收藏家因為這張稀有郵票的獨特設計，而渴望擁有它。"
+    },
+    {
+      "word": "covet",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "coveted 表示想擁有朋友的腳踏車，不只是羨慕對方。",
+      "fix": "他暗自渴望擁有朋友的新腳踏車。"
+    },
+    {
+      "word": "covet",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "coveted 表示令人渴望獲得，並未宣稱人人都想要。",
+      "fix": "那個令人夢寐以求的獎項由我們學校的一位學生拿下。"
+    },
+    {
+      "word": "crap",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "遺漏常見的糞便義，應補足並保留粗俗語域標示。",
+      "fix": "廢話；劣質品；糞便（口語，粗俗）"
+    },
+    {
+      "word": "crap",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的糞便義，以中性的字詞教學情境說明。",
+      "fix": "The teacher explained that crap can also mean feces in informal speech."
+    },
+    {
+      "word": "crap",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "老師說明，crap 在非正式談話中也可以指糞便。"
+    },
+    {
+      "word": "creak",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "在他的重量下是生硬直譯，應表達木椅承受人體重量。",
+      "fix": "那張木椅承受著他的體重，嘎吱作響。"
+    }
+  ]
+}
