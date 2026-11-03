@@ -1,0 +1,585 @@
+{
+  "batch": "N0050",
+  "checked": 50,
+  "reviewed": [
+    "reunion",
+    "sincerity",
+    "statistic",
+    "stripe",
+    "sue",
+    "sway",
+    "torture",
+    "tribal",
+    "vacancy",
+    "workplace",
+    "calculation",
+    "catalogue",
+    "earphone",
+    "invasion",
+    "telegraph",
+    "abbey",
+    "abbreviation",
+    "abdomen",
+    "aborigine",
+    "absent-minded",
+    "acceleration",
+    "accomplished",
+    "accustomed",
+    "ace",
+    "acoustic",
+    "acting",
+    "activate",
+    "addicted",
+    "additive",
+    "adhere",
+    "adjacent",
+    "adjoin",
+    "adjustment",
+    "adulthood",
+    "advancement",
+    "advent",
+    "adverb",
+    "advert",
+    "advertiser",
+    "advertising",
+    "advisable",
+    "aerial",
+    "aerospace",
+    "aesthetics",
+    "afflict",
+    "aftermath",
+    "aggravate",
+    "aggregate",
+    "aging",
+    "agitate"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "stripe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為線狀條紋，斑紋範圍較廣且未呈現獨立義，應明確使用條紋。",
+      "fix": "條紋"
+    },
+    {
+      "word": "stripe",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句要求只走在白色條紋上穿越馬路不自然，應描述條紋標示行人穿越道。",
+      "fix": "The white stripes on the road mark the pedestrian crossing."
+    },
+    {
+      "word": "stripe",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "馬路上的白色條紋標示出斑馬線的位置。"
+    },
+    {
+      "word": "sue",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "sue 指向法院提起訴訟，本批例句皆為民事爭議，不能限定為刑事告訴。",
+      "fix": "提起訴訟"
+    },
+    {
+      "word": "sue",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "退款爭議的 sue 指提起訴訟，原譯提出告訴混淆了刑事告訴。",
+      "fix": "如果商店拒絕退款，你可以提起訴訟。"
+    },
+    {
+      "word": "sway",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示支配力時，holds sway over 比 has a strong sway over 更符合典型搭配。",
+      "fix": "The old tradition still holds sway over life in the village."
+    },
+    {
+      "word": "sway",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這項古老的傳統仍支配著村裡的生活。"
+    },
+    {
+      "word": "torture",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "最常見的酷刑義未列出，原稿三句皆為比喻義，應補足。",
+      "fix": "酷刑；折磨；煎熬"
+    },
+    {
+      "word": "torture",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原稿三句皆為日常煎熬的比喻，第三句改為中性法律內容，以補足酷刑義。",
+      "fix": "The history lesson explained why torture is prohibited under international law."
+    },
+    {
+      "word": "torture",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這堂歷史課說明了為什麼國際法禁止酷刑。"
+    },
+    {
+      "word": "tribal",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "tribal 指部落的，不等同 racial 的種族的，三句也皆為部落相關用法。",
+      "fix": "部落的"
+    },
+    {
+      "word": "catalogue",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "將編入目錄與列入目錄重複，應合併。",
+      "fix": "編入目錄"
+    },
+    {
+      "word": "telegraph",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為電報通訊方式，查詢電報機對應的是第二義的裝置。",
+      "fix": null
+    },
+    {
+      "word": "abbey",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為修道院，未呈現大教堂義，且 abbey 並不泛指大型教堂。",
+      "fix": "修道院"
+    },
+    {
+      "word": "abbreviation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "Dr. 是英文 doctor 的縮寫，不是中文字醫生的縮寫，字例須保留。",
+      "fix": "「Dr.」是「doctor」這個字的常見縮寫。"
+    },
+    {
+      "word": "abdomen",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "腹部與肚子在此重複，應保留可同時描述人體與昆蟲的腹部。",
+      "fix": "腹部"
+    },
+    {
+      "word": "abdomen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "昆蟲的胸部應使用生物學名稱 thorax，而非一般人體胸部的 chest。",
+      "fix": "An insect's body consists of a head, a thorax, and an abdomen."
+    },
+    {
+      "word": "abdomen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "昆蟲的身體由頭部、胸部和腹部組成。"
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "aborigine 作為當代個人稱呼較陳舊，改用舊課本的歷史用語情境示範。",
+      "fix": "The old textbook uses the term aborigine for Australia's original inhabitants."
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本舊課本用 aborigine 一詞稱呼澳洲的原住民。"
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "將舊稱置於歷史記載情境，避免示範為當代對個人的一般稱呼。",
+      "fix": "The nineteenth-century diary describes an aborigine guiding explorers through the forest."
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本十九世紀的日記描述一位原住民帶領探險家穿越森林。"
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "將舊稱置於舊書記載情境，並避免原譯讓單一人物代代相傳的語意問題。",
+      "fix": "The old book records stories that an aborigine shared with travelers."
+    },
+    {
+      "word": "aborigine",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這本舊書記錄了一位原住民與旅人分享的故事。"
+    },
+    {
+      "word": "acceleration",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "迅速的加速搭配重複，應直接表達車輛加速很快。",
+      "fix": "這輛車加速很快，讓駕駛嚇了一跳。"
+    },
+    {
+      "word": "accomplished",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上廚師教學的工作情境。",
+      "fix": "My aunt is an accomplished cook who teaches at a culinary school."
+    },
+    {
+      "word": "accomplished",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我阿姨是一位廚藝高超的廚師，在烹飪學校教書。"
+    },
+    {
+      "word": "activate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "phone card 未指定是手機的卡片，應忠實使用電話卡。",
+      "fix": "你必須先啟用你的新電話卡。"
+    },
+    {
+      "word": "addicted",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "迷上後結果上癮重複描寫同一變化，原文僅說在夏天上癮。",
+      "fix": "她在夏天對含糖飲料上了癮。"
+    },
+    {
+      "word": "additive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上產品標示的資訊來源。",
+      "fix": "This juice contains no artificial additives, according to the label."
+    },
+    {
+      "word": "additive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "根據標示，這種果汁不含人工添加物。"
+    },
+    {
+      "word": "adhere",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "堅持一份計畫的搭配不完整，應表達遵循讀書計畫。",
+      "fix": "她每週都遵循嚴格的讀書計畫。"
+    },
+    {
+      "word": "adjacent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鄰近的與毗鄰的在這些例句中皆表示相鄰，應合併。",
+      "fix": "相鄰的"
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上相鄰空間對上菜的影響。",
+      "fix": "The kitchen adjoins the dining room, making it easy to serve meals."
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "廚房緊鄰餐廳，方便上菜。"
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上公園的使用情境。",
+      "fix": "Our garden adjoins a quiet park where local children often play."
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們家的花園緊鄰一座安靜的公園，當地小孩常在那裡玩耍。"
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "房間相鄰不保證能直接穿行，原句的因果推論不充分，應明確交代連通門。",
+      "fix": "The two rooms adjoin, with a connecting door between them."
+    },
+    {
+      "word": "adjoin",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這兩間房間相鄰，中間設有一道連通門。"
+    },
+    {
+      "word": "adverb",
+      "path": "senses[0].examples[0].en",
+      "type": "format_bad",
+      "severity": "medium",
+      "detail": "原句開頭多出反斜線，且未提供 quickly 作副詞的實際句子，應改為完整示例。",
+      "fix": "In \"She ran quickly,\" the word \"quickly\" is an adverb."
+    },
+    {
+      "word": "adverb",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在「She ran quickly」這個句子中，quickly 是副詞。"
+    },
+    {
+      "word": "advert",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "應徵的對象是廣告上的工作，不是廣告本身。",
+      "fix": "她應徵了廣告上的兼職工作。"
+    },
+    {
+      "word": "advertiser",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上廣告主付費取得廣告版位的商業情境。",
+      "fix": "The website earns money from advertisers who pay for banner space."
+    },
+    {
+      "word": "advertiser",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個網站從付費購買橫幅廣告版位的廣告主取得收入。"
+    },
+    {
+      "word": "advertising",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上廣告吸引新客的商業情境。",
+      "fix": "Advertising helps companies sell their products and attract new customers."
+    },
+    {
+      "word": "advertising",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "廣告幫助公司銷售產品，並吸引新顧客。"
+    },
+    {
+      "word": "aerospace",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上飛行載具的用途。",
+      "fix": "Aerospace companies build planes and spacecraft for commercial and scientific use."
+    },
+    {
+      "word": "aerospace",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "航太公司製造商業與科學用途的飛機和太空船。"
+    },
+    {
+      "word": "aesthetics",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句指房間的美感，原義項未列出，審美觀則未使用。",
+      "fix": "美學；美感"
+    },
+    {
+      "word": "afflict",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上久坐的工作情境。",
+      "fix": "Back pain afflicts many office workers who sit for long periods."
+    },
+    {
+      "word": "afflict",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "背痛困擾著許多久坐的上班族。"
+    },
+    {
+      "word": "aftermath",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句將考試的後續影響當作疲勞成因，搭配生硬，改為事故後檢討規範的典型情境。",
+      "fix": "The school reviewed its safety rules in the aftermath of the fire."
+    },
+    {
+      "word": "aftermath",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "火災過後，學校檢討了安全規範。"
+    },
+    {
+      "word": "aggravate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上避免噪音、安靜休息的情境。",
+      "fix": "Loud noise can aggravate a headache, so she rested in silence."
+    },
+    {
+      "word": "aggravate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "吵雜的聲音可能讓頭痛加劇，所以她安靜地休息。"
+    },
+    {
+      "word": "aggregate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的 in the aggregate 指整體而言，原義項未列出，總數與合計也重複。",
+      "fix": "總和；整體"
+    },
+    {
+      "word": "aggregate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "總計的與合計的重複，應合併。",
+      "fix": "總計的"
+    },
+    {
+      "word": "aging",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上運動有助維持活力的效益。",
+      "fix": "Regular exercise can slow down aging and help people stay active."
+    },
+    {
+      "word": "aging",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "規律運動可以減緩老化，幫助人們維持活力。"
+    },
+    {
+      "word": "aging",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上人口老化與長者照護的關聯。",
+      "fix": "Taiwan has an aging population, which increases the demand for elder care."
+    },
+    {
+      "word": "aging",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "台灣面臨人口老化，對長者照護的需求因而增加。"
+    },
+    {
+      "word": "agitate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句的 agitate for 表示積極倡議，未以他人為受詞，不宜只譯成鼓動他人。",
+      "fix": "使不安；攪動；積極倡議"
+    },
+    {
+      "word": "agitate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "搖晃瓶子來攪動果汁的搭配生硬且重複，改以洗衣機攪動衣物的典型用法示範。",
+      "fix": "The washing machine agitates the clothes to remove dirt."
+    },
+    {
+      "word": "agitate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "洗衣機攪動衣物，以去除汙垢。"
+    },
+    {
+      "word": "agitate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說學生積極爭取較長午休，未提到鼓動其他人。",
+      "fix": "有些學生積極倡議延長午休時間。"
+    }
+  ]
+}
