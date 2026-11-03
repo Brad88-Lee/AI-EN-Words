@@ -574,3 +574,7 @@
 🧙(wizard)
 🧑‍🔧(mechanic)
 ♻️(recycle)
+⚛️(atom)
+🩰(ballet)
+🔋(battery)
+🧮(calculate)
