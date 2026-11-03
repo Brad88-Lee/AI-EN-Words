@@ -595,3 +595,4 @@
 🔎(inspection)
 📡(antenna)
 🏧(atm)
+🌨️(blizzard)
