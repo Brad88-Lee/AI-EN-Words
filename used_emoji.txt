@@ -592,3 +592,4 @@
 🛰️(satellite)
 🔭(telescope)
 😉(wink)
+🔎(inspection)
