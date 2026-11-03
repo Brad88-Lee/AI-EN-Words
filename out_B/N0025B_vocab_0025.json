@@ -1,0 +1,313 @@
+{
+  "batch": "N0025",
+  "checked": 50,
+  "reviewed": [
+    "snowman",
+    "softball",
+    "theirs",
+    "accepted",
+    "achievement",
+    "adjective",
+    "aged",
+    "agreement",
+    "air-conditioned",
+    "airmail",
+    "aluminium",
+    "amusement",
+    "announcement",
+    "announcer",
+    "app",
+    "appointment",
+    "argument",
+    "arrangement",
+    "auxiliary",
+    "ax",
+    "baggy",
+    "band-aid",
+    "banking",
+    "barbershop",
+    "bc",
+    "beak",
+    "bedtime",
+    "believable",
+    "belly",
+    "bible",
+    "bingo",
+    "blonde",
+    "bony",
+    "booking",
+    "bookshelf",
+    "boyfriend",
+    "bra",
+    "brand-new",
+    "brownie",
+    "capitalism",
+    "catalog",
+    "changeable",
+    "check-in",
+    "checkout",
+    "chick",
+    "childbirth",
+    "christian",
+    "climber",
+    "colored",
+    "coming"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "theirs",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 6 字，補上園遊會分配桌子的具體情境。",
+      "fix": "Is this table ours or theirs for the school fair?"
+    },
+    {
+      "word": "theirs",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這張桌子在學校園遊會是給我們用的，還是給他們用的？"
+    },
+    {
+      "word": "achievement",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "school achievement 搭配生硬，學業成就的典型用語為 academic achievement。",
+      "fix": "His academic achievement improved after he started studying every night."
+    },
+    {
+      "word": "achievement",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "他開始每晚讀書後，學業表現進步了。"
+    },
+    {
+      "word": "adjective",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "原句 such as 緊接 noun，容易將 big 或 happy 誤解成名詞的例子，應移到 adjective 後。",
+      "fix": "An adjective, such as big or happy, describes a noun."
+    },
+    {
+      "word": "adjective",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "像 big 或 happy 這樣的形容詞用來描述名詞。"
+    },
+    {
+      "word": "band-aid",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一盒內有多片可數的護傷貼布，應使用複數 band-aids。",
+      "fix": "She keeps a box of band-aids in her school bag."
+    },
+    {
+      "word": "band-aid",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她在書包裡放了一盒OK繃。"
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "low",
+      "detail": "西元前的標準英文縮寫為大寫 BC，不宜在教材中寫成小寫 bc。",
+      "fix": "The ancient temple was built around 500 BC."
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這座古老的神殿約在西元前五百年建成。"
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "low",
+      "detail": "西元前的標準英文縮寫為大寫 BC。",
+      "fix": "Our history teacher said the city was founded in 753 BC."
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "我們的歷史老師說，這座城市創建於西元前七五三年。"
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "low",
+      "detail": "西元前的標準英文縮寫為大寫 BC。",
+      "fix": "The museum has coins that date back to 300 BC."
+    },
+    {
+      "word": "bc",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "博物館收藏了年代可追溯至西元前三百年的錢幣。"
+    },
+    {
+      "word": "bible",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "low",
+      "detail": "指基督教聖經時 Bible 是專有名稱，首字母應大寫。",
+      "fix": "She keeps a small Bible beside her bed."
+    },
+    {
+      "word": "bible",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "她在床旁放著一本小聖經。"
+    },
+    {
+      "word": "bible",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "low",
+      "detail": "指基督教聖經時 Bible 的首字母應大寫；泛指權威指南的比喻義則維持小寫。",
+      "fix": "This Bible has been translated into many languages."
+    },
+    {
+      "word": "bible",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這本聖經已被譯成多種語言。"
+    },
+    {
+      "word": "bingo",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅 5 字，補上第一次猜中年紀的完整對話情境。",
+      "fix": "Bingo! You guessed my age correctly on your first try."
+    },
+    {
+      "word": "bingo",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "答對了！你第一次就猜中了我的年紀。"
+    },
+    {
+      "word": "bony",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「又瘦又骨瘦如柴」重複且不自然，thin 與 bony 應分別表達瘦與骨頭明顯。",
+      "fix": "那隻流浪狗很瘦，骨頭明顯可見。"
+    },
+    {
+      "word": "bony",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "手指不能用「一雙」計數，「瘦骨手指」也不是台灣慣用搭配。",
+      "fix": "他的手指修長、骨節分明，很適合彈鋼琴。"
+    },
+    {
+      "word": "booking",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "餐廳已客滿後無法回到之前提早預訂，應以受歡迎作為提早訂位的原因。",
+      "fix": "The restaurant is popular, so an early booking is recommended."
+    },
+    {
+      "word": "booking",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "這家餐廳很受歡迎，建議提早預訂。"
+    },
+    {
+      "word": "brownie",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "brownie 是可數的單塊甜點，一盤應用複數 brownies。",
+      "fix": "Mom baked a pan of brownies for the class party."
+    },
+    {
+      "word": "brownie",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，同步更新中文翻譯。",
+      "fix": "媽媽為班上的派對烤好了一盤布朗尼。"
+    },
+    {
+      "word": "catalog",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sale 只表示販售，不一定是拍賣，原譯限定了未說明的銷售方式。",
+      "fix": "販售前，我們得把每件物品都登記造冊。"
+    },
+    {
+      "word": "changeable",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "第三句時間表 changeable 表示可以更改，不是自己容易變動，應列出可更改義。",
+      "fix": "多變的；可更改的"
+    },
+    {
+      "word": "chick",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "母雞應以動物代名詞牠指稱，不用女性代名詞她。",
+      "fix": "母雞照看著牠的小雞。"
+    },
+    {
+      "word": "childbirth",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "供分娩使用的房間在台灣慣稱產房，生產室搭配不自然。",
+      "fix": "這家醫院有專門的產房。"
+    },
+    {
+      "word": "climber",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項的第一個意思是登山者，rock climber 較聚焦後面的攀岩者，應改為山岳攀登者。",
+      "fix": "mountain climber"
+    }
+  ]
+}
