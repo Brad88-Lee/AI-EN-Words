@@ -1,0 +1,289 @@
+{
+  "batch": "N0049",
+  "checked": 50,
+  "reviewed": [
+    "authentic",
+    "autograph",
+    "blade",
+    "calorie",
+    "carrier",
+    "category",
+    "creativity",
+    "crunchy",
+    "cube",
+    "defensible",
+    "dew",
+    "diagram",
+    "disability",
+    "diverse",
+    "diversity",
+    "dodge",
+    "ethnic",
+    "evaluation",
+    "fossil",
+    "fragile",
+    "frustration",
+    "gender",
+    "grammatical",
+    "graph",
+    "haste",
+    "hasten",
+    "immigrate",
+    "inspection",
+    "intensity",
+    "interaction",
+    "interruption",
+    "intuition",
+    "investigation",
+    "lifeguard",
+    "millionaire",
+    "mule",
+    "nutritious",
+    "obedience",
+    "orientation",
+    "participation",
+    "pickle",
+    "popularity",
+    "preservation",
+    "priority",
+    "quotation",
+    "refund",
+    "rejection",
+    "relevant",
+    "respectable",
+    "respectful"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "authentic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "真品的與真正的重複，應合併。",
+      "fix": "真正的；道地的；真實的"
+    },
+    {
+      "word": "autograph",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "親筆簽名與簽名重複，應保留較精確的親筆簽名。",
+      "fix": "親筆簽名"
+    },
+    {
+      "word": "blade",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "兩個獨立子句不能僅用逗號連接，應以分號分隔。",
+      "fix": "Be careful; the blade of this knife is very sharp."
+    },
+    {
+      "word": "blade",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "當心，這把刀的刀刃非常鋒利。"
+    },
+    {
+      "word": "cube",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上立方與平方的對比，提供完整的數學情境。",
+      "fix": "The cube of three is twenty-seven, while its square is nine."
+    },
+    {
+      "word": "cube",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "三的立方是二十七，而它的平方是九。"
+    },
+    {
+      "word": "defensible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "defensible 只表示可以防守，容易防守須另加 easily，且前兩個可辯護義重複。",
+      "fix": "站得住腳的；可防守的"
+    },
+    {
+      "word": "diverse",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "多元應形容學生群體的組成，多元學生的搭配不自然。",
+      "fix": "我們學校的學生來自許多國家，組成很多元。"
+    },
+    {
+      "word": "dodge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "閃避與躲開重複，應合併並保留抽象的迴避義。",
+      "fix": "閃避；迴避"
+    },
+    {
+      "word": "fossil",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "一條巨大魚類混用了個體量詞與類別名詞，應指一條巨型魚。",
+      "fix": "科學家在河邊發現了一條巨型魚的化石。"
+    },
+    {
+      "word": "hasten",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "加速蛀牙的搭配不自然，且 can 表示可能性，應保留。",
+      "fix": "過多糖分可能加速牙齒蛀蝕。"
+    },
+    {
+      "word": "immigrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "移居未限定跨國，immigrate 應指移入另一國家定居。",
+      "fix": "移入他國定居"
+    },
+    {
+      "word": "inspection",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "車輛檢驗頻率依地區、車齡與用途而異，原句以每輛車每年一次概括不準確。",
+      "fix": "The mechanic carried out a safety inspection before returning the car."
+    },
+    {
+      "word": "inspection",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "技師把車交還之前，先進行了安全檢查。"
+    },
+    {
+      "word": "intensity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "強度與強烈程度重複，應合併。",
+      "fix": "強度"
+    },
+    {
+      "word": "intensity",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原句只建議初學者進行中等強度運動，未提到從此強度開始的階段安排。",
+      "fix": "醫師建議初學者進行中等強度的運動。"
+    },
+    {
+      "word": "millionaire",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "主詞為複數 people，描述各自成為百萬富翁時，補語應使用複數 millionaires。",
+      "fix": "Few people become millionaires without years of hard work."
+    },
+    {
+      "word": "millionaire",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "很少有人能在未經多年努力的情況下成為百萬富翁。"
+    },
+    {
+      "word": "nutritious",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改以學校午餐的具體情境呈現有營養義。",
+      "fix": "Fresh vegetables provide a nutritious addition to our school lunches."
+    },
+    {
+      "word": "nutritious",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "新鮮蔬菜為我們的學校午餐增添營養。"
+    },
+    {
+      "word": "obedience",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "規則宜用遵守搭配，服從教室規則不自然。",
+      "fix": "老師要求學生遵守課堂規範。"
+    },
+    {
+      "word": "participation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "參與與參加重複，應合併。",
+      "fix": "參與"
+    },
+    {
+      "word": "pickle",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此圖示也常表示新鮮小黃瓜，易與第一義的醃黃瓜混淆。",
+      "fix": null
+    },
+    {
+      "word": "popularity",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "after her first song 未明確指出發生的事件，原譯也不成句，應具體交代歌曲推出。",
+      "fix": "The singer's popularity grew quickly after she released her first song."
+    },
+    {
+      "word": "popularity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那位歌手推出第一首歌後，人氣迅速上升。"
+    },
+    {
+      "word": "relevant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相關的與有關的重複，應合併並保留切題義。",
+      "fix": "相關的；切題的"
+    },
+    {
+      "word": "respectable",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "respectable reputation 搭配生硬，改以典型的 respectable family 表達值得尊敬的家庭。",
+      "fix": "She comes from a respectable family that supports local charities."
+    },
+    {
+      "word": "respectable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她出身於一個支持當地慈善團體、值得尊敬的家庭。"
+    }
+  ]
+}
