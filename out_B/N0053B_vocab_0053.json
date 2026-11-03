@@ -1,0 +1,502 @@
+{
+  "batch": "N0053",
+  "checked": 50,
+  "reviewed": [
+    "bomber",
+    "bondage",
+    "borough",
+    "borrowing",
+    "botanical",
+    "botany",
+    "bout",
+    "bowel",
+    "bowler",
+    "boyhood",
+    "bracket",
+    "braid",
+    "breach",
+    "break-in",
+    "breeder",
+    "brew",
+    "briefing",
+    "brigade",
+    "brisk",
+    "brittle",
+    "broadcaster",
+    "broker",
+    "brooch",
+    "brood",
+    "brow",
+    "brute",
+    "buck",
+    "buckle",
+    "buffer",
+    "build-up",
+    "bulge",
+    "bunker",
+    "bureaucratic",
+    "bust",
+    "byte",
+    "cactus",
+    "calculated",
+    "calculating",
+    "calf",
+    "campaigner",
+    "cannon",
+    "carbohydrate",
+    "caress",
+    "carnation",
+    "carol",
+    "carp",
+    "cartel",
+    "caste",
+    "catering",
+    "cavalry"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "bomber",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "bomber 也指放置或引爆炸彈者，不限於以投擲方式行動的人。",
+      "fix": "轟炸機；炸彈客"
+    },
+    {
+      "word": "bondage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個例句皆指受奴役的狀態，原列義項重複。",
+      "fix": "受奴役的狀態"
+    },
+    {
+      "word": "borrowing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單字「借」未清楚表達名詞義，且與後列借貸及借用重複。",
+      "fix": "借貸；借用"
+    },
+    {
+      "word": "borrowing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "more borrowing 指借貸量增加，不是需要借貸的家庭數增加。",
+      "fix": "物價上漲使家庭的借貸增加。"
+    },
+    {
+      "word": "botany",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "She studies botany at the university to learn about local plants."
+    },
+    {
+      "word": "botany",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她在大學學習植物學，以了解當地的植物。"
+    },
+    {
+      "word": "bowel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "腸與大腸的列義範圍重疊，例句皆以一般腸道概念使用。",
+      "fix": "腸道"
+    },
+    {
+      "word": "bowler",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "投球手義屬板球用語，應明確標示以免與棒球混淆。",
+      "fix": "投球手（板球）；保齡球選手"
+    },
+    {
+      "word": "bowler",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "板球的 took three wickets 表示取得三次出局數，不是拿下三個實體三柱門。",
+      "fix": "那位板球投球手在第一場比賽中讓三名擊球手出局。"
+    },
+    {
+      "word": "boyhood",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個義項都是男性的童年或少年時期，應合併避免重複。",
+      "fix": "男孩時期"
+    },
+    {
+      "word": "breach",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "breach of trust 使用違反信任義，三句未示範關係破裂義。",
+      "fix": "違反；缺口"
+    },
+    {
+      "word": "break-in",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "break-in 指非法闖入建物，不限於住宅，三個例句亦包括商店及學校。",
+      "fix": "非法闖入"
+    },
+    {
+      "word": "breeder",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "breeder 強調繁殖或育種，單純飼育者不一定是 breeder。",
+      "fix": "動物繁殖者；育種者"
+    },
+    {
+      "word": "brigade",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "隊與團體在此重複，並應標示旅是軍隊編制以避免歧義。",
+      "fix": "旅（軍隊編制）；隊"
+    },
+    {
+      "word": "brisk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容風或天氣時強調清冷有勁，不是單純氣味或空氣清新。",
+      "fix": "輕快的；興隆的；清冷的"
+    },
+    {
+      "word": "brisk",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處 brisk wind 的清冷特徵未在原譯中清楚呈現。",
+      "fix": "今天早上一陣清冷的風吹過湖面。"
+    },
+    {
+      "word": "brittle",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Cold weather can make plastic brittle and more likely to crack."
+    },
+    {
+      "word": "brittle",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "寒冷的天氣會讓塑膠變脆，更容易裂開。"
+    },
+    {
+      "word": "broadcaster",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "廣播員與播報員重複，機構義也涵蓋電視播出者，不限於廣播公司。",
+      "fix": "播音員；廣播電視機構"
+    },
+    {
+      "word": "brood",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "指稱母雞時應使用動物代詞牠，而非人稱代詞她。",
+      "fix": "母雞照看著牠的一窩小雞。"
+    },
+    {
+      "word": "brood",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "brood 的心理活動義帶有憂慮及反覆掛念之意，不是中性的沉思。",
+      "fix": "憂思；孵蛋"
+    },
+    {
+      "word": "brow",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單獨使用 brow 時前額是主要義，且現有圖片查詢也對應擦拭前額。",
+      "fix": "前額；眉毛；山頂"
+    },
+    {
+      "word": "brute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "畜生與野獸義重複，指人的常用義應與動物義區分。",
+      "fix": "粗暴的人；野獸"
+    },
+    {
+      "word": "brute",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "本字多數例句及常用義都指粗暴的人或力量，僅標動物未涵蓋主要用法。",
+      "fix": [
+        "情緒與性格",
+        "動物"
+      ]
+    },
+    {
+      "word": "buck",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個名詞例句分別示範公鹿及美元，沒有例句使用公兔義。",
+      "fix": "公鹿；美元"
+    },
+    {
+      "word": "buck",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "卡車例句使用顛簸義但原義項未列出，抵抗與違抗則意義重複。",
+      "fix": "猛然跳起；反抗；顛簸"
+    },
+    {
+      "word": "buck",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The ticket for the evening concert cost me ten bucks."
+    },
+    {
+      "word": "buck",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這場晚間音樂會的門票花了我十美元。"
+    },
+    {
+      "word": "buckle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "皮帶扣是帶扣的一種，列為另一義項造成重複。",
+      "fix": "帶扣"
+    },
+    {
+      "word": "buckle",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "雙腿 buckled 表示腿軟或支撐不住，不宜只以物體崩塌解釋。",
+      "fix": "扣上；彎曲變形；發軟"
+    },
+    {
+      "word": "buffer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "聲音強弱應使用減弱，減緩容易誤指聲音傳遞速度。",
+      "fix": "柔軟的橡膠能減弱腳步聲。"
+    },
+    {
+      "word": "buffer",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Savings can buffer families against the impact of unexpected medical bills."
+    },
+    {
+      "word": "buffer",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "積蓄能減輕突發醫療帳單對家庭造成的衝擊。"
+    },
+    {
+      "word": "buffer",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "六個例句涵蓋實體屏障、時間及財務緩衝，僅科技與網路不足以代表主要概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "build-up",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "build-up to an event 指活動前的準備與宣傳階段，不能僅列增加或累積義。",
+      "fix": "累積；事前準備與宣傳"
+    },
+    {
+      "word": "build-up",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文說賽前準備階段令人興奮，未明說氣氛逐漸升溫。",
+      "fix": "決賽前的準備與宣傳過程令人興奮。"
+    },
+    {
+      "word": "bulge",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "輪胎鼓包表示結構受損，不能直接等同一般胎面磨損，改用檢查輪胎的情境。",
+      "fix": "The mechanic found a dangerous bulge in the car's front tire."
+    },
+    {
+      "word": "bulge",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "技師發現汽車的前輪輪胎有一處危險的凸起。"
+    },
+    {
+      "word": "bust",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "破產的典型搭配是 go bust，改用動詞弄壞義示範後，移除不再由例句涵蓋的破產義。",
+      "fix": "弄壞；逮捕"
+    },
+    {
+      "word": "bust",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "will bust 不自然地表達破產，改用現有動詞弄壞義，避免混用 go bust 的形容詞用法。",
+      "fix": "She busted her favorite mug while washing the dishes."
+    },
+    {
+      "word": "bust",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她洗碗時弄壞了自己最喜歡的馬克杯。"
+    },
+    {
+      "word": "bust",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "洋裝例句指胸圍，房市例句指經濟蕭條，原列胸部與失敗未精準涵蓋。",
+      "fix": "半身像；胸圍；經濟蕭條"
+    },
+    {
+      "word": "byte",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "字母佔用的位元組數取決於編碼，原句無條件概括，應限定適用情境。",
+      "fix": "In ASCII, each letter takes up one byte of memory."
+    },
+    {
+      "word": "byte",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在 ASCII 編碼中，每個字母佔用一個位元組的記憶體。"
+    },
+    {
+      "word": "calculated",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Her calm answer was carefully calculated to avoid upsetting the audience."
+    },
+    {
+      "word": "calculated",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她冷靜的回答經過仔細斟酌，以免讓聽眾不悅。"
+    },
+    {
+      "word": "calculated",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "做出了與後決定等待的結構混雜，應重整為通順句子。",
+      "fix": "市長經過審慎考量，決定等待。"
+    },
+    {
+      "word": "calf",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "幼獸範圍過廣，且三句只示範小牛及小腿肚義。",
+      "fix": "小牛；小腿肚"
+    },
+    {
+      "word": "campaigner",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指倡議人士，沒有例句使用參與選舉競選者的意思。",
+      "fix": "倡議人士"
+    },
+    {
+      "word": "cartel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "音譯與解釋指同一種組織，不宜以分號列為兩個義項。",
+      "fix": "企業聯合壟斷組織"
+    },
+    {
+      "word": "cartel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Officials are investigating a price-fixing cartel involving several large shipping companies."
+    },
+    {
+      "word": "cartel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "官員正在調查一個涉及數家大型航運公司、操縱價格的聯合壟斷組織。"
+    },
+    {
+      "word": "caste",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "caste 強調種姓而非一般可流動的社會階級，三句均採種姓義。",
+      "fix": "種姓"
+    },
+    {
+      "word": "catering",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "聘請餐飲公司服務派對，不代表交由該公司承辦整場派對。",
+      "fix": "學校為派對聘請了一家外燴公司提供餐飲。"
+    }
+  ]
+}
