@@ -593,3 +593,5 @@
 🔭(telescope)
 😉(wink)
 🔎(inspection)
+📡(antenna)
+🏧(atm)
