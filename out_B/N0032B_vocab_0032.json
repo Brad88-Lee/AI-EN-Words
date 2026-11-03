@@ -1,0 +1,449 @@
+{
+  "batch": "N0032",
+  "checked": 50,
+  "reviewed": [
+    "aspect",
+    "aspirin",
+    "assemble",
+    "assembly",
+    "assign",
+    "assistance",
+    "associate",
+    "association",
+    "assurance",
+    "assure",
+    "athletic",
+    "atmosphere",
+    "atom",
+    "atomic",
+    "attach",
+    "attraction",
+    "audio",
+    "authority",
+    "autobiography",
+    "await",
+    "bald",
+    "ballet",
+    "bandage",
+    "bankrupt",
+    "bargain",
+    "barrier",
+    "basin",
+    "battery",
+    "beggar",
+    "behavior",
+    "bin",
+    "biography",
+    "blend",
+    "blessing",
+    "blink",
+    "bloom",
+    "blossom",
+    "boast",
+    "bond",
+    "bounce",
+    "bracelet",
+    "breed",
+    "bridegroom",
+    "broke",
+    "broom",
+    "brutal",
+    "bulletin",
+    "burglar",
+    "calculate",
+    "campaign"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "aspirin",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Aspirin can help lower a fever in some adults."
+    },
+    {
+      "word": "aspirin",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "阿斯匹靈可以幫助部分成人退燒。"
+    },
+    {
+      "word": "associate",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "律師事務所的 associate 是受僱律師，不能誤譯為具有合夥身分的合夥人。",
+      "fix": "她是這間律師事務所的受僱律師。"
+    },
+    {
+      "word": "atom",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "Everything 的範圍包含光等非原子構成的事物，應限定為具體物質。",
+      "fix": "The air, water, and rocks around us are made of atoms."
+    },
+    {
+      "word": "atom",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我們周遭的空氣、水和岩石都是由原子組成的。"
+    },
+    {
+      "word": "atomic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "The class 是全班學生，原譯「這堂課在自然科學了」誤解主詞且語句不通。",
+      "fix": "全班在自然課學了原子結構。"
+    },
+    {
+      "word": "bald",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 bald tire 指胎紋磨平，原義項未明確列出輪胎的常見用法。",
+      "fix": "禿頭的；光禿的；胎紋磨平的"
+    },
+    {
+      "word": "bald",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The baby is still almost bald, with only a few soft hairs."
+    },
+    {
+      "word": "bald",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這個寶寶還幾乎沒有頭髮，只有幾根柔軟的毛髮。"
+    },
+    {
+      "word": "bald",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "光禿的輪胎未清楚表達磨損造成胎紋消失，應明確譯出安全問題的來源。",
+      "fix": "那條胎紋磨平的輪胎在行駛時並不安全。"
+    },
+    {
+      "word": "ballet",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Ballet shoes are soft and light, allowing dancers to move easily."
+    },
+    {
+      "word": "ballet",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "芭蕾舞鞋又軟又輕，讓舞者能輕鬆移動。"
+    },
+    {
+      "word": "bandage",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The doctor bandaged my sprained ankle after checking it carefully."
+    },
+    {
+      "word": "bandage",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "醫生仔細檢查我扭傷的腳踝後，用繃帶加以包紮。"
+    },
+    {
+      "word": "bankrupt",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個形容詞例句均描述破產狀態，沒有使用所屬關係「破產者的」意思。",
+      "fix": "破產的"
+    },
+    {
+      "word": "bankrupt",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "He was declared bankrupt last spring after his business failed."
+    },
+    {
+      "word": "bankrupt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他的生意失敗後，於去年春天被宣告破產。"
+    },
+    {
+      "word": "bargain",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "share the cost 只表示分攤費用，未指定各方必須平均分攤。",
+      "fix": "他們協議分攤這趟旅行的費用。"
+    },
+    {
+      "word": "blessing",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Good health is a great blessing that we should never take for granted."
+    },
+    {
+      "word": "blessing",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "健康是一大福氣，我們絕不應視為理所當然。"
+    },
+    {
+      "word": "blink",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "missed the goal 與 in the blink of an eye 的組合無法清楚表達錯過觀看進球，改為迅速擋球的情境。",
+      "fix": "The goalkeeper stopped the ball in the blink of an eye."
+    },
+    {
+      "word": "blink",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "守門員一眨眼就擋住了球。"
+    },
+    {
+      "word": "bloom",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "自信發展的例句使用茁壯成長的比喻義，原譯「繁榮」無法自然描述自信。",
+      "fix": "開花；茁壯成長"
+    },
+    {
+      "word": "bloom",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Cherry trees bloom in early spring, attracting visitors to the park."
+    },
+    {
+      "word": "bloom",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "櫻花樹在初春開花，吸引遊客前來公園。"
+    },
+    {
+      "word": "blossom",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "in full blossom 表示盛開狀態，不是指開花季節的「花期」。",
+      "fix": "花朵；盛開"
+    },
+    {
+      "word": "blossom",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Their friendship blossomed over the summer as they worked together."
+    },
+    {
+      "word": "blossom",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他們在夏天一起工作，友誼也逐漸深厚。"
+    },
+    {
+      "word": "boast",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「他說……的自誇並不是真的」中文結構生硬，應清楚指出自誇內容不符事實。",
+      "fix": "他吹噓自己每場比賽都贏，但那並非事實。"
+    },
+    {
+      "word": "bond",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "This glue bonds wood to metal without leaving visible marks."
+    },
+    {
+      "word": "bond",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這種膠水能把木頭黏在金屬上，而不留下明顯痕跡。"
+    },
+    {
+      "word": "bounce",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "電子郵件例句中的 bounced back 表示退回，原義項僅列物理彈跳用法。",
+      "fix": "彈跳；反彈；退回"
+    },
+    {
+      "word": "bounce",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The ball bounced down the stairs and landed near the door."
+    },
+    {
+      "word": "bounce",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "球沿著樓梯彈下去，落在門邊。"
+    },
+    {
+      "word": "bounce",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The ball has a high bounce on the hard gym floor."
+    },
+    {
+      "word": "bounce",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這顆球在堅硬的體育館地板上會彈得很高。"
+    },
+    {
+      "word": "breed",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "What breed is your cat with the long white fur?"
+    },
+    {
+      "word": "breed",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "你那隻長著白色長毛的貓是什麼品種？"
+    },
+    {
+      "word": "breed",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "breed horses 表示繁殖馬匹，僅譯成飼養會漏掉繁殖行為。",
+      "fix": "農夫們在大牧場上繁殖馬匹。"
+    },
+    {
+      "word": "breed",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句分別描述動物繁殖與培育作物，未示範僅飼養而不繁殖的意思。",
+      "fix": "繁殖；培育"
+    },
+    {
+      "word": "bridegroom",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Everyone clapped when the bridegroom arrived at the wedding reception."
+    },
+    {
+      "word": "bridegroom",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "新郎抵達婚宴現場時，大家都鼓掌。"
+    },
+    {
+      "word": "broom",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The broom is behind the door, next to the dustpan."
+    },
+    {
+      "word": "broom",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "掃把在門後面，就在畚箕旁邊。"
+    },
+    {
+      "word": "brutal",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "His brutal honesty about her performance hurt her feelings."
+    },
+    {
+      "word": "brutal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他對她表現毫不留情的坦白傷了她的心。"
+    },
+    {
+      "word": "campaign",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "campaign for the school council 可能表示為學生會宣傳，須補上 a seat 才能清楚表示競選席次。",
+      "fix": "She campaigned hard for a seat on the school council."
+    },
+    {
+      "word": "campaign",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她為了取得學生會席次而努力競選。"
+    }
+  ]
+}
