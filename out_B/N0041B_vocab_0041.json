@@ -1,0 +1,561 @@
+{
+  "batch": "N0041",
+  "checked": 50,
+  "reviewed": [
+    "isolation",
+    "issue",
+    "jealousy",
+    "keen",
+    "kettle",
+    "kneel",
+    "knob",
+    "labor",
+    "laboratory",
+    "lag",
+    "landmark",
+    "landscape",
+    "largely",
+    "launch",
+    "lawful",
+    "lean",
+    "learned",
+    "lecture",
+    "lecturer",
+    "legend",
+    "leisurely",
+    "lengthen",
+    "liar",
+    "librarian",
+    "license",
+    "limitation",
+    "linen",
+    "lipstick",
+    "liquor",
+    "literary",
+    "literature",
+    "loan",
+    "lobster",
+    "logic",
+    "logical",
+    "loosen",
+    "lousy",
+    "loyal",
+    "loyalty",
+    "luxurious",
+    "luxury",
+    "machinery",
+    "magnetic",
+    "magnificent",
+    "makeup",
+    "manual",
+    "manufacture",
+    "manufacturer",
+    "marathon",
+    "margin"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "reason": "",
+    "pass": true
+  },
+  "issues": [
+    {
+      "word": "issue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "期與報刊一期重複，應合併為單一義項。",
+      "fix": "議題；問題；（報刊）一期"
+    },
+    {
+      "word": "issue",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "issue 表示提供或發出對帳單，未指定以郵寄方式寄送。",
+      "fix": "銀行每個月會提供每位客戶一份對帳單。"
+    },
+    {
+      "word": "jealousy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆使用嫉妒義，未呈現所列的感情吃醋義。",
+      "fix": "嫉妒"
+    },
+    {
+      "word": "kettle",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "kettle 是燒水壺，茶壺通常指泡茶用的容器，且三句皆未呈現泡茶容器義。",
+      "fix": "燒水壺"
+    },
+    {
+      "word": "kneel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "kneel down 是跪下，並不是蹲下。",
+      "fix": "請跪下來把鞋帶綁好。"
+    },
+    {
+      "word": "labor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勞動與工作在所列例句中重複，應合併。",
+      "fix": "勞動；勞工"
+    },
+    {
+      "word": "labor",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用吃力地行進義，現有義項未涵蓋。",
+      "fix": "辛勞地工作；努力；吃力地行進"
+    },
+    {
+      "word": "lag",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的銷售 lag 指表現低迷，未列在現有義項中。",
+      "fix": "落後；延遲；低迷"
+    },
+    {
+      "word": "lag",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sales lagged 在此指銷售表現不振，譯成銷售量落後卻未交代比較對象，語意不清。",
+      "fix": "由於天氣不好，銷售表現低迷。"
+    },
+    {
+      "word": "landscape",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "景觀由山丘構成，不宜以被山丘覆蓋來表達。",
+      "fix": "Green hills dominate the landscape around this quiet village."
+    },
+    {
+      "word": "landscape",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個寧靜村莊周圍的景觀以青翠的山丘為主。"
+    },
+    {
+      "word": "landscape",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句使用風景畫義，中文義項未列出。",
+      "fix": "風景；景觀；風景畫"
+    },
+    {
+      "word": "largely",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上考試內容的對比以提供完整情境。",
+      "fix": "The test was largely about grammar rather than vocabulary."
+    },
+    {
+      "word": "largely",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這次考試主要考文法，而非字彙。"
+    },
+    {
+      "word": "launch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句描述網站上線，原列的上市與發表會未充分涵蓋此義。",
+      "fix": "發射；上市；發表會；上線"
+    },
+    {
+      "word": "lawful",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "lawful citizen 不如描述合法活動的用法典型，原句對投票資格的概括也未交代年齡等條件。",
+      "fix": "Only lawful activities are permitted in the community center."
+    },
+    {
+      "word": "lawful",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "社區活動中心只允許合法的活動。"
+    },
+    {
+      "word": "lawful",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "修正後三句皆描述合法性，未使用守法的人這一義。",
+      "fix": "合法的"
+    },
+    {
+      "word": "lean",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句描述肉脂肪少，第三句描述年景不佳，現有義項僅涵蓋精瘦身材。",
+      "fix": "精瘦的；少脂肪的；不景氣的"
+    },
+    {
+      "word": "learned",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "博學的與有學問的重複，應合併為單一義項。",
+      "fix": "博學的"
+    },
+    {
+      "word": "leisurely",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上散步時機以符合例句長度要求。",
+      "fix": "She strolled leisurely through the park after finishing her work."
+    },
+    {
+      "word": "leisurely",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她完成工作後，悠閒地漫步穿過公園。"
+    },
+    {
+      "word": "lengthen",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為不及物的變長義，原義項僅列使事物延長的用法。",
+      "fix": "加長；延長；變長"
+    },
+    {
+      "word": "license",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上核發執照的條件以提供完整情境。",
+      "fix": "The government licenses taxi drivers after they pass the required tests."
+    },
+    {
+      "word": "license",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "政府在計程車司機通過規定的測驗後，核發執照給他們。"
+    },
+    {
+      "word": "limitation",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上規畫時須考量侷限的情境。",
+      "fix": "Every plan has some limitations that we need to consider."
+    },
+    {
+      "word": "limitation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "每個計畫都有一些我們需要考量的侷限。"
+    },
+    {
+      "word": "linen",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "bed linen 指床單被套等家用織品，材質不限於亞麻，原義項未涵蓋。",
+      "fix": "亞麻布；床單被套等家用織品"
+    },
+    {
+      "word": "literature",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象的文學，圖書館書籍的查詢無法直接表示該義。",
+      "fix": null
+    },
+    {
+      "word": "loan",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅表示向博物館借用畫作，並未說明用途是展出。",
+      "fix": "這幅畫是向巴黎的一間博物館借來的。"
+    },
+    {
+      "word": "loan",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅表示把畫作借給學校，未指定作為展覽用途。",
+      "fix": "博物館每年都把畫作借給學校。"
+    },
+    {
+      "word": "lobster",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上螯的功能以提供完整的動物情境。",
+      "fix": "A lobster uses its two large claws to catch food."
+    },
+    {
+      "word": "lobster",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "龍蝦用牠的兩隻大螯捕捉食物。"
+    },
+    {
+      "word": "logic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上論點的證據支持以提供完整情境。",
+      "fix": "Her argument follows clear logic and is supported by evidence."
+    },
+    {
+      "word": "logic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的論點邏輯清楚，且有證據支持。"
+    },
+    {
+      "word": "loosen",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "loosen my shoulders 的受詞不夠精確，應以鬆開緊繃肌肉表達。",
+      "fix": "The doctor suggested stretches to loosen my tight shoulder muscles."
+    },
+    {
+      "word": "loosen",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "醫生建議做伸展運動，放鬆我緊繃的肩部肌肉。"
+    },
+    {
+      "word": "lousy",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 feel lousy 指身體不舒服，原義項未明確涵蓋。",
+      "fix": "糟糕的；身體不舒服的"
+    },
+    {
+      "word": "lousy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上未吃早餐的上課情境。",
+      "fix": "He felt lousy after skipping breakfast before his morning class."
+    },
+    {
+      "word": "lousy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他早上上課前沒吃早餐，覺得很不舒服。"
+    },
+    {
+      "word": "loyalty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "忠誠與忠心重複，應合併為單一義項。",
+      "fix": "忠誠"
+    },
+    {
+      "word": "loyalty",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上困難時期的友誼情境。",
+      "fix": "Loyalty is important in any friendship, especially during difficult times."
+    },
+    {
+      "word": "loyalty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "忠誠在任何友誼中都很重要，尤其是在困難時期。"
+    },
+    {
+      "word": "luxury",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上奢侈品的具體例子。",
+      "fix": "The mall sells many luxury goods, including watches and handbags."
+    },
+    {
+      "word": "luxury",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這間購物中心販售許多奢侈品，包括手錶與手提包。"
+    },
+    {
+      "word": "magnetic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "magnetic north 表示方向時通常不加定冠詞，應移除原句多餘的 the。",
+      "fix": "A compass needle points toward magnetic north rather than true north."
+    },
+    {
+      "word": "magnetic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "指南針的指針指向磁北，而非真北。"
+    },
+    {
+      "word": "magnetic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "magnetic board 並未指定是白板，不應增加白板材質或類型的資訊。",
+      "fix": "磁性板在教室裡很好用。"
+    },
+    {
+      "word": "makeup",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "makeup brushes 是化妝工具，未直接對應第一義的化妝品。",
+      "fix": "cosmetic products"
+    },
+    {
+      "word": "manual",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上手排的操作方式，並一併修正中文將汽車等同變速箱的語病。",
+      "fix": "This car has a manual gearbox, so drivers change gears themselves."
+    },
+    {
+      "word": "manual",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這輛車配備手排變速箱，因此駕駛必須自行換檔。"
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上外銷目的地以提供完整商業情境。",
+      "fix": "The factory manufactures bicycles for export to several European countries."
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這間工廠生產腳踏車，外銷至數個歐洲國家。"
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改以醫療器材的品質管制呈現不同的製造情境。",
+      "fix": "Many medical devices are manufactured under strict quality control standards."
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "許多醫療器材是在嚴格的品質管制標準下製造的。"
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上使用回收材料的目的。",
+      "fix": "They manufacture toys from recycled plastic to reduce material waste."
+    },
+    {
+      "word": "manufacture",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他們用回收塑膠製造玩具，以減少材料浪費。"
+    },
+    {
+      "word": "manufacturer",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上保固涵蓋的產品類別。",
+      "fix": "The manufacturer offers a two-year warranty on all kitchen appliances."
+    },
+    {
+      "word": "manufacturer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這家製造商為所有廚房家電提供兩年保固。"
+    },
+    {
+      "word": "marathon",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句將冗長會議比喻為馬拉松，所列耐力賽未涵蓋這種長時間活動義。",
+      "fix": "馬拉松；漫長而費力的活動"
+    },
+    {
+      "word": "margin",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句示範頁邊空白、勝負差距與利潤率，profit margin 不應僅譯為利潤。",
+      "fix": "頁邊空白；差距；利潤率"
+    },
+    {
+      "word": "margin",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "profit margin 指利潤率，不能直接等同利潤金額。",
+      "fix": "這家店這項產品的利潤率很低。"
+    }
+  ]
+}
