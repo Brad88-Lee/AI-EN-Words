@@ -1,0 +1,313 @@
+{
+  "batch": "N0037",
+  "checked": 50,
+  "reviewed": [
+    "elsewhere",
+    "embassy",
+    "emerge",
+    "emphasis",
+    "empire",
+    "enclose",
+    "encounter",
+    "endanger",
+    "endure",
+    "enforce",
+    "engineering",
+    "enlarge",
+    "enormous",
+    "ensure",
+    "entertain",
+    "enthusiasm",
+    "equality",
+    "equip",
+    "era",
+    "essential",
+    "establish",
+    "estimate",
+    "evaluate",
+    "eventual",
+    "evidence",
+    "evident",
+    "exaggerate",
+    "exception",
+    "exhaust",
+    "exhibit",
+    "expand",
+    "expansion",
+    "experimental",
+    "explanation",
+    "explosion",
+    "explosive",
+    "expose",
+    "exposure",
+    "extend",
+    "extent",
+    "facial",
+    "facility",
+    "faithful",
+    "fame",
+    "fantasy",
+    "farewell",
+    "fasten",
+    "fatal",
+    "favorable",
+    "fax"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "emerge",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為具體事物或問題的出現，沒有使用真相顯露的意思。",
+      "fix": "出現；浮現"
+    },
+    {
+      "word": "emphasis",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 emphasis 指單字音節的重音，原義項漏列此發音用法。",
+      "fix": "強調；重點；重視；重音"
+    },
+    {
+      "word": "enclose",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "電子郵件附件通常用 attach，enclose 應示範隨實體申請文件附入履歷的用法。",
+      "fix": "Please enclose a copy of your résumé with the application."
+    },
+    {
+      "word": "enclose",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "請隨申請文件附上一份你的履歷副本。"
+    },
+    {
+      "word": "engineering",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "工程與工程學是抽象領域，engineers at work 描述工程師人物，應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "ensure",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Regular exercise helps ensure good health by keeping the body active."
+    },
+    {
+      "word": "ensure",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "規律運動讓身體保持活躍，有助於維持健康。"
+    },
+    {
+      "word": "equality",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "have equality in education 搭配籠統，改用典型的 equality of opportunity 表達教育機會平等。",
+      "fix": "Every child should have equality of opportunity in education."
+    },
+    {
+      "word": "equality",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "每個孩子都應享有平等的受教育機會。"
+    },
+    {
+      "word": "essential",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個形容詞例句均表示必要或不可或缺，沒有使用基礎層級的「基本的」意思。",
+      "fix": "必要的；不可或缺的"
+    },
+    {
+      "word": "establish",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The company was established in 1990 to produce bicycle parts."
+    },
+    {
+      "word": "establish",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這家公司創立於一九九〇年，生產自行車零件。"
+    },
+    {
+      "word": "evaluate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有評量專案、評估費用與評核員工，未示範專業鑑定義。",
+      "fix": "評估；評價"
+    },
+    {
+      "word": "eventual",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The team's eventual win surprised everyone after a poor start."
+    },
+    {
+      "word": "eventual",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這支隊伍開局不佳，最終卻獲勝，令所有人都很驚訝。"
+    },
+    {
+      "word": "exception",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Everyone in our class passed the final test without exception."
+    },
+    {
+      "word": "exception",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我們班所有人無一例外都通過了期末測驗。"
+    },
+    {
+      "word": "expand",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Water expands when it freezes, which can cause pipes to burst."
+    },
+    {
+      "word": "expand",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "水結冰時會膨脹，可能導致水管破裂。"
+    },
+    {
+      "word": "expand",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Reading different kinds of books helps expand your vocabulary."
+    },
+    {
+      "word": "expand",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "閱讀不同種類的書籍有助於擴充你的字彙量。"
+    },
+    {
+      "word": "expansion",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Heat causes the expansion of metal, so the parts need extra space."
+    },
+    {
+      "word": "expansion",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "熱會使金屬膨脹，因此零件需要預留額外空間。"
+    },
+    {
+      "word": "experimental",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The experimental bus runs on electricity instead of diesel fuel."
+    },
+    {
+      "word": "experimental",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這輛實驗用公車以電力行駛，而非使用柴油。"
+    },
+    {
+      "word": "explosive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "explosive hit 不是此處表達迅速成功的典型搭配，應用 explosive growth 示範爆炸性增長。",
+      "fix": "The city has seen explosive growth in online shopping recently."
+    },
+    {
+      "word": "explosive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這座城市最近的網路購物呈現爆炸性成長。"
+    },
+    {
+      "word": "extend",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有開放時間或期限的延長及道路的延伸，未示範擴大範圍的意思。",
+      "fix": "延長；延伸"
+    },
+    {
+      "word": "facility",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "research facility 指研究設施或場所，原譯「研究機構」混淆實體設施與組織。",
+      "fix": "這處研究設施每年對外開放一次。"
+    },
+    {
+      "word": "fame",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "known for its fame 重複表示因出名而聞名，應改用 gain fame for 加上出名的事物。",
+      "fix": "The small town gained fame for its traditional tea making."
+    },
+    {
+      "word": "fame",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這個小鎮因傳統製茶工藝而聞名。"
+    }
+  ]
+}
