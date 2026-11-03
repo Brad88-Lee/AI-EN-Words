@@ -1,0 +1,393 @@
+{
+  "batch": "N0031",
+  "checked": 50,
+  "reviewed": [
+    "academic",
+    "accent",
+    "acceptance",
+    "access",
+    "accidental",
+    "accompany",
+    "accomplish",
+    "accountant",
+    "accuracy",
+    "accuse",
+    "acid",
+    "acquaintance",
+    "acquire",
+    "adequate",
+    "adjust",
+    "admirable",
+    "admiration",
+    "admission",
+    "agency",
+    "agent",
+    "aggressive",
+    "agreeable",
+    "alcohol",
+    "alert",
+    "allowance",
+    "alternative",
+    "amateur",
+    "ambitious",
+    "amuse",
+    "analysis",
+    "analyze",
+    "ancestor",
+    "anniversary",
+    "annoy",
+    "annual",
+    "anxiety",
+    "apology",
+    "apparent",
+    "applicant",
+    "application",
+    "appoint",
+    "appreciation",
+    "appropriate",
+    "approval",
+    "aquarium",
+    "arch",
+    "arise",
+    "artificial",
+    "artistic",
+    "ashamed"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "accent",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "抱枕例句中的 accent 是視覺上的點綴，原義項未列此義，且未示範抽象的「強調」。",
+      "fix": "口音；重音；點綴"
+    },
+    {
+      "word": "accent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯省略作為重音位置示例的 banana，讀者無法得知是哪個單字。",
+      "fix": "banana 這個單字的重音落在第二個音節。"
+    },
+    {
+      "word": "acceptance",
+      "path": "senses[0].examples[0].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均未明確示範錄取義，原首句是學生寄出接受信，改為收到大學的錄取信以涵蓋該意思。",
+      "fix": "He received a letter of acceptance from the university."
+    },
+    {
+      "word": "acceptance",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他收到了大學的錄取通知信。"
+    },
+    {
+      "word": "access",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "by boat 是進入村莊的交通方式，不能譯成「通道是搭船」。",
+      "fix": "前往這個村莊唯一的方式是搭船。"
+    },
+    {
+      "word": "accidental",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "accidental mistake 重複表達非故意犯錯，改用典型的 accidental deletion 搭配。",
+      "fix": "The accidental deletion of the report caused a delay."
+    },
+    {
+      "word": "accidental",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "報告意外遭到刪除，導致進度延誤。"
+    },
+    {
+      "word": "acid",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Lemon juice contains a weak acid that gives it a sour taste."
+    },
+    {
+      "word": "acid",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "檸檬汁含有一種弱酸，使它帶有酸味。"
+    },
+    {
+      "word": "acquire",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "收購公司與養成喜好的意思已出現在例句中，原義項未明確列出。",
+      "fix": "取得；收購；學到；養成"
+    },
+    {
+      "word": "agency",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句分別描述旅行社、就業服務機構與廣告公司，均未示範「經銷商」義。",
+      "fix": "代辦處；機構"
+    },
+    {
+      "word": "agent",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "travel agent 是旅行業代理人，沒有對應第一個意思「經紀人」，應改為演藝經紀人。",
+      "fix": "talent agent"
+    },
+    {
+      "word": "agreeable",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句描述人的隨和性格，原義項漏列，且令人愉快與宜人重複。",
+      "fix": "令人愉快的；隨和的；欣然同意的"
+    },
+    {
+      "word": "alert",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "咖啡例句中的 alert 表示頭腦清醒，原義項僅列警覺與機敏。",
+      "fix": "警覺的；機敏的；清醒的"
+    },
+    {
+      "word": "alert",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "phone alert 指提醒通知，原義項只有警報與警戒，應補列此日常意思。",
+      "fix": "警報；提醒通知；警戒"
+    },
+    {
+      "word": "alert",
+      "path": "senses[2].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "通知老師與提醒特賣消息均不是發出警報，原義項漏列一般通知與提醒用法。",
+      "fix": "使警覺；發出警報；通知；提醒"
+    },
+    {
+      "word": "alternative",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個形容詞例句均是替代或其他可選方案，沒有使用文化風格上的「另類的」。",
+      "fix": "替代的；可供選擇的"
+    },
+    {
+      "word": "ambitious",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "small job 通常表示小任務，不能自然表達有企圖心者不願長期從事的低薪工作。",
+      "fix": "My brother is too ambitious to stay in a low-paying job."
+    },
+    {
+      "word": "ambitious",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我哥哥企圖心太強，不會一直做低薪工作。"
+    },
+    {
+      "word": "amuse",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "His jokes always amuse his classmates during the lunch break."
+    },
+    {
+      "word": "amuse",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "午休時，他的笑話總是讓同學們開心。"
+    },
+    {
+      "word": "analyze",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Scientists analyze water samples in the laboratory to check for pollution."
+    },
+    {
+      "word": "analyze",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "科學家在實驗室裡分析水樣，以檢查是否有污染。"
+    },
+    {
+      "word": "anniversary",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Don't forget our anniversary next Friday; we have dinner reservations."
+    },
+    {
+      "word": "anniversary",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "別忘了我們下週五的紀念日；我們已經訂好晚餐了。"
+    },
+    {
+      "word": "anxiety",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Exams often cause anxiety among students who worry about their grades."
+    },
+    {
+      "word": "anxiety",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "考試常讓擔心成績的學生感到焦慮。"
+    },
+    {
+      "word": "anxiety",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Deep breathing can help reduce anxiety before an important interview."
+    },
+    {
+      "word": "anxiety",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "重要面試前，深呼吸有助於減輕焦慮。"
+    },
+    {
+      "word": "apparent",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆表示明顯或可見的原因，沒有使用可能不符實情的「表面上的」意思。",
+      "fix": "明顯的"
+    },
+    {
+      "word": "applicant",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "大學收到的是申請資料，不能以 received applicants 表達申請人數，應改為申請人提出申請。",
+      "fix": "Thousands of applicants applied to the university this year."
+    },
+    {
+      "word": "applicant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "今年有數千名申請人向這所大學提出申請。"
+    },
+    {
+      "word": "aquarium",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "fish tank in his aquarium 會把 aquarium 解讀為水族館或形成魚缸套魚缸，無法清楚示範養魚缸義。",
+      "fix": "He cleans his aquarium and changes the water every month."
+    },
+    {
+      "word": "aquarium",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "他每個月清理養魚缸並換水。"
+    },
+    {
+      "word": "aquarium",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🐠 代表熱帶魚而非第一義項水族館，容易使學生誤認為單一魚類。",
+      "fix": null
+    },
+    {
+      "word": "aquarium",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "large aquarium fish 聚焦水族箱內的魚，沒有對應第一義項的公共水族館場所。",
+      "fix": "public aquarium interior"
+    },
+    {
+      "word": "arch",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The stone bridge has three large arches above the river."
+    },
+    {
+      "word": "arch",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這座石橋在河面上有三座大型橋拱。"
+    },
+    {
+      "word": "arch",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She arched her eyebrows in surprise when she heard the news."
+    },
+    {
+      "word": "arch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她聽到這個消息時，驚訝地揚起了眉毛。"
+    },
+    {
+      "word": "arise",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均表示問題出現或發生，未示範「起身」的意思。",
+      "fix": "出現；發生"
+    }
+  ]
+}
