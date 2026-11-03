@@ -1,0 +1,265 @@
+{
+  "batch": "N0030",
+  "checked": 50,
+  "reviewed": [
+    "useless",
+    "verb",
+    "waltz",
+    "warfare",
+    "warning",
+    "warship",
+    "washing",
+    "watchman",
+    "well-known",
+    "westerner",
+    "whichever",
+    "wildly",
+    "willow",
+    "wizard",
+    "working",
+    "worldwide",
+    "worn",
+    "worthless",
+    "wow",
+    "wrapping",
+    "writing",
+    "written",
+    "x-ray",
+    "biology",
+    "comment",
+    "curve",
+    "diligent",
+    "diplomat",
+    "embarrass",
+    "fantastic",
+    "genius",
+    "inspire",
+    "maximum",
+    "mechanic",
+    "physics",
+    "recycle",
+    "revise",
+    "ruin",
+    "stingy",
+    "chemistry",
+    "housework",
+    "scenery",
+    "adopt",
+    "cabinet",
+    "generation",
+    "including",
+    "abandon",
+    "absolute",
+    "absorb",
+    "abstract"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "useless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「無用的」與「沒有用處的」完全重複，應精簡重複義項。",
+      "fix": "無用的；無效的"
+    },
+    {
+      "word": "warning",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "⚠️ 已用於 danger，警告與危險是不同概念，不符合僅近義詞可重用的規則。",
+      "fix": null
+    },
+    {
+      "word": "washing",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "laundry basket 描述衣物籃，對應衣物而非第一個意思「洗滌」，應改為清洗動作。",
+      "fix": "washing dishes"
+    },
+    {
+      "word": "wildly",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "價格劇烈波動的用法應列「劇烈地」，三句均未使用程度副詞「極度地」義。",
+      "fix": "瘋狂地；劇烈地"
+    },
+    {
+      "word": "working",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "working knowledge 使用「實用的」意思，原義項漏列，且三句未示範「運作中的」。",
+      "fix": "工作的；實用的"
+    },
+    {
+      "word": "worldwide",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The company sells its shoes worldwide through its online store."
+    },
+    {
+      "word": "worldwide",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這家公司透過網路商店把鞋子賣到世界各地。"
+    },
+    {
+      "word": "worldwide",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「受到……閱讀」的中文搭配不成立，應直接表達各地讀者都會閱讀她的書。",
+      "fix": "世界各地的學生和老師都閱讀她的書。"
+    },
+    {
+      "word": "writing",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "✍️ 已用於 author，寫作活動與作者身分不是近義詞，應移除此重複符號。",
+      "fix": null
+    },
+    {
+      "word": "written",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 are written in the handbook 是動詞被動式，不能清楚示範本義項的形容詞用法。",
+      "fix": "Please give all new staff a copy of the written rules."
+    },
+    {
+      "word": "written",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "請給所有新進員工一份書面規定。"
+    },
+    {
+      "word": "biology",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "生物學是抽象學科，顯微鏡只能代表其中一種工具，應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "curve",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "A smile curved on her lips 搭配不自然，應由 lips 作主詞並使用 curve into a smile。",
+      "fix": "Her lips curved into a smile when she saw the gift."
+    },
+    {
+      "word": "curve",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她看到禮物時，雙唇彎起，露出了微笑。"
+    },
+    {
+      "word": "diplomat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "比喻義重點在圓融得體地處理人際問題，不只是一般的善於交際。",
+      "fix": "外交官；善於圓融處事的人"
+    },
+    {
+      "word": "fantastic",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均表示極好或很棒，未示範「奇異的」，且前兩個中文意思重複。",
+      "fix": "極好的"
+    },
+    {
+      "word": "revise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「複習英文考試」把考試當成複習內容，應表達為準備考試而複習英文。",
+      "fix": "我這個週末得為英文考試複習。"
+    },
+    {
+      "word": "ruin",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句都表示破壞事物或計畫，沒有使用使人破產的意思。",
+      "fix": "毀壞；破壞"
+    },
+    {
+      "word": "chemistry",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🧪 已用於 chemical，化學學科與化學物質不是近義詞，應移除此重複符號。",
+      "fix": null
+    },
+    {
+      "word": "chemistry",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "化學是抽象學科，燒瓶不是學科本身，應移除圖片查詢。",
+      "fix": null
+    },
+    {
+      "word": "chemistry",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "studied chemistry 僅表示研讀化學，原譯「主修」增添了大學主修科目的資訊。",
+      "fix": "她因為熱愛科學而研讀化學。"
+    },
+    {
+      "word": "absorb",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句分別示範吸收光或水及吸引注意力，均未使用吸收理解資訊的意思。",
+      "fix": "吸收；吸引"
+    },
+    {
+      "word": "absorb",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺乏情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Plants absorb sunlight through their leaves to make their own food."
+    },
+    {
+      "word": "absorb",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "植物透過葉片吸收陽光，製造自身所需的養分。"
+    },
+    {
+      "word": "abstract",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為抽象概念、抽象畫或抽象詞彙，沒有使用「理論的」意思。",
+      "fix": "抽象的"
+    }
+  ]
+}
