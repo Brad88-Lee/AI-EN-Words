@@ -590,3 +590,4 @@
 🤰(pregnant)
 🔁(repetition)
 🛰️(satellite)
+🔭(telescope)
