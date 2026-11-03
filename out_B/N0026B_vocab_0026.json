@@ -1,0 +1,489 @@
+{
+  "batch": "N0026",
+  "checked": 50,
+  "reviewed": [
+    "conjunction",
+    "crisp",
+    "crossroad",
+    "cyclist",
+    "damn",
+    "daylight",
+    "delete",
+    "demanding",
+    "dependable",
+    "detailed",
+    "development",
+    "devoted",
+    "dialog",
+    "digit",
+    "disabled",
+    "disadvantaged",
+    "disappointment",
+    "disapproval",
+    "dissatisfaction",
+    "distrust",
+    "dressed",
+    "duckling",
+    "earnings",
+    "employment",
+    "encouragement",
+    "enjoyment",
+    "enlargement",
+    "entertainer",
+    "entertainment",
+    "equipment",
+    "essentially",
+    "everyday",
+    "exactly",
+    "excitement",
+    "excursion",
+    "explorer",
+    "farming",
+    "faulty",
+    "flooding",
+    "forehead",
+    "foresee",
+    "forgetful",
+    "fridge",
+    "frosty",
+    "frozen",
+    "full-time",
+    "fully",
+    "gambler",
+    "girlfriend",
+    "goddess"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "crossroad",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示人生或事業轉捩點的固定用法為 at a crossroads。",
+      "fix": "She felt she was at a crossroads in her career."
+    },
+    {
+      "word": "crossroad",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她覺得自己的職涯正處於轉捩點。"
+    },
+    {
+      "word": "damn",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Damn, we missed the last train back to town."
+    },
+    {
+      "word": "damn",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "可惡，我們錯過了回鎮上的最後一班火車。"
+    },
+    {
+      "word": "damn",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "This damn printer is jammed again, so I cannot print the report."
+    },
+    {
+      "word": "damn",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這台該死的印表機又卡紙了，所以我無法列印報告。"
+    },
+    {
+      "word": "daylight",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均未使用「黎明」義，應移除此未示範的意思。",
+      "fix": "日光；白天"
+    },
+    {
+      "word": "demanding",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「擔任一份工作」搭配不當，應使用「從事一份工作」。",
+      "fix": "她在一間繁忙的醫院裡從事一份要求很高的工作。"
+    },
+    {
+      "word": "devoted",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "devoted 描述付出忠誠或心力的人，不能把 devoted mother 解釋成被孩子摯愛的母親。",
+      "fix": "盡心盡力的；忠誠的；全心投入的"
+    },
+    {
+      "word": "devoted",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "原譯將母親盡心照顧孩子的意思誤譯成母親受到孩子摯愛。",
+      "fix": "她是一位對三個孩子盡心盡力的母親。"
+    },
+    {
+      "word": "digit",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為數字或數字位數，未示範「手指或腳趾」義。",
+      "fix": "數字；位數"
+    },
+    {
+      "word": "digit",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "台灣一般電話號碼不一定為十位數，須明確限定為手機號碼。",
+      "fix": "A mobile phone number in Taiwan usually has ten digits."
+    },
+    {
+      "word": "digit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "台灣的手機號碼通常有十位數。"
+    },
+    {
+      "word": "digit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "phone number 未限定為手機號碼，原譯擅自縮小範圍。",
+      "fix": "請輸入你電話號碼的最後一個數字。"
+    },
+    {
+      "word": "disabled",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "例句只有身心障礙與停用兩義，沒有示範「故障的」。",
+      "fix": "身心障礙的；停用的"
+    },
+    {
+      "word": "disapproval",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She shook her head in disapproval when she heard the plan."
+    },
+    {
+      "word": "disapproval",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她聽到這項計畫時搖頭表示不贊成。"
+    },
+    {
+      "word": "distrust",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Many shoppers distrust online reviews that offer only praise."
+    },
+    {
+      "word": "distrust",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "許多購物者不信任那些只有讚美的網路評論。"
+    },
+    {
+      "word": "enjoyment",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "Reading novels gives me great enjoyment after a busy day."
+    },
+    {
+      "word": "enjoyment",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "忙碌一天後，閱讀小說帶給我很大的樂趣。"
+    },
+    {
+      "word": "entertainment",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均談娛樂活動、表演或產業，未使用「招待」義。",
+      "fix": "娛樂；娛樂節目"
+    },
+    {
+      "word": "equipment",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The gym has new exercise equipment for its members."
+    },
+    {
+      "word": "equipment",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這間健身房有供會員使用的新運動器材。"
+    },
+    {
+      "word": "essentially",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "He is essentially a shy person, despite his confident appearance."
+    },
+    {
+      "word": "essentially",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "儘管他看起來很有自信，但本質上是個害羞的人。"
+    },
+    {
+      "word": "essentially",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The report is essentially finished, but a few details need checking."
+    },
+    {
+      "word": "essentially",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這份報告大致上完成了，但還有幾個細節需要檢查。"
+    },
+    {
+      "word": "exactly",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 Exactly 用於表示完全贊同，應補列「完全正確」的意思。",
+      "fix": "確切地；正是；完全正確"
+    },
+    {
+      "word": "excitement",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為興奮感或刺激，沒有示範具體「興奮的事」的意思。",
+      "fix": "興奮；刺激"
+    },
+    {
+      "word": "forgetful",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "My forgetful classmate keeps a list of homework in her notebook."
+    },
+    {
+      "word": "forgetful",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我那位健忘的同學會在筆記本上列出作業清單。"
+    },
+    {
+      "word": "frosty",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The grass was white and frosty when we left the house."
+    },
+    {
+      "word": "frosty",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我們離開屋子時，草地白茫茫地結了一層霜。"
+    },
+    {
+      "word": "frozen",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The lake was frozen all winter, so boats could not cross it."
+    },
+    {
+      "word": "frozen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這座湖整個冬天都結著冰，因此船隻無法橫越湖面。"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "full-time student 表示全時就讀的學生，原義項僅列工作性質，漏掉例句使用的就學意義。",
+      "fix": "全職的；全時的"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "學生的 full-time 指全時就讀，譯為「全職學生」會混淆就學與受雇工作。",
+      "fix": "他是這所大學的全時學生。"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The shop needs two full-time workers to serve its customers."
+    },
+    {
+      "word": "full-time",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "這家店需要兩名全職員工來服務顧客。"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "studies full-time 使用全時就讀的意思，原義項僅有全職工作用法。",
+      "fix": "全職地；全時地"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She works full-time at the library near the train station."
+    },
+    {
+      "word": "full-time",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她在火車站附近的圖書館全職工作。"
+    },
+    {
+      "word": "full-time",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "studies full-time 應表達全時就讀，不能以工作職位的「全職」描述讀書。",
+      "fix": "我媽媽全時就讀，晚上還要工作。"
+    },
+    {
+      "word": "fully",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為完全或充分的意思，沒有表示數量「整整」的用法。",
+      "fix": "完全地；充分地"
+    },
+    {
+      "word": "fully",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "I fully understand your concern about the new school rules."
+    },
+    {
+      "word": "fully",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我完全理解你對新校規的擔憂。"
+    },
+    {
+      "word": "fully",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "The battery is fully charged now and ready for use."
+    },
+    {
+      "word": "fully",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "電池現在已經充飽了，可以使用了。"
+    },
+    {
+      "word": "girlfriend",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "My brother's girlfriend is very friendly to everyone she meets."
+    },
+    {
+      "word": "girlfriend",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "我哥哥的女朋友對她遇到的每個人都非常友善。"
+    },
+    {
+      "word": "girlfriend",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且缺少情境，補足為約 8～18 字的完整考試例句。",
+      "fix": "She went shopping with her girlfriend at the department store."
+    },
+    {
+      "word": "girlfriend",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，提供完整且忠實的繁體中文翻譯。",
+      "fix": "她和女性友人一起到百貨公司逛街。"
+    }
+  ]
+}
