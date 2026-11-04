@@ -1,0 +1,780 @@
+{
+  "batch": "N0079",
+  "checked": 50,
+  "reviewed": [
+    "certificate",
+    "chore",
+    "coincidence",
+    "comedian",
+    "commission",
+    "commitment",
+    "communist",
+    "compliment",
+    "compound",
+    "comprehension",
+    "conceal",
+    "conduct",
+    "confine",
+    "confront",
+    "confrontation",
+    "contemporary",
+    "continental",
+    "corporation",
+    "correspondent",
+    "corridor",
+    "courteous",
+    "cripple",
+    "crystal",
+    "customs",
+    "decay",
+    "deceive",
+    "declaration",
+    "decline",
+    "deficit",
+    "delegate",
+    "democrat",
+    "depress",
+    "deputy",
+    "despair",
+    "destination",
+    "destructive",
+    "devotion",
+    "dialect",
+    "digestion",
+    "disapprove",
+    "disconnect",
+    "dissolve",
+    "distinction",
+    "donate",
+    "dreadful",
+    "drought",
+    "elaborate",
+    "enterprise",
+    "enthusiastic",
+    "entitle"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "certificate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "證書與證明書等表述重疊，且第三句的禮券義未列出。",
+      "fix": "證書；禮券"
+    },
+    {
+      "word": "chore",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "例行工作過於廣泛，應保留家事及瑣碎雜務的語意。",
+      "fix": "家事；例行雜務"
+    },
+    {
+      "word": "chore",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "brother 沒有指定年齡，不宜自行限定為哥哥。",
+      "fix": "我和我的兄弟每個週末分擔家事。"
+    },
+    {
+      "word": "coincidence",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為巧合，未呈現單指同時發生而不涉及偶然的義項。",
+      "fix": "巧合"
+    },
+    {
+      "word": "comedian",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指職業喜劇演員，未呈現非職業的搞笑者用法。",
+      "fix": "喜劇演員"
+    },
+    {
+      "word": "commission",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均指委託製作或興建，未呈現授予職位的委任義。",
+      "fix": "委託"
+    },
+    {
+      "word": "commitment",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "prior commitment 指先前答應的約定，不一定是責任。",
+      "fix": "承諾；投入；已答應的事情"
+    },
+    {
+      "word": "commitment",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字可指個人承諾、投入及私人約定，僅列工作過度限縮。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "communist",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 communist 修飾 writer，未清楚示範此處名詞詞性。",
+      "fix": "The museum displayed letters written by a communist during the last century."
+    },
+    {
+      "word": "communist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "博物館展示了一位共產主義者在上個世紀寫的信。"
+    },
+    {
+      "word": "communist",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 communist 修飾 movement，是形容詞用法而非本義項要求的名詞。",
+      "fix": "The teacher explained why the writer described himself as a communist."
+    },
+    {
+      "word": "communist",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "老師解釋了那位作家為何自稱共產主義者。"
+    },
+    {
+      "word": "compliment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本組例句皆為讚美，與恭維的近義表述合併即可。",
+      "fix": "讚美"
+    },
+    {
+      "word": "compliment",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "稱讚與讚美為同義表述，不應分列。",
+      "fix": "稱讚"
+    },
+    {
+      "word": "compound",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "語言學例句應列複合字義，並將院區釐清為圍起的場地。",
+      "fix": "化合物；複合字；圍起的場地（內有建築物）"
+    },
+    {
+      "word": "compound",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 compound 修飾 noun，是形容詞用法，改用複數名詞示範複合字義。",
+      "fix": "The teacher explained how compounds are formed by combining two or more words."
+    },
+    {
+      "word": "compound",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "老師說明如何把兩個或更多的字結合成複合字。"
+    },
+    {
+      "word": "compound",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "含兩個以上主要子句的 compound sentence 是並列複句，應與含從屬子句的複句區分。",
+      "fix": "並列複句含有兩個或更多的主要子句。"
+    },
+    {
+      "word": "compound",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以文章辨識任務取代與名詞例句重複的構詞解說，中文不再不必要地夾英文。",
+      "fix": "The teacher asked us to identify compound words in the passage."
+    },
+    {
+      "word": "compound",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "老師要我們找出文章中的複合字。"
+    },
+    {
+      "word": "compound",
+      "path": "senses[2].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使惡化與使複雜在這些問題加劇的例句中重疊。",
+      "fix": "使惡化"
+    },
+    {
+      "word": "comprehension",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為理解或理解能力，未呈現閱讀測驗這類練習題的用法。",
+      "fix": "理解（力）"
+    },
+    {
+      "word": "conceal",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字可隱藏物體、情緒或資訊，主要概念不限於情緒。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "conduct",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "行為與舉止重疊，三句亦未呈現處理或管理活動的方式。",
+      "fix": "行為"
+    },
+    {
+      "word": "confine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "限制與侷限於重疊，另保留空間上的受困義。",
+      "fix": "限制；使困在某處"
+    },
+    {
+      "word": "confront",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "面對與正視重疊，而經理質問團隊並未涉及雙方對質。",
+      "fix": "面對；質問"
+    },
+    {
+      "word": "confrontation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為人際正面衝突，未分別呈現對峙或證據對質。",
+      "fix": "正面衝突"
+    },
+    {
+      "word": "contemporary",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為現代或當代義，補上與過去事件同時代的常用義。",
+      "fix": "The historian used contemporary diaries to study life in the eighteenth century."
+    },
+    {
+      "word": "contemporary",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這位歷史學家利用十八世紀當時的日記研究那個年代的生活。"
+    },
+    {
+      "word": "continental",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大陸與洲在這些地理義例句中重疊，保留歐陸的特定用法即可。",
+      "fix": "大陸的；歐陸的"
+    },
+    {
+      "word": "corporation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "企業與法人都比本字範圍更廣，合併為具法人資格的公司可避免誤導。",
+      "fix": "公司（具法人資格）"
+    },
+    {
+      "word": "correspondent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "特派員與記者在本字的新聞義重疊，以特派記者表達並保留通信者義。",
+      "fix": "特派記者；通信者"
+    },
+    {
+      "word": "corridor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指建築物走廊，與通道的近義表述應合併。",
+      "fix": "走廊"
+    },
+    {
+      "word": "courteous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有禮貌與謙恭在這些待人有禮的情境中重疊。",
+      "fix": "有禮貌的"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "晶體與結晶重疊，且第三句的水晶玻璃材料義未列出。",
+      "fix": "水晶；晶體；水晶玻璃"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句目標字修飾 glasses，改以介系詞後的獨立名詞清楚示範材料義。",
+      "fix": "The vase is made of crystal that shines under the lights."
+    },
+    {
+      "word": "crystal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這個花瓶用水晶玻璃製成，在燈光下閃耀。"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "補上最常用的材質形容詞義，避免把不自然的單獨用法當成清楚明瞭。",
+      "fix": "水晶製的；水晶玻璃製的"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句主要呈現 crystal clear 固定片語，改用典型的水晶製材質形容詞用法。",
+      "fix": "A crystal pendant hung from the thin chain around her neck."
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "一枚水晶墜飾掛在她頸間的細鍊上。"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "crystal explanation 並非自然搭配，改用典型材質用法。",
+      "fix": "The chandelier has crystal pieces that sparkle when the lights are on."
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這盞吊燈上有水晶玻璃飾片，開燈時會閃閃發亮。"
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "crystal voice 偏文學表述，改用考試常見的材質形容詞用法。",
+      "fix": "She served the juice in crystal glasses at the dinner party."
+    },
+    {
+      "word": "crystal",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她在晚宴上用水晶玻璃杯盛裝果汁。"
+    },
+    {
+      "word": "customs",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句沒有呈現已列出的關稅義，改用 pay customs 的常見搭配。",
+      "fix": "Importers must pay customs on certain goods brought into the country."
+    },
+    {
+      "word": "customs",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "進口商必須為某些輸入國內的貨物繳納關稅。"
+    },
+    {
+      "word": "decay",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指老橋的實體破敗，原衰退較易誤解為經濟或能力的衰退。",
+      "fix": "腐爛；逐漸破敗"
+    },
+    {
+      "word": "deceive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "欺騙與矇騙是同義表述，不應分列。",
+      "fix": "欺騙"
+    },
+    {
+      "word": "deceive",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明被笑容誤導的內容並示範典型的動詞搭配。",
+      "fix": "Her cheerful smile deceived us into thinking she was happy."
+    },
+    {
+      "word": "deceive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她開朗的笑容讓我們誤以為她很開心。"
+    },
+    {
+      "word": "declaration",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "宣告與聲明重疊，另以宣言明確涵蓋第三句的歷史文件義。",
+      "fix": "聲明；申報；宣言"
+    },
+    {
+      "word": "decline",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "婉拒及各種數量或狀況衰退不只用於工作，應歸一般抽象概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "democrat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "民主主義者與民主人士在本組例句中是同一概念。",
+      "fix": "民主主義者"
+    },
+    {
+      "word": "democrat",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "true 修飾民主主義者，不是修飾尊重投票的程度。",
+      "fix": "老師形容他是一位真正的民主主義者，尊重每個人的投票。"
+    },
+    {
+      "word": "depress",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "使沮喪與使低落重疊，且第三句的壓低價格義並非使經濟不景氣。",
+      "fix": "使沮喪；壓低"
+    },
+    {
+      "word": "deputy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "副手與副職重疊，保留代理人以區分代理職務的用法。",
+      "fix": "副手；代理人"
+    },
+    {
+      "word": "deputy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 deputy 修飾 manager，改以獨立名詞清楚示範本義項詞性。",
+      "fix": "The manager's deputy will lead the meeting while she is away."
+    },
+    {
+      "word": "deputy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "經理不在時，將由她的副手主持會議。"
+    },
+    {
+      "word": "deputy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 deputy 修飾 mayor，改用獨立名詞呈現代理人義。",
+      "fix": "The mayor sent a deputy to open the new library last week."
+    },
+    {
+      "word": "deputy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "市長上週派了一名代理人，為新圖書館揭幕。"
+    },
+    {
+      "word": "despair",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "失望不必然完全失去希望，與本字的絕望程度不同。",
+      "fix": "絕望"
+    },
+    {
+      "word": "despair",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "絕望與失去希望是同義表述，不應重複。",
+      "fix": "感到絕望"
+    },
+    {
+      "word": "destination",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "終點與目的地在這些旅遊例句中重疊。",
+      "fix": "目的地"
+    },
+    {
+      "word": "destructive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "破壞性與有害在本組例句中同指造成損害，不須重複分列。",
+      "fix": "有破壞性的"
+    },
+    {
+      "word": "destructive",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句涉及天災與健康損害，社會與法律的關聯較弱。",
+      "fix": [
+        "天氣與環境",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "devotion",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅泛指投入，補上已列出的忠誠義之典型搭配。",
+      "fix": "The dog's devotion to its owner never faded as it grew older."
+    },
+    {
+      "word": "devotion",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這隻狗年紀漸長，對主人的忠誠卻絲毫未減。"
+    },
+    {
+      "word": "dialect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "方言與地方話是同義表述，不應分列。",
+      "fix": "方言"
+    },
+    {
+      "word": "digestion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "消化與消化力在這些生理消化例句中重疊。",
+      "fix": "消化"
+    },
+    {
+      "word": "digestion",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以具體的消化生理情境取代未交代依據的早晨溫水改善消化推測。",
+      "fix": "The doctor explained how the stomach and intestines work together during digestion."
+    },
+    {
+      "word": "digestion",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "醫師解釋胃和腸道在消化過程中如何共同運作。"
+    },
+    {
+      "word": "disapprove",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不贊成與反對在這些例句中同義，合併即可。",
+      "fix": "不贊成"
+    },
+    {
+      "word": "disapprove",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school nights 指隔天要上學的晚上，不等於上學當天晚上。",
+      "fix": "我父母不贊成在隔天要上學的晚上熬夜。"
+    },
+    {
+      "word": "disconnect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "切斷過於籠統，與斷開連線合併可同時涵蓋實體連接及通訊。",
+      "fix": "斷開連接"
+    },
+    {
+      "word": "disconnect",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "disconnected 未指定拔除實體線材，也可能是解除連線，不應限定拔下來。",
+      "fix": "他中斷了印表機與電腦的連接。"
+    },
+    {
+      "word": "dissolve",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "第三句為煩惱自行消失的不及物用法，並非使某物消失。",
+      "fix": "溶解；解散；消失"
+    },
+    {
+      "word": "dissolve",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上攪拌的具體情境。",
+      "fix": "Sugar dissolves quickly in hot tea when you stir it gently."
+    },
+    {
+      "word": "dissolve",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "輕輕攪拌時，糖在熱茶中很快就會溶解。"
+    },
+    {
+      "word": "distinction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區別與差異重疊，且 with distinction 在畢業語境指成績優異。",
+      "fix": "區別；優異成績"
+    },
+    {
+      "word": "donate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捐贈與捐獻是同義表述，不須分列。",
+      "fix": "捐贈"
+    },
+    {
+      "word": "dreadful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "令人不快與糟糕在這些例句中重疊，合併即可。",
+      "fix": "可怕的；糟糕的"
+    },
+    {
+      "word": "dreadful",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依英文的味道與無法喝完之因果關係，以台灣常用的喝湯表達較清楚。",
+      "fix": "這碗湯味道很糟，所以我沒辦法喝完。"
+    },
+    {
+      "word": "drought",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "乾旱與旱災在這些缺水例句中重疊，合併即可。",
+      "fix": "乾旱"
+    },
+    {
+      "word": "elaborate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以典型的提出計畫搭配取代較籠統的 gave a plan，並交代聽眾。",
+      "fix": "She presented an elaborate plan for the school trip to the parents."
+    },
+    {
+      "word": "elaborate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她向家長提出一份詳盡的校外教學計畫。"
+    },
+    {
+      "word": "elaborate",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "精細或詳盡及詳細說明都不限於學校情境，應歸一般抽象概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "enthusiastic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熱情與熱衷在本組例句中重疊，合併可同時涵蓋興趣與投入的態度。",
+      "fix": "充滿熱忱的"
+    },
+    {
+      "word": "entitle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使有權利與給予資格在這些句子中重疊，另將命名限定為典型的作品標題用法。",
+      "fix": "賦予權利；為作品命名"
+    }
+  ]
+}
