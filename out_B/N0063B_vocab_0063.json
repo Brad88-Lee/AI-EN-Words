@@ -1,0 +1,684 @@
+{
+  "batch": "N0063",
+  "checked": 50,
+  "reviewed": [
+    "inviting",
+    "involvement",
+    "inward",
+    "iq",
+    "irresistible",
+    "irrespective",
+    "irrigation",
+    "irritation",
+    "jack",
+    "jaywalk",
+    "jeer",
+    "jeopardize",
+    "jerk",
+    "jersey",
+    "jobless",
+    "judiciary",
+    "jumper",
+    "justification",
+    "justified",
+    "kernel",
+    "killer",
+    "killing",
+    "know-how",
+    "knuckle",
+    "lame",
+    "lament",
+    "landing",
+    "large-scale",
+    "lash",
+    "lasting",
+    "latent",
+    "lava",
+    "lcd",
+    "lead-in",
+    "lee",
+    "left-wing",
+    "legislature",
+    "lesser",
+    "lever",
+    "levy",
+    "libel",
+    "liberalize",
+    "lifeboat",
+    "lighting",
+    "lightweight",
+    "lime",
+    "limousine",
+    "linear",
+    "lineup",
+    "linguist"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "inviting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項都在表達令人想接近或參與的吸引力，屬同義重複。",
+      "fix": "吸引人的"
+    },
+    {
+      "word": "inviting",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文 clear 描述水清澈，翻譯漏掉此意。",
+      "fix": "湖裡清涼又清澈的水看起來讓人很想下去。"
+    },
+    {
+      "word": "involvement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "涉入與牽連在此重疊，保留主動參與及事件牽連兩義。",
+      "fix": "參與；牽連"
+    },
+    {
+      "word": "inward",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "向內地與朝內是同義重複。",
+      "fix": "向內地"
+    },
+    {
+      "word": "iq",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "智商即智力商數的簡稱，兩項指同一概念。",
+      "fix": "智商"
+    },
+    {
+      "word": "iq",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "IQ 是測量結果而不是智力的一個組成部分，改為說明測驗衡量的面向。",
+      "fix": "Our teacher said that IQ tests measure only some aspects of intelligence."
+    },
+    {
+      "word": "iq",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "老師說，智商測驗只能測量智力的部分面向。"
+    },
+    {
+      "word": "irresistible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此皆描述吸引力強到難以抗拒，屬同義重複。",
+      "fix": "難以抗拒的"
+    },
+    {
+      "word": "irresistible",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文 smile 指笑臉，不能只泛稱模樣。",
+      "fix": "小狗那令人難以抗拒的笑臉讓我們想把牠帶回家。"
+    },
+    {
+      "word": "irrespective",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項重複，且不論的不是清楚的形容詞釋義，宜表達不受條件影響。",
+      "fix": "不受…影響的"
+    },
+    {
+      "word": "irrigation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句的系統來自 system，不能將整個複合詞的意思重複算入 irrigation。",
+      "fix": "灌溉"
+    },
+    {
+      "word": "irritation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指惹人厭的事物，原義項只列情緒及身體刺激，且不必然表示發炎。",
+      "fix": "惱怒；（皮膚等的）刺激不適；惱人的事物"
+    },
+    {
+      "word": "irritation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文僅說日曬造成刺激，未明說已經曬傷。",
+      "fix": "這款乳霜有助於減輕日曬造成的皮膚刺激不適。"
+    },
+    {
+      "word": "jaywalk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擅自容易誤解為未經同意，重點應是違反交通規定穿越馬路，並合併重複說法。",
+      "fix": "違規穿越馬路"
+    },
+    {
+      "word": "jeer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嘲笑與奚落在此為同義重複，統一為帶嘲弄意味的譏笑。",
+      "fix": "譏笑"
+    },
+    {
+      "word": "jeer",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一項未明確呈現名詞的聲音義，宜區分嘲笑聲與奚落的話。",
+      "fix": "嘲笑聲；奚落的話"
+    },
+    {
+      "word": "jeer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "一聲大聲的嘲笑用字重複而不自然。",
+      "fix": "房間後方傳來一聲響亮的譏笑。"
+    },
+    {
+      "word": "jeopardize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都表示使人事物陷入危險，屬同義重複。",
+      "fix": "危及"
+    },
+    {
+      "word": "jerk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩項重複，且公車向前晃動不是拉的動作，宜區分猛拉與猛然移動。",
+      "fix": "猛拉；猛然移動"
+    },
+    {
+      "word": "jerk",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩項可合併為突然猛動，並標示人物罵語的非正式貶義。",
+      "fix": "突然的猛動；混蛋（非正式貶義）"
+    },
+    {
+      "word": "jersey",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "jersey 也常指針織布料，原義項未列出，並合併運動衫與球衣的重複。",
+      "fix": "球衣；針織衫；針織布"
+    },
+    {
+      "word": "jersey",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原前兩句皆描述球衣，改用常見的針織布料用法以補足義項並增加情境。",
+      "fix": "Her new dress is made of soft, stretchy jersey."
+    },
+    {
+      "word": "jersey",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她的新洋裝是用柔軟、有彈性的針織布製成的。"
+    },
+    {
+      "word": "jobless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "失業與沒有工作在此是同一概念。",
+      "fix": "失業的"
+    },
+    {
+      "word": "jobless",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "參加就業博覽會的典型搭配是 attend a job fair，原句 joined 不自然。",
+      "fix": "Many jobless workers attended the job fair this weekend."
+    },
+    {
+      "word": "jobless",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "許多失業勞工參加了本週末的就業博覽會。"
+    },
+    {
+      "word": "judiciary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "宜區分司法機關與法官群體，避免把司法系統理解為涵蓋全部法律執行機構。",
+      "fix": "司法機關；全體法官"
+    },
+    {
+      "word": "judiciary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "司法獨立語境的 government 指行政當局，不表示司法位於整個政府體制之外。",
+      "fix": "司法機關獨立於行政部門。"
+    },
+    {
+      "word": "jumper",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉常見的美式無袖連身裙義，並應標明毛衣為英式用法及合併重複的跳躍者義。",
+      "fix": "套頭毛衣（英式）；無袖連身裙（美式）；跳躍者"
+    },
+    {
+      "word": "jumper",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以制服情境補足常見的美式無袖連身裙義，避免三句只涵蓋英式毛衣與重複的跳躍者用法。",
+      "fix": "The school uniform includes a blue jumper worn over a white shirt."
+    },
+    {
+      "word": "jumper",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這所學校的制服包含一件穿在白襯衫外的藍色無袖連身裙。"
+    },
+    {
+      "word": "jumper",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "最主要的衣物用法屬日常生活，運動跳躍者列為次要分類。",
+      "fix": [
+        "日常生活",
+        "運動與休閒"
+      ]
+    },
+    {
+      "word": "justification",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "理由與正當理由重複，且未限定正當性的理由範圍過廣。",
+      "fix": "正當理由；辯解"
+    },
+    {
+      "word": "justified",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都表示有合理依據或正當理由，屬同義重複。",
+      "fix": "有正當理由的"
+    },
+    {
+      "word": "killer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般 killer 指殺人兇手，不一定是職業殺手，宜明確列出一般殺人者義。",
+      "fix": "殺人兇手；致命的事物"
+    },
+    {
+      "word": "killer",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極出色的用法屬非正式語體，應明確標示以免與一般正式表達混淆。",
+      "fix": "致命的；極出色的（非正式）"
+    },
+    {
+      "word": "killer",
+      "path": "senses[1].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "killer weed spray 容易混淆除草用途與非正式強效讚語，改以典型致命疾病搭配呈現致命義。",
+      "fix": "The science lesson explained how killer diseases spread through communities."
+    },
+    {
+      "word": "killer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "科學課說明了致命疾病如何在社區傳播。"
+    },
+    {
+      "word": "killer",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "killer instinct 指強烈致勝本能，不能清楚呈現已列的致命或極出色義，改為中性的致命熱浪情境。",
+      "fix": "The weather report warned hikers about a killer heat wave."
+    },
+    {
+      "word": "killer",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "氣象報告提醒登山客留意致命的熱浪。"
+    },
+    {
+      "word": "killing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "殺害與殺戮重複，且大賺一筆是動詞片語，名詞義應指大筆獲利。",
+      "fix": "殺害；大筆獲利（非正式）"
+    },
+    {
+      "word": "know-how",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字重點是實際做事的知識與技能，原三項重疊且專門知識容易涵蓋純理論。",
+      "fix": "實務知識與技能"
+    },
+    {
+      "word": "knuckle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "指關節與指節在此為同義重複。",
+      "fix": "指關節"
+    },
+    {
+      "word": "lament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都在表達對失去或不足的事感到悲嘆，痛惜重複且未另呈現哀悼死者義。",
+      "fix": "悲嘆"
+    },
+    {
+      "word": "landing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "降落與著陸在此為同義重複。",
+      "fix": "降落；樓梯平台"
+    },
+    {
+      "word": "large-scale",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字強調活動或作業規模大，不是單一物件外形大型，且兩項重疊。",
+      "fix": "大規模的"
+    },
+    {
+      "word": "lash",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "名詞例句只呈現睫毛與鞭打動作，未以 lash 指鞭子本身。",
+      "fix": "睫毛；鞭打"
+    },
+    {
+      "word": "lasting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "持久與長久為同義重複。",
+      "fix": "持久的"
+    },
+    {
+      "word": "lava",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "lava 專指已噴出地表的熔岩，不能與地下 magma 的岩漿義混同。",
+      "fix": "熔岩（噴出地表的岩漿）"
+    },
+    {
+      "word": "lava",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文 lava 為地表熔岩，應與地下岩漿用語區別。",
+      "fix": "科學家從安全的距離觀察熔岩。"
+    },
+    {
+      "word": "lava",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "火山圖示主要表示火山或噴發，容易誤認為火山地形而非熔岩本身。",
+      "fix": null
+    },
+    {
+      "word": "lcd",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "對眼睛很溫和過度逐字翻譯，easy on the eyes 在螢幕語境表示看起來舒服。",
+      "fix": "這台筆電的液晶螢幕明亮，看起來很舒服。"
+    },
+    {
+      "word": "lead-in",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項在此都描述進入主題前的引導內容，屬同義重複。",
+      "fix": "引言"
+    },
+    {
+      "word": "lee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩項重複，庇護又過於廣泛，三句皆指不受風吹的背風處。",
+      "fix": "背風處"
+    },
+    {
+      "word": "lee",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅說 wind，未限定為強風。",
+      "fix": "船停泊在島的背風處以避風。"
+    },
+    {
+      "word": "lee",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示某物背風處的典型搭配為 in the lee of，原句 found a lee 不符合常見用法。",
+      "fix": "The sailors sheltered in the lee of the rocks until the storm passed."
+    },
+    {
+      "word": "lee",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "水手們躲在岩石的背風處，直到風暴過去。"
+    },
+    {
+      "word": "left-wing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "左翼與左派為同義重複。",
+      "fix": "左翼的"
+    },
+    {
+      "word": "legislature",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此皆指制定法律的機關，屬同義重複。",
+      "fix": "立法機關"
+    },
+    {
+      "word": "lesser",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "較小與較少在此都表示數量或程度較低，合併並保留重要性較低的意思。",
+      "fix": "較小的；次要的"
+    },
+    {
+      "word": "lesser",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示損害較少通常用 less damage，改以典型的 lesser intensity 搭配呈現較小程度。",
+      "fix": "The second storm was of lesser intensity than the first."
+    },
+    {
+      "word": "lesser",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "第二場暴風雨的強度比第一場弱。"
+    },
+    {
+      "word": "lever",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "撬開是以槓桿撬動後的結果，兩項在此重複。",
+      "fix": "用槓桿撬動"
+    },
+    {
+      "word": "levy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指徵收的稅費，徵收額重複，徵稅又容易誤作動作義。",
+      "fix": "徵收的稅費"
+    },
+    {
+      "word": "levy",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句徵收費用，第三句處以罰款，不能只限定稅款。",
+      "fix": "課徵（稅費等）；處以（罰款）"
+    },
+    {
+      "word": "libel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項重複，且單寫誹謗容易混入口頭毀謗，宜保留書面形式的區別。",
+      "fix": "書面誹謗"
+    },
+    {
+      "word": "lighting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "照明與燈光在此重疊，保留照明效果與設備兩義。",
+      "fix": "照明；照明設備"
+    },
+    {
+      "word": "lightweight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "輕便不一定只指重量，此字在三句都指重量輕，並合併重複說法。",
+      "fix": "重量輕的"
+    },
+    {
+      "word": "lightweight",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句指輕量級這個量級，第三句則指體重輕的人，不能只限定輕量級選手。",
+      "fix": "輕量級；體重較輕的人；無足輕重的人物（貶義）"
+    },
+    {
+      "word": "lightweight",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只依體重描述輕盈的人，未說明是某個固定競技量級的選手。",
+      "fix": "她只有四十五公斤，是個體重較輕的人。"
+    },
+    {
+      "word": "lime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "萊姆與青檸指同一水果，保留台灣慣用的萊姆並刪除重複。",
+      "fix": "萊姆；石灰"
+    },
+    {
+      "word": "lime",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "on the soil 表示撒在土壤表面，不是土壤裡。",
+      "fix": "農夫把石灰撒在土壤上，幫助植物生長。"
+    },
+    {
+      "word": "linear",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的故事 linear order 指依順序發展，不能只列幾何或數學的線性義。",
+      "fix": "直線的；線性的；按順序發展的"
+    },
+    {
+      "word": "linear",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "故事的 linear order 指時間或事件順序，直線順序不是自然中文。",
+      "fix": "這個故事並不是依照時間先後順序從頭說到尾。"
+    },
+    {
+      "word": "lineup",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指電視節目表，單寫排列不清楚，應明確列出。",
+      "fix": "陣容；節目表；（供警方指認的）列隊"
+    },
+    {
+      "word": "lineup",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未呈現已列出的警方指認列隊義，改寫重複的表演陣容情境以補足。",
+      "fix": "The witness identified the suspect in a lineup at the police station."
+    },
+    {
+      "word": "lineup",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "目擊者在警局的指認列隊中認出了嫌疑人。"
+    }
+  ]
+}
