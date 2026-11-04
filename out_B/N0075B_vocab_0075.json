@@ -1,0 +1,750 @@
+{
+  "batch": "N0075",
+  "checked": 50,
+  "reviewed": [
+    "thunderbolt",
+    "thunderous",
+    "timeless",
+    "timely",
+    "timeout",
+    "timer",
+    "timing",
+    "tinkle",
+    "tint",
+    "toad",
+    "toady",
+    "toddle",
+    "toddler",
+    "toil",
+    "tollbooth",
+    "tollway",
+    "tonic",
+    "tonne",
+    "topical",
+    "topping",
+    "topple",
+    "touching",
+    "touchy",
+    "township",
+    "tract",
+    "tractor",
+    "trade-in",
+    "trade-off",
+    "trailer",
+    "trainee",
+    "traitorous",
+    "tramp",
+    "trample",
+    "tranquil",
+    "tranquilize",
+    "tranquilizer",
+    "transcend",
+    "transcendent",
+    "transcribe",
+    "transcription",
+    "transformer",
+    "transient",
+    "transistor",
+    "transparency",
+    "traumatic",
+    "traverse",
+    "treacherous",
+    "tread",
+    "treason",
+    "tremor"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "thunderbolt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "雷電與霹靂重複，保留雷擊與比喻突發消息兩類用法。",
+      "fix": "霹靂；驚人的突發消息"
+    },
+    {
+      "word": "thunderous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "如雷與轟隆作響描述相同的巨大聲響，應合併。",
+      "fix": "如雷般響亮的"
+    },
+    {
+      "word": "timeless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指價值或吸引力不隨時間減退，永恆與不受時間影響為重複釋義。",
+      "fix": "歷久不衰的"
+    },
+    {
+      "word": "timely",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "及時與適時為近義釋詞，應合併。",
+      "fix": "及時的"
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應合併近義釋詞並標明副詞較常見的美式正式語域。",
+      "fix": "及時地（美式正式用法）"
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "副詞 timely 較常見於正式美式法律文字，原日常抵達情境不典型。",
+      "fix": "The court accepted the appeal because it had been timely filed."
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "法院受理這件上訴，因為它是在法定期限內提出的。"
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "副詞 timely 宜用於正式法律或行政語境，改用典型稅務期限搭配。",
+      "fix": "The company was fined because it failed to timely pay its taxes."
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那家公司未及時繳稅，因此受罰。"
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "改以行政規範呈現 timely 的正式副詞用法，避免日常說法生硬。",
+      "fix": "Employees must timely report workplace accidents to comply with the safety policy."
+    },
+    {
+      "word": "timely",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "員工必須及時通報職場事故，以遵守安全規定。"
+    },
+    {
+      "word": "timeout",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "比賽暫停不同於中場休息，第三句也用到管教上的暫時冷靜時間。",
+      "fix": "暫停；逾時；冷靜時間（管教用）"
+    },
+    {
+      "word": "timer",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句在開始製作蛋糕前計時的目的不明，改為入爐時計時的典型烘焙情境。",
+      "fix": "Set the timer for ten minutes when you put the cookies in the oven."
+    },
+    {
+      "word": "timer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "把餅乾放進烤箱時，將計時器設成十分鐘。"
+    },
+    {
+      "word": "timing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "會議例句為時間安排，舞者例句為節奏掌握，三句均未呈現測量時間的計時義。",
+      "fix": "時機；時間安排；節奏掌握"
+    },
+    {
+      "word": "tinkle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發出叮噹聲與叮噹作響為同義表達，應合併。",
+      "fix": "叮噹作響"
+    },
+    {
+      "word": "tinkle",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "六句均為鈴鐺、冰塊、手鐲或玻璃器物的日常聲響，藝術文化關聯薄弱。",
+      "fix": [
+        "日常生活"
+      ]
+    },
+    {
+      "word": "tint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "淡淡的顏色與色調重複，第三句也證明此字不一定限定淺色。",
+      "fix": "色調"
+    },
+    {
+      "word": "tint",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "給物體染上淡色與著色重複，而且車窗處理不一定是淡色。",
+      "fix": "著色"
+    },
+    {
+      "word": "tint",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只說車窗帶有深色色調，未限定貼膜方法或隔熱功能。",
+      "fix": "這輛車的車窗呈深色。"
+    },
+    {
+      "word": "tint",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tint windows 未必是貼隔熱紙，應避免增加特定施工方法及功能。",
+      "fix": "這間店可以在一天內完成你的車窗著色處理。"
+    },
+    {
+      "word": "toad",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蟾蜍與癩蝦蟆為同義名稱，應合併。",
+      "fix": "蟾蜍"
+    },
+    {
+      "word": "toady",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "馬屁精與諂媚者指相同的人，應合併。",
+      "fix": "馬屁精"
+    },
+    {
+      "word": "toady",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "諂媚與奉承為相近釋義，應合併。",
+      "fix": "諂媚"
+    },
+    {
+      "word": "toady",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tends to 表示傾向，不能誇大為總是。",
+      "fix": "他往往會向有權力的人阿諛奉承。"
+    },
+    {
+      "word": "toddle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句的學步與搖晃走路重複，第三句則用到口語的悠閒散步義。",
+      "fix": "蹣跚學步；悠閒散步（口語）"
+    },
+    {
+      "word": "toil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "辛勤工作與艱苦勞動為同義表達，應合併。",
+      "fix": "辛勤勞動"
+    },
+    {
+      "word": "toil",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "辛勞與苦工在三句皆指費力的勞動，應合併。",
+      "fix": "辛勞"
+    },
+    {
+      "word": "tollbooth",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "booth 指具體亭舍，與可能包含多座亭舍的整個收費站應區分。",
+      "fix": "收費亭"
+    },
+    {
+      "word": "tonic",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補品與補藥重複，鄉間週末的例句則用到振奮精神的比喻義。",
+      "fix": "滋補品；振奮精神的事物；通寧水"
+    },
+    {
+      "word": "topical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "時事與當前熱門重複，藥膏語境則須明示局部外用而非泛指局部。",
+      "fix": "時事的；局部外用的"
+    },
+    {
+      "word": "topping",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般配料可能在內餡中，頂層裝飾又未充分表達可食配料，應明示表面位置。",
+      "fix": "鋪在食物表面的配料"
+    },
+    {
+      "word": "topple",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應同時涵蓋及物與不及物的倒下，並保留比喻推翻優勢地位的用法。",
+      "fix": "（使）倒下；推翻"
+    },
+    {
+      "word": "topple",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原前兩句皆為使物體倒下，改明示常見的不及物倒下用法。",
+      "fix": "The stack of books toppled when the boy bumped into the table."
+    },
+    {
+      "word": "topple",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "男孩撞到桌子時，那疊書倒了下來。"
+    },
+    {
+      "word": "touching",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "感人與動人為同義詞，應合併。",
+      "fix": "感人的"
+    },
+    {
+      "word": "touchy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分人的易怒與話題敏感，避免把敏感誤讀為感官敏感，棘手也不是一般困難。",
+      "fix": "易動怒的；需謹慎處理的"
+    },
+    {
+      "word": "township",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "low",
+      "detail": "中文義項的括號應依全形標點規則修正。",
+      "fix": "鄉鎮；（美國的）鎮區"
+    },
+    {
+      "word": "tract",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "身體的道過於籠統，小冊子也應明示傳播觀點或倡議的用途。",
+      "fix": "大片土地；體內的管道系統；宣傳小冊"
+    },
+    {
+      "word": "tractor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "拖拉機與曳引機為同義名稱，應保留台灣慣用的曳引機。",
+      "fix": "曳引機"
+    },
+    {
+      "word": "tractor",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句比較機器與犁田活動，應改為使用機器與人力犁田兩種方式的平行比較。",
+      "fix": "Using a tractor is much faster than plowing a field by hand."
+    },
+    {
+      "word": "tractor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "使用曳引機犁田，比以人力犁田快得多。"
+    },
+    {
+      "word": "trade-in",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指拿來折抵的物品，原義項僅列交換方式，應補足物件義。",
+      "fix": "以舊換新；折抵用的舊物"
+    },
+    {
+      "word": "trade-in",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句未指明折抵品是汽車，不能直接增加舊車。",
+      "fix": "我爸爸拿舊物折抵時，得到了不錯的價錢。"
+    },
+    {
+      "word": "trade-off",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "權衡與取捨相近，此字著重為得到某物而犧牲另一物的取捨結果。",
+      "fix": "取捨"
+    },
+    {
+      "word": "trade-off",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 a trade-off with sleep 未清楚說明交換的兩項，改用典型 between 與 and 句型。",
+      "fix": "Studying late involves a trade-off between extra preparation and enough sleep."
+    },
+    {
+      "word": "trade-off",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "熬夜讀書必須在多做準備與充足睡眠之間取捨。"
+    },
+    {
+      "word": "trailer",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句是供居住的拖車屋，原義項未明列該常用意思。",
+      "fix": "拖車；預告片；拖車屋"
+    },
+    {
+      "word": "trainee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指正在接受訓練的人，不一定具有學生實習身分，應用通用角色名稱。",
+      "fix": "受訓人員"
+    },
+    {
+      "word": "trainee",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句未限定為學生實習，受訓人員能保留 trainee 的一般身分。",
+      "fix": "新來的受訓人員正在學習怎麼使用收銀機。"
+    },
+    {
+      "word": "trainee",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只指定受訓角色，不能限縮為學生實習身分。",
+      "fix": "她一開始是旅行社的受訓人員。"
+    },
+    {
+      "word": "traitorous",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上發現祕密協議後革職的中性歷史情境。",
+      "fix": "The king dismissed the traitorous minister after discovering his secret agreement."
+    },
+    {
+      "word": "traitorous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "國王發現那位叛國大臣的祕密協議後，將他革職。"
+    },
+    {
+      "word": "tramp",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人物稱呼帶有過時或貶抑語感，應標明語域以免誤作一般中性稱呼。",
+      "fix": "流浪漢（舊稱，可能帶貶意）；長途步行"
+    },
+    {
+      "word": "trample",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "踐踏與踩踏為同義詞，應合併。",
+      "fix": "踩踏"
+    },
+    {
+      "word": "tranquil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指寧靜平和的情境，寧靜與平靜為相近釋義，應合併。",
+      "fix": "寧靜的"
+    },
+    {
+      "word": "tranquilize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藥物鎮靜不限定口服，給服鎮靜劑的釋義過窄，應保留一般與藥物兩種用法。",
+      "fix": "使鎮靜；施用鎮靜劑"
+    },
+    {
+      "word": "tranquilize",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文未指定注射途徑，不能直接增加施打。",
+      "fix": "獸醫必須給受傷的馬使用鎮靜劑。"
+    },
+    {
+      "word": "tranquilizer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "gave a tranquilizer 未指定注射方式，應避免增加給藥途徑。",
+      "fix": "獸醫在搬動獅子前給牠使用了鎮靜劑。"
+    },
+    {
+      "word": "transcend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "超越與超出範圍為重複釋義，應合併。",
+      "fix": "超越"
+    },
+    {
+      "word": "transcendent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "卓越與超凡在三句皆指超乎尋常的出色或感受，應合併。",
+      "fix": "超凡的"
+    },
+    {
+      "word": "transcribe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抄寫與謄寫重複，保留文字謄寫與語音轉成文字兩類用法。",
+      "fix": "謄寫；把聲音轉成文字"
+    },
+    {
+      "word": "transcription",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分轉錄過程與產生的文稿，謄寫與轉錄的近義釋詞不宜並列混淆。",
+      "fix": "文字轉錄；轉錄稿"
+    },
+    {
+      "word": "transcription",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "演講轉成文字應明確稱文字轉錄，謄寫易讓人誤認為只抄既有書面稿。",
+      "fix": "這段演講的文字轉錄花了兩個小時。"
+    },
+    {
+      "word": "transcription",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處是轉錄產物，應用轉錄稿與轉錄動作區分。",
+      "fix": "請檢查這份轉錄稿有沒有錯誤。"
+    },
+    {
+      "word": "transformer",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "改以典型的電力裝置例句呈現後，改革者義不再有例句且不是教材常見用法。",
+      "fix": "變壓器"
+    },
+    {
+      "word": "transformer",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "把校長稱作 transformer of the school 不典型，改用電力設備的常見情境。",
+      "fix": "The technician replaced the transformer to restore power to the building."
+    },
+    {
+      "word": "transformer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "技師更換變壓器，讓大樓恢復供電。"
+    },
+    {
+      "word": "transient",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "短暫與暫時為相近釋義，應合併。",
+      "fix": "短暫的"
+    },
+    {
+      "word": "transient",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "transient 表示持續短暫，不等於天氣多變，改用短暫緩解暑熱的自然搭配。",
+      "fix": "The rain brought only transient relief from the summer heat."
+    },
+    {
+      "word": "transient",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這場雨只為夏季的酷熱帶來短暫緩解。"
+    },
+    {
+      "word": "transistor",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句目標字修飾 radio，改直接用名詞指收音機，使第二個已列義項明確。",
+      "fix": "My grandfather still listens to the news on his old transistor."
+    },
+    {
+      "word": "transistor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我爺爺仍用他那台舊電晶體收音機聽新聞。"
+    },
+    {
+      "word": "transparency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應以名詞表達公開程度，並區分實體透明投影片與一般數位簡報投影片。",
+      "fix": "透明度；公開程度；透明投影片"
+    },
+    {
+      "word": "traumatic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "令人痛苦過於寬泛，三句均指令人受到心理創傷的經歷，應明確表達強度。",
+      "fix": "造成心理創傷的"
+    },
+    {
+      "word": "traumatic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "traumatic 不僅是一般痛苦，原譯未充分表達心理創傷的影響。",
+      "fix": "轉學對某些學生來說，可能造成心理創傷。"
+    },
+    {
+      "word": "traumatic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯只寫令人痛苦，未充分呈現 traumatic 所表達的創傷。",
+      "fix": "她仍記得暴風雨中那個令她深受創傷的夜晚。"
+    },
+    {
+      "word": "traverse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "穿越、橫越與橫渡為相近釋義，三句也沒有跨水域的橫渡用法。",
+      "fix": "橫越"
+    },
+    {
+      "word": "treacherous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人的用法著重背信而非一般不可靠，應合併重疊並保留地形危險與人際背叛。",
+      "fix": "危險的；背叛的"
+    },
+    {
+      "word": "treacherous",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "treacherous 強調背叛信任，原譯不可靠不足以表達該行為。",
+      "fix": "一個背信的朋友把她的祕密告訴了所有人。"
+    },
+    {
+      "word": "tread",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "踩與踏為同義詞，應合併。",
+      "fix": "踩踏；行走"
+    },
+    {
+      "word": "tread",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句用到鞋底紋路，原義只限輪胎，應補足。",
+      "fix": "腳步聲；輪胎胎面；鞋底紋路"
+    },
+    {
+      "word": "treason",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為對國家的叛國犯罪，沒有一般人際背叛義。",
+      "fix": "叛國罪"
+    },
+    {
+      "word": "tremor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般震動與顫抖或輕微地震的釋義重疊，保留人體與地震兩類實際用法。",
+      "fix": "顫抖；輕微地震"
+    },
+    {
+      "word": "tremor",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "兩句為聲音或手部顫抖，健康與身體比籠統的科學更貼近主要用法。",
+      "fix": [
+        "健康與身體",
+        "天氣與環境"
+      ]
+    }
+  ]
+}
