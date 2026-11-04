@@ -2,13 +2,13 @@
  "schema_version": 1,
  "round": "0074",
  "total_rounds": 118,
- "stage": "A",
+ "stage": "B",
  "status": "waiting",
  "attempt": 1,
  "last_failure_report": null,
  "last_error_signature": null,
- "stage_started_at": "2026-11-05T01:10:47+08:00",
- "deadline_at": "2026-11-05T04:10:47+08:00",
+ "stage_started_at": "2026-11-05T01:13:42+08:00",
+ "deadline_at": "2026-11-05T06:13:42+08:00",
  "last_ok_round": "0073",
  "skipped_rounds": [],
  "consecutive_human_rounds": 0,
@@ -231,13 +231,16 @@
   "N0072C": "7f8ce0e7da03bce83661dc8c249239585505c53b3e9497eba9655f2886cd25dc",
   "N0073A": "ddd0d2e856f3efe376ee7bb39802b6abd98b88b531e07defc9908b6365b7c362",
   "N0073B": "6ded2dab6b6fa09720d3ae401ba28a6b139e3e3e744ceead17e72ff9d2f8d379",
-  "N0073C": "5558bc20307cabbc3167b97ffbf5a89afe62f8cf29563d4dc50640e42b1935a7"
+  "N0073C": "5558bc20307cabbc3167b97ffbf5a89afe62f8cf29563d4dc50640e42b1935a7",
+  "N0074A": "f5058abfdbde9f6aa17f30595421d7d27c1f1f2c4891a6b1f4e8c03ec08bdcba"
  },
  "open_issue": null,
- "updated_at": "2026-11-05T01:10:47+08:00",
+ "updated_at": "2026-11-05T01:13:42+08:00",
  "round_stats": {
   "started_at": "2026-11-05T01:10:47+08:00",
-  "attempts": {},
+  "attempts": {
+   "A": 1
+  },
   "human_actions": 0,
   "human_in_round": false
  },
