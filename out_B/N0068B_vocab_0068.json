@@ -1,0 +1,828 @@
+{
+  "batch": "N0068",
+  "checked": 50,
+  "reviewed": [
+    "preface",
+    "preposition",
+    "president-elect",
+    "prestigious",
+    "pretext",
+    "prevailing",
+    "prevalent",
+    "prick",
+    "primarily",
+    "pro",
+    "probability",
+    "proceeding",
+    "proceeds",
+    "processor",
+    "proficient",
+    "proliferate",
+    "pronoun",
+    "prop",
+    "propagate",
+    "propeller",
+    "proportional",
+    "proposition",
+    "prosecutor",
+    "prostitute",
+    "prostitution",
+    "provided",
+    "provocative",
+    "prowl",
+    "proximity",
+    "prune",
+    "psychiatric",
+    "psychiatrist",
+    "punk",
+    "purely",
+    "put-down",
+    "putt",
+    "quack",
+    "qualifier",
+    "qualitative",
+    "quantify",
+    "quantitative",
+    "quantum",
+    "quarrelsome",
+    "quart",
+    "quarter-final",
+    "quarterly",
+    "quartet",
+    "quartz",
+    "quench",
+    "query"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "preface",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "序言與前言是同義詞，應合併。",
+      "fix": "序言"
+    },
+    {
+      "word": "preface",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為以某事開場，未呈現為書寫序的意思。",
+      "fix": "以…開場"
+    },
+    {
+      "word": "preposition",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句未提供所指的句子，應補上可獨立理解的語法例子。",
+      "fix": "In the sentence \"The book is on the desk,\" the word \"on\" is a preposition."
+    },
+    {
+      "word": "preposition",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "在「The book is on the desk」這個句子中，「on」是介系詞。"
+    },
+    {
+      "word": "president-elect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個中文詞皆指當選後尚未就任的總統，義項重複。",
+      "fix": "候任總統"
+    },
+    {
+      "word": "prestigious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "著名不一定具有受人尊敬的聲望，應保留精準的中文義。",
+      "fix": "有聲望的"
+    },
+    {
+      "word": "pretext",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藉口與託辭為同義詞，應合併。",
+      "fix": "藉口"
+    },
+    {
+      "word": "pretext",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯的理由未表達 pretext 帶有掩飾真正動機的藉口之意。",
+      "fix": "公司沒有任何削減我們薪水的藉口。"
+    },
+    {
+      "word": "prevailing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上規定現行有效的意思，並合併普遍與主要等重疊釋義。",
+      "fix": "盛行的；現行的"
+    },
+    {
+      "word": "prevalent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "普遍與流行在本組例句皆指廣泛存在，應合併。",
+      "fix": "普遍的"
+    },
+    {
+      "word": "prevalent",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明比較對象以形成完整的季節比較。",
+      "fix": "Colds are more prevalent in winter than in the warmer months."
+    },
+    {
+      "word": "prevalent",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "感冒在冬天比在較溫暖的月份更為普遍。"
+    },
+    {
+      "word": "prick",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺與扎的意思重複，合併並保留輕刺的語意。",
+      "fix": "輕刺"
+    },
+    {
+      "word": "prick",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見的粗俗貶稱，並以中性語言教學例句標明語域。",
+      "fix": "刺痛；混蛋（粗俗貶稱）"
+    },
+    {
+      "word": "prick",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "改以中性語言教學例句呈現常見貶稱及其冒犯性。",
+      "fix": "The teacher warned that calling someone a prick is rude and offensive."
+    },
+    {
+      "word": "prick",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "老師提醒，稱別人為「混蛋」既粗魯又冒犯。"
+    },
+    {
+      "word": "primarily",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指主要原因或內容，首要地與主要地重複。",
+      "fix": "主要地"
+    },
+    {
+      "word": "pro",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見片語優缺點中的優點義，並合併專業人士與其職業選手子類。",
+      "fix": "專業人士（含職業選手）；優點"
+    },
+    {
+      "word": "pro",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "三句原皆為專業人士義，改以典型片語補足優點義。",
+      "fix": "We discussed the pros and cons of buying a used car."
+    },
+    {
+      "word": "pro",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我們討論了購買二手車的優缺點。"
+    },
+    {
+      "word": "probability",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本組例句的可能性與機率均指事件發生的可能程度，應合併。",
+      "fix": "機率"
+    },
+    {
+      "word": "proceeding",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流程過於籠統，且需涵蓋懲處程序與學術會議出版物。",
+      "fix": "法律或行政程序；會議紀錄或論文集"
+    },
+    {
+      "word": "proceeds",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "收益與所得款項重複，保留不易與淨利混淆的釋義。",
+      "fix": "所得款項"
+    },
+    {
+      "word": "processor",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "例句分別出現電腦處理器、食物調理機和文書處理軟體，原義未涵蓋機器與軟體。",
+      "fix": "處理器；加工機器；處理軟體"
+    },
+    {
+      "word": "processor",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上處理大型檔案的電腦使用情境。",
+      "fix": "This laptop has a fast processor that can handle large files."
+    },
+    {
+      "word": "processor",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這台筆記型電腦有速度很快的處理器，能處理大型檔案。"
+    },
+    {
+      "word": "proficient",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熟練與精通在此均指具備良好技能，應合併。",
+      "fix": "熟練的"
+    },
+    {
+      "word": "propagate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傳播與散播為同義詞，應合併。",
+      "fix": "繁殖；傳播"
+    },
+    {
+      "word": "propeller",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推進器的範圍比螺旋槳更廣，三句皆明確使用螺旋槳義。",
+      "fix": "螺旋槳"
+    },
+    {
+      "word": "propeller",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上啟動引擎的飛行情境。",
+      "fix": "The plane's propeller began to spin as the pilot started the engine."
+    },
+    {
+      "word": "propeller",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "飛行員啟動引擎時，飛機的螺旋槳開始轉動。"
+    },
+    {
+      "word": "proportional",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相稱與成比例在此為同一比例關係，應合併。",
+      "fix": "成比例的"
+    },
+    {
+      "word": "proposition",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指待處理的事情，原義項未列出，且三句未呈現形式邏輯命題義。",
+      "fix": "提議；主張；待處理的事"
+    },
+    {
+      "word": "prosecutor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指檢察官，起訴人易與其他提起訴訟者混淆。",
+      "fix": "檢察官"
+    },
+    {
+      "word": "prostitute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "娼妓與賣淫者指同一身分，應合併。",
+      "fix": "賣淫者"
+    },
+    {
+      "word": "prostitution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "賣淫與娼妓業為重疊釋義，三句皆以賣淫活動為重點。",
+      "fix": "賣淫"
+    },
+    {
+      "word": "prostitution",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，改為中性完整的法律比較情境。",
+      "fix": "Laws on prostitution differ widely from one country to another."
+    },
+    {
+      "word": "prostitution",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "各國關於賣淫的法律差異很大。"
+    },
+    {
+      "word": "provided",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此連接詞表示必要條件，單寫假如不足以表達其條件限制。",
+      "fix": "只要"
+    },
+    {
+      "word": "provocative",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句用了引發思考的意思，應補列並移除未呈現的煽動義。",
+      "fix": "挑釁的；引發爭議的；發人深省的"
+    },
+    {
+      "word": "proximity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "接近與鄰近重複，且名詞應明示距離接近的程度。",
+      "fix": "鄰近程度"
+    },
+    {
+      "word": "proximity",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句先說離車站近再重複其接近是一大優點，改用典型的鄰近某處搭配。",
+      "fix": "The hotel's proximity to the station makes it convenient for travelers."
+    },
+    {
+      "word": "proximity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "旅館鄰近車站，對旅客來說很方便。"
+    },
+    {
+      "word": "prune",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "prune 是乾燥的李子，不能與其他梅類製品混為一談。",
+      "fix": "李子乾"
+    },
+    {
+      "word": "prune",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "prunes 應譯為李子乾，避免與梅乾混淆。",
+      "fix": "我奶奶每天早上都會吃幾顆李子乾。"
+    },
+    {
+      "word": "prune",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，並須明確區分李子乾汁與梅汁。",
+      "fix": "She drinks prune juice with breakfast to help her digestion."
+    },
+    {
+      "word": "prune",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她吃早餐時會喝李子乾汁，幫助消化。"
+    },
+    {
+      "word": "psychiatrist",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "一般醫師與病人交談的畫面無法辨識精神科醫師的專科身分。",
+      "fix": null
+    },
+    {
+      "word": "punk",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為龐克音樂或其樂迷，沒有呈現小混混義。",
+      "fix": "龐克音樂；龐克樂迷"
+    },
+    {
+      "word": "purely",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "完全與純粹在三句皆表示僅出於某因素，應合併。",
+      "fix": "純粹地"
+    },
+    {
+      "word": "put-down",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞指一次貶抑人的言語，而非未標明言語形式的貶低行為。",
+      "fix": "貶抑的話"
+    },
+    {
+      "word": "putt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此名詞指一次推擊，不是球桿本身，短桿也不是該擊球方式的精準釋義。",
+      "fix": "推桿一擊"
+    },
+    {
+      "word": "putt",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明決勝推桿進洞的運動情境。",
+      "fix": "Her final putt went into the hole and won her the game."
+    },
+    {
+      "word": "putt",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她最後一次推桿將球送進洞，讓她贏得比賽。"
+    },
+    {
+      "word": "quack",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上走近鴨子時聽見叫聲的情境。",
+      "fix": "The duck let out a loud quack when we approached."
+    },
+    {
+      "word": "quack",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我們走近時，那隻鴨子發出響亮的呱呱聲。"
+    },
+    {
+      "word": "quack",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上餵食時鴨子鳴叫的情境。",
+      "fix": "The ducks quack loudly whenever we bring food to the pond."
+    },
+    {
+      "word": "quack",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "每當我們帶食物到池塘時，鴨子就會大聲呱呱叫。"
+    },
+    {
+      "word": "quack",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義是鴨子的叫聲，白鴨照片只能呈現動物而不能呈現聲音。",
+      "fix": null
+    },
+    {
+      "word": "qualifier",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "限定詞未精確對應程度修飾語，第三句的取得資格者也漏列，資格賽與預選賽應合併。",
+      "fix": "修飾語；資格賽；取得參賽資格者"
+    },
+    {
+      "word": "qualitative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區別非數量的質性研究與本質差異兩種用法。",
+      "fix": "質性的；性質上的"
+    },
+    {
+      "word": "qualitative",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "qualitative difference 指性質上的差異，原譯多加的品質限制可能誤導為品質優劣。",
+      "fix": "這兩項產品有本質上的差異。"
+    },
+    {
+      "word": "quantify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "計算數量與量化釋義重複，應合併。",
+      "fix": "量化"
+    },
+    {
+      "word": "quantitative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "量的與定量的在此均指以數量表示或研究，應合併。",
+      "fix": "量化的"
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均未使用一定數量的意思，應移除未呈現的定量義。",
+      "fix": "量子"
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "量子不是所有情況下共同固定的最小能量，應改用光子的具體科學定義。",
+      "fix": "A photon is a quantum of light with a specific energy."
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "光子是具有特定能量的光量子。"
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "名詞義項應以獨立的量子為例，避免與下一義項的形容詞修飾用法重複。",
+      "fix": "Each quantum of light carries energy that depends on its frequency."
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "每個光量子攜帶的能量取決於它的頻率。"
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "名詞義項應以獨立的量子為例，避免與下一義項的形容詞修飾用法重複。",
+      "fix": "The detector can record a single quantum of light."
+    },
+    {
+      "word": "quantum",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這個偵測器能記錄單一光量子。"
+    },
+    {
+      "word": "quantum",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明量子物理學的研究用途。",
+      "fix": "Quantum physics helps scientists explain how atoms and smaller particles behave."
+    },
+    {
+      "word": "quantum",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "量子物理學有助於科學家解釋原子與更小粒子的行為。"
+    },
+    {
+      "word": "quarrelsome",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "好爭吵與愛吵架為同義詞，應合併。",
+      "fix": "愛吵架的"
+    },
+    {
+      "word": "quarrelsome",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上鄰居爭執停車位置的具體情境。",
+      "fix": "Our quarrelsome neighbors often argue about where to park their cars."
+    },
+    {
+      "word": "quarrelsome",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我們那些愛吵架的鄰居經常為了停車位置爭吵。"
+    },
+    {
+      "word": "quarter-final",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "八強賽與四分之一決賽為同一賽程階段，應合併。",
+      "fix": "八強賽"
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "每季與季度的意思重複，應合併。",
+      "fix": "每季的"
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明比較基期以形成完整業績敘述。",
+      "fix": "The company's quarterly sales rose by five percent compared with the previous quarter."
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "公司本季的銷售額較上一季成長百分之五。"
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上學生投稿的校刊情境。",
+      "fix": "The school magazine is published quarterly and features articles by students."
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這本校刊每季出版一次，刊登學生撰寫的文章。"
+    },
+    {
+      "word": "quarterly",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只對比兩種繳租頻率，沒有改變原有繳租方式的時間語意。",
+      "fix": "租金每季繳交一次，而非每月繳交。"
+    },
+    {
+      "word": "quartet",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "音樂例句皆指四位演奏者組成的團體，不能只列音樂作品或演奏形式的四重奏。",
+      "fix": "四重奏團；四人組"
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上手錶走時的使用情境。",
+      "fix": "This watch has a quartz movement that keeps accurate time."
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這支手錶採用石英機芯，走時準確。"
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "石英是礦物，原句以透明石頭定義易誤導為所有石英都透明。",
+      "fix": "Quartz is a hard mineral often found in sand and rocks."
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "石英是一種堅硬的礦物，常見於沙與岩石中。"
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "quartz 為物質名詞，應以一塊石英表達數量。",
+      "fix": "She bought a ring set with a piece of pink quartz."
+    },
+    {
+      "word": "quartz",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她買了一枚鑲有一塊粉紅石英的戒指。"
+    },
+    {
+      "word": "quench",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上阻止火勢蔓延的中性消防情境。",
+      "fix": "The firefighters quenched the flames before they could spread to nearby houses."
+    },
+    {
+      "word": "quench",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "消防員在火焰蔓延到附近房屋前將其撲滅。"
+    },
+    {
+      "word": "query",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指提出的問題，疑問與詢問義重複。",
+      "fix": "疑問"
+    },
+    {
+      "word": "query",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "網站查詢訂單的資料檢索義應明列，前兩句則是質疑而非詢問對象。",
+      "fix": "質疑；查詢"
+    },
+    {
+      "word": "query",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "主要例句為一般顧客詢問與工作上的質疑，科技僅是其中一種查詢管道。",
+      "fix": [
+        "工作與商業",
+        "科技與網路"
+      ]
+    }
+  ]
+}
