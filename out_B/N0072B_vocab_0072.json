@@ -1,0 +1,1201 @@
+{
+  "batch": "N0072",
+  "checked": 50,
+  "reviewed": [
+    "silkworm",
+    "simmer",
+    "simulate",
+    "simulation",
+    "sinister",
+    "sit-down",
+    "sit-in",
+    "situated",
+    "skipper",
+    "slack",
+    "slate",
+    "sled",
+    "sleigh",
+    "slick",
+    "slit",
+    "smack",
+    "smallpox",
+    "smother",
+    "snare",
+    "snarl",
+    "sneer",
+    "snorkel",
+    "snort",
+    "so-called",
+    "sodium",
+    "solicitor",
+    "soluble",
+    "soundtrack",
+    "spatial",
+    "specially",
+    "specification",
+    "speculation",
+    "sperm",
+    "spike",
+    "spire",
+    "spokesperson",
+    "sporting",
+    "sprain",
+    "sprawl",
+    "sprint",
+    "stainless",
+    "stalk",
+    "stammer",
+    "stand-up",
+    "standpoint",
+    "stanza",
+    "stapler",
+    "starch",
+    "stark",
+    "starter"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "silkworm",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本組例句皆指飼養的蠶，家蠶與蠶為重疊釋義，應合併。",
+      "fix": "蠶"
+    },
+    {
+      "word": "simmer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "simmer 指接近沸騰的小火煮法，不一定加蓋，不能直接等同燜煮。",
+      "fix": "用小火慢煮；（怒氣）醞釀"
+    },
+    {
+      "word": "simmer",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文未說明加蓋燜煮，應只表達小火慢煮。",
+      "fix": "媽媽把火關小，讓醬汁用小火慢煮。"
+    },
+    {
+      "word": "simulation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "模擬實驗與模擬為重疊釋義，三句都指模擬情境或演練。",
+      "fix": "模擬"
+    },
+    {
+      "word": "simulation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "fire drill 本身已是演練，原句再接 simulation 顯得重複，應直接說明模擬的目的。",
+      "fix": "The school ran a simulation to test its emergency evacuation plan."
+    },
+    {
+      "word": "simulation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "學校進行模擬演練，測試緊急疏散計畫。"
+    },
+    {
+      "word": "sit-down",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sit-down place 在餐飲分類中指坐席接受服務的餐廳，不只是可以坐下。",
+      "fix": "這是一家提供桌邊服務的餐廳，不是速食店。"
+    },
+    {
+      "word": "sit-down",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "坐著休息與小憩重複，而且小憩不一定限定坐姿。",
+      "fix": "坐下休息"
+    },
+    {
+      "word": "sit-down",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "此名詞常用 have a sit-down，原 take a sit-down 的搭配不典型。",
+      "fix": "Let's have a short sit-down before we start preparing dinner."
+    },
+    {
+      "word": "sit-down",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "開始準備晚餐前，我們先坐下來稍作休息吧。"
+    },
+    {
+      "word": "sit-in",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指抗議行動，靜坐不宜另列為可能被誤解成冥想的獨立意思。",
+      "fix": "靜坐抗議"
+    },
+    {
+      "word": "situated",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "well situated to do 指具備有利位置或條件，原譯處境很適合的搭配生硬。",
+      "fix": "她具備有利條件，能幫助新同學。"
+    },
+    {
+      "word": "skipper",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應明列帆船隊的隊長角色，指揮的範圍過於寬泛。",
+      "fix": "擔任船長或隊長"
+    },
+    {
+      "word": "skipper",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "skipper 指擔任船長，不必然表示親自掌舵。",
+      "fix": "比賽期間由誰擔任這艘船的船長？"
+    },
+    {
+      "word": "slack",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偷懶與鬆懈在三句皆指不再認真投入，應合併。",
+      "fix": "鬆懈"
+    },
+    {
+      "word": "slate",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為安排時程，未呈現提名候選人的意思。",
+      "fix": "排定"
+    },
+    {
+      "word": "sled",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上寒假滑雪橇的完整情境。",
+      "fix": "They sled together on the snowy hills during their winter vacation."
+    },
+    {
+      "word": "sled",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他們寒假時一起在白雪覆蓋的山丘上玩雪橇。"
+    },
+    {
+      "word": "sleigh",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "sleigh 通常指由動物拉動的大型雪橇，原釋義一般雪橇與馬拉雪橇重疊且未明確區分類型。",
+      "fix": "大型雪橇（常由馬或馴鹿拉動）"
+    },
+    {
+      "word": "slick",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "道路例句著重濕滑而非僅光滑，簡報則是熟練流暢的意思，不能只籠統稱巧妙。",
+      "fix": "濕滑的；油滑的；熟練流暢的"
+    },
+    {
+      "word": "slick",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "浮油與油膜在三句皆指水面的油層，應合併。",
+      "fix": "浮油"
+    },
+    {
+      "word": "slick",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上承諾不切實際的消費情境。",
+      "fix": "I don't trust that slick salesman because his promises sound unrealistic."
+    },
+    {
+      "word": "slick",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我不相信那個油嘴滑舌的業務員，因為他的承諾聽起來不切實際。"
+    },
+    {
+      "word": "slit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裂口與狹長縫重疊，並須保留人工切出的狹長開口特徵。",
+      "fix": "狹長的縫或切口"
+    },
+    {
+      "word": "slit",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "切開與割開為同義詞，應合併。",
+      "fix": "劃開"
+    },
+    {
+      "word": "slit",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明在麵團表面切口的烘焙情境。",
+      "fix": "Please slit the top of the dough before putting it in the oven."
+    },
+    {
+      "word": "slit",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "把麵團放進烤箱前，請先在表面劃開切口。"
+    },
+    {
+      "word": "smack",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為咂嘴、第三句為撞擊，原義項僅涵蓋拍打。",
+      "fix": "拍打；咂嘴；猛撞"
+    },
+    {
+      "word": "smack",
+      "path": "senses[2].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "正好與直接在三句皆表示正中某一位置，應合併。",
+      "fix": "正好地"
+    },
+    {
+      "word": "smack",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明拍桌子引起注意的目的。",
+      "fix": "He gave the table a smack to get everyone's attention."
+    },
+    {
+      "word": "smack",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他拍了一下桌子，吸引大家注意。"
+    },
+    {
+      "word": "smack",
+      "path": "senses[2].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上跳繩後落地的運動情境。",
+      "fix": "He landed smack on the mat after jumping over the rope."
+    },
+    {
+      "word": "smack",
+      "path": "senses[2].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他跳過繩子後，正好落在墊子上。"
+    },
+    {
+      "word": "smallpox",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上全球根除天花的公共衛生歷史背景。",
+      "fix": "Smallpox once killed many people, but it has now been eradicated worldwide."
+    },
+    {
+      "word": "smallpox",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "天花曾奪走許多人的生命，但如今已在全球根除。"
+    },
+    {
+      "word": "smother",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句用到抑制哈欠義卻未列出，而三句未呈現使人窒息的字面用法。",
+      "fix": "悶熄；過度保護；抑制"
+    },
+    {
+      "word": "snare",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應精確說明捕獸套索，並補上常用的打擊樂器小鼓義。",
+      "fix": "套索陷阱；圈套；小鼓"
+    },
+    {
+      "word": "snare",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第一與第三句皆為捕獸陷阱，改用樂器情境補足常見的小鼓義。",
+      "fix": "The drummer tapped the snare softly during the quiet introduction."
+    },
+    {
+      "word": "snare",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "鼓手在安靜的前奏中輕敲小鼓。"
+    },
+    {
+      "word": "snare",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "警察捕捉小偷不等於陷害，應區分捕捉與誘人受困的意思。",
+      "fix": "捕捉；使落入圈套"
+    },
+    {
+      "word": "snarl",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩句動物發聲皆為露齒低吼，不宜概括為高聲咆哮或怒吼。",
+      "fix": "低吼；厲聲說"
+    },
+    {
+      "word": "snarl",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句為低吼聲，交通例句應明示壅塞而非籠統的混亂。",
+      "fix": "低吼聲；糾結；壅塞"
+    },
+    {
+      "word": "snarl",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯車流大塞的搭配不自然，應改為車流壅塞。",
+      "fix": "高速公路上出現車流壅塞。"
+    },
+    {
+      "word": "snarl",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 comb the snarl 未清楚表達梳開打結處，改用 work a snarl out 的自然搭配。",
+      "fix": "She gently worked a snarl out of her hair with a comb."
+    },
+    {
+      "word": "snarl",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她用梳子輕輕梳開頭髮上的一個結。"
+    },
+    {
+      "word": "sneer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嗤笑與冷笑皆為帶有鄙夷的譏笑，應合併。",
+      "fix": "冷笑"
+    },
+    {
+      "word": "sneer",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "冷笑與嘲笑為相近釋義，應合併並保留鄙夷的語氣。",
+      "fix": "冷笑"
+    },
+    {
+      "word": "sneer",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上批評卻未提出建議的完整情境。",
+      "fix": "He sneered at my idea without offering any useful suggestions."
+    },
+    {
+      "word": "sneer",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他對我的點子嗤之以鼻，卻沒有提出任何有用的建議。"
+    },
+    {
+      "word": "sneer",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明對舊腳踏車流露輕蔑的情境。",
+      "fix": "A sneer appeared on his face when he saw my old bicycle."
+    },
+    {
+      "word": "sneer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他看見我的舊腳踏車時，臉上露出一抹冷笑。"
+    },
+    {
+      "word": "sneer",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上回答問題及對方感受的日常互動情境。",
+      "fix": "She answered his question with a sneer that made him feel unwelcome."
+    },
+    {
+      "word": "sneer",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她帶著冷笑回答他的問題，讓他感到不受歡迎。"
+    },
+    {
+      "word": "snorkel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "呼吸管與浮潛用的呼吸管重複，應合併並限定器材用途。",
+      "fix": "浮潛呼吸管"
+    },
+    {
+      "word": "snorkel",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上搭船出遊準備裝備的完整情境。",
+      "fix": "Don't forget to pack your mask and snorkel for the boat trip."
+    },
+    {
+      "word": "snorkel",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "搭船出遊時，別忘了帶面鏡和浮潛呼吸管。"
+    },
+    {
+      "word": "snort",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "哼鼻子與噴鼻息描述相同的鼻腔發聲動作，應合併。",
+      "fix": "噴鼻息"
+    },
+    {
+      "word": "snort",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "哼聲與噴鼻息聲重複，並應明確指出聲音來自鼻腔。",
+      "fix": "噴鼻息聲"
+    },
+    {
+      "word": "snort",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明走近圍欄時的動物反應。",
+      "fix": "The pig snorted and walked away when we approached the fence."
+    },
+    {
+      "word": "snort",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我們走近圍欄時，那隻豬哼了一聲便走開了。"
+    },
+    {
+      "word": "snort",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上聽到出乎意料的回答而發笑的情境。",
+      "fix": "She gave a snort of laughter when she heard his unexpected reply."
+    },
+    {
+      "word": "snort",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她聽到他出乎意料的回答時，哼笑了一聲。"
+    },
+    {
+      "word": "so-called",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "所謂與號稱在三句皆表示對名稱真實性的懷疑，應合併。",
+      "fix": "所謂的"
+    },
+    {
+      "word": "so-called",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明朋友未在困難時提供幫助的情境。",
+      "fix": "Her so-called friends never helped her when she was in trouble."
+    },
+    {
+      "word": "so-called",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她遇到困難時，那些所謂的朋友從來不曾幫忙。"
+    },
+    {
+      "word": "so-called",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明跨店價格比較，並避免把划算商品限縮為特價。",
+      "fix": "The so-called bargain cost more than the same item at another store."
+    },
+    {
+      "word": "so-called",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那件所謂的划算商品，比另一家店的同款商品還貴。"
+    },
+    {
+      "word": "solicitor",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句呈現法律服務或上門推銷，沒有明確呈現募款者義。",
+      "fix": "（英國的）事務律師；推銷員"
+    },
+    {
+      "word": "soluble",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上糖溶於水後可用於飲品的日常情境。",
+      "fix": "Sugar is soluble in water and is often used to sweeten drinks."
+    },
+    {
+      "word": "soluble",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "糖可溶於水，常被用來讓飲料變甜。"
+    },
+    {
+      "word": "soluble",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "錠劑本身不能直接當飲料喝，應明確交代先溶於水。",
+      "fix": "This soluble vitamin tablet dissolves in water to make a drink."
+    },
+    {
+      "word": "soluble",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這種可溶性維他命錠能溶於水，製成飲品。"
+    },
+    {
+      "word": "soundtrack",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明看電影後購買原聲帶的完整情境。",
+      "fix": "She bought the movie's soundtrack on CD after seeing the film."
+    },
+    {
+      "word": "soundtrack",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她看過電影後，買了那部電影的原聲帶音樂光碟。"
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "空間的與與空間有關的為重複釋義，應合併。",
+      "fix": "空間的"
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，應補足能力名詞與建築設計情境。",
+      "fix": "Architects need strong spatial thinking skills to design buildings effectively."
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "建築師需要良好的空間思考能力，才能有效設計建築物。"
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補明以心中旋轉圖形評量空間能力的方式。",
+      "fix": "The test measures spatial skills by asking students to rotate shapes mentally."
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這項測驗要求學生在腦中旋轉圖形，以評量空間能力。"
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句未具體說明房間的空間差異，改用典型的空間分布搭配。",
+      "fix": "The map shows the spatial distribution of schools across the city."
+    },
+    {
+      "word": "spatial",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這張地圖顯示了全市學校的空間分布。"
+    },
+    {
+      "word": "specially",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "特地與特別在三句皆表示為特定目的，應合併。",
+      "fix": "特地"
+    },
+    {
+      "word": "specification",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指技術規格或規格文件，不是任何使用說明書或一般詳細說明。",
+      "fix": "規格；規格說明書"
+    },
+    {
+      "word": "speculation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推測與臆測為相近釋義，應合併。",
+      "fix": "推測；投機"
+    },
+    {
+      "word": "speculation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補明投機影響房價與家庭負擔的完整情境。",
+      "fix": "Land speculation pushed housing prices up beyond what local families could afford."
+    },
+    {
+      "word": "speculation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "土地投機推高了房價，超出當地家庭負擔得起的程度。"
+    },
+    {
+      "word": "sperm",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上顯微鏡觀察的中性生物學情境。",
+      "fix": "Human sperm cells are too small to see without a microscope."
+    },
+    {
+      "word": "sperm",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "人類精子細胞很小，沒有顯微鏡就看不見。"
+    },
+    {
+      "word": "sperm",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "精子通常帶有一套染色體，不能簡化成只帶有一半種類的基因。",
+      "fix": "A human sperm normally carries twenty-three chromosomes, half the usual number in a body cell."
+    },
+    {
+      "word": "sperm",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "人類精子通常帶有二十三條染色體，是一般體細胞染色體數量的一半。"
+    },
+    {
+      "word": "spike",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應明確列出運動鞋鞋釘，而非籠統的普通釘子。",
+      "fix": "尖刺；激增；鞋釘"
+    },
+    {
+      "word": "spike",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "跑鞋通常有多枚鞋釘，原句每隻鞋底僅有一釘的情境不典型。",
+      "fix": "The runner checked the spikes on her shoes before the race."
+    },
+    {
+      "word": "spike",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那位跑者在比賽前檢查鞋底的鞋釘。"
+    },
+    {
+      "word": "spike",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句用了扣球義，三句則沒有刺穿義，應依例句修正。",
+      "fix": "突然升高；扣球"
+    },
+    {
+      "word": "spike",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上道路受損與運送延誤的市場情境。",
+      "fix": "Prices spiked after the storm damaged roads and delayed food deliveries."
+    },
+    {
+      "word": "spike",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "暴風雨破壞道路並延誤食品運送後，物價突然飆升。"
+    },
+    {
+      "word": "spike",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上發燒時量體溫的中性醫療情境。",
+      "fix": "Her fever spiked during the night, so the nurse checked her temperature."
+    },
+    {
+      "word": "spike",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她在夜裡突然發高燒，護理師便量了她的體溫。"
+    },
+    {
+      "word": "spire",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尖塔與尖頂在三句均指建築的高尖結構，應合併。",
+      "fix": "尖塔"
+    },
+    {
+      "word": "sporting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公平與有運動精神在此為重疊釋義，應合併。",
+      "fix": "運動的；有運動精神的"
+    },
+    {
+      "word": "sprawl",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句為都市擴張，第三句指實際區域，原義未清楚區分過程與區域。",
+      "fix": "無計畫擴張；雜亂延伸的區域"
+    },
+    {
+      "word": "sprint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "全力衝刺與短跑在三句均指快速短距離奔跑，應合併。",
+      "fix": "全力衝刺"
+    },
+    {
+      "word": "sprint",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上穿越操場追上朋友的目的。",
+      "fix": "She sprinted across the playground to catch up with her friends."
+    },
+    {
+      "word": "sprint",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她為了追上朋友們，快跑穿過操場。"
+    },
+    {
+      "word": "sprint",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上校內運動會的完整情境。",
+      "fix": "He won the hundred-meter sprint at the school's annual sports meet."
+    },
+    {
+      "word": "sprint",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他在學校一年一度的運動會中贏得一百公尺短跑冠軍。"
+    },
+    {
+      "word": "stainless",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為不鏽鋼材質，未呈現名聲或品格無污點的比喻義。",
+      "fix": "不鏽的"
+    },
+    {
+      "word": "stainless",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上長途健行攜帶水壺的日常情境。",
+      "fix": "He bought a stainless water bottle to use during long hikes."
+    },
+    {
+      "word": "stainless",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他買了一個不鏽鋼水壺，準備在長途健行時使用。"
+    },
+    {
+      "word": "stalk",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "芹菜所食用的 stalk 是葉柄，花朵支撐部分則可指花梗，不能只列莖與其稈類子項。",
+      "fix": "莖；葉柄；花梗"
+    },
+    {
+      "word": "stalk",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "芹菜日常食用的長條部分在植物學上是葉柄，而非真正的莖。",
+      "fix": "兔子啃著一根芹菜葉柄。"
+    },
+    {
+      "word": "stalk",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句用到怒氣沖沖地大步走，原義項未列出。",
+      "fix": "悄悄跟蹤；潛近；怒氣沖沖地走"
+    },
+    {
+      "word": "stammer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "口吃與結結巴巴地說為重複釋義，動詞應明確表達說話動作。",
+      "fix": "結結巴巴地說"
+    },
+    {
+      "word": "stammer",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "口吃與結巴為同義詞，應合併。",
+      "fix": "口吃"
+    },
+    {
+      "word": "stammer",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上自我介紹時的中性校園情境。",
+      "fix": "He spoke with a slight stammer when introducing himself to the class."
+    },
+    {
+      "word": "stammer",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他向全班自我介紹時，說話有些結巴。"
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上劇院演出的表演情境。",
+      "fix": "He is a famous stand-up comedian who performs at the local theater."
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他是一位有名的單口喜劇演員，在當地劇院演出。"
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補明週末表演的場所。",
+      "fix": "She does stand-up at a small comedy club on weekends."
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她週末會在一家小型喜劇俱樂部表演單口喜劇。"
+    },
+    {
+      "word": "standpoint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "立場與觀點在三句皆指看待事情的角度，應合併。",
+      "fix": "觀點"
+    },
+    {
+      "word": "stanza",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "段過於籠統，stanza 是詩的分節，不能等同任意文章段落。",
+      "fix": "詩節"
+    },
+    {
+      "word": "stanza",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上向全班朗讀詩節的校園情境。",
+      "fix": "Please read the first stanza of the poem aloud to the class."
+    },
+    {
+      "word": "stanza",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "請向全班大聲朗讀這首詩的第一節。"
+    },
+    {
+      "word": "stapler",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上會議前補充釘書針的辦公情境。",
+      "fix": "The stapler is out of staples, so please refill it before the meeting."
+    },
+    {
+      "word": "stapler",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "釘書機裡沒有釘書針了，請在會議前補充。"
+    },
+    {
+      "word": "starch",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補明輕度上漿的衣物整理目的。",
+      "fix": "Please starch these shirts lightly so they keep their shape without feeling stiff."
+    },
+    {
+      "word": "starch",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "請替這些襯衫稍微上漿，讓它們保持形狀又不會太僵硬。"
+    },
+    {
+      "word": "starch",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上參加典禮前整理制服的情境。",
+      "fix": "The cleaner starched his uniform before he wore it to the ceremony."
+    },
+    {
+      "word": "starch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "洗衣店在他穿制服參加典禮前，先替制服上了漿。"
+    },
+    {
+      "word": "stark",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句未呈現嚴酷的意思，第三句應改以明確光禿無裝飾的形容詞用法示範。",
+      "fix": "荒涼的；鮮明的；光禿的"
+    },
+    {
+      "word": "stark",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原 stark white 的修飾關係不夠清楚，改以無裝飾的牆壁明確呈現形容詞義。",
+      "fix": "The apartment had stark walls with no pictures or decorations."
+    },
+    {
+      "word": "stark",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這間公寓的牆壁光禿禿的，沒有圖畫或裝飾。"
+    },
+    {
+      "word": "stark",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "改為中性的藝術導覽情境，讓強調完全赤裸的典型搭配有明確教學背景。",
+      "fix": "The museum guide explained why the figure was painted stark naked."
+    },
+    {
+      "word": "stark",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "博物館導覽員解釋畫中人物為何被描繪得全身赤裸。"
+    },
+    {
+      "word": "stark",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "stark cold 不是此強調副詞的典型搭配，改用常見的 stark mad。",
+      "fix": "The delay drove the passengers stark mad with frustration."
+    },
+    {
+      "word": "stark",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "延誤讓乘客們沮喪得簡直要發狂。"
+    },
+    {
+      "word": "starter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上點一碗蔬菜湯的具體餐飲情境。",
+      "fix": "I ordered a bowl of vegetable soup as a starter."
+    },
+    {
+      "word": "starter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我點了一碗蔬菜湯當開胃菜。"
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "不可數時指單口喜劇，可數時亦可指單口喜劇演員，第三句的 a stand-up 應依人員義理解。",
+      "fix": "單口喜劇；單口喜劇演員"
+    },
+    {
+      "word": "stand-up",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a stand-up 是一位單口喜劇演員，原譯一場單口喜劇誤解了可數名詞用法。",
+      "fix": "我昨晚在電視上看了一位單口喜劇演員的表演。"
+    },
+    {
+      "word": "snorkel",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "圖示主體是潛水面鏡，也容易被理解為潛水活動，不能明確對應首義的呼吸管。",
+      "fix": null
+    }
+  ]
+}
