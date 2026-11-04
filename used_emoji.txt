@@ -598,3 +598,4 @@
 🌨️(blizzard)
 🌵(cactus)
 🌶️(chilli)
+📘(handbook)
