@@ -1,0 +1,737 @@
+{
+  "batch": "N0069",
+  "checked": 50,
+  "reviewed": [
+    "racing",
+    "racist",
+    "radiator",
+    "raft",
+    "ranking",
+    "ransom",
+    "rape",
+    "rascal",
+    "rating",
+    "ravage",
+    "rave",
+    "reactor",
+    "rebellious",
+    "reciprocal",
+    "reclaim",
+    "reconciliation",
+    "reconstruction",
+    "recording",
+    "rectangular",
+    "rectify",
+    "recur",
+    "redundant",
+    "reel",
+    "reformer",
+    "refrain",
+    "regain",
+    "reggae",
+    "regiment",
+    "regulator",
+    "rein",
+    "relativity",
+    "relegate",
+    "reliability",
+    "relieved",
+    "relish",
+    "remaining",
+    "remains",
+    "remnant",
+    "renaissance",
+    "renewable",
+    "renewal",
+    "reopen",
+    "reorganize",
+    "repatriate",
+    "repayment",
+    "repel",
+    "repertoire",
+    "replacement",
+    "replay",
+    "reportedly"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "racing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "三句分別為賽車、賽馬與自行車競賽，原釋義卻漏列賽馬並列出未呈現的賽跑。",
+      "fix": "競速運動"
+    },
+    {
+      "word": "racing",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "城市行程搭配腳踏車應為騎乘，不能誤譯為長跑活動。",
+      "fix": "他買了一輛競賽用腳踏車，準備騎車遊覽城市。"
+    },
+    {
+      "word": "racing",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義是競速運動，應查詢實際比賽而非可能靜置的賽車。",
+      "fix": "car race"
+    },
+    {
+      "word": "raft",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未明確呈現已列出的救生筏義，改用中性安全演練情境。",
+      "fix": "During the safety drill, passengers practiced boarding an inflatable life raft."
+    },
+    {
+      "word": "raft",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "安全演練時，乘客練習登上充氣救生筏。"
+    },
+    {
+      "word": "ranking",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "排名與排行為同義詞，應合併。",
+      "fix": "排名"
+    },
+    {
+      "word": "ranking",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句涵蓋學校排名與歌曲排行，工作與商業關聯薄弱。",
+      "fix": [
+        "學校與學習",
+        "藝術與文化"
+      ]
+    },
+    {
+      "word": "rape",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原稿只列植物義，漏掉更常用的法律與社會議題中的強暴義。",
+      "fix": "強暴；油菜"
+    },
+    {
+      "word": "rape",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "應以不含露骨細節的教育與求助情境補足最常用的名詞義。",
+      "fix": "The school invited a counselor to explain how rape survivors can seek support."
+    },
+    {
+      "word": "rape",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "學校邀請一位諮商師，說明性侵害倖存者可以如何尋求支持。"
+    },
+    {
+      "word": "rape",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補足常用的法律名詞義後，主要分類應為社會與法律，同時保留植物義分類。",
+      "fix": [
+        "社會與法律",
+        "植物與自然"
+      ]
+    },
+    {
+      "word": "rascal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "淘氣鬼與調皮鬼為同義詞，應合併。",
+      "fix": "淘氣鬼"
+    },
+    {
+      "word": "rating",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "電影分級義已見於第二句卻未列出，評價與評分則應合併。",
+      "fix": "評分；分級；收視率"
+    },
+    {
+      "word": "rating",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "電影分級與節目收視率屬主要情境，科技只是網路評分的呈現管道。",
+      "fix": [
+        "藝術與文化",
+        "工作與商業"
+      ]
+    },
+    {
+      "word": "ravage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嚴重破壞與蹂躪在此皆指造成重大損害，應合併。",
+      "fix": "嚴重破壞"
+    },
+    {
+      "word": "ravage",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞複數主要指破壞造成的痕跡或後果，原義項僅重複破壞行為。",
+      "fix": "毀壞的痕跡或後果（常用複數）"
+    },
+    {
+      "word": "ravage",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句主要為暴風雨、洪水、乾旱等災害，歷史與地理關聯薄弱。",
+      "fix": [
+        "天氣與環境"
+      ]
+    },
+    {
+      "word": "rave",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見的胡言亂語義，並合併原本重複的熱烈談論釋義。",
+      "fix": "狂熱讚美；胡言亂語"
+    },
+    {
+      "word": "rave",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為讚美，改以中性醫療情境呈現胡言亂語義。",
+      "fix": "The doctor checked the patient, who was raving with a high fever."
+    },
+    {
+      "word": "rave",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "醫師檢查那位因高燒而胡言亂語的病人。"
+    },
+    {
+      "word": "reactor",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為核反應爐，未呈現另指化學設備的反應器義。",
+      "fix": "反應爐"
+    },
+    {
+      "word": "rebellious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "反抗與叛逆在三句中指相同的不服從態度，應合併。",
+      "fix": "叛逆的"
+    },
+    {
+      "word": "reciprocal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，改以具體文化交流情境呈現相互尊重。",
+      "fix": "The exchange program encourages reciprocal respect between students from different cultures."
+    },
+    {
+      "word": "reciprocal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這項交換計畫鼓勵來自不同文化的學生相互尊重。"
+    },
+    {
+      "word": "reclaim",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指將舊工廠土地整治再利用，不是農業開墾，取回與收回應合併。",
+      "fix": "取回；整治再利用"
+    },
+    {
+      "word": "reconciliation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為人際和解，未呈現不同觀點或資料的調和義。",
+      "fix": "和解"
+    },
+    {
+      "word": "reconstruction",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "博物館例句指重建的實體模型，原本的重現未明確表達名詞成品義。",
+      "fix": "重建；復原模型"
+    },
+    {
+      "word": "recording",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分聲音與影像紀錄，唱片僅為可能載體，不能概括所有錄製作品。",
+      "fix": "錄音紀錄；錄影紀錄"
+    },
+    {
+      "word": "recording",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆可作錄音理解，改以監視器影像明確補足錄影義。",
+      "fix": "The security camera's recording helped us find the missing bicycle."
+    },
+    {
+      "word": "recording",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "監視器的錄影幫助我們找到遺失的腳踏車。"
+    },
+    {
+      "word": "recording",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "錄音室是製作紀錄的場所，無法直接呈現第一義的錄音紀錄。",
+      "fix": null
+    },
+    {
+      "word": "rectangular",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "長方形與矩形為同義詞，應合併。",
+      "fix": "長方形的"
+    },
+    {
+      "word": "rectify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "矯正與糾正為重疊釋義，應合併。",
+      "fix": "改正"
+    },
+    {
+      "word": "recur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "再次發生與重現皆指同一事件重複出現，應合併。",
+      "fix": "再次發生"
+    },
+    {
+      "word": "reel",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句為釣魚用的捲線器，原義未明列，捲軸與捲筒則重複。",
+      "fix": "捲線器；捲軸"
+    },
+    {
+      "word": "reel",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指因消息而大受震驚，不一定指身體搖晃，應列明該比喻義。",
+      "fix": "捲收；受震驚"
+    },
+    {
+      "word": "reel",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "捲起來的應為釣線，原譯把魚捲上來不自然。",
+      "fix": "他在湖邊捲動釣線，拉起一條大魚。"
+    },
+    {
+      "word": "reel",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "消息造成的是震驚反應，原譯頭暈目眩偏向未明示的生理症狀。",
+      "fix": "那個消息讓我一時大受震撼。"
+    },
+    {
+      "word": "refrain",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動詞指主動克制而不做某事，應合併重複且過於寬泛的避免義。",
+      "fix": "克制不做某事"
+    },
+    {
+      "word": "refrain",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上合唱與鋼琴伴奏的校園情境。",
+      "fix": "The children sang the refrain together while their teacher played the piano."
+    },
+    {
+      "word": "refrain",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "孩子們一起唱副歌，老師則彈鋼琴伴奏。"
+    },
+    {
+      "word": "refrain",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明副歌容易記住的特點。",
+      "fix": "The song has a catchy refrain that everyone can easily remember."
+    },
+    {
+      "word": "refrain",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這首歌的副歌朗朗上口，大家都很容易記住。"
+    },
+    {
+      "word": "regain",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "control 指操控能力，不宜縮限為原文未明示的平衡。",
+      "fix": "他慢慢恢復了對腳踏車的控制。"
+    },
+    {
+      "word": "regiment",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "團與軍團是不同層級的軍事編制，不能並列為同義詞。",
+      "fix": "團（軍事編制）"
+    },
+    {
+      "word": "regiment",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "regiment 是團級部隊，不能誤譯為軍團。",
+      "fix": "博物館展示著那個老部隊的團旗。"
+    },
+    {
+      "word": "regiment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "應以團對應該軍事編制，不能誤譯為軍團。",
+      "fix": "這個團行軍通過了城鎮廣場。"
+    },
+    {
+      "word": "regulator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "銀行與消費者保護語境宜使用台灣慣用的監理機關名稱。",
+      "fix": "監理機關；調節器"
+    },
+    {
+      "word": "regulator",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "銀行監督機關在台灣通常稱監理機關。",
+      "fix": "監理機關會檢查銀行是否遵守規定。"
+    },
+    {
+      "word": "regulator",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句未指定由政府成立，應保留被動句而不擅加主事者。",
+      "fix": "一個新的監理機關已成立，以保護消費者。"
+    },
+    {
+      "word": "rein",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "比喻義指控制權或約束程度，且複數提示只適用於實體韁繩，不適用於兩句單數片語。",
+      "fix": "韁繩（常用複數）；控制"
+    },
+    {
+      "word": "relativity",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆是物理相對論，未呈現一般相對性義。",
+      "fix": "相對論"
+    },
+    {
+      "word": "relieved",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鬆了一口氣與放心在此均指憂慮消除，應合併。",
+      "fix": "鬆了一口氣的"
+    },
+    {
+      "word": "relish",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "relish 表示滿心享受或期待機會，而非僅珍惜其價值。",
+      "fix": "他對有機會出國旅行感到十分欣喜。"
+    },
+    {
+      "word": "relish",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上餐桌說故事的完整情境。",
+      "fix": "She told the story with relish, making everyone at the table laugh."
+    },
+    {
+      "word": "relish",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她興致勃勃地說著這個故事，逗得同桌的人都笑了。"
+    },
+    {
+      "word": "remaining",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "剩下與其餘在此為同義詞，應合併。",
+      "fix": "剩下的"
+    },
+    {
+      "word": "remaining",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明簡報後問答的情境。",
+      "fix": "After the presentation, the remaining time will be used for questions."
+    },
+    {
+      "word": "remaining",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "簡報結束後，剩下的時間將用來提問。"
+    },
+    {
+      "word": "remains",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "樹木殘餘未明確示範常見的人類遺骸義，改以非露骨的中性考古情境呈現。",
+      "fix": "Archaeologists carefully examined the human remains found near the ancient tomb."
+    },
+    {
+      "word": "remains",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "考古學家仔細檢查古墓附近發現的人類遺骸。"
+    },
+    {
+      "word": "remnant",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩個釋義重複，且例句出現的零碼布義應明列。",
+      "fix": "殘餘物；零碼布"
+    },
+    {
+      "word": "renewable",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "借書證用法指延長效期，不能籠統解釋為可更新的。",
+      "fix": "可再生的；可續期的"
+    },
+    {
+      "word": "renewable",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，應以完整效期情境呈現續期義，並修正中文更新的誤譯。",
+      "fix": "Your library card is renewable online before its expiration date."
+    },
+    {
+      "word": "renewable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "你的借書證可在到期前於線上辦理續期。"
+    },
+    {
+      "word": "renewal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "護照換發與公園整修應明列，三句未呈現復甦義。",
+      "fix": "換發；續約；整修"
+    },
+    {
+      "word": "reopen",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "檔案例句指重新開啟，原義項僅列開放及重新開始，應精確區分。",
+      "fix": "重新開放；重新開啟"
+    },
+    {
+      "word": "reopen",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上整修完成後重新開放的完整情境。",
+      "fix": "The museum will reopen next Monday after six months of repairs."
+    },
+    {
+      "word": "reopen",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "博物館經過六個月的整修後，將於下週一重新開放。"
+    },
+    {
+      "word": "repatriate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原釋義重複且限於人員返國，沒有涵蓋利潤匯回與文物返還。",
+      "fix": "使返回原屬國；匯回本國"
+    },
+    {
+      "word": "repayment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "償還與還款在三句中為同義詞，應合併。",
+      "fix": "還款"
+    },
+    {
+      "word": "repel",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "磁極相斥應直接釋為排斥，並補上常見的使人反感義。",
+      "fix": "驅除；排斥；使反感"
+    },
+    {
+      "word": "repel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "油水不相溶不宜簡化成兩者互相排斥，改用同磁極相斥的典型科學情境。",
+      "fix": "The north poles of two magnets repel each other."
+    },
+    {
+      "word": "repel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "兩塊磁鐵的北極會互相排斥。"
+    },
+    {
+      "word": "repel",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原第一與第三句皆為驅蟲，改以顧客反感的商業情境補足常用義。",
+      "fix": "His rude behavior repelled many customers who had visited the shop."
+    },
+    {
+      "word": "repel",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他的粗魯行為讓許多來店消費的顧客感到反感。"
+    },
+    {
+      "word": "repertoire",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "主廚例句指拿手菜的範圍，全部技能過於籠統且無法精確對應該用法。",
+      "fix": "可演出的曲目；拿手項目"
+    },
+    {
+      "word": "replacement",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "replacement 只表示替換品，未保證換得的手機是全新品。",
+      "fix": "商店給了我一支手機，替換原本壞掉的那支。"
+    },
+    {
+      "word": "replay",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "重播與重放在此為同義詞，應合併。",
+      "fix": "重播"
+    },
+    {
+      "word": "replay",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "主要為體育重播與重賽，歌曲播放屬藝術文化，科技分類關聯較弱。",
+      "fix": [
+        "運動與休閒",
+        "藝術與文化"
+      ]
+    },
+    {
+      "word": "reportedly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "據報導與據說在此皆標示轉述來源，應合併。",
+      "fix": "據報導"
+    },
+    {
+      "word": "reportedly",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此副詞泛指消息來源，並不特指法律或社會制度議題。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    }
+  ]
+}
