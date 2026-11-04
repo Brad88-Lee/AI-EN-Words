@@ -1,0 +1,587 @@
+{
+  "batch": "N0066",
+  "checked": 50,
+  "reviewed": [
+    "nuisance",
+    "numerical",
+    "oar",
+    "obituary",
+    "obligate",
+    "obligatory",
+    "oblong",
+    "obscene",
+    "obsession",
+    "offset",
+    "old-fashioned",
+    "one-time",
+    "opaque",
+    "openly",
+    "opposed",
+    "optical",
+    "optimum",
+    "ore",
+    "oriented",
+    "ostrich",
+    "oust",
+    "outdo",
+    "overeat",
+    "oversleep",
+    "overt",
+    "overwhelming",
+    "oxide",
+    "packaging",
+    "packed",
+    "packing",
+    "pact",
+    "pagan",
+    "paid",
+    "pail",
+    "pamphlet",
+    "pane",
+    "par",
+    "paralysis",
+    "parameter",
+    "parish",
+    "parliamentary",
+    "parlor",
+    "parsley",
+    "partition",
+    "passing",
+    "pasture",
+    "patronage",
+    "pavement",
+    "peacekeeping",
+    "peck"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "nuisance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "麻煩事與討厭的人或事物在此重疊，宜合併強調令人困擾的對象。",
+      "fix": "惱人的人或事物"
+    },
+    {
+      "word": "nuisance",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "bag 未限定為背包，應保留一般包包的範圍。",
+      "fix": "抱歉造成困擾，可以請你把包包移開嗎？"
+    },
+    {
+      "word": "numerical",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 numerical advantage 指人數較多，須列出數量上的意思。",
+      "fix": "數字的；數量上的"
+    },
+    {
+      "word": "oar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "槳與櫓在此重疊，三句皆可用一般船槳義表達。",
+      "fix": "槳"
+    },
+    {
+      "word": "oar",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "down the river 指往下游漂流，原譯僅在河上漏掉方向。",
+      "fix": "他弄丟了一支槳，順著河流漂了下去。"
+    },
+    {
+      "word": "obituary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都指報導逝者及其生平的訃聞，屬近義重複。",
+      "fix": "訃聞"
+    },
+    {
+      "word": "obligate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字強調使人負有義務，不是泛指任何形式的迫使，兩項亦重疊。",
+      "fix": "使負有義務"
+    },
+    {
+      "word": "obligatory",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指慣例上必做的拍照，不是法律或規定強制的義務。",
+      "fix": "強制的；慣例上必做的"
+    },
+    {
+      "word": "oblong",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "形容詞三句皆以長方形呈現，未涵蓋橢圓用法，並應明確區別正方形。",
+      "fix": "長方形的（非正方形）"
+    },
+    {
+      "word": "oblong",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "名詞三句皆指長方形，未涵蓋橢圓用法，並應明確區別正方形。",
+      "fix": "長方形（非正方形）"
+    },
+    {
+      "word": "oblong",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上製作教室海報的自然活動情境。",
+      "fix": "Please cut the paper into an oblong for the classroom poster."
+    },
+    {
+      "word": "oblong",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "請把紙剪成一個長方形，用來製作教室海報。"
+    },
+    {
+      "word": "obscene",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "猥褻與下流重複，且漏掉形容數量大到令人反感的常用義。",
+      "fix": "猥褻的；多得離譜的"
+    },
+    {
+      "word": "obscene",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆描述猥褻內容，以常見 obscene amount of money 補足非性相關的數量義。",
+      "fix": "The company charged an obscene amount of money for a simple repair."
+    },
+    {
+      "word": "obscene",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "那家公司只做一項簡單維修，卻收取多得離譜的費用。"
+    },
+    {
+      "word": "obsession",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般興趣不等於 obsession，宜強調過度迷戀，並標明強迫觀念的心理學語境。",
+      "fix": "過度迷戀；強迫觀念（心理學）"
+    },
+    {
+      "word": "obsession",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原清潔習慣例句無法明確區分日常執著與心理學強迫觀念，改為中性概念說明。",
+      "fix": "The psychologist explained that an obsession can involve recurring, distressing thoughts."
+    },
+    {
+      "word": "obsession",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "心理師說明，強迫觀念可能包含反覆出現、令人困擾的念頭。"
+    },
+    {
+      "word": "offset",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抵銷與彌補在此重複，宜統一為使不利影響互相平衡的抵銷。",
+      "fix": "抵銷"
+    },
+    {
+      "word": "offset",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "彌補汙染的搭配不自然，此處應表達抵銷部分汙染。",
+      "fix": "種樹可以抵銷我們製造的部分汙染。"
+    },
+    {
+      "word": "offset",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "offset in costs 未說明互相抵銷的項目，不能把單純成本降低當作 offset，改用 offset against 的明確對照。",
+      "fix": "The savings on electricity provided an offset against higher maintenance costs."
+    },
+    {
+      "word": "offset",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "節省的電費抵銷了增加的維修成本。"
+    },
+    {
+      "word": "one-time",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "one-time 指僅此一次，不是單純限定時間，結束日期則由後半句提供。",
+      "fix": "這項僅此一次的優惠在週五結束。"
+    },
+    {
+      "word": "optimum",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最佳與最適宜在此為同義重複。",
+      "fix": "最佳的"
+    },
+    {
+      "word": "optimum",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "grow best 與 optimum 重複，且溫度應明示攝氏單位，改為清楚的最佳溫度敘述。",
+      "fix": "The optimum temperature for growing these tomatoes is about twenty-five degrees Celsius."
+    },
+    {
+      "word": "optimum",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "種植這些番茄的最佳溫度約為攝氏二十五度。"
+    },
+    {
+      "word": "optimum",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩項重疊，且第二句涉及最佳日照量，名詞義應可涵蓋狀態與數值。",
+      "fix": "最佳狀態或數值"
+    },
+    {
+      "word": "optimum",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "an optimum of sunlight and water 不自然，改用明確的最佳日照數值作名詞例句。",
+      "fix": "For these plants, the optimum is six hours of sunlight per day."
+    },
+    {
+      "word": "optimum",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "對這些植物來說，最佳日照量是每天六小時。"
+    },
+    {
+      "word": "ore",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "礦砂是礦物的顆粒形態，三句皆泛指可提取金屬的礦石，可合併避免重複。",
+      "fix": "礦石"
+    },
+    {
+      "word": "ore",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "鐵礦石不是僅靠熔化就直接成為鋼，應區分礦石處理取得鐵與製鋼。",
+      "fix": "Iron ore is processed to produce iron for making steel."
+    },
+    {
+      "word": "ore",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "鐵礦石經處理後可煉出鐵，再用來製鋼。"
+    },
+    {
+      "word": "oriented",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "找到職涯搭配不自然，此處是學校以協助學生開展職涯為導向。",
+      "fix": "這所學校以協助學生開展職涯為導向。"
+    },
+    {
+      "word": "outdo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勝過與超越在此為同義重複。",
+      "fix": "勝過"
+    },
+    {
+      "word": "overeat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "overeating 是吃得過多，不一定達到暴食所暗示的程度或失控狀態。",
+      "fix": "吃得過多"
+    },
+    {
+      "word": "overeat",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "holiday dinner 指過節時的晚餐，不是泛指週末等假日晚餐。",
+      "fix": "節日晚餐時，盡量不要吃太多。"
+    },
+    {
+      "word": "overt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此共同表達未加隱藏而公開表露，宜合併。",
+      "fix": "公開而不加掩飾的"
+    },
+    {
+      "word": "overwhelming",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指作業量難以承受，第三句則形容情緒極強烈，原難以抵擋不足以清楚區分。",
+      "fix": "壓倒性的；難以承受的；極強烈的"
+    },
+    {
+      "word": "packed",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的 packed lunch 是打包好的午餐，並非擠滿或塞滿。",
+      "fix": "擠滿的；已打包的"
+    },
+    {
+      "word": "packed",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "packed lunch 未必是自己準備的便當，也可由他人提供，應保留打包午餐的意思。",
+      "fix": "我們在公園吃了打包好的午餐。"
+    },
+    {
+      "word": "packing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都指把物品整理裝好以便運送或攜帶，屬近義重複。",
+      "fix": "打包"
+    },
+    {
+      "word": "pact",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "朋友與鄰居的私下約定不一定是正式盟約，宜與國家協定區分，並刪除近義重複。",
+      "fix": "協定；約定"
+    },
+    {
+      "word": "pagan",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "異教的與異教徒的重複，且須交代歷史信仰語境，避免泛指所有不同宗教。",
+      "fix": "異教的（多指古代多神信仰，可帶貶義）"
+    },
+    {
+      "word": "pagan",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應說明此歷史稱呼的信仰背景及可能貶義，避免把其他宗教信徒一概如此稱呼。",
+      "fix": "異教徒（多指古代多神信仰者，可帶貶義）"
+    },
+    {
+      "word": "pamphlet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "宣傳手冊是小冊子的一種用途，兩項在此重疊。",
+      "fix": "小冊子"
+    },
+    {
+      "word": "pane",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一片玻璃範圍過廣，pane 指門窗等所用的一整片玻璃板。",
+      "fix": "（門窗等的）玻璃片"
+    },
+    {
+      "word": "par",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉最常見的高爾夫標準桿數義，並應區分一般水準與同等水準。",
+      "fix": "（高爾夫的）標準桿數；一般水準；同等水準"
+    },
+    {
+      "word": "par",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以高爾夫情境補足常見的標準桿數義，其餘兩句保留一般水準與同等水準。",
+      "fix": "She finished the final hole one stroke under par."
+    },
+    {
+      "word": "par",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她在最後一洞以低於標準桿一桿的成績完成。"
+    },
+    {
+      "word": "par",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補足並優先列出的主要高爾夫義屬運動休閒，抽象概念分類不能代表首義。",
+      "fix": [
+        "運動與休閒"
+      ]
+    },
+    {
+      "word": "paralysis",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此重複表示失去活動能力，且麻痺容易與單純感覺遲鈍混淆。",
+      "fix": "癱瘓"
+    },
+    {
+      "word": "parish",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "教會的 parish 是堂區，應與 diocese 的教區區分。",
+      "fix": "堂區"
+    },
+    {
+      "word": "parish",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "parish church 指堂區教堂，不是教區層級的教堂。",
+      "fix": "堂區教堂是鎮上最古老的建築。"
+    },
+    {
+      "word": "parish",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "parish 的信眾屬堂區，不能與教區混同。",
+      "fix": "堂區的成員聚在一起吃節日晚餐。"
+    },
+    {
+      "word": "parish",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "parish library 指堂區圖書館，不是教區圖書館。",
+      "fix": "她週末在堂區圖書館當志工。"
+    },
+    {
+      "word": "parliamentary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "議會與國會在本組例句皆指國家層級的立法議事機關，屬近義重複。",
+      "fix": "國會的"
+    },
+    {
+      "word": "parlor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "店鋪過於籠統，parlor 通常用於美容院、冰淇淋店等特定商業場所名稱。",
+      "fix": "客廳；店家（如美容院、冰淇淋店）"
+    },
+    {
+      "word": "parsley",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此同指一種植物，屬別名重複，保留較精確的荷蘭芹。",
+      "fix": "荷蘭芹"
+    },
+    {
+      "word": "passing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 passing comment 是順帶提及，與短暫或經過的意思不同。",
+      "fix": "短暫的；經過的；順帶提及的"
+    },
+    {
+      "word": "passing",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "teacher 是老師，不是校長，原譯改變人物職務。",
+      "fix": "那位年長老師的逝世讓全校都很難過。"
+    },
+    {
+      "word": "pasture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "pasture 指供牲畜吃草的牧草地，不是包含其他設施的整個牧場。",
+      "fix": "牧草地"
+    },
+    {
+      "word": "pasture",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "cows 未限定為乳用牛，而 pasture 應明確為牧草地。",
+      "fix": "母牛正在牧草地裡吃草。"
+    },
+    {
+      "word": "pasture",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "移到新 pasture 可以只是換一片放牧地，並未說轉移到另一座牧場。",
+      "fix": "農夫把羊群移到一片新的牧草地。"
+    },
+    {
+      "word": "pavement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應標明英式人行道與美式鋪設路面的用法區別，以免混淆行人與車輛所走之處。",
+      "fix": "人行道（英式）；鋪設的路面（美式）"
+    },
+    {
+      "word": "peacekeeping",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "維和是維持和平的簡稱，兩項指同一概念。",
+      "fix": "維持和平"
+    }
+  ]
+}
