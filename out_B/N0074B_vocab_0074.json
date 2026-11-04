@@ -1,0 +1,529 @@
+{
+  "batch": "N0074",
+  "checked": 50,
+  "reviewed": [
+    "tact",
+    "tactical",
+    "tactics",
+    "tailor-made",
+    "takeaway",
+    "takeover",
+    "tally",
+    "tango",
+    "tanker",
+    "tar",
+    "tardy",
+    "tariff",
+    "tart",
+    "tasteful",
+    "tasteless",
+    "tattoo",
+    "taunt",
+    "tavern",
+    "tax-free",
+    "taxation",
+    "taxpayer",
+    "teammate",
+    "teamwork",
+    "teaspoon",
+    "telecommunication",
+    "temperament",
+    "tempest",
+    "terminate",
+    "termination",
+    "terminology",
+    "termite",
+    "terrain",
+    "terrestrial",
+    "territorial",
+    "tertiary",
+    "testament",
+    "testimony",
+    "textual",
+    "theatrical",
+    "thermal",
+    "thermos",
+    "thesaurus",
+    "thicken",
+    "thickness",
+    "thorn",
+    "thorny",
+    "thrift",
+    "thrifty",
+    "throb",
+    "throng"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "tact",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字強調不冒犯人的應對能力，不是一般反應機智，三個原釋詞也互相重疊。",
+      "fix": "應對得體的技巧"
+    },
+    {
+      "word": "tact",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tact 不宜只用可能帶有負面意味的圓滑概括，應表達得體應對。",
+      "fix": "好的業務員與不滿的顧客交涉時，需要得體的應對技巧。"
+    },
+    {
+      "word": "tact",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯將一種應對能力拆成機智與圓滑，未精確表達避免冒犯人的意思。",
+      "fix": "拒絕別人又不傷感情，需要得體的應對技巧。"
+    },
+    {
+      "word": "tactical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "策略性與有策略為重複釋義，應合併。",
+      "fix": "戰術的；策略性的"
+    },
+    {
+      "word": "tactics",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "策略與手法在本組皆指為達目的使用的方法，應合併。",
+      "fix": "戰術；策略"
+    },
+    {
+      "word": "tailor-made",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "量身訂做與特別訂製為重複釋義，保留訂製及高度適合兩類用法。",
+      "fix": "量身訂做的；特別適合的"
+    },
+    {
+      "word": "takeover",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "接管與奪取控制權重複，應區分企業收購與專案接手。",
+      "fix": "收購；接管"
+    },
+    {
+      "word": "tally",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個近義詞未清楚區分計數紀錄與計得的總數，應以名詞完整表達。",
+      "fix": "計數紀錄；總數"
+    },
+    {
+      "word": "tally",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "吻合與符合為同義詞，應合併。",
+      "fix": "吻合；計算"
+    },
+    {
+      "word": "tanker",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "牛奶罐車不屬油罐車，運輸船又過於籠統，應明確限定液體載運類型。",
+      "fix": "油輪；液體罐車"
+    },
+    {
+      "word": "tardy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指晚於預定時間，未呈現做事速度緩慢的獨立意思。",
+      "fix": "遲到的；延誤的"
+    },
+    {
+      "word": "tariff",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "飯店語境指收費標準，價目表與費率為重疊的收費資訊釋詞。",
+      "fix": "關稅；收費標準"
+    },
+    {
+      "word": "tariff",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "is listed 表示費率有列示，不是價目表被放在櫃檯上。",
+      "fix": "飯店的費率公布在櫃檯處。"
+    },
+    {
+      "word": "tart",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "水果塔只是塔類點心的子類，無須與其上位概念重複列義。",
+      "fix": "塔類點心"
+    },
+    {
+      "word": "tasteful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "雅緻與有品味重疊，保留外觀品味與言行得體兩類用法。",
+      "fix": "有品味的；得體的"
+    },
+    {
+      "word": "tattoo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺青與紋身圖案在三句均指同一身體圖案，應合併。",
+      "fix": "刺青"
+    },
+    {
+      "word": "tattoo",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺青與在身上刺青為同一動作的重複表達，應合併。",
+      "fix": "刺青"
+    },
+    {
+      "word": "taunt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嘲弄與奚落為同義詞，應合併。",
+      "fix": "嘲弄"
+    },
+    {
+      "word": "taunt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此可數名詞指一句奚落的話，而非籠統的嘲弄行為。",
+      "fix": "奚落的話"
+    },
+    {
+      "word": "taunt",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "room 未指定為教室，且安靜下來的是房內的人。",
+      "fix": "他的奚落讓整個房間的人都安靜下來。"
+    },
+    {
+      "word": "tavern",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為酒館，未呈現提供住宿的小旅店義。",
+      "fix": "酒館"
+    },
+    {
+      "word": "taxpayer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "納稅人與納稅義務人在本組指相同稅務身分，應合併。",
+      "fix": "納稅人"
+    },
+    {
+      "word": "teammate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同組同學是團隊夥伴的具體情境，同事則不一定同隊，應明確限定同一團隊。",
+      "fix": "同隊或同組的夥伴"
+    },
+    {
+      "word": "teammate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原 worked with a classmate as my teammate 結構重複，改為選擇同學當組員的自然句型。",
+      "fix": "I chose a classmate as my teammate for the science project."
+    },
+    {
+      "word": "teammate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我選了一位同學當自然科專題的團隊夥伴。"
+    },
+    {
+      "word": "teamwork",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合作精神與團隊合作重疊，三句均指共同協作，應合併。",
+      "fix": "團隊合作"
+    },
+    {
+      "word": "telecommunication",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "電信與遠距通訊在三句皆指以通訊設備遠距交換訊息，應合併。",
+      "fix": "電信"
+    },
+    {
+      "word": "temperament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "性情、氣質與脾氣在三句皆指穩定的個性特徵，應合併。",
+      "fix": "性情"
+    },
+    {
+      "word": "tempest",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "船隻 was lost in a tempest 通常指失事毀損或沉沒，不是僅指位置不明的失蹤。",
+      "fix": "那艘船在遠離海岸的地方毀於一場暴風雨。"
+    },
+    {
+      "word": "terminate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "終止與結束重複，公車例句則需要明列行程到達終點的用法。",
+      "fix": "終止；到達終點；解僱"
+    },
+    {
+      "word": "termination",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三個近義詞重複，且應補足常見的人事解僱義。",
+      "fix": "終止；解僱"
+    },
+    {
+      "word": "termination",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "has its termination at 不是公車終點的典型說法，改用常見的解僱通知書情境。",
+      "fix": "The employee received a termination letter after repeated violations of company rules."
+    },
+    {
+      "word": "termination",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那名員工多次違反公司規定後，收到解僱通知書。"
+    },
+    {
+      "word": "terminology",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "專門用語與術語為同義詞，應合併。",
+      "fix": "術語"
+    },
+    {
+      "word": "terrain",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "地形與地勢重複，三句亦未呈現比喻的專業領域義。",
+      "fix": "地形"
+    },
+    {
+      "word": "terrestrial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆為陸生生物，陸地與陸生釋義重疊，保留陸生與地球上的兩類用法。",
+      "fix": "陸生的；地球的"
+    },
+    {
+      "word": "terrestrial",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此句涵蓋海洋與陸地，terrestrial 應取地球上的意思，不能僅譯為陸上生物。",
+      "fix": "這個節目介紹了地球上從海洋到陸地的生物。"
+    },
+    {
+      "word": "territorial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動物的地盤性與有領域性為同義釋詞，應合併。",
+      "fix": "領土的；有領域性的"
+    },
+    {
+      "word": "tertiary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三與第三級重複，高等義也應限定於教育語境以免泛指優質或高級。",
+      "fix": "第三級的；高等教育的"
+    },
+    {
+      "word": "testament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "證明與見證在前兩句皆指某事的有力佐證，應合併。",
+      "fix": "證明；遺囑"
+    },
+    {
+      "word": "testimony",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "證據與證明在第三句的比喻用法重複，保留法庭證詞與佐證兩類用法。",
+      "fix": "證詞；證明"
+    },
+    {
+      "word": "textual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句為文本內容或文字形式，未明確呈現相對於譯文或改寫本的原文義。",
+      "fix": "文本的；文字形式的"
+    },
+    {
+      "word": "theatrical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "做作與誇張在後兩句為相近釋義，應合併。",
+      "fix": "戲劇的；誇張的"
+    },
+    {
+      "word": "thermal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熱與熱能相關的釋義重複，保留熱與隔熱保暖兩類用法。",
+      "fix": "熱的；保暖的"
+    },
+    {
+      "word": "thermos",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指保溫瓶，保溫杯與保溫瓶為相近器具釋詞，應合併。",
+      "fix": "保溫瓶"
+    },
+    {
+      "word": "thesaurus",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為詞語查詢的同義詞辭典，未呈現資料檢索的受控索引詞表用法。",
+      "fix": "同義詞辭典"
+    },
+    {
+      "word": "thesaurus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fancier word 指較華麗或講究的詞，不是具有貴族氣派的貴氣詞語。",
+      "fix": "我用同義詞辭典找一個較華麗的詞，取代原本的常用詞。"
+    },
+    {
+      "word": "thicken",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句亦為使冰層變厚的及物用法，應同時涵蓋及物與不及物的厚度、稠度及密度變化。",
+      "fix": "（使）變濃稠；（使）變厚；（使）變濃密"
+    },
+    {
+      "word": "thorn",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的鄰居是令人困擾的人，原義只寫煩惱的事，範圍不足。",
+      "fix": "刺；荊棘；令人困擾的人或事"
+    },
+    {
+      "word": "thorny",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上經過門旁灌木的完整日常情境。",
+      "fix": "Be careful when walking past that thorny bush beside the gate."
+    },
+    {
+      "word": "thorny",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "走過大門旁那叢多刺的灌木時，要小心。"
+    },
+    {
+      "word": "thrift",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "節儉與節約在三句均指節省資源或金錢，應合併。",
+      "fix": "節儉"
+    },
+    {
+      "word": "thrifty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "節儉與精打細算為相近釋義，應合併。",
+      "fix": "節儉的"
+    },
+    {
+      "word": "throb",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "悸動與跳動重複，地板隨重低音震動的義則未明列。",
+      "fix": "抽痛；怦怦跳；規律震動"
+    },
+    {
+      "word": "throb",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是引擎規律的震動聲，第三句是喜悅的情緒悸動，原義項未清楚區分。",
+      "fix": "抽痛；規律的震動聲；情緒悸動"
+    },
+    {
+      "word": "throb",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sore 只表示疼痛，不能直接增加受傷的原因。",
+      "fix": "我那疼痛的手指傳來一陣抽痛。"
+    },
+    {
+      "word": "throng",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人群與群眾重複，並應保留大量人聚集的密集特徵。",
+      "fix": "擁擠的人群"
+    },
+    {
+      "word": "throng",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "reach the train 只表示抵達火車所在位置，未明示趕在發車前搭上火車。",
+      "fix": "我們擠過人群，來到火車旁。"
+    }
+  ]
+}
