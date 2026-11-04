@@ -1,0 +1,711 @@
+{
+  "batch": "N0077",
+  "checked": 50,
+  "reviewed": [
+    "vegetation",
+    "velocity",
+    "vend",
+    "vent",
+    "ventilate",
+    "verge",
+    "verify",
+    "vicar",
+    "vicinity",
+    "victimize",
+    "victorious",
+    "villager",
+    "vintage",
+    "vinyl",
+    "virtually",
+    "visualize",
+    "vogue",
+    "void",
+    "volatile",
+    "volt",
+    "voltage",
+    "vulgar",
+    "wade",
+    "wail",
+    "wallpaper",
+    "ware",
+    "warring",
+    "wartime",
+    "watertight",
+    "watt",
+    "way-out",
+    "weakness",
+    "wedge",
+    "wee",
+    "weld",
+    "well-being",
+    "whereby",
+    "whilst",
+    "whirl",
+    "whisk",
+    "widower",
+    "winger",
+    "winning",
+    "withdrawal",
+    "withstand",
+    "woo",
+    "woodland",
+    "workman",
+    "worsen",
+    "would-be"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "vegetation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指某地植物的整體覆蓋，不是單一植物，應保留集合概念。",
+      "fix": "植被"
+    },
+    {
+      "word": "velocity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "科學用語的速度包含方向，與純量速率不同，不宜不加區分並列。",
+      "fix": "速度"
+    },
+    {
+      "word": "vend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "販賣與出售為同義詞，應合併。",
+      "fix": "販賣"
+    },
+    {
+      "word": "vent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為空氣進出的開口，出口過於寬泛且與通風口重疊。",
+      "fix": "通風口"
+    },
+    {
+      "word": "vent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發洩與宣洩為同義詞，應合併。",
+      "fix": "宣洩"
+    },
+    {
+      "word": "ventilate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使通風與使空氣流通為同義表達，應合併。",
+      "fix": "使通風"
+    },
+    {
+      "word": "verge",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "邊緣與邊界重複，第二句則是即將發生某事的臨界狀態。",
+      "fix": "邊緣；臨界點"
+    },
+    {
+      "word": "verge",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "its store 未指明為分店，不能增加分支店面的限定。",
+      "fix": "這家公司眼看就要關閉店面了。"
+    },
+    {
+      "word": "verify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "證實、核對與查證在本組皆為確認資訊正確的相近釋詞，應合併。",
+      "fix": "核實"
+    },
+    {
+      "word": "vicinity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "附近與鄰近地區為同義表達，應合併。",
+      "fix": "附近地區"
+    },
+    {
+      "word": "victorious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獲勝與勝利為同義詞，應合併。",
+      "fix": "獲勝的"
+    },
+    {
+      "word": "villager",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鄉下人未限定住在村莊，範圍比 villager 更廣，應保留精確身分。",
+      "fix": "村民"
+    },
+    {
+      "word": "villager",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "village people 容易查到同名樂團，應改用明確的村民查詢。",
+      "fix": "rural villagers"
+    },
+    {
+      "word": "vintage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個原釋詞重疊，應聚焦有年代特色的經典舊物，避免與仿古新品混淆。",
+      "fix": "經典老式的"
+    },
+    {
+      "word": "vintage",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "葡萄酒 vintage 主要依葡萄收成年份，不是裝瓶或一般釀造年份，第三句也指該年份酒款。",
+      "fix": "釀酒葡萄的收成年份；特定年份的葡萄酒"
+    },
+    {
+      "word": "vinyl",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "vinyl 可能是片材或捲材，原句未限定為地磚。",
+      "fix": "地板上鋪著容易清潔的乙烯基塑膠。"
+    },
+    {
+      "word": "vinyl",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句目標字修飾 records，改以單獨的 vinyl 指唱片播放媒介，使第二義明確。",
+      "fix": "My father still listens to music on vinyl instead of streaming it."
+    },
+    {
+      "word": "vinyl",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我爸爸仍用黑膠唱片聽音樂，而不是串流播放。"
+    },
+    {
+      "word": "vinyl",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢對應第二義的黑膠唱片，應改為第一義的塑膠片材。",
+      "fix": "vinyl sheet"
+    },
+    {
+      "word": "virtually",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句均為接近但不完全相同，實際上未呈現為獨立義，應保留程度與虛擬方式。",
+      "fix": "幾乎；以虛擬方式"
+    },
+    {
+      "word": "virtually",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "主要用法是一般程度副詞，科技只對應第三句虛擬方式，不能作唯一主要分類。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "visualize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使形象化與使可見重疊且後者過廣，應區分心中形成畫面與資料視覺化。",
+      "fix": "在腦中想像；使視覺化"
+    },
+    {
+      "word": "vogue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流行與時尚在三句皆指某種風格當時盛行，應合併。",
+      "fix": "流行"
+    },
+    {
+      "word": "void",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句分為心理空缺與物理空間，空白和空隙的並列未精確區分。",
+      "fix": "空虛感；空曠的空間"
+    },
+    {
+      "word": "void",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指合約、票券或協議無效，沒有空的用法。",
+      "fix": "無效的"
+    },
+    {
+      "word": "volatile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "易變與不穩定為相近釋義，保留變化不定與化學揮發兩類用法。",
+      "fix": "易變的；易揮發的"
+    },
+    {
+      "word": "volt",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "電池電壓依種類而異，應明確指定常見的一點五伏特 AA 鹼性電池。",
+      "fix": "A typical AA alkaline battery provides about one and a half volts."
+    },
+    {
+      "word": "volt",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "一般的 AA 鹼性電池大約提供一點五伏特的電壓。"
+    },
+    {
+      "word": "volt",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "通常測量的是電壓而非單位本身，應在具體量測讀值中示範 volts。",
+      "fix": "The teacher measured six volts across the battery with a small meter."
+    },
+    {
+      "word": "volt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "老師用小型電表量得電池兩端的電壓為六伏特。"
+    },
+    {
+      "word": "voltage",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "台灣用電不只有一百一十伏特，應補充常見的二百二十伏特並限定家用插座情境。",
+      "fix": "Household outlets in Taiwan commonly supply a voltage of 110 or 220 volts."
+    },
+    {
+      "word": "voltage",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "台灣家用插座常供應一百一十或二百二十伏特的電壓。"
+    },
+    {
+      "word": "vulgar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低俗與粗俗重疊，裝潢例句則是審美上的俗氣，應與粗俗言語區分。",
+      "fix": "粗俗的；俗氣的"
+    },
+    {
+      "word": "wade",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "涉水與蹚水為同義詞，應合併。",
+      "fix": "涉水"
+    },
+    {
+      "word": "wail",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩個釋義重複，警笛例句也需要涵蓋非人的尖長聲響。",
+      "fix": "嚎哭；發出尖長的聲音"
+    },
+    {
+      "word": "wail",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "哀號與嚎哭重複，警笛例句則為長鳴聲，應補明。",
+      "fix": "哀號聲；長鳴聲"
+    },
+    {
+      "word": "wallpaper",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上自行貼壁紙節省裝潢費的日常目的。",
+      "fix": "My parents wallpapered the hallway themselves to save money on decorating."
+    },
+    {
+      "word": "wallpaper",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我爸媽為了節省裝潢費，自己幫走廊貼了壁紙。"
+    },
+    {
+      "word": "ware",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "器皿是製品的子類，獨立指商販商品時通常用複數，應明確標示。",
+      "fix": "製品；商品（常用複數）"
+    },
+    {
+      "word": "ware",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "獨立表示商販出售的商品時通常用複數 wares，原單數不典型。",
+      "fix": "The vendor laid out his wares on a cloth."
+    },
+    {
+      "word": "ware",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "小販把自己的商品攤放在一塊布上。"
+    },
+    {
+      "word": "ware",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原 pottery ware 的表達重複且不典型，改用常見的陶瓷製品搭配。",
+      "fix": "Ceramic ware made in this town is famous around the world."
+    },
+    {
+      "word": "ware",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這個小鎮製作的陶瓷器皿聞名全世界。"
+    },
+    {
+      "word": "warring",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為交戰雙方或地區，沒有一般非軍事敵對的獨立意思。",
+      "fix": "交戰的"
+    },
+    {
+      "word": "warring",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "warring 通常修飾交戰的人或陣營，原修飾 region 生硬，改為中性的人道援助情境。",
+      "fix": "Aid workers delivered food to families caught between the warring sides."
+    },
+    {
+      "word": "warring",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "救援人員把食物送給受困於交戰雙方之間的家庭。"
+    },
+    {
+      "word": "wartime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "戰時與戰爭時期為同義表達，應合併。",
+      "fix": "戰時"
+    },
+    {
+      "word": "watertight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "防水與不透水重複，保留物理密封與論點完整兩類用法。",
+      "fix": "不透水的；無懈可擊的"
+    },
+    {
+      "word": "watt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "瓦與瓦特為同一單位的簡稱與全名，應合併。",
+      "fix": "瓦特"
+    },
+    {
+      "word": "watt",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "瓦特是功率單位，中文應明確稱耗電功率而非籠統的電力。",
+      "fix": "這顆燈泡的耗電功率只有十瓦。"
+    },
+    {
+      "word": "watt",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "watt number 搭配不典型，且耗電量與運轉狀態及時間有關，應明示全功率下的每秒能耗。",
+      "fix": "At full power, a heater rated at more watts uses more energy per second."
+    },
+    {
+      "word": "watt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "全功率運轉時，額定瓦數較高的暖爐每秒消耗的電能較多。"
+    },
+    {
+      "word": "weakness",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "弱點與缺點重複，巧克力例句則用到難以抗拒某物的喜好義。",
+      "fix": "弱點；虛弱；難以抗拒的喜好"
+    },
+    {
+      "word": "wedge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "楔入與塞進重複，應明示帶有擠迫或卡緊的空間限制，不是一般放入。",
+      "fix": "擠塞進狹小空間"
+    },
+    {
+      "word": "wedge",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "起司切塊對應第二義的楔形物，應改為首義用來卡住物件的楔子工具。",
+      "fix": "wooden door wedge"
+    },
+    {
+      "word": "wee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "很小與微小為同義釋詞，應合併。",
+      "fix": "很小的"
+    },
+    {
+      "word": "weld",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "焊接與熔接為相近釋詞，焊接也較能涵蓋不同接合工法。",
+      "fix": "焊接"
+    },
+    {
+      "word": "weld",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "焊縫是焊接處的一種，原三句皆指焊接形成的接合部位，應合併。",
+      "fix": "焊接處"
+    },
+    {
+      "word": "well-being",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋詞重疊，應表達身心健康與安適的整體狀態。",
+      "fix": "身心安適"
+    },
+    {
+      "word": "well-being",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句對某事扮演角色的介詞搭配不自然，應改為對身心安適有影響。",
+      "fix": "睡眠對我們的身心安適有重要影響。"
+    },
+    {
+      "word": "whereby",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藉以與憑此為同義表達，應合併。",
+      "fix": "藉以"
+    },
+    {
+      "word": "whilst",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "第二句是從屬讓步用法，應譯為雖然而非獨立轉折的然而。",
+      "fix": "當…的時候；雖然"
+    },
+    {
+      "word": "whirl",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "旋轉與打轉重複，第三句則是感到暈眩的比喻用法，應補列。",
+      "fix": "旋轉；（頭）發暈"
+    },
+    {
+      "word": "whirl",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 give something a whirl 是嘗試義，原義項未列出。",
+      "fix": "旋轉；一陣忙亂；嘗試"
+    },
+    {
+      "word": "whirl",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明配合音樂節奏的舞蹈情境。",
+      "fix": "The dancers whirled around the room as the music grew faster."
+    },
+    {
+      "word": "whirl",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "隨著音樂加快，舞者們在房間裡旋轉。"
+    },
+    {
+      "word": "winger",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "邊路球員不一定是邊鋒，原兩個釋詞重疊且後者範圍過廣，應保留精確位置名稱。",
+      "fix": "邊鋒"
+    },
+    {
+      "word": "winning",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "獲勝與贏的重複，致勝進球的用法則未明列，應區分勝利狀態與帶來勝利。",
+      "fix": "獲勝的；致勝的；迷人的"
+    },
+    {
+      "word": "winning",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獎金與獲勝所得重複，這個金錢義通常用複數 winnings，應明示。",
+      "fix": "贏得的款項（常用複數）"
+    },
+    {
+      "word": "winning",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "shared among 未保證每人金額相同，原譯平分增加了等額分配。",
+      "fix": "獎金分給了全隊成員。"
+    },
+    {
+      "word": "withdrawal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見的戒斷反應義，並以例句呈現，產品撤回義在替換後不再列出。",
+      "fix": "提款；退出；戒斷反應"
+    },
+    {
+      "word": "withdrawal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以中性一般醫學敘述補足常見的戒斷反應義，不涉及具體藥名或劑量。",
+      "fix": "The doctor explained that suddenly stopping some medicines can cause withdrawal symptoms."
+    },
+    {
+      "word": "withdrawal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "醫師說明，突然停用某些藥物可能引起戒斷症狀。"
+    },
+    {
+      "word": "withdrawal",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "提款、戒斷反應與退出組織分屬財務、健康及社會領域，應補上健康分類。",
+      "fix": [
+        "金融與會計",
+        "健康與身體",
+        "社會與法律"
+      ]
+    },
+    {
+      "word": "withstand",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "承受、經得起與抵擋在三句皆指抵禦負面影響而維持功能，應合併。",
+      "fix": "承受得住"
+    },
+    {
+      "word": "woo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "討好與爭取重疊，保留人際追求與爭取顧客或旅客兩類用法。",
+      "fix": "追求；爭取"
+    },
+    {
+      "word": "woodland",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "林地與樹林為相近釋詞，應合併。",
+      "fix": "林地"
+    },
+    {
+      "word": "workman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般工人過廣，工匠則為技術工人子類，應合併並明確此詞通常的男性指稱。",
+      "fix": "體力或技術工人（通常指男性）"
+    },
+    {
+      "word": "worsen",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義為同一變糟動作的不及物與及物用法，可用括註合併。",
+      "fix": "（使）惡化"
+    },
+    {
+      "word": "would-be",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "would-be 表示想成為或有意而尚未實現，不是認為自己總是正確的自以為是。",
+      "fix": "有志成為的；潛在的"
+    }
+  ]
+}
