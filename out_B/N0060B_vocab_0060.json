@@ -1,0 +1,833 @@
+{
+  "batch": "N0060",
+  "checked": 50,
+  "reviewed": [
+    "follow-up",
+    "footage",
+    "footstep",
+    "forbidden",
+    "foremost",
+    "fortnight",
+    "frail",
+    "franc",
+    "fret",
+    "fringe",
+    "front-page",
+    "fruitful",
+    "fumes",
+    "fundamentalism",
+    "fundamentalist",
+    "funding",
+    "furnace",
+    "fusion",
+    "gaseous",
+    "gel",
+    "generalize",
+    "geology",
+    "ghetto",
+    "gilt",
+    "given",
+    "glamor",
+    "gland",
+    "glassware",
+    "glee",
+    "glisten",
+    "gnaw",
+    "go-ahead",
+    "gobble",
+    "going",
+    "gore",
+    "gorge",
+    "governmental",
+    "grate",
+    "grocer",
+    "groove",
+    "grope",
+    "grove",
+    "guaranteed",
+    "guerrilla",
+    "guild",
+    "guitarist",
+    "gulp",
+    "gunman",
+    "gust",
+    "gypsy"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "follow-up",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "sent a follow-up 未限定信件種類，原譯信件增加了傳遞形式。",
+      "fix": "經理在會後發送了後續訊息。"
+    },
+    {
+      "word": "follow-up",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後續與追加在這三個追蹤情境中重疊，應合併。",
+      "fix": "後續的"
+    },
+    {
+      "word": "footage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩義皆指錄製的影片畫面，應合併並避免誤解為一般靜態影像。",
+      "fix": "錄影畫面"
+    },
+    {
+      "word": "footstep",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "沙地足印對應第三義足跡，不是第一義腳步聲，應移除避免混淆。",
+      "fix": null
+    },
+    {
+      "word": "forbidden",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表示不被允許，被禁止與禁忌在此重疊，應合併。",
+      "fix": "被禁止的"
+    },
+    {
+      "word": "forbidden",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "eating 只指進食，原譯飲食增加了禁止喝飲料的範圍。",
+      "fix": "圖書館內嚴禁進食。"
+    },
+    {
+      "word": "foremost",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "foremost 強調首要或最傑出，不一定是名氣最大，原列最重要與首要也重複。",
+      "fix": "首要的；最傑出的"
+    },
+    {
+      "word": "foremost",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "家族企業例句強調最主要的本質，原列居於最前未清楚表達此義。",
+      "fix": "首先；最主要"
+    },
+    {
+      "word": "fortnight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩週與十四天指同一時長，不應列為兩個義項。",
+      "fix": "兩週"
+    },
+    {
+      "word": "frail",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "脆弱與易損壞在橋梁例句中重疊，應合併並保留身體虛弱義。",
+      "fix": "虛弱的；脆弱的"
+    },
+    {
+      "word": "franc",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "說明一國的貨幣制度應用 the franc，a franc 指一法郎單位，原搭配不自然。",
+      "fix": "The franc was the currency of France before the euro."
+    },
+    {
+      "word": "franc",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "法國在採用歐元之前使用法郎。"
+    },
+    {
+      "word": "fret",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個義項均表示煩惱擔心，應合併。",
+      "fix": "煩惱"
+    },
+    {
+      "word": "fret",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "樂器的 fret 是指板金屬橫條，應明列實體以免與琴格空間混淆，並優先排列常見的樂器義。",
+      "fix": "琴衍（指板上的金屬橫條）；焦慮"
+    },
+    {
+      "word": "fret",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "第二格琴格用語重複且不易辨認按弦位置，fret 在此指金屬琴衍。",
+      "fix": "把琴弦按在緊靠第二條琴衍後方的位置。"
+    },
+    {
+      "word": "fret",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "需要修理的 fret 是金屬琴衍，不是琴格的空間位置。",
+      "fix": "這把舊吉他的那條琴衍需要修理。"
+    },
+    {
+      "word": "fringe",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補入 fringe benefits 中常見的附加義，原列邊緣與非主流則重疊。",
+      "fix": "非主流的；附加的"
+    },
+    {
+      "word": "fringe",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的附加福利義，與前兩個非主流情境區分。",
+      "fix": "The company offers fringe benefits such as free meals and gym access."
+    },
+    {
+      "word": "fringe",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "公司提供免費餐點及健身房使用權等額外福利。"
+    },
+    {
+      "word": "front-page",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指頭版，不能將任何重要新聞都稱為 front-page，應合併為頭版義。",
+      "fix": "頭版的"
+    },
+    {
+      "word": "fruitful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有成果與有收穫在討論及職涯例句中重疊，應合併並保留多產義。",
+      "fix": "有成果的；多產的"
+    },
+    {
+      "word": "fumes",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "fumes 指煙霧或揮發氣體本身，不只是氣味，應將刺鼻氣味改為刺鼻氣體。",
+      "fix": "廢氣；煙霧；刺鼻氣體"
+    },
+    {
+      "word": "fumes",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "paint fumes 是油漆揮發的氣體，不只是嗅覺上的氣味。",
+      "fix": "打開窗戶，讓油漆揮發的氣體散出去。"
+    },
+    {
+      "word": "fundamentalism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個用語在此指相同思想體系，應合併並與信徒群體區分。",
+      "fix": "原教旨主義"
+    },
+    {
+      "word": "fundamentalist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個義項指相同主張的信奉者，應合併。",
+      "fix": "原教旨主義者"
+    },
+    {
+      "word": "fundamentalist",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個形容詞義項在此同義重複，應合併。",
+      "fix": "原教旨主義的"
+    },
+    {
+      "word": "funding",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "資金與經費在這三句中重疊，應合併並保留資助行為義。",
+      "fix": "資金；資助"
+    },
+    {
+      "word": "furnace",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泛稱爐會包含其他爐具，三句實際示範暖氣爐及工業熔爐。",
+      "fix": "暖氣爐；熔爐"
+    },
+    {
+      "word": "fusion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有文化融合及核融合，沒有材料受熱熔合的例句。",
+      "fix": "融合；核融合"
+    },
+    {
+      "word": "gaseous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表示物質呈氣態，兩個義項在此重疊，應合併。",
+      "fix": "氣態的"
+    },
+    {
+      "word": "gel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "膠狀物與凝膠在此重疊，應合併並保留口語髮膠義。",
+      "fix": "凝膠；髮膠"
+    },
+    {
+      "word": "gel",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The hotel provides shower gel that smells like fresh oranges."
+    },
+    {
+      "word": "gel",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "飯店提供的沐浴凝露帶有新鮮柳橙的香味。"
+    },
+    {
+      "word": "generalize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個義項在例句中均指由個別情況作概括推論，應合併避免重複。",
+      "fix": "概括"
+    },
+    {
+      "word": "generalize",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Scientists generalize from many small experiments when developing a new theory."
+    },
+    {
+      "word": "generalize",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "科學家在發展新理論時，會從許多小實驗中概括推論。"
+    },
+    {
+      "word": "geology",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "高山屬地形特徵，原句把地質與地形混用，改用岩石觀察呈現地質。",
+      "fix": "Students examined local rocks to understand the geology of Taiwan."
+    },
+    {
+      "word": "geology",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學生們透過檢視當地岩石，了解台灣的地質。"
+    },
+    {
+      "word": "ghetto",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "歷史隔離居住區義未明列，少數族群聚居也不必然是 ghetto，且現代用法可能帶貶義。",
+      "fix": "貧民區（可帶貶義）；被迫隔離的族群居住區（歷史用語）"
+    },
+    {
+      "word": "ghetto",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以歷史課本敘述清楚呈現被迫隔離義，避免與一般聚居區混淆。",
+      "fix": "The history book describes families forced to live in a ghetto during the war."
+    },
+    {
+      "word": "ghetto",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "歷史課本描述了戰爭期間被迫住在隔離居住區裡的家庭。"
+    },
+    {
+      "word": "ghetto",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以字典說明標示現代用法的貶義，避免直接以標籤稱呼社區。",
+      "fix": "The dictionary notes that ghetto can be a derogatory term for a poor neighborhood."
+    },
+    {
+      "word": "ghetto",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "字典指出，ghetto 可能是對貧困社區帶有貶義的稱呼。"
+    },
+    {
+      "word": "gilt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "gilt 強調覆有金或金色塗層，不是任何本來呈金色的物品，三句均指鍍金。",
+      "fix": "鍍金的"
+    },
+    {
+      "word": "gilt",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The frame was covered in gilt that shone under the gallery lights."
+    },
+    {
+      "word": "gilt",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "相框表面覆著金色塗層，在藝廊燈光下閃閃發亮。"
+    },
+    {
+      "word": "glamor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字指光鮮華麗所帶來的吸引力，兩個義項重疊，應合併以區別一般人格魅力。",
+      "fix": "光鮮的魅力"
+    },
+    {
+      "word": "glamor",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "arrived with great glamor 搭配不自然，改用 add glamor to 呈現常見用法。",
+      "fix": "The actress added glamor to the movie premiere with her elegant dress."
+    },
+    {
+      "word": "glamor",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那位女演員以優雅洋裝為電影首映會增添迷人光彩。"
+    },
+    {
+      "word": "gland",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "腺與腺體指同一類器官，應合併。",
+      "fix": "腺體"
+    },
+    {
+      "word": "glassware",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Please wash the laboratory glassware carefully after you finish the experiment."
+    },
+    {
+      "word": "glassware",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "做完實驗後，請小心清洗實驗室的玻璃器皿。"
+    },
+    {
+      "word": "glee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "歡欣與雀躍在這三個喜悅情境中重疊，應合併。",
+      "fix": "歡欣"
+    },
+    {
+      "word": "glisten",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "glisten 主要指表面反光而閃閃發亮，與泛稱明暗變化的閃爍應區分。",
+      "fix": "閃閃發亮"
+    },
+    {
+      "word": "gnaw",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句是啃咬及憂慮持續困擾兩類，侵蝕在本批比喻例句中與折磨重疊，應合併。",
+      "fix": "啃咬；持續困擾"
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "許可、批准及開綠燈在三句中同義重複，應合併。",
+      "fix": "許可"
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補常見的體育超前義，原列積極進取與有衝勁則重疊。",
+      "fix": "積極進取的；使取得領先的"
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "He is a go-ahead young manager who welcomes new ideas."
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他是一位積極進取的年輕經理，樂於接受新點子。"
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的體育超前義，並與商業人物及公司情境區分。",
+      "fix": "His go-ahead goal helped the team win the match."
+    },
+    {
+      "word": "go-ahead",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "他的超前進球幫助球隊贏得比賽。"
+    },
+    {
+      "word": "gobble",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補火雞發出叫聲的常見動詞義，原列兩個進食義則重疊。",
+      "fix": "狼吞虎嚥；（火雞）咯咯叫"
+    },
+    {
+      "word": "gobble",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以火雞叫聲補充常見動詞義，避免三句全是急促進食的相似情境。",
+      "fix": "The turkey began to gobble when the farmer opened the gate."
+    },
+    {
+      "word": "gobble",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "農夫打開柵門時，那隻火雞開始咯咯叫。"
+    },
+    {
+      "word": "going",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都是市場現行水準，現行與通行在此重複，應合併。",
+      "fix": "現行的"
+    },
+    {
+      "word": "going",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "We were saddened by her going after twenty years at the company."
+    },
+    {
+      "word": "going",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她在公司工作二十年後離去，讓我們感到難過。"
+    },
+    {
+      "word": "gore",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "gore 指血污或血腥內容，不限於已凝固的血塊，原義項過窄。",
+      "fix": "血污；血腥場面"
+    },
+    {
+      "word": "gore",
+      "path": "senses[1].examples[1].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "三句原本皆為動物可能頂傷人的警告，改用安全預防的情境。",
+      "fix": "The farmer built a fence to prevent the bull from goring visitors."
+    },
+    {
+      "word": "gore",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "農夫築起圍欄，防止公牛用角頂傷訪客。"
+    },
+    {
+      "word": "gore",
+      "path": "senses[1].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "三句原本皆為相似警告，改以傳記中的非露骨過往事件及被動句示範。",
+      "fix": "The biography mentions a farmer who was gored by a bull."
+    },
+    {
+      "word": "gore",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "傳記提到一名曾被公牛用角頂傷的農夫。"
+    },
+    {
+      "word": "gorge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "峽谷與山峽在此同義重複，應合併。",
+      "fix": "峽谷"
+    },
+    {
+      "word": "gorge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "gorge 強調吃得過多，不必吃得快，應與 gobble 區分並合併重複義項。",
+      "fix": "過量進食"
+    },
+    {
+      "word": "governmental",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "政府的與政府機關的在這三句中重疊，應合併。",
+      "fix": "政府的"
+    },
+    {
+      "word": "grate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "grate on one's nerves 表示使人煩躁，原義項只有處理食物及發聲，未列出此義。",
+      "fix": "磨碎；刨絲；發出刺耳聲；使煩躁"
+    },
+    {
+      "word": "grocer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩義均指販售食品雜貨的人或商家，應合併並明確指出食品範圍。",
+      "fix": "食品雜貨商"
+    },
+    {
+      "word": "groove",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "凹槽與溝重複，工作例句需要得心應手的狀態義，並應清楚區分音樂律動。",
+      "fix": "凹槽；律動；得心應手的狀態"
+    },
+    {
+      "word": "groove",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原前兩句都示範實物凹槽，改以鼓手演奏補足原列音樂節奏義。",
+      "fix": "The drummer created a steady groove that made everyone want to dance."
+    },
+    {
+      "word": "groove",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "鼓手打出穩定的律動，讓每個人都想跳舞。"
+    },
+    {
+      "word": "grope",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補對他人猥褻觸摸的常用義，原列摸索與探索在三個物理搜尋例句中則重疊。",
+      "fix": "摸索；猥褻觸摸"
+    },
+    {
+      "word": "grope",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以職場防治騷擾訓練的中性規範說明補常用義，不描寫身體部位或行為細節。",
+      "fix": "The workplace training explains why it is unacceptable to grope a colleague."
+    },
+    {
+      "word": "grope",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "職場訓練說明，為何猥褻觸摸同事是不可接受的行為。"
+    },
+    {
+      "word": "guaranteed",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "guaranteed warranty 重複表達保證，改以保證續航力示範典型搭配。",
+      "fix": "This laptop has a guaranteed battery life of ten hours."
+    },
+    {
+      "word": "guaranteed",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這台筆電的電池續航力保證有十小時。"
+    },
+    {
+      "word": "guaranteed",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "by Friday 包含週五當天，原譯週五前容易把期限提前。",
+      "fix": "這家店提供保證最晚在週五送達的服務。"
+    },
+    {
+      "word": "guerrilla",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "游擊的與打游擊式的在這三句中是同一核心意思，應合併。",
+      "fix": "游擊的"
+    },
+    {
+      "word": "guild",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "guild 主要指同業組織，泛稱協會過廣，應保留歷史行會及現代同業公會兩類。",
+      "fix": "行會；同業公會"
+    },
+    {
+      "word": "guitarist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "吉他手與彈吉他的人指同一角色，應合併。",
+      "fix": "吉他手"
+    },
+    {
+      "word": "gulp",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "成績單例句的無賓語 gulp 通常指緊張吞嚥，原義項未列出，倒抽氣也未有明確示例。",
+      "fix": "大口吞嚥；緊張地吞口水"
+    },
+    {
+      "word": "gulp",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "緊張時的 gulp 是吞嚥動作，不一定吞入大量食物或飲料，應與量詞一大口區分。",
+      "fix": "吞嚥的動作；一大口"
+    },
+    {
+      "word": "gulp",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處 gulp 通常是因緊張吞口水，不是 gasp 所表達的倒抽一口氣。",
+      "fix": "她在打開成績單前緊張地吞了口口水。"
+    },
+    {
+      "word": "gunman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩詞在此同指持槍者，宜合併並標明常見犯罪語境，避免與中文代考槍手混淆。",
+      "fix": "持槍者（常指歹徒）"
+    },
+    {
+      "word": "gust",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一陣強風與陣風同義重複，應合併。",
+      "fix": "陣風"
+    },
+    {
+      "word": "gust",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩義皆指風勢短暫突然增強，應合併為自然的動詞表達。",
+      "fix": "颳起陣風"
+    },
+    {
+      "word": "gust",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "風勢陣風強到的結構混雜，應直接表達陣風的最高風速。",
+      "fix": "陣風風速最高達每小時八十公里。"
+    }
+  ]
+}
