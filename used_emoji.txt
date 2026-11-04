@@ -599,3 +599,5 @@
 🌵(cactus)
 🌶️(chilli)
 📘(handbook)
+🦙(llama)
+🚂(locomotive)
