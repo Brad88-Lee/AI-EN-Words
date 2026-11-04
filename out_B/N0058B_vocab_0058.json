@@ -1,0 +1,353 @@
+{
+  "batch": "N0058",
+  "checked": 50,
+  "reviewed": [
+    "edged",
+    "educated",
+    "eel",
+    "eject",
+    "elapse",
+    "electoral",
+    "electorate",
+    "electron",
+    "elevated",
+    "elevation",
+    "elicit",
+    "eligibility",
+    "elite",
+    "eloquence",
+    "embargo",
+    "embark",
+    "embarrassment",
+    "embed",
+    "embody",
+    "embryo",
+    "emergence",
+    "emit",
+    "emphatic",
+    "empirical",
+    "enact",
+    "enclosure",
+    "endless",
+    "endow",
+    "energize",
+    "enforcement",
+    "engaged",
+    "engagement",
+    "ensue",
+    "entail",
+    "enthusiast",
+    "environmentalist",
+    "envisage",
+    "envoy",
+    "enzyme",
+    "epic",
+    "epoch",
+    "eq",
+    "equator",
+    "equilibrium",
+    "erode",
+    "erosion",
+    "erotic",
+    "erroneous",
+    "eruption",
+    "escalate"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "edged",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般物件有邊緣不足以表達 edged 的特徵，三句實際示範鑲邊及有鋒刃兩義。",
+      "fix": "鑲邊的；有鋒刃的"
+    },
+    {
+      "word": "electoral",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "town hall 指市鎮行政廳舍，不宜直接改成不同層級的區公所。",
+      "fix": "選民必須查看張貼在市政廳的選舉人名冊。"
+    },
+    {
+      "word": "elevation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩個地形例句的海拔與高度重疊，應合併並保留晉升義。",
+      "fix": "海拔；晉升"
+    },
+    {
+      "word": "eloquence",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指流暢而有感染力的口才，不限於辯論能力，原兩義應合併。",
+      "fix": "口才"
+    },
+    {
+      "word": "embark",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "展開與著手在職涯及專案例句中重複，應合併並保留登上交通工具義。",
+      "fix": "登上（船、飛機）；展開"
+    },
+    {
+      "word": "embark",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原文未指明交通工具卻譯成登船，補明渡輪讓例句可獨立理解。",
+      "fix": "Passengers began to embark on the ferry at nine o'clock."
+    },
+    {
+      "word": "embark",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "乘客九點開始登上渡輪。"
+    },
+    {
+      "word": "embarrassment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尷尬與難堪在此重複，與令人丟臉的事分列即可。",
+      "fix": "尷尬；令人丟臉的事"
+    },
+    {
+      "word": "embed",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "泛指程式碼時通常使用不可數的 code，宜說 a short piece of code 以避免與代碼混淆。",
+      "fix": "You can embed a video in your web page with a short piece of code."
+    },
+    {
+      "word": "embed",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "你可以用一小段程式碼，將影片嵌入自己的網頁。"
+    },
+    {
+      "word": "embody",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "體現與具體表現在此同義重複，應合併。",
+      "fix": "體現"
+    },
+    {
+      "word": "emergence",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "蝴蝶通常由蛹羽化，繭則常見於蛾類，應避免混淆蛹與繭。",
+      "fix": "We watched the emergence of a moth from its cocoon."
+    },
+    {
+      "word": "emergence",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們看著一隻蛾從繭裡羽化而出。"
+    },
+    {
+      "word": "emit",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "氣體對空氣的影響通常說 pollute the air，harmful to the air 搭配不自然。",
+      "fix": "Cars emit gases that pollute the air around busy roads."
+    },
+    {
+      "word": "emit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "汽車排放的氣體會汙染繁忙道路周遭的空氣。"
+    },
+    {
+      "word": "emphatic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩義都是語氣堅決有力，應合併並與勝利壓倒性之義區分。",
+      "fix": "語氣堅決的；壓倒性的"
+    },
+    {
+      "word": "emphatic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "emphatic 表示堅決有力，不必然重複說多次，原譯再三增加頻率。",
+      "fix": "教練堅定地表示，必須準時到達。"
+    },
+    {
+      "word": "empirical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩義皆指以觀察或實驗經驗為依據而非純理論，應合併並清楚表達共同概念。",
+      "fix": "以觀察或實驗為依據的"
+    },
+    {
+      "word": "enact",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school board 是學校管理董事會或教育委員會，不等同於校務會議。",
+      "fix": "校董會通過了禁止在課堂上使用手機的規定。"
+    },
+    {
+      "word": "enclosure",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "動物園及遊樂場例句均指圍起的場地，不是圍欄本身，應移除圍欄義。",
+      "fix": "圍起的場地；附件"
+    },
+    {
+      "word": "enclosure",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "enclosure 指貓熊所處的圍場，不是圍欄這項設施。",
+      "fix": "動物園為貓熊建了一個更大的圍場。"
+    },
+    {
+      "word": "endow",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "endow a scholarship 指捐資設立或維持獎學金，不是只捐出一筆獎學金。",
+      "fix": "這個家庭打算捐資設立獎學金，資助來自低收入家庭的學生。"
+    },
+    {
+      "word": "energize",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "為忙碌的上學日充滿活力的搭配生硬，應表達以活力迎接上學日。",
+      "fix": "晨間運動有助於讓學生充滿活力，迎接忙碌的上學日。"
+    },
+    {
+      "word": "enthusiast",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指某領域的熱心愛好者，狂熱者與愛好者重疊且易誤解為過度狂熱。",
+      "fix": "愛好者"
+    },
+    {
+      "word": "epic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壯闊與浩大在此都是規模宏大的用法，應合併並保留史詩般之義。",
+      "fix": "史詩般的；宏大的"
+    },
+    {
+      "word": "epic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "浩大通常形容工程或規模，與努力的中文搭配不自然。",
+      "fix": "我們班為了打掃整間學校付出了極大的努力。"
+    },
+    {
+      "word": "epoch",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "printing press 指印刷機，不是泛稱印刷術，應保留具體發明物。",
+      "fix": "印刷機的發明開創了一個新時代。"
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "情緒智商與情商在此指同一概念，不宜列為兩個義項。",
+      "fix": "情緒智商"
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "情緒智商的標準縮寫為大寫 EQ，原文小寫不合慣例。",
+      "fix": "Her high EQ helps her get along with all her classmates."
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她的情緒智商很高，有助於她和所有同學相處融洽。"
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "縮寫應寫 EQ，數值高低通常搭配 high 而非 strong。",
+      "fix": "Good teachers need a high EQ as well as subject knowledge."
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "好老師除了學科知識，也需要很高的情緒智商。"
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "情緒智商的標準縮寫為大寫 EQ，原文小寫不合慣例。",
+      "fix": "The company offers a workshop to help managers improve their EQ."
+    },
+    {
+      "word": "eq",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "公司提供工作坊，協助主管提升情緒智商。"
+    },
+    {
+      "word": "equilibrium",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "價格停止變動不保證供需均衡，應以供給量與需求量相等說明。",
+      "fix": "The market reaches equilibrium when the quantity supplied equals the quantity demanded."
+    },
+    {
+      "word": "equilibrium",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "當供給量等於需求量時，市場就達到均衡。"
+    }
+  ]
+}
