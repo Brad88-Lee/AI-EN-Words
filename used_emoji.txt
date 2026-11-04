@@ -608,3 +608,4 @@
 🦏(rhinoceros)
 🏉(rugby)
 🛷(sled)
+🌮(taco)
