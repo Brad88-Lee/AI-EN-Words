@@ -22,14 +22,15 @@ commit_push() {
 }
 
 jqr() { jq -r "$1" "$ACT"; }
+RETRY="$(dirname "$0")/gh_retry.sh"
 
 # 1. 先把狀態推上 main（失敗的 PR 檔案已複製進 attempts/，之後才可關 PR）
 commit_push "$MSG"
 
-# 2. 關掉舊的喚醒 Issue
+# 2. 關掉舊的喚醒 Issue，以及看門狗開的 [喚醒失敗]／[總管卡住]（階段已推進就不再需要）
 if [ "$(jqr '.close_wake_issues // false')" = "true" ]; then
-  for n in $(gh issue list --state open --limit 100 --json number,title -q '.[] | select(.title | startswith("[wake-claude")) | .number'); do
-    gh issue close "$n" --comment "總管：階段已處理，關閉喚醒訊號。" || true
+  for n in $(gh issue list --state open --limit 100 --json number,title -q '.[] | select(.title | startswith("[wake-claude") or startswith("[喚醒失敗]") or startswith("[總管卡住]")) | .number'); do
+    gh issue close "$n" --comment "總管：階段已處理，關閉。" || true
   done
 fi
 
@@ -47,15 +48,19 @@ fi
 if [ "$(jqr '.open_issue != null')" = "true" ]; then
   LABELS=""; for l in $(jqr '.open_issue.labels[]? // empty'); do LABELS="$LABELS --label $l"; done
   # shellcheck disable=SC2086
-  URL="$(gh issue create --title "$(jqr '.open_issue.title')" --body "$(jqr '.open_issue.body')" $LABELS)"
+  URL="$(bash "$RETRY" 4 gh issue create --title "$(jqr '.open_issue.title')" --body "$(jqr '.open_issue.body')" $LABELS)"
   python3 scripts/steward.py record-issue --repo . --now "$NOW" --number "${URL##*/}"
   commit_push "record open issue ${URL##*/}"
 fi
 
-# 6. 喚醒下一個 AI（只有 claude 用 Issue；codex 靠自己的排程輪詢）
-if [ "$(jqr '.wake.issue != null')" = "true" ]; then
-  gh issue create --title "$(jqr '.wake.issue.title')" --body "$(jqr '.wake.issue.body')"
-  # 7. 啟動喚醒看門狗（獨立 workflow；失敗不影響主流程）。GITHUB_TOKEN 建立的 Issue 不會觸發 workflow，所以用 workflow_dispatch。
-  gh workflow run wake_watchdog.yml --ref main -f stage="$(jq -r .stage state.json)" -f round="$(jq -r .round state.json)" -f attempt="$(jq -r .attempt state.json)" \
+# 6. 喚醒下一個 AI（只有 claude 用 Issue；codex 靠自己的排程輪詢），然後啟動看門狗（三個階段都要）
+#    GitHub 5xx 時重試；喚醒 Issue 最後仍失敗不中止（state 已推上 main，中止只會讓重跑被略過），由看門狗在 15 分鐘後補派。
+if [ "$(jqr '.wake != null')" = "true" ]; then
+  if [ "$(jqr '.wake.issue != null')" = "true" ]; then
+    bash "$RETRY" 4 gh issue create --title "$(jqr '.wake.issue.title')" --body "$(jqr '.wake.issue.body')" \
+      || echo "警告：喚醒 Issue 建立失敗，交給看門狗補派" >&2
+  fi
+  # 7. 看門狗（獨立 workflow；GITHUB_TOKEN 建立的 Issue 不會觸發 workflow，所以用 workflow_dispatch）
+  bash "$RETRY" 4 gh workflow run wake_watchdog.yml --ref main -f stage="$(jq -r .stage state.json)" -f round="$(jq -r .round state.json)" -f attempt="$(jq -r .attempt state.json)" \
     || echo "警告：喚醒看門狗啟動失敗（不影響主流程）" >&2
 fi

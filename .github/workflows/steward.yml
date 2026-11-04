@@ -79,21 +79,26 @@ jobs:
         run: |
           set -euo pipefail
           export NOW="$(date +%Y-%m-%dT%H:%M:%S%:z)"; echo "NOW=$NOW" >> "$GITHUB_ENV"
-          STATE="$(gh pr view "$PR" --json state -q .state)"
-          if [ "$STATE" != "OPEN" ]; then echo "PR 已 $STATE，略過"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          R=scripts/gh_retry.sh
+          STATE="$(bash $R 3 gh pr view "$PR" --json state -q .state)"
+          if [ "$STATE" = "MERGED" ]; then
+            # 已合併：若 jobs.md 已記錄這個 PR 驗證通過，表示上次整個做完了；否則是上次合併後才失敗（GitHub 5xx），補做後面的步驟
+            if grep -q "驗證通過 | PR #$PR：" jobs.md; then echo "PR 已合併且已處理，略過"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+            echo "PR 已合併但總管上次沒做完，補做"
+          elif [ "$STATE" != "OPEN" ]; then echo "PR 已 $STATE，略過"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
           T="$RUNNER_TEMP"
-          gh pr view "$PR" --json number,headRepository,headRepositoryOwner,labels,files \
+          bash $R 3 gh pr view "$PR" --json number,headRepository,headRepositoryOwner,labels,files \
             | jq --arg base "$GITHUB_REPOSITORY" '{number, head_repo: (.headRepositoryOwner.login + "/" + .headRepository.name), base_repo: $base, labels: [.labels[].name], files: [.files[].path]}' > "$T/pr.json"
           python3 scripts/steward.py validate-pr --repo . --now "$NOW" --pr-json "$T/pr.json" --pr-dir pr --out "$T/result.json"
           VERDICT="$(jq -r .verdict "$T/result.json")"
           if [ "$VERDICT" = "ignored" ]; then echo "不是 AI 交付的 PR（沒有改任何 out_X／回報檔），總管不處理"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ "$VERDICT" = "pass" ]; then
-            if ! gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"; then
-              CUR="$(gh pr view "$PR" --json headRefOid,state -q '.headRefOid + " " + .state')"
-              if [ "$CUR" != "$SHA OPEN" ]; then echo "驗證期間 PR 已更新或關閉（$CUR），略過；新的 synchronize 事件會重新驗證"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
-              exit 1
-            fi
-            git fetch -q origin main && git reset -q --hard origin/main
+            MR=0; bash scripts/steward_merge.sh "$PR" "$SHA" || MR=$?
+            if [ "$MR" = 2 ]; then echo "驗證期間 PR 已更新或關閉，略過；新的事件會重新驗證"; echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+            [ "$MR" = 0 ] || exit 1
+            BR="$(gh pr view "$PR" --json headRefName -q .headRefName || true)"
+            [ -z "$BR" ] || gh api -X DELETE "repos/$GITHUB_REPOSITORY/git/refs/heads/$BR" >/dev/null 2>&1 || echo "分支 $BR 刪除失敗（不影響流程）"
+            bash $R 3 git fetch -q origin main && git reset -q --hard origin/main
           fi
           python3 scripts/steward.py apply-result --repo . --now "$NOW" --result "$T/result.json" --pr-dir pr --actions "$T/actions.json"
           echo "verdict=$VERDICT" >> "$GITHUB_OUTPUT"
@@ -106,9 +111,11 @@ jobs:
           bash scripts/steward_finish.sh "$RUNNER_TEMP/actions.json" "PR #$PR $VERDICT" "$PR"
       - name: Report steward failure
         if: failure()
+        env:
+          PR: ${{ github.event.pull_request.number }}
         run: |
-          gh issue create --title "[總管失敗] workflow run ${{ github.run_id }}" \
-            --body "總管執行失敗：$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}。可能是已合併但 state 沒推進；檢查 state.json 與 jobs.md 後以人工動作處理。" --label needs-human || true
+          bash scripts/gh_retry.sh 3 gh issue create --title "[總管失敗] PR #$PR workflow run ${{ github.run_id }}" \
+            --body "總管執行失敗：$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}。最常見原因是 GitHub 回 5xx：到該執行頁面按 Re-run failed jobs 即可（已合併的會自動補做後續步驟）。仍失敗再檢查 state.json 與 jobs.md 後以人工動作處理。" --label needs-human || true
 
   human:
     if: github.event_name == 'workflow_dispatch'
@@ -144,5 +151,5 @@ jobs:
       - name: Report failure
         if: failure()
         run: |
-          gh issue create --title "[總管失敗] 人工動作 ${{ inputs.action }}" \
+          bash scripts/gh_retry.sh 3 gh issue create --title "[總管失敗] 人工動作 ${{ inputs.action }}" \
             --body "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}" --label needs-human || true
