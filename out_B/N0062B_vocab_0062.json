@@ -1,0 +1,759 @@
+{
+  "batch": "N0062",
+  "checked": 50,
+  "reviewed": [
+    "impair",
+    "impart",
+    "impetus",
+    "imprisonment",
+    "impulsive",
+    "inability",
+    "inaugurate",
+    "incense",
+    "incidence",
+    "incidental",
+    "incidentally",
+    "incumbent",
+    "indefinite",
+    "indicative",
+    "indicator",
+    "indictment",
+    "indignation",
+    "inertia",
+    "infantry",
+    "ingenious",
+    "ingenuity",
+    "inhibit",
+    "inhibited",
+    "inhibition",
+    "inlet",
+    "inmate",
+    "insecticide",
+    "insecure",
+    "insider",
+    "insistent",
+    "instability",
+    "installment",
+    "instantaneous",
+    "institutional",
+    "instrumental",
+    "insulate",
+    "insure",
+    "insurer",
+    "integral",
+    "intelligible",
+    "inter",
+    "intercourse",
+    "interim",
+    "intermittent",
+    "intricate",
+    "intrinsic",
+    "intrusion",
+    "invalid",
+    "invariable",
+    "invert"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "impair",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此重複表達使能力或功能受損的同一概念。",
+      "fix": "損害"
+    },
+    {
+      "word": "impetus",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項都在描述促使行動或發展的推動力量，屬同義重複。",
+      "fix": "推動力"
+    },
+    {
+      "word": "imprisonment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監禁與囚禁重複，而入獄偏指進入監獄的動作，宜統一為監禁。",
+      "fix": "監禁"
+    },
+    {
+      "word": "imprisonment",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "宣布刑期不宜用 a one-year imprisonment，改用 sentence someone to a period of imprisonment 的典型搭配。",
+      "fix": "The judge sentenced the driver to one year of imprisonment."
+    },
+    {
+      "word": "imprisonment",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "法官判處這名駕駛一年徒刑。"
+    },
+    {
+      "word": "imprisonment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「結束入獄生活」不自然，原文表示監禁結束而獲釋。",
+      "fix": "她繳清法院規定的罰款後獲釋。"
+    },
+    {
+      "word": "impulsive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都描述未經充分思考而憑一時念頭行動的同一特質。",
+      "fix": "衝動的"
+    },
+    {
+      "word": "impulsive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅說可能衝動，並未做出比較。",
+      "fix": "青少年和朋友在一起時可能會衝動行事。"
+    },
+    {
+      "word": "inability",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無法是表示不能的副詞，原三項也重複，名詞義宜表達能力的不足。",
+      "fix": "能力不足"
+    },
+    {
+      "word": "inaugurate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第三句仍是啟用商店，未清楚呈現已列出的開創義，改用 inaugurate a new era 的典型搭配。",
+      "fix": "The agreement will inaugurate a new era of cooperation between the two universities."
+    },
+    {
+      "word": "inaugurate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這項協議將開創兩所大學合作的新時代。"
+    },
+    {
+      "word": "incense",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「香」與「薰香」在此重複指供燃燒散發香味的物品。",
+      "fix": "香"
+    },
+    {
+      "word": "incense",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「激怒」與「使憤怒」是同義重複。",
+      "fix": "激怒"
+    },
+    {
+      "word": "incidence",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指事件的發生率，發生頻率與其重複，而影響範圍未在例句中呈現。",
+      "fix": "發生率"
+    },
+    {
+      "word": "incidental",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "附帶與次要在此重複，保留附帶及偶然兩義。",
+      "fix": "附帶的；偶然的"
+    },
+    {
+      "word": "incidental",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "飯店針對服務另外收費，原句 charges extra for costs 將費用再當成收費對象，搭配不自然。",
+      "fix": "The hotel charges extra for incidental services such as laundry."
+    },
+    {
+      "word": "incidental",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "飯店會針對洗衣等附帶服務另外收費。"
+    },
+    {
+      "word": "incidentally",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "附帶地的獨立用法未在三句中呈現，保留順帶補充與偶然兩義。",
+      "fix": "順帶一提；偶然地"
+    },
+    {
+      "word": "incumbent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "incumbent on 表示有義務履行某事，不只是一般性地有責任。",
+      "fix": "現任的；有義務的"
+    },
+    {
+      "word": "incumbent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "現任者與在職者在此重複表達目前擔任該職位的人。",
+      "fix": "現任者"
+    },
+    {
+      "word": "indicative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字表示顯示或表明某事，不是象徵符號，後兩項也重複。",
+      "fix": "顯示…的"
+    },
+    {
+      "word": "indicative",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般物價上漲不直接對應住宅需求，須明確限定為房價。",
+      "fix": "Rising house prices are indicative of growing demand for housing."
+    },
+    {
+      "word": "indicative",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "房價上漲顯示住宅需求增加。"
+    },
+    {
+      "word": "indictment",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未呈現已列出的起訴行為義，且兩句皆描述起訴書，改用 led to the indictment 呈現。",
+      "fix": "The investigation led to the indictment of several company executives."
+    },
+    {
+      "word": "indictment",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這項調查導致數名公司高階主管遭到起訴。"
+    },
+    {
+      "word": "indignation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "憤慨與義憤在此重複表達因不公平或冒犯而產生的憤怒。",
+      "fix": "憤慨"
+    },
+    {
+      "word": "indignation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "indignation 的憤怒程度比一般不滿更強，應保留憤慨語氣。",
+      "fix": "公車票價突然上漲引發了民眾的憤慨。"
+    },
+    {
+      "word": "inertia",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遲鈍範圍過廣且與缺乏行動力重疊，保留物理慣性與不願改變的惰性。",
+      "fix": "慣性；惰性"
+    },
+    {
+      "word": "infantry",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指集體步兵兵種或部隊，兩項在此重複。",
+      "fix": "步兵部隊"
+    },
+    {
+      "word": "ingenious",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "靈巧容易誤解為手腳敏捷，且三句主要表達巧妙與獨創力。",
+      "fix": "巧妙的；有獨創力的"
+    },
+    {
+      "word": "ingenuity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項都在表達善於想出創意解法的能力，且足智多謀偏形容狀態，宜精簡名詞義。",
+      "fix": "巧思"
+    },
+    {
+      "word": "inhibit",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指抑制或阻礙，未使用正式禁止的意思。",
+      "fix": "抑制；阻礙"
+    },
+    {
+      "word": "inhibited",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆形容社交場合放不開，原三項重複且泛稱受抑制範圍過廣。",
+      "fix": "拘謹的"
+    },
+    {
+      "word": "inhibition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "拘束與顧慮在此重疊，宜區分生理抑制作用與心理拘束感。",
+      "fix": "抑制；拘束感"
+    },
+    {
+      "word": "inhibition",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表達放開社交拘束的典型搭配是 lose one's inhibitions，使用複數較自然。",
+      "fix": "The actor lost all his inhibitions once the music began."
+    },
+    {
+      "word": "inhibition",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "音樂一響起，這位演員就拋開了所有拘束。"
+    },
+    {
+      "word": "inhibition",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "feel inhibition 不如 with inhibition 的典型搭配自然，並改用熟悉聽眾的情境。",
+      "fix": "Many people speak with less inhibition when they know their audience well."
+    },
+    {
+      "word": "inhibition",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "許多人在熟悉聽眾時，說話會比較不拘束。"
+    },
+    {
+      "word": "inlet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單寫入口範圍過廣，機械用法須限定為氣體或液體流入的開口。",
+      "fix": "小灣；（氣體或液體的）入口"
+    },
+    {
+      "word": "inmate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "住院者的用法未在三句中呈現，且不宜將一般住院病人一概稱為 inmate。",
+      "fix": "受刑人；被收容者"
+    },
+    {
+      "word": "insecure",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句及其翻譯涉及缺乏自信，現有義項未清楚列出，且不安與缺乏安全感重複。",
+      "fix": "缺乏安全感的；缺乏自信的；不穩固的"
+    },
+    {
+      "word": "insider",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "知情者未限定與組織內部的關係，範圍過廣且與內部人士重疊。",
+      "fix": "內部人士"
+    },
+    {
+      "word": "insistent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分堅持要求與聲音急切持續兩種用法，原第三項與第一項重複。",
+      "fix": "堅持不讓步的；急切而持續的"
+    },
+    {
+      "word": "insistent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "insistent 強調急切持續催促，不一定表示敲擊速度急促。",
+      "fix": "一陣急切而持續的敲門聲一大早就把我們吵醒了。"
+    },
+    {
+      "word": "instability",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不穩定與不穩定性是同一概念，保留明確名詞形式。",
+      "fix": "不穩定性"
+    },
+    {
+      "word": "installment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "installment 指分期繳付的一筆款項，不是分期付款方式本身，一期也缺少所指。",
+      "fix": "分期款項；連載或系列作品的一集"
+    },
+    {
+      "word": "instantaneous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項都表示事情立即或在一瞬間發生，屬同義重複。",
+      "fix": "瞬間發生的"
+    },
+    {
+      "word": "instantaneous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「反應是瞬間的」過度逐字翻譯，應表達立即做出反應。",
+      "fix": "她對巨大的聲響立即做出反應。"
+    },
+    {
+      "word": "institutional",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "大學語境的 institutional support 指校方支援，原文逐字譯為機構的支援不自然。",
+      "fix": "這所大學為新生提供校方支援。"
+    },
+    {
+      "word": "institutional",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "院方規定不宜逐字寫成機構規定，改以自然中文呈現。",
+      "fix": "這家醫院規定，所有訪客都必須戴口罩。"
+    },
+    {
+      "word": "instrumental",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "instrumental in 表示起重要作用，不只是一般有幫助，音樂用法則指器樂。",
+      "fix": "起重要作用的；器樂的"
+    },
+    {
+      "word": "instrumental",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "instrumental 強調關鍵的重要作用，不能只譯成一般很有幫助。",
+      "fix": "她的建議對我選擇主修科系起了重要作用。"
+    },
+    {
+      "word": "instrumental",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "song 通常指歌曲，無人聲的器樂演奏宜使用 piece 以免混淆。",
+      "fix": "We listened to a soft instrumental piece during dinner."
+    },
+    {
+      "word": "instrumental",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "我們晚餐時聽了一首輕柔的器樂曲。"
+    },
+    {
+      "word": "instrumental",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "主要義為起重要作用，並不限於音樂，單列藝術文化無法代表首義。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "insulate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用電線絕緣義而未列出，並精簡泛稱隔絕的重疊說法。",
+      "fix": "使隔熱；使絕緣；使隔音"
+    },
+    {
+      "word": "insulate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未涵蓋已列出的隔音義，將重複的隔熱情境改為隔音。",
+      "fix": "Thick curtains can insulate a room against noise from the street."
+    },
+    {
+      "word": "insulate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "厚窗簾可以為房間隔音，減少街上的噪音傳入。"
+    },
+    {
+      "word": "insure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "投保與為某物保險在此重複，保留保險及美式確保兩義。",
+      "fix": "為…投保；確保"
+    },
+    {
+      "word": "integral",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆涉及整體中的必要或組成部分，未使用完整的意思。",
+      "fix": "不可或缺的；構成整體的"
+    },
+    {
+      "word": "intelligible",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指麥克風影響下是否聽得清語音，而可理解不一定等於容易理解。",
+      "fix": "可理解的；聽得清楚的"
+    },
+    {
+      "word": "inter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "埋葬與安葬為同義重複，安葬亦符合此字較正式的語體。",
+      "fix": "安葬"
+    },
+    {
+      "word": "intercourse",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "漏掉現代最常用的性交義，原交流往來用法須標明正式或舊式語體。",
+      "fix": "性交；交流往來（正式或舊式用語）"
+    },
+    {
+      "word": "intercourse",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以中性的健康教育情境呈現現代最常用義，避免只教舊式往來義。",
+      "fix": "The health textbook explains that intercourse can result in pregnancy."
+    },
+    {
+      "word": "intercourse",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "健康課本說明，性交可能導致懷孕。"
+    },
+    {
+      "word": "intercourse",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句將 social intercourse 當作現代一般社交用語，改以舊式用法說明避免誤用。",
+      "fix": "In older writing, social intercourse refers to contact between people."
+    },
+    {
+      "word": "intercourse",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "在較早期的寫作中，social intercourse 指的是人與人之間的往來。"
+    },
+    {
+      "word": "intercourse",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補足現代主要身體健康義後，分類須優先呈現健康，並保留正式國際往來的歷史社會分類。",
+      "fix": [
+        "健康與身體",
+        "社會與法律",
+        "歷史與地理"
+      ]
+    },
+    {
+      "word": "interim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暫時與臨時重複，且第三句的 interim report 屬非最終的階段性報告。",
+      "fix": "暫時的；階段性的"
+    },
+    {
+      "word": "interim",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都指兩個階段之間的過渡期間，屬同義重複。",
+      "fix": "過渡期間"
+    },
+    {
+      "word": "interim",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "met online 只說在線上聚會，沒有說明原先方式改變。",
+      "fix": "兩場活動之間的這段期間，社團在線上聚會。"
+    },
+    {
+      "word": "intermittent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "間歇與斷斷續續為同義重複。",
+      "fix": "時斷時續的"
+    },
+    {
+      "word": "intricate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "intricate 的精細伴隨繁複細節，不宜只譯為一般精細。",
+      "fix": "錯綜複雜的；繁複精細的"
+    },
+    {
+      "word": "intricate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "intricate 強調細節繁複，不只是資訊詳細。",
+      "fix": "她畫了一張涵蓋整個社區、細節繁複的地圖。"
+    },
+    {
+      "word": "intrinsic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三項都表達事物本身固有而非外加的性質，屬同義重複。",
+      "fix": "本身固有的"
+    },
+    {
+      "word": "intrusion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "侵入與闖入在此重複，保留實體侵入與造成打擾兩義。",
+      "fix": "侵入；打擾"
+    },
+    {
+      "word": "intrusion",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "quick 表示詢問所需時間短，不是問題難度簡單。",
+      "fix": "抱歉打擾，我可以簡短地問你一個問題嗎？"
+    },
+    {
+      "word": "invalid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不成立與站不住腳在此重複，宜區分效力與論點的成立性。",
+      "fix": "無效的；站不住腳的"
+    },
+    {
+      "word": "invalid",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆指無效，未呈現已列出的論點站不住腳義。",
+      "fix": "His argument is invalid because it relies on false assumptions."
+    },
+    {
+      "word": "invalid",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "他的論點建立在錯誤假設上，因此站不住腳。"
+    },
+    {
+      "word": "invariable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都表示維持不變，屬同義重複。",
+      "fix": "不變的"
+    },
+    {
+      "word": "invariable",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "invariable 與 never changes 意義重複，刪除重複敘述並補上自然作息情境。",
+      "fix": "My uncle follows an invariable morning routine before leaving for work."
+    },
+    {
+      "word": "invariable",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "我叔叔上班出門前總是遵循固定的晨間作息。"
+    },
+    {
+      "word": "invariable",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "第一及第三句皆描述個人的固定作息，改為機器速度不變以增加情境差異。",
+      "fix": "The machine operates at an invariable speed throughout the test."
+    },
+    {
+      "word": "invariable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這台機器在整個測試過程中都以不變的速度運轉。"
+    },
+    {
+      "word": "invert",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泛稱倒置、顛倒與反轉容易重疊，宜依三句明確區分方向、次序與顏色的反轉。",
+      "fix": "倒置；顛倒順序；反轉顏色"
+    }
+  ]
+}
