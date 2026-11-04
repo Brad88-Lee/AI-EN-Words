@@ -1,0 +1,561 @@
+{
+  "batch": "N0059",
+  "checked": 50,
+  "reviewed": [
+    "established",
+    "establishment",
+    "ethics",
+    "evacuation",
+    "evaporate",
+    "evaporation",
+    "exceedingly",
+    "exemplify",
+    "existing",
+    "expel",
+    "expend",
+    "experienced",
+    "exposition",
+    "expulsion",
+    "exquisite",
+    "externals",
+    "extinguish",
+    "extradite",
+    "extravagant",
+    "extremist",
+    "fabricate",
+    "facet",
+    "fad",
+    "famine",
+    "fatty",
+    "feat",
+    "federation",
+    "feeder",
+    "fellowship",
+    "feminism",
+    "feminist",
+    "fiddle",
+    "fidelity",
+    "finding",
+    "firefighter",
+    "first-class",
+    "fitting",
+    "fixed",
+    "fixture",
+    "flank",
+    "flap",
+    "flare",
+    "flick",
+    "flicker",
+    "fling",
+    "flop",
+    "flounder",
+    "fluctuate",
+    "flutter",
+    "foil"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "established",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容公司或作者時重點是已有穩固地位，不一定歷史悠久，應與既定規則義區分。",
+      "fix": "有穩固地位的；已確立的"
+    },
+    {
+      "word": "established",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "紀錄例句使用創下義，原義項未列出，建立與設立則重複。",
+      "fix": "建立；創下"
+    },
+    {
+      "word": "ethics",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "道德規範與道德觀在例句中重疊，應與倫理學的學科義區分。",
+      "fix": "倫理學；道德規範"
+    },
+    {
+      "word": "evacuation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "疏散與撤離在這三個避難例句中同義重複，應合併。",
+      "fix": "疏散"
+    },
+    {
+      "word": "evaporate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "蒸發的是水坑裡的積水，不是坑洞本身，原譯水坑開始蒸發不精確。",
+      "fix": "午後的陽光下，地上的積水開始蒸發。"
+    },
+    {
+      "word": "evaporation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蒸發與蒸發作用指相同過程，應合併。",
+      "fix": "蒸發"
+    },
+    {
+      "word": "evaporation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Evaporation turns liquid water into vapor even at room temperature."
+    },
+    {
+      "word": "evaporation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "即使在室溫下，蒸發也會把液態水變成水蒸氣。"
+    },
+    {
+      "word": "exceedingly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "非常與極其在此同義重複，應合併。",
+      "fix": "極其"
+    },
+    {
+      "word": "exemplify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "exemplify 可指典型代表，不一定是值得效法的典範，並應保留舉例說明義。",
+      "fix": "舉例說明；是……的典型代表"
+    },
+    {
+      "word": "existing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "現有與現存在這三個例句中重疊，應合併。",
+      "fix": "現有的"
+    },
+    {
+      "word": "expend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個中文詞都指花用資源，應合併，避免將第三句 all 帶出的用盡程度另列成義項。",
+      "fix": "耗費"
+    },
+    {
+      "word": "experienced",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有經驗與經驗豐富在此同屬具備經驗的用法，應合併。",
+      "fix": "有經驗的"
+    },
+    {
+      "word": "exposition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "博覽會與展覽在兩個活動例句中重疊，與闡述義分列即可。",
+      "fix": "博覽會；闡述"
+    },
+    {
+      "word": "exquisite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "精緻與優美在前兩句同屬精美之義，應合併並保留餐點絕佳義。",
+      "fix": "精美的；絕佳的"
+    },
+    {
+      "word": "externals",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個義項皆指表面外觀，應合併避免重複。",
+      "fix": "外表"
+    },
+    {
+      "word": "extravagant",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "承諾例句指誇大而不切實際，僅列過度不夠精準。",
+      "fix": "奢侈的；浪費的；誇大的"
+    },
+    {
+      "word": "extremist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極端主義者與極端分子在此指相同對象，應合併。",
+      "fix": "極端主義者"
+    },
+    {
+      "word": "extremist",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容詞指極端主義立場，不泛指任何程度極端的事物，三句均為觀點或思想。",
+      "fix": "極端主義的"
+    },
+    {
+      "word": "fabricate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捏造與虛構在藉口及數據例句中重疊，與實際製造義分列即可。",
+      "fix": "捏造；製造"
+    },
+    {
+      "word": "facet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "面向與層面在生活及成長例句中重複，與寶石刻面義分列即可。",
+      "fix": "面向；刻面"
+    },
+    {
+      "word": "fad",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "fad 必含短暫流行之意，不是任何持久風潮，原兩義也重疊。",
+      "fix": "一時的流行"
+    },
+    {
+      "word": "fad",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fad 表示短暫流行，原譯風潮沒有清楚呈現一時性。",
+      "fix": "彩色橡膠手環曾在學生之間風靡一時。"
+    },
+    {
+      "word": "famine",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為食物短缺造成的饑荒，沒有示範一般事物嚴重缺乏的比喻義。",
+      "fix": "饑荒"
+    },
+    {
+      "word": "fatty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "fatty 表示脂肪含量高，不是只要含有脂肪即可稱為 fatty。",
+      "fix": "高脂肪的；油膩的"
+    },
+    {
+      "word": "fatty",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "並非所有高脂肪食物都不利心臟，改用菜單中的中性描述，避免過度概括健康影響。",
+      "fix": "The menu offers both fatty dishes and lighter vegetable options."
+    },
+    {
+      "word": "fatty",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "菜單上既有高脂肪餐點，也有較清爽的蔬菜選項。"
+    },
+    {
+      "word": "feat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "功績與壯舉在此均為非凡成就，應合併並保留技藝義。",
+      "fix": "壯舉；絕技"
+    },
+    {
+      "word": "federation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "聯盟與聯合會在體育例句中重疊，應合併並保留國家體制的聯邦義。",
+      "fix": "聯邦；聯合會"
+    },
+    {
+      "word": "fellowship",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句示範友誼、交流及獎學金，沒有團體本身的用法。",
+      "fix": "友誼；獎學金"
+    },
+    {
+      "word": "feminist",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The author is a well-known feminist whose work explores women's history."
+    },
+    {
+      "word": "feminist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這位作家是知名的女性主義者，作品探討女性歷史。"
+    },
+    {
+      "word": "fiddle",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擺弄與瞎弄在這三個 fiddling with 事物的例句中重疊，應合併。",
+      "fix": "擺弄"
+    },
+    {
+      "word": "finding",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三個例句都是研究結果或發現古幣，沒有裁決義的例句。",
+      "fix": "發現；調查結果"
+    },
+    {
+      "word": "first-class",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "搭乘頭等艙地不是自然的中文副詞表達，應改用方式片語。",
+      "fix": "以頭等艙方式"
+    },
+    {
+      "word": "fitting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "適合與恰當在這三個例句中同義重複，應合併。",
+      "fix": "恰當的"
+    },
+    {
+      "word": "fixture",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "舊時鐘例句指長期存在的固定陳設，不一定是固定裝置，泛稱設備未清楚列出此義。",
+      "fix": "固定裝置；固定陳設；常客"
+    },
+    {
+      "word": "flank",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "夾在兩側的主客關係不清，三句均指某物或人分列另一對象兩側。",
+      "fix": "位於……的兩側"
+    },
+    {
+      "word": "flap",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "信封的封口應表達合上封口片，蓋緊容易誤作硬質蓋子的操作。",
+      "fix": "把信封的封口片牢牢合上。"
+    },
+    {
+      "word": "flare",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tempers 明指怒氣，不宜泛譯為不特定情緒。",
+      "fix": "冗長的會議中，大家開始動怒。"
+    },
+    {
+      "word": "flick",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "甩尾例句使用輕甩義，原文未列出，三句也未示範快速翻動義。",
+      "fix": "輕彈；輕甩"
+    },
+    {
+      "word": "flick",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "手腕及翻頁例句需要輕甩與快速翻動義，另應補入常見的電影口語義。",
+      "fix": "輕甩；快速翻動；電影（口語）"
+    },
+    {
+      "word": "flick",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的電影口語義，與手腕及翻頁的動作情境區分。",
+      "fix": "We watched a funny flick at the neighborhood cinema last night."
+    },
+    {
+      "word": "flick",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們昨晚在附近的電影院看了一部好笑的電影。"
+    },
+    {
+      "word": "flicker",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "微笑例句使用一閃而過的比喻義，原義項未清楚列出，閃爍與搖曳的光影義則可合併。",
+      "fix": "閃爍；一閃而過"
+    },
+    {
+      "word": "flicker",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "舊燈例句指閃爍現象，不只是某個具體光點，應以閃爍概括。",
+      "fix": "閃爍；一絲"
+    },
+    {
+      "word": "flicker",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "A smile flickered across her face when she recognized her old friend."
+    },
+    {
+      "word": "flicker",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "她認出老朋友時，臉上閃過一抹微笑。"
+    },
+    {
+      "word": "fling",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "fling open 及 fling one's arms around 都是突然有力地移動，不是投擲，原兩義也重複。",
+      "fix": "猛丟；猛然移動"
+    },
+    {
+      "word": "flop",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "慘遭失敗的中文搭配不自然，應改為慘敗。",
+      "fix": "這項新產品在市場上慘敗。"
+    },
+    {
+      "word": "flounder",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "We ordered grilled flounder for dinner at a seaside restaurant."
+    },
+    {
+      "word": "flounder",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我們在海邊一家餐廳點了烤比目魚當晚餐。"
+    },
+    {
+      "word": "fluctuate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "波動與起伏在價格、氣溫及情緒例句中同義重複，應合併。",
+      "fix": "波動"
+    },
+    {
+      "word": "fluctuate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Prices of fresh fruit fluctuate depending on the season and weather."
+    },
+    {
+      "word": "fluctuate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "新鮮水果的價格會隨季節和天氣而波動。"
+    },
+    {
+      "word": "flutter",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "蝴蝶例句使用振翅飛舞義，僅寫拍動未完整表達飛行的意思。",
+      "fix": "振翅飛舞；飄動；顫動"
+    },
+    {
+      "word": "flutter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "教室例句為興奮引發的騷動，flutter 本身不只表示高興，應列出騷動義並涵蓋窗簾飄動。",
+      "fix": "拍動；飄動；騷動"
+    },
+    {
+      "word": "flutter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "A butterfly fluttered around the garden before landing on a flower."
+    },
+    {
+      "word": "flutter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "一隻蝴蝶在花園裡翩翩飛舞，然後停在一朵花上。"
+    },
+    {
+      "word": "flutter",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以一陣落葉當作 flutter 的主詞過於文學化，改以窗簾飄動的日常情境示範。",
+      "fix": "The gentle flutter of the curtains showed that the window was open."
+    },
+    {
+      "word": "flutter",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "窗簾輕輕飄動，顯示窗戶開著。"
+    },
+    {
+      "word": "foil",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "foil 強調成功阻止企圖達成，阻撓與挫敗重疊且未必表達已阻止成功，應合併。",
+      "fix": "挫敗"
+    }
+  ]
+}
