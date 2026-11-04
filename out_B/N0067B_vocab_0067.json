@@ -1,0 +1,673 @@
+{
+  "batch": "N0067",
+  "checked": 50,
+  "reviewed": [
+    "peddle",
+    "peddler",
+    "peg",
+    "pendulum",
+    "penis",
+    "pensioner",
+    "perennial",
+    "periodic",
+    "periodical",
+    "permeate",
+    "perpetual",
+    "perplex",
+    "perseverance",
+    "pertain",
+    "pertinent",
+    "pesticide",
+    "pharmaceutical",
+    "pharmacology",
+    "physiological",
+    "physiology",
+    "picturesque",
+    "pierce",
+    "piercing",
+    "piety",
+    "pious",
+    "piss",
+    "pistol",
+    "plaster",
+    "plateau",
+    "plausible",
+    "plight",
+    "pluck",
+    "poach",
+    "pocketbook",
+    "pointed",
+    "poised",
+    "pollutant",
+    "pope",
+    "pore",
+    "postulate",
+    "postwar",
+    "potter",
+    "practicable",
+    "prairie",
+    "precipitate",
+    "precisely",
+    "preclude",
+    "predictable",
+    "predominant",
+    "predominantly"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "peddle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兜售與叫賣在此為同義重複。",
+      "fix": "兜售"
+    },
+    {
+      "word": "peddler",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項重疊，此字重點是四處販售的流動小販。",
+      "fix": "流動小販"
+    },
+    {
+      "word": "peg",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "釘子範圍過廣，且漏掉常見的英式曬衣夾義，應明確區分掛釘與樁。",
+      "fix": "掛釘；樁；曬衣夾（英式）"
+    },
+    {
+      "word": "peg",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第二及第三句皆為樁釘用途，以曬衣夾情境補足常見義。",
+      "fix": "She used a peg to keep the towel on the line."
+    },
+    {
+      "word": "peg",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她用一個曬衣夾把毛巾固定在曬衣繩上。"
+    },
+    {
+      "word": "peg",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 peg salaries to 指使薪資與生活費連動，不只是固定某個數值。",
+      "fix": "固定（用釘或夾子）；把…維持在某水準；使…連動"
+    },
+    {
+      "word": "peg",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢泛指木樁或木夾，未明確對應首義的掛釘。",
+      "fix": "coat peg"
+    },
+    {
+      "word": "pendulum",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鐘擺是擺錘的一種用途，兩項在此重疊。",
+      "fix": "擺錘（如鐘擺）"
+    },
+    {
+      "word": "pendulum",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "clock ran down 表示動力耗盡，不一定是電力，機械鐘也可能需要重新上發條。",
+      "fix": "時鐘的動力耗盡後，擺錘就停止擺動了。"
+    },
+    {
+      "word": "pensioner",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "退休人員未必領取退休金，不能與 pensioner 完全等同。",
+      "fix": "領退休金的人"
+    },
+    {
+      "word": "pensioner",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "pensioners 指領退休金的人，原譯把資格泛化為所有退休人員。",
+      "fix": "市政府為領退休金的人提供免費健康檢查。"
+    },
+    {
+      "word": "periodic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "定期與週期性在此都表示以一定間隔反覆發生，屬近義重複。",
+      "fix": "週期性的"
+    },
+    {
+      "word": "periodical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "期刊就是定期刊物，兩項指同一概念。",
+      "fix": "期刊"
+    },
+    {
+      "word": "periodical",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二及第三句不是出版活動，應以週期性發生的共同概念合併。",
+      "fix": "週期性的"
+    },
+    {
+      "word": "permeate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遍及在此與滲透或瀰漫重疊，保留滲入物質與氣味瀰漫兩種表達。",
+      "fix": "滲透；瀰漫"
+    },
+    {
+      "word": "permeate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上水分抵達植物根部的自然情境。",
+      "fix": "Rainwater slowly permeated the soil and reached the roots below."
+    },
+    {
+      "word": "permeate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "雨水慢慢滲入土壤，抵達下方的根部。"
+    },
+    {
+      "word": "perpetual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不斷與無休止重複，保留永久持續及持續不斷兩種用法。",
+      "fix": "永久的；持續不斷的"
+    },
+    {
+      "word": "perplex",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "難住與使困惑在此同樣表示使人難以理解，屬近義重複。",
+      "fix": "使困惑"
+    },
+    {
+      "word": "perseverance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "堅持不懈在此重複描述毅力，且毅力是較明確的名詞形式。",
+      "fix": "毅力"
+    },
+    {
+      "word": "pertinent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都表示切合當前討論的主題，宜合併。",
+      "fix": "切題的"
+    },
+    {
+      "word": "pesticide",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "殺蟲劑只是 pesticide 的一類，不能與涵蓋除草劑等的農藥概念混列。",
+      "fix": "農藥（包括殺蟲劑、除草劑等）"
+    },
+    {
+      "word": "pharmaceutical",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藥品與藥物在此為同義重複。",
+      "fix": "藥品"
+    },
+    {
+      "word": "pharmacology",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "studying 只說正在學習，未明說是主修科目。",
+      "fix": "她在大學學習藥理學。"
+    },
+    {
+      "word": "physiological",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆描述身體生理現象，生理學的與生理的在此重疊。",
+      "fix": "生理的"
+    },
+    {
+      "word": "picturesque",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "別緻範圍過廣，此字在三句皆指景色優美如畫。",
+      "fix": "風景如畫的"
+    },
+    {
+      "word": "pierce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺穿與穿透在此重複，保留一般穿刺及身體部位穿洞兩種用法。",
+      "fix": "刺穿；穿洞（耳朵等）"
+    },
+    {
+      "word": "piety",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "虔誠與虔敬在此為同義重複。",
+      "fix": "虔誠"
+    },
+    {
+      "word": "pious",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩項重複，且漏掉看似高尚卻不真誠的常見貶義用法。",
+      "fix": "虔誠的；道貌岸然的（貶義）"
+    },
+    {
+      "word": "pious",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆描述宗教虔誠，以一般職場言論補足虛偽標榜道德的貶義。",
+      "fix": "The manager made pious promises of fairness but ignored the workers' complaints."
+    },
+    {
+      "word": "pious",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "經理空口承諾公平，卻無視員工的抱怨。"
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "漏掉動詞最主要的小便義及 piss off 的滾開用法，且所有用法均須標明粗俗。",
+      "fix": "小便（粗俗）；惹惱（片語用法，粗俗）；滾開（片語用法，粗俗）"
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句只教 piss off 的惹惱義，改以小說中的語言情境補足粗俗的小便義。",
+      "fix": "In the novel, a character says he needs to piss."
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "小說中，一個角色說他得撒尿。"
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句直接用粗俗片語指示職場行為，改為故事中的口語描述，配合語體標示。",
+      "fix": "In the story, she admits that the delays piss her off."
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "故事中，她承認那些延誤讓她很火大。"
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補足 piss off 表示滾開的常用義，並以電影情境呈現不禮貌言語。",
+      "fix": "In the film, the angry customer tells a salesperson to piss off."
+    },
+    {
+      "word": "piss",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "電影中，那名生氣的顧客粗魯地叫銷售員滾開。"
+    },
+    {
+      "word": "pistol",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是發令槍，不宜與發射信號彈的信號槍混淆。",
+      "fix": "手槍；發令槍"
+    },
+    {
+      "word": "plaster",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "貼在小割傷上的英式 plaster 是傷口貼布，不是藥膏貼劑。",
+      "fix": "灰泥；石膏；傷口貼布（英式）"
+    },
+    {
+      "word": "plaster",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "此處 plaster 是保護小傷口的貼布，不能譯成膏藥。",
+      "fix": "在割傷處貼上傷口貼布，保持清潔。"
+    },
+    {
+      "word": "plaster",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "貼滿與塗滿在此同為大面積覆蓋的延伸義，可合併並與建築抹灰區分。",
+      "fix": "塗灰泥；覆滿（海報、乳霜等）"
+    },
+    {
+      "word": "plateau",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項重疊，且應明確指出在成長或上升後不再上升而保持平穩。",
+      "fix": "不再上升而趨於平穩"
+    },
+    {
+      "word": "plausible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字只表示看似合理可信，不保證真實，兩項應合併並共同受似乎限定。",
+      "fix": "似乎合理可信的"
+    },
+    {
+      "word": "plight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "困境與苦境為同義重複。",
+      "fix": "困境"
+    },
+    {
+      "word": "plight",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "help 的對象應是人，而非困境本身，困境通常搭配 ease 或 alleviate。",
+      "fix": "Volunteers came to ease the plight of the flood victims."
+    },
+    {
+      "word": "plight",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "志工前來緩解水災災民的困境。"
+    },
+    {
+      "word": "plight",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "plight 明確表示不幸困境，單譯處境容易失去負面語意。",
+      "fix": "沒有人注意到公園裡流浪狗的困境。"
+    },
+    {
+      "word": "pluck",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勇氣與膽量在此為同義重複。",
+      "fix": "勇氣"
+    },
+    {
+      "word": "poach",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "烹調的 poach 使用未沸騰的液體，不能與一般沸水煮法混同。",
+      "fix": "以未沸騰的液體烹煮；偷獵"
+    },
+    {
+      "word": "poach",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文是喜歡做水波蛋，不只是喜歡吃一般水煮蛋。",
+      "fix": "我喜歡做水波蛋當早餐。"
+    },
+    {
+      "word": "poach",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "poached 強調以未沸騰的液體烹煮，應保留方法差異。",
+      "fix": "廚師用未沸騰的清湯煮魚。"
+    },
+    {
+      "word": "pocketbook",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "皮夾與錢包重複，保留錢包與美式手提包兩義。",
+      "fix": "錢包；手提包（美式）"
+    },
+    {
+      "word": "pointed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尖銳與明顯針對在發言語境重疊，宜區分形狀與言語針對性。",
+      "fix": "尖的；尖銳而有所指的"
+    },
+    {
+      "word": "poised",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沉著與從容重複，宜區分準備就緒與神態沉著兩義。",
+      "fix": "準備就緒的；沉著從容的"
+    },
+    {
+      "word": "pore",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "毛孔不會像開關般被溫水打開，改以正確的油脂與角質堵塞情境呈現。",
+      "fix": "Oil and dead skin cells can clog the pores on your face."
+    },
+    {
+      "word": "pore",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "油脂和老廢角質可能堵塞臉上的毛孔。"
+    },
+    {
+      "word": "pore",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆是皮膚毛孔，未呈現已列出的材料細孔義。",
+      "fix": "Water passes through tiny pores in the rock and collects below."
+    },
+    {
+      "word": "pore",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "水穿過岩石中的細孔，在下方聚集。"
+    },
+    {
+      "word": "pore",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句是查看照片，不是閱讀文字，且原兩項都只指研讀。",
+      "fix": "仔細研讀；仔細查看"
+    },
+    {
+      "word": "postulate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "假定與假設在此為同義重複。",
+      "fix": "假定"
+    },
+    {
+      "word": "postulate",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是幾何公設，基本原理過於籠統，缺少明確的公設義。",
+      "fix": "假設；公設"
+    },
+    {
+      "word": "potter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "陶工與做陶器的人指同一角色，屬同義重複。",
+      "fix": "陶工"
+    },
+    {
+      "word": "practicable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可行與行得通在此為同義重複。",
+      "fix": "可行的"
+    },
+    {
+      "word": "prairie",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "草地範圍過廣，prairie 通常指北美等地遼闊的天然溫帶草原。",
+      "fix": "大草原（尤指北美溫帶草原）"
+    },
+    {
+      "word": "precipitate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三項近義重複，且漏掉常見的化學形成沉澱義。",
+      "fix": "突然引發；（使）形成沉澱（化學）"
+    },
+    {
+      "word": "precipitate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆是引發事件，以一般化學現象補足常見的沉澱義。",
+      "fix": "A white solid began to precipitate when the two solutions were mixed."
+    },
+    {
+      "word": "precipitate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "兩種溶液混合後，開始析出白色固體。"
+    },
+    {
+      "word": "precipitate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "倉促與草率在此重複表達過於急促、欠缺考慮的特質。",
+      "fix": "倉促的"
+    },
+    {
+      "word": "precisely",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "恰好可能誤解為偶然碰巧，三句主要表達精確與強調正是。",
+      "fix": "精確地；正是"
+    },
+    {
+      "word": "precisely",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "precisely nine 只說九點整，未說符合時刻表，準時是增譯。",
+      "fix": "火車在九點整到達。"
+    },
+    {
+      "word": "preclude",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項皆表示阻止某事發生或進行，屬近義重複。",
+      "fix": "使無法發生或進行"
+    },
+    {
+      "word": "predictable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可預測與意料之中在此同樣表示可事先預料，屬近義重複。",
+      "fix": "可預料的"
+    },
+    {
+      "word": "predictable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "predictable 不一定表示固定不變，原譯固定增添限制。",
+      "fix": "我們比較喜歡這個學年有可預期的時間表。"
+    },
+    {
+      "word": "predominant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都表示在數量、影響或重要性上占主導地位，屬近義重複。",
+      "fix": "佔主導地位的"
+    },
+    {
+      "word": "predominantly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "主要地與大多在此為近義重複。",
+      "fix": "大多"
+    }
+  ]
+}
