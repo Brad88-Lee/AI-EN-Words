@@ -8,7 +8,8 @@
 |---|---|
 | `.github/workflows/steward.yml` | 兩個入口：AI 的 PR（`pull_request_target`）、人工動作（`workflow_dispatch`） |
 | `.github/workflows/stall_check.yml` | 每小時逾時偵測 |
-| `.github/workflows/wake_watchdog.yml`、`scripts/wake_watchdog.py` | 喚醒看門狗：開完 `[wake-claude-A／C]` Issue 後由 `steward_finish.sh` dispatch；15 分鐘內沒看到 Claude 動作（遠端沒有喚醒後更新的 `claude/N####-X` 分支）就關舊 Issue、重開一個（標題加「(重派 k)」），最多 3 次，仍無動作開 `[喚醒失敗]`（needs-human）。狀態一推進（包含手動加速進到 B）就自動結束；只開／關 Issue，不碰 `state.json`，concurrency 群組與 `steward` 分開 |
+| `scripts/steward_merge.sh`、`scripts/gh_retry.sh` | 合併與 GitHub API 的重試：`gh pr merge` 遇 5xx 最多試 4 次（約 1 分鐘），每次先查 PR——已合併且 head 相同視為成功、head 變了或已關閉就略過。`gh_retry.sh N cmd` 給開 Issue、dispatch 看門狗等用。總管 workflow 對「已合併但 `jobs.md` 沒有驗證通過紀錄」的 PR 會補做後續步驟，所以 GitHub 5xx 造成失敗時只要 Re-run failed jobs |
+| `.github/workflows/wake_watchdog.yml`、`scripts/wake_watchdog.py` | 看門狗：總管每次推進到 A／B／C 後由 `steward_finish.sh` dispatch，每分鐘讀 main 的 `state.json`，狀態推進就結束（含手動加速）。三個階段都偵測「該階段的 open PR 已開 10 分鐘總管沒處理」（通常是 GitHub 5xx 讓總管失敗）→ 開一次 `[總管卡住] N####-X PR #n`（needs-human），請人到 Actions 按 Re-run failed jobs，**不重派**。A／C 另外：15 分鐘沒有 PR、分支也沒新 commit → 關舊喚醒 Issue、重開（標題加「(重派 k)」），最多 3 次，仍無動作開 `[喚醒失敗]`。B 不能喚醒 Codex，只做 PR 偵測，活到 5.5 小時。只開／關 Issue，不碰 `state.json`；concurrency 群組與 `steward` 分開 |
 | `scripts/steward.py` | 所有判斷與狀態機（可在本機測試：`tests/test_steward.py`） |
 | `scripts/steward_finish.sh` | 提交並推送狀態、處理 PR／Issue |
 
@@ -39,6 +40,7 @@
 ## 喚醒
 - **Claude（A、C）**：總管把 state 推進到 A 或 C 時，開一個 Issue，標題 `[wake-claude-A] N#### attempt 1` 或 `[wake-claude-C] N#### attempt 1`（A、C 分開，這樣 A、C 用不同模型的兩個任務不會互相叫醒）。Claude 的排程任務用「GitHub 事件：議題已開啟」觸發，篩選用標題「**包含**」`[wake-claude-A]`（或 `-C`；單一任務負責兩者就用 `[wake-claude`）。Phase 0 實測：不能用「開頭為」。Claude 被叫醒後**仍然只看 `state.json`**，忽略 Issue 內容。
 - **Codex（B）**：不能被 Actions 叫醒（`github-actions[bot]` 的 `@codex` 留言連接器不回應）。用 Codex 雲端排程輪詢；排程要「從綁定 `AI-EN-Words` 環境的對話」建立。
+- GitHub 自身 5xx（2026-11-03 N0046-B 503 持續 20 分鐘以上、11-04 N0068-C 502）：總管合併已加重試；仍失敗時看門狗開 `[總管卡住]`，人到 Actions 按 Re-run failed jobs 即可，不要手動 Merge（state 不會推進）、不要叫 AI 重送。
 - 保底：喚醒看門狗（見上表）會在 15 分鐘後重派漏掉的喚醒（GitHub 事件偶爾送不到 Claude 的 routine；實測 2026-11-03 發生過兩次）。GitHub 的 `schedule` 不保證準時，`stall_check` 只當最後一道保險。
 - 備案：Claude 另設每小時排程輪詢；`stall_check` 逾時會開 Issue 通知你。
 

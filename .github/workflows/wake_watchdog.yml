@@ -1,11 +1,11 @@
-# 喚醒看門狗：steward_finish.sh 開完 [wake-claude-X] Issue 後 dispatch。確認 Claude 真的有動作，沒有就重派（最多 3 次）。
+# 喚醒看門狗：steward_finish.sh 在 wake 動作後 dispatch（A、B、C 都有）。A／C 沒動作就重派（最多 3 次）；三個階段都偵測「PR 已開但總管沒處理」並告警。
 # 不碰 state.json，只開／關 Issue；concurrency 群組與 steward 分開，等待時不會卡住總管。同一組（階段＋輪次＋attempt）只留最新一個。
 name: wake-watchdog
 on:
   workflow_dispatch:
     inputs:
       stage:
-        description: 階段（A 或 C）
+        description: 階段（A／B／C）
         required: true
       round:
         description: 四位數輪次
@@ -16,6 +16,7 @@ on:
 permissions:
   contents: read
   issues: write
+  pull-requests: read
 concurrency:
   group: watchdog-${{ inputs.stage }}-${{ inputs.round }}-${{ inputs.attempt }}
   cancel-in-progress: true
@@ -25,7 +26,7 @@ env:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 345   # B 要看到 deadline（5 小時）；A／C 腳本自己 80 分鐘就結束
     steps:
       - uses: actions/checkout@v4
         with:
