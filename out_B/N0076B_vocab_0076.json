@@ -1,0 +1,601 @@
+{
+  "batch": "N0076",
+  "checked": 50,
+  "reviewed": [
+    "trench",
+    "trespass",
+    "tribunal",
+    "trio",
+    "triumphant",
+    "trolley",
+    "trot",
+    "truant",
+    "truce",
+    "truly",
+    "tuberculosis",
+    "tug-of-war",
+    "turbine",
+    "turbulent",
+    "turnover",
+    "two-thirds",
+    "typically",
+    "tyranny",
+    "tyrant",
+    "ulcer",
+    "ultimately",
+    "ultraviolet",
+    "umpire",
+    "unacceptable",
+    "unbeaten",
+    "uncertainty",
+    "unchanged",
+    "underlie",
+    "understandable",
+    "underwrite",
+    "undoubted",
+    "uneasy",
+    "unemployed",
+    "unidentified",
+    "unleash",
+    "unload",
+    "unpack",
+    "unrest",
+    "unusually",
+    "unwanted",
+    "up-to-date",
+    "upbringing",
+    "uphold",
+    "uranium",
+    "urine",
+    "utmost",
+    "valiant",
+    "validity",
+    "valve",
+    "varied"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "trench",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "溝與水溝重疊，且漏掉常見的戰壕義。",
+      "fix": "溝；戰壕；海溝"
+    },
+    {
+      "word": "trench",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第一與第三句皆為一般溝渠，改以中性歷史展覽情境補足戰壕義。",
+      "fix": "The museum displays photographs of soldiers resting in a trench during the war."
+    },
+    {
+      "word": "trench",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "博物館展示了戰爭期間士兵在戰壕中休息的照片。"
+    },
+    {
+      "word": "trespass",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "侵入與擅自闖入在三句皆指未經許可進入場所，應合併。",
+      "fix": "擅自闖入"
+    },
+    {
+      "word": "trespass",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "屋頂是登上或進入其範圍，闖進屋頂的中文搭配不自然。",
+      "fix": "那些男孩擅自登上學校屋頂拍照。"
+    },
+    {
+      "word": "tribunal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "tribunal 包括依法審判的專門機構，不能把勞資審裁一概等同私法仲裁。",
+      "fix": "專門法庭；審裁機構"
+    },
+    {
+      "word": "tribunal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "employment tribunal 是處理勞資案件的審裁機構，不必然是仲裁庭。",
+      "fix": "工人們把案子提交到勞資審裁庭。"
+    },
+    {
+      "word": "trio",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句明確指演奏的團體，應列三重奏樂團而非只列演奏形式。",
+      "fix": "三人組；三重奏樂團；三件一組"
+    },
+    {
+      "word": "trio",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文的 trio 是演奏者團體，不是三重奏這種音樂形式。",
+      "fix": "這個三重奏樂團在學校音樂會上演奏了一首短曲。"
+    },
+    {
+      "word": "trio",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "三人組好友的中文組合不自然，應直接說三位好友。",
+      "fix": "這三位好友去年夏天搭火車環遊台灣。"
+    },
+    {
+      "word": "triumphant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "得勝與凱旋的釋義重疊，保留勝利狀態與得意情緒兩類用法。",
+      "fix": "得勝的；得意洋洋的"
+    },
+    {
+      "word": "trolley",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "購物與行李推車都是手推車子類，並應補上常見美式電車義。",
+      "fix": "手推車；有軌電車（美式）"
+    },
+    {
+      "word": "trolley",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為推車，改以常見美式電車用法補足另一義項。",
+      "fix": "We took a trolley from the station to the museum downtown."
+    },
+    {
+      "word": "trolley",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "我們從車站搭有軌電車，前往市中心的博物館。"
+    },
+    {
+      "word": "trot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "快步走不同於小跑，三句皆指馬匹或人的小跑動作。",
+      "fix": "小跑步"
+    },
+    {
+      "word": "trot",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯放慢成小跑的搭配不自然，應明示速度放慢後改用小跑。",
+      "fix": "馬在穀倉附近放慢速度，改為小跑。"
+    },
+    {
+      "word": "truant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "逃學的學生與逃學者為重複釋義，應合併。",
+      "fix": "逃學者"
+    },
+    {
+      "word": "truant",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "arcade 在遊戲情境中指電子遊樂場，不是一般兒童遊樂場。",
+      "fix": "有個逃學者被發現在電子遊樂場玩遊戲。"
+    },
+    {
+      "word": "truce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "休戰與停火在三句皆指暫時停止衝突，應合併。",
+      "fix": "休戰"
+    },
+    {
+      "word": "truly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "真正與真的為重複釋詞，應合併。",
+      "fix": "真正地；由衷地"
+    },
+    {
+      "word": "tuberculosis",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "肺結核是結核病的一種，第一句也明示主要而非只影響肺部，應保留通用病名。",
+      "fix": "結核病"
+    },
+    {
+      "word": "tuberculosis",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句未限定為肺結核，應使用較廣的結核病名稱。",
+      "fix": "醫生可以用需服用數個月的藥物來治療結核病。"
+    },
+    {
+      "word": "turbine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "渦輪與渦輪機在三句均指同一動力裝置，應合併。",
+      "fix": "渦輪機"
+    },
+    {
+      "word": "typically",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "通常與一般而言為相近釋詞，應合併。",
+      "fix": "通常"
+    },
+    {
+      "word": "typically",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "常見青少年睡眠需求約為八至十小時，原句僅寫約八小時不夠完整。",
+      "fix": "Teenagers typically need eight to ten hours of sleep each night."
+    },
+    {
+      "word": "typically",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "青少年通常每晚需要八到十小時睡眠。"
+    },
+    {
+      "word": "tyranny",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴政與專制在三句均指壓迫性的統治或管理，應合併。",
+      "fix": "暴政"
+    },
+    {
+      "word": "tyrant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴君與專制君主為重複釋義，保留政治統治者與日常霸道者兩類用法。",
+      "fix": "暴君；霸道的人"
+    },
+    {
+      "word": "ultimately",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最終與最後重複，保留時間結果與根本判斷兩類用法。",
+      "fix": "最終；歸根究柢"
+    },
+    {
+      "word": "ultraviolet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "紫外線與紫外的為重複釋義，應合併。",
+      "fix": "紫外線的"
+    },
+    {
+      "word": "umpire",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為體育裁判，未呈現一般糾紛仲裁人的意思。",
+      "fix": "裁判"
+    },
+    {
+      "word": "umpire",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為體育裁判執法，未呈現一般仲裁義。",
+      "fix": "擔任裁判"
+    },
+    {
+      "word": "unacceptable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無法容忍與不被允許在三句均為不可接受的近義表達，應合併。",
+      "fix": "不可接受的"
+    },
+    {
+      "word": "unbeaten",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不敗與未嘗敗績為同義詞，應合併。",
+      "fix": "不敗的"
+    },
+    {
+      "word": "unbeaten",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "不敗可以包含平手，原句未明示十場連勝，不能增加連勝。",
+      "fix": "他十勝的不敗紀錄讓教練很驚訝。"
+    },
+    {
+      "word": "uncertainty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不確定與不確定性重複，疑慮也是本組對未知狀態的感受，宜合併。",
+      "fix": "不確定性"
+    },
+    {
+      "word": "unchanged",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不變與沒有改變為同義表達，應合併。",
+      "fix": "不變的"
+    },
+    {
+      "word": "understandable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可以理解與情有可原重疊，應明確區分情緒合理與內容易懂。",
+      "fix": "情有可原的；容易懂的"
+    },
+    {
+      "word": "underwrite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "出資資助重複，活動經費語境應表達承擔費用的財務責任。",
+      "fix": "承保；包銷；承擔費用"
+    },
+    {
+      "word": "underwrite",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "underwrite the cost 指承擔費用，未限定已撥付資助款的形式。",
+      "fix": "一家本地銀行將承擔這次慶典的費用。"
+    },
+    {
+      "word": "undoubted",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公認與毫無疑問在三句皆表達無可質疑，應合併。",
+      "fix": "毫無疑問的"
+    },
+    {
+      "word": "uneasy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不安與不自在在三句皆指緊張不安的感受，應合併。",
+      "fix": "不安的"
+    },
+    {
+      "word": "unemployed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "失業與待業在三句均指目前沒有工作，應合併。",
+      "fix": "失業的"
+    },
+    {
+      "word": "unidentified",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個原釋詞重疊，應明確表達人員身分或物體性質尚未辨明。",
+      "fix": "身分或性質不明的"
+    },
+    {
+      "word": "unload",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "卸貨與卸下為同一卸載動作的近義釋詞，應合併。",
+      "fix": "卸下所載物品"
+    },
+    {
+      "word": "unload",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "unload my backpack 容易指清空背包，不能直接等同從背上取下，應明示卸載來源。",
+      "fix": "Let me unload the shopping bags from the car before we go inside."
+    },
+    {
+      "word": "unload",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "進去之前，讓我先把購物袋從車上卸下來。"
+    },
+    {
+      "word": "unpack",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義重疊且未清楚涵蓋採買物品，應以各類箱包拆開取物的動作統一。",
+      "fix": "打開箱包並取出物品"
+    },
+    {
+      "word": "unrest",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動亂與騷動重複，第三句的員工不滿不一定是現場發生騷動。",
+      "fix": "動亂；集體不滿"
+    },
+    {
+      "word": "unrest",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句未描寫現場事件，不能增加現場一陣騷動。",
+      "fix": "員工們對新的排班表出現了不滿情緒。"
+    },
+    {
+      "word": "unusually",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "異常與格外在三句皆指不同於平常的程度，應合併。",
+      "fix": "異常地"
+    },
+    {
+      "word": "unwanted",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不想要不一定表示數量多餘，應區分物品不被需要與人不受歡迎。",
+      "fix": "不想要的；不受歡迎的"
+    },
+    {
+      "word": "unwanted",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "unwanted 是不想保留，不必然表示電子郵件在數量上多餘。",
+      "fix": "刪除不想要的電子郵件，讓你的收件匣保持整齊。"
+    },
+    {
+      "word": "up-to-date",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最新與最新式在三句皆表達資訊或事物符合目前狀態，應合併。",
+      "fix": "最新的"
+    },
+    {
+      "word": "up-to-date",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上便於聯繫的實際用途。",
+      "fix": "Please keep your contact information up-to-date so we can reach you easily."
+    },
+    {
+      "word": "up-to-date",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "請讓你的聯絡資訊保持最新，方便我們與你聯繫。"
+    },
+    {
+      "word": "upbringing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "養育、教養與成長環境在本組重疊，應聚焦幼年受到的養育與教導。",
+      "fix": "教養"
+    },
+    {
+      "word": "upbringing",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "upbringing 重點是幼年所受的養育教導，不是泛指周遭環境。",
+      "fix": "她所受的教養讓她懂得尊敬長輩。"
+    },
+    {
+      "word": "urine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尿與尿液為同義詞，應合併。",
+      "fix": "尿液"
+    },
+    {
+      "word": "urine",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上水分攝取充足的中性生理觀察情境。",
+      "fix": "Healthy urine is usually pale yellow when a person is well hydrated."
+    },
+    {
+      "word": "urine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "水分攝取充足時，健康的尿液通常呈淡黃色。"
+    },
+    {
+      "word": "utmost",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最大與極度均指最高程度，應合併。",
+      "fix": "最大的"
+    },
+    {
+      "word": "utmost",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最大限度與極致為重複釋義，應合併。",
+      "fix": "最大限度"
+    },
+    {
+      "word": "valiant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勇敢與英勇為同義詞，應合併。",
+      "fix": "英勇的"
+    },
+    {
+      "word": "validity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有效性與效力在票券及護照例句中重複，保留效用與論證正確兩類用法。",
+      "fix": "有效性；正確性"
+    },
+    {
+      "word": "valve",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "閥與閥門為同義詞，應合併並保留人體瓣膜義。",
+      "fix": "閥門；瓣膜"
+    },
+    {
+      "word": "varied",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "各式各樣、多樣與多元為同義釋詞，應合併。",
+      "fix": "多樣的"
+    }
+  ]
+}
