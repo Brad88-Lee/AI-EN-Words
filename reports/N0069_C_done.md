@@ -1,7 +1,7 @@
 ROUND: N0069
 STAGE: C
 AGENT: claude
-ATTEMPT: 1
+ATTEMPT: 2
 OUTPUT: out_C/N0069C_vocab_0069.json
 GATE-C: PASS｜筆數 50/50｜套用 78｜跳過 4｜null 1/1
 MODEL: unknown
@@ -13,5 +13,5 @@ REPORTED_AT: 2026-11-04T22:00:00+08:00
 ---
 A 50 筆、C 50 筆。套用 78 筆，跳過 4 筆（rape 的 senses[0].zh、senses[0].examples[0].en/zh、topics：會新增性暴力相關內容，不符第 8 條）。
 null：recording 的 image_query（1/1）。
-repertoire 的 senses[0].zh 採 B 的建議但把「拿手項目」改為「拿手本領」，避免大陸用語警告。
+repertoire 的 senses[0].zh 已改回 B 的 fix 原文（可演出的曲目；拿手項目），修正第 1 次的 applied_value_mismatch。
 check_batch、check_extra 皆 ERROR 0、WARN 0。
