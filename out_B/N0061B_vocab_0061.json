@@ -1,0 +1,718 @@
+{
+  "batch": "N0061",
+  "checked": 50,
+  "reviewed": [
+    "hack",
+    "hairstyle",
+    "half-time",
+    "halve",
+    "handbook",
+    "handout",
+    "harassment",
+    "hardline",
+    "hardliner",
+    "hardwood",
+    "hardy",
+    "harmless",
+    "haven",
+    "hazardous",
+    "head-on",
+    "heading",
+    "hearing",
+    "heated",
+    "heating",
+    "heave",
+    "heavyweight",
+    "heed",
+    "helpless",
+    "henceforth",
+    "herald",
+    "hereafter",
+    "hermit",
+    "hillside",
+    "hinder",
+    "hinge",
+    "hiss",
+    "holding",
+    "homeless",
+    "homogeneous",
+    "honk",
+    "hood",
+    "hoof",
+    "hopeless",
+    "horsepower",
+    "hound",
+    "hull",
+    "humanitarian",
+    "humiliation",
+    "hurl",
+    "hymn",
+    "hypocrisy",
+    "hysterical",
+    "ideological",
+    "ignite",
+    "immerse"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "hack",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「砍」與「劈」在此重複，可合併保留砍切與電腦入侵兩義。",
+      "fix": "砍；駭入"
+    },
+    {
+      "word": "hack",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "用普通棍子砍出草叢通道不合典型用法，改用可砍切的工具。",
+      "fix": "He hacked a path through the tall grass with a large knife."
+    },
+    {
+      "word": "hack",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "他用一把大刀在高高的草叢中砍出一條路。"
+    },
+    {
+      "word": "half-time",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "此名詞指中場休息或半場結束時點，不是半場比賽的時間長度。",
+      "fix": "中場休息"
+    },
+    {
+      "word": "half-time",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "工作用法須限定工時為全職的一半，並補上常見的中場休息用法。",
+      "fix": "中場休息時的；工時為全職一半的"
+    },
+    {
+      "word": "half-time",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "half-time 限定工時為全職的一半，單寫兼職範圍過廣。",
+      "fix": "她在圖書館有一份工時為全職一半的工作。"
+    },
+    {
+      "word": "half-time",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "工時為全職的一半不一定採每天半天班的安排。",
+      "fix": "這間診所提供護理師工時為全職一半的職缺。"
+    },
+    {
+      "word": "half-time",
+      "path": "senses[1].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "三句皆描述半工時職缺，改以常見的中場表演用法增加情境與義項涵蓋。",
+      "fix": "The crowd enjoyed the half-time show during the football match."
+    },
+    {
+      "word": "half-time",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "觀眾欣賞了足球賽中場休息時的表演。"
+    },
+    {
+      "word": "handbook",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「手冊」與「便覽」在此為同義重複。",
+      "fix": "手冊"
+    },
+    {
+      "word": "handout",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為分發資料的情境，未呈現已列出的救濟品義。",
+      "fix": "The charity gives handouts of food to families in need."
+    },
+    {
+      "word": "handout",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這個慈善機構發放食物救濟品給有需要的家庭。"
+    },
+    {
+      "word": "hardline",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都在說明強硬、不願妥協的同一特質。",
+      "fix": "強硬不妥協的"
+    },
+    {
+      "word": "haven",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此重複表達能提供保護與安寧的地方。",
+      "fix": "避風港"
+    },
+    {
+      "word": "haven",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "haven 強調庇護與安全，單譯棲息地漏掉此意。",
+      "fix": "這座島成了野鳥的庇護所。"
+    },
+    {
+      "word": "head-on",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「正面的」容易與正向或物體正面混淆，應明確區別迎面相撞與直接面對。",
+      "fix": "迎面相撞的；直接面對的"
+    },
+    {
+      "word": "head-on",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "You should face your fears head-on instead of avoiding difficult situations."
+    },
+    {
+      "word": "head-on",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "你應該直接面對自己的恐懼，而不是逃避困難的處境。"
+    },
+    {
+      "word": "head-on",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "She met the challenge head-on by asking her team for help."
+    },
+    {
+      "word": "head-on",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她向團隊求助，積極正面迎接這項挑戰。"
+    },
+    {
+      "word": "hearing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "法院的 hearing 可指庭訊，須與行政或公共議題的聽證會區別。",
+      "fix": "聽力；聽證會；庭訊"
+    },
+    {
+      "word": "hearing",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "法院審理的語境宜譯為庭訊，避免與公共聽證會混淆。",
+      "fix": "庭訊將於下週在市法院進行。"
+    },
+    {
+      "word": "hearing",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "改以公共聽證會情境呈現已列出的聽證會義，與聽力及法院庭訊區別。",
+      "fix": "Residents attended a public hearing about plans for a new airport."
+    },
+    {
+      "word": "hearing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "居民出席了關於新機場計畫的公開聽證會。"
+    },
+    {
+      "word": "heated",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "heated 指討論激烈，譯為火熱容易誤解為熱烈愉快的氣氛。",
+      "fix": "新提案提出後，會議上的討論變得激烈。"
+    },
+    {
+      "word": "heave",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 heave a sigh 是發出嘆息，現有義項未涵蓋。",
+      "fix": "用力舉起；用力拖拉；發出（嘆息）"
+    },
+    {
+      "word": "heavyweight",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句以公司作為 heavyweight，字義不能只限於人物。",
+      "fix": "重量級選手；舉足輕重的人物或機構"
+    },
+    {
+      "word": "heed",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「注意」與「留心」在此為同義重複。",
+      "fix": "注意"
+    },
+    {
+      "word": "henceforth",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都表示從現在起，屬同義重複。",
+      "fix": "從今以後"
+    },
+    {
+      "word": "herald",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Dark clouds and strong winds often herald a heavy storm."
+    },
+    {
+      "word": "herald",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "烏雲和強風通常預示著一場大風雨。"
+    },
+    {
+      "word": "hereafter",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句的 hereafter 表示在下文中，不能只列時間上的此後與今後。",
+      "fix": "此後；在下文中"
+    },
+    {
+      "word": "hereafter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "文件中界定下文稱呼通常使用 be referred to as，原句 called 搭配句尾 hereafter 不自然。",
+      "fix": "The seller will hereafter be referred to as the Company."
+    },
+    {
+      "word": "hereafter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "賣方在下文中將稱為「公司」。"
+    },
+    {
+      "word": "hermit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獨居不一定代表離群索居，第二項範圍過廣。",
+      "fix": "隱士；離群索居者"
+    },
+    {
+      "word": "hillside",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Small tea farms cover the hillside above our village."
+    },
+    {
+      "word": "hillside",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "小型茶園遍布我們村莊上方的山坡。"
+    },
+    {
+      "word": "hinder",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「阻礙」與「妨礙」在此為同義重複。",
+      "fix": "阻礙"
+    },
+    {
+      "word": "hinge",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "名詞三句皆指實體鉸鏈，未呈現抽象的樞紐義。",
+      "fix": "鉸鏈"
+    },
+    {
+      "word": "hinge",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Our plan hinges on the weather, so we will check the forecast."
+    },
+    {
+      "word": "hinge",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "我們的計畫取決於天氣，所以我們會查看天氣預報。"
+    },
+    {
+      "word": "hinge",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "一般門窗鉸鏈與科技網路的關聯薄弱，保留主要日常生活分類。",
+      "fix": [
+        "日常生活"
+      ]
+    },
+    {
+      "word": "hiss",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Steam hissed from the old kettle as the water boiled."
+    },
+    {
+      "word": "hiss",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "水燒開時，蒸汽從舊水壺裡嘶嘶地冒出來。"
+    },
+    {
+      "word": "holding",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "持有物範圍過廣，且圖書館例句涉及館藏，宜明確列出資產與收藏資料。",
+      "fix": "持有的資產；館藏"
+    },
+    {
+      "word": "holding",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "圖書館的整體館藏通常使用複數 holdings，原句單數 a large holding 不符合典型搭配。",
+      "fix": "The library has extensive holdings of old maps and newspapers."
+    },
+    {
+      "word": "holding",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這座圖書館收藏了大量舊地圖和報紙。"
+    },
+    {
+      "word": "holding",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "「土地持有地」重複而不自然。",
+      "fix": "她家持有的土地在河邊附近。"
+    },
+    {
+      "word": "homeless",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "The fire left many families homeless and in need of shelter."
+    },
+    {
+      "word": "homeless",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "那場火災讓許多家庭無家可歸，需要安身之處。"
+    },
+    {
+      "word": "homogeneous",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Stir the paint until the mixture is homogeneous in color."
+    },
+    {
+      "word": "homogeneous",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "攪拌油漆，直到混合物的顏色均勻一致。"
+    },
+    {
+      "word": "honk",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "A loud honk from the bus behind me made me jump."
+    },
+    {
+      "word": "honk",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "後方公車一聲響亮的喇叭聲嚇了我一跳。"
+    },
+    {
+      "word": "hoof",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文僅說蹄聲，未指定動物為馬。",
+      "fix": "我們聽到路上傳來蹄聲。"
+    },
+    {
+      "word": "hoof",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "The farmer cleans each hoof carefully to check for small stones."
+    },
+    {
+      "word": "hoof",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "農夫仔細清理每隻蹄，檢查是否有小石頭。"
+    },
+    {
+      "word": "hopeless",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 hopeless at 指不擅長某事，與絕望或沒有希望不同。",
+      "fix": "絕望的；毫無希望的；不擅長的"
+    },
+    {
+      "word": "hopeless",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "twice 只表示兩次，未說明兩次失敗是連續發生。",
+      "fix": "考試兩次沒過後，他感到絕望。"
+    },
+    {
+      "word": "hopeless",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "The situation looked hopeless until a neighbor offered to help."
+    },
+    {
+      "word": "hopeless",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "情況原本看似毫無希望，直到一位鄰居主動伸出援手。"
+    },
+    {
+      "word": "hopeless",
+      "path": "senses[0].examples[2].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "「外賣」不符台灣慣用語，且 take-out 指外帶餐點。",
+      "fix": "我很不會做菜，所以都訂外帶餐點。"
+    },
+    {
+      "word": "hound",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩項重複描述騷擾，且第二句以債務表示長期困擾，宜分清兩種用法。",
+      "fix": "不斷糾纏；長期困擾"
+    },
+    {
+      "word": "hound",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "The debt hounded him for years, even after he found a better job."
+    },
+    {
+      "word": "hound",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "即使找到更好的工作，那筆債務仍困擾了他多年。"
+    },
+    {
+      "word": "hull",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的草莓蒂頭並非一般外殼，須另列其義。",
+      "fix": "船體；（穀物等的）外殼；草莓蒂頭"
+    },
+    {
+      "word": "hull",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未呈現已列出的穀物外殼義，以稻殼加工情境補足並減少船體例句重複。",
+      "fix": "The rice hull is removed before the grain is polished."
+    },
+    {
+      "word": "hull",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "稻穀在碾白前會先去除稻殼。"
+    },
+    {
+      "word": "hull",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "穀物外殼與草莓蒂頭屬食材用法，飲食比泛指科學更切合例句。",
+      "fix": [
+        "交通與旅行",
+        "飲食"
+      ]
+    },
+    {
+      "word": "humanitarian",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都表示人道主義的同一概念。",
+      "fix": "人道主義的"
+    },
+    {
+      "word": "humanitarian",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Many humanitarians work without pay to support communities after natural disasters."
+    },
+    {
+      "word": "humanitarian",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "許多人道主義者不領薪水工作，支援遭逢天災的社區。"
+    },
+    {
+      "word": "humiliation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "丟臉偏向動詞或形容狀態，名詞義宜清楚區別羞辱與受辱的感受。",
+      "fix": "羞辱；屈辱感"
+    },
+    {
+      "word": "humiliation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原文只說蒙受羞辱，並未明說慘敗。",
+      "fix": "球隊在決賽中蒙受了羞辱。"
+    },
+    {
+      "word": "hurl",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除用力投擲外，hurl insults 的大聲辱罵用法也很常見。",
+      "fix": "用力投擲；大聲說出（辱罵的話等）"
+    },
+    {
+      "word": "hurl",
+      "path": "senses[0].examples[1].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "前兩句都在描述投球，改用常見的 hurl insults 搭配增加情境與義項涵蓋。",
+      "fix": "The coach told players not to hurl insults at their opponents."
+    },
+    {
+      "word": "hurl",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "教練告訴球員不要辱罵對手。"
+    },
+    {
+      "word": "hymn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此都指宗教讚頌歌曲，屬同義重複。",
+      "fix": "聖歌"
+    },
+    {
+      "word": "hypocrisy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "hypocrisy 特指偽善與言行不一，單寫虛偽範圍過廣。",
+      "fix": "偽善（言行不一）"
+    },
+    {
+      "word": "ideological",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例句過短，補足有助理解的自然情境。",
+      "fix": "Students discussed ideological issues raised in the assigned history reading."
+    },
+    {
+      "word": "ideological",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "學生討論了指定歷史讀物中提出的意識形態議題。"
+    }
+  ]
+}
