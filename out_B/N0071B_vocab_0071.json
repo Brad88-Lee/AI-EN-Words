@@ -1,0 +1,773 @@
+{
+  "batch": "N0071",
+  "checked": 50,
+  "reviewed": [
+    "saloon",
+    "salutation",
+    "salvation",
+    "sanctuary",
+    "sandy",
+    "sane",
+    "satisfied",
+    "saturate",
+    "scarecrow",
+    "scattered",
+    "seam",
+    "seasonable",
+    "seasonal",
+    "seasoned",
+    "seasoning",
+    "secrecy",
+    "seduction",
+    "seductive",
+    "seeming",
+    "segregate",
+    "segregation",
+    "self-esteem",
+    "semi-final",
+    "semiconductor",
+    "senate",
+    "sensational",
+    "separatism",
+    "separatist",
+    "serenity",
+    "seriously",
+    "serviceman",
+    "servicewoman",
+    "settled",
+    "sewer",
+    "sexuality",
+    "shaft",
+    "shear",
+    "sherry",
+    "shilling",
+    "shipment",
+    "shipping",
+    "shooting",
+    "shoplift",
+    "shrewd",
+    "shrine",
+    "shudder",
+    "shun",
+    "sideways",
+    "signify",
+    "silicon"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "saloon",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "沙龍通常對應另一字 salon，且原義漏列常用英式轎車義，船上空間也不是泛指大廳。",
+      "fix": "酒館；轎車；船上交誼廳"
+    },
+    {
+      "word": "saloon",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原前兩句皆為酒館，應補足常用的英式轎車義。",
+      "fix": "The family chose a four-door saloon with plenty of room for luggage."
+    },
+    {
+      "word": "saloon",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這家人選了一輛四門轎車，車內有充裕空間放行李。"
+    },
+    {
+      "word": "saloon",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "船上 saloon 指供乘客使用的交誼廳，不是泛指大廳。",
+      "fix": "客人們聚集在船上的交誼廳用餐。"
+    },
+    {
+      "word": "salutation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "問候與招呼為同義詞，應合併。",
+      "fix": "問候；信件開頭的稱呼"
+    },
+    {
+      "word": "salvation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "拯救與救贖重疊，前兩個日常例句應以解救困境的救星義表達。",
+      "fix": "救星；救贖"
+    },
+    {
+      "word": "salvation",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "圖書館是救助之地的原句缺乏具體困境，改用獎學金解決學費困難的自然情境。",
+      "fix": "The new scholarship was her salvation when she could not afford tuition."
+    },
+    {
+      "word": "salvation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "她無力負擔學費時，新設的獎學金成了她的救星。"
+    },
+    {
+      "word": "sanctuary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "教堂內供禮拜的空間宜明確釋為聖堂，並以例句呈現。",
+      "fix": "避難所；保護區；聖堂"
+    },
+    {
+      "word": "sanctuary",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未涵蓋已列出的宗教場所義，改以中性參訪規範補足。",
+      "fix": "Visitors must remain quiet while they are inside the church's sanctuary."
+    },
+    {
+      "word": "sanctuary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "訪客在教堂的聖堂內必須保持安靜。"
+    },
+    {
+      "word": "sanctuary",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "首義為人員避難場所，社會與法律應先列，宗教空間與自然保護區亦有例句。",
+      "fix": [
+        "社會與法律",
+        "植物與自然",
+        "藝術與文化"
+      ]
+    },
+    {
+      "word": "sanctuary",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢對應第二個保護區義，應改為第一義的避難場所。",
+      "fix": "refugee shelter"
+    },
+    {
+      "word": "sandy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沙質與多沙重複，應保留沙含量與髮色兩類用法。",
+      "fix": "多沙的；淡黃褐色的"
+    },
+    {
+      "word": "sane",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "心智是否健全不同於是否清醒，理智與明智則為相近釋義。",
+      "fix": "心智健全的；理智的"
+    },
+    {
+      "word": "sane",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處 stay sane 為壓力下保持理智，不是維持意識清醒，且原譯漏掉漫長。",
+      "fix": "漫長的考試週過後，我只想保持理智。"
+    },
+    {
+      "word": "sane",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sane 指心智健全，不能只譯為神智清楚而與清醒程度混淆。",
+      "fix": "醫師說這位病人的心智完全健全。"
+    },
+    {
+      "word": "satisfied",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "滿意與滿足在前兩句均指對結果感到滿意，應合併。",
+      "fix": "滿意的；確信的"
+    },
+    {
+      "word": "seam",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句的接縫與縫線為相近釋義，宜合併並以布料接合處的接縫表達。",
+      "fix": "接縫；礦層"
+    },
+    {
+      "word": "seasonal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "季節性與隨季節變化為重複釋義，應合併。",
+      "fix": "季節性的"
+    },
+    {
+      "word": "seasoning",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "調味料與佐料為同義詞，應合併。",
+      "fix": "調味料"
+    },
+    {
+      "word": "secrecy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保密與祕密狀態為重複釋義，應合併。",
+      "fix": "保密"
+    },
+    {
+      "word": "secrecy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "keep the contract in secrecy 搭配不自然，應以維持合約資訊機密的典型句型表達。",
+      "fix": "Employees must maintain secrecy about the details of the contract."
+    },
+    {
+      "word": "secrecy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "員工必須對合約細節保密。"
+    },
+    {
+      "word": "seduction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘惑與引誘重複，保留誘惑與本身魅力兩類用法。",
+      "fix": "誘惑；誘人之處"
+    },
+    {
+      "word": "seductive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘人與有吸引力為同義釋詞，應合併。",
+      "fix": "誘人的"
+    },
+    {
+      "word": "seeming",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "表面上與看似為重複釋義，應合併。",
+      "fix": "表面上的"
+    },
+    {
+      "word": "segregate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "隔離與實行隔離為重複釋義，保留一般分開與隔離用法。",
+      "fix": "分開；隔離"
+    },
+    {
+      "word": "segregation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "垃圾分類義已見於第一句，原義未明列，種族隔離則是隔離的具體情境。",
+      "fix": "分類；隔離"
+    },
+    {
+      "word": "segregation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上回收材料與減少掩埋的完整環境情境。",
+      "fix": "Waste segregation helps cities recycle more materials and reduce landfill use."
+    },
+    {
+      "word": "segregation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "垃圾分類有助於城市回收更多材料，減少掩埋場的使用。"
+    },
+    {
+      "word": "self-esteem",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "此字指對自身價值的評價，不等於對能力的自信心，應明確區分。",
+      "fix": "自我價值感"
+    },
+    {
+      "word": "self-esteem",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯自信心混淆自身價值感與對能力的信心。",
+      "fix": "老師的稱讚有助於提升孩子的自我價值感。"
+    },
+    {
+      "word": "self-esteem",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "low self-esteem 指不肯定自身價值，原譯自尊心很低易與不易受辱的程度混淆。",
+      "fix": "她不太肯定自己的價值，很少在課堂上發言。"
+    },
+    {
+      "word": "self-esteem",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "提升心情的搭配不自然，並應精確表達自我價值感。",
+      "fix": "運動能提升你的自我價值感，也能改善心情。"
+    },
+    {
+      "word": "semi-final",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "準決賽與半決賽為同義詞，應保留台灣慣用名稱。",
+      "fix": "準決賽"
+    },
+    {
+      "word": "separatist",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句以目標字修飾團體，改用直接指人的名詞句型，避免與後段形容詞例句重複。",
+      "fix": "The historian interviewed a separatist about the region's struggle for independence."
+    },
+    {
+      "word": "separatist",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "歷史學者訪問了一位分離主義者，談論該地區爭取獨立的歷程。"
+    },
+    {
+      "word": "separatist",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句以目標字修飾領袖，改用直接指人的名詞句型，清楚示範此義項。",
+      "fix": "The separatist answered questions from reporters after the public meeting."
+    },
+    {
+      "word": "separatist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "公開會議結束後，那位分離主義者回答了記者的問題。"
+    },
+    {
+      "word": "separatist",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上地方選舉席次變動的完整中性情境。",
+      "fix": "The separatist party lost several seats in the recent regional election."
+    },
+    {
+      "word": "separatist",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那個分離主義政黨在最近的地方選舉中失去了幾個席次。"
+    },
+    {
+      "word": "seriously",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上定期健康檢查的日常情境。",
+      "fix": "You should take your health seriously and schedule regular checkups."
+    },
+    {
+      "word": "seriously",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "你應該認真看待自己的健康，並定期安排健康檢查。"
+    },
+    {
+      "word": "serviceman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此詞通常指男性，原義項未與同批 servicewoman 的性別指稱區分。",
+      "fix": "男性軍人；男性維修人員"
+    },
+    {
+      "word": "settled",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "固定與穩定重複，第三句則需保留搬遷後安頓的意思。",
+      "fix": "穩定的；安頓下來的"
+    },
+    {
+      "word": "sewer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "下水道與汙水管重複且前者過於廣泛，應明示排送汙水的管道。",
+      "fix": "汙水管道"
+    },
+    {
+      "word": "sewer",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "漏進下水道的是水，不是水管本身，原譯主詞搭配不自然。",
+      "fix": "一根水管破裂，漏出的水流進下水道。"
+    },
+    {
+      "word": "sexuality",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "sexuality 涵蓋與性有關的特質及取向，不能縮限為性別特質。",
+      "fix": "性特質；性取向"
+    },
+    {
+      "word": "sexuality",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "different sexuality 的數與搭配不自然，改用中性課堂討論句明確區分性特質與性取向。",
+      "fix": "The class discussed sexuality and the importance of respecting different orientations."
+    },
+    {
+      "word": "sexuality",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "班上討論了性特質，以及尊重不同性取向的重要性。"
+    },
+    {
+      "word": "sexuality",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sexuality 不等於性別特質，應使用性特質表達較廣的性相關概念。",
+      "fix": "她的書談的是身分認同與性特質。"
+    },
+    {
+      "word": "sexuality",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯性別特質將 sexuality 不當縮限為性別面向。",
+      "fix": "青少年常常對性特質抱有疑問。"
+    },
+    {
+      "word": "shaft",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "高爾夫球桿的 shaft 是桿身而非握柄，並須以例句補足機械軸義。",
+      "fix": "豎井；軸；桿身"
+    },
+    {
+      "word": "shaft",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原前兩句皆為豎井，改以典型傳動軸補足已列出的軸義。",
+      "fix": "The mechanic checked the drive shaft before repairing the car."
+    },
+    {
+      "word": "shaft",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "技師在修車前檢查了傳動軸。"
+    },
+    {
+      "word": "shear",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應優先列出最常用的剪羊毛義，並以不同情境呈現一般修剪義。",
+      "fix": "剪羊毛；修剪"
+    },
+    {
+      "word": "shear",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原三句皆為剪羊毛，改以修剪樹籬呈現另一常用搭配。",
+      "fix": "The gardener used large scissors to shear the hedge into shape."
+    },
+    {
+      "word": "shear",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "園丁用大剪刀把樹籬修剪成形。"
+    },
+    {
+      "word": "shilling",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "一般舊銀幣無法確定面額為先令，應直接查詢先令硬幣。",
+      "fix": "shilling coin"
+    },
+    {
+      "word": "shipment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "運送與出貨重複，並應優先列出前兩句使用的一批貨物義。",
+      "fix": "一批貨物；運送"
+    },
+    {
+      "word": "shipping",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "貨輪對應後列的航運義，應改為第一義的一般運送活動。",
+      "fix": "parcel delivery"
+    },
+    {
+      "word": "shooting",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "The movie shooting 的搭配生硬，改用電影拍攝開始的典型句型。",
+      "fix": "Shooting on the new movie will begin at the studio next week."
+    },
+    {
+      "word": "shooting",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "新電影的拍攝工作下週將在攝影棚開始。"
+    },
+    {
+      "word": "shooting",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未示範第一義的射擊，改用無操作細節的中性運動課程情境。",
+      "fix": "The club teaches target shooting under the supervision of qualified instructors."
+    },
+    {
+      "word": "shooting",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這個社團在合格教練監督下教授標靶射擊。"
+    },
+    {
+      "word": "shrewd",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "機敏與精明在三句均指判斷精明，應合併。",
+      "fix": "精明的"
+    },
+    {
+      "word": "shrine",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢可能呈現整座寺廟，應明確對應首義的家用神龕。",
+      "fix": "household shrine"
+    },
+    {
+      "word": "shudder",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "發抖與顫抖重複，公車例句還用到物體震動義。",
+      "fix": "顫抖；震動"
+    },
+    {
+      "word": "shudder",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "顫抖與戰慄重複，車輛停下的例句則是物體震動。",
+      "fix": "顫抖；震動"
+    },
+    {
+      "word": "shudder",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "原句 gave a shudder 中目標字為名詞，必須改成動詞用法以對應本義項。",
+      "fix": "She shuddered when the lights suddenly went out during the storm."
+    },
+    {
+      "word": "shudder",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "暴風雨中燈突然熄滅時，她打了個冷顫。"
+    },
+    {
+      "word": "shudder",
+      "path": "senses[1].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句未交代房內人物或震動原因，改為明確描述進入冷房的人打冷顫。",
+      "fix": "A shudder ran through him as he stepped into the cold room."
+    },
+    {
+      "word": "shudder",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他走進寒冷的房間時，渾身打了個冷顫。"
+    },
+    {
+      "word": "shun",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "避開、躲避與迴避為同義詞，並應明示此字帶有主動刻意的語氣。",
+      "fix": "刻意避開"
+    },
+    {
+      "word": "shun",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tends to 表示傾向，原譯總是過於絕對，避開別人的注意也不自然。",
+      "fix": "他在派對上往往會避免引人注意。"
+    },
+    {
+      "word": "sideways",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分橫向移動與物體側放，不能一概譯成斜向或只限人的側身。",
+      "fix": "向側面；側著"
+    },
+    {
+      "word": "sideways",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "形容詞描述朝向側面的方向，不是位置在旁邊。",
+      "fix": "側向的"
+    },
+    {
+      "word": "sideways",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "stepped sideways 指向側邊踏步，不必然包含原譯側身的轉身動作。",
+      "fix": "她向旁邊跨了一步，讓那位男士通過。"
+    },
+    {
+      "word": "sideways",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "hanging sideways 表示側轉方向懸掛，不能只概括為掛歪。",
+      "fix": "牆上的畫被橫著掛了起來。"
+    },
+    {
+      "word": "sideways",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "車子斜向跳過突起的情境生硬，改為典型橫向移動的電腦使用情境。",
+      "fix": "A sideways movement of the mouse shifts the cursor across the screen."
+    },
+    {
+      "word": "sideways",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "橫向移動滑鼠，會讓游標在螢幕上左右移動。"
+    },
+    {
+      "word": "signify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "意味著與表示重複，保留一般表示與象徵用法。",
+      "fix": "表示；象徵"
+    },
+    {
+      "word": "signify",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補明導覽員解說地圖符號的完整情境。",
+      "fix": "The guide explained what the symbols on the old map signify."
+    },
+    {
+      "word": "signify",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "導覽員解釋了那張舊地圖上各個符號所代表的意思。"
+    },
+    {
+      "word": "silicon",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般玻璃主要原料是二氧化矽而非直接加入少量元素矽，應釐清元素與化合物。",
+      "fix": "Glass is usually made from silica, a compound of silicon and oxygen."
+    },
+    {
+      "word": "silicon",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "玻璃通常以二氧化矽製成，二氧化矽是由矽和氧組成的化合物。"
+    },
+    {
+      "word": "saturate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使飽和與完全浸透或使市場充斥重疊，應合併以區分實體吸液與市場充斥。",
+      "fix": "使浸透；使充斥"
+    }
+  ]
+}
