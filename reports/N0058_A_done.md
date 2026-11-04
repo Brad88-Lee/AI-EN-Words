@@ -1,12 +1,11 @@
 ROUND: N0058
 STAGE: A
 AGENT: claude
-ATTEMPT: 1
+ATTEMPT: 2
 OUTPUT: out_A/N0058A_vocab_0058.json
-GATE-A: PASS｜筆數 50/50｜順序一致｜emoji null 49 個
+GATE-A: PASS｜筆數 50/50｜順序一致｜emoji null 50 個
 MODEL: claude-sonnet-5-5 / unknown
-REPORTED_AT: 2026-11-04T08:30:00+08:00
+REPORTED_AT: 2026-11-04T09:00:00+08:00
 ---
-eq 為縮寫、非常見單字，依規則 7 輸出 error 物件（emoji 不計入 null 49 個，其餘 49 字皆 null）。
-erotic 以中性校園／博物館情境撰寫。
-自檢：check_batch.py 僅 eq 的 error 提示；check_extra.py ERROR 0、WARN 0。
+依 try1 檢查報告只修 eq：改為 n.「情緒智商；情商」（EQ），其餘 49 字維持第 1 次內容。
+自檢：check_batch ERROR 0、WARN 0；check_extra ERROR 0、WARN 0。
