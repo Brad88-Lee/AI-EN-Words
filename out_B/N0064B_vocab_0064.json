@@ -1,0 +1,825 @@
+{
+  "batch": "N0064",
+  "checked": 50,
+  "reviewed": [
+    "literally",
+    "live-in",
+    "living",
+    "llama",
+    "loaded",
+    "locality",
+    "locked",
+    "locomotive",
+    "locust",
+    "longtime",
+    "loom",
+    "loot",
+    "lost",
+    "lubricate",
+    "lumber",
+    "luminous",
+    "lunatic",
+    "lunchtime",
+    "lynch",
+    "lyric",
+    "made-up",
+    "mafia",
+    "magistrate",
+    "magnitude",
+    "making",
+    "malaria",
+    "maneuver",
+    "manifesto",
+    "mare",
+    "marked",
+    "marketing",
+    "marsh",
+    "marshal",
+    "mash",
+    "massacre",
+    "materialism",
+    "mayonnaise",
+    "measurement",
+    "mechanics",
+    "mellow",
+    "menace",
+    "mercury",
+    "merger",
+    "metallic",
+    "metric",
+    "migrate",
+    "mileage",
+    "militant",
+    "militia",
+    "miller"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "literally",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "簡直的非字面強調用法屬非正式誇張，應與照字面或確實發生的意思區別。",
+      "fix": "照字面地；確實地；簡直（非正式誇張用法）"
+    },
+    {
+      "word": "literally",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未明確區分已列的非字面誇張義，以常見口語搭配呈現並配合語體標示。",
+      "fix": "I was literally dying of laughter during the school play."
+    },
+    {
+      "word": "literally",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "看學校的戲劇表演時，我簡直笑死了。"
+    },
+    {
+      "word": "live-in",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "live-in pair 不自然，同居關係的典型搭配為 live-in partner。",
+      "fix": "Her live-in partner helps with the cooking and housework."
+    },
+    {
+      "word": "live-in",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她的同居伴侶會幫忙做飯和家務。"
+    },
+    {
+      "word": "living",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生計與謀生方式在此重複，保留生計及生活兩義。",
+      "fix": "生計；生活"
+    },
+    {
+      "word": "living",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表示生命仍存續，活的與現存的在此重複。",
+      "fix": "活的"
+    },
+    {
+      "word": "living",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補足存活與生長的自然科學情境。",
+      "fix": "All living things need water to survive and grow."
+    },
+    {
+      "word": "living",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "所有生物都需要水才能存活並生長。"
+    },
+    {
+      "word": "llama",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "llama 是駱馬，羊駝通常指另一物種 alpaca，不能混為同義詞。",
+      "fix": "駱馬"
+    },
+    {
+      "word": "llama",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "llama 應譯為駱馬，避免與羊駝混淆。",
+      "fix": "那隻駱馬安靜地站在木柵欄後面。"
+    },
+    {
+      "word": "llama",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "llama 應譯為駱馬，避免與羊駝混淆。",
+      "fix": "我們班在動物園和一隻友善的駱馬合照。"
+    },
+    {
+      "word": "loaded",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "loaded 不一定表示全滿，並應標明有錢義的非正式語體。",
+      "fix": "裝載好的；已裝彈的；有錢的（非正式）"
+    },
+    {
+      "word": "loaded",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "loaded with 只說載有這些貨物，未明說已完全裝滿。",
+      "fix": "這輛卡車載著一箱箱新鮮蔬菜。"
+    },
+    {
+      "word": "loaded",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未呈現已列的裝彈義，改以無露骨暴力的警方發現情境補足。",
+      "fix": "The officer discovered that the abandoned gun was still loaded."
+    },
+    {
+      "word": "loaded",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "警員發現那把被遺棄的槍仍裝有子彈。"
+    },
+    {
+      "word": "locality",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "附近與地區在此重疊，保留地區與所在地兩義。",
+      "fix": "地區；所在地"
+    },
+    {
+      "word": "locked",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "上鎖與鎖住在此為同義重複。",
+      "fix": "上鎖的"
+    },
+    {
+      "word": "locomotive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "機車在台灣容易被理解為摩托車，且與火車頭重複。",
+      "fix": "火車頭"
+    },
+    {
+      "word": "longtime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "長期與多年在此為同義重複。",
+      "fix": "長期的"
+    },
+    {
+      "word": "loot",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "搶劫與洗劫在此重複，洗劫較能表達三句掠奪財物的情境。",
+      "fix": "洗劫"
+    },
+    {
+      "word": "lost",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "失去的範圍過廣，宜明確區分迷路、物品遺失與機會錯失。",
+      "fix": "迷路的；遺失的；錯失的"
+    },
+    {
+      "word": "lost",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第一及第三句皆描述迷路，未呈現已列的失去或錯失義。",
+      "fix": "She regretted the lost opportunity to study abroad that summer."
+    },
+    {
+      "word": "lost",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她為那年夏天錯失的留學機會感到後悔。"
+    },
+    {
+      "word": "lost",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 lost weight 表示體重減少，與輸掉或丟失不同。",
+      "fix": "輸掉；弄丟；減少（體重等）"
+    },
+    {
+      "word": "lubricate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "上油是達到潤滑的方法，兩項在此重複且潤滑不只限於油類。",
+      "fix": "潤滑"
+    },
+    {
+      "word": "lumber",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "木材與木料重複，並應明確指出 lumber 通常是鋸切加工後的木材。",
+      "fix": "鋸切加工的木材"
+    },
+    {
+      "word": "luminous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "夜光是發亮的一種情形，兩項在此重疊。",
+      "fix": "發亮的"
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字不是單純指行為怪異，須區分不理智行為的貶稱與舊式冒犯的疾病稱呼。",
+      "fix": "行為極不理智的人（貶義）；精神病人（舊式冒犯用語）"
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句直接將駕駛比作瘋子，改以批評冒犯稱呼的中性語言情境呈現。",
+      "fix": "The reporter was criticized for calling the driver a lunatic."
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "那名記者因為稱呼駕駛為「瘋子」而受到批評。"
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句以嘲諷方式概括冰泳者，改為中性的字典用語提醒以避免強化刻板印象。",
+      "fix": "The dictionary warns that lunatic is an offensive term for a mentally ill person."
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "字典提醒，lunatic 是對精神疾病患者帶有冒犯性的稱呼。"
+    },
+    {
+      "word": "lunatic",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "瘋狂與荒唐在此重疊，並須標示此種否定評價的貶義。",
+      "fix": "荒唐的（貶義）"
+    },
+    {
+      "word": "lunchtime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "午休包含休息而不一定用餐，lunchtime 應以午餐時間為核心。",
+      "fix": "午餐時間"
+    },
+    {
+      "word": "lunchtime",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上提早抵達的實際用餐情境。",
+      "fix": "The cafeteria gets crowded at lunchtime, so we usually arrive early."
+    },
+    {
+      "word": "lunchtime",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "自助餐廳一到午餐時間就很擁擠，所以我們通常提早抵達。"
+    },
+    {
+      "word": "lynch",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "lynch 指以私刑處死，不只是一般動用私刑，原譯漏掉死亡結果。",
+      "fix": "歷史課本說明了為什麼暴民過去能不公正地以私刑處死他人。"
+    },
+    {
+      "word": "lynch",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 tried to stop 與 trying to lynch 重複累贅，改以清楚的制止情境呈現。",
+      "fix": "The film shows town leaders trying to stop a mob from lynching a prisoner."
+    },
+    {
+      "word": "lynch",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這部電影呈現鎮上領袖設法阻止暴民以私刑處死囚犯。"
+    },
+    {
+      "word": "lynch",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "lynch 指以私刑處死，不能只譯為動用私刑。",
+      "fix": "老師說明，制定法律是為了防止人們以私刑處死他人。"
+    },
+    {
+      "word": "lyric",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "整段歌曲的歌詞通常使用複數 lyrics，與第三句的一句歌詞區別。",
+      "fix": "I can't remember the lyrics of the second verse."
+    },
+    {
+      "word": "lyric",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "我想不起第二段的歌詞內容了。"
+    },
+    {
+      "word": "made-up",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捏造與虛構在此重疊，保留虛構及化妝兩義。",
+      "fix": "虛構的；化了妝的"
+    },
+    {
+      "word": "magistrate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "治安官容易與警察首長混淆，magistrate 也常指地方行政長官，宜明確區分。",
+      "fix": "地方法官；地方行政長官"
+    },
+    {
+      "word": "magistrate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆描述司法角色，以台灣常見的縣長職稱補足地方行政長官義。",
+      "fix": "The county magistrate announced plans to improve roads in rural villages."
+    },
+    {
+      "word": "magistrate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "縣長宣布了改善鄉村道路的計畫。"
+    },
+    {
+      "word": "magnitude",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用星等義而未列出，地震的 magnitude 在台灣則稱規模，不用震級。",
+      "fix": "規模；嚴重程度；星等"
+    },
+    {
+      "word": "magnitude",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "星等本身就是衡量亮度的量，magnitude of the star's brightness 搭配重複，宜用 the star's magnitude。",
+      "fix": "Scientists measured the star's magnitude to compare its brightness with other stars."
+    },
+    {
+      "word": "magnitude",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "科學家測量了這顆恆星的星等，以比較它與其他恆星的亮度。"
+    },
+    {
+      "word": "making",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "製作與製造在此重複，保留製作及形成兩義。",
+      "fix": "製作；形成"
+    },
+    {
+      "word": "maneuver",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "軍事訓練演習的典型名詞用法為複數 maneuvers，並以應變情境補足語意。",
+      "fix": "The navy held training maneuvers off the coast to prepare for emergencies."
+    },
+    {
+      "word": "maneuver",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "海軍在近海舉行訓練演習，以因應緊急狀況。"
+    },
+    {
+      "word": "manifesto",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "manifesto 是公開表達目標或原則的宣言，不是任意聲明，兩項在此也重疊。",
+      "fix": "宣言"
+    },
+    {
+      "word": "mare",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "馬臉圖示只能表示一般的馬，無法區分母馬，容易被認作 horse。",
+      "fix": null
+    },
+    {
+      "word": "marketing",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "行銷不等於實際銷售，三句皆指行銷工作，未呈現銷售交易義。",
+      "fix": "行銷"
+    },
+    {
+      "word": "marsh",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "濕地是較廣的類別，marsh 特指以草本植被為主的沼澤，宜合併並限縮。",
+      "fix": "沼澤（以草本植物為主的濕地）"
+    },
+    {
+      "word": "marshal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遊行的 marshal 負責隊伍與活動秩序，不一定是正式典禮官，宜明確列出。",
+      "fix": "元帥；執法官；活動秩序指揮人員"
+    },
+    {
+      "word": "marshal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "遊行語境的 marshal 是指揮隊伍或維持活動秩序的人，不宜泛稱典禮官。",
+      "fix": "遊行指揮人員帶領隊伍穿過市中心。"
+    },
+    {
+      "word": "marshal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fire marshal 指消防安全或檢查官員，不只是一般消防隊員。",
+      "fix": "一位消防安全官員在音樂會前檢查了這棟建築。"
+    },
+    {
+      "word": "marshal",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "召集與集結重複，ideas 的用法則是整理想法，宜區分人員與思緒的組織。",
+      "fix": "集結；整理"
+    },
+    {
+      "word": "mash",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "搗碎與壓成泥在此重疊，統一表達搗成泥狀的動作。",
+      "fix": "搗成泥狀"
+    },
+    {
+      "word": "mash",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分英式常用的馬鈴薯泥與泛指搗碎食物或混合物的用法，並以常用義優先。",
+      "fix": "馬鈴薯泥（英式）；搗碎的食物或混合物"
+    },
+    {
+      "word": "mash",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為馬鈴薯泥，未呈現較廣的混合物義，改以常見的穀物飼料情境補足。",
+      "fix": "The farmer mixed crushed grain with water to make mash for the chickens."
+    },
+    {
+      "word": "mash",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "農夫把碎穀物和水混合，製成餵雞的糊狀飼料。"
+    },
+    {
+      "word": "mash",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢只呈現馬鈴薯泥成品，應對應第一詞性動詞的搗碎動作。",
+      "fix": "mashing potatoes"
+    },
+    {
+      "word": "massacre",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "慘敗屬非正式比喻義，應與字面的大屠殺區別。",
+      "fix": "大屠殺；慘敗（非正式）"
+    },
+    {
+      "word": "massacre",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "紀念碑用來紀念或致意，直接作為 remembers 的主詞不符一般考試文章的自然搭配。",
+      "fix": "The monument was built to honor the victims of the massacre."
+    },
+    {
+      "word": "massacre",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "這座紀念碑是為了紀念大屠殺受難者而建造的。"
+    },
+    {
+      "word": "massacre",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除字面屠殺外，徹底擊敗對手也是常見的非正式比喻義。",
+      "fix": "大規模屠殺；徹底擊敗（非正式）"
+    },
+    {
+      "word": "massacre",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆描述字面屠殺，改以非正式運動用法補足常用義並減少相似情境。",
+      "fix": "The school team massacred its rivals in the final basketball game."
+    },
+    {
+      "word": "massacre",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "校隊在籃球決賽中徹底擊敗了對手。"
+    },
+    {
+      "word": "measurement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "測量與度量在此重複，保留測量動作與所得尺寸兩義。",
+      "fix": "測量；尺寸"
+    },
+    {
+      "word": "measurement",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "裁縫量取製衣所需的各項身材尺寸，典型搭配為 take someone's measurements。",
+      "fix": "The tailor took my measurements before making the suit."
+    },
+    {
+      "word": "measurement",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "裁縫師製作西裝前，先替我量了身體尺寸。"
+    },
+    {
+      "word": "measurement",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "窗戶整體尺寸通常涉及長寬，使用複數 measurements 並補上訂窗簾的明確情境。",
+      "fix": "Please write down the window's measurements in centimeters before ordering new curtains."
+    },
+    {
+      "word": "measurement",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "訂購新窗簾前，請以公分記下窗戶的尺寸。"
+    },
+    {
+      "word": "measurement",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "measuring tape 是工具而非首義的測量動作，改為直接呈現量窗戶。",
+      "fix": "measuring a window"
+    },
+    {
+      "word": "mechanics",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應明確區分力學、機械原理與事物的運作機制，技術細節的說法過於籠統。",
+      "fix": "力學；機械原理；運作機制"
+    },
+    {
+      "word": "mellow",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句形容祖父脾氣更隨和，不是生活悠閒，須列出性格義。",
+      "fix": "柔和的；醇厚的；隨和的"
+    },
+    {
+      "word": "mellow",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "怒氣緩和不等於成熟，應區分情緒性格變溫和與風味變醇厚。",
+      "fix": "變溫和；變醇厚"
+    },
+    {
+      "word": "menace",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的小狗是惹麻煩者，不是危險人物，須列出此常用義。",
+      "fix": "威脅；惹麻煩的人或動物"
+    },
+    {
+      "word": "menace",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指造成威脅，未使用對人恐嚇的意思，兩項也重疊。",
+      "fix": "威脅"
+    },
+    {
+      "word": "mercury",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "水銀與汞是同一元素的別名，不應列作兩個意思。",
+      "fix": "水銀（汞）；水星"
+    },
+    {
+      "word": "merger",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "併購還包含收購，範圍比 merger 的合併更廣，宜避免混同。",
+      "fix": "合併"
+    },
+    {
+      "word": "merger",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "merger 明確指合併，併購會混入收購的意思。",
+      "fix": "許多員工對這次合併感到擔憂。"
+    },
+    {
+      "word": "metallic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆呈現金屬般的聲音、色澤或味道，改以金屬元素補足已列出的金屬屬性義。",
+      "fix": "Metallic elements such as iron conduct heat and electricity well."
+    },
+    {
+      "word": "metallic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "鐵等金屬元素能良好地傳導熱與電。"
+    },
+    {
+      "word": "metric",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公制與米制在此為同一制度，保留台灣慣用的公制。",
+      "fix": "公制的"
+    },
+    {
+      "word": "metric",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "指標與衡量標準在此重疊，此字指用來衡量表現的指標。",
+      "fix": "衡量指標"
+    },
+    {
+      "word": "migrate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "for the winter 表示為了過冬，不是一定在冬季當下才遷徙。",
+      "fix": "許多鳥類會向南遷徙過冬。"
+    },
+    {
+      "word": "mileage",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指按里程申請的補助，並應將 gas mileage 的燃油效率與單純耗油量區別。",
+      "fix": "里程數；燃油效率；里程補助"
+    },
+    {
+      "word": "militant",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句描述談判立場強硬，不必然表示好戰或主張激進改革，須補出強硬義。",
+      "fix": "強硬的；好戰的；激進的"
+    },
+    {
+      "word": "militia",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指集體的民兵組織，兩項在此重複。",
+      "fix": "民兵組織"
+    },
+    {
+      "word": "miller",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "職業不限現代麵粉廠，宜統整為經營磨坊或在磨坊工作的人。",
+      "fix": "磨坊業者或工人"
+    }
+  ]
+}
