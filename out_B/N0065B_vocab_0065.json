@@ -1,0 +1,587 @@
+{
+  "batch": "N0065",
+  "checked": 50,
+  "reviewed": [
+    "millimeter",
+    "mining",
+    "ministerial",
+    "miscarriage",
+    "miser",
+    "mistaken",
+    "mold",
+    "monarchy",
+    "monotonous",
+    "moor",
+    "mortar",
+    "mosque",
+    "moss",
+    "motorist",
+    "motorway",
+    "mounted",
+    "mouthpiece",
+    "moving",
+    "mower",
+    "multinational",
+    "multitude",
+    "mutter",
+    "mutton",
+    "mythology",
+    "nadir",
+    "nanny",
+    "nationalist",
+    "nationwide",
+    "navel",
+    "necessitate",
+    "negligible",
+    "negotiator",
+    "neighboring",
+    "neon",
+    "newly",
+    "newlywed",
+    "newscast",
+    "newsreel",
+    "nibble",
+    "nick",
+    "nightclub",
+    "nightingale",
+    "nil",
+    "nitrogen",
+    "nominal",
+    "nonviolent",
+    "notably",
+    "notation",
+    "noted",
+    "notwithstanding"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "millimeter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公釐與毫米指同一單位，保留台灣慣用的公釐。",
+      "fix": "公釐"
+    },
+    {
+      "word": "millimeter",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句要求裁切卻未給目標尺寸，to the nearest millimeter 應用於明確的測量與取近似值情境。",
+      "fix": "Please measure the paper's width to the nearest millimeter."
+    },
+    {
+      "word": "millimeter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "請測量紙張寬度，並四捨五入至整數公釐。"
+    },
+    {
+      "word": "mining",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "was 描述過去的產業地位，原譯一百多年來一直容易被理解為仍持續至今。",
+      "fix": "採礦曾是這個小鎮的主要產業，時間長達一百多年。"
+    },
+    {
+      "word": "ministerial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "內閣是整體組織，三句皆指部長或部長級事務，原釋義範圍過廣。",
+      "fix": "部長的"
+    },
+    {
+      "word": "miscarriage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流產應明確為自然流產，錯誤須限定常見的司法誤判，計畫失敗義較陳舊。",
+      "fix": "自然流產；司法誤判"
+    },
+    {
+      "word": "miscarriage",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "計畫失敗的 miscarriage 用法陳舊，改為現代常見且中性的健康教育情境。",
+      "fix": "The doctor explained that a miscarriage is not always preventable."
+    },
+    {
+      "word": "miscarriage",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "醫師說明，自然流產不一定能夠預防。"
+    },
+    {
+      "word": "miser",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "守財奴與吝嗇鬼在此為同義重複。",
+      "fix": "守財奴"
+    },
+    {
+      "word": "mistaken",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誤解的容易與被誤解混淆，應分清本人弄錯及想法不正確兩種用法。",
+      "fix": "弄錯的；不正確的"
+    },
+    {
+      "word": "mold",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩項泛義重疊，宜明確區分實物成形與性格等的塑造。",
+      "fix": "使成形；塑造（性格等）"
+    },
+    {
+      "word": "monotonous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "乏味是缺乏變化所帶來的感受，兩項在此重疊。",
+      "fix": "單調的"
+    },
+    {
+      "word": "moor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "荒野範圍過廣，高沼地又容易誤以為必然潮濕，應指出草與矮灌木開闊地的特徵。",
+      "fix": "荒原（多為長有草與矮灌木的開闊高地）"
+    },
+    {
+      "word": "moor",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "停泊範圍較廣，此字強調用纜繩或錨固定船隻，宜保留繫泊。",
+      "fix": "繫泊"
+    },
+    {
+      "word": "mortar",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "建築黏結材料在此應稱砂漿，且漏掉常見的迫擊砲義。",
+      "fix": "砂漿；研缽；迫擊砲"
+    },
+    {
+      "word": "mortar",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "沙子與水泥混合供砌築的 mortar 應譯砂漿，避免與牆面灰泥混淆。",
+      "fix": "工人們把沙子和水泥拌在一起做成砂漿。"
+    },
+    {
+      "word": "mortar",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句皆描述建築砂漿，以中性的博物館展示情境補足常見迫擊砲義。",
+      "fix": "The museum displayed an old mortar used during the war."
+    },
+    {
+      "word": "mortar",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "博物館展示了一門戰爭期間使用過的舊迫擊砲。"
+    },
+    {
+      "word": "mortar",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢對應第二義研缽，圖片必須對應第一義砂漿。",
+      "fix": "bricklaying mortar"
+    },
+    {
+      "word": "motorist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項重複，且此字主要指汽車駕駛人，應限定交通語境。",
+      "fix": "汽車駕駛人"
+    },
+    {
+      "word": "mounted",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的 mounted photo 指裱貼好的照片，不能只列騎馬或裝設義。",
+      "fix": "騎馬的；固定裝設的；裱好的"
+    },
+    {
+      "word": "mounted",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "rode through 只說騎馬經過，未說明正在巡視。",
+      "fix": "騎警星期天騎馬穿過了公園。"
+    },
+    {
+      "word": "mounted",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "everyone who enters 只有進入的人，原譯進出增添離開者。",
+      "fix": "門口裝設的攝影機會記錄所有進入的人。"
+    },
+    {
+      "word": "mounted",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "mounted 表示裱貼或固定在襯板上，不一定已加框。",
+      "fix": "牆上裱好的照片是叔叔送的禮物。"
+    },
+    {
+      "word": "mouthpiece",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉電話送話器義，報紙用法則是帶有依附意味的喉舌而非僅指個人發言人。",
+      "fix": "吹嘴；（電話的）送話器；喉舌（常含貶義）"
+    },
+    {
+      "word": "moving",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句容易被理解為允許行駛中下車，改成明確禁止的常見交通安全提醒。",
+      "fix": "Never try to get off a moving bus."
+    },
+    {
+      "word": "moving",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "切勿嘗試從行進中的公車下車。"
+    },
+    {
+      "word": "multitude",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "a second language 是第二語言，不是第二外語。",
+      "fix": "學習第二語言有許多理由。"
+    },
+    {
+      "word": "mutter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "喃喃自語是低聲嘀咕的一種情境，兩項在此重疊。",
+      "fix": "低聲嘀咕"
+    },
+    {
+      "word": "mutter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低語過於籠統，兩項亦重疊，宜保留含糊低聲說話的嘀咕聲。",
+      "fix": "嘀咕聲"
+    },
+    {
+      "word": "mutton",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "mutton 通常指成年綿羊肉，羊肉過於籠統而會與羔羊肉或山羊肉混淆。",
+      "fix": "成年綿羊肉"
+    },
+    {
+      "word": "mutton",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "比較的是成年綿羊肉與羔羊肉，不能用泛稱羊肉來比較其子類。",
+      "fix": "成年綿羊肉的味道比羔羊肉更濃。"
+    },
+    {
+      "word": "mythology",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "mythology 常指一套神話體系，不只是單一神話，並須與研究神話的學問區分。",
+      "fix": "神話體系；神話學"
+    },
+    {
+      "word": "mythology",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆描述神話故事體系，未明確呈現已列出的神話學研究義。",
+      "fix": "She chose mythology as her research field at the university."
+    },
+    {
+      "word": "mythology",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "她選擇神話學作為大學裡的研究領域。"
+    },
+    {
+      "word": "nadir",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最低點與谷底在此為同義重複。",
+      "fix": "最低點"
+    },
+    {
+      "word": "nanny",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "奶媽可能指提供哺乳的乳母，並非 nanny 一般照顧兒童的職務。",
+      "fix": "保母"
+    },
+    {
+      "word": "nationwide",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說為所有高中生舉辦測驗，未規定每個人都必須參加。",
+      "fix": "將舉辦一場供所有高中生參加的全國性測驗。"
+    },
+    {
+      "word": "necessitate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字強調造成某事成為必要，單寫需要較弱且與第一項重複。",
+      "fix": "使成為必要"
+    },
+    {
+      "word": "negligible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項都表達小到不值得計較或考慮，屬同義重複。",
+      "fix": "微小到可忽略的"
+    },
+    {
+      "word": "negotiator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "談判者與協商者在此為同義重複。",
+      "fix": "談判者"
+    },
+    {
+      "word": "neighboring",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鄰近與相鄰在此重疊，鄰近也可涵蓋未直接接壤的情況。",
+      "fix": "鄰近的"
+    },
+    {
+      "word": "neon",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "neon 指燈光時通常不可數，原句 a pink neon 未指明單一招牌或燈管，改用不可數燈光用法。",
+      "fix": "Pink neon glowed above the door of the small cafe."
+    },
+    {
+      "word": "neon",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "那間小咖啡館的門上方亮著粉紅色的霓虹燈光。"
+    },
+    {
+      "word": "newly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最近與新近在此為同義重複。",
+      "fix": "新近"
+    },
+    {
+      "word": "newscast",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字指電視或廣播的新聞播報節目，兩項可合併避免媒體範圍混淆。",
+      "fix": "新聞播報節目"
+    },
+    {
+      "word": "newscast",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字的核心是社會新聞播報，並非科技或網路本身，科技分類關聯薄弱。",
+      "fix": [
+        "社會與法律"
+      ]
+    },
+    {
+      "word": "newsreel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "新聞影片過於籠統，newsreel 通常是早期在電影院播放的新聞紀錄短片。",
+      "fix": "新聞紀錄短片（早期多在電影院播放）"
+    },
+    {
+      "word": "nibble",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在此重疊，宜合併表達一次只咬一點的小口啃咬。",
+      "fix": "小口啃咬"
+    },
+    {
+      "word": "nibble",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指一小口食物的份量，且第一項須清楚表達名詞動作義。",
+      "fix": "輕咬的動作；一小口食物；小點心（常用複數）"
+    },
+    {
+      "word": "nick",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是刮鬍子造成的小割傷，不能只列物體的缺口與刮痕。",
+      "fix": "小缺口；小割傷"
+    },
+    {
+      "word": "nick",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "刻痕偏名詞，且漏掉常見的英式口語偷竊義，宜明確列出動作。",
+      "fix": "輕微劃傷；劃出小缺口；偷竊（英式口語）"
+    },
+    {
+      "word": "nick",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆是劃傷或劃出痕跡，改以常見的英式偷竊義增加用法涵蓋。",
+      "fix": "Someone nicked my bike while I was shopping in town."
+    },
+    {
+      "word": "nick",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "我在鎮上購物時，有人偷走了我的腳踏車。"
+    },
+    {
+      "word": "nightclub",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩項在這批例句都指供音樂、跳舞等夜間娛樂的場所，屬近義重複。",
+      "fix": "夜店"
+    },
+    {
+      "word": "nightingale",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "listened for 是留意是否能聽見，不等於已經聽到並傾聽。",
+      "fix": "我們坐在陽台上，留意是否傳來夜鶯的歌聲。"
+    },
+    {
+      "word": "nil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "零與無在此都表達數量或可能性為零，屬同義重複。",
+      "fix": "零"
+    },
+    {
+      "word": "nil",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "第一與第三句都是球賽比分，改以帳戶餘額呈現不同情境。",
+      "fix": "The final payment reduced the account balance to nil."
+    },
+    {
+      "word": "nil",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "依修正後的英文例句同步中文翻譯。",
+      "fix": "最後一筆付款使帳戶餘額降為零。"
+    },
+    {
+      "word": "notably",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尤其與特別是在此為同義重複，保留列舉強調及顯著程度兩義。",
+      "fix": "尤其；顯著地"
+    },
+    {
+      "word": "notation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用註記義而未列出，記譜法可併入符號系統以避免重複。",
+      "fix": "符號系統（含記譜法）；註記"
+    },
+    {
+      "word": "notation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "play 在此泛指各種樂器的演奏，不能只限定彈奏。",
+      "fix": "樂譜符號告訴演奏者應演奏哪些音。"
+    },
+    {
+      "word": "notation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "margin 指頁邊空白，不是頁面上任意空白處。",
+      "fix": "她在頁邊空白處加了一則簡短的註記。"
+    },
+    {
+      "word": "noted",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "著名與知名在此為同義重複。",
+      "fix": "著名的"
+    },
+    {
+      "word": "notwithstanding",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "雖然通常引導子句，這裡的介詞後接名詞片語，宜保留儘管。",
+      "fix": "儘管"
+    }
+  ]
+}
