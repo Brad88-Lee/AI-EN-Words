@@ -1,0 +1,738 @@
+{
+  "batch": "N0073",
+  "checked": 50,
+  "reviewed": [
+    "stateswoman",
+    "static",
+    "statistician",
+    "statistics",
+    "statutory",
+    "steamer",
+    "sterling",
+    "stern",
+    "steward",
+    "stimulating",
+    "stoop",
+    "stout",
+    "strained",
+    "streak",
+    "striker",
+    "stuck",
+    "stump",
+    "stunning",
+    "stunt",
+    "stylistic",
+    "sub",
+    "submerge",
+    "submersion",
+    "subsidiary",
+    "substantially",
+    "substitution",
+    "subtlety",
+    "sulfur",
+    "sunshine",
+    "superpower",
+    "supersonic",
+    "supplementary",
+    "supplier",
+    "supportive",
+    "susceptible",
+    "swollen",
+    "syllabus",
+    "symbolism",
+    "symmetrical",
+    "symposium",
+    "syndicate",
+    "synonymous",
+    "syntactic",
+    "syntax",
+    "synthesis",
+    "tablespoon",
+    "tableware",
+    "tabloid",
+    "taboo",
+    "taco"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "stateswoman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "女政治家與女政壇領袖為相近釋義，應合併。",
+      "fix": "女政治家"
+    },
+    {
+      "word": "stateswoman",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "被敬佩為的中文搭配不自然，應分別表達敬佩與身分評價。",
+      "fix": "世界各地的人都敬佩她，視她為睿智的女政治家。"
+    },
+    {
+      "word": "static",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靜止與靜態重複，保留物體不動及數量不變兩類用法。",
+      "fix": "靜止的；不變的"
+    },
+    {
+      "word": "statistics",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "統計數字與統計資料重複，且漏掉常用的學科名稱。",
+      "fix": "統計資料；統計學"
+    },
+    {
+      "word": "statistics",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆指資料，改以學科情境補足統計學義及其單數動詞用法。",
+      "fix": "Statistics is a required subject for students studying economics at this university."
+    },
+    {
+      "word": "statistics",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "在這所大學，修讀經濟學的學生必須修習統計學。"
+    },
+    {
+      "word": "statutory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "法定與依法規定為同義釋詞，應合併。",
+      "fix": "法定的"
+    },
+    {
+      "word": "steamer",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常用的蒸汽船義，並移除修正後例句未呈現的蒸鍋子項。",
+      "fix": "蒸籠；汽船"
+    },
+    {
+      "word": "steamer",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為烹調器具，改以中性交通歷史情境補足汽船義。",
+      "fix": "The old steamer carried passengers along the river before a bridge was built."
+    },
+    {
+      "word": "steamer",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "橋樑興建前，這艘老汽船沿河載運乘客。"
+    },
+    {
+      "word": "sterling",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "sterling silver 是符合標準含銀量的合金，不是百分之百的元素純銀。",
+      "fix": "極好的；標準銀製的"
+    },
+    {
+      "word": "sterling",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school fair 未明示為校慶活動，應移除原文沒有的校慶限定。",
+      "fix": "她把學校園遊會籌辦得非常出色。"
+    },
+    {
+      "word": "sterling",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sterling silver 為含銀量百分之九十二點五的標準銀，原譯純銀容易誤認為足銀。",
+      "fix": "我奶奶送了我一條 925 銀手鍊。"
+    },
+    {
+      "word": "stern",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嚴厲與嚴肅在三句皆指嚴正不苟言笑的態度，應合併。",
+      "fix": "嚴厲的"
+    },
+    {
+      "word": "steward",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應使用台灣的空服員稱呼，並補上常見的活動服務人員義。",
+      "fix": "男空服員；船上服務員；活動服務員"
+    },
+    {
+      "word": "steward",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "飛機上的服務人員在台灣慣稱空服員，不用乘務員。",
+      "fix": "男空服員在飛行途中提供我們飲料和點心。"
+    },
+    {
+      "word": "steward",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第一與第三句皆為航空服務，改以音樂會引導入座補足活動服務員義。",
+      "fix": "A steward guided visitors to their seats before the concert began."
+    },
+    {
+      "word": "steward",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "音樂會開始前，一名服務人員引導觀眾入座。"
+    },
+    {
+      "word": "stimulating",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指帶動學習興趣或思考的心理刺激，不宜與身體感官刺激混淆。",
+      "fix": "激發興趣與思考的"
+    },
+    {
+      "word": "stoop",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見的屈身做卑劣之事的片語用法。",
+      "fix": "彎腰；駝背；自甘墮落"
+    },
+    {
+      "word": "stoop",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原第一與第三句皆為彎腰，改以拒絕作弊的中性校園情境補足常用片語。",
+      "fix": "She refused to stoop to cheating, even when the exam was difficult."
+    },
+    {
+      "word": "stoop",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "即使考試很難，她也不願做出作弊這種不光彩的事。"
+    },
+    {
+      "word": "stoop",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應區分駝背姿勢與美式常見的門廊臺階義。",
+      "fix": "駝背姿勢；門廊臺階"
+    },
+    {
+      "word": "stoop",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為駝背，改用門廊臺階的日常情境補足常見義。",
+      "fix": "They sat on the front stoop and watched children playing outside."
+    },
+    {
+      "word": "stoop",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "他們坐在前門臺階上，看著孩子們在外頭玩耍。"
+    },
+    {
+      "word": "stout",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "矮胖並非必要特徵，三句皆是結實物件或粗壯體格，應移除未明示的矮小限定。",
+      "fix": "結實的；粗壯的"
+    },
+    {
+      "word": "stout",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "三句為結實物件與身體體格，沒有情緒或性格用法。",
+      "fix": [
+        "日常生活",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "streak",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泥痕不一定是規則條紋，一股不是完整名詞義，應明示連勝紀錄及性格傾向。",
+      "fix": "條痕；連續的成敗紀錄；性格傾向"
+    },
+    {
+      "word": "streak",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鳥在空中疾速飛過不是字面的奔跑，應用能涵蓋各類移動的釋義。",
+      "fix": "留下條痕；疾速移動"
+    },
+    {
+      "word": "striker",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應補上常見的罷工者義。",
+      "fix": "前鋒（足球）；罷工者"
+    },
+    {
+      "word": "striker",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為足球前鋒，改以中性勞資情境補足罷工者義。",
+      "fix": "The striker joined other workers outside the factory to demand better pay."
+    },
+    {
+      "word": "striker",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "那名罷工者和其他工人在工廠外集結，要求提高薪資。"
+    },
+    {
+      "word": "stuck",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "三個原釋義近似，數學題例句則需要明列被難住的比喻義。",
+      "fix": "卡住的；被難住的"
+    },
+    {
+      "word": "stump",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "樹墩與殘幹在三句皆指樹木砍伐後的基部，應合併。",
+      "fix": "樹墩"
+    },
+    {
+      "word": "stump",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "難倒與使困惑在三句皆指無法解出問題，應合併。",
+      "fix": "難倒"
+    },
+    {
+      "word": "stunning",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極美與令人驚豔重複，保留外觀美麗及結果出人意料兩類用法。",
+      "fix": "美得驚人的；令人震驚的"
+    },
+    {
+      "word": "stunt",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "例句為電影特技、行銷噱頭及生長發展，運動並非本組主要情境。",
+      "fix": [
+        "藝術與文化",
+        "植物與自然",
+        "工作與商業"
+      ]
+    },
+    {
+      "word": "sub",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "under the sea 指水面以下，不表示待在海床上，原譯海底過度限縮位置。",
+      "fix": "這艘潛水艇在海面下停留了好幾天。"
+    },
+    {
+      "word": "sub",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分工作代班與運動練習的替補角色，代替過於籠統。",
+      "fix": "代班；替補上場"
+    },
+    {
+      "word": "submersion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "浸入、浸沒與淹沒在三句皆為被水覆蓋的狀態或過程，應合併。",
+      "fix": "浸沒"
+    },
+    {
+      "word": "subsidiary",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "子公司通常具有獨立法人地位，分公司則不是同一法律概念，不能並列為同義詞。",
+      "fix": "子公司"
+    },
+    {
+      "word": "substantially",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大幅與相當在增幅例句中重複，計畫相同的用法則指大致相同。",
+      "fix": "大幅地；大致上"
+    },
+    {
+      "word": "substantially",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "substantially the same 指大部分或主要方面相同，應避免誤讀為完全一樣。",
+      "fix": "這兩個計畫大致相同。"
+    },
+    {
+      "word": "substitution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "替換、代替與運動換人均為以另一項取代原項的動作，應合併。",
+      "fix": "替換"
+    },
+    {
+      "word": "substitution",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "蜂蜜是替代物而非替換動作，應改用 substitution of one ingredient for another 的句型。",
+      "fix": "The substitution of honey for sugar gives this cake a different flavor."
+    },
+    {
+      "word": "substitution",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "用蜂蜜代替糖，會讓這個蛋糕有不同風味。"
+    },
+    {
+      "word": "substitution",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句未明示舊機器被替換或被用作替代物，改為替換方向清楚的工作情境。",
+      "fix": "The substitution of a video call for travel saved the company money."
+    },
+    {
+      "word": "substitution",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "用視訊通話代替出差，為公司省下了錢。"
+    },
+    {
+      "word": "subtlety",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "微妙與細微之處重疊，繪畫例句則著重表現細膩，非泛指巧妙。",
+      "fix": "細微之處；細膩程度"
+    },
+    {
+      "word": "subtlety",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯將微妙之處當成讓人沒能領會的主詞，語意及搭配不順，應直接表達未領會。",
+      "fix": "年幼的學生沒能領會這個笑話的微妙之處。"
+    },
+    {
+      "word": "sulfur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "硫與硫磺在本組皆指同一元素，應合併。",
+      "fix": "硫"
+    },
+    {
+      "word": "sulfur",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "純硫本身無味，臭雞蛋味通常來自硫化氫，原句混淆元素與化合物。",
+      "fix": "Pure sulfur is a yellow solid that has no smell."
+    },
+    {
+      "word": "sulfur",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "純硫是沒有氣味的黃色固體。"
+    },
+    {
+      "word": "sulfur",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "溫泉氣味主要來自含硫化合物，不能直接歸因於元素硫本身。",
+      "fix": "Some hot springs smell unusual because they contain sulfur compounds."
+    },
+    {
+      "word": "sulfur",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "有些溫泉含有硫的化合物，因此氣味特別。"
+    },
+    {
+      "word": "sunshine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "日照與晴朗天氣在三句皆圍繞陽光，應合併避免近義釋詞重複。",
+      "fix": "陽光"
+    },
+    {
+      "word": "supplementary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "補充、附加與輔助在三句皆指另外提供的補充項目，應合併。",
+      "fix": "補充的"
+    },
+    {
+      "word": "supplier",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為商業供應商，供應者與供應商重複，應合併。",
+      "fix": "供應商"
+    },
+    {
+      "word": "supplier",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "供貨與採購屬商業活動，例句未涉及會計、融資或其他主要金融用法。",
+      "fix": [
+        "工作與商業"
+      ]
+    },
+    {
+      "word": "supportive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "支持與給予支援重複，體貼不一定具有主動支持的意思。",
+      "fix": "給予支持的"
+    },
+    {
+      "word": "supportive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯傾聽我的後直接加頓號，受詞與修飾結構不自然。",
+      "fix": "她是個總是願意傾聽我說話、給予我支持的朋友。"
+    },
+    {
+      "word": "susceptible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應明列寒害造成的損傷，並避免把容易受影響與一般感官敏感混淆。",
+      "fix": "易受影響或傷害的；易受感染的"
+    },
+    {
+      "word": "swollen",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句為身體腫脹或河水漲滿，未呈現一般物體膨脹的獨立用法。",
+      "fix": "腫脹的；漲滿的"
+    },
+    {
+      "word": "syllabus",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "課程大綱與教學大綱在三句皆為同一課程文件，應合併。",
+      "fix": "課程大綱"
+    },
+    {
+      "word": "symbolism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句未明確呈現特定藝術運動的象徵主義，應區分象徵意涵與表現手法。",
+      "fix": "象徵意義；象徵手法"
+    },
+    {
+      "word": "symposium",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆是專題學術研討會，座談會與研討會為相近釋義，應合併。",
+      "fix": "研討會"
+    },
+    {
+      "word": "syndicate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "企業聯合會與聯合組織重複，報刊漫畫供應也不是廣電聯播。",
+      "fix": "聯合組織；稿件供應機構"
+    },
+    {
+      "word": "syndicate",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "貸款例句指銀行聯合承貸，另外兩句指稿件發行給多家媒體，不是泛指聯合組成。",
+      "fix": "聯合承貸；向多家媒體供稿"
+    },
+    {
+      "word": "syndicate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "向報紙供應漫畫的是稿件供應機構，不能誤稱為廣電聯播機構。",
+      "fix": "這份報紙向一家稿件供應機構購買漫畫。"
+    },
+    {
+      "word": "syndicate",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "syndicated 指由同一來源供稿給多家報紙，不是報社聯合刊登同一專欄。",
+      "fix": "這個專欄的稿件供應給全國各地的報紙刊登。"
+    },
+    {
+      "word": "syndicate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "應明確表達多家媒體刊載的稿件供應模式，而非含糊的聯合發行。",
+      "fix": "這位漫畫家希望明年能將自己的連環漫畫供應給多家媒體刊登。"
+    },
+    {
+      "word": "synonymous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同義的與同義詞的為重複釋義，應合併。",
+      "fix": "同義的；密不可分的"
+    },
+    {
+      "word": "synonymous",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句指稱未提供的句子，且譯文漏掉兩個被引用的詞，應改為自足的語法教學句。",
+      "fix": "The words \"huge\" and \"enormous\" are often synonymous when describing size."
+    },
+    {
+      "word": "synonymous",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "描述大小時，「huge」和「enormous」這兩個字通常同義。"
+    },
+    {
+      "word": "syntactic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "句法與語法結構在三句皆為相同語言結構概念，應合併。",
+      "fix": "句法的"
+    },
+    {
+      "word": "syntax",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "自然語言的句法與語法結構重複，保留自然語言及程式語言的用法。",
+      "fix": "句法；程式語法"
+    },
+    {
+      "word": "synthesis",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "綜合與融合為相近釋義，保留科學合成與資訊或藝術元素整合兩類用法。",
+      "fix": "合成；綜合"
+    },
+    {
+      "word": "synthesis",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "old music 只指較早時期的音樂，不能直接限縮成古典音樂這個特定類型。",
+      "fix": "這部電影融合了早期與現代音樂。"
+    },
+    {
+      "word": "tableware",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "餐具與餐桌用具在三句皆指用餐器具，應合併。",
+      "fix": "餐具"
+    },
+    {
+      "word": "tabloid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小報與八卦報為相近釋詞，三句皆指通俗小報，應合併。",
+      "fix": "小報"
+    },
+    {
+      "word": "taboo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "禁忌與忌諱為同義詞，應合併。",
+      "fix": "禁忌"
+    },
+    {
+      "word": "taboo",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "禁忌與被禁止在三句皆指不被社會或團體容許，應合併。",
+      "fix": "禁忌的"
+    },
+    {
+      "word": "taco",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "taco 通常是折起夾餡的薄餅，應避免與捲起包餡的 burrito 混為同一名稱。",
+      "fix": "墨西哥夾餅（塔可）"
+    }
+  ]
+}
