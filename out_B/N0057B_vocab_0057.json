@@ -1,0 +1,689 @@
+{
+  "batch": "N0057",
+  "checked": 50,
+  "reviewed": [
+    "devastate",
+    "devastating",
+    "developed",
+    "developer",
+    "developing",
+    "deviate",
+    "diffuse",
+    "dilute",
+    "disagreement",
+    "discern",
+    "discredit",
+    "discrepancy",
+    "discrete",
+    "discretion",
+    "disgraceful",
+    "disintegrate",
+    "dismantle",
+    "dismissal",
+    "dispatch",
+    "disperse",
+    "displace",
+    "displease",
+    "disposition",
+    "disregard",
+    "dissident",
+    "dissipate",
+    "dissuade",
+    "distill",
+    "distort",
+    "distributed",
+    "distributor",
+    "disturbed",
+    "disturbing",
+    "doomed",
+    "doorstep",
+    "dosage",
+    "doubtless",
+    "drainage",
+    "drape",
+    "drawback",
+    "dreary",
+    "drizzle",
+    "dub",
+    "duplicate",
+    "dying",
+    "dynamite",
+    "earphones",
+    "ebb",
+    "ecstasy",
+    "ecstatic"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "developed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "已開發與發達在國家例句中重複，應合併並與能力發展成熟義區分。",
+      "fix": "已開發的；發展成熟的"
+    },
+    {
+      "word": "developed",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "名詞前的 well developed 應加連字號，但該複合詞不算含目標字，改為名詞後的描述。",
+      "fix": "The child has a sense of humor that is already well developed."
+    },
+    {
+      "word": "developed",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這個孩子的幽默感已經發展得很好。"
+    },
+    {
+      "word": "developer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "開發者與程式開發人員重疊，三句實際呈現程式開發及房地產開發兩類角色。",
+      "fix": "程式開發人員；房地產開發商"
+    },
+    {
+      "word": "developing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發展中與開發中在這三個經濟例句中同義重複，應合併。",
+      "fix": "開發中的"
+    },
+    {
+      "word": "developing",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "clean water 指乾淨的用水，不是指供水設備本身乾淨。",
+      "fix": "許多開發中國家需要供應乾淨用水的系統。"
+    },
+    {
+      "word": "developing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "developing economies 指開發中經濟體，不完全等同於特定的新興經濟體分類。",
+      "fix": "她對東南亞的開發中經濟體很感興趣。"
+    },
+    {
+      "word": "deviate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偏離與背離在這三個例句中表達同一核心義，應合併。",
+      "fix": "偏離"
+    },
+    {
+      "word": "diffuse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "散布與擴散重疊，例句由擴散及使光漫射兩義即可涵蓋。",
+      "fix": "擴散；使漫射"
+    },
+    {
+      "word": "diffuse",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "疼痛例句指分布廣泛而難以定位，寫作例句則含鬆散意，原義項未清楚涵蓋。",
+      "fix": "分布廣泛的；漫射的；冗長鬆散的"
+    },
+    {
+      "word": "dilute",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "形容詞 dilute 表示濃度低，不必然經過稀釋程序，原列兩義也重疊。",
+      "fix": "低濃度的"
+    },
+    {
+      "word": "dilute",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "肥皂水通常說 soapy water，改以清洗花盆的情境呈現典型搭配及低濃度義。",
+      "fix": "Use dilute soapy water to wash the pots before planting seeds."
+    },
+    {
+      "word": "dilute",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "播種前，用低濃度肥皂水清洗花盆。"
+    },
+    {
+      "word": "disagreement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "意見不合與分歧重複，應合併並保留爭論義。",
+      "fix": "意見分歧；爭論"
+    },
+    {
+      "word": "discern",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "看出與察覺在此重疊，保留辨別及察覺兩類用法即可。",
+      "fix": "辨別；察覺"
+    },
+    {
+      "word": "discredit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "discredit 指損害某人名譽或某事可信度，不只是引起一般懷疑。",
+      "fix": "損害可信度；損害名譽"
+    },
+    {
+      "word": "discredit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文指損害新經理的名譽或可信度，原譯讓人懷疑過於籠統。",
+      "fix": "這則謠言是要損害新經理的名譽。"
+    },
+    {
+      "word": "discrepancy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "discrepancy 強調原應相符的資訊出現不一致，不是任意差異。",
+      "fix": "不一致之處"
+    },
+    {
+      "word": "discrete",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "個別與分開在前兩例均指相互獨立，應合併並保留不連續義。",
+      "fix": "個別獨立的；不連續的"
+    },
+    {
+      "word": "disgraceful",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "髒亂廚房例句使用糟糕得令人無法接受之義，原列兩個羞恥近義詞不足以說明。",
+      "fix": "可恥的；糟糕得令人無法接受的"
+    },
+    {
+      "word": "disgraceful",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The restaurant's dirty kitchen was disgraceful and failed the health inspection."
+    },
+    {
+      "word": "disgraceful",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "那家餐廳的廚房髒得令人無法接受，也未通過衛生檢查。"
+    },
+    {
+      "word": "disintegrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "崩解與分解在實物例句中重疊，與組織瓦解義分列即可。",
+      "fix": "崩解；瓦解"
+    },
+    {
+      "word": "dismantle",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充原義項列出的常用廢除義，與前兩個實物拆卸情境區分。",
+      "fix": "The company plans to dismantle its outdated approval system next year."
+    },
+    {
+      "word": "dismantle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "公司計畫明年廢除過時的審核制度。"
+    },
+    {
+      "word": "dismissal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "最後一例使用宣布下課義，原義項未列出，撤銷與駁回的案件處理義則重疊。",
+      "fix": "解僱；駁回；下課"
+    },
+    {
+      "word": "dispatch",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Please dispatch the package before noon so it can arrive tomorrow."
+    },
+    {
+      "word": "dispatch",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "請在中午前寄出包裹，以便明天送達。"
+    },
+    {
+      "word": "disperse",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Seeds disperse in many different ways, including by wind and water."
+    },
+    {
+      "word": "disperse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "種子以許多不同的方式散播，包括藉由風和水。"
+    },
+    {
+      "word": "displace",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "水槽例句使用排開液體的物理義，僅列移動不夠明確。",
+      "fix": "取代；迫使離開；排開"
+    },
+    {
+      "word": "displace",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "displaced 表示被迫離開住所，不一定等同於已無家可歸。",
+      "fix": "這場洪水迫使數千個家庭離開家園。"
+    },
+    {
+      "word": "displease",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使不高興與惹惱在此重疊，應合併為使不高興。",
+      "fix": "使不高興"
+    },
+    {
+      "word": "disposition",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只示範性情及傾向，沒有處置義的例句。",
+      "fix": "性情；傾向"
+    },
+    {
+      "word": "disposition",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "My cat has a calm disposition, even around unfamiliar visitors."
+    },
+    {
+      "word": "disposition",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "我的貓性情平和，即使面對陌生訪客也是如此。"
+    },
+    {
+      "word": "disregard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "漠視與不理會在此同義重複，應合併。",
+      "fix": "漠視"
+    },
+    {
+      "word": "disregard",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "漠視與不顧在此同義重複，應合併。",
+      "fix": "漠視"
+    },
+    {
+      "word": "dissident",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個義項在這三個例句中都指異議人士，應合併。",
+      "fix": "異議人士"
+    },
+    {
+      "word": "dissipate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句均為霧、怒氣或熱能消散，沒有示範驅散或浪費義。",
+      "fix": "消散"
+    },
+    {
+      "word": "dissipate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The morning fog will gradually dissipate as the air gets warmer."
+    },
+    {
+      "word": "dissipate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "隨著空氣變暖，晨霧會逐漸消散。"
+    },
+    {
+      "word": "dissuade",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "價格例句是使人打消念頭，而非人以言語勸阻，原兩義也同義重複。",
+      "fix": "勸阻；使打消念頭"
+    },
+    {
+      "word": "distort",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鏡子及尺的例句為外形改變，新聞例句為歪曲事實，原三義高度重疊。",
+      "fix": "使變形；歪曲"
+    },
+    {
+      "word": "distort",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "High temperatures can distort a plastic ruler left in direct sunlight."
+    },
+    {
+      "word": "distort",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "高溫可能使放在陽光直射處的塑膠尺變形。"
+    },
+    {
+      "word": "distributed",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "手機例句使用分銷商品義，不是一般把物品分發給個人，應補列。",
+      "fix": "分發；分銷"
+    },
+    {
+      "word": "distributed",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "distributed 強調分銷供應，原譯銷售未清楚呈現通路分銷的意思。",
+      "fix": "這家公司在多個國家分銷自家的新款手機。"
+    },
+    {
+      "word": "distributor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "例句指商品經銷或批發角色，配送者過於寬泛，易混同物流送貨人員。",
+      "fix": "經銷商；批發商"
+    },
+    {
+      "word": "disturbed",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句只有不安或睡眠受干擾，沒有心理失常的例句。",
+      "fix": "不安的；受到干擾的"
+    },
+    {
+      "word": "disturbing",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指引起心理不安，未示範一般干擾或擾人之義。",
+      "fix": "令人不安的"
+    },
+    {
+      "word": "disturbing",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "The documentary contains some disturbing images of the polluted river."
+    },
+    {
+      "word": "disturbing",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "這部紀錄片含有一些令人不安的河川汙染畫面。"
+    },
+    {
+      "word": "doomed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "doomed 必含失敗或不幸結局，不能泛指中性的命中註定。",
+      "fix": "注定失敗的；劫數難逃的"
+    },
+    {
+      "word": "dosage",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Do not exceed the recommended dosage printed on the medicine label."
+    },
+    {
+      "word": "dosage",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "請勿超過藥品標籤上印載的建議劑量。"
+    },
+    {
+      "word": "drainage",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "puddles 指積水，排水不良不會直接使地面形成水坑，原譯積了水坑搭配不當。",
+      "fix": "排水不良使學校操場上出現多處積水。"
+    },
+    {
+      "word": "drawback",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "缺點與不利之處在此同義重複，應合併。",
+      "fix": "缺點"
+    },
+    {
+      "word": "drawback",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Every plan has some drawbacks, so we should compare the options carefully."
+    },
+    {
+      "word": "drawback",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "每個計畫都有一些缺點，所以我們應仔細比較各個選項。"
+    },
+    {
+      "word": "dreary",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文主詞是辦公室，原譯改成灰牆而改變描述對象。",
+      "fix": "那間有灰色牆面的舊辦公室看起來很沉悶。"
+    },
+    {
+      "word": "dreary",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Copying the numbers by hand was dreary work for the students."
+    },
+    {
+      "word": "dreary",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "對學生們來說，手抄這些數字是項乏味的工作。"
+    },
+    {
+      "word": "drizzle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "毛毛雨與細雨在此同義重複，應合併。",
+      "fix": "毛毛雨"
+    },
+    {
+      "word": "drizzle",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Drizzle some honey on the pancakes before you serve them."
+    },
+    {
+      "word": "drizzle",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "上桌前，先在鬆餅上淋一點蜂蜜。"
+    },
+    {
+      "word": "dub",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "風暴例句使用稱為之義，不是在替人取綽號，原義項過窄。",
+      "fix": "稱為；配音"
+    },
+    {
+      "word": "duplicate",
+      "path": "senses[2].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指重複存在的相同項目，不必另以複製的重複列義。",
+      "fix": "重複的"
+    },
+    {
+      "word": "duplicate",
+      "path": "senses[2].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Please delete the duplicate photos before sharing the album with your family."
+    },
+    {
+      "word": "duplicate",
+      "path": "senses[2].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "與家人分享相簿前，請先刪除重複的照片。"
+    },
+    {
+      "word": "dynamite",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此圖示通常表示鞭炮，容易聯想到節慶煙火，而非工業使用的炸藥。",
+      "fix": null
+    },
+    {
+      "word": "earphones",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短，補充具體情境以符合考試例句標準。",
+      "fix": "Please use earphones in the library so you do not disturb others."
+    },
+    {
+      "word": "earphones",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "在圖書館請使用耳機，以免打擾別人。"
+    },
+    {
+      "word": "ebb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "衰退與減弱在興奮及興趣例句中重疊，應合併並保留退潮義。",
+      "fix": "退潮；減退"
+    },
+    {
+      "word": "ecstasy",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除狂喜外，本字也常指搖頭丸，應補此義並以中性健康教育情境示範。",
+      "fix": "狂喜；搖頭丸（毒品）"
+    },
+    {
+      "word": "ecstasy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補充常見的毒品名稱義，使用學校護理師進行健康教育的中性情境。",
+      "fix": "The school nurse warned students about the health risks of ecstasy."
+    },
+    {
+      "word": "ecstasy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "配合英文例句修正，提供忠實對應的新譯文。",
+      "fix": "學校護理師提醒學生注意搖頭丸的健康風險。"
+    },
+    {
+      "word": "ecstatic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "欣喜若狂與狂喜在此同義重複，應合併。",
+      "fix": "欣喜若狂的"
+    }
+  ]
+}
