@@ -1,0 +1,758 @@
+{
+  "batch": "N0078",
+  "checked": 50,
+  "reviewed": [
+    "wreath",
+    "wrench",
+    "wretched",
+    "wring",
+    "yarn",
+    "yeast",
+    "yen",
+    "yoke",
+    "yucky",
+    "zeal",
+    "zinc",
+    "zip",
+    "chubby",
+    "journalist",
+    "underline",
+    "vendor",
+    "vinegar",
+    "considerate",
+    "document",
+    "purchase",
+    "abnormal",
+    "abuse",
+    "accommodate",
+    "accommodation",
+    "accord",
+    "acquaint",
+    "administration",
+    "affection",
+    "alcoholic",
+    "alongside",
+    "analyst",
+    "applause",
+    "appliance",
+    "architect",
+    "architecture",
+    "arouse",
+    "asset",
+    "astonish",
+    "ban",
+    "beneficial",
+    "bid",
+    "blush",
+    "briefcase",
+    "browse",
+    "bureau",
+    "butcher",
+    "canal",
+    "canvas",
+    "carbon",
+    "ceremony"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "wrench",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "雨傘被風從手中扯走呈現猛拉義，原義項未涵蓋。",
+      "fix": "猛扭；猛拉；扭傷"
+    },
+    {
+      "word": "wrench",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "扳手與扭傷主要涉及日常工具及身體傷害，科技與網路分類關聯過弱。",
+      "fix": [
+        "日常生活",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "wretched",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此處悲慘與可憐重疊，合併保留困苦及糟糕兩義。",
+      "fix": "悲慘的；糟糕的"
+    },
+    {
+      "word": "wring",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "毛巾和襪子呈現擰乾義，另以絞扭涵蓋緊張時扭絞雙手，避免三個近義動詞重複。",
+      "fix": "擰乾；絞扭"
+    },
+    {
+      "word": "yarn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "毛線屬紗線的一種，合併材料義並補明敘事義常有誇張色彩。",
+      "fix": "紗線（含毛線）；故事（常指誇張的敘述）"
+    },
+    {
+      "word": "yeast",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "酵母與酵母菌是同一概念，不應分列為兩義。",
+      "fix": "酵母"
+    },
+    {
+      "word": "yucky",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只表示把湯留下，沒有說先喝了一部分。",
+      "fix": "這碗湯嚐起來很難吃，所以我把它擱在一旁。"
+    },
+    {
+      "word": "zeal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熱忱與熱情在此為近義詞，應合併。",
+      "fix": "熱忱"
+    },
+    {
+      "word": "zeal",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上交換學習的具體情境。",
+      "fix": "She studies English with great zeal to prepare for her exchange year."
+    },
+    {
+      "word": "zeal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她滿懷熱忱地學英文，為出國交換的一年做準備。"
+    },
+    {
+      "word": "zip",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "台灣慣用字為拉鍊，不是拉鏈。",
+      "fix": "拉上拉鍊；快速移動"
+    },
+    {
+      "word": "zip",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bag 只指袋子，不能自行指定為背包。",
+      "fix": "她拉上袋子的拉鍊，跑向公車站。"
+    },
+    {
+      "word": "zip",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義項為拉拉鍊的動作，查詢應呈現動作。",
+      "fix": "zipping jacket"
+    },
+    {
+      "word": "chubby",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "圓滾滾與豐腴在此都描述圓胖身形，無須分列近義詞。",
+      "fix": "圓胖的"
+    },
+    {
+      "word": "journalist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "記者是新聞工作者的一類，合併避免將上下位概念當不同義項。",
+      "fix": "新聞工作者"
+    },
+    {
+      "word": "vendor",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "hot 只說地瓜是熱的，未指定烘烤的烹調方式。",
+      "fix": "那位街頭小販每年冬天都賣熱地瓜。"
+    },
+    {
+      "word": "considerate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字著重顧及他人感受，體貼與考慮周到在這些例句中重疊。",
+      "fix": "體貼的"
+    },
+    {
+      "word": "document",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為記錄義，補上常見的提供文件證明義。",
+      "fix": "Applicants must document their work experience with letters from previous employers."
+    },
+    {
+      "word": "document",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "應徵者必須提供前雇主的信函，證明自己的工作經驗。"
+    },
+    {
+      "word": "purchase",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "for school 指為了上學或課業使用，不是買給學校。",
+      "fix": "她買了一台新筆電供自己上學時使用。"
+    },
+    {
+      "word": "abnormal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不正常與反常在此為近義詞，不應重複分列。",
+      "fix": "異常的"
+    },
+    {
+      "word": "abuse",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上動物保護教育的中性情境。",
+      "fix": "Local shelters teach children why it is wrong to abuse animals."
+    },
+    {
+      "word": "abuse",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "當地收容所教導孩子，為什麼虐待動物是不對的。"
+    },
+    {
+      "word": "accommodate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "照顧學生需求是配合並滿足需求，不必然涉及破例通融。",
+      "fix": "容納；提供住宿；滿足需求"
+    },
+    {
+      "word": "accommodation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都只表示住宿，且早餐在第二句另列，膳宿會不當包含餐食。",
+      "fix": "住宿"
+    },
+    {
+      "word": "accord",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的固定片語表示出於自身意願或自動發生，原義項未涵蓋。",
+      "fix": "協議；一致；意願（用於固定片語）"
+    },
+    {
+      "word": "accord",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "給予獎品不是最典型搭配，改用正式語域常見的賦予權利。",
+      "fix": "The law accords equal rights to all workers in this country."
+    },
+    {
+      "word": "accord",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "法律賦予這個國家的所有勞工平等權利。"
+    },
+    {
+      "word": "acquaint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使熟悉與使認識在三句的事物用法中重疊。",
+      "fix": "使熟悉"
+    },
+    {
+      "word": "administration",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句指行政人員組成的單位，並非行政活動，且行政與管理原先重複。",
+      "fix": "行政管理；行政單位；政府"
+    },
+    {
+      "word": "administration",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字且中文自行指定行政部門，補上行政工作的具體內容。",
+      "fix": "She works in hospital administration and helps organize appointments for patients."
+    },
+    {
+      "word": "administration",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她從事醫院行政管理工作，協助安排病人預約。"
+    },
+    {
+      "word": "affection",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "喜愛與深情在這些例句中同屬深厚喜愛，應合併。",
+      "fix": "深厚的喜愛"
+    },
+    {
+      "word": "alcoholic",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上常用的形容詞酒精成癮義，刪除與含酒精重複的酒精的。",
+      "fix": "含酒精的；酒精成癮的"
+    },
+    {
+      "word": "alcoholic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "三句原本均為含酒精義且第二句過短，補上常見的酒精成癮形容詞用法。",
+      "fix": "The clinic offers support to alcoholic patients and their families."
+    },
+    {
+      "word": "alcoholic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "診所為酒精成癮的病人及其家屬提供協助。"
+    },
+    {
+      "word": "alcoholic",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上康復支援情境且避免將康復限縮為當下戒酒。",
+      "fix": "My uncle is a recovering alcoholic who attends a weekly support group."
+    },
+    {
+      "word": "alcoholic",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "我叔叔正在從酒精成癮中康復，每週參加一次互助團體。"
+    },
+    {
+      "word": "alongside",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "在旁邊與並排地在這些用法中重疊，合併即可涵蓋。",
+      "fix": "在旁邊"
+    },
+    {
+      "word": "alongside",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "pulled up 表示停下來，不一定靠岸，alongside 明確指來到大船旁邊。",
+      "fix": "大船停了下來，小船靠到它旁邊。"
+    },
+    {
+      "word": "analyst",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分析師與分析人員描述同一職務概念，合併即可。",
+      "fix": "分析人員"
+    },
+    {
+      "word": "analyst",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "cousin 沒有指定性別、年齡及堂表關係，不能直接譯為表哥。",
+      "fix": "我的一位堂表親在台北擔任資料分析師。"
+    },
+    {
+      "word": "applause",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "掌聲與鼓掌在此是同一概念，不須分列近義表述。",
+      "fix": "掌聲"
+    },
+    {
+      "word": "appliance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指家用電器，家電與電器用品重疊。",
+      "fix": "家電"
+    },
+    {
+      "word": "architecture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句指大學所學的學科，應明確寫作建築學。",
+      "fix": "建築學；建築風格；架構"
+    },
+    {
+      "word": "architecture",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義為抽象的建築學，建築物照片主要對應建築風格義。",
+      "fix": null
+    },
+    {
+      "word": "arouse",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "引起與喚起重疊，改補常見的使人從睡眠中醒來義。",
+      "fix": "引起；喚醒"
+    },
+    {
+      "word": "arouse",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上聲音來源使情境具體。",
+      "fix": "A strange noise from the attic aroused my curiosity."
+    },
+    {
+      "word": "arouse",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "閣樓裡傳來的奇怪聲音引起了我的好奇心。"
+    },
+    {
+      "word": "arouse",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以喚醒的常見搭配取代重複的引起情緒義例句。",
+      "fix": "The ringing phone aroused me from a deep sleep."
+    },
+    {
+      "word": "arouse",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "電話鈴聲把我從熟睡中喚醒。"
+    },
+    {
+      "word": "asset",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "優點與寶貴的人或物重疊，合併為能帶來助益的人或物。",
+      "fix": "資產；有助益的人或物"
+    },
+    {
+      "word": "asset",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "good English 指良好的英語能力，未必專指口說流利。",
+      "fix": "你良好的英語能力是做這份工作的一大優勢。"
+    },
+    {
+      "word": "astonish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使驚訝與使吃驚是同義表述，不應重複。",
+      "fix": "使驚訝"
+    },
+    {
+      "word": "astonish",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上表演類型與場合。",
+      "fix": "The magician's disappearing act astonished the children at the party."
+    },
+    {
+      "word": "astonish",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "魔術師的消失魔術讓派對上的孩子們大為驚訝。"
+    },
+    {
+      "word": "ban",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句只表示禁止，沒有另行呈現查驗並取締的查禁義。",
+      "fix": "禁止"
+    },
+    {
+      "word": "ban",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上禁菸規定的公告情境。",
+      "fix": "Smoking is banned in all restaurants under the new city regulations."
+    },
+    {
+      "word": "ban",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "依照市府的新規定，所有餐廳都禁止吸菸。"
+    },
+    {
+      "word": "beneficial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有益與有利在這些例句中同義，合併即可。",
+      "fix": "有益的"
+    },
+    {
+      "word": "beneficial",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字廣泛表示有幫助，例句也包含交通與學習，僅歸健康過度限縮。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "bid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞義努力爭取是動詞片語，應改為表示一次嘗試的名詞表述。",
+      "fix": "出價；投標；爭取的嘗試"
+    },
+    {
+      "word": "bid",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "school president 通常指學校校長或校務領導者，學生會長應明寫 student council president。",
+      "fix": "He made a bid for the position of student council president."
+    },
+    {
+      "word": "bid",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他努力爭取學生會長的職位。"
+    },
+    {
+      "word": "bid",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上 bid farewell 等常見固定搭配的致意用法。",
+      "fix": "出價；投標；向人致意（用於問候或道別）"
+    },
+    {
+      "word": "bid",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以常見的 bid farewell 搭配取代與首句重複的拍賣出價情境。",
+      "fix": "Before leaving for college, she bid farewell to her hometown friends."
+    },
+    {
+      "word": "bid",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "離家上大學前，她向家鄉的朋友道別。"
+    },
+    {
+      "word": "blush",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "臉紅與紅暈重疊，合併後補上常見的化妝品腮紅義。",
+      "fix": "紅暈；腮紅"
+    },
+    {
+      "word": "blush",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上出現紅暈的情境。",
+      "fix": "A blush spread across her cheeks when she received the unexpected compliment."
+    },
+    {
+      "word": "blush",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她受到意想不到的讚美時，雙頰泛起了紅暈。"
+    },
+    {
+      "word": "blush",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為紅暈，補上常見化妝品義並避免情境重複。",
+      "fix": "She applied a little blush to her cheeks before the interview."
+    },
+    {
+      "word": "blush",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "面試前，她在雙頰擦了一點腮紅。"
+    },
+    {
+      "word": "browse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "without any pressure 表示沒有壓力，並非沒有受到打擾。",
+      "fix": "顧客可以毫無壓力地隨意瀏覽貨架上的商品。"
+    },
+    {
+      "word": "bureau",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "局與處為同類機關名稱，合併後補上常見的美式抽屜櫃義。",
+      "fix": "局處等機關；五斗櫃（美式）"
+    },
+    {
+      "word": "bureau",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為行政機關，改以家具義呈現常見的美式用法。",
+      "fix": "She keeps her socks in the top drawer of the bureau."
+    },
+    {
+      "word": "bureau",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她把襪子放在五斗櫃最上面的抽屜裡。"
+    },
+    {
+      "word": "butcher",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義指肉販本人，店鋪照片不必然呈現該職業的人。",
+      "fix": "butcher cutting meat"
+    },
+    {
+      "word": "canal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句指人工引水灌溉的渠道，原水道過於籠統且可能包括天然水道。",
+      "fix": "運河；灌溉渠道"
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，以同素異形體的具體例子補足科學學習情境。",
+      "fix": "Diamonds and graphite are both made of the element carbon."
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "鑽石和石墨都是由碳元素構成的。"
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句容易讓學生以為主要排出單質碳，應說明主要含碳排放物的形式。",
+      "fix": "Cars release carbon into the atmosphere, mainly in the form of carbon dioxide."
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "汽車將碳釋放到大氣中，主要以二氧化碳的形式排放。"
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補明植物取得碳的化合物形式，避免把空氣中的碳誤認為單質。",
+      "fix": "Plants absorb carbon from the air in the form of carbon dioxide."
+    },
+    {
+      "word": "carbon",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "植物以二氧化碳的形式從空氣中吸收碳。"
+    },
+    {
+      "word": "ceremony",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般慶生較常稱 celebration，改用表揚志工服務的典型典禮情境。",
+      "fix": "The community held a ceremony to honor Grandpa's years of volunteer service."
+    },
+    {
+      "word": "ceremony",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "社區舉辦了一場典禮，表揚爺爺多年來的志工服務。"
+    }
+  ]
+}
