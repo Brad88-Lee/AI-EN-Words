@@ -1,0 +1,613 @@
+{
+  "batch": "N0070",
+  "checked": 50,
+  "reviewed": [
+    "repress",
+    "repression",
+    "reproach",
+    "reproduction",
+    "resentment",
+    "reserved",
+    "resigned",
+    "resolute",
+    "resonance",
+    "resonant",
+    "respected",
+    "respectively",
+    "restrained",
+    "restructure",
+    "resultant",
+    "retailer",
+    "retaliate",
+    "retention",
+    "retirement",
+    "retrieval",
+    "retrospect",
+    "retrospection",
+    "retrospective",
+    "revealing",
+    "rhetorical",
+    "rhinoceros",
+    "rhythmic",
+    "ridicule",
+    "rig",
+    "right-wing",
+    "rigor",
+    "riotous",
+    "rite",
+    "roach",
+    "robin",
+    "roller",
+    "roommate",
+    "rotary",
+    "rouge",
+    "rouse",
+    "ruby",
+    "rugby",
+    "ruling",
+    "rumble",
+    "run-up",
+    "runner-up",
+    "rupture",
+    "rustle",
+    "safari",
+    "safeguard"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "repress",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓抑與抑制重複，三句分別為情緒與消息的壓制，未呈現對群眾反抗的鎮壓義。",
+      "fix": "壓抑；壓制"
+    },
+    {
+      "word": "repression",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓抑與抑制重複，保留心理與政治壓制兩類用法。",
+      "fix": "壓抑；鎮壓"
+    },
+    {
+      "word": "reproach",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "責備與指責為同義詞，應合併。",
+      "fix": "責備；恥辱"
+    },
+    {
+      "word": "reproach",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "責備與指責為同義詞，應合併。",
+      "fix": "責備"
+    },
+    {
+      "word": "reproduction",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "聲音重現義已見於第三句卻未列出，獨立的複製過程義則未在三句中明確呈現。",
+      "fix": "繁殖；複製品；重現"
+    },
+    {
+      "word": "reproduction",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文表示重現的聲音清晰，音質重現得清晰的中文搭配不自然。",
+      "fix": "這個喇叭重現的聲音非常清晰。"
+    },
+    {
+      "word": "resentment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "怨恨、憤恨與不滿在此為同一情緒的近義釋詞，應合併。",
+      "fix": "怨恨"
+    },
+    {
+      "word": "resigned",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "聽天由命與認命重複，順從則未準確表達無奈接受不可改變之事。",
+      "fix": "認命的"
+    },
+    {
+      "word": "resigned",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "resigned to 表示無奈接受，不能改譯成主動打算。",
+      "fix": "她看起來已無奈接受還得再等一小時公車。"
+    },
+    {
+      "word": "resolute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "果斷著重迅速決斷，三句皆指意志堅定，應保留精準釋義。",
+      "fix": "堅決的"
+    },
+    {
+      "word": "respected",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "德高望重比受到尊敬更強，且與主要釋義重疊。",
+      "fix": "受尊敬的"
+    },
+    {
+      "word": "respectively",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此字表示前後項目一一對應，各自並未充分說明順序關係。",
+      "fix": "分別（依前後順序對應）"
+    },
+    {
+      "word": "restrained",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句為情緒克制與表演內斂，未呈現被外力約束的意思，沉著也不等同克制。",
+      "fix": "克制的；不誇張的"
+    },
+    {
+      "word": "restrained",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "restrained 指克制表現，不必然代表內心沉著。",
+      "fix": "他克制的態度讓大家都感到平靜。"
+    },
+    {
+      "word": "restructure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "重組與改組重複，重新調整又過於籠統，應明示結構性的重整。",
+      "fix": "重整結構"
+    },
+    {
+      "word": "resultant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "結果的用語含糊且與因此產生重複，應合併。",
+      "fix": "因此產生的"
+    },
+    {
+      "word": "retailer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "零售商與零售業者指同一身分，應合併。",
+      "fix": "零售商"
+    },
+    {
+      "word": "retaliate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "反擊與報復在三句中皆指對他人行為作出的報復性反應，應合併。",
+      "fix": "報復"
+    },
+    {
+      "word": "retention",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應分別列出員工留任、學習記憶保持與水分滯留，留住為動詞且未涵蓋第三句。",
+      "fix": "人員留任；記憶保持；滯留"
+    },
+    {
+      "word": "retention",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第三句水分滯留為明確的身體健康用法，應補上相關分類。",
+      "fix": [
+        "工作與商業",
+        "學校與學習",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "retirement",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "退休是抽象的工作與生活狀態，一般年長伴侶休息的照片無法辨識是否退休。",
+      "fix": null
+    },
+    {
+      "word": "retrieval",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為檔案或書籍的取回與檢索，未呈現挽回義。",
+      "fix": "取回；檢索"
+    },
+    {
+      "word": "retrieval",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上從顧客資料庫檢索資料的完整工作情境。",
+      "fix": "This software allows fast data retrieval from the company's customer database."
+    },
+    {
+      "word": "retrieval",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "這套軟體可從公司的顧客資料庫快速檢索資料。"
+    },
+    {
+      "word": "retrospect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "回顧與回想在此皆指事後回看，應合併。",
+      "fix": "回顧"
+    },
+    {
+      "word": "retrospection",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "追憶與回顧重複，保留一般回顧與檢視過失的反省用法。",
+      "fix": "回顧；反省"
+    },
+    {
+      "word": "retrospective",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指回顧作品的活動，應明示名詞事件義而非一般心理回顧。",
+      "fix": "回顧展或回顧活動"
+    },
+    {
+      "word": "retrospective",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文不能把整場回顧展當成放映物，應以舉辦電影回顧展表達。",
+      "fix": "戲院正在舉辦這位導演的電影回顧展。"
+    },
+    {
+      "word": "retrospective",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句沒有指定為展覽，也沒有明示出道時間，應保留一般作品回顧活動的意思。",
+      "fix": "這個樂團舉辦回顧活動，慶祝二十年的音樂歷程。"
+    },
+    {
+      "word": "revealing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "啟發性不等於揭露資訊，應合併相近釋義並明示衣著用法。",
+      "fix": "透露實情的；暴露的（指服裝）"
+    },
+    {
+      "word": "revealing",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "對早年生活有很多揭露的中文不通順，應直接表達透露資訊。",
+      "fix": "這場訪談透露了他許多早年生活的情況。"
+    },
+    {
+      "word": "revealing",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為透露資訊義，改用中性典禮服裝要求呈現已列出的衣著義。",
+      "fix": "The invitation asks guests to avoid revealing clothing at the ceremony."
+    },
+    {
+      "word": "revealing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "邀請函請賓客在典禮上避免穿著暴露的服裝。"
+    },
+    {
+      "word": "rhetorical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆為修辭問題或技巧，未明確呈現雄辯或誇飾的獨立意思。",
+      "fix": "修辭的"
+    },
+    {
+      "word": "rhythmic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有節奏與有韻律為同義詞，應合併。",
+      "fix": "有節奏的"
+    },
+    {
+      "word": "ridicule",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嘲笑與嘲弄為同義詞，應合併。",
+      "fix": "嘲笑"
+    },
+    {
+      "word": "ridicule",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嘲笑與嘲弄為同義詞，應合併。",
+      "fix": "嘲笑"
+    },
+    {
+      "word": "rig",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裝備與設備重複，應明確表達整組設備。",
+      "fix": "成套設備；鑽油平台"
+    },
+    {
+      "word": "rig",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "操縱與暗中作弊在比賽及選舉例句中為同一義，應合併並明示不正當手段。",
+      "fix": "暗中操縱；裝配"
+    },
+    {
+      "word": "right-wing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "右翼與右派指相同政治傾向，應合併。",
+      "fix": "右派的"
+    },
+    {
+      "word": "rigor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嚴謹與嚴格重複，冬季例句則表示氣候嚴酷，應加以區分。",
+      "fix": "嚴謹；嚴酷"
+    },
+    {
+      "word": "riotous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "花園例句著重花色繽紛繁盛，三句未明確呈現放縱生活的意思。",
+      "fix": "喧鬧的；繽紛繁盛的"
+    },
+    {
+      "word": "rite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "儀式與典禮為相近釋義，應合併。",
+      "fix": "儀式"
+    },
+    {
+      "word": "rite",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "rite of passage 不限於成年禮，畢業也可能發生於尚未成年的階段。",
+      "fix": "畢業對學生來說，是標誌人生階段轉變的重要儀式。"
+    },
+    {
+      "word": "robin",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "駒鳥通常另指日本歌鴝，不能直接與英國節慶卡片上的知更鳥並列為同一鳥名。",
+      "fix": "知更鳥"
+    },
+    {
+      "word": "roommate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "share 只表示共住，原句沒有明示租屋，不能直接增加合租。",
+      "fix": "我和室友一起住在校園附近的一間小公寓。"
+    },
+    {
+      "word": "rotary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "旋轉與迴轉為同義詞，應合併。",
+      "fix": "旋轉的"
+    },
+    {
+      "word": "rotary",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "圓環與環形路口為同一交通設施，應合併。",
+      "fix": "圓環"
+    },
+    {
+      "word": "rotary",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "rotary engine 在此應使用台灣通行的轉子引擎名稱。",
+      "fix": "轉子引擎可以運轉得非常平穩。"
+    },
+    {
+      "word": "rouge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "腮紅與胭脂在三句皆指臉頰彩妝，應合併。",
+      "fix": "腮紅"
+    },
+    {
+      "word": "rouse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "rouse to action 指促使人行動，原譯激起行動的搭配不自然。",
+      "fix": "這個消息促使全鎮的人採取行動。"
+    },
+    {
+      "word": "ruby",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指寶石，未呈現獨立的深紅色名詞義。",
+      "fix": "紅寶石"
+    },
+    {
+      "word": "rugby",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義是橄欖球運動，應呈現比賽而非僅呈現球具。",
+      "fix": "rugby match"
+    },
+    {
+      "word": "ruling",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裁決與裁定在此為同義詞，應合併。",
+      "fix": "裁決"
+    },
+    {
+      "word": "ruling",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "統治與執政在三句皆指具有統治權力，應合併。",
+      "fix": "掌權的"
+    },
+    {
+      "word": "ruling",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上合約糾紛的具體法律情境。",
+      "fix": "The judge's ruling surprised both sides in the contract dispute."
+    },
+    {
+      "word": "ruling",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "法官的裁決讓這起合約糾紛的雙方都很驚訝。"
+    },
+    {
+      "word": "run-up",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句指活動前的時段，而不是準備工作本身，前夕也不宜讓人誤解為僅限前一天。",
+      "fix": "活動前的一段時期；助跑"
+    },
+    {
+      "word": "runner-up",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "亞軍與第二名為同義詞，應合併。",
+      "fix": "亞軍"
+    },
+    {
+      "word": "rupture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句呈現管線或血管破裂及人際決裂，斷裂為重複或未明確呈現的釋義。",
+      "fix": "破裂；決裂"
+    },
+    {
+      "word": "rupture",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句為不及物的自行破裂，第三句為關係決裂，原義項未涵蓋這兩種用法。",
+      "fix": "（使）破裂；使關係決裂"
+    },
+    {
+      "word": "rustle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為使紙張沙沙作響的及物用法，原義項只寫自行發聲。",
+      "fix": "（使）沙沙作響"
+    },
+    {
+      "word": "rustle",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "quiet test 的搭配生硬，改為考試進行時避免紙張噪音的自然提醒。",
+      "fix": "Please avoid rustling your papers while other students are taking the test."
+    },
+    {
+      "word": "rustle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "中文須同步對應修正後的英文例句。",
+      "fix": "其他學生考試時，請避免把紙張弄得沙沙作響。"
+    },
+    {
+      "word": "safari",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "三句皆指觀賞野生動物的旅行，未呈現狩獵旅行義。",
+      "fix": "野生動物觀賞之旅"
+    },
+    {
+      "word": "safari",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義是野生動物觀賞之旅，單獨吉普車未必能呈現觀賞活動。",
+      "fix": "wildlife safari"
+    },
+    {
+      "word": "safeguard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指具體保護方法或制度，保障與防護措施應合併。",
+      "fix": "防護措施"
+    },
+    {
+      "word": "safeguard",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保護與維護在三句皆表示防止權益或財產受到損害，應合併。",
+      "fix": "保護"
+    }
+  ]
+}
