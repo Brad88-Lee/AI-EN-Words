@@ -603,3 +603,5 @@
 🚂(locomotive)
 ⛏️(mining)
 🕌(mosque)
+🏎️(racing)
+😌(relieved)
