@@ -601,3 +601,5 @@
 📘(handbook)
 🦙(llama)
 🚂(locomotive)
+⛏️(mining)
+🕌(mosque)
