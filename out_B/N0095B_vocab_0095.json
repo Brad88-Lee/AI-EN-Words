@@ -1,0 +1,665 @@
+{
+  "batch": "N0095",
+  "checked": 50,
+  "reviewed": [
+    "speculate",
+    "sphere",
+    "spine",
+    "sponge",
+    "sponsorship",
+    "spouse",
+    "squad",
+    "squash",
+    "squat",
+    "stability",
+    "stack",
+    "stain",
+    "stall",
+    "stance",
+    "startle",
+    "statistical",
+    "stereotype",
+    "stew",
+    "stimulus",
+    "storage",
+    "straighten",
+    "straightforward",
+    "strain",
+    "strap",
+    "strategic",
+    "striking",
+    "structural",
+    "stumble",
+    "sturdy",
+    "submit",
+    "subsequent",
+    "subsidy",
+    "substantial",
+    "subtle",
+    "suburban",
+    "successor",
+    "suite",
+    "superstition",
+    "supervise",
+    "supervision",
+    "surplus",
+    "surveillance",
+    "sustain",
+    "sustainable",
+    "swap",
+    "symbolic",
+    "syndrome",
+    "tackle",
+    "tactic",
+    "tangle"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "speculate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推測與猜測同義，另保留以短期獲利為目的的投機義。",
+      "fix": "推測；投機"
+    },
+    {
+      "word": "sphere",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "範圍與領域在教育及影響力例句重複，另保留實體球體義。",
+      "fix": "球體；領域"
+    },
+    {
+      "word": "sponge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "洗碗用的 sponge 仍是海綿，不必然是菜瓜製品或帶磨砂層的菜瓜布。",
+      "fix": "海綿"
+    },
+    {
+      "word": "sponsorship",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "贊助款是贊助的具體形式，三句皆指經費或資源支持，精簡重複說明。",
+      "fix": "贊助"
+    },
+    {
+      "word": "squad",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句為救援小隊或運動球隊，沒有軍隊編制的班義。",
+      "fix": "小隊；球隊"
+    },
+    {
+      "word": "squash",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是多人擠入電梯，並非對外物施加擠壓，明確區分用法。",
+      "fix": "壓扁；擠入"
+    },
+    {
+      "word": "squat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蹲下與蹲坐在三個彎腿降低身體的動作例句重複，精簡釋義。",
+      "fix": "蹲下"
+    },
+    {
+      "word": "speculate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "speculate 表示投機買賣，不必然包含操弄土地價格的炒作。",
+      "fix": "有些投資人投機買賣土地，想快速獲利。"
+    },
+    {
+      "word": "sponge",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sponge 只明確指出海綿，不一定是較粗糙的菜瓜布。",
+      "fix": "我買了一塊新的海綿來洗碗。"
+    },
+    {
+      "word": "sponge",
+      "path": "senses[1].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "擦拭須補明使用海綿，蹭改為台灣慣用的白吃白喝。",
+      "fix": "用海綿擦拭；白吃白喝"
+    },
+    {
+      "word": "sponge",
+      "path": "senses[1].examples[2].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "蹭午餐改為台灣慣用的佔便宜白吃表達。",
+      "fix": "他想佔同學便宜，白吃一頓午餐。"
+    },
+    {
+      "word": "squash",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上白飯與雞肉的具體晚餐搭配。",
+      "fix": "We had roasted squash with rice and chicken for dinner."
+    },
+    {
+      "word": "squash",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的晚餐搭配調整譯文。",
+      "fix": "我們晚餐吃了烤南瓜，配上白飯和雞肉。"
+    },
+    {
+      "word": "stack",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一疊與一堆在書本、盤子及信件疊放的例句重複，精簡釋義。",
+      "fix": "一疊"
+    },
+    {
+      "word": "stack",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "堆疊與堆放在三句同義，合併重複釋義。",
+      "fix": "堆疊"
+    },
+    {
+      "word": "stain",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "弄髒與沾上汙漬重複，並明確表達造成汙漬的使動用法。",
+      "fix": "使沾上汙漬"
+    },
+    {
+      "word": "stall",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句談判陷入停滯，不等同某人故意拖延，原釋義未列此義。",
+      "fix": "熄火；拖延；停滯"
+    },
+    {
+      "word": "startle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使嚇一跳與驚嚇同義，合併重複釋義。",
+      "fix": "使嚇一跳"
+    },
+    {
+      "word": "statistical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "統計與統計學相關的意思在資料、分析課及結果例句重複，精簡釋義。",
+      "fix": "統計的"
+    },
+    {
+      "word": "stew",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "燉肉屬於燉菜的一種，三句均指燉煮成的料理，合併重複說明。",
+      "fix": "燉菜"
+    },
+    {
+      "word": "stew",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "燉與燜在本組慢火濕熱烹調情境重複，精簡釋義。",
+      "fix": "燉煮"
+    },
+    {
+      "word": "stance",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "wide stance 強調站距寬，原譯站穩未準確呈現寬度。",
+      "fix": "揮桿時，雙腳要張開，保持寬站距。"
+    },
+    {
+      "word": "startle",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上寶寶受驚後哭泣的具體反應。",
+      "fix": "The loud noise startled the baby, who began to cry."
+    },
+    {
+      "word": "startle",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的哭泣反應調整譯文。",
+      "fix": "巨大的聲響嚇了寶寶一跳，寶寶隨即哭了起來。"
+    },
+    {
+      "word": "straighten",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "弄直與拉直同義，牆上畫作的例句則是擺正而非一般整理。",
+      "fix": "弄直；擺正"
+    },
+    {
+      "word": "strain",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓力與負擔在旅行及工作例句重複，另保留肌肉拉傷義。",
+      "fix": "壓力；拉傷"
+    },
+    {
+      "word": "strain",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "strain your eyes 是讓眼睛過度疲勞，不是將眼睛拉傷或拉緊，補明實際用法。",
+      "fix": "使過度疲勞；拉傷；過濾"
+    },
+    {
+      "word": "strap",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "背帶是帶子的一種，三句皆為固定或抓握用的帶子，合併重複說明。",
+      "fix": "帶子"
+    },
+    {
+      "word": "striking",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "引人注目與顯著在外觀及差異例句重複，精簡釋義。",
+      "fix": "引人注目的"
+    },
+    {
+      "word": "structural",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "結構與構造相關的意思在橋樑、建築及部門例句重複，精簡釋義。",
+      "fix": "結構上的"
+    },
+    {
+      "word": "submit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提交與呈交同義，另保留向政府屈服的用法。",
+      "fix": "提交；屈服"
+    },
+    {
+      "word": "strain",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "strain your eyes 表示眼睛過度疲勞，原譯傷眼睛未準確區分疲勞與損傷。",
+      "fix": "別在黑暗中看書，免得讓眼睛過度疲勞。"
+    },
+    {
+      "word": "striking",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上穿紅外套參加冬季慶典的具體情境。",
+      "fix": "She wore a striking red coat to the winter festival."
+    },
+    {
+      "word": "striking",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "她穿著一件引人注目的紅色外套參加冬季慶典。"
+    },
+    {
+      "word": "submit",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上繳交作業供老師批改的目的。",
+      "fix": "Please submit your homework by Friday so I can grade it."
+    },
+    {
+      "word": "submit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "請最晚在星期五繳交作業，以便我批改。"
+    },
+    {
+      "word": "submit",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上送出前確認個人資料的實際流程。",
+      "fix": "You can submit the form online after checking your personal details."
+    },
+    {
+      "word": "submit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "確認個人資料後，你可以在線上提交這份表格。"
+    },
+    {
+      "word": "subsequent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "隨後與後來同義，合併重複釋義。",
+      "fix": "隨後的"
+    },
+    {
+      "word": "subsidy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "補助與津貼在農民、學生及機車購置例句中重複，精簡釋義。",
+      "fix": "補助"
+    },
+    {
+      "word": "substantial",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "大量與可觀同義，早餐例句使用的豐盛義原本未列，三句未呈現實質而非名義的用法。",
+      "fix": "可觀的；豐盛的"
+    },
+    {
+      "word": "subtle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "分清顏色差別細微、暗示含蓄及薑味淡淡的三個用法。",
+      "fix": "細微的；含蓄的；淡淡的"
+    },
+    {
+      "word": "successor",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "新手機是前代的後繼產品，原釋義僅列人物，未清楚呈現產品用法。",
+      "fix": "接任者；後繼產品"
+    },
+    {
+      "word": "suite",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "一組過於籠統，明列辦公軟體套件並補上常見音樂組曲義。",
+      "fix": "套房；軟體套件；組曲"
+    },
+    {
+      "word": "supervise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監督、督導與管理在本組照管學生及工作團隊的例句重複，精簡釋義。",
+      "fix": "監督"
+    },
+    {
+      "word": "supervision",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監督與督導在三句中同義，合併重複釋義。",
+      "fix": "監督"
+    },
+    {
+      "word": "subsequent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上顧客逐漸認識店家的成長背景。",
+      "fix": "Sales grew in subsequent years as more customers discovered the store."
+    },
+    {
+      "word": "subsequent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增或改寫的情境調整中文譯文。",
+      "fix": "隨著更多顧客得知這家店，銷售量在隨後幾年有所成長。"
+    },
+    {
+      "word": "suburban",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上家庭成員通勤到不同地點的用途。",
+      "fix": "Many suburban families own two cars for commuting to different workplaces."
+    },
+    {
+      "word": "suburban",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增或改寫的情境調整中文譯文。",
+      "fix": "許多郊區家庭擁有兩輛車，用來通勤到不同的工作地點。"
+    },
+    {
+      "word": "suite",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原首兩句皆為旅館套房，改用管弦樂團演出呈現常見組曲義。",
+      "fix": "The orchestra played a suite based on traditional folk songs."
+    },
+    {
+      "word": "suite",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增或改寫的情境調整中文譯文。",
+      "fix": "管弦樂團演奏了一首以傳統民謠為基礎的組曲。"
+    },
+    {
+      "word": "supervise",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上老師看管學生用餐行為的目的。",
+      "fix": "Teachers supervise the students during lunch to ensure everyone behaves properly."
+    },
+    {
+      "word": "supervise",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增或改寫的情境調整中文譯文。",
+      "fix": "午餐時間老師會看管學生，確保大家行為合宜。"
+    },
+    {
+      "word": "surplus",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "多餘與過剩在衣物、貨品及用水例句同義，合併釋義。",
+      "fix": "多餘的"
+    },
+    {
+      "word": "surveillance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監視與監控在攝影機及影像例句同義，精簡釋義。",
+      "fix": "監視"
+    },
+    {
+      "word": "sustain",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分清維持生長、橋樑承載及遭受傷害三種實際用法。",
+      "fix": "維持；承載；遭受"
+    },
+    {
+      "word": "sustainable",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "可持續改用台灣教材慣用的永續，並合併同義釋義。",
+      "fix": "永續的"
+    },
+    {
+      "word": "swap",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "交換與對調在座位、筆記及班表例句同義，合併釋義。",
+      "fix": "交換"
+    },
+    {
+      "word": "syndrome",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "綜合症改用台灣醫療教材慣用的症候群，並合併同義釋義。",
+      "fix": "症候群"
+    },
+    {
+      "word": "tackle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "處理與解決在問題及塞車例句重複，抓住並擒抱也可精簡為擒抱。",
+      "fix": "處理；擒抱"
+    },
+    {
+      "word": "tackle",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個用具例句皆指釣魚裝備，以釣具取代過於籠統的用具。",
+      "fix": "釣具；擒抱"
+    },
+    {
+      "word": "tactic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "策略與手法在銷售及應對方式例句重複，另保留運動戰術義。",
+      "fix": "戰術；手法"
+    },
+    {
+      "word": "tangle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "糾結與纏結在耳機、頭髮及電線例句同義，合併釋義。",
+      "fix": "纏結"
+    },
+    {
+      "word": "tangle",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "纏繞與使糾結在三句均為線材或頭髮纏結，精簡重複說明。",
+      "fix": "纏結"
+    },
+    {
+      "word": "surplus",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原 surplus food 易讀為形容詞，改用 food surplus 讓目標字明確作名詞。",
+      "fix": "The city donated its food surplus to families in need."
+    },
+    {
+      "word": "surplus",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "市政府把剩餘的食物捐給有需要的家庭。"
+    },
+    {
+      "word": "surveillance",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上攝影監視協助預防竊盜的目的。",
+      "fix": "The mall uses cameras for surveillance to help prevent theft."
+    },
+    {
+      "word": "surveillance",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這間購物中心使用攝影機進行監視，以協助預防竊盜。"
+    },
+    {
+      "word": "surveillance",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上保護建物內貴重設備的目的。",
+      "fix": "The building is under 24-hour surveillance to protect the valuable equipment inside."
+    },
+    {
+      "word": "surveillance",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這棟大樓全天候受到監視，以保護裡面的貴重設備。"
+    },
+    {
+      "word": "symbolic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "symbolic bird of peace 修飾關係生硬，改用典型的 symbolic of peace 搭配。",
+      "fix": "The dove is symbolic of peace in many cultures."
+    },
+    {
+      "word": "symbolic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "鴿子在許多文化中象徵和平。"
+    },
+    {
+      "word": "syndrome",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "tired-all-the-time syndrome 是非正式稱法，原句易誤作確立病名，改用腕隧道症候群的常見症狀例句。",
+      "fix": "Carpal tunnel syndrome can cause numbness and tingling in the hand."
+    },
+    {
+      "word": "syndrome",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "腕隧道症候群可能造成手部麻木和刺痛。"
+    }
+  ]
+}
