@@ -1,0 +1,17 @@
+ROUND: N0096
+STAGE: C
+AGENT: claude
+ATTEMPT: 1
+OUTPUT: out_C/N0096C_vocab_0096.json
+GATE-C: PASS｜筆數 50/50｜套用 61｜跳過 0｜null 1/1
+MODEL: unknown
+REPORTED_AT: 2026-11-05T00:00:00+08:00
+---
+```json
+{"a_count": 50, "c_count": 50, "applied": [{"word": "tempt", "path": "senses[0].zh"}, {"word": "texture", "path": "senses[0].zh"}, {"word": "theoretical", "path": "senses[0].zh"}, {"word": "thereby", "path": "senses[0].zh"}, {"word": "threshold", "path": "senses[0].zh"}, {"word": "tempt", "path": "senses[0].examples[2].zh"}, {"word": "temptation", "path": "senses[0].examples[0].zh"}, {"word": "thereby", "path": "senses[0].examples[2].zh"}, {"word": "thrill", "path": "senses[0].zh"}, {"word": "thrill", "path": "senses[1].zh"}, {"word": "thrive", "path": "senses[0].zh"}, {"word": "thrust", "path": "senses[0].zh"}, {"word": "thrust", "path": "senses[1].zh"}, {"word": "tick", "path": "senses[0].zh"}, {"word": "toll", "path": "senses[0].zh"}, {"word": "toll", "path": "senses[1].zh"}, {"word": "torment", "path": "senses[0].zh"}, {"word": "tournament", "path": "senses[0].zh"}, {"word": "thrill", "path": "senses[0].examples[0].zh"}, {"word": "throne", "path": "senses[0].examples[0].zh"}, {"word": "tick", "path": "senses[0].examples[2].en"}, {"word": "tick", "path": "senses[0].examples[2].zh"}, {"word": "trait", "path": "senses[0].zh"}, {"word": "traitor", "path": "senses[0].zh"}, {"word": "transaction", "path": "senses[0].zh"}, {"word": "transformation", "path": "senses[0].zh"}, {"word": "transition", "path": "senses[0].zh"}, {"word": "transition", "path": "senses[1].zh"}, {"word": "transmission", "path": "senses[0].zh"}, {"word": "transparent", "path": "senses[0].zh"}, {"word": "trauma", "path": "senses[0].zh"}, {"word": "transit", "path": "senses[0].examples[2].en"}, {"word": "transit", "path": "senses[0].examples[2].zh"}, {"word": "trauma", "path": "senses[0].examples[0].en"}, {"word": "trauma", "path": "senses[0].examples[0].zh"}, {"word": "tribute", "path": "senses[0].zh"}, {"word": "trigger", "path": "senses[0].zh"}, {"word": "trigger", "path": "senses[1].zh"}, {"word": "trim", "path": "senses[0].zh"}, {"word": "triple", "path": "senses[1].zh"}, {"word": "trivial", "path": "senses[0].zh"}, {"word": "trophy", "path": "senses[0].zh"}, {"word": "tuition", "path": "senses[0].zh"}, {"word": "ultimate", "path": "senses[0].zh"}, {"word": "tribute", "path": "senses[0].examples[2].en"}, {"word": "tribute", "path": "senses[0].examples[2].zh"}, {"word": "trigger", "path": "senses[1].examples[2].en"}, {"word": "trigger", "path": "senses[1].examples[2].zh"}, {"word": "tumor", "path": "senses[0].examples[1].en"}, {"word": "tumor", "path": "senses[0].examples[1].zh"}, {"word": "trophy", "path": "emoji"}, {"word": "tuna", "path": "image_query"}, {"word": "undergraduate", "path": "senses[0].zh"}, {"word": "undergraduate", "path": "senses[1].zh"}, {"word": "undermine", "path": "senses[0].zh"}, {"word": "undo", "path": "senses[0].zh"}, {"word": "unfold", "path": "senses[0].zh"}, {"word": "unlock", "path": "senses[0].zh"}, {"word": "unprecedented", "path": "senses[0].zh"}, {"word": "update", "path": "senses[0].zh"}, {"word": "undergraduate", "path": "senses[1].examples[2].zh"}], "skipped": [], "extra_changes": [], "nulls": [{"word": "trophy", "path": "emoji"}]}
+```
+---
+A 與 C 皆 50 筆，順序一致。B 的 61 項 issue 逐筆驗證後全數套用，無跳過。
+英文例句改動者（tick、transit、trauma、tribute、trigger、tumor）B 已附中文，一併套用。
+trophy emoji 設為 null、tuna image_query 改為 tuna swimming。
+check_batch ERROR 0；check_extra ERROR 0、WARN 0。無額外修改。無網路錯誤。
