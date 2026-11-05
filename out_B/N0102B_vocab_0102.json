@@ -1,0 +1,553 @@
+{
+  "batch": "N0102",
+  "checked": 50,
+  "reviewed": [
+    "analytical",
+    "anchor",
+    "animate",
+    "annoyance",
+    "anthem",
+    "antibiotic",
+    "anticipation",
+    "antonym",
+    "applicable",
+    "apprentice",
+    "approximate",
+    "archaeology",
+    "archive",
+    "asthma",
+    "astray",
+    "astronomer",
+    "astronomy",
+    "attain",
+    "attendant",
+    "audit",
+    "auditorium",
+    "avert",
+    "aviation",
+    "awesome",
+    "awhile",
+    "bachelor",
+    "backbone",
+    "badge",
+    "banquet",
+    "barbarian",
+    "bass",
+    "batter",
+    "beautify",
+    "beep",
+    "beforehand",
+    "beverage",
+    "bilateral",
+    "blaze",
+    "bleach",
+    "blot",
+    "blunt",
+    "bodily",
+    "bosom",
+    "boulevard",
+    "brace",
+    "brassiere",
+    "breadth",
+    "breakdown",
+    "breakup",
+    "brink"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "animate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "名詞的 animate 指其指稱對象有生命，並非詞語本身有生命。",
+      "fix": "測驗要求判斷每個名詞是否指稱有生命的事物。"
+    },
+    {
+      "word": "anthem",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句使用校歌義，原釋義未列出且沒有例句示範讚歌義。",
+      "fix": "國歌；校歌；主題曲"
+    },
+    {
+      "word": "antibiotic",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此形容詞用於抗生素藥膏、治療及藥物，單寫抗生的不夠清楚。",
+      "fix": "抗生素的"
+    },
+    {
+      "word": "anticipation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "in anticipation of 指預期事件將發生而作準備，不是防止暴風雨本身發生。",
+      "fix": "預期暴風雨將來襲，我們多買了一些水。"
+    },
+    {
+      "word": "antonym",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入練習情境以符合例句長度要求。",
+      "fix": "The antonym of hot is cold, as shown in this exercise."
+    },
+    {
+      "word": "antonym",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入這個練習的語境。",
+      "fix": "如這個練習所示，「熱」的反義詞是「冷」。"
+    },
+    {
+      "word": "applicable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指可適用於某對象，泛稱適當不足以精確對應。",
+      "fix": "適用的"
+    },
+    {
+      "word": "archive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句使用公開檔案館義，原釋義的單一檔案不夠精確。",
+      "fix": "檔案庫；檔案館"
+    },
+    {
+      "word": "archive",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「將…」為可省略的受詞提示，存檔即可完整表達動詞義。",
+      "fix": "存檔"
+    },
+    {
+      "word": "astray",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為計畫出差錯，不能只以偏重道德的走入歧途來表示。",
+      "fix": "迷途地；偏離正軌地"
+    },
+    {
+      "word": "attain",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指達到目標、分數或水準，原兩個釋義近義重複。",
+      "fix": "達到"
+    },
+    {
+      "word": "attendant",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指提供服務的人員，未使用隨從義。",
+      "fix": "服務人員"
+    },
+    {
+      "word": "audit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "審計與查帳在本組財務查核例句中同義重複。",
+      "fix": "審計"
+    },
+    {
+      "word": "audit",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉常用的旁聽課程義，補入新例句並合併財務查核的重複釋義。",
+      "fix": "查核；旁聽"
+    },
+    {
+      "word": "approximate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「試圖近似天氣狀況」搭配不自然，原句指模型呈現接近真實的天氣。",
+      "fix": "這個模型試圖呈現接近真實的天氣狀況。"
+    },
+    {
+      "word": "asthma",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入成人也可能發病的醫療常識情境。",
+      "fix": "Asthma often starts in childhood, but adults can develop it too."
+    },
+    {
+      "word": "asthma",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入成人也可能罹患氣喘的語意。",
+      "fix": "氣喘常在兒童時期發病，但成人也可能罹患。"
+    },
+    {
+      "word": "audit",
+      "path": "senses[1].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補入常用的旁聽課程義，取代與前兩句重複的財務查核情境。",
+      "fix": "She plans to audit a history course at the local university."
+    },
+    {
+      "word": "audit",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為在當地大學旁聽歷史課的情境。",
+      "fix": "她計畫在當地大學旁聽一門歷史課。"
+    },
+    {
+      "word": "auditorium",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「禮堂」與「大禮堂」在這組例句中同義重複。",
+      "fix": "禮堂"
+    },
+    {
+      "word": "avert",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句特指移開視線，原釋義泛稱轉移不夠精確。",
+      "fix": "避免；移開目光"
+    },
+    {
+      "word": "aviation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "航空業是航空活動的產業範圍，原兩個釋義重疊。",
+      "fix": "航空"
+    },
+    {
+      "word": "awhile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「一會兒」與「片刻」同義重複。",
+      "fix": "一會兒"
+    },
+    {
+      "word": "banquet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「宴會」與「盛宴」在三句中近義重複。",
+      "fix": "宴會"
+    },
+    {
+      "word": "barbarian",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「野蠻人」與「粗野的人」近義重複。",
+      "fix": "野蠻人"
+    },
+    {
+      "word": "awesome",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入腳踏車車架的具體特色以符合例句長度要求。",
+      "fix": "Your new bike looks awesome with its bright blue frame!"
+    },
+    {
+      "word": "awesome",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入亮藍色車架的特色。",
+      "fix": "你的新腳踏車配上亮藍色的車架，看起來好棒！"
+    },
+    {
+      "word": "batter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個中文釋義近義重複，連續重擊較完整呈現 batter 的反覆打擊。",
+      "fix": "連續重擊"
+    },
+    {
+      "word": "beautify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表示使環境更美，不一定另外進行裝飾，原釋義近義重複。",
+      "fix": "美化"
+    },
+    {
+      "word": "beforehand",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「事先」與「預先」同義重複。",
+      "fix": "事先"
+    },
+    {
+      "word": "blaze",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「烈火」與「大火」在本組例句中近義重複。",
+      "fix": "烈火"
+    },
+    {
+      "word": "blot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "墨漬為汙漬的一種，原釋義重疊。",
+      "fix": "汙漬"
+    },
+    {
+      "word": "bass",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是聲音的低音，原搜尋詞為第二個意思的貝斯樂器。",
+      "fix": null
+    },
+    {
+      "word": "bilateral",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bilateral swelling 指左右兩腿都腫，原譯雙腿有兩側腫脹容易誤成每腿兩側。",
+      "fix": "醫師檢查雙腿是否都出現腫脹。"
+    },
+    {
+      "word": "bleach",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bleach hair 是去除髮色的漂色，與使用染劑把頭髮染淡不同。",
+      "fix": "他決定為學校的戲劇演出替頭髮漂色。"
+    },
+    {
+      "word": "bass",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入適合合唱團的情境以符合例句長度要求。",
+      "fix": "He has a deep bass voice that suits the choir."
+    },
+    {
+      "word": "bass",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他有一副低沉的男低音嗓音，很適合合唱團。"
+    },
+    {
+      "word": "beep",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入提醒伸展的用途以符合例句長度要求。",
+      "fix": "My watch beeps every hour to remind me to stretch."
+    },
+    {
+      "word": "beep",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "我的手錶每小時都會嗶嗶響，提醒我伸展身體。"
+    },
+    {
+      "word": "blaze",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入消防人員趕到前的時間情境。",
+      "fix": "A blaze destroyed the old warehouse before firefighters could reach it."
+    },
+    {
+      "word": "blaze",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "消防人員趕到之前，一場大火就燒毀了那間舊倉庫。"
+    },
+    {
+      "word": "blot",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "濕手通常使紙弄濕或字跡抹糊，blot 的弄髒義宜用漏墨形成汙點的情境。",
+      "fix": "Be careful not to blot your page with the leaking pen."
+    },
+    {
+      "word": "blot",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "小心別讓那支漏墨的筆把你的紙頁弄髒。"
+    },
+    {
+      "word": "bodily",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆表示整個身體被抬起或移動，未使用親自到場的親身義。",
+      "fix": "整個地"
+    },
+    {
+      "word": "bosom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "依名詞例句明確區分身體胸部、家人的懷抱及內心，原胸懷過於籠統。",
+      "fix": "胸部；懷抱；內心"
+    },
+    {
+      "word": "boulevard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義重疊，且並非任何大馬路都是 boulevard，以大道表達較精確。",
+      "fix": "大道"
+    },
+    {
+      "word": "brace",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一、三句為支撐或穩住物體與身體，原寫使堅固不夠精確。",
+      "fix": "支撐；做好準備"
+    },
+    {
+      "word": "breakup",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二、三句分別指樂團解散及冰層碎裂，原解體過於籠統。",
+      "fix": "分手；解散；碎裂"
+    },
+    {
+      "word": "brink",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "brink 是名詞，瀕臨是整個片語的動詞譯法，詞性不符。",
+      "fix": "邊緣"
+    },
+    {
+      "word": "blunt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「考不好的成績」語意不順，原句指老師直言考試成績很差。",
+      "fix": "老師直言我的考試成績很差。"
+    },
+    {
+      "word": "brace",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞為第二個意思的牙套，應改呈現第一個意思的支架。",
+      "fix": "shelf support brace"
+    },
+    {
+      "word": "bodily",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入各年齡層的需求以符合例句長度要求。",
+      "fix": "Adequate sleep is a basic bodily need for people of all ages."
+    },
+    {
+      "word": "bodily",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "充足的睡眠是各年齡層的基本身體需求。"
+    },
+    {
+      "word": "bodily",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入工作搬重物的具體情境。",
+      "fix": "This job requires bodily strength because workers lift heavy boxes."
+    },
+    {
+      "word": "bodily",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這份工作需要體力，因為工人要搬重箱子。"
+    },
+    {
+      "word": "bosom",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "bosom friends 中的 bosom 為形容詞搭配，應改用明確名詞用法。",
+      "fix": "The children felt safe in the bosom of their family."
+    },
+    {
+      "word": "bosom",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "孩子們在家人的懷抱中感到安心。"
+    },
+    {
+      "word": "aviation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入保障乘客與機組人員的目的以形成完整情境。",
+      "fix": "Aviation safety rules are very strict to protect passengers and crew."
+    },
+    {
+      "word": "aviation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入保障乘客和機組人員安全的目的。",
+      "fix": "航空安全規定非常嚴格，以保障乘客和機組人員的安全。"
+    },
+    {
+      "word": "barbarian",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入歷史課本的說明情境，保留中性歷史敘述。",
+      "fix": "Our history textbook explains why ancient Romans called foreign tribes barbarians."
+    },
+    {
+      "word": "barbarian",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入歷史課本解釋古羅馬用語的情境。",
+      "fix": "我們的歷史課本解釋了古羅馬人為何把外族稱為野蠻人。"
+    }
+  ]
+}
