@@ -1,0 +1,665 @@
+{
+  "batch": "N0089",
+  "checked": 50,
+  "reviewed": [
+    "habitat",
+    "haul",
+    "hazard",
+    "heir",
+    "herb",
+    "heritage",
+    "highlight",
+    "hockey",
+    "horizontal",
+    "hormone",
+    "hostile",
+    "hostility",
+    "howl",
+    "hypothesis",
+    "ideology",
+    "idiot",
+    "illusion",
+    "immense",
+    "immune",
+    "impulse",
+    "incentive",
+    "incorporate",
+    "index",
+    "indifferent",
+    "indigenous",
+    "indispensable",
+    "indulge",
+    "infinite",
+    "infrastructure",
+    "inherent",
+    "initiate",
+    "initiative",
+    "inning",
+    "innovation",
+    "innovative",
+    "insane",
+    "insight",
+    "installation",
+    "intact",
+    "integrate",
+    "integration",
+    "integrity",
+    "intent",
+    "interior",
+    "intervention",
+    "investigator",
+    "irony",
+    "journalism",
+    "judicial",
+    "jug"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "habitat",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為動物棲息場所，生長環境是重複且較籠統的說明。",
+      "fix": "棲息地"
+    },
+    {
+      "word": "haul",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "拖與拉在此同為費力移動物品，合併重複說明。",
+      "fix": "拖拉；運送"
+    },
+    {
+      "word": "haul",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "魚獲與購物戰利品是收穫，long haul 指路程，原釋義未列出路程義。",
+      "fix": "收穫；路程"
+    },
+    {
+      "word": "hazard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "危險因素可明確涵蓋濕滑地板、吸菸與引火物，合併原本重複且含糊的說明。",
+      "fix": "危險因素"
+    },
+    {
+      "word": "heir",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指遺產或王位的繼承人，沒有另行呈現血緣後嗣義。",
+      "fix": "繼承人"
+    },
+    {
+      "word": "herb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保留烹調香草及藥用植物兩義，不再重複列出其草本植物的上位分類。",
+      "fix": "香草；藥草"
+    },
+    {
+      "word": "heritage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指文化遺產，傳統與文化資產均為其內涵，合併重複說明。",
+      "fix": "文化遺產"
+    },
+    {
+      "word": "highlight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "強調與突顯同義，標示也可在電腦上進行，不必限定螢光筆。",
+      "fix": "強調；標示"
+    },
+    {
+      "word": "highlight",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最精采的部分與亮點在三句同義，合併重複釋義。",
+      "fix": "最精采的部分"
+    },
+    {
+      "word": "horizontal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "水平與橫的在本組線條、條紋及木板例句中重複，精簡釋義。",
+      "fix": "水平的"
+    },
+    {
+      "word": "hormone",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "荷爾蒙與激素是同一概念，合併重複釋義。",
+      "fix": "荷爾蒙"
+    },
+    {
+      "word": "hazard",
+      "path": "senses[0].examples[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "安全隱患改用台灣教材較常見的安全風險。",
+      "fix": "濕滑的地板是廚房裡的安全風險。"
+    },
+    {
+      "word": "herb",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句偏向烹調香草，改以藥草用途呈現已列出的藥草義。",
+      "fix": "My grandmother grows herbs that are used in traditional medicine."
+    },
+    {
+      "word": "herb",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫為藥草用途的情境。",
+      "fix": "我奶奶種植可用於傳統醫藥的藥草。"
+    },
+    {
+      "word": "hockey",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "冰球球桿與冰球對應第二個冰上曲棍球義，不是第一個曲棍球義。",
+      "fix": null
+    },
+    {
+      "word": "hockey",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "冰球賽對應第二個意思，改為第一個曲棍球義的場地曲棍球賽。",
+      "fix": "field hockey game"
+    },
+    {
+      "word": "hormone",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上孩子身體發育的情境。",
+      "fix": "Growth hormone helps children grow taller as their bodies develop."
+    },
+    {
+      "word": "hormone",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上孩子身體發育的情境。",
+      "fix": "生長激素會在孩子身體發育時幫助他們長高。"
+    },
+    {
+      "word": "hostile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敵意須以形容詞形式表達，並合併重複的不友善義。",
+      "fix": "有敵意的；不利的"
+    },
+    {
+      "word": "hostility",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敵意與敵對同義，另以強烈反對精確呈現針對計畫的排斥。",
+      "fix": "敵意；強烈反對"
+    },
+    {
+      "word": "howl",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指大笑聲，原釋義未列；三個名詞例句均未呈現風的呼嘯聲。",
+      "fix": "嚎叫聲；大笑聲"
+    },
+    {
+      "word": "hypothesis",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "假設與假說在這三個實驗情境中同義，合併重複釋義。",
+      "fix": "假說"
+    },
+    {
+      "word": "ideology",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "意識形態與思想體系在本組例句同義，合併重複釋義。",
+      "fix": "意識形態"
+    },
+    {
+      "word": "idiot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "笨蛋與白痴在此為同義的罵人用法，合併重複釋義。",
+      "fix": "笨蛋"
+    },
+    {
+      "word": "illusion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "例句皆有外在視覺刺激，不是沒有實際刺激的幻覺，保留錯覺與假象。",
+      "fix": "錯覺；假象"
+    },
+    {
+      "word": "immense",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "巨大、廣大與極大在此為同一程度義的重複說明，精簡釋義。",
+      "fix": "巨大的"
+    },
+    {
+      "word": "immune",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "以明確的形容詞片語區分疾病免疫、一般影響與法律豁免。",
+      "fix": "有免疫力的；不受影響的；享有豁免的"
+    },
+    {
+      "word": "impulse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一時的念頭與衝動在前兩句同義，保留心理與電訊號兩義。",
+      "fix": "衝動；脈衝"
+    },
+    {
+      "word": "immense",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上大型動物需要充足食物的情境。",
+      "fix": "The whale is an immense animal that needs plenty of food."
+    },
+    {
+      "word": "immense",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上食物需求的描述。",
+      "fix": "鯨魚是一種體型巨大、需要充足食物的動物。"
+    },
+    {
+      "word": "immune",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "外交豁免關乎司法追訴，不能概括為不受當地法律管轄，改用精確的起訴豁免情境。",
+      "fix": "Diplomats may be immune from prosecution under certain legal agreements."
+    },
+    {
+      "word": "immune",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文限定為起訴豁免，不表示外交官可不遵守當地法律。",
+      "fix": "根據某些法律協定，外交官可能享有免受起訴的豁免權。"
+    },
+    {
+      "word": "incentive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獎金、價格及成績皆作為促使行動的誘因，獎勵與動機在此為重複說明。",
+      "fix": "誘因"
+    },
+    {
+      "word": "incorporate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現把材料建議納入及包含功能，未另有企業合併義。",
+      "fix": "納入；包含"
+    },
+    {
+      "word": "index",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "名詞例句為書後索引及股價物價指數，沒有另行呈現一般指標義。",
+      "fix": "索引；指數"
+    },
+    {
+      "word": "indigenous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本土與原產在竹子例句重複，保留原住民文化與原生物種兩義。",
+      "fix": "原住民的；原生的"
+    },
+    {
+      "word": "indispensable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "必要與不可或缺在本組例句同義，合併重複釋義。",
+      "fix": "不可或缺的"
+    },
+    {
+      "word": "indulge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泡澡與吃蛋糕是享受或自我放縱，不必然沉溺成癮，另保留縱容他人義。",
+      "fix": "縱情享受；縱容"
+    },
+    {
+      "word": "infinite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無限、無窮與極大在本組實義及誇飾用法中重複，精簡釋義。",
+      "fix": "無限的"
+    },
+    {
+      "word": "infrastructure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "基礎建設與基礎設施在此皆指道路橋梁等公共設施，合併重複釋義。",
+      "fix": "基礎設施"
+    },
+    {
+      "word": "indulge",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "長長的熱水澡搭配不自然，long 指泡澡時間長而非澡本身的長度。",
+      "fix": "週末我喜歡好好享受長時間泡熱水澡的樂趣。"
+    },
+    {
+      "word": "infinite",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上科學家仍在研究宇宙是否無限的情境。",
+      "fix": "The universe seems to be infinite, but scientists are still investigating."
+    },
+    {
+      "word": "infinite",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "宇宙似乎是無限的，但科學家仍在研究這個問題。"
+    },
+    {
+      "word": "inherent",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上即使有裝備仍存在風險的情境。",
+      "fix": "Every sport has some inherent risk, even with proper safety equipment."
+    },
+    {
+      "word": "inherent",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "即使有適當的安全裝備，每種運動仍有某些固有的風險。"
+    },
+    {
+      "word": "inherent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上好奇心促進學習的具體作用。",
+      "fix": "Curiosity is inherent in young children and helps them learn."
+    },
+    {
+      "word": "inherent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "好奇心是幼童與生俱來的特質，也能幫助他們學習。"
+    },
+    {
+      "word": "initiate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "開始、發起與啟動在本組閱讀計畫、對話及檢討例句中重複，精簡釋義。",
+      "fix": "開始"
+    },
+    {
+      "word": "initiative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "打掃與主動學習例句呈現積極主動性，並未指掌握決策或行動的主動權。",
+      "fix": "主動性；倡議"
+    },
+    {
+      "word": "innovation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "創新與革新重複，另保留新技術或方法作為創新成果的可數用法。",
+      "fix": "創新；創新成果"
+    },
+    {
+      "word": "innovative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "創新與有創意在這三句中重複，精簡釋義。",
+      "fix": "創新的"
+    },
+    {
+      "word": "insane",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為誇飾的失控或離譜情境，並未呈現臨床精神失常義。",
+      "fix": "瘋狂的；荒謬的"
+    },
+    {
+      "word": "insight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "文化與想法例句表示深入理解某事，非提出特定見解，明確區分理解與洞察能力。",
+      "fix": "洞察力；深入理解"
+    },
+    {
+      "word": "installation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句是安裝，第三句是藝術作品，未呈現一般設施或機器裝置義。",
+      "fix": "安裝；裝置藝術"
+    },
+    {
+      "word": "intact",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "完好無缺與未受損同義，合併重複釋義。",
+      "fix": "完整無損的"
+    },
+    {
+      "word": "integrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合併與整合在行事曆例句重複，並以融入涵蓋新學生的自動詞用法。",
+      "fix": "整合；融入"
+    },
+    {
+      "word": "innovation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "innovation 已含新事物之意，new innovations 重複，改述近來的網購創新成果。",
+      "fix": "Recent innovations are changing the way customers shop online."
+    },
+    {
+      "word": "innovation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的近來及網購情境。",
+      "fix": "近來的創新成果正在改變顧客網購的方式。"
+    },
+    {
+      "word": "insane",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "交通簡直瘋狂是生硬直譯，英文在此誇飾交通狀況非常糟。",
+      "fix": "今天早上市中心的交通狀況糟透了。"
+    },
+    {
+      "word": "insight",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯提供瞭解想法的實用見解不自然，英文指訪談有助理解他的思考。",
+      "fix": "這場訪談有助於深入瞭解他的想法。"
+    },
+    {
+      "word": "intact",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上即使有傳聞仍維持信任的情境。",
+      "fix": "Her trust in him remained intact despite the rumors about his past."
+    },
+    {
+      "word": "intact",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上關於過去的傳聞情境。",
+      "fix": "儘管有關於他過去的傳聞，她對他的信任仍絲毫未減。"
+    },
+    {
+      "word": "integrity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "正直與誠信在人物品格例句重複，保留品格及結構完整性兩義。",
+      "fix": "正直；完整性"
+    },
+    {
+      "word": "intent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "意圖與目的在三句中同義，合併重複釋義。",
+      "fix": "意圖"
+    },
+    {
+      "word": "intent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "專心與一心一意在本組人物神情及行動目標例句重複，精簡釋義。",
+      "fix": "專注的"
+    },
+    {
+      "word": "interior",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指建築內部，合併重複的室內義。",
+      "fix": "內部的"
+    },
+    {
+      "word": "intervention",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "干預與介入重複，老師制止爭吵也未必進行調停，保留可涵蓋三句的介入義。",
+      "fix": "介入"
+    },
+    {
+      "word": "investigator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "調查員與偵查人員在本組職業例句重複，精簡釋義。",
+      "fix": "調查員"
+    },
+    {
+      "word": "irony",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "諷刺與反諷在語氣例句重複，保留表達方式及令人感到諷刺的事情兩義。",
+      "fix": "反諷；諷刺的事"
+    },
+    {
+      "word": "journalism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句指查證事實的新聞工作，以此涵蓋新聞產製實務並保留學科義。",
+      "fix": "新聞工作；新聞學"
+    },
+    {
+      "word": "judicial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "司法、法院與法官在三句均為司法制度相關，合併重複說明。",
+      "fix": "司法的"
+    },
+    {
+      "word": "jug",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "水壺、大壺與罐在三句均指盛裝液體的壺，合併重複說明。",
+      "fix": "大壺"
+    },
+    {
+      "word": "investigator",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "英文被動句沒有指定雇主，移除原譯額外增加的他們。",
+      "fix": "一位私家偵探受雇尋找走失的狗。"
+    },
+    {
+      "word": "irony",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "雨傘也可在沙漠遮陽，不必然構成反諷，改為導遊在自己家鄉迷路的明確反差。",
+      "fix": "The irony is that the guide got lost in his own hometown."
+    },
+    {
+      "word": "irony",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫為導遊在家鄉迷路的情境。",
+      "fix": "諷刺的是，那位導遊竟在自己的家鄉迷路了。"
+    }
+  ]
+}
