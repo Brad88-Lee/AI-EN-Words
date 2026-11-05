@@ -1,0 +1,623 @@
+{
+  "batch": "N0100",
+  "checked": 50,
+  "reviewed": [
+    "mistress",
+    "mow",
+    "nourish",
+    "orderly",
+    "orphanage",
+    "ounce",
+    "outward",
+    "overflow",
+    "packet",
+    "parliament",
+    "patriotic",
+    "pebble",
+    "petrol",
+    "pianist",
+    "pilgrim",
+    "pony",
+    "porter",
+    "poultry",
+    "preview",
+    "proverb",
+    "punctual",
+    "qualification",
+    "refresh",
+    "rehearse",
+    "resistant",
+    "rubbish",
+    "seagull",
+    "sharpen",
+    "shaver",
+    "shortcoming",
+    "simplify",
+    "skim",
+    "slang",
+    "sneeze",
+    "sociable",
+    "spacecraft",
+    "sparrow",
+    "sportsmanship",
+    "starvation",
+    "stepfather",
+    "stepmother",
+    "suitcase",
+    "suspension",
+    "symbolize",
+    "sympathize",
+    "symphony",
+    "syrup",
+    "tenant",
+    "tiptoe",
+    "tiresome"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "mistress",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉常用的情婦義，補入後以新例句示範並移除不再使用的女教師義。",
+      "fix": "情婦；女主人"
+    },
+    {
+      "word": "mow",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指割草，「修剪」過於籠統，括號提示也可直接併入詞義。",
+      "fix": "割草"
+    },
+    {
+      "word": "nourish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆為提供養分，沒有另示養育孩童的意思，應精簡重疊釋義。",
+      "fix": "滋養；培養"
+    },
+    {
+      "word": "ounce",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句表示果汁容量，須區分重量盎司與液量盎司。",
+      "fix": "盎司；液量盎司"
+    },
+    {
+      "word": "outward",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「外表的」與「外觀的」同義重複。",
+      "fix": "向外的；外表的"
+    },
+    {
+      "word": "outward",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「向外地」與「朝外」同義重複。",
+      "fix": "向外"
+    },
+    {
+      "word": "overflow",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指人潮從大廳湧到走廊，並非只是把某處擠滿。",
+      "fix": "溢出；氾濫；湧出"
+    },
+    {
+      "word": "overflow",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句分別指溢出的水與超出容量的人潮，原釋義的溢出與溢出物重疊。",
+      "fix": "溢出物；過剩"
+    },
+    {
+      "word": "packet",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三個釋義近義重複，且未明確列出第三句成疊文件的意思。",
+      "fix": "小包；一疊文件"
+    },
+    {
+      "word": "parliament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "這組例句皆指國家立法機構，「議會」為近義重複。",
+      "fix": "國會"
+    },
+    {
+      "word": "mistress",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補入常用情婦義的中性文學例句，取代較少見的女教師義例句。",
+      "fix": "The novel describes the relationship between a married man and his mistress."
+    },
+    {
+      "word": "mistress",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為中性的小說人物關係描述。",
+      "fix": "這部小說描寫一名已婚男子和他的情婦之間的關係。"
+    },
+    {
+      "word": "ounce",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "果汁裝填容量應明確使用液量盎司，避免與重量單位混淆。",
+      "fix": "這個小瓶子可以裝八液量盎司的果汁。"
+    },
+    {
+      "word": "outward",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "門的開啟方向宜用 outward swing，原 outward opening 的名詞搭配不自然。",
+      "fix": "The outward swing of the door leaves more space inside."
+    },
+    {
+      "word": "outward",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為門向外開啟而增加室內空間的情境。",
+      "fix": "這扇門向外開啟，讓室內多出一些空間。"
+    },
+    {
+      "word": "pebble",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義近義重複，且第三句的扁平石子不必限定為圓石。",
+      "fix": "小石子"
+    },
+    {
+      "word": "pianist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「鋼琴家」與「鋼琴演奏者」在三句中同義重複。",
+      "fix": "鋼琴家"
+    },
+    {
+      "word": "pilgrim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「朝聖者」與「香客」在本組宗教朝聖例句中近義重複。",
+      "fix": "朝聖者"
+    },
+    {
+      "word": "pony",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「小型馬」與「矮種馬」同義重複。",
+      "fix": "矮種馬"
+    },
+    {
+      "word": "porter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「行李員」為前兩句搬運行李的工作，與搬運工重疊。",
+      "fix": "搬運工；門房"
+    },
+    {
+      "word": "preview",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為預先介紹課程，第三句為展覽預展，原釋義未精確列出且未示範試映義。",
+      "fix": "預告；預先介紹；預展"
+    },
+    {
+      "word": "preview",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二、三句分別為預先展示與預習，原列預演及試映均未使用。",
+      "fix": "預覽；預先展示；預習"
+    },
+    {
+      "word": "proverb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「諺語」與「俗語」在這組傳統格言例句中近義重複。",
+      "fix": "諺語"
+    },
+    {
+      "word": "pebble",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯「打水漂般丟過」語意不順，skip 指實際讓石子在水面彈跳。",
+      "fix": "他用一顆扁平的小石子在平靜的湖面上打水漂。"
+    },
+    {
+      "word": "petrol",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞是加油機，應直接對應第一義的汽油本身。",
+      "fix": "gasoline liquid"
+    },
+    {
+      "word": "porter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "ask for a taxi 指請門房叫車，並非僅詢問叫車的事情。",
+      "fix": "請櫃檯的門房幫忙叫一輛計程車。"
+    },
+    {
+      "word": "poultry",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一義與三句中的兩句皆指活家禽，動物應為主要分類。",
+      "fix": [
+        "動物",
+        "飲食"
+      ]
+    },
+    {
+      "word": "preview",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "gave us a preview 指老師預先介紹內容，不是讓學生自行預習。",
+      "fix": "老師預先向我們介紹了下週課程的內容。"
+    },
+    {
+      "word": "punctual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「準時的」與「守時的」同義重複。",
+      "fix": "準時的"
+    },
+    {
+      "word": "qualification",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句未明示學歷，資格與資格證明已涵蓋所列工作條件及證書。",
+      "fix": "資格；資格證明"
+    },
+    {
+      "word": "refresh",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「使清爽」與「使恢復精神」在洗澡及休息情境中重疊。",
+      "fix": "使恢復精神；重新整理"
+    },
+    {
+      "word": "rehearse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個中文釋義皆表示事前練習表演，近義重複。",
+      "fix": "排練"
+    },
+    {
+      "word": "resistant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指心理上抗拒改變，宜以「抗拒的」與生理或材質的抵抗力區分。",
+      "fix": "抗拒的；有抵抗力的；耐……的"
+    },
+    {
+      "word": "rubbish",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "漏掉常見的胡說義，補入後以新例句示範並合併垃圾與廢物的重複。",
+      "fix": "垃圾；胡說"
+    },
+    {
+      "word": "shaver",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "電動刮鬍刀是刮鬍刀的一種，原釋義重複。",
+      "fix": "刮鬍刀"
+    },
+    {
+      "word": "shortcoming",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「缺點」與「不足之處」同義重複。",
+      "fix": "缺點"
+    },
+    {
+      "word": "qualification",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「英文資格」搭配含糊，qualification in English 在此指英語方面的資格認證。",
+      "fix": "你需要具備基本的英語資格認證才能申請。"
+    },
+    {
+      "word": "refresh",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一義及三句中的兩句皆為日常恢復精神，日常生活應為主要分類。",
+      "fix": [
+        "日常生活",
+        "科技與網路"
+      ]
+    },
+    {
+      "word": "resistant",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入適合小雨的使用情境，並區分抗水與完全防水。",
+      "fix": "This jacket is resistant to water, making it suitable for light rain."
+    },
+    {
+      "word": "resistant",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這件外套具有抗水性，適合在小雨時穿。"
+    },
+    {
+      "word": "rubbish",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補入常用的胡說義，取代與另兩句重複的實體垃圾情境。",
+      "fix": "The claim that our school is closing is complete rubbish."
+    },
+    {
+      "word": "rubbish",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "我們學校要關門的說法完全是胡說。"
+    },
+    {
+      "word": "simplify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「簡化」與「使簡單」同義重複。",
+      "fix": "簡化"
+    },
+    {
+      "word": "skim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句的瀏覽與略讀皆指快速讀取重點，應合併重複釋義。",
+      "fix": "略讀；掠過"
+    },
+    {
+      "word": "slang",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指非正式俚語，未示範特定職業的行話義。",
+      "fix": "俚語"
+    },
+    {
+      "word": "sociable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義重疊，且友善不一定代表喜歡社交，應保留核心交際義。",
+      "fix": "好交際的"
+    },
+    {
+      "word": "spacecraft",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「太空船」與「太空飛行器」在這組例句中近義重複。",
+      "fix": "太空船"
+    },
+    {
+      "word": "sportsmanship",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個中文釋義皆指運動中的公平與尊重，近義重複。",
+      "fix": "運動精神"
+    },
+    {
+      "word": "starvation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "starvation 指嚴重缺乏食物造成的極度飢餓，不能只解作一般肚子餓。",
+      "fix": "極度飢餓；餓死"
+    },
+    {
+      "word": "sneeze",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充用衛生紙摀住口鼻的完整衛生情境。",
+      "fix": "Cover your mouth and nose with a tissue when you sneeze."
+    },
+    {
+      "word": "sneeze",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入衛生紙及摀住鼻子的動作。",
+      "fix": "打噴嚏時，請用衛生紙摀住口鼻。"
+    },
+    {
+      "word": "sociable",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "not very sociable 指不太愛交際，原譯不合群容易誤成無法融入團體。",
+      "fix": "他不太愛交際，比較喜歡待在家看書。"
+    },
+    {
+      "word": "sociable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sociable 表示好交際，友善未完整傳達其喜歡社交的意思。",
+      "fix": "一位好交際的鄰居在我們搬來的第一天就邀請我們吃晚餐。"
+    },
+    {
+      "word": "suitcase",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「手提箱」與「行李箱」在本組例句中近義重複。",
+      "fix": "行李箱"
+    },
+    {
+      "word": "suspension",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為球員禁賽而非停職，應列出實際使用的禁賽義。",
+      "fix": "暫停；禁賽；懸吊系統"
+    },
+    {
+      "word": "symbolize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「象徵」與「代表」在三句中近義重複。",
+      "fix": "象徵"
+    },
+    {
+      "word": "sympathize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「體諒」與同情在本組例句中重疊，保留同情及親身經歷引起的同感。",
+      "fix": "同情；有同感"
+    },
+    {
+      "word": "symphony",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指交響音樂會，原釋義未明列且交響樂與交響曲重複。",
+      "fix": "交響曲；交響音樂會"
+    },
+    {
+      "word": "syrup",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "糖水與糖漿義重疊，第二句另使用含藥的糖漿藥水義。",
+      "fix": "糖漿；糖漿藥水"
+    },
+    {
+      "word": "tenant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「房客」與「承租人」在本組租屋例句中同義重複。",
+      "fix": "房客"
+    },
+    {
+      "word": "tiresome",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指讓人厭煩，並未使用體力疲累的意思。",
+      "fix": "令人厭煩的"
+    },
+    {
+      "word": "stepmother",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "help with homework 表示協助做功課，原譯容易誤解為代寫功課。",
+      "fix": "她的繼母放學後會協助她做功課。"
+    },
+    {
+      "word": "tiptoe",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說搆到架子，未說拿取架上的東西，應刪除增譯。",
+      "fix": "小男孩踮起腳尖，想搆到架子。"
+    },
+    {
+      "word": "symphony",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🎼 主要表示樂譜或一般音樂，無法明確對應第一義的交響曲。",
+      "fix": null
+    },
+    {
+      "word": "symphony",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "交響曲是音樂作品，原搜尋詞為演奏團體而非第一義本身。",
+      "fix": null
+    },
+    {
+      "word": "symbolize",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入世界各地文化的情境以符合例句長度要求。",
+      "fix": "The white dove symbolizes peace in many cultures around the world."
+    },
+    {
+      "word": "symbolize",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "在世界各地的許多文化中，白鴿象徵和平。"
+    },
+    {
+      "word": "symphony",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充終章特色以形成完整的音樂賞析情境。",
+      "fix": "The symphony lasted almost an hour and ended with a powerful finale."
+    },
+    {
+      "word": "symphony",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這首交響曲長達將近一個小時，並以強而有力的終章作結。"
+    }
+  ]
+}
