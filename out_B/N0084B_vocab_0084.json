@@ -1,0 +1,813 @@
+{
+  "batch": "N0084",
+  "checked": 50,
+  "reviewed": [
+    "belongings",
+    "beloved",
+    "betray",
+    "beware",
+    "bias",
+    "biological",
+    "bizarre",
+    "blast",
+    "blur",
+    "bodyguard",
+    "bolt",
+    "bonus",
+    "boom",
+    "boost",
+    "booth",
+    "boredom",
+    "bound",
+    "boundary",
+    "boxer",
+    "breakthrough",
+    "bronze",
+    "bruise",
+    "bulk",
+    "bully",
+    "bureaucracy",
+    "burial",
+    "calcium",
+    "capability",
+    "carnival",
+    "casino",
+    "cathedral",
+    "caution",
+    "cautious",
+    "celebrity",
+    "cemetery",
+    "certainty",
+    "chaos",
+    "chapel",
+    "characterize",
+    "chef",
+    "choir",
+    "chord",
+    "chronic",
+    "chunk",
+    "circuit",
+    "cite",
+    "civic",
+    "clarity",
+    "clause",
+    "cling"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "belongings",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "財物範圍過廣，本字主要指個人擁有的物品，且兩個表述在本組例句中重疊。",
+      "fix": "個人物品"
+    },
+    {
+      "word": "beloved",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "心愛與深受喜愛在本組愛護或珍視的例句中重疊，合併即可。",
+      "fix": "深受喜愛的"
+    },
+    {
+      "word": "betray",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "背叛與出賣重疊，另將第三句無意流露情緒的用法明確列出。",
+      "fix": "背叛；無意間顯露"
+    },
+    {
+      "word": "beware",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小心與提防在這些警戒危險的例句中重疊，合併即可。",
+      "fix": "提防"
+    },
+    {
+      "word": "bias",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "loud advertising 搭配及其偏向關係不夠清楚，改以重複廣告與熟悉品牌的具體情境呈現。",
+      "fix": "Repeated advertising can bias customers toward familiar brands rather than new ones."
+    },
+    {
+      "word": "bias",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "反覆出現的廣告可能使顧客偏向熟悉的品牌，而不是新品牌。"
+    },
+    {
+      "word": "bias",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bias 表示使看法產生偏差，不只是任何中性影響。",
+      "fix": "別讓一則負評使你對這部電影產生成見。"
+    },
+    {
+      "word": "biological",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生物與生物學在本組生命現象的例句中重疊，合併後保留親生關係義。",
+      "fix": "生物的；親生的"
+    },
+    {
+      "word": "bizarre",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個原義項重疊且未表出本字非常異常的程度，合併即可。",
+      "fix": "非常古怪的"
+    },
+    {
+      "word": "blast",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "冷空氣的 blast 可為氣流而不只自然強風，並精簡轟然巨響的重複修飾。",
+      "fix": "爆炸；一股強勁氣流；巨響"
+    },
+    {
+      "word": "blast",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為工程爆破或音樂播放，未呈現軍事轟炸用法。",
+      "fix": "爆破；大聲播放"
+    },
+    {
+      "word": "blur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "模糊與朦朧不清的東西重疊，合併可同時涵蓋視覺及回憶。",
+      "fix": "模糊不清的事物"
+    },
+    {
+      "word": "blur",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使模糊與變模糊是同一意思的及物與不及物用法，以使字合併即可。",
+      "fix": "（使）模糊"
+    },
+    {
+      "word": "blur",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "首義為一般模糊的事物，多數例句亦為日常視覺經驗，應先列日常生活。",
+      "fix": [
+        "日常生活",
+        "科技與網路"
+      ]
+    },
+    {
+      "word": "bodyguard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保鑣與隨身護衛是同義表述，不應分列。",
+      "fix": "保鑣"
+    },
+    {
+      "word": "bodyguard",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上抵達時的演出場所及歌迷情境。",
+      "fix": "The singer arrived with two bodyguards as fans gathered outside the theater."
+    },
+    {
+      "word": "bodyguard",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "歌迷聚集在劇院外時，那位歌手帶著兩名保鑣抵達。"
+    },
+    {
+      "word": "boom",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上雷雨發生時的天候情境。",
+      "fix": "Thunder boomed over the hills as dark clouds covered the sky."
+    },
+    {
+      "word": "boom",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "烏雲遮住天空時，雷聲在山丘上空隆隆作響。"
+    },
+    {
+      "word": "boost",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提升、促進與增強在這些增加能量、銷售量或信心的例句中重疊，合併即可。",
+      "fix": "提升"
+    },
+    {
+      "word": "boost",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個原義項重疊，以名詞性的提振作用涵蓋信心、經濟與精神的提升。",
+      "fix": "提振作用"
+    },
+    {
+      "word": "boost",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯帶來很大的推動生硬，應直接表達當地經濟受到大幅提振。",
+      "fix": "觀光大幅提振了當地經濟。"
+    },
+    {
+      "word": "boost",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字廣泛指能量、信心或數量的提升，不以工作商業為限。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "booth",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school fair 指學校園遊會，原文沒有指定為校慶活動。",
+      "fix": "我們去逛了學校園遊會的美食攤位。"
+    },
+    {
+      "word": "booth",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原市場攤位查詢主要對應第二義，首義小隔間應用具隱私隔板的具體場景。",
+      "fix": "voting booth"
+    },
+    {
+      "word": "boredom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無聊與厭倦在本組缺乏興趣的感受例句中重疊，以無聊感合併即可。",
+      "fix": "無聊感"
+    },
+    {
+      "word": "bound",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上旅途停靠資訊的完整交通情境。",
+      "fix": "This train is bound for Taichung and stops at three smaller stations."
+    },
+    {
+      "word": "bound",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這班火車開往臺中，途中停靠三個較小的車站。"
+    },
+    {
+      "word": "bound",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "彈跳與跳躍重疊，本字著重快速以較大步幅跳躍前進。",
+      "fix": "大步跳躍"
+    },
+    {
+      "word": "bound",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文沒有明示鹿完全消失不見，保留躍入森林的動作即可。",
+      "fix": "鹿跳躍著奔進森林裡。"
+    },
+    {
+      "word": "boundary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "邊界與界線在物理分界義中重疊，另保留行為可接受限度的用法。",
+      "fix": "邊界；限度"
+    },
+    {
+      "word": "boxer",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上 boxers 常見的男用平口內褲義。",
+      "fix": "拳擊手；拳師犬；男用平口內褲（用複數）"
+    },
+    {
+      "word": "boxer",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句均為拳擊手，補上常見的衣物義並使用複數形。",
+      "fix": "He packed two pairs of boxers and several shirts for the trip."
+    },
+    {
+      "word": "boxer",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他為這趟旅行打包了兩件平口內褲和幾件襯衫。"
+    },
+    {
+      "word": "boxer",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "本字另有狗品種及衣物的常見義，應同時涵蓋動物與日常生活。",
+      "fix": [
+        "運動與休閒",
+        "動物",
+        "日常生活"
+      ]
+    },
+    {
+      "word": "breakthrough",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "突破與重大進展重疊，合併並保留重要進展的程度即可。",
+      "fix": "重大突破"
+    },
+    {
+      "word": "bronze",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "bronze 作可數藝術品時不限於具象銅像，應以銅雕涵蓋。",
+      "fix": "青銅；銅雕；銅牌"
+    },
+    {
+      "word": "bronze",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句均為材料義，補上已列出的青銅雕塑名詞用法。",
+      "fix": "The museum displayed several small bronzes made by a local sculptor."
+    },
+    {
+      "word": "bronze",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "博物館展出一位本地雕刻家製作的幾件小型銅雕。"
+    },
+    {
+      "word": "bronze",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義為青銅材質，原雕像查詢主要對應銅雕物件義。",
+      "fix": "bronze ingot"
+    },
+    {
+      "word": "bruise",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "擦傷是表皮受損而非瘀青，且第三句水果碰傷義未列出。",
+      "fix": "瘀青；（水果的）碰傷"
+    },
+    {
+      "word": "bully",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "霸凌者與惡霸在這些以強欺弱者的例句中重疊，合併即可。",
+      "fix": "霸凌者"
+    },
+    {
+      "word": "bully",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "霸凌與欺負在本組例句中重疊，合併即可。",
+      "fix": "霸凌"
+    },
+    {
+      "word": "bully",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上反霸凌教育中常見的具體行為辨識情境。",
+      "fix": "Some students bully others online by posting hurtful comments about them."
+    },
+    {
+      "word": "bully",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "有些學生在網路上發布傷人的留言，藉此霸凌他人。"
+    },
+    {
+      "word": "bully",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上同學支持的完整校園情境。",
+      "fix": "She was bullied for wearing glasses, but her classmates stood up for her."
+    },
+    {
+      "word": "bully",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她因為戴眼鏡而遭到霸凌，但同學挺身支持她。"
+    },
+    {
+      "word": "bureaucracy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明確區分行政官僚組織與繁瑣程序兩義，行政程序為正常台灣用語而應保留。",
+      "fix": "官僚體系；繁瑣的行政程序"
+    },
+    {
+      "word": "bureaucracy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句偏向繁瑣作風，補上中性的行政官僚體系義。",
+      "fix": "The government relies on a large bureaucracy to administer public services."
+    },
+    {
+      "word": "bureaucracy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "政府仰賴龐大的官僚體系管理公共服務。"
+    },
+    {
+      "word": "bureaucracy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "減少官僚體制搭配不自然，此處指減少妨礙工作效率的繁瑣程序。",
+      "fix": "公司想減少繁瑣的行政程序，加快工作速度。"
+    },
+    {
+      "word": "burial",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本字可指下葬儀式，但不等於所有葬禮，應縮小原義項的範圍。",
+      "fix": "埋葬；下葬儀式"
+    },
+    {
+      "word": "burial",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處為安葬遺體的下葬儀式，不宜泛稱可能不涉及埋葬的葬禮。",
+      "fix": "下葬儀式在一處寧靜的山坡上舉行。"
+    },
+    {
+      "word": "calcium",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "calcium supplement 未指定劑型，不一定是鈣片。",
+      "fix": "醫師要她服用鈣補充劑。"
+    },
+    {
+      "word": "capability",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "才能與能力重疊，手機例句著重是否具備錄影功能，而不是效能好壞。",
+      "fix": "能力；功能"
+    },
+    {
+      "word": "capability",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "capability 此處強調具備某項功能，應避免用性能泛指效能表現。",
+      "fix": "這支手機具備錄製4K影片的功能。"
+    },
+    {
+      "word": "carnival",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原摩天輪查詢主要呈現遊樂會設施，改用遊行場景更直接對應嘉年華慶典首義。",
+      "fix": "carnival parade"
+    },
+    {
+      "word": "cathedral",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字以主教座所在的教堂為核心，不是所有大型教堂都屬於此類。",
+      "fix": "主教座堂（常稱大教堂）"
+    },
+    {
+      "word": "caution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小心與謹慎在前兩句中重疊，合併後保留警告訊息義。",
+      "fix": "謹慎；警告"
+    },
+    {
+      "word": "caution",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "警告與告誡在本組提醒危險的例句中重疊，合併即可。",
+      "fix": "告誡"
+    },
+    {
+      "word": "cautious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小心與謹慎是近義表述，不須分列。",
+      "fix": "謹慎的"
+    },
+    {
+      "word": "cautious",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上審慎花費的生活情境。",
+      "fix": "He is cautious about spending money because he is saving for college."
+    },
+    {
+      "word": "cautious",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他花錢很謹慎，因為他正在為上大學存錢。"
+    },
+    {
+      "word": "celebrity",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均指名人，以不可數名氣義的常見用法補足。",
+      "fix": "The actor's sudden celebrity made it difficult for him to lead a quiet life."
+    },
+    {
+      "word": "celebrity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這位演員突然成名，變得很難過平靜的生活。"
+    },
+    {
+      "word": "cemetery",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公墓與墓園在本組埋葬場所的例句中重疊，合併即可。",
+      "fix": "墓園"
+    },
+    {
+      "word": "cemetery",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "visit 只說到墓園探訪，沒有明示掃墓或特定祭祀活動。",
+      "fix": "我們全家每年春天都會去墓園。"
+    },
+    {
+      "word": "chaos",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "混亂與無秩序指同一狀態，不須分列。",
+      "fix": "混亂"
+    },
+    {
+      "word": "chapel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "禮拜堂原表述過廣，應明確涵蓋附設在學校等機構中的宗教場所。",
+      "fix": "小教堂；附設禮拜堂"
+    },
+    {
+      "word": "characterize",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "第二句以特徵作主詞，本字表示構成某地的特徵，而非把主客體倒轉成以某物為特徵。",
+      "fix": "描述特性；構成某事物的特徵"
+    },
+    {
+      "word": "chef",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "廚師與主廚為同一專業的廣狹稱法，合併即可，head chef 可明示主管職位。",
+      "fix": "廚師（尤指主廚）"
+    },
+    {
+      "word": "choir",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上學校合唱團參與典禮的完整情境。",
+      "fix": "She sings in the school choir and performs at every graduation ceremony."
+    },
+    {
+      "word": "choir",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她在學校合唱團唱歌，每場畢業典禮都會參與演出。"
+    },
+    {
+      "word": "choir",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為一般合唱團，補上已列出的教會唱詩班義。",
+      "fix": "The church choir rehearsed a hymn for the Christmas Eve service."
+    },
+    {
+      "word": "choir",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "教堂唱詩班為聖誕夜禮拜排練了一首聖詩。"
+    },
+    {
+      "word": "chord",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上常見的幾何弦義，並以標示區分音樂用法。",
+      "fix": "和弦；弦（幾何）"
+    },
+    {
+      "word": "chord",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為音樂和弦且第三句過短，補上常見幾何用法。",
+      "fix": "A chord is a straight line segment joining two points on a circle."
+    },
+    {
+      "word": "chord",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "弦是連接圓上兩點的直線段。"
+    },
+    {
+      "word": "chord",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "除音樂和弦外，幾何弦也是常見義項，應涵蓋科學分類。",
+      "fix": [
+        "藝術與文化",
+        "科學"
+      ]
+    },
+    {
+      "word": "chronic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上接受檢查的對象及追蹤病情的目的。",
+      "fix": "People with chronic diseases often need regular checkups to monitor their condition."
+    },
+    {
+      "word": "chronic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "慢性病患者通常需要定期檢查，以追蹤病情。"
+    },
+    {
+      "word": "chunk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "chunk 可與 small 連用，不應將物體義一律限定為大塊，並保留時間等抽象部分義。",
+      "fix": "塊狀物；相當大的部分"
+    },
+    {
+      "word": "circuit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是環繞一圈，第三句則是巡迴路線或場地系列，不是單純巡迴這個動作。",
+      "fix": "電路；一圈；巡迴演出路線"
+    },
+    {
+      "word": "circuit",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "world tour circuit 搭配不典型，改用音樂節巡迴路線的常見表述。",
+      "fix": "The band tours the festival circuit every summer."
+    },
+    {
+      "word": "circuit",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這個樂團每年夏天都在各音樂節巡迴演出。"
+    },
+    {
+      "word": "cite",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指警察開單告發違規，而非只是要求出庭，另補上註明來源的常見用法。",
+      "fix": "引用；註明出處；開單告發"
+    },
+    {
+      "word": "civic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上公民責任所處的制度情境。",
+      "fix": "Voting is an important civic duty in a democratic society."
+    },
+    {
+      "word": "civic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "在民主社會中，投票是重要的公民責任。"
+    },
+    {
+      "word": "clarity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "清晰與明確在資訊表達義中重疊，合併並以名詞性的程度表述視覺或水質清楚程度。",
+      "fix": "清晰度；清澈度"
+    },
+    {
+      "word": "clarity",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上清晰畫面帶來的具體閱讀效果。",
+      "fix": "The new screen has amazing clarity, making small text easy to read."
+    },
+    {
+      "word": "clarity",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "新螢幕的清晰度驚人，小字也很容易閱讀。"
+    },
+    {
+      "word": "cling",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯漏掉 old 所強調的舊習慣，應保留原文的時間性質。",
+      "fix": "即使舊習慣沒有幫助，有些人仍執著不放。"
+    }
+  ]
+}
