@@ -1,0 +1,566 @@
+{
+  "batch": "N0088",
+  "checked": 50,
+  "reviewed": [
+    "execution",
+    "exile",
+    "exotic",
+    "expedition",
+    "expertise",
+    "explicit",
+    "exploration",
+    "exterior",
+    "external",
+    "fabric",
+    "fabulous",
+    "facilitate",
+    "faculty",
+    "fatigue",
+    "fiber",
+    "filter",
+    "fiscal",
+    "fleet",
+    "fluency",
+    "fluid",
+    "forge",
+    "format",
+    "forum",
+    "foster",
+    "foul",
+    "fraction",
+    "fragment",
+    "framework",
+    "franchise",
+    "fraud",
+    "frontier",
+    "galaxy",
+    "gasp",
+    "gathering",
+    "generate",
+    "generator",
+    "genetic",
+    "genetics",
+    "genre",
+    "glare",
+    "gloomy",
+    "gorgeous",
+    "graphic",
+    "greed",
+    "grill",
+    "grim",
+    "grip",
+    "gross",
+    "guideline",
+    "gut"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "execution",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "執行與實施重複，並補上常見的法律處決義。",
+      "fix": "執行；處決"
+    },
+    {
+      "word": "execution",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均指計畫執行，改以不含暴力細節的司法情境呈現處決義。",
+      "fix": "The judge stopped the execution after new evidence proved his innocence."
+    },
+    {
+      "word": "execution",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為新證據證明無辜後中止處決的情境。",
+      "fix": "新證據證明他無辜後，法官中止了處決。"
+    },
+    {
+      "word": "exile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流亡與放逐在名詞狀態例句重複，保留流亡狀態與流亡者兩義。",
+      "fix": "流亡；流亡者"
+    },
+    {
+      "word": "exile",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為 in exile，改用 exiles 呈現已列出的流亡者義並增加句型變化。",
+      "fix": "The exiles finally returned home after many years abroad."
+    },
+    {
+      "word": "exile",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為流亡者返回家鄉的情境。",
+      "fix": "這些流亡者在海外多年後，終於返回家鄉。"
+    },
+    {
+      "word": "exile",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "放逐與流放為同義，合併重複釋義。",
+      "fix": "放逐"
+    },
+    {
+      "word": "exotic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指不熟悉的異國事物，合併重複說明並使釋義也適用於旅行地點。",
+      "fix": "異國情調的"
+    },
+    {
+      "word": "expedition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "探險與遠征在北極考察情境重複，保留行程與考察隊伍兩義。",
+      "fix": "探險；考察隊"
+    },
+    {
+      "word": "explicit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明確與清楚同義，且沒有直言不諱的人物用法，精簡釋義。",
+      "fix": "明確的"
+    },
+    {
+      "word": "exploration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "太空、花園及藝術例句均可由探索義涵蓋，合併重複釋義。",
+      "fix": "探索"
+    },
+    {
+      "word": "exterior",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指建築或車輛的外部，合併同義的外觀。",
+      "fix": "外部"
+    },
+    {
+      "word": "exterior",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "外部的與外面的同義，合併重複釋義。",
+      "fix": "外部的"
+    },
+    {
+      "word": "external",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "外部與外在義重複，且例句未呈現對外關係義，精簡釋義。",
+      "fix": "外部的"
+    },
+    {
+      "word": "fabric",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "布料與織物同義，保留材料及抽象結構兩義。",
+      "fix": "布料；結構"
+    },
+    {
+      "word": "fabulous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極好與絕佳同義，合併重複釋義。",
+      "fix": "極好的"
+    },
+    {
+      "word": "facilitate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "促進、使便利與協助進行在三句皆指使事情更容易順利進行，合併重複說明。",
+      "fix": "使順利進行"
+    },
+    {
+      "word": "faculty",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "faculty 指教師群體，不包括一般行政職員，原譯全體教職員範圍過廣。",
+      "fix": "全體教師；學院；能力"
+    },
+    {
+      "word": "fatigue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "疲勞與疲倦同義，合併重複釋義。",
+      "fix": "疲勞"
+    },
+    {
+      "word": "fiber",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 fiber cable 使用光纖義，原釋義未明列。",
+      "fix": "纖維；膳食纖維；光纖"
+    },
+    {
+      "word": "filter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句實際指裝有咖啡渣的濾紙，原列濾網未準確對應。",
+      "fix": "過濾器；濾紙；濾鏡"
+    },
+    {
+      "word": "fiscal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最後一句 fiscal quarter 是會計季度，釋義不能只限定會計年度。",
+      "fix": "財政的；會計的"
+    },
+    {
+      "word": "fleet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是民用漁船隊，不應以多指軍用船隻的艦隊作唯一船舶義。",
+      "fix": "船隊；車隊；機隊"
+    },
+    {
+      "word": "fluency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流暢與流利在語言能力例句同義，並以名詞形式表達程度。",
+      "fix": "流利度"
+    },
+    {
+      "word": "fabulous",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "極好是泛指品質的評價，並不專指情緒或性格。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "fleet",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "卡車車隊對應第二個意思，改為第一個船隊義的漁船隊。",
+      "fix": "fishing fleet"
+    },
+    {
+      "word": "fluid",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "多喝水分搭配不自然，應表達為補充水分。",
+      "fix": "發燒時要補充充足的水分。"
+    },
+    {
+      "word": "format",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句呈現檔案日期格式及節目形式，沒有另行呈現版面配置義。",
+      "fix": "格式；形式"
+    },
+    {
+      "word": "foster",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "培養與促進在此重複，並明確表達 foster 動物是接手照顧而非將動物交給別人。",
+      "fix": "培養；提供寄養照顧"
+    },
+    {
+      "word": "foster",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯寄養兩隻小貓容易誤解為把小貓交給別人，英文指鄰居提供暫時照顧。",
+      "fix": "我們的鄰居決定暫時照顧兩隻小貓一個月。"
+    },
+    {
+      "word": "foster",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "寄養與正式收養是不同關係，foster 不表示已成立收養關係。",
+      "fix": "寄養的"
+    },
+    {
+      "word": "foster",
+      "path": "senses[1].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原本後兩句均使用 foster parents，改用 foster children 呈現學校支持寄養兒童的情境。",
+      "fix": "The school offers support to foster children and their caregivers."
+    },
+    {
+      "word": "foster",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為學校支援寄養兒童與照顧者的情境。",
+      "fix": "學校為寄養兒童及其照顧者提供支援。"
+    },
+    {
+      "word": "fraction",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現數學分數或比例很小的一部分，未另有片段義。",
+      "fix": "分數；小部分"
+    },
+    {
+      "word": "framework",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抽象架構與體系的重複說明合併，另保留鋼骨結構的實體骨架義。",
+      "fix": "架構；骨架"
+    },
+    {
+      "word": "franchise",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指擁有多家分店的連鎖企業，原釋義未明列此用法。",
+      "fix": "加盟權；連鎖企業；加盟店"
+    },
+    {
+      "word": "fraud",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "詐欺與欺騙在前兩句重複，保留行為與騙子兩義。",
+      "fix": "詐欺；騙子"
+    },
+    {
+      "word": "frontier",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "邊境與國界在兩國邊界情境重複，保留地理邊境與探索新領域兩義。",
+      "fix": "邊境；新領域"
+    },
+    {
+      "word": "galaxy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "銀河系是特定星系，普通名詞 galaxy 的通用意思為星系。",
+      "fix": "星系"
+    },
+    {
+      "word": "gathering",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指在場外等候的一群球迷，原釋義未列人群用法。",
+      "fix": "聚會；聚集的人群"
+    },
+    {
+      "word": "generate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "創造與產生在報告或關注例句中重複，保留產生與發電。",
+      "fix": "產生；發電"
+    },
+    {
+      "word": "generator",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指發電設備，沒有另行呈現軟體等一般產生器義。",
+      "fix": "發電機"
+    },
+    {
+      "word": "genetics",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為學科用法，沒有呈現個體遺傳特性義。",
+      "fix": "遺傳學"
+    },
+    {
+      "word": "genre",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "電影、音樂及書籍例句均指作品類型，合併體裁與流派的重複說明。",
+      "fix": "類型"
+    },
+    {
+      "word": "galaxy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "不是每個星系都有數十億恆星，改為大型星系可能含有大量恆星的精確敘述。",
+      "fix": "A large galaxy can contain hundreds of billions of stars."
+    },
+    {
+      "word": "galaxy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文限定為大型星系，避免概括所有星系。",
+      "fix": "一個大型星系可能包含數千億顆恆星。"
+    },
+    {
+      "word": "gasp",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "把袋子掉在地上的中文搭配不自然，改成袋子掉落的表達。",
+      "fix": "她倒抽一口氣，沉重的袋子隨之掉到地上。"
+    },
+    {
+      "word": "glare",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人物例句均指生氣地瞪人，不只是一般瞪大眼睛。",
+      "fix": "怒視；發出刺眼的光"
+    },
+    {
+      "word": "gloomy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句形容公司前景不佳，不是某人抱持悲觀態度。",
+      "fix": "陰暗的；憂鬱的；前景黯淡的"
+    },
+    {
+      "word": "gorgeous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人物與夕陽例句呈現極美，天氣例句則是美好，沒有另行呈現華麗裝飾義。",
+      "fix": "極美的；美好的"
+    },
+    {
+      "word": "graphic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "圖像與繪圖義在平面設計及圖表例句重複，合併同義釋義。",
+      "fix": "圖像的；生動的"
+    },
+    {
+      "word": "greed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "貪婪與貪心同義，合併重複釋義。",
+      "fix": "貪婪"
+    },
+    {
+      "word": "grill",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "燒烤與炙烤在三句中為同一烹調方式，合併重複釋義。",
+      "fix": "燒烤"
+    },
+    {
+      "word": "grim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "依序對應農場處境、醫生表情及洪災消息，移除未呈現的冷酷義。",
+      "fix": "嚴峻的；凝重的；令人沮喪的"
+    },
+    {
+      "word": "grip",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是輪胎的抓地力，並不是人的握力。",
+      "fix": "緊握；抓地力；掌控"
+    },
+    {
+      "word": "grip",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "緊握與緊抓在手部動作例句重複，保留實體握住與吸引注意兩義。",
+      "fix": "緊握；吸引住"
+    },
+    {
+      "word": "gross",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "毛的單獨列出不易理解，總計的已涵蓋總收入及毛重的用法。",
+      "fix": "總計的；噁心的"
+    },
+    {
+      "word": "guideline",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "指導方針、準則與指引在三句中重複，精簡釋義。",
+      "fix": "指引"
+    },
+    {
+      "word": "gut",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指午餐後疼痛的腹部，並非特定內臟器官，明列例句用義。",
+      "fix": "腸道；腹部；直覺"
+    },
+    {
+      "word": "gorgeous",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "美麗的外表與美好天氣並非情緒或性格，改列日常生活與天氣。",
+      "fix": [
+        "日常生活",
+        "天氣與環境"
+      ]
+    },
+    {
+      "word": "guideline",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "guidelines 為使用指引，原譯規定容易增加強制性。",
+      "fix": "學校對使用電腦訂有明確的指引。"
+    },
+    {
+      "word": "guideline",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "英文說學生應該穿制服，原譯規定增加了強制語氣。",
+      "fix": "這項指引指出，學生應穿著制服。"
+    }
+  ]
+}
