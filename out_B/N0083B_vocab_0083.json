@@ -1,0 +1,863 @@
+{
+  "batch": "N0083",
+  "checked": 50,
+  "reviewed": [
+    "activist",
+    "acute",
+    "administrative",
+    "administrator",
+    "adolescent",
+    "adore",
+    "adverse",
+    "advocate",
+    "agenda",
+    "aggression",
+    "agony",
+    "agricultural",
+    "aisle",
+    "alien",
+    "allergic",
+    "allergy",
+    "alliance",
+    "allocate",
+    "ally",
+    "alter",
+    "alternate",
+    "amend",
+    "ample",
+    "anonymous",
+    "anticipate",
+    "antique",
+    "apt",
+    "arena",
+    "array",
+    "arrogant",
+    "articulate",
+    "ass",
+    "assault",
+    "assert",
+    "assess",
+    "assumption",
+    "athletics",
+    "attendance",
+    "attic",
+    "attorney",
+    "attribute",
+    "auction",
+    "authorize",
+    "autonomy",
+    "awe",
+    "ballot",
+    "banner",
+    "barren",
+    "batch",
+    "behalf"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "activist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "標明社會倡議行動者的意思，並合併近義的積極分子表述。",
+      "fix": "社會運動人士"
+    },
+    {
+      "word": "acute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "劇烈與嚴重的程度義重疊，合併後保留醫療急性及感官敏銳兩義。",
+      "fix": "急性的；敏銳的；嚴重的"
+    },
+    {
+      "word": "acute",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未清楚呈現已列出的急性病程義，以典型醫療搭配補足。",
+      "fix": "The doctor diagnosed an acute infection that required immediate treatment."
+    },
+    {
+      "word": "acute",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "醫師診斷出一種需要立即治療的急性感染。"
+    },
+    {
+      "word": "administrative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為行政辦公或行政事務，與管理的近義表述合併即可。",
+      "fix": "行政的"
+    },
+    {
+      "word": "administrator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "管理人員與管理員重複，明確區分行政及資訊系統管理兩種常見用途。",
+      "fix": "行政人員；系統管理員"
+    },
+    {
+      "word": "adolescent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "青春期與青少年在本組人生階段的例句中重疊，合併即可。",
+      "fix": "青少年的"
+    },
+    {
+      "word": "adore",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為非常喜愛家人或事物，未另行呈現崇拜或戀慕義。",
+      "fix": "非常喜愛"
+    },
+    {
+      "word": "adore",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上祖孫互動的具體日常情境。",
+      "fix": "The children adore their grandmother, who often tells them funny bedtime stories."
+    },
+    {
+      "word": "adore",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "孩子們非常愛他們的奶奶，她常在睡前講有趣的故事給他們聽。"
+    },
+    {
+      "word": "adverse",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "不利與有害重疊，三句亦未呈現相反方向的用法。",
+      "fix": "不利的"
+    },
+    {
+      "word": "advocate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提倡者、擁護者與支持者在本組公開倡議的例句中重疊，合併即可。",
+      "fix": "倡議者"
+    },
+    {
+      "word": "advocate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提倡、擁護與主張在本組例句中重疊，合併即可。",
+      "fix": "提倡"
+    },
+    {
+      "word": "advocate",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "shorter homework hours 搭配不典型，改用限制做作業時間的自然表述。",
+      "fix": "Many parents advocate limiting the time children spend on homework."
+    },
+    {
+      "word": "advocate",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "許多家長提倡限制孩子做家庭作業的時間。"
+    },
+    {
+      "word": "advocate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "cleaner 指更潔淨，未泛指改善所有大眾運輸環境或服務條件。",
+      "fix": "這個團體提倡更潔淨的大眾運輸。"
+    },
+    {
+      "word": "agenda",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "釐清高優先事項的用法，並補上 hidden agenda 常見的隱含目的義。",
+      "fix": "議程；優先處理事項；目的"
+    },
+    {
+      "word": "agenda",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句重複會議議程，以常見的 hidden agenda 用法補足。",
+      "fix": "She wondered whether he had a hidden agenda when he offered to help."
+    },
+    {
+      "word": "agenda",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他提出協助時，她想知道他是否另有目的。"
+    },
+    {
+      "word": "aggression",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句表示攻擊傾向而非必然已採取攻擊，原義項未列出，且三句未呈現挑釁義。",
+      "fix": "攻擊行為；攻擊性；侵略"
+    },
+    {
+      "word": "aggression",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "sign a promise 搭配不典型，改為簽署協議的自然表述。",
+      "fix": "The two countries signed an agreement to end aggression and settle disputes peacefully."
+    },
+    {
+      "word": "aggression",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "兩國簽署協議，停止侵略並以和平方式解決爭端。"
+    },
+    {
+      "word": "aggression",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "除個人攻擊行為或性格外，國家侵略也是常見義，應涵蓋社會法律分類。",
+      "fix": [
+        "情緒與性格",
+        "社會與法律"
+      ]
+    },
+    {
+      "word": "agony",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極度痛苦與劇痛重疊，苦惱又可能語氣過弱，應區分身體與精神的強烈痛苦。",
+      "fix": "劇痛；極度的精神痛苦"
+    },
+    {
+      "word": "agricultural",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "農業與農事在本組農產品及技術例句中重疊，合併即可。",
+      "fix": "農業的"
+    },
+    {
+      "word": "aisle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "走道與通道重疊，補明本字常指座位或貨架之間的通行空間。",
+      "fix": "走道（座位或貨架之間）"
+    },
+    {
+      "word": "aisle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文沒有指定紅毯，不應增譯走道的鋪設材料。",
+      "fix": "新娘沿著走道緩緩前行。"
+    },
+    {
+      "word": "alien",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "外國人義多見於正式法律語境，應標明使用範圍以免當作一般稱呼。",
+      "fix": "外星人；外國人（法律用語）"
+    },
+    {
+      "word": "alien",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以明確的正式法律情境示範外國人義，避免訪客的一般稱呼用法不清楚。",
+      "fix": "Under this law, aliens must present valid passports when applying for residence."
+    },
+    {
+      "word": "alien",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "依這項法律，外國人申請居留時必須出示有效護照。"
+    },
+    {
+      "word": "alien",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "外來的可涵蓋不同來源，不限於外國國籍，並與陌生及外星兩義區分。",
+      "fix": "陌生的；外來的；外星的"
+    },
+    {
+      "word": "alien",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句均為陌生事物，改用外來物種的常見科學搭配。",
+      "fix": "The island's native plants were threatened by an alien species of insect."
+    },
+    {
+      "word": "alien",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這座島的原生植物受到一種外來昆蟲的威脅。"
+    },
+    {
+      "word": "allergic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過敏與對某物過敏在這些例句中同義，合併即可。",
+      "fix": "過敏的"
+    },
+    {
+      "word": "allergic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原問句只有六字，補上檢查前詢問的醫療情境並保留直接問句。",
+      "fix": "\"Are you allergic to any medicine?\" the nurse asked before the examination."
+    },
+    {
+      "word": "allergic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "「你對任何藥物過敏嗎？」護理師在檢查前問道。"
+    },
+    {
+      "word": "allergy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過敏與過敏症是同一概念，不應重複分列。",
+      "fix": "過敏"
+    },
+    {
+      "word": "allergy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上接觸過敏原後的具體反應。",
+      "fix": "She has an allergy to dust and sneezes when cleaning old books."
+    },
+    {
+      "word": "allergy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她對灰塵過敏，清理舊書時會打噴嚏。"
+    },
+    {
+      "word": "allergy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上季節與花粉來源的情境。",
+      "fix": "Pollen allergy is common in spring when many flowers and trees bloom."
+    },
+    {
+      "word": "allergy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "春天許多花木開花時，花粉過敏很常見。"
+    },
+    {
+      "word": "alliance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "聯盟、結盟及同盟在本組合作關係的例句中重疊，合併即可。",
+      "fix": "聯盟"
+    },
+    {
+      "word": "allocate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分配、撥出與配置在這些分派資源的例句中重疊，合併即可。",
+      "fix": "分配"
+    },
+    {
+      "word": "ally",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同盟國是國家層級的盟友，與盟友合併後保留個人支持者義。",
+      "fix": "盟友；支持者"
+    },
+    {
+      "word": "ally",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "結盟與聯合在這些共同合作的例句中重疊，合併即可。",
+      "fix": "結盟"
+    },
+    {
+      "word": "ally",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "break 只指休息或中斷，不一定是學校假期，不應自行限定。",
+      "fix": "他和想要更長休息時間的學生站在同一陣線。"
+    },
+    {
+      "word": "alter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "改變與修改的泛用義重疊，另保留裁改衣服的專門用法。",
+      "fix": "改變；修改衣服"
+    },
+    {
+      "word": "alternate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "輪流與交替在這些輪換發生的例句中重疊，合併即可。",
+      "fix": "交替"
+    },
+    {
+      "word": "alternate",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "on alternate days 表示每隔一天一次，不是只指下一天。",
+      "fix": "健身房每隔一天開放一次。"
+    },
+    {
+      "word": "alternate",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句均為替代義，補上已列出的交替排列義。",
+      "fix": "The scarf has alternate stripes of blue and white."
+    },
+    {
+      "word": "alternate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這條圍巾上有藍白相間的條紋。"
+    },
+    {
+      "word": "amend",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為修訂文本或規則，與修正近義，未呈現改善行為等用法。",
+      "fix": "修訂"
+    },
+    {
+      "word": "ample",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指空間或時間足夠，寬敞與豐富在此為相近表述，可合併。",
+      "fix": "充足的"
+    },
+    {
+      "word": "anonymous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "匿名、無名與不具名在本組身分未公開的例句中重疊，合併即可。",
+      "fix": "匿名的"
+    },
+    {
+      "word": "anticipate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "預期與預料重疊，三句未呈現帶有盼望好事之意的期待。",
+      "fix": "預期"
+    },
+    {
+      "word": "antique",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明確表達舊物的收藏語境，避免將古老與古董的重複分列。",
+      "fix": "古老的（常指有收藏價值的物品）"
+    },
+    {
+      "word": "antique",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "此處 1800s 指十九世紀，以世紀表達可避免被理解為僅十年的年代。",
+      "fix": "這座時鐘是十九世紀的古董。"
+    },
+    {
+      "word": "apt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "容易發生與有某種傾向在前兩句中重疊，合併後保留恰當義。",
+      "fix": "有某種傾向的；恰當的"
+    },
+    {
+      "word": "arena",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "競技場與體育館在這些大型場館例句中重疊，保留實體及比喻領域兩義。",
+      "fix": "競技場；活動領域"
+    },
+    {
+      "word": "array",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一系列與大量在事物群的用法重疊，合併並保留資料結構的陣列義。",
+      "fix": "一大批事物；陣列"
+    },
+    {
+      "word": "arrogant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傲慢與自大為近義表述，不應分列。",
+      "fix": "傲慢的"
+    },
+    {
+      "word": "arrogant",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上傲慢表現的具體職場情境。",
+      "fix": "Nobody likes an arrogant boss who refuses to listen to other people's ideas."
+    },
+    {
+      "word": "arrogant",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "沒有人喜歡拒絕聽取他人想法的傲慢老闆。"
+    },
+    {
+      "word": "articulate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不只指口齒發音，也涵蓋第三句的文字表達能力，合併後可避免誤解。",
+      "fix": "善於清楚表達的"
+    },
+    {
+      "word": "articulate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上表達能力出色的具體評審情境。",
+      "fix": "The articulate student impressed the judges with her clear explanation of the experiment."
+    },
+    {
+      "word": "articulate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "那位學生善於表達，清楚說明實驗，讓評審印象深刻。"
+    },
+    {
+      "word": "articulate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "說出過於廣泛，本字強調清楚表達意思，不只是發出話語。",
+      "fix": "清楚表達"
+    },
+    {
+      "word": "articulate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "articulate 包含清楚表達之意，原譯只有說出，未保留清楚的程度。",
+      "fix": "她試著向父母清楚表達自己的擔憂。"
+    },
+    {
+      "word": "ass",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上常見的貶稱與美式粗俗身體部位義，並明確標示語域。",
+      "fix": "驢子；笨蛋（冒犯用語）；屁股（粗俗）"
+    },
+    {
+      "word": "ass",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為驢子，以自我反省的固定片語補上冒犯用語義。",
+      "fix": "He realized he had made an ass of himself by ignoring the clear instructions."
+    },
+    {
+      "word": "ass",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他發現自己無視清楚的指示，結果出了洋相。"
+    },
+    {
+      "word": "ass",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "以中性的詞語教學情境補上常見美式用法，不使用露骨或辱罵他人的情境。",
+      "fix": "During the lesson, we learned that \"ass\" can be a rude word for someone's bottom."
+    },
+    {
+      "word": "ass",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "課堂上，我們學到「ass」也可以是指人屁股的粗俗用語。"
+    },
+    {
+      "word": "ass",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補上身體部位義後，應同時涵蓋健康與身體分類。",
+      "fix": [
+        "動物",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "assault",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "攻擊與襲擊重疊，明確區分球賽攻勢及言語攻擊的比喻用法。",
+      "fix": "襲擊；猛烈攻勢；言語攻擊"
+    },
+    {
+      "word": "assault",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩義重疊，第三句對計畫的批評另呈現猛烈抨擊義。",
+      "fix": "攻擊；猛烈抨擊"
+    },
+    {
+      "word": "assert",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "斷言涵蓋前兩句的堅定聲稱，主張涵蓋權利，避免把堅持另列成近義項。",
+      "fix": "斷言；主張（權利等）"
+    },
+    {
+      "word": "assess",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "評量與評估重疊，合併後保留貨幣價值的估價用法。",
+      "fix": "評估；估價"
+    },
+    {
+      "word": "assess",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未明確呈現已列出的估價義，以典型的估值搭配補足。",
+      "fix": "An expert assessed the house at eight million dollars before the sale."
+    },
+    {
+      "word": "assess",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "專家在出售前估定這棟房子的價值為八百萬元。"
+    },
+    {
+      "word": "assumption",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "假設、假定與設想在本組未經證實的前提例句中重疊，合併即可。",
+      "fix": "假設"
+    },
+    {
+      "word": "athletics",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區分英美常用義，並合併運動競賽與體育活動的重疊表述。",
+      "fix": "競技體育（美式）；田徑運動（英式）"
+    },
+    {
+      "word": "athletics",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "strong program 指完善有力的體育訓練體系，原很強的計畫為生硬直譯。",
+      "fix": "我們學校的體育訓練體系很完善。"
+    },
+    {
+      "word": "attendance",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為出席或到場人數，未明確呈現比例計算的出席率義。",
+      "fix": "出席；出席人數"
+    },
+    {
+      "word": "attic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "頂樓儲藏室是閣樓的一種用途，並非另一詞義，且閣樓不一定用於儲藏。",
+      "fix": "閣樓"
+    },
+    {
+      "word": "attorney",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指法律專業的律師，未呈現受授權代辦事務的一般代理人。",
+      "fix": "律師"
+    },
+    {
+      "word": "attorney",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "signing the paper 指簽署這份文件，原譯只說簽名而漏掉文件對象。",
+      "fix": "簽署這份文件前，你或許該先請教律師。"
+    },
+    {
+      "word": "attribute",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩義均為歸因，第三句卻是作品作者歸屬，應明確列出。",
+      "fix": "歸因於；認為是某人的作品"
+    },
+    {
+      "word": "auction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "拍賣會是拍賣活動的具體場合，與拍賣合併即可涵蓋。",
+      "fix": "拍賣"
+    },
+    {
+      "word": "auction",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "rare 指稀有，不一定表示貨幣價值珍貴，不應改變原文重點。",
+      "fix": "博物館去年拍賣了幾枚稀有的硬幣。"
+    },
+    {
+      "word": "auction",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原查詢只指會場，應呈現首義的拍賣競標活動。",
+      "fix": "auction bidding"
+    },
+    {
+      "word": "authorize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "批准與許可重疊，保留授權他人或批准事項的常見結構即可。",
+      "fix": "授權；批准"
+    },
+    {
+      "word": "ballot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "投票與投票方式在無記名投票的例句中重疊，合併即可。",
+      "fix": "選票；投票"
+    },
+    {
+      "word": "ballot",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義為選票本身，投票箱是容器，不能直接取代選票。",
+      "fix": "ballot paper"
+    },
+    {
+      "word": "banner",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "布條與橫幅在本組宣傳或加油用的布幔例句中重疊，應合併。",
+      "fix": "旗幟；橫幅"
+    },
+    {
+      "word": "batch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一組與一爐都是本組共同製作或到達事物的分批稱法，並非另立詞義。",
+      "fix": "一批"
+    },
+    {
+      "word": "behalf",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞的代表義應表達身分而非代表這個人，並標明其固定片語用法。",
+      "fix": "代表身分；利益（均用於固定片語）"
+    },
+    {
+      "word": "behalf",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "兩個獨立子句不能只用逗號連接，改用分號。",
+      "fix": "Don't worry on my behalf; I can take care of myself."
+    },
+    {
+      "word": "behalf",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "不用為我擔心；我可以照顧自己。"
+    }
+  ]
+}
