@@ -1,0 +1,737 @@
+{
+  "batch": "N0085",
+  "checked": 50,
+  "reviewed": [
+    "clinical",
+    "cluster",
+    "cocaine",
+    "coffin",
+    "coherent",
+    "collaboration",
+    "collective",
+    "collector",
+    "colonial",
+    "columnist",
+    "combat",
+    "commentary",
+    "commentator",
+    "commodity",
+    "communism",
+    "commute",
+    "commuter",
+    "compact",
+    "comparable",
+    "compassion",
+    "compassionate",
+    "compatible",
+    "compel",
+    "compensate",
+    "compensation",
+    "competence",
+    "competent",
+    "complexity",
+    "complication",
+    "comply",
+    "component",
+    "comprehend",
+    "comprise",
+    "compromise",
+    "compulsory",
+    "concede",
+    "conceive",
+    "conception",
+    "condemn",
+    "confession",
+    "confidential",
+    "conform",
+    "consecutive",
+    "consensus",
+    "consent",
+    "conservation",
+    "constitutional",
+    "constraint",
+    "consultation",
+    "consumption"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "clinical",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "臨床不等於門診，前兩句均為臨床領域，未呈現門診義。",
+      "fix": "臨床的；冷靜客觀的"
+    },
+    {
+      "word": "cluster",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "群、簇與串在本組聚集在一起的事物中為相近稱法，合併並標明緊聚特性。",
+      "fix": "一群（緊聚的人或物）"
+    },
+    {
+      "word": "cluster",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "聚集與群聚是同義表述，不須分列。",
+      "fix": "聚集"
+    },
+    {
+      "word": "cocaine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句將法律地位過度概括為非法，未區分嚴格管制與特定合法醫療用途。",
+      "fix": "Cocaine is strictly controlled because of its health and addiction risks."
+    },
+    {
+      "word": "cocaine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "古柯鹼因健康與成癮風險而受到嚴格管制。"
+    },
+    {
+      "word": "coffin",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靈柩是裝有遺體的棺材之稱，與棺材合併即可涵蓋。",
+      "fix": "棺材"
+    },
+    {
+      "word": "coherent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個原義項在前後連接且條理清楚的意思上重疊，應合併。",
+      "fix": "連貫而有條理的"
+    },
+    {
+      "word": "coherent",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school festival 未指定為周年校慶，不應自行限定。",
+      "fix": "我們需要一份連貫而有條理的校園慶典計畫。"
+    },
+    {
+      "word": "collaboration",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "合作與協作重疊，第三句指共同完成的書籍，而不是合著這個動作。",
+      "fix": "合作；共同創作的作品"
+    },
+    {
+      "word": "collective",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "集體與共同在本組多人共同完成的例句中重疊，合併即可。",
+      "fix": "集體的"
+    },
+    {
+      "word": "collective",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "collective meetings 不是全體會議的典型表述，改用常見的 collective responsibility 搭配。",
+      "fix": "All team members share collective responsibility for the success of the project."
+    },
+    {
+      "word": "collective",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "所有團隊成員都對專案的成功負有共同責任。"
+    },
+    {
+      "word": "collective",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字指共同合作經營的組織，集體過於廣泛，合作社則是這類組織的一種。",
+      "fix": "共同經營的團體"
+    },
+    {
+      "word": "collector",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "收集者與收藏家在本組收藏物品的例句中重疊，另保留職業收取人員義。",
+      "fix": "收藏家；收取人員"
+    },
+    {
+      "word": "collector",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義為收藏家本人，郵票收藏品是對象而非收藏者。",
+      "fix": "stamp collector"
+    },
+    {
+      "word": "columnist",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯漏掉 local 所指的地方報紙性質，應補回。",
+      "fix": "這位專欄作家為一家地方報紙撰寫飲食專欄。"
+    },
+    {
+      "word": "combat",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為軍事戰鬥，未呈現近身格鬥的不同情境。",
+      "fix": "戰鬥"
+    },
+    {
+      "word": "combat",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "對抗、防治與抗擊在本組努力消除問題的例句中重疊，合併即可。",
+      "fix": "對抗"
+    },
+    {
+      "word": "combat",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上運動影響情緒的日常健康情境。",
+      "fix": "Regular exercise can help combat stress and improve our mood."
+    },
+    {
+      "word": "combat",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "規律運動有助於對抗壓力，並改善我們的心情。"
+    },
+    {
+      "word": "commentary",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "小說及法律例句均為評論，未呈現逐文註解，另將賽事轉播義明確化。",
+      "fix": "評論；實況解說"
+    },
+    {
+      "word": "commodity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "日用品是商品的下位概念，另以有價值的事物涵蓋沙漠中水資源的用法。",
+      "fix": "商品（尤指原物料）；有價值的事物"
+    },
+    {
+      "word": "commute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "乘車往返上下班與通勤重複，且通勤不一定乘車，也可能步行或騎車。",
+      "fix": "通勤"
+    },
+    {
+      "word": "commute",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞指通勤的一段路程，與原通勤的概括表述合併即可。",
+      "fix": "通勤路程"
+    },
+    {
+      "word": "commute",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "podcasts 是隨選的網路音訊節目，不只泛指一般廣播節目。",
+      "fix": "他在通勤途中收聽網路音訊節目。"
+    },
+    {
+      "word": "commuter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "上班族不一定通勤，通勤者也可能是學生，不宜直接視為同義。",
+      "fix": "通勤者"
+    },
+    {
+      "word": "commuter",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上等待誤點列車的具體情境。",
+      "fix": "Commuters complained about the delay after waiting on the platform for an hour."
+    },
+    {
+      "word": "commuter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "通勤者在月台等了一小時後，對誤點提出抱怨。"
+    },
+    {
+      "word": "compact",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指體積小且有效利用空間，未呈現物質密實義。",
+      "fix": "小巧緊湊的"
+    },
+    {
+      "word": "comparable",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都表示程度或條件相當，不只是具備可拿來比較的條件。",
+      "fix": "程度或條件相近的"
+    },
+    {
+      "word": "compassion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同情、憐憫及慈悲心在本組關懷他人困境的例句中重疊，合併即可。",
+      "fix": "同情心"
+    },
+    {
+      "word": "compassionate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同情心與慈悲在本組關懷他人的例句中重疊，合併即可。",
+      "fix": "有同情心的"
+    },
+    {
+      "word": "compassionate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "compassionate 著重關懷他人困境的同情心，不只是設身處地理解的同理心。",
+      "fix": "我們需要用更有同情心的方式處理這個問題。"
+    },
+    {
+      "word": "compatible",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "前後兩句為設備相容，第二句為人際合得來，未另行呈現一般事物可並存的用法。",
+      "fix": "相容的；合得來的"
+    },
+    {
+      "word": "compel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "強迫、迫使與使不得不為近義表述，不應分列。",
+      "fix": "迫使"
+    },
+    {
+      "word": "compensate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "賠償與補償在損失補償義中重疊，另保留彌補不足的用法。",
+      "fix": "補償；彌補"
+    },
+    {
+      "word": "compensation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "賠償金是損失補償的一種形式，與補償合併後保留工作報酬義。",
+      "fix": "補償；報酬"
+    },
+    {
+      "word": "competence",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "能力、勝任與稱職指同一概念，合併並以名詞性表述保留足以達到要求的意思。",
+      "fix": "勝任能力"
+    },
+    {
+      "word": "competence",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上能力疑慮消除的具體工作情境。",
+      "fix": "Doubts about her competence disappeared after she successfully managed the difficult project."
+    },
+    {
+      "word": "competence",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "她成功管理那項棘手的專案後，對她能力的疑慮便消除了。"
+    },
+    {
+      "word": "competent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有能力、稱職與足以勝任為近義表述，合併即可。",
+      "fix": "足以勝任的"
+    },
+    {
+      "word": "complexity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "複雜性與複雜程度在本組例句中重疊，合併即可。",
+      "fix": "複雜程度"
+    },
+    {
+      "word": "complexity",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "complexity 指結構或內容的複雜程度，不與整體難易度完全相同。",
+      "fix": "老師應該為初學者調整課程的複雜程度。"
+    },
+    {
+      "word": "complication",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "複雜因素與麻煩在旅途和規定的例句中重疊，合併後保留醫療併發症義。",
+      "fix": "併發症；麻煩"
+    },
+    {
+      "word": "comply",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遵守、服從與照辦在這些遵從規定的例句中重疊，合併即可。",
+      "fix": "遵守"
+    },
+    {
+      "word": "component",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "零件與成分都是組成部分的具體稱法，本組可合併為共同概念。",
+      "fix": "組成部分（如零件）"
+    },
+    {
+      "word": "comprehend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "理解、領會與明白在本組掌握意思的例句中重疊，合併即可。",
+      "fix": "理解"
+    },
+    {
+      "word": "comprise",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原兩義均偏向整體含有部分，第三句卻由部分作主詞，表示構成整體。",
+      "fix": "包含；構成"
+    },
+    {
+      "word": "compromise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指達成的具體方案，應區分於妥協這個過程。",
+      "fix": "妥協；折衷方案"
+    },
+    {
+      "word": "compromise",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "妥協與讓步在前兩句中重疊，另保留危及安全的用法。",
+      "fix": "妥協；損害"
+    },
+    {
+      "word": "compulsory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "義務與強制在要求遵循規定的例句中重疊，另保留課程必修的專門表述。",
+      "fix": "強制的；必修的"
+    },
+    {
+      "word": "compulsory",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上須參與的對象及會議情境。",
+      "fix": "Attendance at the training meeting is compulsory for all new employees."
+    },
+    {
+      "word": "compulsory",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "所有新進員工都必須出席這場訓練會議。"
+    },
+    {
+      "word": "concede",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原義項未包含第二句允許對手進球的失球義，讓步與爭論中認輸的表述亦重疊。",
+      "fix": "承認；認輸；失球"
+    },
+    {
+      "word": "concede",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "goals 應明確譯為進球，避免和賽事積分混淆。",
+      "fix": "這支球隊上半場失了兩球。"
+    },
+    {
+      "word": "concede",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，以典型的 concede defeat 搭配明確呈現認輸義。",
+      "fix": "The coach conceded defeat after the final whistle ended the match."
+    },
+    {
+      "word": "concede",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "終場哨聲響起、比賽結束後，教練承認落敗。"
+    },
+    {
+      "word": "conceive",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "構想與想出重疊，第二句則是想像假設生活情境，應另行列出。",
+      "fix": "構想出；想像；懷孕"
+    },
+    {
+      "word": "conception",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "概念與想法重疊，另保留構思過程並補上常見的受孕義。",
+      "fix": "概念；構思；受孕"
+    },
+    {
+      "word": "conception",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原兩句均為觀念想法，以中性的醫療諮詢情境補上常見受孕義。",
+      "fix": "The doctor answered the couple's questions about conception and early pregnancy."
+    },
+    {
+      "word": "conception",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "醫師回答了這對伴侶關於受孕與懷孕初期的問題。"
+    },
+    {
+      "word": "condemn",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "condemn 的司法義不包括所有判決，結構物被禁用也不同於規則不適用。",
+      "fix": "譴責；判刑；宣告不宜使用"
+    },
+    {
+      "word": "condemn",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字且重複譴責義，以中性的法院判刑情境補上已列義項。",
+      "fix": "The court condemned the criminal to ten years in prison."
+    },
+    {
+      "word": "condemn",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "法院判處那名罪犯十年徒刑。"
+    },
+    {
+      "word": "confession",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "承認與自白在本組吐露過錯或秘密的用法中重疊，另標明告解的宗教語域。",
+      "fix": "坦白（承認過錯或秘密）；告解（宗教）"
+    },
+    {
+      "word": "confession",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句沒有呈現已列出的宗教告解義，以中性情境補足。",
+      "fix": "The priest heard his confession and offered words of comfort."
+    },
+    {
+      "word": "confession",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "神父聽了他的告解，並說了幾句安慰的話。"
+    },
+    {
+      "word": "confidential",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "機密與保密在本組不應公開的資訊情境中重疊，合併即可。",
+      "fix": "應保密的"
+    },
+    {
+      "word": "confidential",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上須保密資訊的商務公告情境。",
+      "fix": "Please keep this information strictly confidential until the company makes an official announcement."
+    },
+    {
+      "word": "confidential",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "在公司正式公告之前，請將這項資訊嚴格保密。"
+    },
+    {
+      "word": "conform",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遵守與順從在人的行為義中重疊，另保留事物符合標準的用法。",
+      "fix": "符合；遵從"
+    },
+    {
+      "word": "consecutive",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本字強調順序接連而無中斷，不是內容合乎邏輯的連貫。",
+      "fix": "連續的"
+    },
+    {
+      "word": "consecutive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補出連勝中斷的完整賽事情境。",
+      "fix": "Our team won five consecutive games before losing in the final."
+    },
+    {
+      "word": "consecutive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "我們的球隊連贏五場後，在決賽落敗。"
+    },
+    {
+      "word": "consecutive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上連日降雨造成的具體影響。",
+      "fix": "It rained for three consecutive days, causing several roads to flood."
+    },
+    {
+      "word": "consecutive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "連續下了三天的雨，造成幾條道路淹水。"
+    },
+    {
+      "word": "consensus",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一致的意見與共識重疊，且共識不必然表示每個人都完全一致。",
+      "fix": "共識"
+    },
+    {
+      "word": "consent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同意與許可在本組允許或贊成的例句中重疊，合併即可。",
+      "fix": "同意"
+    },
+    {
+      "word": "consent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同意與答應是近義表述，不須分列。",
+      "fix": "同意"
+    },
+    {
+      "word": "conservation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上保育實際涉及的棲地保護措施。",
+      "fix": "The park focuses on wildlife conservation by protecting habitats and limiting development."
+    },
+    {
+      "word": "conservation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這座公園透過保護棲地並限制開發，著重推動野生動物保育。"
+    },
+    {
+      "word": "constraint",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "限制與約束重疊，第三句指心理拘束感，不是泛指壓力。",
+      "fix": "限制；拘束感"
+    },
+    {
+      "word": "consultation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為醫師看診，未明示多位醫師共同或專科協助的會診語境，應列出看診義。",
+      "fix": "諮詢；商議；看診"
+    },
+    {
+      "word": "consumption",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句為飲用含糖飲料，不宜只以食用表達入口攝取的用法。",
+      "fix": "消耗；消費；攝取（食物或飲料）"
+    }
+  ]
+}
