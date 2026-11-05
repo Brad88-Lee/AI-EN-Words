@@ -1,0 +1,609 @@
+{
+  "batch": "N0092",
+  "checked": 50,
+  "reviewed": [
+    "phase",
+    "pickup",
+    "pier",
+    "pillar",
+    "pipeline",
+    "pitcher",
+    "plea",
+    "plead",
+    "pledge",
+    "plunge",
+    "poetic",
+    "poke",
+    "porch",
+    "portfolio",
+    "practitioner",
+    "precaution",
+    "predator",
+    "preference",
+    "prejudice",
+    "preliminary",
+    "premature",
+    "premier",
+    "premise",
+    "premium",
+    "prescribe",
+    "prescription",
+    "presidency",
+    "presumably",
+    "presume",
+    "prevail",
+    "prey",
+    "prior",
+    "proclaim",
+    "productivity",
+    "profile",
+    "profound",
+    "projection",
+    "prolong",
+    "prone",
+    "propaganda",
+    "prophet",
+    "prosecution",
+    "provision",
+    "provoke",
+    "pulse",
+    "pyramid",
+    "quest",
+    "questionnaire",
+    "quiver",
+    "quota"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "phase",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "階段與時期在專案及青少年成長例句重複，另保留月相義。",
+      "fix": "階段；月相"
+    },
+    {
+      "word": "pickup",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "pickup 是接人而非送人，原接送容易包含不在英文中的送客服務。",
+      "fix": "接人；取貨；小貨車"
+    },
+    {
+      "word": "pier",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現碼頭或橋墩，沒有防波堤義。",
+      "fix": "碼頭；橋墩"
+    },
+    {
+      "word": "pipeline",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "管線與輸送管重複，in the pipeline 指處於籌備流程，不是管線本身代表事項。",
+      "fix": "輸送管線；籌備流程"
+    },
+    {
+      "word": "pitcher",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "水壺與大水罐在桌上盛水的例句重複，合併釋義。",
+      "fix": "投手；水罐"
+    },
+    {
+      "word": "plea",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "懇求與請求同義，保留一般懇求及法律答辯兩義。",
+      "fix": "懇求；答辯"
+    },
+    {
+      "word": "plead",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "懇求與央求重複，plead guilty 是作有罪答辯而非替人辯護。",
+      "fix": "懇求；答辯"
+    },
+    {
+      "word": "pledge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誓言與保證重複，另明列已承諾捐出的款項義。",
+      "fix": "承諾；認捐款項"
+    },
+    {
+      "word": "pledge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發誓與承諾重複，保留一般承諾及承諾捐款兩義。",
+      "fix": "承諾；認捐"
+    },
+    {
+      "word": "plunge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泳池例句是主動跳入，不是意外落入，明確對應實際用法。",
+      "fix": "跳入；驟降；投入"
+    },
+    {
+      "word": "plunge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "驟降與暴跌在價格及銷售例句同義，合併重複釋義。",
+      "fix": "驟降；跳入"
+    },
+    {
+      "word": "pickup",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "from the airport 是從機場接人，原接送容易增加送機方向。",
+      "fix": "這家巴士公司提供免費接機服務。"
+    },
+    {
+      "word": "plea",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為一般懇求，補以法院情境呈現已列出的答辯義。",
+      "fix": "The defendant entered a plea of not guilty in court."
+    },
+    {
+      "word": "plea",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的法律答辯情境調整中文譯文。",
+      "fix": "被告在法庭上提出無罪答辯。"
+    },
+    {
+      "word": "plead",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "plead guilty 的典型搭配是承認罪名，改以明確的詐欺罪法院情境避免與一般承認過失混淆。",
+      "fix": "The manager pleaded guilty to fraud during the court hearing."
+    },
+    {
+      "word": "plead",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的法律答辯情境調整中文譯文。",
+      "fix": "經理在法院審理時承認詐欺罪。"
+    },
+    {
+      "word": "poetic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "詩意與富有詩情同義，三句也未另呈現屬於詩歌體裁的詩的用法。",
+      "fix": "詩意的"
+    },
+    {
+      "word": "poke",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "戳與捅在手指及鉛筆例句重複，另保留探出頭的用法。",
+      "fix": "戳；探出"
+    },
+    {
+      "word": "poke",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "戳與捅皆指用手指或物件戳動的動作，合併重複釋義。",
+      "fix": "戳的動作"
+    },
+    {
+      "word": "porch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "玄關前的走廊是門廊的重複說明，且門廊不必只在前門。",
+      "fix": "門廊"
+    },
+    {
+      "word": "practitioner",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "醫師與法律人員皆為專業執業者，從業人員重複，實踐理念的用法未呈現。",
+      "fix": "執業者"
+    },
+    {
+      "word": "precaution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "防範與預防措施在本組事先防備的例句重複，精簡釋義。",
+      "fix": "預防措施"
+    },
+    {
+      "word": "predator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捕食性動物與掠食者在三個動物例句同義，合併重複釋義。",
+      "fix": "掠食者"
+    },
+    {
+      "word": "preference",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偏好與喜愛在飲料及交通方式例句重複，另保留優先權義。",
+      "fix": "偏好；優先權"
+    },
+    {
+      "word": "prejudice",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偏見與成見同義，合併重複釋義。",
+      "fix": "偏見"
+    },
+    {
+      "word": "preliminary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "初步與預備在結果及會議例句重複，另保留競賽預賽義。",
+      "fix": "初步的；預賽的"
+    },
+    {
+      "word": "preliminary",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "面試與課堂例句指正式開始前的準備程序，不必限定為初步措施。",
+      "fix": "準備程序；預賽"
+    },
+    {
+      "word": "predator",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句泛指鯊魚為頂級掠食者，改為具體的大白鯊並補足例句長度。",
+      "fix": "The great white shark is a top predator in the ocean."
+    },
+    {
+      "word": "predator",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文限定為大白鯊的物種情境。",
+      "fix": "大白鯊是海洋中的頂級掠食者。"
+    },
+    {
+      "word": "premature",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過早與倉促在未備妥資料及過早慶祝例句重複，另保留早產義。",
+      "fix": "過早的；早產的"
+    },
+    {
+      "word": "premier",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首要與最重要同義，另保留機構品質領先的首屈一指義。",
+      "fix": "首要的；首屈一指的"
+    },
+    {
+      "word": "premise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前提與假設重複，並明確界定 premises 包括建物及用地，括註改用全形。",
+      "fix": "前提；房屋及其用地（用複數）"
+    },
+    {
+      "word": "premium",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "票券額外價格與水果高於平常價格皆為溢價，合併重複說明。",
+      "fix": "保險費；溢價"
+    },
+    {
+      "word": "premium",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "高級與優質在咖啡、會員及票券例句重複，精簡釋義。",
+      "fix": "高級的"
+    },
+    {
+      "word": "prescribe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "規定與指定在表格及制服例句重複，另保留醫療開處方義。",
+      "fix": "開處方；規定"
+    },
+    {
+      "word": "prescription",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指可開立或攜至藥局的處方箋，合併處方與藥方的重複說明。",
+      "fix": "處方箋"
+    },
+    {
+      "word": "presidency",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "學生會會長與社團社長用法未列，三句均未呈現校長職位。",
+      "fix": "總統職位；總統任期；會長或社長職位"
+    },
+    {
+      "word": "presumably",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大概、據推測與想必在三句推定情境重複，精簡釋義。",
+      "fix": "大概"
+    },
+    {
+      "word": "presume",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推測與假定在午餐及會議時間例句重複，另保留擅自發言義。",
+      "fix": "推測；擅自"
+    },
+    {
+      "word": "prevail",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "盛行與普遍存在同義，common sense will prevail 指常理占上風，較獲勝精確。",
+      "fix": "盛行；占上風"
+    },
+    {
+      "word": "premature",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "英文只敘述曾留在醫院，沒有必須住院的必要性語氣，移除增譯。",
+      "fix": "這個嬰兒是早產兒，出生後留在醫院。"
+    },
+    {
+      "word": "prey",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "被捕食的動物是獵物的重複說明，合併釋義。",
+      "fix": "獵物"
+    },
+    {
+      "word": "prior",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "先前與事先在此同為早於某事，三句沒有權利順位較優先的用法。",
+      "fix": "先前的"
+    },
+    {
+      "word": "proclaim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "宣布、宣告與聲明在活動啟用的三句中重複，精簡釋義。",
+      "fix": "宣布"
+    },
+    {
+      "word": "productivity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生產力與效率在工作產出的三句中重複，精簡釋義。",
+      "fix": "生產力"
+    },
+    {
+      "word": "profile",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "線上 profile 是個人檔案，臉部描繪為側面像，並保留人物簡介義。",
+      "fix": "個人檔案；簡介；側面像"
+    },
+    {
+      "word": "profile",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "描繪概況與寫簡介在本組人物介紹中重複，且電視節目不限書寫。",
+      "fix": "介紹概況"
+    },
+    {
+      "word": "prolong",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "延長與拖長在時間及壽命例句同義，合併重複釋義。",
+      "fix": "延長"
+    },
+    {
+      "word": "prone",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "易於與有傾向同義，另補上常見的面朝下俯臥義。",
+      "fix": "易於…的；俯臥的"
+    },
+    {
+      "word": "propaganda",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "propaganda 含引導或操弄觀點的偏向性，不等同所有一般宣傳或文宣。",
+      "fix": "帶有偏向的宣傳"
+    },
+    {
+      "word": "profound",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯漏掉 old teacher 的老教師描述，補足原文資訊。",
+      "fix": "那位老教師離開時，我們感到深深的悲傷。"
+    },
+    {
+      "word": "propaganda",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "單譯文宣未表達 propaganda 在媒體識讀情境中的偏向性。",
+      "fix": "學生們學習如何辨認舊報紙中帶有偏向的宣傳。"
+    },
+    {
+      "word": "prone",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為容易發生某事，改以伸展運動呈現常見的俯臥義。",
+      "fix": "She lay prone on the mat during the stretching exercise."
+    },
+    {
+      "word": "prone",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為俯臥在運動墊上的情境。",
+      "fix": "她在伸展運動時俯臥在墊子上。"
+    },
+    {
+      "word": "prosecution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "檢方與控方在法庭例句同義，合併重複釋義。",
+      "fix": "起訴；檢方"
+    },
+    {
+      "word": "provision",
+      "path": "senses[0].zh",
+      "type": "format_bad",
+      "severity": "medium",
+      "detail": "原複數註記使用半形括號，改用全形括號並置於對應的糧食儲備義後。",
+      "fix": "供應；條款；糧食儲備（用複數）"
+    },
+    {
+      "word": "provoke",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "引起與挑起在討論及笑聲例句重複，另保留激怒義。",
+      "fix": "激怒；引起"
+    },
+    {
+      "word": "pulse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "脈搏與脈動在護理檢查及跑步例句重複，另保留音樂節奏義。",
+      "fix": "脈搏；節奏"
+    },
+    {
+      "word": "pulse",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "搏動與跳動在心臟及血液例句重複，並補列燈光閃動的用法。",
+      "fix": "搏動；閃動"
+    },
+    {
+      "word": "quest",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "探索與追尋在找真相及鑰匙例句重複，另保留遊戲任務義。",
+      "fix": "追尋；任務"
+    },
+    {
+      "word": "questionnaire",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "問卷與調查表在三句同義，合併重複釋義。",
+      "fix": "問卷"
+    },
+    {
+      "word": "quiver",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "顫抖與抖動在小狗、聲音及樹葉例句中重複，精簡釋義。",
+      "fix": "顫抖"
+    },
+    {
+      "word": "quota",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "配額與限額重複，第二句 sales quota 則是應達成的業績目標，原釋義未清楚區分。",
+      "fix": "配額；業績目標"
+    },
+    {
+      "word": "pulse",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "明顯的血液脈動主要與動脈及心搏相關，改用 arteries 並交代每次心搏的關係。",
+      "fix": "Blood pulses through the arteries with each beat of the heart."
+    },
+    {
+      "word": "pulse",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "心臟每跳動一次，血液便在動脈中形成一次脈動。"
+    },
+    {
+      "word": "pyramid",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上中場表演的具體情境。",
+      "fix": "The cheerleaders formed a human pyramid during the halftime show."
+    },
+    {
+      "word": "pyramid",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "啦啦隊員在中場表演時疊出了一座人體金字塔。"
+    },
+    {
+      "word": "quota",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "reached its sales quota 表示達成銷售業績目標，不是用完銷售配額。",
+      "fix": "這間工廠達成了每月的銷售目標。"
+    }
+  ]
+}
