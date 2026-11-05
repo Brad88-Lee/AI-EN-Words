@@ -612,3 +612,5 @@
 🥡(takeaway)
 💉(inject)
 🏴‍☠️(pirate)
+🤷(shrug)
+🌋(volcano)
