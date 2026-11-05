@@ -1,0 +1,754 @@
+{
+  "batch": "N0082",
+  "checked": 50,
+  "reviewed": [
+    "shrug",
+    "shuttle",
+    "slavery",
+    "smog",
+    "sneak",
+    "sob",
+    "souvenir",
+    "sow",
+    "sparkle",
+    "spectator",
+    "spicy",
+    "sponsor",
+    "stake",
+    "steer",
+    "stimulate",
+    "stock",
+    "substitute",
+    "superb",
+    "supervisor",
+    "supreme",
+    "suspend",
+    "symptom",
+    "terminal",
+    "terrify",
+    "theft",
+    "therapy",
+    "tin",
+    "torch",
+    "treaty",
+    "undertake",
+    "vague",
+    "venture",
+    "version",
+    "volcano",
+    "widespread",
+    "wilderness",
+    "wildlife",
+    "workshop",
+    "worthwhile",
+    "worthy",
+    "abolish",
+    "abortion",
+    "abrupt",
+    "absurd",
+    "abundant",
+    "accelerate",
+    "accessible",
+    "accounting",
+    "acknowledge",
+    "acquisition"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "shrug",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上聳肩所回應的問題情境。",
+      "fix": "Her only answer to my question about the delay was a shrug."
+    },
+    {
+      "word": "shrug",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "我問起延誤的事，她唯一的回答就是聳肩。"
+    },
+    {
+      "word": "shrug",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bag 未指定背包，不能自行加上背負方式。",
+      "fix": "他聳了聳肩，拿起包包就離開了。"
+    },
+    {
+      "word": "shuttle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "接駁車與往返班車重疊，合併後保留織布梭子義。",
+      "fix": "接駁車；梭子"
+    },
+    {
+      "word": "slavery",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為歷史上的奴隸制度，未另行呈現個人受奴役狀態。",
+      "fix": "奴隸制度"
+    },
+    {
+      "word": "smog",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個近義稱法應合併，並標出污染特性，避免與普通霧氣或火煙混淆。",
+      "fix": "煙霧（空氣污染形成）"
+    },
+    {
+      "word": "sneak",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偷偷地走與溜重疊，合併後保留攜帶物品的不同用法。",
+      "fix": "偷偷走動；偷偷攜帶"
+    },
+    {
+      "word": "sob",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "room 只指房間，沒有指定為教室。",
+      "fix": "他在房間後方靜靜地啜泣。"
+    },
+    {
+      "word": "sob",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上朋友安慰的日常情境並保留哭訴的引述句型。",
+      "fix": "\"I failed the exam,\" she sobbed as her friend tried to comfort her."
+    },
+    {
+      "word": "sob",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "「我考試不及格。」她啜泣著說，朋友則試著安慰她。"
+    },
+    {
+      "word": "sob",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "啜泣聲與嗚咽在這些哭聲例句中重疊，合併即可。",
+      "fix": "啜泣聲"
+    },
+    {
+      "word": "souvenir",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "伴手禮不一定具有紀念某地或某次經歷的功能，不宜泛指所有伴手禮。",
+      "fix": "紀念品"
+    },
+    {
+      "word": "sow",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "播種與種下重疊，另補上常用的引起疑慮等比喻義。",
+      "fix": "播種；引起（多指負面感受）"
+    },
+    {
+      "word": "sow",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為實際播種，補上常見的 sow doubt 比喻搭配。",
+      "fix": "False rumors can sow doubt among people who trust each other."
+    },
+    {
+      "word": "sow",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "不實的傳言可能在原本互相信任的人之間種下懷疑。"
+    },
+    {
+      "word": "sparkle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "閃爍與閃耀重疊，合併為亮點閃動的表述即可。",
+      "fix": "閃閃發光"
+    },
+    {
+      "word": "sparkle",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句眼中生動的光采呈現神采義，應與物體的閃光區分。",
+      "fix": "閃光；神采"
+    },
+    {
+      "word": "spectator",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上觀眾到場觀看的賽事。",
+      "fix": "Thousands of spectators filled the stadium to watch the championship game."
+    },
+    {
+      "word": "spectator",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "數千名觀眾擠滿體育場，觀看冠軍賽。"
+    },
+    {
+      "word": "spectator",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "旁觀者與目擊者身分不互斥，原句欠缺到場背景，改用完整的旁觀救援場景。",
+      "fix": "The spectators watched the rescue from a safe distance after the accident."
+    },
+    {
+      "word": "spectator",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "事故發生後，旁觀者從安全距離外觀看救援過程。"
+    },
+    {
+      "word": "spicy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都呈現辣味，香辣與辣重疊且額外加入未明示的香氣。",
+      "fix": "辣的"
+    },
+    {
+      "word": "spicy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "mild 與 spicy 並非必然指微辣與重辣，原譯擅自限定辣度。",
+      "fix": "你要口味溫和的雞肉，還是辣味的？"
+    },
+    {
+      "word": "sponsor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "贊助商是贊助者的一類，不應另列為不同詞義。",
+      "fix": "贊助者"
+    },
+    {
+      "word": "sponsor",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "贊助與資助在本組例句中重疊，合併即可。",
+      "fix": "贊助"
+    },
+    {
+      "word": "stake",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句未呈現實際下注的賭注義，且樁不一定以木頭製作。",
+      "fix": "利害關係；股份；樁"
+    },
+    {
+      "word": "stake",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "brother 未指定年齡，不能自行限定為哥哥。",
+      "fix": "她持有自己兄弟那間餐廳的一小部分股份。"
+    },
+    {
+      "word": "steer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "駕駛範圍過廣，本字著重控制行進方向，掌舵可合併於此義。",
+      "fix": "控制方向；引導"
+    },
+    {
+      "word": "stimulate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指激發興趣，並非激勵某個人，應明列激發義。",
+      "fix": "刺激；促進；激發"
+    },
+    {
+      "word": "stimulate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上音樂學習涉及的認知活動。",
+      "fix": "Music lessons can stimulate the brain by engaging memory and attention."
+    },
+    {
+      "word": "stimulate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "音樂課能透過運用記憶力與注意力來刺激大腦。"
+    },
+    {
+      "word": "stock",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "庫存與存貨重疊，合併後補上常見的烹調高湯義。",
+      "fix": "庫存；股票；高湯"
+    },
+    {
+      "word": "stock",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句有兩句為庫存義，以常見的高湯用法補足。",
+      "fix": "The cook added vegetable stock to the soup for extra flavor."
+    },
+    {
+      "word": "stock",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "廚師在湯裡加入蔬菜高湯，以增添風味。"
+    },
+    {
+      "word": "stock",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "首義庫存屬商業用途，並應涵蓋新增高湯例句的飲食分類。",
+      "fix": [
+        "工作與商業",
+        "金融與會計",
+        "飲食"
+      ]
+    },
+    {
+      "word": "stock",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首句表示商店備有商品，不必然指新近進貨，另保留儲備場所的用法。",
+      "fix": "備有（供應或販售）；儲備"
+    },
+    {
+      "word": "stock",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "stocks 在商店語境表示備有可供販售，不是特指採購進貨動作。",
+      "fix": "這間超市備有來自在地農場的新鮮水果可供販售。"
+    },
+    {
+      "word": "substitute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "實際被派上場的球員為替補球員，不只是在等待候補。",
+      "fix": "代替者；代用品；替補球員"
+    },
+    {
+      "word": "substitute",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "regular teacher 指平常授課的老師，不一定涉及正式編制身分。",
+      "fix": "平常教我們的老師生病了，所以今天由代課老師上課。"
+    },
+    {
+      "word": "substitute",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "球隊中決定換人的 manager 指總教練，並非一般公司經理。",
+      "fix": "總教練把一名疲累的球員換成體力充沛的球員。"
+    },
+    {
+      "word": "superb",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極佳與出色在本組例句中為近義表述，合併即可。",
+      "fix": "極佳的"
+    },
+    {
+      "word": "supervisor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "主管與督導重疊，另將常見的研究或論文指導者義明確化。",
+      "fix": "主管；指導老師（指研究或論文）"
+    },
+    {
+      "word": "supervisor",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為職場主管，改用常見的論文指導老師義。",
+      "fix": "My thesis supervisor suggested several books to help me develop my research topic."
+    },
+    {
+      "word": "supervisor",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "我的論文指導老師推薦了幾本書，幫助我發展研究主題。"
+    },
+    {
+      "word": "supervisor",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "除職場主管外，亦有論文指導老師的常見用法，應涵蓋學習分類。",
+      "fix": [
+        "工作與商業",
+        "學校與學習"
+      ]
+    },
+    {
+      "word": "supreme",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最高與至高無上在等級義中重疊，另保留程度極高的用法。",
+      "fix": "最高的；極度的"
+    },
+    {
+      "word": "suspend",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "review 表示審查，不必然是調查事件，應保留原文較廣的意思。",
+      "fix": "在審查結束前，公司讓這名員工停職。"
+    },
+    {
+      "word": "symptom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明確區分醫療症狀與比喻其他問題表現的徵兆義。",
+      "fix": "症狀；徵兆（比喻問題的表現）"
+    },
+    {
+      "word": "symptom",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為醫療症狀，補上已列出的問題徵兆比喻義。",
+      "fix": "A high turnover of staff can be a symptom of poor management."
+    },
+    {
+      "word": "symptom",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "員工離職率高，可能是管理不善的徵兆。"
+    },
+    {
+      "word": "terminal",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上確認出發航廈的完整旅行情境。",
+      "fix": "Please check which terminal your flight departs from before heading to the airport."
+    },
+    {
+      "word": "terminal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "前往機場之前，請確認你的班機從哪一座航廈出發。"
+    },
+    {
+      "word": "terminal",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "末期疾病是本字常見的形容詞義，應同時涵蓋健康分類。",
+      "fix": [
+        "交通與旅行",
+        "健康與身體",
+        "科技與網路"
+      ]
+    },
+    {
+      "word": "terrify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個原義項重疊且語氣偏弱，本字強調極度恐懼。",
+      "fix": "使極度害怕"
+    },
+    {
+      "word": "terrify",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上被雷聲嚇到後的具體反應。",
+      "fix": "Sudden thunder terrifies my little brother, who hides under his blanket."
+    },
+    {
+      "word": "terrify",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "突如其來的雷聲讓我弟弟嚇壞，躲進毯子底下。"
+    },
+    {
+      "word": "theft",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偷竊與竊盜是同義表述，不須分列。",
+      "fix": "偷竊"
+    },
+    {
+      "word": "therapy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上音樂治療的具體醫療情境。",
+      "fix": "Music therapy can help people relax during a stressful hospital stay."
+    },
+    {
+      "word": "therapy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "音樂療法能幫助人們在充滿壓力的住院期間放鬆。"
+    },
+    {
+      "word": "tin",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "罐頭與罐的容器用法可合併，且 tin 作容器時不限定為鐵製。",
+      "fix": "錫；金屬罐"
+    },
+    {
+      "word": "tin",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義指錫元素，罐頭容器可能是其他金屬製成，不能直接代表首義。",
+      "fix": "tin metal"
+    },
+    {
+      "word": "treaty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "條約與協定在本組國際約定例句中重疊，合併即可。",
+      "fix": "條約"
+    },
+    {
+      "word": "undertake",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school fair 指學校園遊會，沒有指定為校慶活動。",
+      "fix": "她承擔了籌辦學校園遊會的任務。"
+    },
+    {
+      "word": "vague",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "模糊、含糊與不明確在這些資訊不清楚的例句中重疊，應合併。",
+      "fix": "模糊不清的"
+    },
+    {
+      "word": "venture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "冒險事業與投資事業在這些創業例句中重疊，合併並保留風險概念。",
+      "fix": "有風險的事業"
+    },
+    {
+      "word": "widespread",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "廣泛與普遍在本組分布範圍例句中重疊，合併即可。",
+      "fix": "廣泛的"
+    },
+    {
+      "word": "widespread",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字廣泛描述地理範圍、支持程度或疾病分布，不以社會法律為限。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "wilderness",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "未開發地區過於廣泛，荒野指保有自然狀態的野外地區，不是所有尚未開發的土地。",
+      "fix": "荒野"
+    },
+    {
+      "word": "workshop",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "工作坊與研習會重疊，另將木工製作場所義釐清為工坊而非所有工作室。",
+      "fix": "工作坊（實作研習活動）；工坊"
+    },
+    {
+      "word": "workshop",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原工具工作間查詢主要對應製作場所義，首義為實作研習活動。",
+      "fix": "cooking workshop class"
+    },
+    {
+      "word": "worthwhile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字指回報值得付出的成本，兩個原義項重疊且未明確表達此意。",
+      "fix": "值得投入時間或心力的"
+    },
+    {
+      "word": "worthwhile",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "second language 是第二語言，不是已在第一外語之外再學的第二外語。",
+      "fix": "學習第二語言值得付出努力。"
+    },
+    {
+      "word": "worthy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "值得與配得上重疊，另以值得支持明確涵蓋善舉的用法，避免籠統的有價值。",
+      "fix": "配得上的；值得支持的"
+    },
+    {
+      "word": "abolish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "廢除與廢止是同義表述，不須分列。",
+      "fix": "廢除"
+    },
+    {
+      "word": "abortion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "墮胎與人工流產在這些醫療及法律例句中指同一概念，應合併。",
+      "fix": "人工流產"
+    },
+    {
+      "word": "absurd",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "荒謬與可笑在這些不合理事物的例句中重疊，合併即可。",
+      "fix": "荒謬的"
+    },
+    {
+      "word": "abundant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "豐富與充裕在這些數量充足的例句中重疊，合併即可。",
+      "fix": "充裕的"
+    },
+    {
+      "word": "accelerate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字著重速度增加，促進過於廣泛，並應明確涵蓋及物與不及物用法。",
+      "fix": "（使）加速"
+    },
+    {
+      "word": "accessible",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句表示課程容易理解，原義項未列易懂義，且三句未呈現易取得某物的用法。",
+      "fix": "可到達的；無障礙的；易懂的"
+    },
+    {
+      "word": "accounting",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "會計與會計學是同一專業的實務及學科稱法，本組可合併為會計。",
+      "fix": "會計"
+    },
+    {
+      "word": "acquisition",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指新取得的收藏品，不是取得的動作，應補上實體物品義。",
+      "fix": "收購；習得；新取得的物品"
+    },
+    {
+      "word": "acquisition",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句對幼童習得速度的比較未交代條件，改用具體的語言習得研究情境。",
+      "fix": "The researchers studied how social interaction supports language acquisition in young children."
+    },
+    {
+      "word": "acquisition",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "研究人員探討社交互動如何幫助幼童習得語言。"
+    },
+    {
+      "word": "acquisition",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "語言習得是常見義項及例句主題，應同時涵蓋學習分類。",
+      "fix": [
+        "工作與商業",
+        "金融與會計",
+        "學校與學習"
+      ]
+    }
+  ]
+}
