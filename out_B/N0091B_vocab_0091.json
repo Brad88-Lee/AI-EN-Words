@@ -1,0 +1,673 @@
+{
+  "batch": "N0091",
+  "checked": 50,
+  "reviewed": [
+    "mustard",
+    "myth",
+    "naive",
+    "narrative",
+    "neutral",
+    "nominate",
+    "nomination",
+    "nominee",
+    "norm",
+    "noticeable",
+    "notify",
+    "notion",
+    "obligation",
+    "obscure",
+    "observer",
+    "odds",
+    "offering",
+    "olive",
+    "operational",
+    "opt",
+    "optimism",
+    "optional",
+    "orchard",
+    "organism",
+    "originality",
+    "outfit",
+    "outlet",
+    "outsider",
+    "oversee",
+    "overturn",
+    "overwhelm",
+    "particle",
+    "partly",
+    "passionate",
+    "pastry",
+    "patch",
+    "patent",
+    "pathetic",
+    "patrol",
+    "patron",
+    "pedestrian",
+    "penetrate",
+    "pension",
+    "perceive",
+    "perception",
+    "personnel",
+    "perspective",
+    "pessimism",
+    "petition",
+    "petty"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "mustard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "黃芥末是芥末醬的具體類型，合併重複說明並保留種籽義。",
+      "fix": "芥末醬；芥菜籽"
+    },
+    {
+      "word": "myth",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "迷思與虛構說法在事實辨別例句中重複，保留神話故事與錯誤觀念兩義。",
+      "fix": "神話；迷思"
+    },
+    {
+      "word": "naive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單純與天真在此重複，保留容易輕信及缺乏經驗的用法。",
+      "fix": "天真的；缺乏經驗的"
+    },
+    {
+      "word": "narrative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敘述與敘事在此重複，保留敘事表達與故事內容兩種用法。",
+      "fix": "敘事；故事"
+    },
+    {
+      "word": "neutral",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不偏袒與中立同義，保留立場及色彩兩義。",
+      "fix": "中立的；中性的"
+    },
+    {
+      "word": "nominate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為正式提名，推薦是此情境的重複說明。",
+      "fix": "提名"
+    },
+    {
+      "word": "nomination",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "被提名只是提名的被動表達，無須重複列為另一名詞義。",
+      "fix": "提名"
+    },
+    {
+      "word": "nominee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "候選人在三句均指被提名者，合併重複釋義。",
+      "fix": "被提名者"
+    },
+    {
+      "word": "norm",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "標準與社會規範的說明重複，保留規範與通常情況兩義。",
+      "fix": "規範；常態"
+    },
+    {
+      "word": "noticeable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明顯與顯著同義，值得注意則容易誤解為重要而非能察覺。",
+      "fix": "明顯的"
+    },
+    {
+      "word": "myth",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "視力變完美搭配不自然，改為擁有完美視力。",
+      "fix": "胡蘿蔔能讓人擁有完美視力是一種迷思。"
+    },
+    {
+      "word": "notify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "通知與告知在三句中同義，合併重複釋義。",
+      "fix": "通知"
+    },
+    {
+      "word": "notion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "觀念與概念重複，保留具體想法及抽象概念兩義。",
+      "fix": "想法；概念"
+    },
+    {
+      "word": "obligation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "義務與責任在此重複，感到有義務也不表示 obligation 本身另有責任感義。",
+      "fix": "義務"
+    },
+    {
+      "word": "obscure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "歌手及小路例句皆指鮮為人知，並非外表不起眼，另保留詩意難理解義。",
+      "fix": "不為人知的；難以理解的"
+    },
+    {
+      "word": "observer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "觀察員與旁觀者在這三句均為觀察他人的角色，合併重複說明。",
+      "fix": "觀察者"
+    },
+    {
+      "word": "odds",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "機率與可能性重複，beat the odds 的不利情勢義原本未清楚列出。",
+      "fix": "機率；不利情勢"
+    },
+    {
+      "word": "offering",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指具體供品、甜點或派對物品，未呈現奉獻行為本身。",
+      "fix": "供品；提供的物品"
+    },
+    {
+      "word": "olive",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句呈現果實、橄欖油與樹木，沒有橄欖綠色彩義。",
+      "fix": "橄欖；橄欖樹"
+    },
+    {
+      "word": "operational",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "運作中的與可使用的在橋樑及印表機例句重複，另保留營運成本用法。",
+      "fix": "可正常運作的；營運的"
+    },
+    {
+      "word": "opt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "選擇與決定採用同義，合併重複釋義。",
+      "fix": "選擇"
+    },
+    {
+      "word": "obscure",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "obscure road 指不為人知的道路，不只是外表不起眼。",
+      "fix": "一條鮮為人知的道路通往那個小村莊。"
+    },
+    {
+      "word": "obscure",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上因濃霧遮路而放慢車速的情境。",
+      "fix": "Thick fog obscured the road ahead, so we drove slowly."
+    },
+    {
+      "word": "obscure",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上放慢車速的情境。",
+      "fix": "濃霧遮住了前方的道路，因此我們放慢車速。"
+    },
+    {
+      "word": "odds",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "beat the odds 指克服不利情勢，原譯克服不利的勝算搭配不自然。",
+      "fix": "我們的隊伍克服不利情勢，贏得了冠軍。"
+    },
+    {
+      "word": "optimism",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為樂觀心態，未另呈現哲學或思想體系的樂觀主義。",
+      "fix": "樂觀"
+    },
+    {
+      "word": "optional",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可選擇與選用義重複，三句也沒有選修課程的非必修義。",
+      "fix": "可自行選擇的"
+    },
+    {
+      "word": "organism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生物與有機體在三個生命科學例句中同義，合併重複釋義。",
+      "fix": "生物"
+    },
+    {
+      "word": "originality",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "創意、獨創性與原創性在作品新穎性的例句中重複，精簡釋義。",
+      "fix": "獨創性"
+    },
+    {
+      "word": "outfit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "服裝與一套衣服重複，並明確保留成套穿搭的意思。",
+      "fix": "一套服裝"
+    },
+    {
+      "word": "outlet",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均未使用水流等出口義，保留實際呈現的三義。",
+      "fix": "插座；暢貨中心；發洩管道"
+    },
+    {
+      "word": "outsider",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "外人與局外人在本組不屬於某群體的情境同義，合併重複釋義。",
+      "fix": "外人"
+    },
+    {
+      "word": "oversee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監督、管理與監管在專案及人員照管例句中重複，精簡釋義。",
+      "fix": "監督"
+    },
+    {
+      "word": "overturn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "撤銷與推翻在法律及規則情境重複，另保留物體翻覆義。",
+      "fix": "推翻；翻覆"
+    },
+    {
+      "word": "optional",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上仍歡迎所有人參與的活動情境。",
+      "fix": "Attendance at the picnic is optional, but everyone is welcome."
+    },
+    {
+      "word": "optional",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上歡迎所有人參與的活動資訊。",
+      "fix": "野餐活動可自由決定是否參加，但歡迎所有人參與。"
+    },
+    {
+      "word": "particle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "微粒與顆粒在灰塵及空氣過濾例句重複，另保留物理粒子義。",
+      "fix": "微粒；粒子"
+    },
+    {
+      "word": "partly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "部分、有幾分與在某種程度上在本組比例及原因情境重複，精簡釋義。",
+      "fix": "部分地"
+    },
+    {
+      "word": "passionate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熱情、熱衷與充滿熱忱在本組興趣及演說例句中重複，精簡釋義。",
+      "fix": "熱情的"
+    },
+    {
+      "word": "pastry",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "糕點與酥皮點心重複，另補上製作水果塔所用的油酥麵糰義。",
+      "fix": "糕點；油酥麵糰"
+    },
+    {
+      "word": "patch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句是遮住眼睛的眼罩，未必是有黏性的貼片，明列實際用義。",
+      "fix": "補丁；小塊地；眼罩"
+    },
+    {
+      "word": "patch",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "修補與補綴同義，合併重複釋義。",
+      "fix": "修補"
+    },
+    {
+      "word": "patent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指發明設計的法律權利，專利與專利權是重複說明。",
+      "fix": "專利權"
+    },
+    {
+      "word": "pathetic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可憐與令人同情同義，保留引起憐憫及品質差兩義。",
+      "fix": "可憐的；差勁的"
+    },
+    {
+      "word": "patrol",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "巡邏與巡視在三句中同義，合併重複釋義。",
+      "fix": "巡邏"
+    },
+    {
+      "word": "patron",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "顧客與常客重複，第三句是圖書館使用者，不必然是消費顧客或常來的人。",
+      "fix": "顧客；贊助者；設施使用者"
+    },
+    {
+      "word": "partly",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "partly difficult 的程度搭配不自然，改用 partly because 明確表達部分原因。",
+      "fix": "The test was difficult partly because the reading section was long."
+    },
+    {
+      "word": "partly",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這次考試很難，部分原因是閱讀測驗篇幅很長。"
+    },
+    {
+      "word": "pastry",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均偏向糕點成品，改用製作水果塔呈現常見的麵糰義。",
+      "fix": "She rolled out the pastry to make a fruit tart."
+    },
+    {
+      "word": "pastry",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "她把油酥麵糰擀開，準備做水果塔。"
+    },
+    {
+      "word": "patent",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "有效專利仍可授權他人使用，改為具體收費授權情境，避免不能仿製任何產品的過度概括。",
+      "fix": "The company licenses its patent to other manufacturers for a fee."
+    },
+    {
+      "word": "patent",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "公司向其他製造商收費，授權他們使用這項專利。"
+    },
+    {
+      "word": "patrol",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上維持校園安靜的巡視目的。",
+      "fix": "Teachers patrol the halls during exams to keep the school quiet."
+    },
+    {
+      "word": "patrol",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "考試期間老師會在走廊上巡視，維持校園安靜。"
+    },
+    {
+      "word": "pastry",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "咖啡應用喝而非吃，分開表達飲料與糕點。",
+      "fix": "我早餐喝了一杯咖啡，吃了一個起司糕點。"
+    },
+    {
+      "word": "patch",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "put a patch over her eye 未指明黏貼，移除額外限定的貼上動作。",
+      "fix": "醫生在她的眼睛上覆上眼罩。"
+    },
+    {
+      "word": "patrol",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "police patrol 指巡邏隊，英文沒有指定以巡邏車經過。",
+      "fix": "一支警察巡邏隊每天晚上都會經過我們這條街。"
+    },
+    {
+      "word": "pedestrian",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "行人的與步行的在橋樑、步道及流量例句中重複，精簡釋義。",
+      "fix": "行人的"
+    },
+    {
+      "word": "penetrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺入與穿透在釘子例句重複，保留固體光線穿透及雨水滲透兩義。",
+      "fix": "穿透；滲透"
+    },
+    {
+      "word": "pension",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為退休後給付，養老金與年金在此為重複說明。",
+      "fix": "退休金"
+    },
+    {
+      "word": "perceive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "察覺與感知在聲音及情緒變化例句重複，保留察覺與看待人物兩義。",
+      "fix": "察覺；認為"
+    },
+    {
+      "word": "perception",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指發現錯誤的觀察能力，原釋義未明列此義，認知過於籠統。",
+      "fix": "看法；感知；觀察力"
+    },
+    {
+      "word": "personnel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "人員與員工在醫院及招聘例句重複，另保留人事部門義。",
+      "fix": "人員；人事部門"
+    },
+    {
+      "word": "perspective",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "觀點、角度及看法同義，第三句繪畫的透視法義原本未列。",
+      "fix": "觀點；透視法"
+    },
+    {
+      "word": "pessimism",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指悲觀心態，未另呈現哲學或思想體系的悲觀主義。",
+      "fix": "悲觀"
+    },
+    {
+      "word": "petition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "請願書與連署書在本組要求公共事務改變的例句中重複，精簡釋義。",
+      "fix": "請願書"
+    },
+    {
+      "word": "petition",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為向機關正式請願，未另呈現一般懇求義。",
+      "fix": "請願"
+    },
+    {
+      "word": "petty",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "瑣碎與無關緊要同義，另補上常見 petty cash 的小額金錢義。",
+      "fix": "瑣碎的；小氣的；小額的"
+    },
+    {
+      "word": "penetrate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上薄木牆與敲擊的具體穿透情境。",
+      "fix": "The nail penetrated the thin wooden wall with a single blow."
+    },
+    {
+      "word": "penetrate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "釘子在一記敲擊下穿透了薄薄的木牆。"
+    },
+    {
+      "word": "penetrate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上樹葉間有空隙時陽光可穿透的具體情境。",
+      "fix": "Sunlight can penetrate the forest where gaps appear in the leaves."
+    },
+    {
+      "word": "penetrate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "樹葉間出現空隙的地方，陽光就能穿透森林。"
+    },
+    {
+      "word": "pessimism",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "對天氣預報本身悲觀的搭配含糊，改為對戶外音樂會能否舉辦的預期。",
+      "fix": "There is growing pessimism about the chances of holding the outdoor concert."
+    },
+    {
+      "word": "pessimism",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "大家對能否舉辦戶外音樂會越來越悲觀。"
+    },
+    {
+      "word": "petty",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原本首末句均是為瑣事爭吵，改用常見 petty cash 呈現小額義及辦公室情境。",
+      "fix": "The office keeps petty cash for small daily expenses."
+    },
+    {
+      "word": "petty",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "辦公室備有零用金，以支付日常小額開銷。"
+    }
+  ]
+}
