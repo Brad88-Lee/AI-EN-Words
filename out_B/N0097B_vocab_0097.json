@@ -1,0 +1,513 @@
+{
+  "batch": "N0097",
+  "checked": 50,
+  "reviewed": [
+    "upgrade",
+    "utility",
+    "utilize",
+    "vacuum",
+    "variable",
+    "variation",
+    "vein",
+    "venue",
+    "verbal",
+    "verdict",
+    "versus",
+    "veteran",
+    "via",
+    "viable",
+    "vicious",
+    "viewer",
+    "viewpoint",
+    "virtual",
+    "visa",
+    "vocal",
+    "vomit",
+    "voucher",
+    "vow",
+    "vulnerable",
+    "warehouse",
+    "warrior",
+    "wary",
+    "weird",
+    "whatsoever",
+    "wheelchair",
+    "whereabouts",
+    "whereas",
+    "whine",
+    "wig",
+    "windshield",
+    "wither",
+    "witty",
+    "worship",
+    "yacht",
+    "yield",
+    "backyard",
+    "citizenship",
+    "cognitive",
+    "compliance",
+    "discourse",
+    "envision",
+    "flexibility",
+    "flip",
+    "freight",
+    "icon"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "upgrade",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提升與換成更好的是升級的重複說明，三句可統一用升級表達。",
+      "fix": "升級"
+    },
+    {
+      "word": "upgrade",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "升級版與改良在軟體、艙位及新機型例句均為升級的延伸說明，精簡釋義。",
+      "fix": "升級"
+    },
+    {
+      "word": "utility",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "實用與效用在工具例句重複，另保留供水電等公用事業義。",
+      "fix": "公用事業；效用"
+    },
+    {
+      "word": "utilize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "利用與運用同義，合併重複釋義。",
+      "fix": "利用"
+    },
+    {
+      "word": "vacuum",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "團隊人員離開後的 vacuum 指空缺，原空白過於籠統。",
+      "fix": "真空；吸塵器；空缺"
+    },
+    {
+      "word": "variable",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "變數與變項在實驗、數學及成本因素例句重複，精簡釋義。",
+      "fix": "變數"
+    },
+    {
+      "word": "variation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "價格與顏色例句同指差異，歌曲例句使用的變奏曲義原本未列。",
+      "fix": "差異；變奏曲"
+    },
+    {
+      "word": "vein",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "血管是靜脈的上位分類，且也包括動脈，不宜另列為 vein 的對等義。",
+      "fix": "靜脈；葉脈；礦脈"
+    },
+    {
+      "word": "venue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "場地與舉辦地點同義，合併重複釋義。",
+      "fix": "場地"
+    },
+    {
+      "word": "verbal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "測驗中的 verbal skills 包含語文能力，不只口語或文字其中一項，明確區分兩義。",
+      "fix": "口頭的；語文的"
+    },
+    {
+      "word": "verdict",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裁決與判決在法庭例句重複，另保留影評人看法義。",
+      "fix": "裁決；看法"
+    },
+    {
+      "word": "vacuum",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上聲音需要介質的物理原因。",
+      "fix": "Sound cannot travel through a vacuum because it needs a medium."
+    },
+    {
+      "word": "vacuum",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上聲音需要介質的原因。",
+      "fix": "聲音需要介質，因此無法在真空中傳播。"
+    },
+    {
+      "word": "versus",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「對」與「與……相對」在本組例句中重複表達對比關係。",
+      "fix": "對"
+    },
+    {
+      "word": "versus",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入運動項目與場地以形成完整的考試情境。",
+      "fix": "Tonight's volleyball game is Taiwan versus Japan at the city stadium."
+    },
+    {
+      "word": "versus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修改，中文須完整對應新增的語意。",
+      "fix": "今晚的排球賽是台灣對日本，在市立體育場舉行。"
+    },
+    {
+      "word": "veteran",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「老手」與「資深人士」重複，可合併並保留退伍軍人的不同義項。",
+      "fix": "老手；退伍軍人"
+    },
+    {
+      "word": "veteran",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「經驗豐富的」與「資深的」在三句中同義重複。",
+      "fix": "資深的"
+    },
+    {
+      "word": "veteran",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入採訪對象以提供具體情境。",
+      "fix": "A veteran reporter led the interview with the mayor."
+    },
+    {
+      "word": "veteran",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修改，中文須完整對應新增的語意。",
+      "fix": "一位資深記者主導了這場市長專訪。"
+    },
+    {
+      "word": "via",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「透過」與「藉由」在這組例句中同義重複。",
+      "fix": "經由；透過"
+    },
+    {
+      "word": "vicious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴風雨例句中的 vicious 指猛烈，不是形容動物兇猛的意思。",
+      "fix": "惡毒的；猛烈的；惡性的"
+    },
+    {
+      "word": "viewer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「觀眾」與「觀看者」同義重複，可合併並保留軟體義。",
+      "fix": "觀眾；檢視器"
+    },
+    {
+      "word": "viewpoint",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用「觀景點」義，原釋義未列出且觀點與看法重複。",
+      "fix": "觀點；觀景點"
+    },
+    {
+      "word": "visa",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🛂 表示護照查驗，容易被理解為通關程序，無法直接表示第一義「簽證」。",
+      "fix": null
+    },
+    {
+      "word": "vomit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「嘔吐」與「吐出」在三句中皆指同一嘔吐動作，應合併。",
+      "fix": "嘔吐"
+    },
+    {
+      "word": "vow",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「誓言」與「誓約」在這組例句中同義重複。",
+      "fix": "誓言"
+    },
+    {
+      "word": "vow",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「發誓」與「立誓」同義重複。",
+      "fix": "發誓"
+    },
+    {
+      "word": "warehouse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「倉庫」與「貨棧」在三個例句中同義重複。",
+      "fix": "倉庫"
+    },
+    {
+      "word": "wary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義皆表達小心提防，應合併以避免同義重複。",
+      "fix": "謹慎的"
+    },
+    {
+      "word": "weird",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「奇怪的」與「怪異的」同義重複。",
+      "fix": "奇怪的"
+    },
+    {
+      "word": "whatsoever",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義含括號用法說明且近義重複，應只保留簡明的中文義。",
+      "fix": "絲毫"
+    },
+    {
+      "word": "vow",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上畢業後的情境以符合例句長度要求。",
+      "fix": "We vowed to stay friends forever after graduating from high school."
+    },
+    {
+      "word": "vow",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入高中畢業後的時間情境。",
+      "fix": "我們發誓高中畢業後要永遠當朋友。"
+    },
+    {
+      "word": "whereabouts",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「下落」與「所在位置」同義重複，保留物品下落與人的行蹤。",
+      "fix": "下落；行蹤"
+    },
+    {
+      "word": "whereas",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個中文釋義皆指對比關係，應合併以免重複。",
+      "fix": "然而"
+    },
+    {
+      "word": "whine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「發牢騷」與「抱怨」同義重複。",
+      "fix": "哀鳴；抱怨"
+    },
+    {
+      "word": "wither",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "花與葉的例句皆指枯萎，「凋謝」與枯萎近義重複。",
+      "fix": "枯萎；衰退"
+    },
+    {
+      "word": "worship",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義中的宗教性「敬拜」與「做禮拜」重複，可合併。",
+      "fix": "崇拜；敬拜"
+    },
+    {
+      "word": "worship",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「禮拜」與「敬拜儀式」在例句中重複表達宗教儀式。",
+      "fix": "崇拜；禮拜"
+    },
+    {
+      "word": "yacht",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為遊艇，並未用到一般帆船的意思，應刪除未明示的義項。",
+      "fix": "遊艇"
+    },
+    {
+      "word": "whine",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句使用噴射引擎的「尖嘯聲」義，原釋義只有哀鳴聲與牢騷。",
+      "fix": "哀鳴聲；尖嘯聲；牢騷"
+    },
+    {
+      "word": "yield",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指交通禮讓，原釋義未清楚列出，且屈服與讓步重複。",
+      "fix": "產出；禮讓；讓步"
+    },
+    {
+      "word": "yield",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充科學報告情境以符合例句長度要求。",
+      "fix": "Our science report explains how good weather increased the crop yield."
+    },
+    {
+      "word": "yield",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入科學報告及解釋的語意。",
+      "fix": "我們的科學報告解釋了好天氣如何提高農作物的產量。"
+    },
+    {
+      "word": "citizenship",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「國籍」與本組法律身分例句的「公民身分」重疊，無須另列。",
+      "fix": "公民身分；公民素養"
+    },
+    {
+      "word": "cognitive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「認知的」與「認知方面的」同義重複。",
+      "fix": "認知的"
+    },
+    {
+      "word": "compliance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「遵守」與「遵從」同義重複，保留遵守行為與合規狀態。",
+      "fix": "遵守；合規"
+    },
+    {
+      "word": "discourse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「論述」與「論說」重複，第二、三句的互動討論宜以「討論」明確表示。",
+      "fix": "論述；討論"
+    },
+    {
+      "word": "discourse",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「論述」與「談論」在此動詞例句中皆指談論某主題，應合併。",
+      "fix": "談論"
+    },
+    {
+      "word": "envision",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在這組例句中皆指對未來情境的設想，應合併。",
+      "fix": "設想"
+    },
+    {
+      "word": "flexibility",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "工作時間與計畫均使用「彈性」義，「靈活度」在例句中未形成不同義項。",
+      "fix": "彈性；柔軟度"
+    },
+    {
+      "word": "flip",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "翻課本與擲硬幣的動作應分別以「翻閱」及「擲」明確表達。",
+      "fix": "翻轉；翻閱；擲"
+    },
+    {
+      "word": "flip",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句指擲硬幣，原釋義的「輕彈」未清楚表達此義。",
+      "fix": "翻轉；空翻；擲硬幣"
+    },
+    {
+      "word": "cognitive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充閱讀頻率以符合例句長度要求。",
+      "fix": "Reading regularly helps children build cognitive skills from an early age."
+    },
+    {
+      "word": "cognitive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入規律閱讀與從小培養能力的語意。",
+      "fix": "規律閱讀有助於孩子從小培養認知能力。"
+    }
+  ]
+}
