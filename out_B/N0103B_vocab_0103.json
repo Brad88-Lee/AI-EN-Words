@@ -1,0 +1,425 @@
+{
+  "batch": "N0103",
+  "checked": 50,
+  "reviewed": [
+    "broaden",
+    "brochure",
+    "broil",
+    "broth",
+    "brotherhood",
+    "bulky",
+    "bureaucrat",
+    "bypass",
+    "caffeine",
+    "calligraphy",
+    "capsule",
+    "captive",
+    "captivity",
+    "cardboard",
+    "cardinal",
+    "carefree",
+    "caretaker",
+    "carton",
+    "catastrophe",
+    "cater",
+    "cavity",
+    "celery",
+    "celsius",
+    "census",
+    "ceramic",
+    "certify",
+    "champagne",
+    "chant",
+    "charitable",
+    "checkup",
+    "chestnut",
+    "chimpanzee",
+    "chirp",
+    "cholesterol",
+    "clam",
+    "clasp",
+    "clearance",
+    "clockwise",
+    "clone",
+    "closure",
+    "coalition",
+    "coastline",
+    "colloquial",
+    "comet",
+    "commonplace",
+    "commonwealth",
+    "communicative",
+    "compass",
+    "compile",
+    "complement"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "broaden",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在道路、視野與知識範圍的例句中皆表示拓寬，近義重複。",
+      "fix": "拓寬"
+    },
+    {
+      "word": "brochure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義在三句中皆指介紹資訊的小冊子，意思重複。",
+      "fix": "簡介手冊"
+    },
+    {
+      "word": "broil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義在本組烤箱烹調例句中近義重複，保留較精確的加熱方式。",
+      "fix": "用上火烤"
+    },
+    {
+      "word": "broth",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「肉湯」與「清湯」在此重疊，保留可直接飲用及作為料理湯底的用法。",
+      "fix": "肉湯；高湯"
+    },
+    {
+      "word": "bulky",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "bulky 主要表示體積大而占空間，不必然很重，原兩個釋義重疊。",
+      "fix": "體積龐大的"
+    },
+    {
+      "word": "bypass",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指繞過市鎮中心的道路，兩個中文釋義近義重複。",
+      "fix": "外環道"
+    },
+    {
+      "word": "bypass",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「避開」與「繞過」在前兩句中重複。",
+      "fix": "繞過；規避"
+    },
+    {
+      "word": "brotherhood",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "兩人之間的兄弟情誼通常用 a sense of brotherhood，直接說 share a strong brotherhood 不自然。",
+      "fix": "The two players developed a strong sense of brotherhood through training."
+    },
+    {
+      "word": "brotherhood",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入透過訓練培養兄弟情誼的語意。",
+      "fix": "這兩位球員透過訓練培養出深厚的兄弟情誼。"
+    },
+    {
+      "word": "calligraphy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入毛筆這個具體工具以符合例句長度要求。",
+      "fix": "My grandfather practices calligraphy every morning using a traditional writing brush."
+    },
+    {
+      "word": "calligraphy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入傳統毛筆的工具。",
+      "fix": "爺爺每天早上都用傳統毛筆練習書法。"
+    },
+    {
+      "word": "calligraphy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯未明確保留 Chinese 所指的漢字書法。",
+      "fix": "農曆新年期間常會展示漢字書法作品。"
+    },
+    {
+      "word": "cardboard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「硬紙板」與「紙板」在這組例句中近義重複。",
+      "fix": "硬紙板"
+    },
+    {
+      "word": "cardinal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「首要的」與「基本的」在規則及原則例句中重疊。",
+      "fix": "首要的；基數的"
+    },
+    {
+      "word": "carefree",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "carefree 指沒有憂慮，不等於不專心或粗心的漫不經心。",
+      "fix": "無憂無慮的"
+    },
+    {
+      "word": "catastrophe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後兩句是行程或演出計畫徹底失敗的比喻義，並非傷亡慘劇。",
+      "fix": "大災難；慘敗"
+    },
+    {
+      "word": "capsule",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入藥品標籤的語境以符合例句長度要求。",
+      "fix": "The label says to take one capsule after each meal."
+    },
+    {
+      "word": "capsule",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入標籤上的用藥說明。",
+      "fix": "標籤上寫著每餐後服用一顆膠囊。"
+    },
+    {
+      "word": "carefree",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "carefree attitude 是輕鬆而沒有憂慮的態度，原譯誤成漫不經心。",
+      "fix": "他對金錢的態度很輕鬆自在。"
+    },
+    {
+      "word": "catastrophe",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "停電造成計畫徹底失敗，原譯慘劇容易誤解為發生傷亡。",
+      "fix": "演出途中停電，導致整個計畫徹底失敗。"
+    },
+    {
+      "word": "cavity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "牙齒中的 cavity 是蛀出的洞，宜用可數的蛀洞避免混同整顆牙齒。",
+      "fix": "蛀洞；體腔"
+    },
+    {
+      "word": "cavity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯把牙齒中的蛀洞說成另一顆蛀牙，應明確表達後牙上的洞。",
+      "fix": "牙醫發現我的後牙有個蛀洞。"
+    },
+    {
+      "word": "charitable",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「對醫院做了一筆捐款」搭配生硬，應直接表達向醫院捐善款。",
+      "fix": "她向兒童醫院捐了一筆善款。"
+    },
+    {
+      "word": "checkup",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為身體或牙科健康檢查，原「檢查」過於籠統且與健康檢查重疊。",
+      "fix": "健康檢查"
+    },
+    {
+      "word": "clasp",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為扣合用的扣環，泛稱扣子容易混同衣服鈕扣。",
+      "fix": "扣環"
+    },
+    {
+      "word": "closure",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「心裡得到了了結」搭配不自然，sense of closure 指事情告一段落的感覺。",
+      "fix": "和朋友談過之後，她感覺事情告一段落了。"
+    },
+    {
+      "word": "chestnut",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入陽光下的髮色特色以符合例句長度要求。",
+      "fix": "She has long chestnut hair that shines in the sunlight."
+    },
+    {
+      "word": "chestnut",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "她有一頭在陽光下閃耀的栗色長髮。"
+    },
+    {
+      "word": "cholesterol",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入均衡飲食與規律食用的完整健康情境。",
+      "fix": "Eating oats regularly can help lower cholesterol as part of a balanced diet."
+    },
+    {
+      "word": "cholesterol",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "在均衡飲食中規律食用燕麥，有助於降低膽固醇。"
+    },
+    {
+      "word": "clasp",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入穿衣時扣環斷裂的時間情境。",
+      "fix": "The clasp on my necklace broke while I was getting dressed."
+    },
+    {
+      "word": "clasp",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "我在穿衣服時，項鍊的扣環壞了。"
+    },
+    {
+      "word": "colloquial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "白話可泛指非文言文字，與本組非正式口語語體的釋義重疊且較寬。",
+      "fix": "口語的"
+    },
+    {
+      "word": "commonplace",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「司空見慣的」與「普遍的」在這組例句中近義重複。",
+      "fix": "司空見慣的"
+    },
+    {
+      "word": "communicative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一、三句指願意說話而非溝通技巧，未另示善於溝通的能力義。",
+      "fix": "健談的；溝通式的"
+    },
+    {
+      "word": "compile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆為蒐集整理資料，編纂與彙整重疊。",
+      "fix": "彙整；編譯"
+    },
+    {
+      "word": "complement",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句 full 才表示編制齊全，名詞 complement 宜明確表達編制人數。",
+      "fix": "搭配；補充物；編制人數"
+    },
+    {
+      "word": "colloquial",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "essays 在此指作文，原譯文章把適用範圍擴大到所有文章。",
+      "fix": "口語寫法用來傳訊息給朋友沒問題，但不適合寫作文。"
+    },
+    {
+      "word": "commonwealth",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "belong to 指身為國協成員，不表示受其統轄的隸屬關係。",
+      "fix": "許多前英國殖民地都是大英國協的成員。"
+    },
+    {
+      "word": "comet",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "彗尾主要為氣體和塵埃，冰主要在彗核中，原句混淆成分。",
+      "fix": "A comet develops a tail of gas and dust as it approaches the Sun."
+    },
+    {
+      "word": "comet",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "彗星接近太陽時，會形成由氣體和塵埃組成的尾巴。"
+    },
+    {
+      "word": "commonplace",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入鄉村小鎮的具體情境以符合例句長度要求。",
+      "fix": "Smartphones are now commonplace among teenagers, even in small rural towns."
+    },
+    {
+      "word": "commonplace",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "智慧型手機如今在青少年之間十分普遍，即使在鄉村小鎮也是如此。"
+    },
+    {
+      "word": "compass",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入幾何作業的學習情境。",
+      "fix": "Use a compass to draw a circle for your geometry homework."
+    },
+    {
+      "word": "compass",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "做幾何作業時，用圓規畫一個圓。"
+    }
+  ]
+}
