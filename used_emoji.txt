@@ -621,3 +621,6 @@
 🥐(pastry)
 👡(sandal)
 🧽(sponge)
+🤮(vomit)
+♿(wheelchair)
+🛥️(yacht)
