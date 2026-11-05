@@ -1,0 +1,531 @@
+{
+  "batch": "N0099",
+  "checked": 50,
+  "reviewed": [
+    "dictate",
+    "dictation",
+    "discard",
+    "disturbance",
+    "dormitory",
+    "downward",
+    "doze",
+    "duration",
+    "dusk",
+    "edible",
+    "editorial",
+    "electrician",
+    "endurance",
+    "enhance",
+    "enroll",
+    "examiner",
+    "eyesight",
+    "fable",
+    "fertilizer",
+    "fragrance",
+    "freeway",
+    "gangster",
+    "gay",
+    "glide",
+    "grapefruit",
+    "handicap",
+    "harden",
+    "hijack",
+    "hostel",
+    "iceberg",
+    "imperial",
+    "industrialize",
+    "infer",
+    "inhabitant",
+    "interpreter",
+    "intrude",
+    "intruder",
+    "itch",
+    "knowledgeable",
+    "landlady",
+    "landslide",
+    "latitude",
+    "liberate",
+    "lighten",
+    "lotion",
+    "loudspeaker",
+    "lullaby",
+    "lunar",
+    "madam",
+    "mainland"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "dictate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指支配孩子的選擇，應明確列出此義並合併命令與規定的重疊。",
+      "fix": "口述；規定；支配"
+    },
+    {
+      "word": "dictate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「命令」與「指示」在此皆指左右行動的要求，近義重複。",
+      "fix": "指示"
+    },
+    {
+      "word": "discard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「丟棄」與「拋棄」近義重複，第三句的計畫則明確對應放棄義。",
+      "fix": "丟棄；放棄"
+    },
+    {
+      "word": "discard",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句使用紙牌遊戲的「棄牌」義，原釋義未列出且兩個原釋義重複。",
+      "fix": "廢棄物；棄牌"
+    },
+    {
+      "word": "disturbance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「干擾」與「打擾」在此近義重複。",
+      "fix": "干擾；騷動"
+    },
+    {
+      "word": "dormitory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「學生宿舍」為本組例句中的宿舍，無須重複列義。",
+      "fix": "宿舍"
+    },
+    {
+      "word": "downward",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「向下地」與「往下」同義重複。",
+      "fix": "向下"
+    },
+    {
+      "word": "doze",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「打瞌睡」與「打盹」同義重複。",
+      "fix": "打瞌睡"
+    },
+    {
+      "word": "doze",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「小睡」與「瞌睡」在此同義重複。",
+      "fix": "小睡"
+    },
+    {
+      "word": "duration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個釋義皆指事情持續的時間，近義重複。",
+      "fix": "持續時間"
+    },
+    {
+      "word": "dusk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「黃昏」與「傍晚」在這組例句中同義重複。",
+      "fix": "黃昏"
+    },
+    {
+      "word": "dictate",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「流行的指示」是生硬直譯，應表達遵循時尚要求。",
+      "fix": "許多人只是遵循時尚的要求。"
+    },
+    {
+      "word": "dictate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「常識的指示」搭配生硬，原句指公司不依常理行事。",
+      "fix": "那家公司不依常理行事。"
+    },
+    {
+      "word": "downward",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只表示今年價格下降，「一直」額外強調了未明示的連續性。",
+      "fix": "今年電子產品的價格有所下滑。"
+    },
+    {
+      "word": "downward",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「走向下的小徑」語意不順，應清楚表達沿下坡小徑到湖邊。",
+      "fix": "我們沿著下坡的小徑走到湖邊。"
+    },
+    {
+      "word": "editorial",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「編輯的」與「編輯部的」在此重複表達與編輯工作相關。",
+      "fix": "編輯的"
+    },
+    {
+      "word": "electrician",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指維修或施工電路的電工，「電氣技師」容易混淆為不同專業資格。",
+      "fix": "電工"
+    },
+    {
+      "word": "endurance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指體能耐力，原三個中文釋義近義重複。",
+      "fix": "耐力"
+    },
+    {
+      "word": "enhance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義皆表示使品質或能力更好，近義重複。",
+      "fix": "提升"
+    },
+    {
+      "word": "enroll",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "辦理入學在第二句仍屬註冊程序，無須另列重疊的入學義。",
+      "fix": "註冊；報名"
+    },
+    {
+      "word": "examiner",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "examiner 不特指主考官，「主考官」與一般考官重疊且增加職位層級。",
+      "fix": "考官；檢查員"
+    },
+    {
+      "word": "eyesight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指看東西的能力，兩個中文釋義近義重複。",
+      "fix": "視力"
+    },
+    {
+      "word": "fable",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為含教訓的寓言，未使用傳說義。",
+      "fix": "寓言"
+    },
+    {
+      "word": "fragrance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「香味」與「芳香」同義重複，保留香水的產品義。",
+      "fix": "香味；香水"
+    },
+    {
+      "word": "endurance",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充馬拉松訓練需求以符合例句長度要求。",
+      "fix": "Running a marathon requires great endurance and months of regular training."
+    },
+    {
+      "word": "endurance",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入數個月規律訓練的需求。",
+      "fix": "跑馬拉松需要很強的耐力，以及數個月的規律訓練。"
+    },
+    {
+      "word": "examiner",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文未表示此人為主考官，應使用一般考官名稱。",
+      "fix": "考官請我用英文自我介紹。"
+    },
+    {
+      "word": "fable",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯漏掉 still 的持續語意。",
+      "fix": "這則古老的寓言仍受到世界各地孩子的喜愛。"
+    },
+    {
+      "word": "freeway",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指高速公路，台灣分類中的快速道路不宜混列為另一義項。",
+      "fix": "高速公路"
+    },
+    {
+      "word": "gangster",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「幫派份子」與「黑道人物」在三句中近義重複。",
+      "fix": "幫派份子"
+    },
+    {
+      "word": "glide",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為平穩滑行或滑翔，沒有偷偷移動的意思。",
+      "fix": "滑行；滑翔"
+    },
+    {
+      "word": "handicap",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「障礙」與另外兩個釋義重疊，保留一般不利條件與身心障礙的區別。",
+      "fix": "不利條件；身心障礙"
+    },
+    {
+      "word": "hijack",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指把持會議，應列出比喻義，而劫機只是劫持的一種。",
+      "fix": "劫持；把持"
+    },
+    {
+      "word": "hijack",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「劫機」是劫持交通工具的一種，無須與上位概念重複列義。",
+      "fix": "劫持"
+    },
+    {
+      "word": "hostel",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為旅客住宿的青年旅館，「背包客棧」近義重複且未使用機構宿舍義。",
+      "fix": "青年旅館"
+    },
+    {
+      "word": "glide",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞為老鷹滑翔，對應第二個意思，應改呈現第一個意思的滑行。",
+      "fix": "skater gliding"
+    },
+    {
+      "word": "glide",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「長長地滑翔」搭配不自然，應以滑翔距離表達 long glide。",
+      "fix": "那隻鳥滑翔了很長一段距離，降到了河面。"
+    },
+    {
+      "word": "glide",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只表示向跑道滑翔，未說明已降落，應刪除額外的降落語意。",
+      "fix": "飛機平穩地朝跑道滑翔。"
+    },
+    {
+      "word": "infer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「推論」與「推斷」在這組例句中同義重複。",
+      "fix": "推論"
+    },
+    {
+      "word": "inhabitant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「居民」與「居住者」同義重複。",
+      "fix": "居民"
+    },
+    {
+      "word": "interpreter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義「翻譯人員」過於寬泛，第三句應明確列出手語翻譯員。",
+      "fix": "口譯員；手語翻譯員"
+    },
+    {
+      "word": "intruder",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「闖入者」與「入侵者」在這組大樓保全例句中同義重複。",
+      "fix": "闖入者"
+    },
+    {
+      "word": "knowledgeable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「知識淵博的」與「見多識廣的」在此近義重複。",
+      "fix": "知識淵博的"
+    },
+    {
+      "word": "landlady",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二個意思只用於旅館等特定場所的女經營者，不能泛指所有女老闆。",
+      "fix": "女房東；旅館女主人"
+    },
+    {
+      "word": "enhance",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "enhance 泛指提升品質或能力，例句亦非以科技為主，單列科技分類不合主要字義。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "landslide",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原例句未指明水流挾帶土石的土石流型態，以一般山崩義表達較精確。",
+      "fix": "山崩；壓倒性勝利"
+    },
+    {
+      "word": "lotion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆使用乳液，未示範化妝水或其他藥用擦劑義。",
+      "fix": "乳液"
+    },
+    {
+      "word": "loudspeaker",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「擴音器」與「喇叭」在這組播放聲音的例句中重複，喇叭也較精確表示發聲裝置。",
+      "fix": "喇叭"
+    },
+    {
+      "word": "lullaby",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「搖籃曲」與「催眠曲」在這組哄睡歌曲例句中同義重複。",
+      "fix": "搖籃曲"
+    },
+    {
+      "word": "madam",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為對女性的禮貌稱呼，無須再以夫人重複列義。",
+      "fix": "女士"
+    },
+    {
+      "word": "landslide",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只指山崩，未指明為水流挾帶土石，宜避免直接譯成土石流。",
+      "fix": "這座村莊去年夏天因山崩而受損。"
+    },
+    {
+      "word": "lighten",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bag 未指明為背包，應以不限定款式的行囊表達健行攜帶物。",
+      "fix": "長途健行前，請減輕你的行囊重量。"
+    },
+    {
+      "word": "madam",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入協助尋找座位的服務情境以符合例句長度要求。",
+      "fix": "Can I help you find your seat, madam?"
+    },
+    {
+      "word": "madam",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入幫忙尋找座位的語意。",
+      "fix": "女士，需要我幫您找座位嗎？"
+    },
+    {
+      "word": "handicap",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入山村救援情境以符合例句長度要求。",
+      "fix": "Heavy rain handicapped the rescue work in the mountain village."
+    },
+    {
+      "word": "handicap",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為大雨，並補入山村救援的地點。",
+      "fix": "大雨妨礙了山村裡的救援工作。"
+    },
+    {
+      "word": "handicap",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充網路中斷即時視訊課程的具體影響。",
+      "fix": "Slow internet can handicap online learning by interrupting live video lessons."
+    },
+    {
+      "word": "handicap",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入即時視訊課程可能中斷的影響。",
+      "fix": "網路速度太慢可能使即時視訊課程中斷，妨礙線上學習。"
+    }
+  ]
+}
