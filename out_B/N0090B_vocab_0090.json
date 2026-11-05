@@ -1,0 +1,553 @@
+{
+  "batch": "N0090",
+  "checked": 50,
+  "reviewed": [
+    "justify",
+    "juvenile",
+    "lawmaker",
+    "lawsuit",
+    "legacy",
+    "legislation",
+    "legislative",
+    "legitimate",
+    "lest",
+    "liability",
+    "likelihood",
+    "likewise",
+    "lounge",
+    "lump",
+    "mainstream",
+    "maintenance",
+    "mammal",
+    "mandate",
+    "manifest",
+    "manipulate",
+    "marine",
+    "masculine",
+    "massage",
+    "massive",
+    "mattress",
+    "mechanism",
+    "medication",
+    "merge",
+    "metaphor",
+    "metropolitan",
+    "midst",
+    "migration",
+    "milestone",
+    "miniature",
+    "minimal",
+    "minimize",
+    "mint",
+    "missionary",
+    "moan",
+    "mock",
+    "mode",
+    "modify",
+    "molecule",
+    "monopoly",
+    "morality",
+    "motive",
+    "mount",
+    "mumble",
+    "municipal",
+    "muscular"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "justify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "證明有理與為某事辯解在本組例句皆指提出合理理由，合併重複說明。",
+      "fix": "證明有理"
+    },
+    {
+      "word": "juvenile",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是幼鷹，幼獸通常指哺乳動物，改用可涵蓋鳥類的幼小動物。",
+      "fix": "青少年；幼小動物"
+    },
+    {
+      "word": "lawmaker",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "立法委員是立法者的一種，合併重複釋義。",
+      "fix": "立法者"
+    },
+    {
+      "word": "lawsuit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "訴訟與官司同義，合併重複釋義。",
+      "fix": "訴訟"
+    },
+    {
+      "word": "legislative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "立法機關相關用法也包含在立法的之中，合併重複說明。",
+      "fix": "立法的"
+    },
+    {
+      "word": "legitimate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句網站 legitimate 表示並非假冒而可信，原釋義未清楚呈現。",
+      "fix": "合法的；正當的；真實可信的"
+    },
+    {
+      "word": "legitimate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "網站是正當的中文搭配不自然，英文指網站並非假冒而可信。",
+      "fix": "付款前請確認這個網站是真實可信的。"
+    },
+    {
+      "word": "lest",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "帶傘不能避免下雨，應將 lest 子句改為可避免的淋濕結果。",
+      "fix": "Take an umbrella lest you get wet on the way home."
+    },
+    {
+      "word": "lest",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為避免回家途中淋濕的目的。",
+      "fix": "帶把傘，以免回家途中淋濕。"
+    },
+    {
+      "word": "liability",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原本兩句均為法律責任，改以年度報告中列示負債呈現已列出的會計義。",
+      "fix": "The accountant listed all the company's liabilities in the annual report."
+    },
+    {
+      "word": "liability",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為會計師列示公司負債的情境。",
+      "fix": "會計師在年度報告中列出了公司的所有負債。"
+    },
+    {
+      "word": "likewise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同樣地與也一樣同義，合併重複釋義。",
+      "fix": "同樣地"
+    },
+    {
+      "word": "lounge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "lounge 可坐臥或靠著休息，原釋義過度限定為靠著或閒坐，未涵蓋貓躺著的例句。",
+      "fix": "懶洋洋地休息"
+    },
+    {
+      "word": "maintenance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "維修、保養與維護在設備保養情境重複，精簡釋義。",
+      "fix": "維護"
+    },
+    {
+      "word": "manifest",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明顯與顯而易見同義，合併重複釋義。",
+      "fix": "明顯的"
+    },
+    {
+      "word": "manifest",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指恐懼、疾病或善意顯現，合併顯示與表明的重複說明。",
+      "fix": "顯現"
+    },
+    {
+      "word": "manipulate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "分清操縱情緒、操作重物與竄改數據三個例句用法。",
+      "fix": "操縱；操作；竄改"
+    },
+    {
+      "word": "likewise",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原對話僅五字，補上鄰居祝福週末愉快的完整回應情境。",
+      "fix": "My neighbor wished me a pleasant weekend, and I replied, \"Likewise!\""
+    },
+    {
+      "word": "likewise",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為回應週末祝福的情境。",
+      "fix": "鄰居祝我週末愉快，我回答：「你也是！」"
+    },
+    {
+      "word": "lounge",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "between classes 指課間，下課之間不合自然中文搭配。",
+      "fix": "學生常在課間到交誼廳休息。"
+    },
+    {
+      "word": "manifest",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "明顯的誠實搭配生硬，以有目共睹自然表達 manifest。",
+      "fix": "他的誠實有目共睹，贏得了大家的信任。"
+    },
+    {
+      "word": "manipulate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "to look better 的主詞承接他，原譯它將目的錯指為讓數據本身更好看。",
+      "fix": "他試圖操弄數據，讓自己顯得更出色。"
+    },
+    {
+      "word": "marine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "海生指生活在海洋，也屬海洋相關用法，合併重複說明。",
+      "fix": "海洋的"
+    },
+    {
+      "word": "masculine",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句談文法性別的陽性，原釋義漏列此義，並使男子氣概義符合形容詞形式。",
+      "fix": "男性的；有男子氣概的；陽性的"
+    },
+    {
+      "word": "mechanism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "申訴處理機制不只是一般方法，合併重複說明並保留機械裝置義。",
+      "fix": "機制；機械裝置"
+    },
+    {
+      "word": "medication",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藥物與藥品在本組例句同義，合併重複釋義。",
+      "fix": "藥物"
+    },
+    {
+      "word": "merge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分清銀行合併、車道併入與河流匯合三個例句的搭配。",
+      "fix": "合併；併入；匯合"
+    },
+    {
+      "word": "metaphor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "比喻是包含明喻的上位概念，本組具體用法均為隱喻。",
+      "fix": "隱喻"
+    },
+    {
+      "word": "metropolitan",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大都會與都會區相關用法在三句中重複，精簡釋義。",
+      "fix": "大都會的"
+    },
+    {
+      "word": "marine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上水質與生存繁殖的關係。",
+      "fix": "Marine animals depend on clean water to survive and reproduce."
+    },
+    {
+      "word": "marine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "海洋動物仰賴乾淨的水生存及繁殖。"
+    },
+    {
+      "word": "masculine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上聲音容易辨識的描述。",
+      "fix": "He has a deep, masculine voice that is easy to recognize."
+    },
+    {
+      "word": "masculine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "他有低沉而充滿男子氣概的聲音，很容易辨認。"
+    },
+    {
+      "word": "mechanism",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一個意思是抽象機制，時鐘齒輪對應第二個機械裝置義。",
+      "fix": null
+    },
+    {
+      "word": "midst",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "中間與當中在本組位置、環境及進行狀態的片語中重複，精簡釋義。",
+      "fix": "當中"
+    },
+    {
+      "word": "migration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遷移與動物遷徙或人口移居的說明重複，保留動物及人口兩種具體用法。",
+      "fix": "遷徙；移居"
+    },
+    {
+      "word": "milestone",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "重要事件只是比喻里程碑義的解釋，合併重複說明。",
+      "fix": "里程碑"
+    },
+    {
+      "word": "minimal",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句是室內設計的極簡風格，原釋義未列；前兩句均指數量極少。",
+      "fix": "極少的；極簡的"
+    },
+    {
+      "word": "minimize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是電腦視窗最小化，不是一般縮小視窗尺寸，明確區分兩義。",
+      "fix": "使減至最低；將視窗最小化"
+    },
+    {
+      "word": "moan",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後兩句是看到考卷或進球後發出的哀嘆，並非具體口頭抱怨。",
+      "fix": "呻吟聲；哀嘆聲"
+    },
+    {
+      "word": "mock",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嘲笑與取笑同義，合併重複釋義。",
+      "fix": "嘲笑"
+    },
+    {
+      "word": "miniature",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "of his mother 表示畫作描繪母親，不是為母親製作其他主題的畫。",
+      "fix": "這位畫家畫了一幅他母親的小型肖像畫。"
+    },
+    {
+      "word": "minimal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上工作內容簡單而只需少量訓練的原因。",
+      "fix": "The job requires minimal training because the tasks are simple."
+    },
+    {
+      "word": "minimal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上工作內容簡單的原因。",
+      "fix": "因為工作內容很簡單，這份工作只需要極少的訓練。"
+    },
+    {
+      "word": "minimal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "偏好的主詞是她，原譯她的房間偏好誤使房間成為動作主體。",
+      "fix": "她偏好把房間布置成極簡風格。"
+    },
+    {
+      "word": "mint",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句鑄造的是獎牌，原括註只限硬幣過窄。",
+      "fix": "鑄造（硬幣或獎牌）"
+    },
+    {
+      "word": "missionary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "small school 指規模小的學校，不是特定學制的小學。",
+      "fix": "那位傳教士在村裡蓋了一所小型學校。"
+    },
+    {
+      "word": "mock",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上老師制止取笑的具體情境。",
+      "fix": "The boys mocked his strange haircut until a teacher stopped them."
+    },
+    {
+      "word": "mock",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上老師制止的情境。",
+      "fix": "男孩們一直取笑他奇怪的髮型，直到老師制止了他們。"
+    },
+    {
+      "word": "modify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "修改與調整在計畫、食譜及設定例句中同義，合併重複釋義。",
+      "fix": "修改"
+    },
+    {
+      "word": "monopoly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壟斷與獨占在市場控制情境同義，合併重複釋義。",
+      "fix": "壟斷"
+    },
+    {
+      "word": "morality",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均談道德原則或正當性，沒有另呈現某人的品行義。",
+      "fix": "道德"
+    },
+    {
+      "word": "motive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動機與目的在三句皆指行為的原因，合併重複釋義。",
+      "fix": "動機"
+    },
+    {
+      "word": "mount",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句是騎上馬，非攀登山岳，明列例句實際使用的用法。",
+      "fix": "騎上；安裝；增加"
+    },
+    {
+      "word": "mount",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "兩個山岳用法同義，第三句的牆面固定座義原本未列。",
+      "fix": "山（用於山名）；固定座"
+    },
+    {
+      "word": "municipal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為市政府所屬機構或人員，合併市的與市政的重複說明。",
+      "fix": "市政的"
+    },
+    {
+      "word": "municipal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上連假前完成修路的時間背景。",
+      "fix": "Municipal workers fixed the broken road before the holiday weekend."
+    },
+    {
+      "word": "municipal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "市政人員在連假前修好了損壞的道路。"
+    },
+    {
+      "word": "muscular",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆指肌肉發達，改以 muscular strength 呈現已列出的肌肉相關義。",
+      "fix": "The doctor examined her muscular strength after the injury."
+    },
+    {
+      "word": "muscular",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "醫師在她受傷後檢查了她的肌力。"
+    },
+    {
+      "word": "lest",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "以免與唯恐在本組避免不希望結果的子句中重複，精簡釋義。",
+      "fix": "以免"
+    }
+  ]
+}
