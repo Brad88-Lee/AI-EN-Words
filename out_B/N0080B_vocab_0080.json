@@ -1,0 +1,708 @@
+{
+  "batch": "N0080",
+  "checked": 50,
+  "reviewed": [
+    "envious",
+    "equivalent",
+    "erect",
+    "errand",
+    "escalator",
+    "estate",
+    "evolution",
+    "evolve",
+    "exceptional",
+    "exclaim",
+    "executive",
+    "exploit",
+    "extension",
+    "extensive",
+    "extinct",
+    "extraordinary",
+    "fascinate",
+    "federal",
+    "grant",
+    "gravity",
+    "grieve",
+    "hence",
+    "honorable",
+    "hostage",
+    "housing",
+    "implement",
+    "implication",
+    "inevitable",
+    "infect",
+    "inherit",
+    "inject",
+    "injection",
+    "inquiry",
+    "institute",
+    "institution",
+    "intensify",
+    "interference",
+    "interpretation",
+    "interval",
+    "jury",
+    "kidnap",
+    "landlord",
+    "laser",
+    "layer",
+    "league",
+    "legendary",
+    "loop",
+    "mansion",
+    "masterpiece",
+    "meantime"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "equivalent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相等與同等在這些例句中重疊，應合併。",
+      "fix": "相等的"
+    },
+    {
+      "word": "equivalent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相等物與等值物重複，合併後仍涵蓋語詞、學位及藥物的對應事物。",
+      "fix": "對等事物"
+    },
+    {
+      "word": "equivalent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上職務技能的差異以形成完整比較情境。",
+      "fix": "The two jobs offer equivalent salaries but require very different skills."
+    },
+    {
+      "word": "equivalent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這兩份工作的薪水相當，但所需技能卻很不同。"
+    },
+    {
+      "word": "erect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "直立與挺直在這些站姿及樹木例句中重疊，合併即可。",
+      "fix": "直立的"
+    },
+    {
+      "word": "errand",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "差事過於廣泛，此字特指須外出辦理的小事。",
+      "fix": "跑腿的差事"
+    },
+    {
+      "word": "errand",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "跑腿的差事是抽象任務，既有查詢未指定能直接對應的具體形象。",
+      "fix": null
+    },
+    {
+      "word": "escalator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "手扶梯與電扶梯是同一設備的兩種名稱，不應分列成不同義項。",
+      "fix": "手扶梯"
+    },
+    {
+      "word": "estate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區分單用的莊園及遺產義與固定片語中的房地產義，依常用義排序。",
+      "fix": "莊園；遺產；房地產（用於固定片語）"
+    },
+    {
+      "word": "evolution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "演化與進化在生物義中重疊，保留生物演化及一般發展兩義。",
+      "fix": "演化；發展"
+    },
+    {
+      "word": "exceptional",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句是優秀義，第三句是罕見義，不宜只用籠統的特別或容易誤認規則例外的詞義。",
+      "fix": "傑出的；罕見的"
+    },
+    {
+      "word": "exclaim",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上觀看景色的位置並保留引述句型。",
+      "fix": "\"What a beautiful view!\" she exclaimed from the top of the mountain."
+    },
+    {
+      "word": "exclaim",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "「好美的景色啊！」她在山頂驚呼道。"
+    },
+    {
+      "word": "executive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "主管範圍過廣，與高階主管重複，應明確保留高階管理者義。",
+      "fix": "高階主管"
+    },
+    {
+      "word": "executive",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "executive position 指管理階層職位，不是泛指行政庶務工作。",
+      "fix": "她在公司擔任高階管理職位。"
+    },
+    {
+      "word": "exploit",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "功績與壯舉在本組英勇或冒險事蹟中重疊，合併即可涵蓋。",
+      "fix": "不凡的事蹟"
+    },
+    {
+      "word": "extension",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "第二句指新增的建築部分，而不是擴建這項施工活動。",
+      "fix": "延期；增建部分；分機"
+    },
+    {
+      "word": "extensive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "廣大與廣泛在範圍義中重疊，保留範圍及數量兩種常用表述。",
+      "fix": "廣泛的；大量的"
+    },
+    {
+      "word": "extinct",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "絕種與滅絕是同義表述，不須分列。",
+      "fix": "滅絕的"
+    },
+    {
+      "word": "extinct",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句過短且未區分現存鳥類與其他恐龍，改用較精確的科學敘述。",
+      "fix": "Dinosaurs other than birds became extinct about sixty-six million years ago."
+    },
+    {
+      "word": "extinct",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "鳥類以外的恐龍約在六千六百萬年前滅絕。"
+    },
+    {
+      "word": "extraordinary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "非凡與驚人在才華或勇氣語境中重疊，另保留不尋常的日子義。",
+      "fix": "非凡的；不尋常的"
+    },
+    {
+      "word": "extraordinary",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上舞台表現的具體情境。",
+      "fix": "The young pianist has extraordinary talent and performs confidently on stage."
+    },
+    {
+      "word": "extraordinary",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這位年輕鋼琴家才華非凡，在舞台上演出時充滿自信。"
+    },
+    {
+      "word": "fascinate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使著迷與深深吸引是同義表述，不應分列。",
+      "fix": "使著迷"
+    },
+    {
+      "word": "fascinate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上魔術吸引觀眾的具體內容。",
+      "fix": "The magic show fascinated the children with its surprising tricks."
+    },
+    {
+      "word": "fascinate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "魔術表演中出人意料的戲法讓孩子們看得入迷。"
+    },
+    {
+      "word": "federal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原文只寫地區而中文寫成邦，補明聯邦成員單位並提供具體地理情境。",
+      "fix": "Switzerland is a federal republic made up of twenty-six cantons."
+    },
+    {
+      "word": "federal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "瑞士是由二十六個邦組成的聯邦共和國。"
+    },
+    {
+      "word": "federal",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上執法機關與法律保護對象的中性情境。",
+      "fix": "The agency enforces federal laws that protect workers across the country."
+    },
+    {
+      "word": "federal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這個機關執行保護全國勞工的聯邦法律。"
+    },
+    {
+      "word": "grant",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都是特定用途的資助，補助金與獎助金重疊。",
+      "fix": "補助金"
+    },
+    {
+      "word": "gravity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "地心引力為地球的重力，與通用的重力合併即可同時涵蓋月球例句。",
+      "fix": "重力；嚴重性"
+    },
+    {
+      "word": "grieve",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "原譯的要與需要重複且語序不自然，直接表達哀悼需要時間即可。",
+      "fix": "哀悼失去的朋友需要時間。"
+    },
+    {
+      "word": "hence",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "因此與由此重疊，補上常見的未來時間用法。",
+      "fix": "因此；從現在算起（與時間詞連用）"
+    },
+    {
+      "word": "hence",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "三句原本均為因果義，補上與時間詞連用表示從現在算起的用法。",
+      "fix": "The new library is expected to open two years hence."
+    },
+    {
+      "word": "hence",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "新圖書館預計兩年後開放。"
+    },
+    {
+      "word": "housing",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指居住用的住宅或住所，未呈現供給量這項抽象概念。",
+      "fix": "住宅（集合稱）"
+    },
+    {
+      "word": "implement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "實施與執行在這些計畫及變更的例句中重疊。",
+      "fix": "實施"
+    },
+    {
+      "word": "implement",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "工具與器具為近義表述，不應分列。",
+      "fix": "工具"
+    },
+    {
+      "word": "implication",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "含意與暗示重疊，另將後果義釐清為可能的影響。",
+      "fix": "隱含的意思；可能的影響"
+    },
+    {
+      "word": "implication",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "此處指重大的可能後果，不宜限定為已發生的嚴重負面影響。",
+      "fix": "這項新法律可能對小商店帶來重大影響。"
+    },
+    {
+      "word": "inevitable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "必然與不可避免在這些例句中是同義表述。",
+      "fix": "不可避免的"
+    },
+    {
+      "word": "infect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合併感染與傳染的重複表述，並明確標出主動使人或傷口感染的用法。",
+      "fix": "使感染"
+    },
+    {
+      "word": "inherit",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上第三句接手前任問題的比喻義，並釐清遺傳特徵的取得方向。",
+      "fix": "繼承；遺傳到；接手（既有的問題或狀況）"
+    },
+    {
+      "word": "institute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "泛稱機構與學院、研究所的組織義重疊，合併為兩種例句實際呈現的機構類型。",
+      "fix": "學院；研究機構"
+    },
+    {
+      "word": "institute",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "brother 未指定年齡，不能自行限定為哥哥。",
+      "fix": "我的兄弟在一間研究機構工作。"
+    },
+    {
+      "word": "institute",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字著重建立制度或使新措施開始生效，不只是在紙上制定。",
+      "fix": "建立；開始實施"
+    },
+    {
+      "word": "institute",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "institute new rules 表示引入並開始實施新規定，不宜只譯為制定。",
+      "fix": "學校下學期將開始實施新規定。"
+    },
+    {
+      "word": "institution",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "公共機構是機構的下位概念，且三句未交代公私立性質，不宜另列。",
+      "fix": "機構；制度"
+    },
+    {
+      "word": "intensify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原義項重複且只偏向及物加強，應同時涵蓋風勢自行增強的不及物用法。",
+      "fix": "（使）增強"
+    },
+    {
+      "word": "intensify",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "late in the evening 是晚間較晚的時候，不是日落前後的傍晚。",
+      "fix": "接近深夜時，風勢開始增強。"
+    },
+    {
+      "word": "interpretation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "解釋與詮釋在前三句的理解文字或資料義中重疊，合併後保留口譯義。",
+      "fix": "解讀；口譯"
+    },
+    {
+      "word": "interpretation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為解讀義，沒有呈現已列出的口譯義。",
+      "fix": "The conference offered simultaneous interpretation so visitors could follow every speech."
+    },
+    {
+      "word": "interpretation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這場會議提供同步口譯，讓訪客能聽懂每場演講。"
+    },
+    {
+      "word": "interval",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上醫療場景中的說話者與對象。",
+      "fix": "The nurse told him to take the medicine at four-hour intervals."
+    },
+    {
+      "word": "interval",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "護理師告訴他要每隔四小時服藥一次。"
+    },
+    {
+      "word": "interval",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上適用的交通時段。",
+      "fix": "The buses run at ten-minute intervals during the morning rush hour."
+    },
+    {
+      "word": "interval",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "早上尖峰時段，公車每隔十分鐘就有一班。"
+    },
+    {
+      "word": "kidnap",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為綁架，未呈現以引誘方式帶走他人的誘拐義。",
+      "fix": "綁架"
+    },
+    {
+      "word": "landlord",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "地主不一定出租土地，應明確限定為提供租賃土地的人。",
+      "fix": "房東；出租土地的地主"
+    },
+    {
+      "word": "landlord",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為住宅房東，補上已列出的出租土地者義。",
+      "fix": "The farmer pays his landlord rent for the fields every year."
+    },
+    {
+      "word": "landlord",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這位農夫每年向地主支付田地租金。"
+    },
+    {
+      "word": "laser",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "雷射過於籠統，應區分可數的雷射裝置與發出的光。",
+      "fix": "雷射裝置；雷射光"
+    },
+    {
+      "word": "laser",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "sharp 應修飾列印的文字或影像，不是紙張本身。",
+      "fix": "This printer uses a laser to produce sharp text and images."
+    },
+    {
+      "word": "laser",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這台印表機利用雷射，印出清晰的文字和影像。"
+    },
+    {
+      "word": "laser",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義釐清為雷射裝置後，原光束查詢主要對應第二義。",
+      "fix": "laser pointer"
+    },
+    {
+      "word": "layer",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均指物理上的層，未呈現社會或組織階層義。",
+      "fix": "層"
+    },
+    {
+      "word": "layer",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "堆疊與覆蓋重疊，補明第二句分層穿衣的常見用法。",
+      "fix": "分層疊放；分層穿著"
+    },
+    {
+      "word": "league",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "棒球的大聯盟通常用複數 major leagues，原單數用法不典型。",
+      "fix": "He dreams of playing in the major leagues one day."
+    },
+    {
+      "word": "league",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他夢想有一天能在大聯盟打球。"
+    },
+    {
+      "word": "league",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "棒球賽照片主要呈現聯賽中的賽事，無法直接對應首義的聯盟組織。",
+      "fix": null
+    },
+    {
+      "word": "legendary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名人義帶有極其知名或具傳奇地位的程度，不只是一般著名。",
+      "fix": "傳說中的；極負盛名的"
+    },
+    {
+      "word": "loop",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "圈與環在繩圈及環狀路線的例句中重疊，合併後保留程式迴圈義。",
+      "fix": "圈；迴圈"
+    },
+    {
+      "word": "loop",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "繞成圈與使成環重疊，以使字標出及物與不及物兩種用法即可。",
+      "fix": "（使）繞成圈"
+    },
+    {
+      "word": "loop",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "首義為一般環圈且多數例句為日常物件，應先列日常生活，再列程式的科技用途。",
+      "fix": [
+        "日常生活",
+        "科技與網路"
+      ]
+    },
+    {
+      "word": "mansion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大宅與豪宅在這些大型住宅例句中重疊，合併即可。",
+      "fix": "大宅"
+    },
+    {
+      "word": "masterpiece",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名作只表示知名，不一定是品質卓越的傑作，不宜當作另一義。",
+      "fix": "傑作"
+    },
+    {
+      "word": "masterpiece",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "masterpiece 強調品質卓越，不只是能代表作者的作品。",
+      "fix": "他花了十年寫成他的傑作。"
+    },
+    {
+      "word": "meantime",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "名詞應指一段時間，原其間與同時較像副詞表述。",
+      "fix": "其間的一段時間（常用於固定片語）"
+    }
+  ]
+}
