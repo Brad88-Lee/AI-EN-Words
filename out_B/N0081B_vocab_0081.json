@@ -1,0 +1,788 @@
+{
+  "batch": "N0081",
+  "checked": 50,
+  "reviewed": [
+    "mortgage",
+    "nasty",
+    "negotiation",
+    "nowhere",
+    "nutrient",
+    "nutrition",
+    "opponent",
+    "opposition",
+    "output",
+    "overall",
+    "overhead",
+    "overtake",
+    "parallel",
+    "participant",
+    "peasant",
+    "pedal",
+    "performer",
+    "persist",
+    "photographic",
+    "pirate",
+    "plural",
+    "presidential",
+    "progressive",
+    "prohibit",
+    "proportion",
+    "prospect",
+    "province",
+    "qualify",
+    "radiation",
+    "radical",
+    "rear",
+    "recession",
+    "recite",
+    "recommend",
+    "regardless",
+    "rehearsal",
+    "reminder",
+    "republican",
+    "residence",
+    "resident",
+    "ridiculous",
+    "rifle",
+    "rival",
+    "rod",
+    "scan",
+    "scheme",
+    "sector",
+    "series",
+    "session",
+    "shortage"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "mortgage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "房屋貸款是本組例句中的抵押貸款，合併可避免重複並保留抵押概念。",
+      "fix": "房屋抵押貸款"
+    },
+    {
+      "word": "nasty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "討厭與令人不快重疊，另將留言呈現的不友善義明確列出。",
+      "fix": "令人不快的；刻薄的"
+    },
+    {
+      "word": "negotiation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "談判與協商在這些條件磋商例句中同義，應合併。",
+      "fix": "談判"
+    },
+    {
+      "word": "nowhere",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "哪裡都不與無處是同義表述，不須分列。",
+      "fix": "無處"
+    },
+    {
+      "word": "nutrient",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "養分與營養素在這些生物所需物質的例句中重疊，合併即可。",
+      "fix": "養分"
+    },
+    {
+      "word": "opposition",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別是反對意見或國會反對黨，未呈現另立的對立義。",
+      "fix": "反對；反對黨"
+    },
+    {
+      "word": "output",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "產量與產出重疊，合併為產出量可同時涵蓋工廠和文章作品。",
+      "fix": "產出量；輸出"
+    },
+    {
+      "word": "overall",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "整體與全面在本組概括全體的例句中重疊。",
+      "fix": "整體的"
+    },
+    {
+      "word": "overall",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "本字指綜合考量或整體結果，不必然表示大約或大致。",
+      "fix": "整體而言"
+    },
+    {
+      "word": "overall",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上整體評估與個別問題之間的對比。",
+      "fix": "Overall, the meeting went very well despite a few technical problems."
+    },
+    {
+      "word": "overall",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "整體而言，雖然出現了一些技術問題，會議仍進行得很順利。"
+    },
+    {
+      "word": "overhead",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "在高處過於廣泛，不一定在觀察者頭頂上方，應保留相對位置。",
+      "fix": "在頭頂上"
+    },
+    {
+      "word": "overtake",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "趕上不必然超過對方，而本字表示追過或超越。",
+      "fix": "超車；超越"
+    },
+    {
+      "word": "overtake",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "銷售額不是購物行為本身的銷售，改用自然的網路銷售表述並明確比較兩種銷售額。",
+      "fix": "Online sales may soon overtake sales at physical stores."
+    },
+    {
+      "word": "overtake",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "網路銷售額可能很快就會超越實體店面的銷售額。"
+    },
+    {
+      "word": "overtake",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "overtake 表示超越，不只是趕上同學。",
+      "fix": "她努力在數學上超越同學。"
+    },
+    {
+      "word": "parallel",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的地理名詞指緯線，不宜只列籠統的平行線。",
+      "fix": "相似之處；緯線"
+    },
+    {
+      "word": "participant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "參加者與參與者是同義表述，不應分列。",
+      "fix": "參與者"
+    },
+    {
+      "word": "participant",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上參與活動的具體情境。",
+      "fix": "Each participant received a free T-shirt after completing the charity run."
+    },
+    {
+      "word": "participant",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "每位參與者完成公益路跑後，都拿到一件免費的T恤。"
+    },
+    {
+      "word": "peasant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字有傳統農業社會或貧苦農民的語意，不等於所有現代農業經營者，且未必是佃農。",
+      "fix": "農民（尤指貧苦或傳統農業社會中的農民）"
+    },
+    {
+      "word": "peasant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a large part 指很大一部分，不一定超過一半，不能直接譯成大部分。",
+      "fix": "農民把很大一部分的收成當作稅繳出去。"
+    },
+    {
+      "word": "pedal",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上騎車的路線情境。",
+      "fix": "The boy pedaled home along the quiet street before dinner."
+    },
+    {
+      "word": "pedal",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "男孩在晚餐前沿著安靜的街道騎車回家。"
+    },
+    {
+      "word": "performer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "表演者與演出者是同義表述，不應分列。",
+      "fix": "表演者"
+    },
+    {
+      "word": "photographic",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "攝影與照片義重疊，且第二句記憶力如照片般精確的常見用法未列出。",
+      "fix": "攝影的；如照片般精確的（用於記憶力）"
+    },
+    {
+      "word": "pirate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為海盜，補上已列出的盜版者義之中性法律商業情境。",
+      "fix": "The company took legal action against pirates who sold unauthorized copies of its software."
+    },
+    {
+      "word": "pirate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這家公司對販售未經授權軟體複本的盜版者採取法律行動。"
+    },
+    {
+      "word": "pirate",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補上盜版軟體的例句後，應涵蓋科技與網路用途。",
+      "fix": [
+        "歷史與地理",
+        "藝術與文化",
+        "科技與網路"
+      ]
+    },
+    {
+      "word": "pirate",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "首義指海盜本人，海盜船是其交通工具，應改為人物查詢。",
+      "fix": "pirate character"
+    },
+    {
+      "word": "plural",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補明語言與名詞用法，保留教學必要的詞形對照。",
+      "fix": "In English, the plural of the noun child is children."
+    },
+    {
+      "word": "plural",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "在英文中，名詞「child」的複數是「children」。"
+    },
+    {
+      "word": "plural",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，補上課堂說明情境並保留必要的英文詞形。",
+      "fix": "The teacher explained that \"books\" is a plural form of \"book\"."
+    },
+    {
+      "word": "plural",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "老師解釋，「books」是「book」的複數形。"
+    },
+    {
+      "word": "plural",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "英文語詞是文法示例而應保留，但引號應改用全形中文標點。",
+      "fix": "在「they」後面要用複數動詞。"
+    },
+    {
+      "word": "plural",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上學習不規則形式的具體情境。",
+      "fix": "Some plural forms are irregular, so students need to learn them separately."
+    },
+    {
+      "word": "plural",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "有些複數形不規則，因此學生需要另外學習這些字形。"
+    },
+    {
+      "word": "presidential",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "總統職位與總統的在本組例句中重疊，合併即可。",
+      "fix": "總統的"
+    },
+    {
+      "word": "prohibit",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為規定或法律禁止，未呈現單純造成事情無法發生的阻止義。",
+      "fix": "禁止"
+    },
+    {
+      "word": "proportion",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為部分佔比或相對比例，未呈現比例協調的均衡義。",
+      "fix": "比例；部分"
+    },
+    {
+      "word": "proportion",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "兩群人之間的一個比例不能只說相等而沒有比較對象，應明列一比一。",
+      "fix": "The proportion of boys to girls in our class is one to one."
+    },
+    {
+      "word": "proportion",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "我們班男生與女生的比例是一比一。"
+    },
+    {
+      "word": "prospect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字所指的未來事件不一定令人期待，也可能令人擔憂，不宜將期待當作必要語意。",
+      "fix": "前景；可能性；將來可能發生的事"
+    },
+    {
+      "word": "province",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為行政區劃的省，未呈現相對首都而言的地方地區義。",
+      "fix": "省"
+    },
+    {
+      "word": "qualify",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "合併取得資格的及物與不及物表述，補上常見的為陳述加上限制或保留義。",
+      "fix": "（使）取得資格；加以限定"
+    },
+    {
+      "word": "qualify",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句皆為資格義，以陳述加上例外的情境補上常見限定義。",
+      "fix": "The author qualified her statement by adding an important exception."
+    },
+    {
+      "word": "qualify",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "作者補上一項重要的例外，對自己的陳述加以限定。"
+    },
+    {
+      "word": "radiation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "放射線為此處輻射概念的相關稱法，合併即可涵蓋醫療與太陽輻射。",
+      "fix": "輻射"
+    },
+    {
+      "word": "radical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "徹底與根本在制度改革和時程改變的例句中重疊，合併即可。",
+      "fix": "激進的；根本的"
+    },
+    {
+      "word": "radical",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "數學例句應區分根式與求一個數的根，不宜以籠統的根作義項。",
+      "fix": "激進分子；根式"
+    },
+    {
+      "word": "radical",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原 find the radical of a number 不是典型的根式教材表述，改用化簡根式的常見搭配。",
+      "fix": "In math class, we learned how to simplify radicals such as the square root of twenty."
+    },
+    {
+      "word": "radical",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "數學課上，我們學習化簡根式，例如二十的平方根。"
+    },
+    {
+      "word": "radical",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "此字另有常用的數學根式義，應同時涵蓋科學分類。",
+      "fix": [
+        "社會與法律",
+        "科學"
+      ]
+    },
+    {
+      "word": "rear",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後面與後部在這些相對位置的例句中重疊，合併即可。",
+      "fix": "後方"
+    },
+    {
+      "word": "rear",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "後面的與後方的是同義表述，不須分列。",
+      "fix": "後方的"
+    },
+    {
+      "word": "rear",
+      "path": "senses[2].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "補上動物抬起前腿、以後腿站立的常見用法。",
+      "fix": "養育；飼養；用後腿站立（指動物）"
+    },
+    {
+      "word": "rear",
+      "path": "senses[2].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字且重複養育義，改以常見的動物後腿站立用法補足。",
+      "fix": "The horse reared up on its hind legs at the sudden noise."
+    },
+    {
+      "word": "rear",
+      "path": "senses[2].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "那匹馬聽到突如其來的聲響，抬起前腿，用後腿站立。"
+    },
+    {
+      "word": "recession",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不景氣較籠統，與本組例句所指的經濟衰退重疊。",
+      "fix": "經濟衰退"
+    },
+    {
+      "word": "recommend",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上專業建議所針對的運動及天氣情境。",
+      "fix": "The doctor recommends drinking more water after exercise in hot weather."
+    },
+    {
+      "word": "recommend",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "醫師建議在炎熱天氣運動後多喝水。"
+    },
+    {
+      "word": "regardless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字表示不受所述情況影響，不必然帶有不顧一切代價的強烈語氣。",
+      "fix": "不論情況如何"
+    },
+    {
+      "word": "regardless",
+      "path": "senses[0].examples[2].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "原三句皆為轉折後接句尾副詞，改用常見的 regardless of 句型避免重複。",
+      "fix": "The museum welcomes all visitors regardless of their age or nationality."
+    },
+    {
+      "word": "regardless",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這間博物館歡迎所有訪客，不分年齡或國籍。"
+    },
+    {
+      "word": "rehearsal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "彩排是正式排練的一種，與排練合併即可涵蓋。",
+      "fix": "排練"
+    },
+    {
+      "word": "rehearsal",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上舞台排練的具體需求。",
+      "fix": "Don't be late for tomorrow's rehearsal; the director needs everyone on stage."
+    },
+    {
+      "word": "rehearsal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "明天的排練別遲到；導演需要所有人都到舞台上。"
+    },
+    {
+      "word": "republican",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "合併共和國與共和政體的重複表述，補上大寫時常見的政黨形容詞義。",
+      "fix": "共和政體的；共和黨的（大寫時）"
+    },
+    {
+      "word": "republican",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "補上大寫時的共和黨形容詞義，以中性採訪情境呈現。",
+      "fix": "The newspaper interviewed a Republican candidate about local transport plans."
+    },
+    {
+      "word": "republican",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "這家報社訪問了一位共和黨候選人，討論當地交通計畫。"
+    },
+    {
+      "word": "resident",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "居民與住戶重疊，合併後補上常見的住院醫師義。",
+      "fix": "居民；住院醫師"
+    },
+    {
+      "word": "resident",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為居住者，改以常見的住院醫師名詞用法補足。",
+      "fix": "The resident examined the patient before discussing the case with a senior doctor."
+    },
+    {
+      "word": "resident",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "那位住院醫師檢查病人後，與資深醫師討論病情。"
+    },
+    {
+      "word": "resident",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "補上住院醫師義後，應同時涵蓋健康與身體。",
+      "fix": [
+        "日常生活",
+        "社會與法律",
+        "健康與身體"
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有五字，改為具體且自足的工作要求情境。",
+      "fix": "It is ridiculous to expect one person to finish all this work overnight."
+    },
+    {
+      "word": "ridiculous",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "期待一個人一夜之間完成所有這些工作，實在很荒謬。"
+    },
+    {
+      "word": "rival",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "對手與競爭者在這些例句中是同一概念，合併即可。",
+      "fix": "競爭對手"
+    },
+    {
+      "word": "rival",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "rival 強調競爭關係，不一定代表雙方互相敵視。",
+      "fix": "相互競爭的"
+    },
+    {
+      "word": "rod",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "桿與棒在這些細長物體例句中重疊，合併並標明形狀即可。",
+      "fix": "細長的桿"
+    },
+    {
+      "word": "scan",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是快速瀏覽文字，原籠統的檢查義未準確呈現。",
+      "fix": "掃描；快速瀏覽"
+    },
+    {
+      "word": "scan",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "醫師要求接受檢查的是病人，原譯讓膝蓋成為被指示者，語句不自然。",
+      "fix": "醫師指示他接受膝蓋掃描檢查。"
+    },
+    {
+      "word": "scheme",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "計畫與方案重疊，另補上第三句配色所呈現的配置義。",
+      "fix": "計畫；陰謀；配置"
+    },
+    {
+      "word": "scheme",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句未呈現已列出的陰謀義，以中性的查獲詐騙新聞情境補足。",
+      "fix": "The police uncovered a scheme to sell fake tickets online."
+    },
+    {
+      "word": "scheme",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "警方揭發了一項在網路上販售假票的詐騙計畫。"
+    },
+    {
+      "word": "sector",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句只有六字，補上數位服務需求的具體商業情境。",
+      "fix": "The technology sector is growing fast as demand for digital services increases."
+    },
+    {
+      "word": "sector",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "隨著數位服務需求增加，科技產業正快速成長。"
+    },
+    {
+      "word": "series",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "連續未完整表達名詞所指的一系列事物，並補明第一句的電視影集義。",
+      "fix": "系列；影集"
+    },
+    {
+      "word": "session",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本字指特定活動的一段時段，不是任意時間，也不必是一整套課程。",
+      "fix": "一次活動的時段（如會議或練習）"
+    },
+    {
+      "word": "shortage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "短缺與不足是同義表述，不應分列。",
+      "fix": "短缺"
+    }
+  ]
+}
