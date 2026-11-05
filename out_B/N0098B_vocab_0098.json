@@ -1,0 +1,684 @@
+{
+  "batch": "N0098",
+  "checked": 50,
+  "reviewed": [
+    "mentor",
+    "mortality",
+    "nonprofit",
+    "placement",
+    "respondent",
+    "sensor",
+    "strand",
+    "supposedly",
+    "theology",
+    "undoubtedly",
+    "dresser",
+    "liter",
+    "sneaky",
+    "stationery",
+    "underpass",
+    "locker",
+    "sneaker",
+    "academy",
+    "acre",
+    "altitude",
+    "amid",
+    "applaud",
+    "arithmetic",
+    "ascend",
+    "assassinate",
+    "astronaut",
+    "booklet",
+    "boycott",
+    "bribe",
+    "brook",
+    "calculator",
+    "cape",
+    "caption",
+    "cashier",
+    "casualty",
+    "caterpillar",
+    "cement",
+    "chemist",
+    "cigar",
+    "civilize",
+    "climax",
+    "comparative",
+    "compute",
+    "consonant",
+    "cram",
+    "crutch",
+    "cub",
+    "cucumber",
+    "cultivate",
+    "detergent"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "mentor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「導師」「良師」「指導者」在此均指提供指導的人，義項重複。",
+      "fix": "導師"
+    },
+    {
+      "word": "mentor",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「指導」與「擔任導師」在這組例句中重複表達輔導他人的行為。",
+      "fix": "指導"
+    },
+    {
+      "word": "mortality",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「必死性」與「難免一死」重複，且後者為敘述而非簡明名詞義。",
+      "fix": "死亡率；必死性"
+    },
+    {
+      "word": "placement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義的安置、配置與擺放位置重疊，應依三句的不同用途精簡表達。",
+      "fix": "擺放位置；分班；就業安置"
+    },
+    {
+      "word": "respondent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆指調查受訪者，「回答者」與「受訪者」重複。",
+      "fix": "受訪者；被告"
+    },
+    {
+      "word": "sensor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「感應器」與「感測器」為同一類裝置的近義名稱。",
+      "fix": "感測器"
+    },
+    {
+      "word": "strand",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義含重複的數量提示，改用對應頭髮、蛛絲及繩股的簡明名詞。",
+      "fix": "細絲；線股"
+    },
+    {
+      "word": "supposedly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表傳聞或聲稱，「據稱」重複且「照理說」易混淆為應當如此。",
+      "fix": "據說"
+    },
+    {
+      "word": "undoubtedly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個中文釋義同義重複，保留最直接的意思。",
+      "fix": "無疑地"
+    },
+    {
+      "word": "placement",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「協助應屆畢業生安置工作」搭配不順，應明確表達協助畢業生就業。",
+      "fix": "這家機構協助應屆畢業生就業。"
+    },
+    {
+      "word": "strand",
+      "path": "senses[1].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原句引擎故障僅表示受困，改用退潮情境以示範釋義所列的「擱淺」。",
+      "fix": "Low tide stranded the boat on a sandbank near the shore."
+    },
+    {
+      "word": "strand",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文以退潮和沙洲呈現真正的擱淺情境。",
+      "fix": "退潮使那艘船擱淺在近岸的沙洲上。"
+    },
+    {
+      "word": "supposedly",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "supposedly 表示據說或聲稱，原譯「本來應該」誤成義務或預期。",
+      "fix": "據說他在讀書，可是我聽見他房間傳出很大的音樂聲。"
+    },
+    {
+      "word": "undoubtedly",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tired 僅指疲累，原譯「累壞了」增加原句沒有的程度。",
+      "fix": "經過長途旅行，這支隊伍無疑很累。"
+    },
+    {
+      "word": "dresser",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為抽屜櫃或梳妝臺，未使用一般衣櫃義。",
+      "fix": "梳妝臺；五斗櫃"
+    },
+    {
+      "word": "sneaky",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「鬼鬼祟祟的」與「偷偷摸摸的」同義重複。",
+      "fix": "偷偷摸摸的；狡猾的"
+    },
+    {
+      "word": "stationery",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句只指書寫用信紙，原釋義把信紙信封併列不夠精確。",
+      "fix": "文具；信紙"
+    },
+    {
+      "word": "underpass",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「下穿道」與「地下道」同義，保留台灣慣用名稱即可。",
+      "fix": "地下道"
+    },
+    {
+      "word": "locker",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「置物櫃」與「寄物櫃」在本組例句中指同類可上鎖的櫃子。",
+      "fix": "置物櫃"
+    },
+    {
+      "word": "sneaker",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「運動鞋」與「球鞋」在三句中同義重複。",
+      "fix": "運動鞋"
+    },
+    {
+      "word": "academy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「學院」與「專科學校」在前兩句皆指專業教育機構，無須重複列出。",
+      "fix": "學院；學會"
+    },
+    {
+      "word": "underpass",
+      "path": "senses[0].examples[2].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "「下穿道」非台灣一般慣用名稱，改用「地下道」。",
+      "fix": "一條新的地下道將有助於減少車站附近的車流。"
+    },
+    {
+      "word": "locker",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "bag 只表示包袋，原譯背包增加了原文未指明的款式。",
+      "fix": "進入博物館之前，請把包包放進寄物櫃。"
+    },
+    {
+      "word": "locker",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "密碼應直接用 combination 表達，number of his locker combination 搭配不自然。",
+      "fix": "He forgot the combination to his locker after summer vacation."
+    },
+    {
+      "word": "locker",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入暑假過後的情境，並刪除「密碼號碼」的贅詞。",
+      "fix": "暑假過後，他忘了置物櫃的密碼。"
+    },
+    {
+      "word": "amid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個中文釋義皆表示處在事物或情境之中，意思重複。",
+      "fix": "在……之中"
+    },
+    {
+      "word": "applaud",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「鼓掌」與「喝采」在掌聲情境中重複，保留另有例句的稱讚義。",
+      "fix": "鼓掌；稱讚"
+    },
+    {
+      "word": "arithmetic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個例句皆指算術，「算數」為近義重複，「計算」過於籠統。",
+      "fix": "算術"
+    },
+    {
+      "word": "ascend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「攀登」與「登上」在階梯與山的例句中重複，保留不及物的上升義。",
+      "fix": "上升；攀登"
+    },
+    {
+      "word": "assassinate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「暗殺」與「行刺」近義重複，暗殺更直接對應該字。",
+      "fix": "暗殺"
+    },
+    {
+      "word": "boycott",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「抵制」與「杯葛」同義重複。",
+      "fix": "抵制"
+    },
+    {
+      "word": "boycott",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞釋義的「抵制」與「杯葛」同義重複。",
+      "fix": "抵制"
+    },
+    {
+      "word": "bribe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「賄款」是金錢形式的賄賂，三句未形成另一獨立義項。",
+      "fix": "賄賂"
+    },
+    {
+      "word": "brook",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「小溪」與「溪流」在此同義重複。",
+      "fix": "小溪"
+    },
+    {
+      "word": "ascend",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句只說清晨攀登，未表示在那時開始，應刪除額外的起始語意。",
+      "fix": "登山客在清晨攀登這座山。"
+    },
+    {
+      "word": "boycott",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入商店改善工作條件的情境以符合例句長度要求。",
+      "fix": "The boycott lasted for several months until the store improved working conditions."
+    },
+    {
+      "word": "boycott",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入商店改善工作條件後抵制才結束的語意。",
+      "fix": "這次抵制行動持續了好幾個月，直到那家商店改善工作條件才結束。"
+    },
+    {
+      "word": "calculator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「計算機」與「計算器」同義，保留台灣慣用名稱。",
+      "fix": "計算機"
+    },
+    {
+      "word": "cape",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「披風」與「斗篷」、「岬」與「海角」各為近義重複。",
+      "fix": "披風；海角"
+    },
+    {
+      "word": "caption",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「標題」與照片圖說義重疊，三句並未另示一般標題義。",
+      "fix": "圖說；字幕"
+    },
+    {
+      "word": "cashier",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為商店收銀員，未使用處理機構現金帳務的出納員義。",
+      "fix": "收銀員"
+    },
+    {
+      "word": "casualty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「死傷人數」與傷亡者的複數用法重疊，無須另列。",
+      "fix": "傷亡者；受害者"
+    },
+    {
+      "word": "caterpillar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「毛毛蟲」與「毛蟲」在這組例句中同義重複。",
+      "fix": "毛毛蟲"
+    },
+    {
+      "word": "cement",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指建材水泥，未使用一般膠合劑義。",
+      "fix": "水泥"
+    },
+    {
+      "word": "chemist",
+      "path": "senses[0].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "台灣醫事人員的慣用名稱為「藥師」，原寫法不符台灣用語。",
+      "fix": "化學家；藥師"
+    },
+    {
+      "word": "civilize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「使文明」與「教化」在三句中近義重複。",
+      "fix": "使文明"
+    },
+    {
+      "word": "cape",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一義及三句中的兩句皆為服飾披風，應以日常生活為主要分類。",
+      "fix": [
+        "日常生活",
+        "歷史與地理"
+      ]
+    },
+    {
+      "word": "caption",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "開啟影片字幕慣用複數 captions，原文單數搭配不自然。",
+      "fix": "Turn on the captions if you cannot hear the dialogue."
+    },
+    {
+      "word": "caption",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "如果聽不清楚對白，請開啟字幕。"
+    },
+    {
+      "word": "caterpillar",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "毛毛蟲也可能成為蛾，原句概括為一定變成蝴蝶並不精確。",
+      "fix": "A caterpillar will eventually turn into a butterfly or a moth."
+    },
+    {
+      "word": "caterpillar",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "毛毛蟲最終會變成蝴蝶或蛾。"
+    },
+    {
+      "word": "cement",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般混凝土還包含碎石等粗骨材，原列沙、水與水泥較接近砂漿。",
+      "fix": "Workers mixed sand, gravel, water, and cement to make concrete."
+    },
+    {
+      "word": "cement",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "工人把沙、碎石、水和水泥混合來製作混凝土。"
+    },
+    {
+      "word": "cement",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入共同籌辦校慶的情境以符合例句長度要求。",
+      "fix": "Working together on the school festival cemented our friendship."
+    },
+    {
+      "word": "cement",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "一起籌辦校慶鞏固了我們的友誼。"
+    },
+    {
+      "word": "chemist",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "製藥公司慣用 pharmaceutical company，medicine company 搭配不自然。",
+      "fix": "My aunt is a chemist who works for a pharmaceutical company."
+    },
+    {
+      "word": "chemist",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "我阿姨是一位在製藥公司工作的化學家。"
+    },
+    {
+      "word": "chemist",
+      "path": "senses[0].examples[2].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "應使用台灣慣用的醫事人員名稱「藥師」。",
+      "fix": "請問藥師這種藥對小孩是否安全。"
+    },
+    {
+      "word": "civilize",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "good manners 宜譯為良好禮儀，並須保留 help 的「有助於」語意。",
+      "fix": "良好的禮儀有助於使我們彼此相待的方式更加文明。"
+    },
+    {
+      "word": "climax",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「高潮」與「頂點」在這組電影、演唱會和故事例句中同義重複。",
+      "fix": "高潮"
+    },
+    {
+      "word": "comparative",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用文法上的比較級義，原形容詞釋義未清楚列出。",
+      "fix": "比較的；相對的；比較級的"
+    },
+    {
+      "word": "compute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指計算數量，「估算」為情境上的近義表達，無須重複列出。",
+      "fix": "計算"
+    },
+    {
+      "word": "consonant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「子音」與「輔音」是相同概念的不同名稱。",
+      "fix": "子音"
+    },
+    {
+      "word": "cram",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "cram 的讀書義指考前突擊苦讀，並非被動接受填鴨式教學。",
+      "fix": "塞滿；擠進；臨時抱佛腳"
+    },
+    {
+      "word": "crutch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句使用情感上依賴的比喻義，「支撐物」未清楚表達。",
+      "fix": "拐杖；精神依靠"
+    },
+    {
+      "word": "cub",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「幼熊」與「幼獅」皆為幼獸的例子，與幼獸重複而非不同義項。",
+      "fix": "幼獸"
+    },
+    {
+      "word": "cucumber",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "這組例句皆指同一蔬菜，無須以不同名稱重複列義。",
+      "fix": "小黃瓜"
+    },
+    {
+      "word": "cultivate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「耕種」與「栽培」在作物例句中重複，保留作物栽培及習慣、關係的培養義。",
+      "fix": "栽培；培養"
+    },
+    {
+      "word": "detergent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "洗衣精為清潔劑的一種，原文在不同用途下仍為同一清潔劑義。",
+      "fix": "清潔劑"
+    },
+    {
+      "word": "climax",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "photo finish 指衝線結果極接近而須靠照片判定，原譯未清楚表達終點競爭的情境。",
+      "fix": "比賽在驚險的衝線中達到高潮，須靠終點攝影判定勝負。"
+    },
+    {
+      "word": "comparative",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "studying 不一定表示主修，原譯加入未明示的主修身分。",
+      "fix": "她在大學學習比較文學。"
+    },
+    {
+      "word": "comparative",
+      "path": "senses[1].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "comparative form 中的 comparative 為形容詞，名詞義例句應改用獨立名詞。",
+      "fix": "The teacher asked us to write a comparative for each adjective."
+    },
+    {
+      "word": "comparative",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "老師要我們為每個形容詞寫出一個比較級。"
+    },
+    {
+      "word": "consonant",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入英文課情境以符合例句長度要求。",
+      "fix": "Students practice pronouncing each consonant clearly during their English lessons."
+    },
+    {
+      "word": "consonant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "學生在英文課上練習把每個子音念清楚。"
+    },
+    {
+      "word": "cram",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "五十人擠入小電梯不合常理，改用一般乘客趕在關門前進電梯的情境。",
+      "fix": "Several passengers crammed into the elevator before the doors closed."
+    },
+    {
+      "word": "cram",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "幾位乘客在電梯門關上前擠進了電梯。"
+    }
+  ]
+}
