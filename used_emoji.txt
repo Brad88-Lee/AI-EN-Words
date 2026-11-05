@@ -628,3 +628,5 @@
 🥒(cucumber)
 🐴(pony)
 🤧(sneeze)
+🌪️(tornado)
+🐊(alligator)
