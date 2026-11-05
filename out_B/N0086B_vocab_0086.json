@@ -1,0 +1,873 @@
+{
+  "batch": "N0086",
+  "checked": 50,
+  "reviewed": [
+    "contagious",
+    "contaminate",
+    "contemplate",
+    "contempt",
+    "contend",
+    "contractor",
+    "contradiction",
+    "controversial",
+    "controversy",
+    "conversion",
+    "convert",
+    "convict",
+    "conviction",
+    "coordinate",
+    "copyright",
+    "core",
+    "corporate",
+    "correlation",
+    "corrupt",
+    "corruption",
+    "counsel",
+    "counselor",
+    "coverage",
+    "credibility",
+    "creek",
+    "criterion",
+    "crucial",
+    "crude",
+    "cruise",
+    "cuisine",
+    "currency",
+    "curriculum",
+    "custody",
+    "deadly",
+    "debris",
+    "debut",
+    "decent",
+    "dedicate",
+    "defendant",
+    "defy",
+    "delegation",
+    "deliberate",
+    "denial",
+    "density",
+    "depict",
+    "deploy",
+    "derive",
+    "descend",
+    "descriptive",
+    "destiny"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "contagious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傳染性與易傳染在疾病義中重疊，合併後保留情緒感染力的比喻用法。",
+      "fix": "有傳染性的；有感染力的"
+    },
+    {
+      "word": "contaminate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "汙染與使受污染重複，弄髒又過於籠統，應保留危害物質使事物不潔的意思。",
+      "fix": "汙染"
+    },
+    {
+      "word": "contaminate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "contaminate 不只是使外觀變髒，也包括不可見的病菌或其他污染。",
+      "fix": "請洗手，以免汙染食物。"
+    },
+    {
+      "word": "contemplate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沉思與仔細考慮重疊，打算又可能暗示已形成意圖，三句主要都表示審慎思考。",
+      "fix": "仔細考慮"
+    },
+    {
+      "word": "contemplate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "contemplated 表示曾考慮選項，並不必然表示已打算採取行動。",
+      "fix": "我們原本考慮搭火車，但費用太高了。"
+    },
+    {
+      "word": "contempt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "輕蔑與蔑視為同義表述，不須分列。",
+      "fix": "輕蔑"
+    },
+    {
+      "word": "contempt",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "only 限定對這類球員的情感，不是說教練只看不起這些人而不看不起其他人。",
+      "fix": "教練對那些輕易放棄的球員只感到輕蔑。"
+    },
+    {
+      "word": "contractor",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "包商與承包商重複，獨立承攬人也不等於有僱傭關係的約聘人員。",
+      "fix": "承包商；承攬人"
+    },
+    {
+      "word": "contractor",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "independent contractor 指獨立承攬服務者，不能直接譯為約聘僱員。",
+      "fix": "她以獨立承攬人的身分，為一家軟體公司提供服務。"
+    },
+    {
+      "word": "contractor",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "建築工人不必然是承包商，查詢應明確呈現承包商而非一般受僱工人。",
+      "fix": "contractor reviewing blueprints"
+    },
+    {
+      "word": "contradiction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "矛盾與抵觸在本組不相容說法或行為的例句中重疊，合併即可。",
+      "fix": "矛盾"
+    },
+    {
+      "word": "contradiction",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "是否親自餵寵物不必然與愛動物矛盾，改用同一時間互斥的門鎖狀態呈現明確邏輯衝突。",
+      "fix": "His claim that the door was both locked and unlocked contained an obvious contradiction."
+    },
+    {
+      "word": "contradiction",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，提供完整且忠實的中文翻譯。",
+      "fix": "他聲稱門同時鎖著又沒鎖，這說法有明顯的矛盾。"
+    },
+    {
+      "word": "controversial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有爭議與引起爭論描述同一性質，不須分列。",
+      "fix": "有爭議的"
+    },
+    {
+      "word": "controversy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "爭議與爭論在本組公開意見分歧的例句中重疊，合併即可。",
+      "fix": "爭議"
+    },
+    {
+      "word": "convict",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「判決有罪」與「定罪」為同一詞義，合併重複釋義。",
+      "fix": "定罪"
+    },
+    {
+      "word": "conviction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「信念」與「堅信」在本詞的名詞用法重複，保留信念與法律上的定罪。",
+      "fix": "信念；定罪"
+    },
+    {
+      "word": "coordinate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「使配合」是協調的解釋，合併重複釋義。",
+      "fix": "協調"
+    },
+    {
+      "word": "copyright",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "版權與著作權在本組例句指同一權利，合併重複釋義。",
+      "fix": "著作權"
+    },
+    {
+      "word": "copyright",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上自然的適用範圍以符合例句長度。",
+      "fix": "The book is protected by copyright in many countries."
+    },
+    {
+      "word": "copyright",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的適用範圍調整譯文。",
+      "fix": "這本書在許多國家受到著作權保護。"
+    },
+    {
+      "word": "core",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保留常見核心義在前，並明列蘋果的果核與地球的地核，取代含糊的中心。",
+      "fix": "核心；果核；地核"
+    },
+    {
+      "word": "core",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此組例句的主要與核心義重複，保留核心的。",
+      "fix": "核心的"
+    },
+    {
+      "word": "corporate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "公司與企業義重複，且三句均未呈現法人身分義，精簡為公司的。",
+      "fix": "公司的"
+    },
+    {
+      "word": "correlation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相關性與關聯在這三句中為同一義，合併重複釋義。",
+      "fix": "相關性"
+    },
+    {
+      "word": "corrupt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使變壞與使腐化重複，保留道德腐化和資料損毀兩義。",
+      "fix": "使腐化；使損毀"
+    },
+    {
+      "word": "corruption",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上載入時的具體情境。",
+      "fix": "Data corruption caused the game to crash during loading."
+    },
+    {
+      "word": "corruption",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的載入情境調整譯文。",
+      "fix": "資料損毀導致遊戲在載入時當機。"
+    },
+    {
+      "word": "counsel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "忠告與建議在名詞例句中同義，合併重複釋義。",
+      "fix": "忠告；法律顧問"
+    },
+    {
+      "word": "counsel",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勸告與建議義重複，保留勸告和提供輔導兩義。",
+      "fix": "勸告；提供輔導"
+    },
+    {
+      "word": "counsel",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原本三句均偏向勸告，改用明確的學校輔導情境呈現提供輔導義。",
+      "fix": "The school counselor counsels students who feel anxious about exams."
+    },
+    {
+      "word": "counsel",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫為學生焦慮的輔導情境。",
+      "fix": "學校輔導老師會輔導對考試感到焦慮的學生。"
+    },
+    {
+      "word": "counselor",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句是心理諮商師，原釋義的籠統顧問未清楚呈現此義。",
+      "fix": "輔導老師；營隊輔導員；諮商師"
+    },
+    {
+      "word": "coverage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "依新聞、手機收訊和牙科保險三個情境明確區分詞義。",
+      "fix": "報導；訊號涵蓋範圍；保險保障範圍"
+    },
+    {
+      "word": "credibility",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指可信程度，合併同義的信譽。",
+      "fix": "可信度"
+    },
+    {
+      "word": "creek",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小溪與溪流在三句中重複，精簡為小溪。",
+      "fix": "小溪"
+    },
+    {
+      "word": "creek",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「踩著一座木橋過了小溪」搭配不自然，改為走過木橋越溪。",
+      "fix": "我們走過一座木橋，越過小溪。"
+    },
+    {
+      "word": "criterion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "標準與準則在此為同義，合併重複釋義。",
+      "fix": "標準"
+    },
+    {
+      "word": "crucial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "關鍵的與至關重要的在例句中為同義，精簡釋義。",
+      "fix": "關鍵的"
+    },
+    {
+      "word": "crude",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "地圖例句呈現製作粗略，明確對應首義，避免誤解為表面粗糙。",
+      "fix": "粗略的；粗俗的；未加工的"
+    },
+    {
+      "word": "cruise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為郵輪旅行，合併重複的乘船遊覽義。",
+      "fix": "郵輪旅行"
+    },
+    {
+      "word": "cruise",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "cruise 表示平穩行駛，並未限定一定慢速。",
+      "fix": "週末時，車子會在大街上平穩地行駛。"
+    },
+    {
+      "word": "cuisine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "本組例句均指地方料理，合併菜餚、料理及烹調風格的重複說明。",
+      "fix": "料理"
+    },
+    {
+      "word": "cuisine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上觀光客來自各地的情境。",
+      "fix": "Taiwanese cuisine is popular with tourists from around the world."
+    },
+    {
+      "word": "cuisine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上觀光客來源。",
+      "fix": "台灣料理很受來自世界各地的觀光客歡迎。"
+    },
+    {
+      "word": "cuisine",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上傳統料理及新鮮食材使情境完整。",
+      "fix": "This restaurant serves traditional Italian cuisine made with fresh ingredients."
+    },
+    {
+      "word": "cuisine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的傳統料理與食材描述。",
+      "fix": "這家餐廳供應以新鮮食材製作的傳統義式料理。"
+    },
+    {
+      "word": "currency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "貨幣與通貨在此同義，合併重複釋義。",
+      "fix": "貨幣"
+    },
+    {
+      "word": "currency",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "數位貨幣不必然只能在線上使用，改為具體商店接受付款的情境。",
+      "fix": "The online store accepts payment in a digital currency."
+    },
+    {
+      "word": "currency",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫，移除數位貨幣僅限線上使用的過度概括。",
+      "fix": "這家網路商店接受以數位貨幣付款。"
+    },
+    {
+      "word": "curriculum",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "curriculum 指整體課程規劃，不是列出上課時段的課程表。",
+      "fix": "課程規劃"
+    },
+    {
+      "word": "custody",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上被捕後留置過夜的情境。",
+      "fix": "The suspect remained in police custody overnight after the arrest."
+    },
+    {
+      "word": "custody",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上被捕與過夜情境。",
+      "fix": "嫌犯被捕後由警方拘留過夜。"
+    },
+    {
+      "word": "deadly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句呈現致命，作物例句則是毀滅性，依實際用法明列兩義。",
+      "fix": "致命的；毀滅性的"
+    },
+    {
+      "word": "deadly",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上疾病傷害心肺的描述。",
+      "fix": "Smoking can cause deadly diseases that damage the heart and lungs."
+    },
+    {
+      "word": "deadly",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上疾病傷害的器官。",
+      "fix": "吸菸可能引發損害心臟和肺部的致命疾病。"
+    },
+    {
+      "word": "debris",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上碎片碰撞衛星的具體情境。",
+      "fix": "Space debris can damage satellites when it collides with them."
+    },
+    {
+      "word": "debris",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上碰撞造成損壞的情境。",
+      "fix": "太空垃圾與衛星相撞時，可能使衛星受損。"
+    },
+    {
+      "word": "debut",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首次亮相與初次登場同義，合併重複釋義。",
+      "fix": "首次亮相"
+    },
+    {
+      "word": "debut",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上專輯在多國熱賣的範圍。",
+      "fix": "His debut album sold very well in several countries."
+    },
+    {
+      "word": "debut",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的銷售範圍。",
+      "fix": "他的首張專輯在好幾個國家都賣得非常好。"
+    },
+    {
+      "word": "decent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "像樣與不錯在薪水及旅館例句重複，保留品質與衣著得體兩義。",
+      "fix": "不錯的；得體的"
+    },
+    {
+      "word": "dedicate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "明列人生奉獻、作品獻給某人與時間專用於某事三種例句用法。",
+      "fix": "奉獻；獻給；專用於"
+    },
+    {
+      "word": "dedicate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "「把一生奉獻給幫助孩子」搭配生硬，改為自然的致力於幫助孩子。",
+      "fix": "她一生致力於幫助孩子。"
+    },
+    {
+      "word": "dedicate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "dedicate 在此是特別撥出時間，原譯專心未表達時間分配。",
+      "fix": "我們把每個星期天都用來打掃家裡。"
+    },
+    {
+      "word": "defendant",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "法庭上的男子也可能是證人或律師，搜尋詞須明確指定被告。",
+      "fix": "defendant in court"
+    },
+    {
+      "word": "defy",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上爭取自主的情境。",
+      "fix": "Teenagers sometimes defy their parents' rules to gain more independence."
+    },
+    {
+      "word": "defy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的目的。",
+      "fix": "青少年有時會為了爭取更多自主而違抗父母訂的規矩。"
+    },
+    {
+      "word": "defy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "不顧大雨通常用 braved the rain，改為 defy 自然搭配的違抗禁令。",
+      "fix": "She defied the ban and rode her bike to school."
+    },
+    {
+      "word": "defy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫為違抗禁令的情境。",
+      "fix": "她違抗禁令，騎腳踏車去學校。"
+    },
+    {
+      "word": "delegation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合併授權與委派的重複說明，保留代表團與管理授權兩義。",
+      "fix": "代表團；授權"
+    },
+    {
+      "word": "delegation",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上討論學生交流的參訪目的。",
+      "fix": "A Japanese delegation visited our school to discuss student exchanges."
+    },
+    {
+      "word": "delegation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "一個日本代表團參訪了我們學校，討論學生交流事宜。"
+    },
+    {
+      "word": "delegation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上主管信任團隊的情境。",
+      "fix": "Good managers are skilled at delegation and trust their teams."
+    },
+    {
+      "word": "delegation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "優秀的主管擅長授權，也信任自己的團隊。"
+    },
+    {
+      "word": "deliberate",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上犯錯後道歉的情境。",
+      "fix": "The mistake was not deliberate, so she quickly apologized."
+    },
+    {
+      "word": "deliberate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "這個錯誤不是故意的，所以她很快就道歉了。"
+    },
+    {
+      "word": "deliberate",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上審議後作出裁決的目的。",
+      "fix": "The jury needs time to deliberate before reaching a verdict."
+    },
+    {
+      "word": "deliberate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "陪審團需要時間審議，才能作出裁決。"
+    },
+    {
+      "word": "density",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上人口密度比較的範圍。",
+      "fix": "Taipei has a high population density compared with many smaller cities."
+    },
+    {
+      "word": "density",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "相較於許多較小的城市，台北的人口密度很高。"
+    },
+    {
+      "word": "density",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上油浮於水面的可觀察結果。",
+      "fix": "Water and oil have different densities, so oil floats on water."
+    },
+    {
+      "word": "density",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "水和油的密度不同，因此油會浮在水面上。"
+    },
+    {
+      "word": "derive",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充常見詞彙與希臘文來源。",
+      "fix": "Many common English words derive from Latin and Greek."
+    },
+    {
+      "word": "derive",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "許多常見的英文單字源自拉丁文和希臘文。"
+    },
+    {
+      "word": "derive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上教孩子閱讀的具體情境。",
+      "fix": "She derives great joy from teaching young children to read."
+    },
+    {
+      "word": "derive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "她從教年幼的孩子閱讀中獲得很大的快樂。"
+    },
+    {
+      "word": "descend",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上接近機場的飛行情境。",
+      "fix": "The plane began to descend slowly as it approached the airport."
+    },
+    {
+      "word": "descend",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "飛機接近機場時，開始緩緩下降。"
+    },
+    {
+      "word": "descriptive",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上說明性檔名方便查找的用途。",
+      "fix": "Use descriptive names for your files so others can find them easily."
+    },
+    {
+      "word": "descriptive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "請替你的檔案取具說明性的名稱，讓別人能輕易找到檔案。"
+    },
+    {
+      "word": "denial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "簽證申請被拒絕與否決為同一例句用義，合併重複釋義。",
+      "fix": "否認；拒絕"
+    },
+    {
+      "word": "density",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保留物理與人口密度，並以名詞片語明列森林茂密程度。",
+      "fix": "密度；茂密程度"
+    },
+    {
+      "word": "depict",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "描繪與描寫在這三句的表現義重複，精簡釋義。",
+      "fix": "描繪"
+    },
+    {
+      "word": "deploy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句呈現軟體部署與人車調派，未呈現展開義。",
+      "fix": "部署；調派"
+    },
+    {
+      "word": "derive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "源自與衍生在語源例句中重複，保留來源與獲得感受兩義。",
+      "fix": "源自；獲得"
+    },
+    {
+      "word": "descend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小徑例句呈現向下延伸，不是人行走下坡，明列三種情境。",
+      "fix": "下降；往下走；向下延伸"
+    },
+    {
+      "word": "descriptive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "描述與描寫為同義，保留描寫事物及名稱具說明性兩義。",
+      "fix": "描述性的；具說明性的"
+    },
+    {
+      "word": "destiny",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "命運與天命在本組例句同義，合併重複釋義。",
+      "fix": "命運"
+    },
+    {
+      "word": "core",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象核心，蘋果果核圖片對應的是第二個意思。",
+      "fix": null
+    },
+    {
+      "word": "copyright",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "著作權是抽象法律權利，依規則不設定圖片搜尋詞。",
+      "fix": null
+    }
+  ]
+}
