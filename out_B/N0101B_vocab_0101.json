@@ -1,0 +1,425 @@
+{
+  "batch": "N0101",
+  "checked": 50,
+  "reviewed": [
+    "tornado",
+    "trademark",
+    "transplant",
+    "twinkle",
+    "upward",
+    "vapor",
+    "vigor",
+    "vigorous",
+    "violinist",
+    "virgin",
+    "vowel",
+    "ward",
+    "waterproof",
+    "wrinkle",
+    "yogurt",
+    "abbreviate",
+    "abide",
+    "aboriginal",
+    "abound",
+    "abstraction",
+    "abundance",
+    "accessory",
+    "acclaim",
+    "accordance",
+    "accordingly",
+    "accountable",
+    "accumulate",
+    "accumulation",
+    "accusation",
+    "accustom",
+    "acne",
+    "adaptation",
+    "addiction",
+    "administer",
+    "admiral",
+    "adolescence",
+    "advisory",
+    "aesthetic",
+    "affectionate",
+    "affiliate",
+    "affirm",
+    "airtight",
+    "airway",
+    "algebra",
+    "alienate",
+    "allege",
+    "alligator",
+    "ambiguity",
+    "amplify",
+    "analogy"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "trademark",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "註冊商標屬於商標，無須重複列義。",
+      "fix": "商標；招牌特色"
+    },
+    {
+      "word": "transplant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「移植」已涵蓋器官及植物移植，移栽為近義重複。",
+      "fix": "移植"
+    },
+    {
+      "word": "transplant",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指醫療移植手術，原兩個釋義重複。",
+      "fix": "移植手術"
+    },
+    {
+      "word": "twinkle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「閃爍」與「閃耀」近義重複。",
+      "fix": "閃爍"
+    },
+    {
+      "word": "twinkle",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原釋義近義重複，且第一句眼中的 twinkle 指說笑時流露的笑意。",
+      "fix": "閃光；眼中流露的笑意"
+    },
+    {
+      "word": "upward",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「向上」與「往上」同義重複。",
+      "fix": "向上"
+    },
+    {
+      "word": "vapor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「水氣」是水的蒸氣，原兩個釋義近義重複。",
+      "fix": "蒸氣"
+    },
+    {
+      "word": "vigor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「活力」與「精力」同義重複。",
+      "fix": "活力"
+    },
+    {
+      "word": "violinist",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「小提琴手」與「小提琴家」在此近義重複。",
+      "fix": "小提琴家"
+    },
+    {
+      "word": "virgin",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「原始的」與「未開發的」在森林例句中重複。",
+      "fix": "原始的；初榨的；未被踩踏的"
+    },
+    {
+      "word": "vapor",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "鏡面上的水珠是蒸氣凝結的結果，不能把氣態蒸氣說成覆蓋鏡面的水層。",
+      "fix": "Water vapor condensed on the bathroom mirror after the hot shower."
+    },
+    {
+      "word": "vapor",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文說明水蒸氣在鏡面凝結成水珠。",
+      "fix": "洗完熱水澡後，水蒸氣在浴室鏡面上凝結成水珠。"
+    },
+    {
+      "word": "vowel",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句把 vowel 用作母音字母，應與語音上的母音區分。",
+      "fix": "母音；母音字母"
+    },
+    {
+      "word": "vowel",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原句談的是字母，宜明確譯成母音字母。",
+      "fix": "字母 a、e、i、o、u 是母音字母。"
+    },
+    {
+      "word": "vowel",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "sky 中的 y 本身用作母音字母，直接說沒有任何母音字母會誤導學習。",
+      "fix": "In the word sky, the letter y represents a vowel sound."
+    },
+    {
+      "word": "vowel",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文說明 sky 中的 y 代表母音，保留必要的字母與單字示例。",
+      "fix": "在 sky 這個字中，字母 y 代表母音。"
+    },
+    {
+      "word": "abide",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遵守規定與信守承諾皆為遵守之義，無須以近義詞重複列出。",
+      "fix": "遵守；忍受"
+    },
+    {
+      "word": "abound",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句為大量存在、第三句為充滿，沒有另示出產豐盛的盛產義。",
+      "fix": "大量存在；充滿"
+    },
+    {
+      "word": "abundance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「豐富」與「大量」在前兩句中重複，保留富裕生活的另一用法。",
+      "fix": "大量；富裕"
+    },
+    {
+      "word": "accessory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「附屬用品」與「配件」同義重複。",
+      "fix": "配件；飾品"
+    },
+    {
+      "word": "acclaim",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「讚譽」與「讚揚」在三句中同義重複。",
+      "fix": "讚譽"
+    },
+    {
+      "word": "accordance",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "accordance 是名詞，「依照」屬整個介系詞片語的意思，且一致與符合近義重複。",
+      "fix": "一致"
+    },
+    {
+      "word": "accumulate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「累積」與「積聚」同義重複。",
+      "fix": "累積"
+    },
+    {
+      "word": "accumulation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「累積」與「堆積」在本組例句中近義重複。",
+      "fix": "累積"
+    },
+    {
+      "word": "accusation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「指控」與「控告」在三句中近義重複，並非另指正式訴訟程序。",
+      "fix": "指控"
+    },
+    {
+      "word": "accustom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「使習慣」與「使適應」同義重複。",
+      "fix": "使習慣"
+    },
+    {
+      "word": "acne",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「青春痘」與「痘痘」在這組例句中同義重複。",
+      "fix": "青春痘"
+    },
+    {
+      "word": "addiction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個中文釋義在這組例句中皆指成癮，近義重複。",
+      "fix": "成癮"
+    },
+    {
+      "word": "administer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原釋義的「給予」過於籠統，施藥可直接對應醫療用法並刪除括號說明。",
+      "fix": "管理；實施；施藥"
+    },
+    {
+      "word": "advisory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為針對風險發布的警示，公告是較寬泛的近義表達。",
+      "fix": "警示"
+    },
+    {
+      "word": "advisory",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指提供建議的角色，兩個中文釋義近義重複。",
+      "fix": "顧問的"
+    },
+    {
+      "word": "aesthetic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個中文釋義在本組外觀與品味例句中近義重複。",
+      "fix": "審美的"
+    },
+    {
+      "word": "affectionate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個中文釋義在這組親情與親暱互動情境中重疊。",
+      "fix": "充滿愛意的"
+    },
+    {
+      "word": "affiliate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "affiliate 不必然表示隸屬或控制，泛稱合作又過寬，應明示建立正式關聯。",
+      "fix": "建立正式關聯；加入"
+    },
+    {
+      "word": "affiliate",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只表示建立正式關聯，未指明小學院隸屬於大學。",
+      "fix": "這所小型學院決定與那所較大的大學建立正式關聯。"
+    },
+    {
+      "word": "airtight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「密封的」與「不透氣的」在容器例句中重複。",
+      "fix": "密封的；無懈可擊的"
+    },
+    {
+      "word": "airway",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "航空 airway 指指定的空中航路，不等於航空公司經營的城市間航線。",
+      "fix": "呼吸道；航路"
+    },
+    {
+      "word": "allege",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「聲稱」與「指稱」在三句中近義重複。",
+      "fix": "聲稱"
+    },
+    {
+      "word": "ambiguity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「含糊」與「模稜兩可」重複，保留可有多種解讀的歧義。",
+      "fix": "含糊；歧義"
+    },
+    {
+      "word": "amplify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「增強」與聲音放大及程度加劇的意思重疊，無須另列。",
+      "fix": "放大；加劇"
+    },
+    {
+      "word": "analogy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆以事物間的相似性作類比，泛稱比喻過寬且近義重複。",
+      "fix": "類比"
+    },
+    {
+      "word": "airway",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "航空公司開闢的是 air route，airway 宜用指定航路的飛航管制情境示範。",
+      "fix": "Air traffic controllers directed the plane along a designated airway."
+    },
+    {
+      "word": "airway",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為飛航管制員引導飛機沿指定航路飛行。",
+      "fix": "飛航管制員引導飛機沿著指定航路飛行。"
+    },
+    {
+      "word": "airway",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "checked that 表示檢查確認暢通，原譯是否暢通未保留確認結果。",
+      "fix": "醫師檢查並確認病患的呼吸道暢通。"
+    },
+    {
+      "word": "algebra",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "needs help with homework 指需要協助，原譯容易被理解為找人代寫。",
+      "fix": "我弟弟今晚需要有人協助他完成代數作業。"
+    }
+  ]
+}
