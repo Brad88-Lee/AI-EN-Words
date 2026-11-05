@@ -1,0 +1,593 @@
+{
+  "batch": "N0093",
+  "checked": 50,
+  "reviewed": [
+    "racism",
+    "rack",
+    "ragged",
+    "raid",
+    "rail",
+    "rally",
+    "ranch",
+    "random",
+    "ratio",
+    "rational",
+    "rattle",
+    "realism",
+    "realm",
+    "reassure",
+    "rebellion",
+    "recipient",
+    "recommendation",
+    "recruit",
+    "refuge",
+    "regime",
+    "reinforce",
+    "removal",
+    "render",
+    "rental",
+    "repay",
+    "resemblance",
+    "reservoir",
+    "residential",
+    "resort",
+    "resume",
+    "retail",
+    "revenue",
+    "reverse",
+    "rhetoric",
+    "rib",
+    "ridge",
+    "rigid",
+    "rim",
+    "riot",
+    "rip",
+    "risky",
+    "ritual",
+    "sacred",
+    "saddle",
+    "saint",
+    "salmon",
+    "salon",
+    "sandal",
+    "scandal",
+    "scar"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "rack",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "架子與置物架在雨傘、衣物及單車架例句重複，精簡釋義。",
+      "fix": "置物架"
+    },
+    {
+      "word": "rack",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使痛苦與折磨在三句同義，合併重複釋義。",
+      "fix": "折磨"
+    },
+    {
+      "word": "raid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "襲擊與突襲重複，另明列警方及稽查人員突擊搜查的用法。",
+      "fix": "突襲；突擊搜查"
+    },
+    {
+      "word": "raid",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "警方及稽查人員例句是突擊搜查，並非單指攻擊，另保留搜刮點心義。",
+      "fix": "突擊搜查；搜刮"
+    },
+    {
+      "word": "rail",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "浴室毛巾架的 rail 是橫桿，原釋義未明列，並保留欄杆與鐵軌義。",
+      "fix": "欄杆；鐵軌；橫桿"
+    },
+    {
+      "word": "rally",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "集會與大會在學校活動例句重複，另保留股價回升義。",
+      "fix": "集會；回升"
+    },
+    {
+      "word": "rally",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "教練 rally the team 是鼓舞士氣，團結未清楚呈現此用法。",
+      "fix": "集結；鼓舞；回升"
+    },
+    {
+      "word": "ranch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為飼養牛馬的牧場，大農場是較籠統且重複的說明。",
+      "fix": "牧場"
+    },
+    {
+      "word": "ratio",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "比率與比例在男女、食材及師生人數例句同義，合併重複釋義。",
+      "fix": "比例"
+    },
+    {
+      "word": "rail",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅以 rail station 的修飾用法呈現鐵路，改用實體鐵軌呈現已列出的常見義。",
+      "fix": "The workers replaced a damaged rail before the next train arrived."
+    },
+    {
+      "word": "rail",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "工人在下一班火車抵達前更換了一段受損鐵軌。"
+    },
+    {
+      "word": "random",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "random message 語意含糊且原譯無關緊要不準確，改以隨意選頁呈現清楚用法。",
+      "fix": "She opened the book to a random page and began reading."
+    },
+    {
+      "word": "random",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "她隨意翻開書中的一頁，開始閱讀。"
+    },
+    {
+      "word": "ratio",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "teacher to student 作複合形容詞修飾 ratio 時補連字號，並以增聘教師的具體情境表達。",
+      "fix": "The school hired more teachers to improve its teacher-to-student ratio."
+    },
+    {
+      "word": "ratio",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "學校增聘更多教師，以改善師生人數比例。"
+    },
+    {
+      "word": "realism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句指作品逼真的寫實風格，第三句指務實態度，不必等同特定藝術或思想流派。",
+      "fix": "寫實風格；務實態度"
+    },
+    {
+      "word": "realm",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "領域與範圍在科學及能力例句重複，另保留王國義。",
+      "fix": "領域；王國"
+    },
+    {
+      "word": "rebellion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "反抗與叛逆在青少年行為例句重複，另保留政治叛亂義。",
+      "fix": "叛亂；叛逆"
+    },
+    {
+      "word": "recruit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "招募與徵求在工程師、社員及志工例句重複，精簡釋義。",
+      "fix": "招募"
+    },
+    {
+      "word": "recruit",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "新成員與新進人員在組織加入者的情境同義，合併釋義。",
+      "fix": "新進人員"
+    },
+    {
+      "word": "rattle",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "loud question 的搭配生硬且不等於原譯突如其來，改為 unexpected question 並交代簡報情境。",
+      "fix": "The unexpected question rattled the young speaker during her presentation."
+    },
+    {
+      "word": "rattle",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "那個突如其來的提問讓年輕講者在簡報時慌了手腳。"
+    },
+    {
+      "word": "recruit",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上協助體育活動的志工工作情境。",
+      "fix": "The school recruits volunteers every spring to help with sports events."
+    },
+    {
+      "word": "recruit",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "學校每年春天都會招募志工，協助舉辦體育活動。"
+    },
+    {
+      "word": "recruit",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "short training session 只表示簡短訓練，沒有指定一小時。",
+      "fix": "每位新進人員都會接受一場簡短的訓練。"
+    },
+    {
+      "word": "reinforce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "加強與強化在知識及論點例句重複，另保留橋樑加固義。",
+      "fix": "加強；加固"
+    },
+    {
+      "word": "removal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "移除與清除在招牌及牙齒例句重複，另保留家具搬遷義。",
+      "fix": "移除；搬遷"
+    },
+    {
+      "word": "render",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分清使道路無法使用、提供協助及描繪橋樑的三個用法。",
+      "fix": "使成為；提供；描繪"
+    },
+    {
+      "word": "rental",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "出租與租用是同一租賃關係的不同角度，並以租賃的涵蓋租賃服務辦公室。",
+      "fix": "租賃的"
+    },
+    {
+      "word": "resemblance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "相似與相像同義，並以名詞相似性表達。",
+      "fix": "相似性"
+    },
+    {
+      "word": "reservoir",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句同指水庫，第三句比喻知識寶庫，原儲備未清楚呈現容納知識的場所義。",
+      "fix": "水庫；寶庫"
+    },
+    {
+      "word": "residential",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "住宅與居住在本組住宅區街道及建物情境重複，精簡釋義。",
+      "fix": "住宅的"
+    },
+    {
+      "word": "resort",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指採取某種手段，沒有向人或機構求助的獨立用法。",
+      "fix": "訴諸"
+    },
+    {
+      "word": "resume",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指中斷後恢復進行，重新開始與繼續為重複說明。",
+      "fix": "恢復進行"
+    },
+    {
+      "word": "reinforce",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "regular 指規律而非必定每天，移除額外增加的每日頻率。",
+      "fix": "規律的練習會加強你在課堂上所學。"
+    },
+    {
+      "word": "render",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "render a fair service 搭配不自然，改用典型的 render valuable assistance 提供協助用法。",
+      "fix": "The volunteers rendered valuable assistance to families affected by the flood."
+    },
+    {
+      "word": "render",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "志工們為受水災影響的家庭提供了寶貴的協助。"
+    },
+    {
+      "word": "rental",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句 bike rental 指租賃店服務，改用可歸還的 rental 明確呈現已列出的出租物義。",
+      "fix": "We returned the rental before noon to avoid paying extra fees."
+    },
+    {
+      "word": "rental",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "我們在中午前歸還租用的物品，以免支付額外費用。"
+    },
+    {
+      "word": "revenue",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "營收是機構收入，停車費則不是稅收，精簡重複及未呈現的稅收義。",
+      "fix": "收入"
+    },
+    {
+      "word": "reverse",
+      "path": "senses[2].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "相反與顛倒重複，紙張例句使用的背面義原本未列。",
+      "fix": "相反的；背面的"
+    },
+    {
+      "word": "rhetoric",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句指修辭的運用或學習，未另行呈現某個人的辯才，保留修辭及空談。",
+      "fix": "修辭；空談"
+    },
+    {
+      "word": "ridge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "山脊與稜線在山區例句重複，另保留雪埂等隆起處義。",
+      "fix": "山脊；隆起處"
+    },
+    {
+      "word": "riot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴動與騷亂在群體失序例句重複，精簡釋義。",
+      "fix": "暴動"
+    },
+    {
+      "word": "riot",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴動與騷亂在球迷、街頭及監獄事件中重複，精簡釋義。",
+      "fix": "暴動"
+    },
+    {
+      "word": "rip",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "撕破與撕裂重複，三句也未另呈現從某處扯下物品的用法。",
+      "fix": "撕裂"
+    },
+    {
+      "word": "rip",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裂口與破洞在布料被撕裂的三句中重複，精簡釋義。",
+      "fix": "裂口"
+    },
+    {
+      "word": "reverse",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上審閱新證據後撤銷判決的情境。",
+      "fix": "The judge reversed the earlier decision after reviewing new evidence."
+    },
+    {
+      "word": "reverse",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "法官審閱新證據後，撤銷了先前的判決。"
+    },
+    {
+      "word": "reverse",
+      "path": "senses[2].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改為常見的訊息依日期倒序顯示情境。",
+      "fix": "The program displays the saved messages in reverse order by date."
+    },
+    {
+      "word": "reverse",
+      "path": "senses[2].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這個程式會按日期倒序顯示已儲存的訊息。"
+    },
+    {
+      "word": "reverse",
+      "path": "senses[2].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原 reverse method 缺少具體參照，改以減法驗算加法呈現反向運算。",
+      "fix": "Use subtraction as the reverse operation to check your addition."
+    },
+    {
+      "word": "reverse",
+      "path": "senses[2].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "用減法作為逆運算，來驗算加法。"
+    },
+    {
+      "word": "risky",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "危險與冒險在游泳、投資及過馬路例句重複，以有風險的統一表達。",
+      "fix": "有風險的"
+    },
+    {
+      "word": "ritual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "家庭飯後喝茶是固定習慣，例行公事容易誤解為應付工作或義務。",
+      "fix": "儀式；固定習慣"
+    },
+    {
+      "word": "ritual",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均指儀式舞蹈、習俗或淨身，未另呈現一般日常例行的用法。",
+      "fix": "儀式的"
+    },
+    {
+      "word": "sacred",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩句指宗教神聖，家庭晚餐句是不可侵犯的重視，並非莊嚴氣氛。",
+      "fix": "神聖的；不可侵犯的"
+    },
+    {
+      "word": "saint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合併重複的宗教稱謂，並明列誇讚樂於助人的大好人用法。",
+      "fix": "聖人；大好人"
+    },
+    {
+      "word": "salmon",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鮭魚色與粉橘色在三句同指一種色彩，合併重複釋義。",
+      "fix": "粉橘色的"
+    },
+    {
+      "word": "scandal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "醜聞與醜事在本組公開事件例句重複，精簡釋義。",
+      "fix": "醜聞"
+    },
+    {
+      "word": "scar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區分皮膚癒合留下的疤痕與戰爭對城鎮留下的創傷痕跡，避免將傷痕泛指未癒合傷口。",
+      "fix": "疤痕；創傷痕跡"
+    },
+    {
+      "word": "ritual",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文沒有指定我們家，移除額外增加的家庭歸屬。",
+      "fix": "晚餐後喝茶是一種家庭慣例。"
+    },
+    {
+      "word": "ritual",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "passed down for years 只說流傳多年，沒有明確指跨越世代。",
+      "fix": "他們遵循一項流傳多年的儀式習俗。"
+    },
+    {
+      "word": "salmon",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "fresh salmon 常指鮭魚肉食材，改用游動的鮭魚明確對應第一個動物義。",
+      "fix": "salmon swimming"
+    },
+    {
+      "word": "scar",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "舊油漆作為 scarred 的原因搭配不自然，改用銳利工具造成木桌表面傷痕。",
+      "fix": "The sharp tool scarred the surface of the wooden table."
+    },
+    {
+      "word": "scar",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為銳利工具使木桌表面受損的情境。",
+      "fix": "銳利的工具在木桌表面留下了刮痕。"
+    }
+  ]
+}
