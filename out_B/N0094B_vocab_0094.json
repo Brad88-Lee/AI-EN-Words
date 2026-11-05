@@ -1,0 +1,659 @@
+{
+  "batch": "N0094",
+  "checked": 50,
+  "reviewed": [
+    "scenario",
+    "scent",
+    "scope",
+    "scramble",
+    "scrap",
+    "script",
+    "segment",
+    "seminar",
+    "senator",
+    "sensation",
+    "sensitivity",
+    "sentiment",
+    "sentimental",
+    "sequence",
+    "server",
+    "setting",
+    "shareholder",
+    "shatter",
+    "shed",
+    "sheer",
+    "sheriff",
+    "shield",
+    "shiver",
+    "shove",
+    "sibling",
+    "siege",
+    "skeleton",
+    "slam",
+    "slap",
+    "slot",
+    "smash",
+    "snatch",
+    "sniff",
+    "soak",
+    "soar",
+    "sober",
+    "soften",
+    "sole",
+    "solo",
+    "sophisticated",
+    "sophomore",
+    "sovereignty",
+    "spacious",
+    "specialist",
+    "specialize",
+    "specialty",
+    "specify",
+    "specimen",
+    "spectacular",
+    "spectrum"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "scenario",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為可能發生或供演練的情境，沒有實際劇本大綱義，並合併重複說明。",
+      "fix": "設想的情境"
+    },
+    {
+      "word": "scramble",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "scramble eggs 指攪動烹煮成炒蛋，不只是攪拌生蛋，並將爬行精確表達為攀爬。",
+      "fix": "攀爬；爭搶；炒（蛋）"
+    },
+    {
+      "word": "scramble",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "以忙亂呈現趕著出門的狀態，並補上手腳並用攀爬的常見名詞義。",
+      "fix": "爭奪；忙亂；攀爬"
+    },
+    {
+      "word": "scrap",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "not a scrap of food 指連少量食物都沒有，原釋義未列少量義。",
+      "fix": "小片；廢料；少量"
+    },
+    {
+      "word": "script",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "劇本與腳本在演出及影片例句重複，第三句是字跡而非特定手寫字體。",
+      "fix": "劇本；字跡"
+    },
+    {
+      "word": "segment",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "部分、片段及區段在節目與道路例句重複，另明列柳橙果瓣義。",
+      "fix": "部分；果瓣"
+    },
+    {
+      "word": "sensation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "an overnight sensation 指一夕走紅的人物，將轟動義明確表達為可數名詞用法。",
+      "fix": "感覺；轟動一時的人事物"
+    },
+    {
+      "word": "scent",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "氣味是嗅覺性質，花朵照片只呈現來源物，無法直接呈現氣味。",
+      "fix": null
+    },
+    {
+      "word": "scramble",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "scramble eggs 是烹煮炒蛋，不只是把生蛋攪拌一下。",
+      "fix": "請加一點牛奶來炒蛋。"
+    },
+    {
+      "word": "scramble",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文敘述特定早上的情況，沒有總是如此的習慣語氣。",
+      "fix": "那天早上為了讓大家出門，忙成一團。"
+    },
+    {
+      "word": "segment",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一意思為一般部分，柳橙瓣對應另列的果瓣義，移除圖片搜尋詞。",
+      "fix": null
+    },
+    {
+      "word": "sensation",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "英文只說一夕走紅，沒有指定轟動範圍是全國。",
+      "fix": "這位新歌手一夕之間爆紅。"
+    },
+    {
+      "word": "scope",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "beyond the scope of a beginner 搭配不自然，改用 scope for 呈現已列的餘地義。",
+      "fix": "The assignment gives students plenty of scope for creative thinking."
+    },
+    {
+      "word": "scope",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這份作業讓學生有充分發揮創意思考的空間。"
+    },
+    {
+      "word": "scramble",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原首末句均偏向隊伍爭搶，改以山坡攀爬呈現名詞的另一常見用法。",
+      "fix": "The steep scramble up the hillside took us an hour."
+    },
+    {
+      "word": "scramble",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "我們花了一個小時手腳並用爬上陡峭山坡。"
+    },
+    {
+      "word": "segment",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改用具體果瓣的味道與口感描述補足句長。",
+      "fix": "Each segment of the orange was sweet and juicy."
+    },
+    {
+      "word": "segment",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這顆柳橙的每一瓣都香甜多汁。"
+    },
+    {
+      "word": "sensitivity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "sensitivity 可指食物敏感，並不必然是免疫性的過敏，以敏感度涵蓋身體反應並保留體貼義。",
+      "fix": "敏感度；體貼"
+    },
+    {
+      "word": "sentimental",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句談電影過度煽情，原釋義未列；情感原因也不必然是懷舊。",
+      "fix": "多愁善感的；煽情的"
+    },
+    {
+      "word": "shatter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區分玻璃自行碎裂、打破寧靜與粉碎希望三種實際用法。",
+      "fix": "碎裂；打破；粉碎"
+    },
+    {
+      "word": "shed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "棚子與小屋在存放工具、單車及柴火的例句重複，精簡釋義。",
+      "fix": "棚屋"
+    },
+    {
+      "word": "shed",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "移除未呈現的擺脫義，保留脫毛與流淚，並補明 shed light on 的闡明用法。",
+      "fix": "脫落；流下（淚水）；闡明"
+    },
+    {
+      "word": "sensitivity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "食物敏感不必然等同過敏，避免加入原文未明確指定的免疫性反應。",
+      "fix": "他對某些種類的堅果有敏感反應。"
+    },
+    {
+      "word": "sentimental",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "sentimental reasons 是情感原因，並未限定為懷念過去。",
+      "fix": "他因情感上的因素而留著那張票。"
+    },
+    {
+      "word": "sequence",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "本義及三句皆為一般順序或連續事件，科學並非主要分類。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "shed",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原首兩句皆為掉葉或掉毛，改以流淚呈現已列出的流下義。",
+      "fix": "She shed tears of joy when her daughter graduated."
+    },
+    {
+      "word": "shed",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "女兒畢業時，她流下喜悅的淚水。"
+    },
+    {
+      "word": "sheriff",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "警長與郡治安官是同一職務的兩種譯法，整合常用譯名及職務範圍。",
+      "fix": "警長（美國郡治安官）"
+    },
+    {
+      "word": "shiver",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發抖與打顫在三句中同義，合併重複釋義。",
+      "fix": "發抖"
+    },
+    {
+      "word": "shove",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "推擠與猛推重複，第二句把書塞入書包的用法原本未列。",
+      "fix": "猛推；塞入"
+    },
+    {
+      "word": "shove",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推與擠在三句均指施力推動的動作，合併重複釋義。",
+      "fix": "猛推"
+    },
+    {
+      "word": "siege",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "圍攻與圍困在三個城堡或城市被包圍的例句重複，精簡釋義。",
+      "fix": "圍困"
+    },
+    {
+      "word": "skeleton",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "骨骼與骨架在生物例句重複，建築結構也可稱骨架，精簡同義說明。",
+      "fix": "骨架"
+    },
+    {
+      "word": "slam",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "書包例句是猛力放在桌上，不一定是將書包擲出。",
+      "fix": "砰地關上；猛力放下"
+    },
+    {
+      "word": "slot",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "投幣孔是狹長開孔的具體類型，合併重複說明並保留時段義。",
+      "fix": "狹長孔；時段"
+    },
+    {
+      "word": "slot",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "插入與嵌入重複，第三句 slot together 表示零件彼此嵌合。",
+      "fix": "插入；嵌合"
+    },
+    {
+      "word": "shiver",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上燈光熄滅時的具體反應情境。",
+      "fix": "A shiver ran down my back when the lights went out."
+    },
+    {
+      "word": "shiver",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "燈光熄滅時，我的背脊竄過一陣顫慄。"
+    },
+    {
+      "word": "sibling",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上兄弟姊妹是否同校就讀的具體問題。",
+      "fix": "Do you have any siblings who go to this school?"
+    },
+    {
+      "word": "sibling",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "你有兄弟姊妹也在這所學校就讀嗎？"
+    },
+    {
+      "word": "slam",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上家人吃晚餐時的場景。",
+      "fix": "The wind slammed the window shut while we were eating dinner."
+    },
+    {
+      "word": "slam",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "我們正在吃晚餐時，風把窗戶砰地吹上。"
+    },
+    {
+      "word": "slap",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "slapped 只表示拍打，沒有說蚊子已被拍死。",
+      "fix": "她拍了一下手臂上的蚊子。"
+    },
+    {
+      "word": "slot",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "coin slot machine 容易指向吃角子老虎機整機，改為機器上的投幣狹孔。",
+      "fix": "machine coin slot"
+    },
+    {
+      "word": "snatch",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "片段與一小段同義，合併重複釋義。",
+      "fix": "片段"
+    },
+    {
+      "word": "sniff",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一及第三句為嗅聞動作，第二句是吸鼻子聲，不是所有吸氣聲。",
+      "fix": "嗅聞；吸鼻聲"
+    },
+    {
+      "word": "soak",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "雨水使鞋子濕透是及物用法，以使濕透明確表達。",
+      "fix": "浸泡；使濕透"
+    },
+    {
+      "word": "soar",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指心情高漲，原高飛或數量猛增未明確列出此用法。",
+      "fix": "翱翔；猛增；高漲"
+    },
+    {
+      "word": "sober",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首句指未醉而非一般醒著，明確界定酒精語境並保留其他兩義。",
+      "fix": "未喝醉的；嚴肅的；樸素的"
+    },
+    {
+      "word": "soften",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首句是使奶油變軟的及物用法，補明使動關係。",
+      "fix": "使變軟；使柔和"
+    },
+    {
+      "word": "solo",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單獨與獨自同義，合併重複釋義。",
+      "fix": "單獨的"
+    },
+    {
+      "word": "sophisticated",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句形容料理精緻，將有品味的改為適用料理本身的釋義。",
+      "fix": "精密的；老練的；精緻的"
+    },
+    {
+      "word": "soak",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "soaked 表示完全濕透，補足原譯僅淋濕未呈現的程度。",
+      "fix": "回家的路上，雨把我的鞋子淋得濕透了。"
+    },
+    {
+      "word": "sober",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "stayed sober 表示保持未醉，並未說一滴酒都沒喝。",
+      "fix": "他因為要開車回家，所以一直保持清醒。"
+    },
+    {
+      "word": "sober",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯說明健康狀況的嚴肅報告缺少適當的謂語受詞搭配，改為提供報告。",
+      "fix": "醫生向我們提供了關於他健康狀況的嚴肅報告。"
+    },
+    {
+      "word": "soak",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上煮湯前浸泡豆子的情境。",
+      "fix": "Soak the beans in water overnight before cooking them for soup."
+    },
+    {
+      "word": "soak",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "煮湯前，先把豆子泡在水裡一整夜。"
+    },
+    {
+      "word": "soften",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上加麵粉前軟化奶油的情境。",
+      "fix": "Heat the butter to soften it before adding the flour."
+    },
+    {
+      "word": "soften",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "加入麵粉前，先加熱奶油使它軟化。"
+    },
+    {
+      "word": "solo",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上離開樂團後推出個人專輯的背景。",
+      "fix": "This is his first solo album since leaving the band."
+    },
+    {
+      "word": "solo",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的情境調整中文譯文。",
+      "fix": "這是他離開樂團後的第一張個人專輯。"
+    },
+    {
+      "word": "sophomore",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "標明美國高中學制，避免把 sophomore 直接等同台灣的高中二年級。",
+      "fix": "大二學生；美國高中二年級學生"
+    },
+    {
+      "word": "sophomore",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "一般校園學生不限定年級，搜尋詞改為明確的大學二年級學生。",
+      "fix": "college sophomore student"
+    },
+    {
+      "word": "specify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均為明確指出日期、人數或尺寸，詳細說明是重複且較籠統的解釋。",
+      "fix": "明確指出"
+    },
+    {
+      "word": "specialty",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯後半句主詞易誤接小鎮，改明確指出特產是茶葉。",
+      "fix": "這座小鎮以當地特產茶葉聞名。"
+    },
+    {
+      "word": "sophomore",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均被譯為大二，明確補出美國高中二年級的已列用法。",
+      "fix": "The sophomore at an American high school joined the basketball team."
+    },
+    {
+      "word": "sophomore",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "那位美國高中的二年級學生加入了籃球隊。"
+    },
+    {
+      "word": "specialize",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上露營健行用品的具體專營範圍。",
+      "fix": "This store specializes in outdoor equipment for camping and hiking."
+    },
+    {
+      "word": "specialize",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這家店專門販售露營和健行用的戶外裝備。"
+    },
+    {
+      "word": "spectacular",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上河面上方及入夜後的場景。",
+      "fix": "The fireworks show above the river was spectacular after dark."
+    },
+    {
+      "word": "spectacular",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "入夜後，河面上方的煙火秀十分精彩。"
+    },
+    {
+      "word": "spectrum",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，改以運動至古典音樂的興趣範圍呈現具體情境。",
+      "fix": "The students' interests cover a wide spectrum, from sports to classical music."
+    },
+    {
+      "word": "spectrum",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "學生們的興趣涵蓋很廣，從運動到古典音樂都有。"
+    }
+  ]
+}
