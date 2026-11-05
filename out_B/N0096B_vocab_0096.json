@@ -1,0 +1,553 @@
+{
+  "batch": "N0096",
+  "checked": 50,
+  "reviewed": [
+    "tempt",
+    "temptation",
+    "testify",
+    "texture",
+    "theoretical",
+    "therapist",
+    "thereby",
+    "thesis",
+    "thigh",
+    "threshold",
+    "thrill",
+    "thriller",
+    "thrive",
+    "throne",
+    "thrust",
+    "tick",
+    "tile",
+    "toll",
+    "torment",
+    "tournament",
+    "toxic",
+    "trait",
+    "traitor",
+    "transaction",
+    "transformation",
+    "transit",
+    "transition",
+    "transmission",
+    "transparent",
+    "trauma",
+    "tribute",
+    "trigger",
+    "trim",
+    "triple",
+    "trivial",
+    "trophy",
+    "tuition",
+    "tumor",
+    "tuna",
+    "ultimate",
+    "uncover",
+    "undergo",
+    "undergraduate",
+    "undermine",
+    "undo",
+    "unemployment",
+    "unfold",
+    "unlock",
+    "unprecedented",
+    "update"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "tempt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘惑、吸引與慫恿在三句均指使人想做某事，合併重複說明。",
+      "fix": "誘惑"
+    },
+    {
+      "word": "texture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "質地與觸感在毛衣及牆面粗糙程度例句重複，另保留食物口感義。",
+      "fix": "質地；口感"
+    },
+    {
+      "word": "theoretical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "理論上的與理論的同義，合併重複釋義。",
+      "fix": "理論上的"
+    },
+    {
+      "word": "thereby",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "因此、從而與藉此在三句均表藉前述行為產生結果，精簡重複說明。",
+      "fix": "藉此"
+    },
+    {
+      "word": "threshold",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "入口與實體門檻的說明重複，保留門檻及變化臨界點兩義。",
+      "fix": "門檻；臨界點"
+    },
+    {
+      "word": "tempt",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "天氣慫恿的擬人直譯生硬，改為天氣使人產生念頭的自然表達。",
+      "fix": "晴朗的天氣讓我們想翹課去海邊。"
+    },
+    {
+      "word": "temptation",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "忍不住誘惑搭配不自然，應是抵擋不住誘惑。",
+      "fix": "看電影時，我抵擋不住誘惑，查看了手機。"
+    },
+    {
+      "word": "thereby",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "often 表示經常的頻率，原譯持續偏重延續時間。",
+      "fix": "他經常練習，因而提升了英語口說能力。"
+    },
+    {
+      "word": "thrill",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "興奮、刺激與快感在三句皆指強烈愉快的感受，合併重複說明。",
+      "fix": "興奮感"
+    },
+    {
+      "word": "thrill",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使興奮與使激動在表演、勝利及學生進步例句重複，精簡釋義。",
+      "fix": "使興奮"
+    },
+    {
+      "word": "thrive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "繁榮與興旺在商店發展例句同義，另保留生物成長義。",
+      "fix": "茁壯成長；繁榮"
+    },
+    {
+      "word": "thrust",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "用力推與猛推同義，另保留把物品快速塞入的用法。",
+      "fix": "猛推；塞入"
+    },
+    {
+      "word": "thrust",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "要點與主旨在演講內容例句重複，另保留引擎及火箭推力義。",
+      "fix": "推力；主旨"
+    },
+    {
+      "word": "tick",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "保留聲音與勾號，補上常見的寄生蟲壁蝨義。",
+      "fix": "滴答聲；勾號；壁蝨"
+    },
+    {
+      "word": "toll",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "健康例句指損害，death toll 指死亡人數，依實際用例釐清較籠統的代價與傷亡人數。",
+      "fix": "通行費；損害；死亡人數"
+    },
+    {
+      "word": "toll",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敲鐘與鳴鐘重複，三句均以鐘作主詞，明確表達鐘鳴響的用法。",
+      "fix": "（鐘）鳴響"
+    },
+    {
+      "word": "torment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "折磨與使痛苦同義，另保留玩笑煩擾他人的用法。",
+      "fix": "折磨；煩擾"
+    },
+    {
+      "word": "tournament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "比賽是較籠統的上位說明，三句皆指錦標賽事，精簡釋義。",
+      "fix": "錦標賽"
+    },
+    {
+      "word": "thrill",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "非常興奮刺激搭配不自然，改以感到非常興奮表達 thrill。",
+      "fix": "搭雲霄飛車讓孩子們感到非常興奮。"
+    },
+    {
+      "word": "throne",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "可坐的實體 throne 是寶座，王位較指統治者職位。",
+      "fix": "國王坐在金色的寶座上對群眾說話。"
+    },
+    {
+      "word": "tick",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "獸醫情境可呈現原稿漏列且常見的壁蝨義，與聲音及勾號用法區別。",
+      "fix": "The vet found a tick on the dog's ear."
+    },
+    {
+      "word": "tick",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為獸醫發現壁蝨的情境。",
+      "fix": "獸醫在狗的耳朵上發現了一隻壁蝨。"
+    },
+    {
+      "word": "trait",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "特質、特徵與特性在個性及遺傳例句中重複，精簡釋義。",
+      "fix": "特質"
+    },
+    {
+      "word": "traitor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "叛徒與背叛者同義，合併重複釋義。",
+      "fix": "叛徒"
+    },
+    {
+      "word": "transaction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "買賣屬交易的具體形式，三句也未另呈現一般業務處理的行為義。",
+      "fix": "交易"
+    },
+    {
+      "word": "transformation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "轉變、變化與轉型在功能或能力改變的三句中重複，精簡釋義。",
+      "fix": "轉變"
+    },
+    {
+      "word": "transition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "轉換與轉變重複，保留狀態轉變及季節過渡用法。",
+      "fix": "轉變；過渡"
+    },
+    {
+      "word": "transition",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "轉變與過渡在職務、授課方式及系統切換例句中重複，精簡釋義。",
+      "fix": "轉換"
+    },
+    {
+      "word": "transmission",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "傳送與傳輸重複，病原體的傳播義原本未列，另保留車用變速箱。",
+      "fix": "傳輸；傳播；變速箱"
+    },
+    {
+      "word": "transparent",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句的藉口容易識破，原釋義只列透光及資訊公開的用法。",
+      "fix": "透明的；公開透明的；容易識破的"
+    },
+    {
+      "word": "trauma",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "將籠統的創傷明確區分身體外傷及心理創傷兩種常見用法。",
+      "fix": "外傷；心理創傷"
+    },
+    {
+      "word": "transit",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "had a short transit 作轉機停留的搭配生硬，改用常見的 in transit 表達。",
+      "fix": "We were in transit in Tokyo before flying home."
+    },
+    {
+      "word": "transit",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "我們飛回家前，曾在東京過境轉機。"
+    },
+    {
+      "word": "trauma",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句偏向事件造成的心理創傷，改用急診外傷呈現另一常見名詞義。",
+      "fix": "The emergency doctor treated a patient with severe chest trauma."
+    },
+    {
+      "word": "trauma",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "急診醫師治療了一名胸部嚴重外傷的病人。"
+    },
+    {
+      "word": "tribute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一般致敬及頌詞的說明重複，另保留古代進貢物品義。",
+      "fix": "致敬；貢品"
+    },
+    {
+      "word": "trigger",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "引發與觸發在過敏及爭吵例句重複，另保留啟動警報義。",
+      "fix": "引發；啟動"
+    },
+    {
+      "word": "trigger",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘因與觸發因素同義，另保留實體扳機義。",
+      "fix": "誘因；扳機"
+    },
+    {
+      "word": "trim",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句為修剪樹籬瀏海或削減成本，沒有裝飾義。",
+      "fix": "修剪；削減"
+    },
+    {
+      "word": "triple",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "變成三倍與增加兩倍表示同一數量變化，合併釋義並明確表示最終倍數。",
+      "fix": "增至三倍"
+    },
+    {
+      "word": "trivial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "瑣碎與微不足道在事務、價差及小錯誤例句重複，精簡釋義。",
+      "fix": "微不足道的"
+    },
+    {
+      "word": "trophy",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為競賽獎盃，沒有戰利品或狩獵紀念物義。",
+      "fix": "獎盃"
+    },
+    {
+      "word": "tuition",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "教學與授課同義，另保留學費義。",
+      "fix": "學費；教學"
+    },
+    {
+      "word": "ultimate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最大的與極致的在奢華體驗的最高程度用法重複，保留最終與極致兩義。",
+      "fix": "最終的；極致的"
+    },
+    {
+      "word": "tribute",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原三句均為一般致敬，改用古代進貢情境呈現已列出的貢品義。",
+      "fix": "The small kingdom sent gold as tribute to the emperor."
+    },
+    {
+      "word": "tribute",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這個小王國向皇帝進貢黃金。"
+    },
+    {
+      "word": "trigger",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原相機遙控器例句主要是觸發鈕，改以博物館古董步槍明確呈現已列的扳機義。",
+      "fix": "The museum guide pointed to the trigger on the antique rifle."
+    },
+    {
+      "word": "trigger",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "博物館導覽員指著古董步槍上的扳機。"
+    },
+    {
+      "word": "tumor",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上檢查結果與生長速度，以良性結果取代籠統的沒有危害。",
+      "fix": "The tests showed that the tumor was benign and growing slowly."
+    },
+    {
+      "word": "tumor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "檢查顯示這顆腫瘤是良性的，而且生長緩慢。"
+    },
+    {
+      "word": "trophy",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🏆 已被 best 使用，最佳與獎盃並非近義詞，依非近義重複規則移除。",
+      "fix": null
+    },
+    {
+      "word": "tuna",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "fresh tuna fish 容易呈現鮪魚肉食材，改以游動鮪魚明確對應第一個動物義。",
+      "fix": "tuna swimming"
+    },
+    {
+      "word": "undergraduate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大學生與大學部學生在本科學位的三句中重複，採較明確的學制稱謂。",
+      "fix": "大學部學生"
+    },
+    {
+      "word": "undergraduate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大學階段與大學部在三句中重複，並避免涵蓋研究所階段。",
+      "fix": "大學部的"
+    },
+    {
+      "word": "undermine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "損害與暗中破壞在信心、信任及健康努力例句中重複，精簡為削弱的核心用法。",
+      "fix": "逐漸削弱"
+    },
+    {
+      "word": "undo",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 undo the harm 指消除已造成的影響，以消除取代與撤銷操作重複的還原。",
+      "fix": "解開；撤銷；消除"
+    },
+    {
+      "word": "unfold",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "攤開與展開在地圖例句重複，另保留事件逐漸展現的用法。",
+      "fix": "展開；逐漸展現"
+    },
+    {
+      "word": "unlock",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "開鎖與解鎖同義，另保留開啟機會的比喻用法。",
+      "fix": "解鎖；開啟"
+    },
+    {
+      "word": "unprecedented",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "史無前例與空前同義，合併重複釋義。",
+      "fix": "史無前例的"
+    },
+    {
+      "word": "update",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "更新與更新資料重複，第二句 update you 的告知最新情況義原本未列。",
+      "fix": "更新；告知最新情況"
+    },
+    {
+      "word": "undergraduate",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "undergraduate degree 指學士層級學位，原譯英文的大學學位不夠明確。",
+      "fix": "她取得了英文學士學位。"
+    }
+  ]
+}
