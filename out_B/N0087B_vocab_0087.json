@@ -1,0 +1,609 @@
+{
+  "batch": "N0087",
+  "checked": 50,
+  "reviewed": [
+    "diagnose",
+    "diagnosis",
+    "diameter",
+    "diaper",
+    "dilemma",
+    "dimension",
+    "diminish",
+    "diplomatic",
+    "directory",
+    "disclose",
+    "discriminate",
+    "discrimination",
+    "disrupt",
+    "distinctive",
+    "distract",
+    "doctrine",
+    "documentary",
+    "domain",
+    "dome",
+    "donation",
+    "donor",
+    "doorway",
+    "dough",
+    "driveway",
+    "ecological",
+    "ecology",
+    "ecosystem",
+    "ego",
+    "eligible",
+    "eloquent",
+    "embrace",
+    "emission",
+    "endorse",
+    "entity",
+    "entrepreneur",
+    "epidemic",
+    "episode",
+    "equation",
+    "equity",
+    "erupt",
+    "essence",
+    "eternal",
+    "ethic",
+    "ethical",
+    "exaggeration",
+    "exceed",
+    "excessive",
+    "exclude",
+    "exclusive",
+    "execute"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "diagnosis",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "診斷與診斷結果重複，並將公司銷售問題的判斷具體表達為問題分析。",
+      "fix": "診斷；問題分析"
+    },
+    {
+      "word": "diameter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "量測直徑指整個圓形披薩，原譯這片容易被理解為切下的披薩片。",
+      "fix": "這個披薩的直徑大約是三十公分。"
+    },
+    {
+      "word": "diameter",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "直徑為抽象的幾何長度，依規則不設定圖片搜尋詞。",
+      "fix": null
+    },
+    {
+      "word": "dilemma",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩難與進退兩難的局面同義，困境也未另有獨立用法，精簡重複釋義。",
+      "fix": "兩難"
+    },
+    {
+      "word": "diminish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆表示疼痛、樂趣或興趣的程度減弱，未呈現物體尺寸縮小。",
+      "fix": "減弱"
+    },
+    {
+      "word": "diplomatic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有技巧的過於籠統，與圓滑義合併為處理人際關係圓融。",
+      "fix": "外交的；圓融的"
+    },
+    {
+      "word": "directory",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "員工電話名錄應明確列為通訊錄，不必限定為人名住址簿。",
+      "fix": "目錄；通訊錄；資料夾"
+    },
+    {
+      "word": "disclose",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "透露、公開與揭露在本組例句均為使資訊為人所知，合併重複釋義。",
+      "fix": "透露"
+    },
+    {
+      "word": "discriminate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區別與辨別在顏色例句同義，合併重複釋義。",
+      "fix": "歧視；辨別"
+    },
+    {
+      "word": "discrimination",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "歧視與差別待遇在職場及公平待遇例句同義，合併重複釋義。",
+      "fix": "歧視；辨別力"
+    },
+    {
+      "word": "disrupt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擾亂與打亂重複，保留造成混亂及中斷兩義。",
+      "fix": "擾亂；使中斷"
+    },
+    {
+      "word": "distinctive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獨特、與眾不同與特殊在此均為同義說明，精簡釋義。",
+      "fix": "獨特的"
+    },
+    {
+      "word": "dome",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句指觀賞球賽的圓頂體育館，原釋義僅列建築圓頂。",
+      "fix": "圓頂；圓頂體育館"
+    },
+    {
+      "word": "donation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩句是捐款，一句是捐血，沒有另行呈現捐贈物品義。",
+      "fix": "捐款；捐贈"
+    },
+    {
+      "word": "discrimination",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "have a fine discrimination of taste 搭配生硬，改用自然的視覺辨別能力情境。",
+      "fix": "The test measures visual discrimination between similar shapes and patterns."
+    },
+    {
+      "word": "discrimination",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為測驗視覺辨別能力的情境。",
+      "fix": "這項測驗衡量辨別相似形狀與圖案的視覺能力。"
+    },
+    {
+      "word": "documentary",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句 documentary evidence 指文獻證據，原釋義未列出文獻義。",
+      "fix": "紀實的；文獻的"
+    },
+    {
+      "word": "donation",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上醫院需要血液供應的具體情境。",
+      "fix": "Blood donation helps save many lives when hospitals need supplies."
+    },
+    {
+      "word": "donation",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補上醫院供血需求的情境。",
+      "fix": "醫院需要血液供應時，捐血有助於挽救許多生命。"
+    },
+    {
+      "word": "donation",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "捐款箱是收受款項的容器，未直接呈現第一義的捐款本身。",
+      "fix": null
+    },
+    {
+      "word": "donor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捐血者與捐款人均為捐贈者的具體類型，合併重複說明。",
+      "fix": "捐贈者"
+    },
+    {
+      "word": "doorway",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "門口與出入口在此指同一處，合併重複釋義。",
+      "fix": "門口"
+    },
+    {
+      "word": "dough",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生麵糰與麵糰同義，不重複列出。",
+      "fix": "麵糰"
+    },
+    {
+      "word": "driveway",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "driveway 指通往住宅等建物的私人車道，非泛指一般道路車道。",
+      "fix": "私人車道"
+    },
+    {
+      "word": "ecological",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指生態或環境關係，未另呈現生態學研究義。",
+      "fix": "生態的"
+    },
+    {
+      "word": "ecology",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生態與生態環境在河川及濕地例句重複，保留學科與自然生態兩義。",
+      "fix": "生態學；生態"
+    },
+    {
+      "word": "eligible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有資格與符合條件在三句中同義，合併重複釋義。",
+      "fix": "有資格的"
+    },
+    {
+      "word": "eloquent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分別呈現人的口才與演說、書信的表達力量，避免籠統的有說服力。",
+      "fix": "口才好的；文辭動人的"
+    },
+    {
+      "word": "ecology",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上了解森林運作的學習目的。",
+      "fix": "She is studying ecology at university to understand how forests function."
+    },
+    {
+      "word": "ecology",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文新增的學習目的，studying 不必限定為主修。",
+      "fix": "她在大學裡修讀生態學，以了解森林如何運作。"
+    },
+    {
+      "word": "ego",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "has a big ego 指自大，不只是自尊心強。",
+      "fix": "她很自大，而且不喜歡承認自己的錯誤。"
+    },
+    {
+      "word": "eligible",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "over sixteen 是超過十六歲，原譯十六歲以上會包括十六歲。",
+      "fix": "年齡超過十六歲的學生有資格申請這項計畫。"
+    },
+    {
+      "word": "eloquent",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "口才形容說話者，演說本身應譯為表達生動有力。",
+      "fix": "她在畢業典禮上發表了一場生動有力的演說。"
+    },
+    {
+      "word": "emission",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為排放相關用法，沒有另行呈現光熱等散發義。",
+      "fix": "排放；排放物"
+    },
+    {
+      "word": "endorse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "分清支持計畫、運動鞋代言與支票背書三種用法。",
+      "fix": "公開支持；代言；背書簽名"
+    },
+    {
+      "word": "entity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指可獨立看待的實體，合併個體及組織的重複說明。",
+      "fix": "實體"
+    },
+    {
+      "word": "entrepreneur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "企業家與創業者在本組創業情境同義，合併重複釋義。",
+      "fix": "創業家"
+    },
+    {
+      "word": "epidemic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句指流行疫情，肥胖例句則指普遍蔓延的問題，不限傳染病。",
+      "fix": "疫情；普遍蔓延的問題"
+    },
+    {
+      "word": "episode",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "插曲與事件在第二句為同一用法，合併重複釋義。",
+      "fix": "一集；插曲"
+    },
+    {
+      "word": "equation",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 part of the equation 指整體考量中的一部分，未呈現等同義。",
+      "fix": "方程式；整體情況"
+    },
+    {
+      "word": "equity",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "公平與公正重複，且房屋例句使用的資產淨值義原本未列。",
+      "fix": "公平；股權；資產淨值"
+    },
+    {
+      "word": "erupt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "突然發生是爆發義的解釋，合併重複釋義。",
+      "fix": "爆發；噴發"
+    },
+    {
+      "word": "emission",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "電動公車仍可能產生輪胎等微粒，應限定為沒有廢氣排放。",
+      "fix": "Electric buses produce no exhaust emissions while traveling on the road."
+    },
+    {
+      "word": "emission",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文限定為廢氣排放，避免完全零排放的過度概括。",
+      "fix": "電動公車在路上行駛時不會排放廢氣。"
+    },
+    {
+      "word": "epidemic",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "epidemic 指超出平常程度的大規模流行，不等於具有傳染性。",
+      "fix": "大規模流行的"
+    },
+    {
+      "word": "epidemic",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "epidemic outbreak 語意重疊，改為形容感染在多個城鎮流行的述語用法。",
+      "fix": "The infection was epidemic across several towns during the summer."
+    },
+    {
+      "word": "epidemic",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為多個城鎮夏季感染流行的情境。",
+      "fix": "這種感染在夏季於好幾個城鎮大規模流行。"
+    },
+    {
+      "word": "equity",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示某人持有的房屋淨值，典型搭配為 his equity in the house。",
+      "fix": "His equity in the house has risen over the past ten years."
+    },
+    {
+      "word": "equity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "明確呈現屋主持有的資產淨值，並移除原文未表示的不斷。",
+      "fix": "他持有的房屋淨值在過去十年間增加了。"
+    },
+    {
+      "word": "essence",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抽象本質與精髓重複，另明列檸檬萃取物的濃縮精華義。",
+      "fix": "本質；濃縮精華"
+    },
+    {
+      "word": "eternal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "永恆、永遠與不朽在此重複，精簡為永恆的。",
+      "fix": "永恆的"
+    },
+    {
+      "word": "ethic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "倫理、道德規範與價值觀在本組行為準則情境重複，精簡釋義。",
+      "fix": "道德準則"
+    },
+    {
+      "word": "ethical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均表示符合道德規範，合併道德的、倫理的等重複說明。",
+      "fix": "合乎倫理的"
+    },
+    {
+      "word": "exaggeration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誇張、誇大與誇大之詞在此為同一用義，精簡釋義。",
+      "fix": "誇大"
+    },
+    {
+      "word": "exceed",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "超過與超出同義，第三句也是超出預期，未另呈現勝過競爭者的用法。",
+      "fix": "超過"
+    },
+    {
+      "word": "excessive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指超出適當程度，合併過多與極端的重複說明。",
+      "fix": "過度的"
+    },
+    {
+      "word": "exclude",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "排除與把某人排除在外同義，保留排除及不包括兩義。",
+      "fix": "排除；不包括"
+    },
+    {
+      "word": "execute",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句分別為執行計畫、執行程式及完成畫作，沒有處決義。",
+      "fix": "執行；完成"
+    },
+    {
+      "word": "exclusive",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獨家報導與獨家新聞在此同義，合併重複釋義。",
+      "fix": "獨家報導"
+    },
+    {
+      "word": "ethic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "strong work ethic 指認真負責的工作態度，原譯強烈的工作倫理不自然。",
+      "fix": "他以認真負責的工作態度著稱。"
+    },
+    {
+      "word": "eternal",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補上離鄉前許諾的具體情境。",
+      "fix": "They promised each other eternal friendship before leaving their hometown."
+    },
+    {
+      "word": "eternal",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "離開家鄉前，他們彼此許下永恆的友誼。"
+    },
+    {
+      "word": "eternal",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "永恆寂靜的老樹偏文學修辭，改用典型的 eternal love 搭配。",
+      "fix": "The couple exchanged rings as a symbol of eternal love."
+    },
+    {
+      "word": "eternal",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這對伴侶交換戒指，象徵永恆的愛。"
+    },
+    {
+      "word": "exceed",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補上結果讓團隊印象深刻的情境。",
+      "fix": "The results exceeded everyone's expectations and impressed the entire team."
+    },
+    {
+      "word": "exceed",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "結果超出了每個人的預期，讓整個團隊印象深刻。"
+    },
+    {
+      "word": "exclusive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "exclusive to 已表示僅供某群體，移除 only 贅詞並補明會員身分。",
+      "fix": "This lounge is exclusive to members of the tennis club."
+    },
+    {
+      "word": "exclusive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改寫的情境調整中文譯文。",
+      "fix": "這間休息室專供網球俱樂部的會員使用。"
+    }
+  ]
+}
