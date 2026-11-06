@@ -1,0 +1,500 @@
+{
+  "batch": "N0114",
+  "checked": 50,
+  "reviewed": [
+    "rigorous",
+    "ripple",
+    "rivalry",
+    "roam",
+    "robust",
+    "rotate",
+    "rotation",
+    "royalty",
+    "rugged",
+    "ruthless",
+    "salute",
+    "salvage",
+    "sanitation",
+    "savage",
+    "scenic",
+    "scorn",
+    "scrape",
+    "screwdriver",
+    "scroll",
+    "scrutiny",
+    "sculptor",
+    "seduce",
+    "selective",
+    "serene",
+    "sergeant",
+    "serial",
+    "sermon",
+    "serving",
+    "setback",
+    "shabby",
+    "shred",
+    "shriek",
+    "shrub",
+    "shuffle",
+    "shutter",
+    "simplicity",
+    "simultaneous",
+    "skeptical",
+    "slash",
+    "slaughter",
+    "slay",
+    "sloppy",
+    "slum",
+    "slump",
+    "sly",
+    "snore",
+    "socialism",
+    "socialist",
+    "socialize",
+    "sociology"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "rigorous",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句分別強調程序與訓練嚴格、研究嚴謹，沒有另外使用徹底完成的意思。",
+      "fix": "嚴格的；嚴謹的"
+    },
+    {
+      "word": "ripple",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "漣漪與波紋在水面例句中重複，另保留情緒引起的一陣騷動。",
+      "fix": "漣漪；一陣騷動"
+    },
+    {
+      "word": "rivalry",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指彼此競爭，對立容易加入敵對或衝突的語氣。",
+      "fix": "競爭"
+    },
+    {
+      "word": "rivalry",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "申請同一職位形成的是競爭，不一定構成彼此敵對的對立。",
+      "fix": "他們兩人都申請同一份工作時，彼此的競爭就開始了。"
+    },
+    {
+      "word": "rivalry",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "主要例句談公司及求職競爭，原分類未列工作與商業，卻將家庭與人際排首。",
+      "fix": [
+        "工作與商業",
+        "家庭與人際"
+      ]
+    },
+    {
+      "word": "roam",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "漫遊、閒逛與徘徊在三種四處走動的情境中重疊，無須拆成三項。",
+      "fix": "漫遊"
+    },
+    {
+      "word": "royalty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "皇室與王室成員在前兩個皇族出席活動的例句中重複，另保留版稅義。",
+      "fix": "王室成員；版稅"
+    },
+    {
+      "word": "ruthless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無情、殘酷與毫不留情在這些不顧他人感受的情境中同義重複。",
+      "fix": "無情的"
+    },
+    {
+      "word": "sanitation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句涉及衛生設施及環境條件，公共衛生的範圍更廣，未另有對應用法。",
+      "fix": "衛生設施；衛生條件"
+    },
+    {
+      "word": "scorn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "輕蔑與鄙視在三個看不起人事物的情境中同義重複。",
+      "fix": "輕蔑"
+    },
+    {
+      "word": "scorn",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都表示輕視，嗤之以鼻只是同義表述，貶低也未形成另一獨立用法。",
+      "fix": "輕視"
+    },
+    {
+      "word": "scorn",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "scorn 強調輕視或不屑，不是刻意降低電影評價的貶低動作。",
+      "fix": "評論家因這部電影的劇情薄弱而對它嗤之以鼻。"
+    },
+    {
+      "word": "scroll",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都涉及捲動畫面，瀏覽只是可能伴隨的查看活動，不必另列為獨立詞義。",
+      "fix": "捲動"
+    },
+    {
+      "word": "scroll",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯只說瀏覽，漏掉 scrolled through 的捲動畫面動作。",
+      "fix": "她等公車時捲動畫面查看訊息。"
+    },
+    {
+      "word": "scroll",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "畫卷是卷軸承載圖畫時的形式，三句沒有不同的獨立詞義。",
+      "fix": "卷軸"
+    },
+    {
+      "word": "scrutiny",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義都表示仔細審查，未形成不同義項。",
+      "fix": "仔細審查"
+    },
+    {
+      "word": "sculptor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "sculptor 泛指雕塑創作者，不限於雕刻技法，雕刻家會限縮其藝術創作範圍。",
+      "fix": "雕塑家"
+    },
+    {
+      "word": "seduce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘惑與誘使在這些吸引顧客或消費者的例句中為同一用法。",
+      "fix": "誘惑"
+    },
+    {
+      "word": "selective",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嚴格篩選與挑剔在審慎挑選對象的情境中重疊，保留與一般有選擇性的區分即可。",
+      "fix": "有選擇性的；挑剔的"
+    },
+    {
+      "word": "selective",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "對錄取的學生非常嚴格篩選句型不順，應明確說明在決定錄取對象時篩選嚴格。",
+      "fix": "這所大學在錄取學生時篩選得很嚴格。"
+    },
+    {
+      "word": "serene",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "平靜與寧靜在湖面及週末情境中重疊，另保留人物表情安詳的用法。",
+      "fix": "寧靜的；安詳的"
+    },
+    {
+      "word": "sergeant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "police sergeant 一般譯為警長，警佐是臺灣警階類別，不能直接當作相同職級。",
+      "fix": "中士；警長"
+    },
+    {
+      "word": "sergeant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "police sergeant 宜譯為警長，而不是臺灣警階大類警佐。",
+      "fix": "一位警長協助我們找到去車站的路。"
+    },
+    {
+      "word": "serial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "序號的來自整個 serial number 片語，serial 本身表示依序或分期連載。",
+      "fix": "依序的；連載的"
+    },
+    {
+      "word": "serial",
+      "path": "senses[1].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三個中文例句均解作連續劇，改以兒童雜誌的書面連載明確支持已列的連載作品義。",
+      "fix": "The children's magazine runs a weekly serial about a talking dog."
+    },
+    {
+      "word": "serial",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這本兒童雜誌每週連載一個關於會說話的狗的故事。"
+    },
+    {
+      "word": "serving",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一份食物與一人份在三個飲食分量例句中重複。",
+      "fix": "一份食物"
+    },
+    {
+      "word": "setback",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "挫折與阻礙在這些進度或目標受挫的例句中重複。",
+      "fix": "挫折"
+    },
+    {
+      "word": "shred",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "絞碎容易被理解為研磨成細末，shred 強調撕成碎片或切成細絲，無須另列研磨義。",
+      "fix": "撕碎；切成細絲"
+    },
+    {
+      "word": "shriek",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充有人在廚房看到老鼠的具體情境。",
+      "fix": "A shriek came from the kitchen when someone spotted a mouse."
+    },
+    {
+      "word": "shriek",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "有人發現老鼠時，廚房傳來一聲尖叫。"
+    },
+    {
+      "word": "shutter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "shutter 的窗戶義不一定有百葉結構，應以較廣的遮窗板涵蓋實心或百葉式窗板。",
+      "fix": "遮窗板；快門"
+    },
+    {
+      "word": "shutter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文未說窗板具有百葉結構，宜使用一般遮窗板名稱。",
+      "fix": "她關上遮窗板，擋住午後的陽光。"
+    },
+    {
+      "word": "shutter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "wooden shutters 只交代木製窗板，未限定百葉結構。",
+      "fix": "這棟老房子的每扇窗戶都裝有綠色的木製遮窗板。"
+    },
+    {
+      "word": "simplicity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "簡單與簡潔在食譜及設計情境中重疊，另保留生活簡樸的意思。",
+      "fix": "簡單；簡樸"
+    },
+    {
+      "word": "simplicity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "喜歡這份食譜的簡單句型生硬，宜自然表達因做法簡單而喜歡。",
+      "fix": "我喜歡這份食譜，因為做法簡單。"
+    },
+    {
+      "word": "simultaneous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同時與同步在口譯、活動及抵達的情境中同義重複。",
+      "fix": "同時的"
+    },
+    {
+      "word": "skeptical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "懷疑與存疑在廣告、藉口及療法的情境中同義重複。",
+      "fix": "懷疑的"
+    },
+    {
+      "word": "slash",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除符號斜線外，slash 常指被劃開的割口，應補列此名詞義。",
+      "fix": "斜線；割口"
+    },
+    {
+      "word": "slash",
+      "path": "senses[1].examples[1].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句都談斜線符號，改以裁縫修補外套割口的情境支持另一常見名詞義。",
+      "fix": "The tailor repaired the slash in my jacket with matching thread."
+    },
+    {
+      "word": "slash",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "裁縫用同色的線修補了我外套上的割口。"
+    },
+    {
+      "word": "slash",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "用剪刀劃膠帶較常用 cut，slash 強調快速劃破，改以樹枝劃破衣物呈現典型用法。",
+      "fix": "A sharp branch slashed his jacket as he walked through the woods."
+    },
+    {
+      "word": "slash",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "他穿越樹林時，一根尖銳的樹枝劃破了他的外套。"
+    },
+    {
+      "word": "slay",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "童話與遊戲中的 slay 均表示殺死對手，不只是一般擊敗，另保留表現極佳的口語義。",
+      "fix": "殺死；表現極佳"
+    },
+    {
+      "word": "slay",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "slay the monster 表示擊殺怪物，不只是未必致死的擊敗。",
+      "fix": "遊戲中的主角必須擊殺怪物才能獲勝。"
+    },
+    {
+      "word": "slay",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充妹妹在學校才藝表演中跳舞的具體情境，保留口語過去式 slayed。",
+      "fix": "My sister slayed her dance performance at the school talent show."
+    },
+    {
+      "word": "slay",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我妹妹在學校才藝表演中的舞蹈演出精彩極了。"
+    },
+    {
+      "word": "sloppy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "馬虎的錯誤搭配不順，應說明錯誤是因馬虎造成。",
+      "fix": "報告中因馬虎造成的錯誤讓經理生氣了。"
+    },
+    {
+      "word": "slump",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低迷、不景氣與低潮在公司、銷售及球隊表現不佳的情境中重疊。",
+      "fix": "低迷"
+    },
+    {
+      "word": "snore",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充狗與人相同的睡眠行為比較，使語意完整。",
+      "fix": "Dogs sometimes snore in their sleep, just as people do."
+    },
+    {
+      "word": "snore",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "狗有時也會像人一樣在睡夢中打鼾。"
+    },
+    {
+      "word": "snore",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充睡過整部電影而錯過結局的具體後果。",
+      "fix": "He snored through the whole movie and missed the exciting ending."
+    },
+    {
+      "word": "snore",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "他整部電影都在打鼾，錯過了精彩的結局。"
+    },
+    {
+      "word": "socialize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "社交與交際在朋友、同事及犬隻互動的例句中同義重複。",
+      "fix": "社交"
+    }
+  ]
+}
