@@ -1,0 +1,705 @@
+{
+  "batch": "N0106",
+  "checked": 50,
+  "reviewed": [
+    "dwell",
+    "dwelling",
+    "eccentric",
+    "eclipse",
+    "elevate",
+    "emigrant",
+    "emigrate",
+    "emigration",
+    "encyclopedia",
+    "endeavor",
+    "endowment",
+    "enlighten",
+    "enrich",
+    "equate",
+    "escort",
+    "esteem",
+    "eternity",
+    "evacuate",
+    "evergreen",
+    "evoke",
+    "examinee",
+    "excel",
+    "excerpt",
+    "excess",
+    "exclusion",
+    "exempt",
+    "exert",
+    "expenditure",
+    "expiration",
+    "expire",
+    "extract",
+    "extracurricular",
+    "eyelash",
+    "eyelid",
+    "faction",
+    "fahrenheit",
+    "falter",
+    "familiarity",
+    "fascination",
+    "feasible",
+    "feeble",
+    "feminine",
+    "fertility",
+    "fin",
+    "finite",
+    "firecracker",
+    "fireproof",
+    "fishery",
+    "flake",
+    "flaw"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "dwell",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "居留與居住在前兩句中近義重複。",
+      "fix": "居住；老是想著"
+    },
+    {
+      "word": "dwelling",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "住所、住宅與住處在三句中近義重複。",
+      "fix": "住所"
+    },
+    {
+      "word": "eccentric",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義在習慣及行為方式的例句中重疊。",
+      "fix": "古怪的"
+    },
+    {
+      "word": "eclipse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蝕是日蝕與月蝕的上位概念，與前兩義重複。",
+      "fix": "日蝕；月蝕"
+    },
+    {
+      "word": "eclipse",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為才華或成果勝過他者的比喻義，未使用物理遮蔽義。",
+      "fix": "使黯然失色"
+    },
+    {
+      "word": "elevate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提高與提升在地位及情緒用法中重疊，保留抬高身體部位的具體動作。",
+      "fix": "提升；抬高"
+    },
+    {
+      "word": "emigrant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義指同一種從原居地遷出的移民，近義重複。",
+      "fix": "移居國外者"
+    },
+    {
+      "word": "emigrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "移居國外與移民在本組例句中近義重複。",
+      "fix": "移居國外"
+    },
+    {
+      "word": "emigration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義皆指遷出原居國的行為，近義重複。",
+      "fix": "移居國外"
+    },
+    {
+      "word": "endeavor",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "努力與盡力在三句中近義重複。",
+      "fix": "努力"
+    },
+    {
+      "word": "elevate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "提升心情搭配不自然，原句指運動讓心情變好。",
+      "fix": "考試期間，規律運動能讓你的心情變好。"
+    },
+    {
+      "word": "endeavor",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說準時抵達，未指明到校，應刪除額外的場所。",
+      "fix": "學生應該盡力準時抵達。"
+    },
+    {
+      "word": "endowment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆指以捐款形成的基金，捐贈與基金釋義可合併。",
+      "fix": "捐贈基金；天賦"
+    },
+    {
+      "word": "enlighten",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "開導與啟發在教師例句中重疊，保留告知而使人了解的用法。",
+      "fix": "使明白；啟發"
+    },
+    {
+      "word": "enrich",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使豐富與充實在理解及字彙量例句中近義重複。",
+      "fix": "使豐富；使肥沃"
+    },
+    {
+      "word": "equate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "視為相等與等同同義重複。",
+      "fix": "視為相等"
+    },
+    {
+      "word": "escort",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆為護衛隊，護送者與護衛隊重疊，保留社交場合的陪同者義。",
+      "fix": "護衛隊；陪同者"
+    },
+    {
+      "word": "esteem",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "尊敬與敬重同義重複，三句亦未另示單純好評義。",
+      "fix": "敬重"
+    },
+    {
+      "word": "esteem",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指把誠實看得重要，原釋義未清楚列出且尊敬、敬重重複。",
+      "fix": "敬重；重視"
+    },
+    {
+      "word": "eternity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "永恆與永遠近義重複，保留主觀等待很久的比喻義。",
+      "fix": "永恆；漫長的時間"
+    },
+    {
+      "word": "evacuate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "撤空是疏散或撤離後的狀態，與前兩個釋義重疊。",
+      "fix": "疏散；撤離"
+    },
+    {
+      "word": "evergreen",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "常綠樹是常綠植物的一種，原釋義重疊。",
+      "fix": "常綠植物"
+    },
+    {
+      "word": "evoke",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在回憶、情緒及神祕感的例句中皆指喚起，近義重複。",
+      "fix": "喚起"
+    },
+    {
+      "word": "eternity",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "lasts for eternity 指愛永恆持續，不是持續到永恆這個時間點。",
+      "fix": "這首詩寫的是永恆的愛。"
+    },
+    {
+      "word": "equate",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入選擇未來職業的具體情境。",
+      "fix": "Some people equate money with happiness when choosing their future careers."
+    },
+    {
+      "word": "equate",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入選擇未來職業的情境。",
+      "fix": "有些人在選擇未來職業時，會把金錢等同於快樂。"
+    },
+    {
+      "word": "examinee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "考生與應試者同義重複。",
+      "fix": "考生"
+    },
+    {
+      "word": "excel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在學科及比賽表現的例句中重疊。",
+      "fix": "表現突出"
+    },
+    {
+      "word": "excerpt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "摘錄與節錄在三句中近義重複。",
+      "fix": "節錄"
+    },
+    {
+      "word": "excess",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過量與過剩近義重複，保留超出限額的部分。",
+      "fix": "過量；超出部分"
+    },
+    {
+      "word": "exempt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "免稅是被免除特定義務的一種，原兩義重疊。",
+      "fix": "被免除的"
+    },
+    {
+      "word": "exempt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "免除與豁免同義重複。",
+      "fix": "免除"
+    },
+    {
+      "word": "exert",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為對力量、影響或努力的運用，未另使用 exert oneself 的盡力義。",
+      "fix": "運用；施加"
+    },
+    {
+      "word": "expenditure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "支出與花費近義重複，經費是更寬泛的款項概念。",
+      "fix": "支出"
+    },
+    {
+      "word": "expiration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "到期、期滿與屆滿在本組效期例句中近義重複。",
+      "fix": "到期"
+    },
+    {
+      "word": "expire",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為因期限而終止效力，到期、期滿與失效的釋義重疊。",
+      "fix": "到期"
+    },
+    {
+      "word": "exempt",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "免除的是應試義務，原譯免除她的期末考試搭配不清。",
+      "fix": "學校會讓她不必參加期末考。"
+    },
+    {
+      "word": "exert",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文敘述使力以求開門，原譯才推開額外斷定已成功開門。",
+      "fix": "他使出全力，試圖推開那扇沉重的門。"
+    },
+    {
+      "word": "excel",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入也常幫助同學的校園情境。",
+      "fix": "She excels at math and science and often helps her classmates."
+    },
+    {
+      "word": "excel",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "她的數學和科學表現突出，也常幫助同學。"
+    },
+    {
+      "word": "excess",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "excess luggage 中 excess 為形容詞，改用 the excess 作明確名詞。",
+      "fix": "The airline charged us for the excess over the baggage allowance."
+    },
+    {
+      "word": "excess",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "航空公司向我們收取行李超出限額部分的費用。"
+    },
+    {
+      "word": "excess",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "excess stock 中 excess 為形容詞，改用 the excess 作明確名詞。",
+      "fix": "After filling the orders, the shop sold the excess at half price."
+    },
+    {
+      "word": "excess",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "完成訂單後，商店以半價出售剩餘商品。"
+    },
+    {
+      "word": "exclusion",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "Feeling exclusion 搭配不自然，應表達經歷排斥或被排擠。",
+      "fix": "Experiencing exclusion at school can hurt a student's confidence."
+    },
+    {
+      "word": "exclusion",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "在學校遭到排擠，可能會傷害學生的自信。"
+    },
+    {
+      "word": "extract",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提取物與萃取物在香草精及綠茶成分例句中同義重複。",
+      "fix": "萃取物；摘錄"
+    },
+    {
+      "word": "extracurricular",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "課外的與正課以外的同義重複。",
+      "fix": "課外的"
+    },
+    {
+      "word": "eyelid",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "眼瞼與眼皮為同一身體部位的近義名稱。",
+      "fix": "眼瞼"
+    },
+    {
+      "word": "faction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "派系與派別近義重複，小團體又過於籠統。",
+      "fix": "派系"
+    },
+    {
+      "word": "fahrenheit",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "Fahrenheit 作名詞指溫標，並非溫度計這個測量器具。",
+      "fix": "華氏溫標"
+    },
+    {
+      "word": "falter",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句銷售衰退義未列出，第一句亦是聲音變得不穩而非單純支吾。",
+      "fix": "變得不穩；蹣跚；衰退"
+    },
+    {
+      "word": "familiarity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熟悉與熟悉程度在前兩句中重複。",
+      "fix": "熟悉；親密"
+    },
+    {
+      "word": "fascination",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "著迷與迷戀近義重複，保留客觀吸引力的魅力義。",
+      "fix": "著迷；魅力"
+    },
+    {
+      "word": "feasible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "可行的與行得通的同義重複。",
+      "fix": "可行的"
+    },
+    {
+      "word": "eyelash",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入睫毛末端捲翹的具體特徵。",
+      "fix": "The baby has long, dark eyelashes that curl at the tips."
+    },
+    {
+      "word": "eyelash",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這個嬰兒有又長又黑、末端捲翹的睫毛。"
+    },
+    {
+      "word": "eyelid",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "reduce a swollen eyelid 會變成縮小眼瞼，應表達減輕眼瞼腫脹。",
+      "fix": "Cold tea bags can help reduce swelling in the eyelid."
+    },
+    {
+      "word": "eyelid",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "冷茶包有助於減輕眼瞼腫脹。"
+    },
+    {
+      "word": "fahrenheit",
+      "path": "senses[0].examples[0].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "degrees Fahrenheit 為後置形容詞搭配，改以溫標名稱作主詞的明確名詞用法。",
+      "fix": "Fahrenheit is used for many weather forecasts in the United States."
+    },
+    {
+      "word": "fahrenheit",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "美國許多天氣預報都使用華氏溫標。"
+    },
+    {
+      "word": "fahrenheit",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "degrees Fahrenheit 為後置形容詞搭配，改以 in Fahrenheit 作明確溫標名詞。",
+      "fix": "The thermometer can display temperatures in Fahrenheit or Celsius."
+    },
+    {
+      "word": "fahrenheit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這支溫度計能以華氏或攝氏顯示溫度。"
+    },
+    {
+      "word": "feminine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩個釋義重疊，服飾與風格用法指具有女性特質，不是單指女性身分。",
+      "fix": "有女性特質的；陰性的"
+    },
+    {
+      "word": "fertility",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句國家層級使用生育率義，原釋義未列出且生育力與繁殖力重疊。",
+      "fix": "肥力；生育能力；生育率"
+    },
+    {
+      "word": "fin",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為潛水用蛙鞋，原釋義只泛稱鰭狀物不夠精確。",
+      "fix": "魚鰭；蛙鞋"
+    },
+    {
+      "word": "finite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "有限的與有限度的同義重複。",
+      "fix": "有限的"
+    },
+    {
+      "word": "fireproof",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "防火與耐火在這組文件盒、門及建材例句中重疊。",
+      "fix": "防火的"
+    },
+    {
+      "word": "flake",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "薄片與小片在辣椒、油漆碎片用法中重疊。",
+      "fix": "薄片；雪花"
+    },
+    {
+      "word": "flake",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為主動把魚肉剝成小片，原兩個釋義只表自行剝落。",
+      "fix": "剝落；剝成小片"
+    },
+    {
+      "word": "flaw",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "缺陷、瑕疵與缺點在這組不完美之處的例句中近義重複。",
+      "fix": "缺陷"
+    },
+    {
+      "word": "feminine",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "feminine clothing 指具有女性風格的服飾，不等於僅按穿著者性別分類的女裝。",
+      "fix": "這家店販售適合各年齡層、具有女性風格的服飾。"
+    },
+    {
+      "word": "fertility",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說河流帶來肥力，未明示運來新的土壤。",
+      "fix": "這條河為周圍的農地帶來肥力。"
+    },
+    {
+      "word": "fin",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說鰭，未限定為背鰭。",
+      "fix": "鯊魚的鰭露出了水面。"
+    },
+    {
+      "word": "firecracker",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a firecracker 表示單一鞭炮，原譯一串增加了數量。",
+      "fix": "我們放了一枚鞭炮來慶祝新年。"
+    },
+    {
+      "word": "fishery",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞為漁船，應直接對應第一義的捕魚水域或漁場。",
+      "fix": "fishing grounds"
+    },
+    {
+      "word": "fertility",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原第一、三句皆為肥力，改第三句示範所列常見的生育能力義。",
+      "fix": "Doctors explained how age can affect fertility in both men and women."
+    },
+    {
+      "word": "fertility",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為醫師說明年齡影響男女生育能力的情境。",
+      "fix": "醫師說明了年齡如何影響男性與女性的生育能力。"
+    },
+    {
+      "word": "falter",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入遊客減少造成銷售轉弱的商業情境。",
+      "fix": "Sales faltered during the summer months as fewer tourists visited the town."
+    },
+    {
+      "word": "falter",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入遊客減少的原因，並以轉弱表達 falter 的意思。",
+      "fix": "夏季那幾個月，因為造訪小鎮的遊客減少，銷售表現轉弱了。"
+    }
+  ]
+}
