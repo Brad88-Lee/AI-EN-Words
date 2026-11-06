@@ -1,0 +1,489 @@
+{
+  "batch": "N0112",
+  "checked": 50,
+  "reviewed": [
+    "peninsula",
+    "perch",
+    "peril",
+    "perish",
+    "permissible",
+    "persevere",
+    "persistence",
+    "persistent",
+    "petroleum",
+    "pharmacist",
+    "pharmacy",
+    "pickpocket",
+    "pimple",
+    "pinch",
+    "plague",
+    "plantation",
+    "playwright",
+    "plow",
+    "pneumonia",
+    "polar",
+    "ponder",
+    "populate",
+    "posture",
+    "potent",
+    "preach",
+    "precede",
+    "precedent",
+    "precision",
+    "predecessor",
+    "prehistoric",
+    "premiere",
+    "preside",
+    "prestige",
+    "preventive",
+    "priceless",
+    "privatize",
+    "probe",
+    "procession",
+    "proficiency",
+    "prohibition",
+    "propel",
+    "prose",
+    "prosecute",
+    "prospective",
+    "prototype",
+    "provincial",
+    "provisional",
+    "psychiatry",
+    "psychic",
+    "publicize"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "perch",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句房屋的 perch 指坐落高處，原釋義只列人或鳥的停留動作，應明確補列。",
+      "fix": "棲息；坐在邊緣；坐落高處"
+    },
+    {
+      "word": "perch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除棲木與高處位置外，perch 亦常指鱸魚，應補入此常見名詞義。",
+      "fix": "棲木；高處的位置；鱸魚"
+    },
+    {
+      "word": "perch",
+      "path": "senses[1].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "兩句棲木情境重複，改以湖中釣到的魚支持補列的常見魚類義。",
+      "fix": "We cooked the perch we caught in the lake for dinner."
+    },
+    {
+      "word": "perch",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我們把在湖裡釣到的鱸魚煮來當晚餐。"
+    },
+    {
+      "word": "peril",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "危險、危難與險境在三個遭遇危險的情境中同義重複。",
+      "fix": "危險"
+    },
+    {
+      "word": "permissible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "允許與可容許在三個規定許可的情境中同義重複。",
+      "fix": "允許的"
+    },
+    {
+      "word": "persevere",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "堅持不懈與持續努力在遇到困難仍繼續的例句中同義重複。",
+      "fix": "堅持不懈"
+    },
+    {
+      "word": "persistence",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "毅力與堅持在前兩句重複，另保留噪音一直持續的意思。",
+      "fix": "毅力；持續"
+    },
+    {
+      "word": "petroleum",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "油桶是盛裝物件，未直接呈現第一義項的石油液體，應明確搜尋原油本身。",
+      "fix": "crude oil liquid"
+    },
+    {
+      "word": "pharmacy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "藥局與藥房在領藥處所的例句中重複，另保留藥學這門學科。",
+      "fix": "藥局；藥學"
+    },
+    {
+      "word": "pimple",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "痘痘與面皰是同一皮膚症狀的不同稱呼，不必重複列義。",
+      "fix": "痘痘"
+    },
+    {
+      "word": "pinch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擰可能包含扭轉動作，原有兩個手部動作例句都只表示捏，另保留鞋子夾痛腳趾的意思。",
+      "fix": "捏；夾痛"
+    },
+    {
+      "word": "pinch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "少量與一撮重複，且漏列常見名詞的捏一下動作義。",
+      "fix": "一撮；一捏；緊要關頭"
+    },
+    {
+      "word": "pinch",
+      "path": "senses[1].examples[1].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "兩句少量食材的情境重複，改以捏合麵糰的動作支持補列的一捏義。",
+      "fix": "She gave the dough a gentle pinch to seal the edges."
+    },
+    {
+      "word": "pinch",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她輕輕捏了麵糰一下，把邊緣封好。"
+    },
+    {
+      "word": "plague",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "中世紀歐洲的 the plague 指鼠疫，災禍過於籠統，另保留第二句的蟲害。",
+      "fix": "鼠疫；蟲害"
+    },
+    {
+      "word": "plague",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "十四世紀的 the plague 指鼠疫，宜使用明確病名而非泛稱瘟疫。",
+      "fix": "這座城市在十四世紀因鼠疫失去了數千人。"
+    },
+    {
+      "word": "plague",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "大批不能自然修飾蟲害這個災害概念，應表達大量害蟲毀壞作物。",
+      "fix": "大量害蟲毀了農民的作物。"
+    },
+    {
+      "word": "plague",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "歐洲歷史中的 the plague 通常指鼠疫，應與釋義所列病名一致。",
+      "fix": "歷史學家研究鼠疫如何傳遍歐洲。"
+    },
+    {
+      "word": "plague",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "困擾與折磨在疼痛、延誤及蚊蟲的例句中同義重複。",
+      "fix": "困擾"
+    },
+    {
+      "word": "plantation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大農場涵蓋畜牧等其他用途，而三句都指種植經濟作物的種植園。",
+      "fix": "種植園"
+    },
+    {
+      "word": "plow",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "犁田與耕地在前兩句同義重複，另保留船隻破浪前進的比喻用法。",
+      "fix": "犁田；破浪前進"
+    },
+    {
+      "word": "polar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "極地與南北極在這些地理環境例句中同義重複。",
+      "fix": "極地的"
+    },
+    {
+      "word": "ponder",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "深思與考慮在三個仔細思考的情境中重複，合併即可。",
+      "fix": "仔細思考"
+    },
+    {
+      "word": "populate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "前兩句均為人居住於某地，沒有動物棲息的例句，另保留填入資料的用法。",
+      "fix": "居住於；填入資料"
+    },
+    {
+      "word": "posture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "姿勢與姿態在前兩個身體姿勢例句中重複，另保留公司的立場。",
+      "fix": "姿勢；立場"
+    },
+    {
+      "word": "precede",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "在之前、先於與排在之前在這些時間及順序例句中都表達同一先後關係。",
+      "fix": "先於"
+    },
+    {
+      "word": "precedent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "先例與前例在三個可供後續參照的例句中同義重複。",
+      "fix": "先例"
+    },
+    {
+      "word": "precision",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩項同義重複，準確度在測量情境也容易混淆其他概念，宜統一為精確程度的名詞。",
+      "fix": "精確度"
+    },
+    {
+      "word": "precision",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充進行複雜手術的具體工作情境。",
+      "fix": "Surgeons need precision and steady hands to perform complicated operations."
+    },
+    {
+      "word": "precision",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "外科醫師進行複雜手術時，需要精準的操作和穩定的雙手。"
+    },
+    {
+      "word": "preside",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擔任主席在這些活動與會議情境中就是主持，無須另列同義用法。",
+      "fix": "主持"
+    },
+    {
+      "word": "prestige",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "威望、聲望與聲譽在三個獲得他人尊重或認可的情境中同義重複。",
+      "fix": "聲望"
+    },
+    {
+      "word": "preventive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "預防性的與預防的在三句中為同一用法。",
+      "fix": "預防性的"
+    },
+    {
+      "word": "priceless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無價與極珍貴在畫作、相處時光及舊照片的情境中同義重複。",
+      "fix": "無價的"
+    },
+    {
+      "word": "privatize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指政府事業轉為民營，私有化在此是同一轉變的譯法。",
+      "fix": "民營化"
+    },
+    {
+      "word": "procession",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "行列與遊行隊伍在三個有秩序行進的隊伍情境中重複，合併表達即可。",
+      "fix": "行進隊伍"
+    },
+    {
+      "word": "procession",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "一長列車隊的量詞與名詞搭配不順，應指一長列車輛。",
+      "fix": "一長列車輛跟在新娘的車後面。"
+    },
+    {
+      "word": "procession",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "costumes 指特定裝扮的服飾，單說穿著服裝漏掉其特殊裝扮語意。",
+      "fix": "穿著變裝服飾的孩子們加入了慶典的遊行隊伍。"
+    },
+    {
+      "word": "proficiency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "熟練與精通重疊，能力又過於籠統，proficiency 強調技能的熟練程度。",
+      "fix": "熟練程度"
+    },
+    {
+      "word": "propel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推進與推動同義重複，努力促進成績的例句也不是驅使他人行動。",
+      "fix": "推動"
+    },
+    {
+      "word": "propel",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充引擎燃燒燃料將火箭推向太空的具體情境。",
+      "fix": "The engine burns fuel to propel the rocket into space."
+    },
+    {
+      "word": "propel",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "引擎燃燒燃料，將火箭推向太空。"
+    },
+    {
+      "word": "prose",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "文字範圍過廣，prose 指散文體書寫並可包含小說，應合併為明確的定義。",
+      "fix": "散文體文字"
+    },
+    {
+      "word": "prosecute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指追究刑事責任的起訴，提起公訴是同一程序的譯法。",
+      "fix": "起訴"
+    },
+    {
+      "word": "prospective",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "未來、潛在與可能在尚未成為學生、買家或合作夥伴的例句中重疊。",
+      "fix": "潛在的"
+    },
+    {
+      "word": "prototype",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原型與雛形在三個試作版本的情境中同義重複。",
+      "fix": "原型"
+    },
+    {
+      "word": "provisional",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暫時與臨時在辦公室例句中重複，另保留尚待確認的暫定意思。",
+      "fix": "臨時的；暫定的"
+    },
+    {
+      "word": "psychic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指超常感知能力，通靈可能被限縮理解為與靈界溝通，不必另列重複義項。",
+      "fix": "有超感應力的"
+    },
+    {
+      "word": "psychic",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靈媒容易限縮為與靈界溝通的人，現有占測未來的例句應採較廣的超感應能力人物義。",
+      "fix": "有超感應力的人"
+    },
+    {
+      "word": "psychic",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "水晶球通常代表占卜或算命，不能明確對應第一形容詞義的超感應能力。",
+      "fix": null
+    },
+    {
+      "word": "plague",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充露營區採取防治措施後仍受蚊子困擾的具體情境。",
+      "fix": "Mosquitoes plague the campsite every summer despite efforts to control them."
+    },
+    {
+      "word": "plague",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充已有防治措施仍受蚊蟲困擾的情境。",
+      "fix": "儘管已採取防治措施，蚊子每年夏天仍困擾著這個露營區。"
+    }
+  ]
+}
