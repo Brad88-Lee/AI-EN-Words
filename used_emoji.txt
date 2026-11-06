@@ -642,3 +642,4 @@
 🦎(lizard)
 🐙(octopus)
 🦚(peacock)
+☢️(radioactive)
