@@ -1,0 +1,804 @@
+{
+  "batch": "N0104",
+  "checked": 50,
+  "reviewed": [
+    "complexion",
+    "comprehensive",
+    "computerize",
+    "comrade",
+    "concession",
+    "concise",
+    "condense",
+    "confederation",
+    "congresswoman",
+    "conquest",
+    "conscientious",
+    "conserve",
+    "consolation",
+    "console",
+    "conspiracy",
+    "contention",
+    "contestant",
+    "continuity",
+    "contradict",
+    "convene",
+    "coral",
+    "corpse",
+    "correspondence",
+    "cosmetic",
+    "cosmetics",
+    "counterpart",
+    "coupon",
+    "courtyard",
+    "cowardly",
+    "cozy",
+    "crackdown",
+    "cracker",
+    "cramp",
+    "crater",
+    "credible",
+    "crocodile",
+    "crossing",
+    "cumulative",
+    "curb",
+    "curfew",
+    "curry",
+    "customary",
+    "cynical",
+    "dazzle",
+    "deafen",
+    "decisive",
+    "dedication",
+    "deduct",
+    "deem",
+    "default"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "complexion",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句描述皮膚質地而不只是顏色，宜將膚色與膚質併列並保留比喻面貌義。",
+      "fix": "膚色與膚質；面貌"
+    },
+    {
+      "word": "comprehensive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在這組課程、保險及清單例句中重疊，全面較精確表達完整涵蓋。",
+      "fix": "全面的"
+    },
+    {
+      "word": "computerize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個釋義在紀錄、服務及檔案轉為電腦管理的例句中重疊。",
+      "fix": "使電腦化"
+    },
+    {
+      "word": "concise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「簡明的」與「簡潔的」在三句中近義重複。",
+      "fix": "簡潔的"
+    },
+    {
+      "word": "condense",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句使用蒸氣凝結義，原釋義未列出且壓縮與使簡短在報告例句中重複。",
+      "fix": "濃縮；凝結"
+    },
+    {
+      "word": "conquest",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指西洋棋上的勝利，原列贏得的人或物未在例句中明示，征服與攻克亦重複。",
+      "fix": "征服；勝利"
+    },
+    {
+      "word": "congresswoman",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞泛指女性政治人物，未限於第一義的女國會議員。",
+      "fix": "congresswoman speaking"
+    },
+    {
+      "word": "complexion",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入肖像畫情境；clear 指皮膚無瑕，不能直接譯成白淨。",
+      "fix": "The portrait shows a young woman with a smooth, clear complexion."
+    },
+    {
+      "word": "complexion",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這幅肖像畫中的年輕女子有著光滑、乾淨無瑕的臉部皮膚。"
+    },
+    {
+      "word": "concise",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，且 short 與 concise 重複，改以面試官容易理解說明效果。",
+      "fix": "His answer was concise and easy for the interviewer to understand."
+    },
+    {
+      "word": "concise",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他的回答很簡潔，面試官很容易理解。"
+    },
+    {
+      "word": "condense",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "牛奶加熱濃縮不會直接成為糖漿，改用製作甜點前濃縮牛奶的情境。",
+      "fix": "Heat the milk gently to condense it before making the dessert."
+    },
+    {
+      "word": "condense",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "製作甜點前，輕輕加熱牛奶，使它濃縮。"
+    },
+    {
+      "word": "conscientious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指盡責而仔細，原兩個釋義重疊。",
+      "fix": "認真負責的"
+    },
+    {
+      "word": "conserve",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「保存」與森林保護義重疊，三句沒有再示另一保存義。",
+      "fix": "節約；保護"
+    },
+    {
+      "word": "consolation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「安慰」與「慰藉」近義重複。",
+      "fix": "安慰"
+    },
+    {
+      "word": "console",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「安慰」與「撫慰」近義重複。",
+      "fix": "安慰"
+    },
+    {
+      "word": "conspiracy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為秘密策劃的陰謀，原兩個釋義近義重複。",
+      "fix": "陰謀"
+    },
+    {
+      "word": "contention",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指爭奪冠軍的競爭，原釋義未列出且爭論與爭執重複。",
+      "fix": "爭論；論點；競爭"
+    },
+    {
+      "word": "contestant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為比賽參與者，兩個中文釋義近義重複。",
+      "fix": "參賽者"
+    },
+    {
+      "word": "convene",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「召集」與「召開」在會議例句中重複，保留不及物集合義。",
+      "fix": "召開；集合"
+    },
+    {
+      "word": "conscientious",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "double-check 是再次核對，原譯再三確認額外增加反覆次數。",
+      "fix": "認真負責的員工總會再次核對數字。"
+    },
+    {
+      "word": "console",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入啟動引擎前檢查的飛行情境。",
+      "fix": "The pilot checked the control console before starting the engine."
+    },
+    {
+      "word": "console",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "飛行員在啟動引擎前檢查了控制台。"
+    },
+    {
+      "word": "conspiracy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "a conspiracy about everything 搭配含糊，改用懷疑新聞背後有陰謀的自然表達。",
+      "fix": "Some people suspect a conspiracy behind every major news story."
+    },
+    {
+      "word": "conspiracy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "有些人懷疑每則重大新聞背後都有陰謀。"
+    },
+    {
+      "word": "contradict",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入報告對事故時間意見不一的具體情境。",
+      "fix": "The two reports contradict each other about when the accident happened."
+    },
+    {
+      "word": "contradict",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這兩份報告對於事故發生的時間彼此矛盾。"
+    },
+    {
+      "word": "convene",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入審查學校預算的會議目的。",
+      "fix": "The committee convenes every month to review the school budget."
+    },
+    {
+      "word": "convene",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "委員會每個月開會，審查學校預算。"
+    },
+    {
+      "word": "coral",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指珊瑚本身，pink 只是珊瑚的顏色，未使用獨立珊瑚色義。",
+      "fix": "珊瑚"
+    },
+    {
+      "word": "counterpart",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同等職位者是對應人物的一種，原釋義重疊且人事物過於籠統。",
+      "fix": "對應的人或物"
+    },
+    {
+      "word": "coupon",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義皆屬取得優惠的票券，應合併為能涵蓋免費及折扣用途的優惠券。",
+      "fix": "優惠券"
+    },
+    {
+      "word": "courtyard",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「庭院」與「中庭」在本組建築內院例句中近義重複。",
+      "fix": "庭院"
+    },
+    {
+      "word": "cozy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義重疊，且毛衣例句應凸顯溫暖舒適而非單指心情愜意。",
+      "fix": "溫暖舒適的"
+    },
+    {
+      "word": "counterpart",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "counterpart 未指明為舊款，原譯額外加入新舊機型的比較。",
+      "fix": "新型號比與它相對應的機種更快。"
+    },
+    {
+      "word": "coral",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入熱帶淺水區的具體環境。",
+      "fix": "Colorful fish swim around the coral in the shallow tropical water."
+    },
+    {
+      "word": "coral",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "色彩繽紛的魚在熱帶淺水區的珊瑚周圍游動。"
+    },
+    {
+      "word": "coral",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補充水溫過高對珊瑚的影響，形成完整科學情境。",
+      "fix": "Warm seas help coral grow, but excessive heat can damage it."
+    },
+    {
+      "word": "coral",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "溫暖的海水有助於珊瑚生長，但過高的水溫可能傷害珊瑚。"
+    },
+    {
+      "word": "corpse",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入撰寫調查報告前蒐集線索的情境。",
+      "fix": "Detectives examined the corpse for clues before writing their report."
+    },
+    {
+      "word": "corpse",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "偵探在撰寫報告前檢查屍體，尋找線索。"
+    },
+    {
+      "word": "corpse",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入牙科紀錄的身分辨識方法。",
+      "fix": "Doctors tried to identify the corpse using the available dental records."
+    },
+    {
+      "word": "corpse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "醫師試著利用現有的牙科紀錄辨識屍體身分。"
+    },
+    {
+      "word": "cosmetic",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補充修繕未解決漏水的具體結果。",
+      "fix": "The repairs were only cosmetic and did not fix the leak."
+    },
+    {
+      "word": "cosmetic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這些修繕只是表面功夫，並沒有修好漏水的問題。"
+    },
+    {
+      "word": "cozy",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入柔和燈光及舒適椅子的環境細節。",
+      "fix": "The café has a cozy atmosphere, with soft lighting and comfortable chairs."
+    },
+    {
+      "word": "cozy",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這家咖啡廳氣氛溫馨舒適，燈光柔和，椅子也很舒服。"
+    },
+    {
+      "word": "crackdown",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指嚴格執行規定，整頓與嚴厲取締的釋義重疊。",
+      "fix": "嚴厲取締"
+    },
+    {
+      "word": "cramp",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抽筋與痙攣皆為肌肉不自主緊縮，三句未形成另一獨立義項。",
+      "fix": "痙攣"
+    },
+    {
+      "word": "crater",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為火山口或撞擊坑，泛稱坑洞與這兩種釋義重疊。",
+      "fix": "火山口；隕石坑"
+    },
+    {
+      "word": "credible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「可信的」與「可靠的」在本組例句中近義重複。",
+      "fix": "可信的"
+    },
+    {
+      "word": "crossing",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為平交道，原釋義未列出；穿越處也不必然是四向十字路口。",
+      "fix": "穿越處；平交道；渡航"
+    },
+    {
+      "word": "cumulative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "逐漸增加是累積的結果描述，兩個釋義在此重疊。",
+      "fix": "累積的"
+    },
+    {
+      "word": "curb",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「抑制」與「控制」在開銷、噪音與情緒的例句中近義重複。",
+      "fix": "抑制"
+    },
+    {
+      "word": "cracker",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "a cracker 是單一鞭炮，原譯一串增加了數量。",
+      "fix": "有人在廟旁點燃了一枚很響的鞭炮。"
+    },
+    {
+      "word": "crossing",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "ferry crossing 未限定海上航程，原譯過海增加未明示的地理條件。",
+      "fix": "這趟渡輪航程大約要一個小時。"
+    },
+    {
+      "word": "cracker",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入套餐附有小餐包的餐飲情境。",
+      "fix": "The soup comes with two crackers and a small bread roll."
+    },
+    {
+      "word": "cracker",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這份湯附有兩片薄脆餅乾和一個小餐包。"
+    },
+    {
+      "word": "curfew",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入返回宿舍的具體門禁時間。",
+      "fix": "Dorm students must follow the curfew and return before eleven."
+    },
+    {
+      "word": "curfew",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "住宿學生必須遵守門禁，在十一點前返回宿舍。"
+    },
+    {
+      "word": "customary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義在社會習俗與個人習慣的例句中近義重複。",
+      "fix": "慣常的"
+    },
+    {
+      "word": "cynical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "cynical 的核心是懷疑他人動機，不能一概擴大為對整個世界憤世嫉俗。",
+      "fix": "懷疑他人動機的；冷嘲熱諷的"
+    },
+    {
+      "word": "deafen",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "deafen 為及物動詞，原釋義震耳欲聾是狀態描述，不能直接對應使人聽不見的動作。",
+      "fix": "使失去聽力"
+    },
+    {
+      "word": "dedication",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆指全心投入，奉獻與專注投入在此重疊。",
+      "fix": "專注投入；題獻"
+    },
+    {
+      "word": "deduct",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「扣除」與「減去」在這組金額及分數例句中近義重複。",
+      "fix": "扣除"
+    },
+    {
+      "word": "deem",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "「認為」與「視為」在本組判斷例句中近義重複。",
+      "fix": "認為"
+    },
+    {
+      "word": "default",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "第一義及六句中的四句皆為電腦預設用法，科技應為主要分類。",
+      "fix": [
+        "科技與網路",
+        "金融與會計"
+      ]
+    },
+    {
+      "word": "cynical",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入對競選承諾不信任的具體表現。",
+      "fix": "He is cynical about politicians and rarely believes their campaign promises."
+    },
+    {
+      "word": "cynical",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他對政客抱持懷疑態度，很少相信他們的競選承諾。"
+    },
+    {
+      "word": "decisive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入面對突發問題的領導情境。",
+      "fix": "A good leader must be decisive when unexpected problems arise."
+    },
+    {
+      "word": "decisive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "好的領導者遇到突發問題時，必須果斷。"
+    },
+    {
+      "word": "deduct",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "遲交的作業本身不會執行扣分，應以老師作為 deduct 的主詞。",
+      "fix": "Teachers may deduct points from your grade for late work."
+    },
+    {
+      "word": "deduct",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "老師可能會因為遲交作業而扣你的分數。"
+    },
+    {
+      "word": "deem",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入檢視原始文件後作出判斷的情境。",
+      "fix": "The judge deemed the evidence unreliable after examining the original documents."
+    },
+    {
+      "word": "deem",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "法官檢視原始文件後，認為這項證據不可靠。"
+    },
+    {
+      "word": "deem",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入考試及日常生活的具體範圍。",
+      "fix": "The school deems honesty very important in both exams and daily life."
+    },
+    {
+      "word": "deem",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "學校認為，無論考試或日常生活，誠實都非常重要。"
+    },
+    {
+      "word": "computerize",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入縮短等候時間的電腦化目的。",
+      "fix": "Many banks have computerized their services to reduce long waiting times."
+    },
+    {
+      "word": "computerize",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "許多銀行已將服務電腦化，以縮短冗長的等候時間。"
+    },
+    {
+      "word": "contestant",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入烹飪比賽參賽者爭取獎金的目的。",
+      "fix": "Ten contestants entered the cooking show, hoping to win a cash prize."
+    },
+    {
+      "word": "contestant",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "十位參賽者參加了這個烹飪節目，希望贏得獎金。"
+    },
+    {
+      "word": "correspondence",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入分居不同城市後持續通信的情境。",
+      "fix": "Our correspondence lasted for many years after we moved to different cities."
+    },
+    {
+      "word": "correspondence",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "我們搬到不同城市後，書信往來持續了多年。"
+    },
+    {
+      "word": "cramp",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入房間狹小限制奔跑活動的具體例子。",
+      "fix": "Small rooms cramp the children's play, especially when they try to run."
+    },
+    {
+      "word": "cramp",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "狹小的房間限制了孩子們的玩耍活動，尤其是他們想奔跑時。"
+    },
+    {
+      "word": "crater",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入撞擊坑形成原因的科學情境。",
+      "fix": "The moon is covered with craters formed by impacts from space rocks."
+    },
+    {
+      "word": "crater",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "月球表面布滿了太空岩石撞擊所形成的隕石坑。"
+    },
+    {
+      "word": "default",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入失業後未繳款的金融情境。",
+      "fix": "He defaulted on his car payments after losing his job."
+    },
+    {
+      "word": "default",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "他失業後，未能按期繳付汽車分期款。"
+    },
+    {
+      "word": "default",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入程式第一次啟動的使用情境。",
+      "fix": "The program will default to English when it starts for the first time."
+    },
+    {
+      "word": "default",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "程式第一次啟動時，會預設為英文。"
+    }
+  ]
+}
