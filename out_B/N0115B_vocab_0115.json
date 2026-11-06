@@ -1,0 +1,881 @@
+{
+  "batch": "N0115",
+  "checked": 50,
+  "reviewed": [
+    "solemn",
+    "solidarity",
+    "solitary",
+    "solitude",
+    "soothe",
+    "sorrowful",
+    "sovereign",
+    "span",
+    "spectacle",
+    "spiral",
+    "splendor",
+    "spontaneous",
+    "spotlight",
+    "spur",
+    "stabilize",
+    "stagger",
+    "staple",
+    "statesman",
+    "stationary",
+    "stature",
+    "stepchild",
+    "stimulation",
+    "strait",
+    "strangle",
+    "stray",
+    "stride",
+    "stroll",
+    "stun",
+    "stutter",
+    "stylish",
+    "subjective",
+    "subordinate",
+    "subscribe",
+    "subscription",
+    "subsidize",
+    "succession",
+    "successive",
+    "suffocate",
+    "summon",
+    "superficial",
+    "superintendent",
+    "superiority",
+    "superstitious",
+    "supplement",
+    "suppress",
+    "surge",
+    "surgical",
+    "surpass",
+    "suspense",
+    "swamp"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "solemn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "嚴肅與莊嚴在典禮及演說情境重疊，另保留承諾鄭重的意思。",
+      "fix": "莊嚴的；鄭重的"
+    },
+    {
+      "word": "solidarity",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "休戚與共與團結重複，第二句則使用未明列的聲援意思。",
+      "fix": "團結；聲援"
+    },
+    {
+      "word": "solitary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項都描述獨自或單獨存在的狀態，不必分列，也不必暗示情緒上的孤寂。",
+      "fix": "獨自的"
+    },
+    {
+      "word": "solitary",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "solitary life 強調獨居狀態，原文沒有明確交代老先生感到寂寞。",
+      "fix": "那位老先生在山裡過著獨居生活。"
+    },
+    {
+      "word": "solitude",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "solitude 核心是獨處，孤獨在此重複，寂靜則不一定表示沒有人陪伴。",
+      "fix": "獨處"
+    },
+    {
+      "word": "solitude",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "solitude 指獨處而不只是安靜，原翻譯漏掉沒有他人陪伴的狀態。",
+      "fix": "在鄉間可以享受平靜與獨處。"
+    },
+    {
+      "word": "soothe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "緩和與減輕在疼痛及緊張的情境重疊，另保留安撫嬰兒的用法。",
+      "fix": "安撫；減輕"
+    },
+    {
+      "word": "sorrowful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "悲傷與憂傷在神情、歌曲及聲音的情境中同義重複。",
+      "fix": "悲傷的"
+    },
+    {
+      "word": "sovereign",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擁有主權與獨立自主在三個國家主權的例句中同義重複。",
+      "fix": "擁有主權的"
+    },
+    {
+      "word": "sovereign",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原例涉及臺灣主權政治爭議，且 countries 與地區不對應，改用中性的地理例句。",
+      "fix": "Japan is a sovereign country located in East Asia."
+    },
+    {
+      "word": "sovereign",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "日本是位於東亞的主權國家。"
+    },
+    {
+      "word": "sovereign",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指君主，元首的範圍更廣，原稿沒有非君主元首的用法。",
+      "fix": "君主"
+    },
+    {
+      "word": "span",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句只有橋梁跨度與時間長度，沒有描述物件橫向寬度的意思。",
+      "fix": "跨度；期間"
+    },
+    {
+      "word": "span",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "橋梁物件本身不能明確表達第一個名詞意思所指的跨度量值。",
+      "fix": null
+    },
+    {
+      "word": "spectacle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "壯觀景象與奇觀重複，另漏列 spectacles 常用複數表示眼鏡的名詞義。",
+      "fix": "引人注目的景象；眼鏡"
+    },
+    {
+      "word": "spectacle",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句均為引人注目的場面，改用 spectacles 明確支持常見的眼鏡義。",
+      "fix": "He put on his spectacles to read the small print."
+    },
+    {
+      "word": "spectacle",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "他戴上眼鏡來閱讀小字。"
+    },
+    {
+      "word": "spiral",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "螺旋與螺旋形重複，且漏列常見的事態持續惡化循環義。",
+      "fix": "螺旋；惡性循環"
+    },
+    {
+      "word": "spiral",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "直接說走上 spiral 難以明確指螺旋梯，改用債務惡性循環的典型名詞搭配。",
+      "fix": "Rising prices pushed the family into a spiral of debt."
+    },
+    {
+      "word": "spiral",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "物價上漲讓這家人陷入債務的惡性循環。"
+    },
+    {
+      "word": "spiral",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句是盤旋下降，不能只寫盤旋上升，第三句則是價格急遽上升而非泛指惡化。",
+      "fix": "盤旋；急遽上升"
+    },
+    {
+      "word": "spiral",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "螺旋梯是具有螺旋形的物件，改查直接呈現第一義螺旋形態的圖案。",
+      "fix": "spiral pattern"
+    },
+    {
+      "word": "splendor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壯麗、輝煌與華麗在宮殿、夕陽及飯店裝飾的情境中同義重複。",
+      "fix": "壯麗"
+    },
+    {
+      "word": "spontaneous",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "自然產生與自發重疊，第二句未事先計畫的旅行則需明確列出臨時起意義。",
+      "fix": "自發的；臨時起意的；不做作的"
+    },
+    {
+      "word": "spotlight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "焦點與眾人矚目在人物及新聞議題的情境中重複，另保留實體聚光燈。",
+      "fix": "聚光燈；關注焦點"
+    },
+    {
+      "word": "spotlight",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "聚焦與使突出在公開介紹人物及議題的例句中同義重複。",
+      "fix": "突顯"
+    },
+    {
+      "word": "spotlight",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "需要更安全道路的問題搭配不順，應清楚表達改善道路安全的必要性。",
+      "fix": "這份報告突顯了改善道路安全的必要性。"
+    },
+    {
+      "word": "spur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "促進與刺激在促使人採取行動的情境中重疊，宜與直接激勵人心的用法區分。",
+      "fix": "激勵；促使"
+    },
+    {
+      "word": "spur",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "刺激與激勵在獎項及法律的例句中都指激勵因素，另保留實體馬刺。",
+      "fix": "激勵因素；馬刺"
+    },
+    {
+      "word": "stabilize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "穩固與使穩定在桌腳、心跳及價格的情境中都是使狀態穩定的用法。",
+      "fix": "使穩定"
+    },
+    {
+      "word": "stagger",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "蹣跚與搖搖晃晃地走重複，且漏列常見的使人震驚義。",
+      "fix": "搖搖晃晃地走；錯開；使震驚"
+    },
+    {
+      "word": "stagger",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "兩個步履不穩的情境重複，改用修屋頂費用使屋主震驚的例句支持常見義。",
+      "fix": "The unexpected cost of repairing the roof staggered the homeowner."
+    },
+    {
+      "word": "stagger",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "修屋頂的意外費用讓屋主大吃一驚。"
+    },
+    {
+      "word": "staple",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只說上方的一角，未指定左側，左上角加入了額外方向。",
+      "fix": "請在報告上方的一角釘上一根釘書針。"
+    },
+    {
+      "word": "staple",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個形容詞例句均指飲食或農作物的主要地位，基本與主要重疊。",
+      "fix": "主要的"
+    },
+    {
+      "word": "staple",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "金屬釘書針對應第三個名詞意思，不是第一個主食義。",
+      "fix": "staple foods"
+    },
+    {
+      "word": "statesman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "政壇元老只是資深政治家，第一句的年齡來自 old，而非 statesman 本身的獨立意思。",
+      "fix": "政治家"
+    },
+    {
+      "word": "stationary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靜止與不動在車輛停止的情境中重複，另保留固定式健身器材的用法。",
+      "fix": "靜止的；固定的"
+    },
+    {
+      "word": "stature",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "地位與聲望在個人受到尊重的情境中重疊，另保留實際身高的意思。",
+      "fix": "身高；聲望"
+    },
+    {
+      "word": "stepchild",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "stepchild 未限定性別，原文與兒子比較不代表繼親孩子也一定是男孩。",
+      "fix": "他對待配偶的孩子，就像對待自己的兒子一樣親切。"
+    },
+    {
+      "word": "stimulation",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指促進學習或心智活動的刺激，沒有另外使用激勵行動或興奮情緒義。",
+      "fix": "刺激"
+    },
+    {
+      "word": "strait",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除海峽外，straits 常用複數表示困境，應補入此常見名詞義。",
+      "fix": "海峽；困境"
+    },
+    {
+      "word": "strait",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句都談海峽，改以工廠關閉後的財務困境支持常見複數義。",
+      "fix": "Many families were in financial straits after the local factory closed."
+    },
+    {
+      "word": "strait",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "當地工廠關閉後，許多家庭陷入財務困境。"
+    },
+    {
+      "word": "strangle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勒是造成窒息的動作方式，在衣領情境中與使窒息重疊，另保留阻礙發展的扼殺義。",
+      "fix": "使窒息；扼殺"
+    },
+    {
+      "word": "strangle",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "began to strangle 指開始嚴重阻礙幼苗生長，原文未說幼苗已被纏死。",
+      "fix": "雜草開始嚴重阻礙花園裡幼苗的生長。"
+    },
+    {
+      "word": "strangle",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "strangle 的受詞通常是呼吸受阻的人而非 neck，改為衣領讓人感到窒息的主觀比喻。",
+      "fix": "This tight collar feels as if it might strangle me."
+    },
+    {
+      "word": "strangle",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這個緊繃的衣領讓我覺得快喘不過氣來。"
+    },
+    {
+      "word": "stray",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "stray ball 表示飛偏的球，原文沒有交代是否知道球的來源。",
+      "fix": "一顆偏離目標的球飛進了我們的院子。"
+    },
+    {
+      "word": "stray",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "走失與迷路在離開人群的例句中重疊，且 stray 不一定表示不知道方向，另保留偏離的用法。",
+      "fix": "走失；偏離"
+    },
+    {
+      "word": "stroll",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "散步與閒逛在海灘、老街及公園的情境中同義重複。",
+      "fix": "散步"
+    },
+    {
+      "word": "stroll",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "散步與閒逛在三個悠閒步行的例句中同義重複。",
+      "fix": "散步"
+    },
+    {
+      "word": "stun",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使目瞪口呆與使震驚在情緒反應例句中重複，另保留使昏迷的生理用法。",
+      "fix": "使震驚；使昏迷"
+    },
+    {
+      "word": "stutter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "口吃與結巴是同一言語不流暢情況的不同稱呼。",
+      "fix": "口吃"
+    },
+    {
+      "word": "stylish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "流行若指受大眾歡迎則比 stylish 更廣，現有例句只支持時髦或外觀有型。",
+      "fix": "時髦的；有型的"
+    },
+    {
+      "word": "stylish",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "with wooden tables 指咖啡店配有木桌，不是說時尚設計只屬於木桌。",
+      "fix": "這間咖啡店設計時尚，配有木桌。"
+    },
+    {
+      "word": "subjective",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充朋友對不同音樂風格各有所好的具體比較。",
+      "fix": "Taste in music is subjective, so friends may prefer different styles."
+    },
+    {
+      "word": "subjective",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "音樂品味是主觀的，所以朋友之間可能偏好不同風格。"
+    },
+    {
+      "word": "subordinate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "從屬與下級在公司職務及官員階級的例句中重疊，另保留優先順序次要的意思。",
+      "fix": "次要的；下級的"
+    },
+    {
+      "word": "subordinate",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "部屬與下屬在三個職場上下級關係的例句中同義重複。",
+      "fix": "部屬"
+    },
+    {
+      "word": "subordinate",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充部屬犯錯時仍受到尊重的具體情境。",
+      "fix": "He treats his subordinates with respect, even when they make mistakes."
+    },
+    {
+      "word": "subordinate",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "即使自己的部屬犯錯，他也會尊重他們。"
+    },
+    {
+      "word": "subscribe",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "訂閱與訂購在媒體例句中重疊，簽署未被使用，且漏列常見的贊同觀點義。",
+      "fix": "訂閱；贊同"
+    },
+    {
+      "word": "subscribe",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句均為訂閱媒體，改用 subscribe to the view 的典型搭配支持贊同觀點義。",
+      "fix": "I do not subscribe to the view that money guarantees happiness."
+    },
+    {
+      "word": "subscribe",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我不贊同金錢能保證幸福的看法。"
+    },
+    {
+      "word": "subscription",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句只有訂閱服務與費用，沒有特定組織的會員資格用法。",
+      "fix": "訂閱；訂閱費"
+    },
+    {
+      "word": "subscription",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意，並使中文表達自然。",
+      "fix": "我的線上雜誌訂閱費每月是十美元。"
+    },
+    {
+      "word": "subsidize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "補助與資助在政府、城市及公司協助支付費用的例句中同義重複。",
+      "fix": "補助"
+    },
+    {
+      "word": "succession",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "我們連續下雨的主詞不當，英文 we had rainy days 指我們所在地經歷雨天。",
+      "fix": "上週我們這裡連續下了好幾天雨。"
+    },
+    {
+      "word": "successive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "連續與接連在比賽、雨天及獲獎的情境中同義重複。",
+      "fix": "連續的"
+    },
+    {
+      "word": "successive",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充連日下雨導致取消露營行程的具體情境。",
+      "fix": "It rained for four successive days, forcing us to cancel the camping trip."
+    },
+    {
+      "word": "successive",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "連續下了四天雨，迫使我們取消露營行程。"
+    },
+    {
+      "word": "suffocate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一、三句分別有使他人窒息與自己窒息的動作方向，悶死也未明確使用，另保留感到憋悶的比喻義。",
+      "fix": "（使）窒息；感到憋悶"
+    },
+    {
+      "word": "suffocate",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "把塑膠袋遠離的動詞搭配不順，應表達讓物品遠離嬰兒。",
+      "fix": "請讓塑膠袋遠離嬰兒，以免他們窒息。"
+    },
+    {
+      "word": "superintendent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "學區 superintendent 是學區行政主管而非僅負視察的督學，泛稱主管也與此重疊，另保留大樓管理員義。",
+      "fix": "學區總監；大樓管理員"
+    },
+    {
+      "word": "superintendent",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school superintendent 在此是學區總監，督學容易混淆為教育視察人員。",
+      "fix": "學區總監昨天來參訪我們班。"
+    },
+    {
+      "word": "superintendent",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "school district 的主管應稱學區總監，與本批釋義保持一致。",
+      "fix": "這位總監宣布了一項學區的新計畫。"
+    },
+    {
+      "word": "superiority",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "優越與優勢在實力及產品表現的例句中重複，另保留主觀的優越感。",
+      "fix": "優勢；優越感"
+    },
+    {
+      "word": "supplement",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句的 supplement 是具體補充教材，不能只用動作性的補充來表達名詞義。",
+      "fix": "補充品；補充教材；增刊"
+    },
+    {
+      "word": "supplement",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "補充與增補在收入、飲食及課程的例句中同義重複。",
+      "fix": "補充"
+    },
+    {
+      "word": "supplement",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "補充飲食搭配生硬，原句是說在飲食中加入更多水果。",
+      "fix": "你可以在飲食中增加水果。"
+    },
+    {
+      "word": "supplement",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "瓶子是包裝物，應直接搜尋補充品本身以呈現第一義項。",
+      "fix": "vitamin supplement tablets"
+    },
+    {
+      "word": "suppress",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓制與抑制在阻止行為或反應的情境中重疊，另保留隱瞞資訊的用法。",
+      "fix": "抑制；隱瞞"
+    },
+    {
+      "word": "suppress",
+      "path": "senses[0].examples[0].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句沒有明確隱瞞尚未公開資訊的例子，改以公司隱藏產品問題證據補足已列義項。",
+      "fix": "The company tried to suppress evidence of problems with its products."
+    },
+    {
+      "word": "suppress",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這家公司試圖隱瞞產品有問題的證據。"
+    },
+    {
+      "word": "surge",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "湧現與一陣在情緒用法中重疊，第三句 power surge 的電力突波義則未列出。",
+      "fix": "激增；情緒湧現；電力突波"
+    },
+    {
+      "word": "surge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大浪般湧來與湧向在群眾或水流的例句中重疊，另保留價格激增的用法。",
+      "fix": "湧向；激增"
+    },
+    {
+      "word": "surge",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "海浪對應水流湧動，並非第一名詞義所指的數量激增。",
+      "fix": null
+    },
+    {
+      "word": "surpass",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "超越、勝過與超出在預期、速度及紀錄的例句中同義重複。",
+      "fix": "超越"
+    },
+    {
+      "word": "suspense",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆談觀眾或等待結果者的不確定與緊張感，沒有事務本身懸而未決的用法。",
+      "fix": "懸疑；緊張感"
+    },
+    {
+      "word": "swamp",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "濕地是更大的環境類別，三個例句都專指沼澤，不必另列泛義。",
+      "fix": "沼澤"
+    },
+    {
+      "word": "span",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充古代陶器到現代畫作的收藏範圍。",
+      "fix": "The museum's collection spans many centuries, from ancient pottery to modern paintings."
+    },
+    {
+      "word": "span",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這間博物館的收藏涵蓋多個世紀，從古代陶器到現代畫作都有。"
+    },
+    {
+      "word": "spontaneous",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充緊張會議中自然流露笑聲的情境。",
+      "fix": "Her spontaneous laughter made everyone smile during the tense meeting."
+    },
+    {
+      "word": "spontaneous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "在氣氛緊張的會議中，她自然流露的笑聲讓大家都笑了。"
+    },
+    {
+      "word": "stun",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充學校歌唱比賽中評審聽到歌聲的情境。",
+      "fix": "Her beautiful voice stunned the judges at the school singing contest."
+    },
+    {
+      "word": "stun",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她美妙的歌聲在學校歌唱比賽中讓評審們驚豔不已。"
+    },
+    {
+      "word": "subscription",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充每月訂閱的是線上雜誌，使費用情境具體。",
+      "fix": "My monthly subscription to the online magazine costs ten dollars."
+    },
+    {
+      "word": "surge",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補充風災損壞道路、延誤運送而使食品價格飆漲的原因。",
+      "fix": "Food prices surged after the storm damaged roads and delayed deliveries."
+    },
+    {
+      "word": "surge",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "暴風雨損壞道路、延誤運送後，食品價格飆漲。"
+    },
+    {
+      "word": "surpass",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充數月持續練習後成績超出預期的情境。",
+      "fix": "Her test score surpassed everyone's expectations after months of steady practice."
+    },
+    {
+      "word": "surpass",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "經過數月持續練習後，她的考試成績超出了所有人的預期。"
+    }
+  ]
+}
