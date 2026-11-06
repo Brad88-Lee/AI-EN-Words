@@ -1,0 +1,16 @@
+ROUND: N0112
+STAGE: C
+AGENT: claude
+ATTEMPT: 1
+OUTPUT: out_C/N0112C_vocab_0112.json
+GATE-C: PASS｜筆數 50/50｜套用 50｜跳過 3｜null 1/1
+MODEL: unknown
+REPORTED_AT: 2026-11-06T16:30:00+08:00
+---
+```json
+{"a_count": 50, "c_count": 50, "applied": [{"word": "perch", "path": "senses[0].zh"}, {"word": "perch", "path": "senses[1].zh"}, {"word": "perch", "path": "senses[1].examples[2].en"}, {"word": "perch", "path": "senses[1].examples[2].zh"}, {"word": "peril", "path": "senses[0].zh"}, {"word": "permissible", "path": "senses[0].zh"}, {"word": "persevere", "path": "senses[0].zh"}, {"word": "persistence", "path": "senses[0].zh"}, {"word": "petroleum", "path": "image_query"}, {"word": "pharmacy", "path": "senses[0].zh"}, {"word": "pimple", "path": "senses[0].zh"}, {"word": "pinch", "path": "senses[0].zh"}, {"word": "pinch", "path": "senses[1].zh"}, {"word": "pinch", "path": "senses[1].examples[1].en"}, {"word": "pinch", "path": "senses[1].examples[1].zh"}, {"word": "plague", "path": "senses[0].zh"}, {"word": "plague", "path": "senses[0].examples[0].zh"}, {"word": "plague", "path": "senses[0].examples[1].zh"}, {"word": "plague", "path": "senses[0].examples[2].zh"}, {"word": "plague", "path": "senses[1].zh"}, {"word": "plantation", "path": "senses[0].zh"}, {"word": "plow", "path": "senses[1].zh"}, {"word": "polar", "path": "senses[0].zh"}, {"word": "ponder", "path": "senses[0].zh"}, {"word": "populate", "path": "senses[0].zh"}, {"word": "posture", "path": "senses[0].zh"}, {"word": "precede", "path": "senses[0].zh"}, {"word": "precedent", "path": "senses[0].zh"}, {"word": "precision", "path": "senses[0].zh"}, {"word": "precision", "path": "senses[0].examples[1].en"}, {"word": "precision", "path": "senses[0].examples[1].zh"}, {"word": "preside", "path": "senses[0].zh"}, {"word": "prestige", "path": "senses[0].zh"}, {"word": "preventive", "path": "senses[0].zh"}, {"word": "priceless", "path": "senses[0].zh"}, {"word": "privatize", "path": "senses[0].zh"}, {"word": "procession", "path": "senses[0].zh"}, {"word": "procession", "path": "senses[0].examples[0].zh"}, {"word": "proficiency", "path": "senses[0].zh"}, {"word": "propel", "path": "senses[0].zh"}, {"word": "propel", "path": "senses[0].examples[2].en"}, {"word": "propel", "path": "senses[0].examples[2].zh"}, {"word": "prose", "path": "senses[0].zh"}, {"word": "prosecute", "path": "senses[0].zh"}, {"word": "prospective", "path": "senses[0].zh"}, {"word": "prototype", "path": "senses[0].zh"}, {"word": "provisional", "path": "senses[0].zh"}, {"word": "psychic", "path": "emoji"}, {"word": "plague", "path": "senses[1].examples[2].en"}, {"word": "plague", "path": "senses[1].examples[2].zh"}], "skipped": [{"word": "procession", "path": "senses[0].examples[2].zh", "reason": "既有譯文已正確；「變裝服飾」較原稿更怪"}, {"word": "psychic", "path": "senses[0].zh", "reason": "與例句中文「通靈」不一致，原釋義較貼近學習者"}, {"word": "psychic", "path": "senses[1].zh", "reason": "例句中文用「靈媒」，建議釋義與例句不符"}], "extra_changes": [], "nulls": [{"word": "psychic", "path": "emoji"}]}
+```
+---
+A 50 筆、C 50 筆，順序一致。B 共 53 項，套用 50、跳過 3。
+跳過：procession 例句 3 中文（原譯已正確，「變裝服飾」較怪）；psychic senses[0].zh、senses[1].zh（與例句中文「通靈」「靈媒」不一致）。
+null：psychic emoji（1/1）。無額外修改。check_batch、check_extra ERROR 0；petroleum emoji 與 oil 重複為 WARN，近義保留。
