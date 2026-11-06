@@ -1,0 +1,318 @@
+{
+  "batch": "N0118",
+  "checked": 31,
+  "reviewed": [
+    "spokeswoman",
+    "statute",
+    "surname",
+    "telecommunications",
+    "airlines",
+    "an",
+    "burger",
+    "chopsticks",
+    "did",
+    "e-mail",
+    "earrings",
+    "hard-working",
+    "hippo",
+    "impolite",
+    "impossible",
+    "mailman",
+    "over-weight",
+    "railway",
+    "roc",
+    "salesman",
+    "slippers",
+    "sneakers",
+    "socks",
+    "soy-sauce",
+    "sports",
+    "stairs",
+    "unhappy",
+    "was",
+    "waterfalls",
+    "were",
+    "woods"
+  ],
+  "gate": {
+    "a_count": 31,
+    "checked": 31,
+    "reviewed_count": 31,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "spokeswoman",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都是對外說明或答覆問題的女發言人，未使用廣告代言人的意思。",
+      "fix": "女發言人"
+    },
+    {
+      "word": "spokeswoman",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "站在麥克風前的女性也可能是歌手或主持人，改用明確的公司女發言人場景。",
+      "fix": "company spokeswoman speaking"
+    },
+    {
+      "word": "statute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "成文法、法規與條例在三句立法規定的用法中重疊，保留精確的成文法義。",
+      "fix": "成文法"
+    },
+    {
+      "word": "surname",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "姓與姓氏在三句中同義重複。",
+      "fix": "姓氏"
+    },
+    {
+      "word": "telecommunications",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "遠距通訊與電信在這些電話與通訊網路的例句中重複，另保留電信業義。",
+      "fix": "電信；電信業"
+    },
+    {
+      "word": "airlines",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句的複數 airlines 均指各家航空公司，沒有另指整體航空產業的用法。",
+      "fix": "航空公司"
+    },
+    {
+      "word": "airlines",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "客機是航空公司營運的交通工具，無法直接呈現作為企業的航空公司。",
+      "fix": null
+    },
+    {
+      "word": "an",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一個與一在不定冠詞的例句中重複，合併即可。",
+      "fix": "一個"
+    },
+    {
+      "word": "did",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "做、進行與完成在原三句中重疊，且漏掉 did 在過去式問句或否定句中的常見助動詞用法。",
+      "fix": "做；用於過去式問句或否定句"
+    },
+    {
+      "word": "did",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "改用過去式問句，補足 did 的常見助動詞用法，並保留學校調查情境。",
+      "fix": "Did your class finish the survey about school lunches?"
+    },
+    {
+      "word": "did",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為詢問是否完成學校午餐調查。",
+      "fix": "你們班完成關於學校午餐的調查了嗎？"
+    },
+    {
+      "word": "earrings",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "耳環與耳飾在三句配戴或贈送耳環的情境中同義重複。",
+      "fix": "耳環"
+    },
+    {
+      "word": "hard-working",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勤勞、努力與認真工作在鄰居、學生及護理師的例句中重疊。",
+      "fix": "勤勞的"
+    },
+    {
+      "word": "impolite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不禮貌與無禮在說話及會議禮儀的例句中同義重複。",
+      "fix": "不禮貌的"
+    },
+    {
+      "word": "impossible",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不可能與做不到在專案、道路及數學題的情境中重疊。",
+      "fix": "不可能的"
+    },
+    {
+      "word": "mailman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "郵差與郵務士都指送信的工作人員，三句沒有另一獨立詞義。",
+      "fix": "郵差"
+    },
+    {
+      "word": "over-weight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過重與超重在寵物、行李及體重的例句中重疊。",
+      "fix": "過重的"
+    },
+    {
+      "word": "salesman",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "推銷員與業務員重複，店員也應限定實際銷售商品的人。",
+      "fix": "男業務員；男售貨員"
+    },
+    {
+      "word": "railway",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "鐵路、鐵道與鐵路系統重疊，第三句受雇工作的鐵路公司義則未列出。",
+      "fix": "鐵路；鐵路公司"
+    },
+    {
+      "word": "railway",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "the railway 在此未限定為政府鐵路局，不宜擅自指定行政組織。",
+      "fix": "我祖父在鐵路公司工作了三十年。"
+    },
+    {
+      "word": "slippers",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "室內鞋是拖鞋用途的泛稱，三句未形成另一個獨立詞義。",
+      "fix": "拖鞋"
+    },
+    {
+      "word": "sneakers",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "球鞋與運動鞋在上學、散步及購鞋的例句中同義重複。",
+      "fix": "運動鞋"
+    },
+    {
+      "word": "sports",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "體育活動與體育競賽在三個一般運動情境中與運動重疊。",
+      "fix": "運動"
+    },
+    {
+      "word": "stairs",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "樓梯與階梯在下樓、電梯替代動線及教室位置的例句中同義重複。",
+      "fix": "樓梯"
+    },
+    {
+      "word": "unhappy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "難過與不快樂在壞消息及轉學的例句中重疊，另保留對服務不滿的意思。",
+      "fix": "不快樂的；不滿的"
+    },
+    {
+      "word": "woods",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "樹林與森林在學校、小溪及城鎮附近的例句中同義重複。",
+      "fix": "樹林"
+    },
+    {
+      "word": "socks",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "other socks 是複數的其他襪子，原譯另一隻襪子誤作單數。",
+      "fix": "我到處都找不到其他襪子。"
+    },
+    {
+      "word": "soy-sauce",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "醬油的標準詞組拼法是 soy sauce，改用三個英文單字的瓶裝醬油查詢。",
+      "fix": "soy sauce bottle"
+    },
+    {
+      "word": "was",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句沒有對應已列有的意思，改用 there was 呈現存在的用法。",
+      "fix": "There was a funny scene in the movie that made us laugh."
+    },
+    {
+      "word": "was",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改用電影中有好笑片段的存在句。",
+      "fix": "電影裡有一個好笑的片段，讓我們笑了出來。"
+    },
+    {
+      "word": "an",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充日常生活情境以符合例句長度。",
+      "fix": "She ate an apple after lunch before returning to class."
+    },
+    {
+      "word": "an",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充情境，完整對應修正後的例句語意。",
+      "fix": "她午餐後吃了一顆蘋果，才回去上課。"
+    },
+    {
+      "word": "did",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充日常生活情境以符合例句長度。",
+      "fix": "She did her homework before dinner so she could relax afterward."
+    },
+    {
+      "word": "did",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充情境，完整對應修正後的例句語意。",
+      "fix": "她在晚餐前做完了功課，好讓自己之後能放鬆。"
+    }
+  ]
+}
