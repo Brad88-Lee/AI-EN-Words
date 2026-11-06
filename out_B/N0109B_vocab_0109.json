@@ -1,0 +1,569 @@
+{
+  "batch": "N0109",
+  "checked": 50,
+  "reviewed": [
+    "irritate",
+    "isle",
+    "ivy",
+    "jade",
+    "janitor",
+    "jasmine",
+    "jingle",
+    "jockey",
+    "joyous",
+    "junction",
+    "kin",
+    "kindle",
+    "lad",
+    "lavish",
+    "layman",
+    "layout",
+    "lease",
+    "legislator",
+    "lengthy",
+    "lesbian",
+    "lessen",
+    "lethal",
+    "liable",
+    "liberation",
+    "lieutenant",
+    "lifelong",
+    "limp",
+    "liner",
+    "linger",
+    "lining",
+    "literacy",
+    "literal",
+    "literate",
+    "livestock",
+    "lizard",
+    "lodge",
+    "lofty",
+    "logo",
+    "lonesome",
+    "longevity",
+    "longitude",
+    "lottery",
+    "lotus",
+    "lucrative",
+    "lure",
+    "lush",
+    "magnify",
+    "maiden",
+    "majestic",
+    "majesty"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "irritate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使惱怒與使煩躁同義重複，應與造成皮膚刺激的生理用法區分。",
+      "fix": "使惱怒；刺激"
+    },
+    {
+      "word": "isle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小島與島嶼在三個例句中均指同一種地理實體，無須重複列義。",
+      "fix": "小島"
+    },
+    {
+      "word": "ivy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "常春藤與長春藤是同一植物的不同寫法，不是不同義項。",
+      "fix": "常春藤"
+    },
+    {
+      "word": "jade",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "玉與玉石重複，翡翠只是其中一類，三句均泛指玉石。",
+      "fix": "玉石"
+    },
+    {
+      "word": "janitor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "連續使用請請使語句不順，應明確表達請人找工友清理。",
+      "fix": "請找工友來清理走廊上潑灑的東西。"
+    },
+    {
+      "word": "jingle",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原翻譯漏掉 all day 表達的整天時間範圍。",
+      "fix": "那首廣播廣告歌整天在我腦海裡揮之不去。"
+    },
+    {
+      "word": "jockey",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "騎師與賽馬騎士在三句中同義重複。",
+      "fix": "騎師"
+    },
+    {
+      "word": "joyous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "歡樂與充滿喜悅在三句中為同一情緒義項。",
+      "fix": "歡樂的"
+    },
+    {
+      "word": "junction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "交叉路口與匯合點都是交會處的具體類型，不宜重複拆列為三項。",
+      "fix": "交會處"
+    },
+    {
+      "word": "kin",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "親戚與家人都是親屬，三句沒有不同的詞義可區分。",
+      "fix": "親屬"
+    },
+    {
+      "word": "kindle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "激起與喚起在興趣及希望的例句中同義重複，保留與實際點火的區分。",
+      "fix": "點燃；激起"
+    },
+    {
+      "word": "lad",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小伙子與少年部分重疊，宜清楚區分男孩及年輕男子的年齡範圍。",
+      "fix": "男孩；年輕男子"
+    },
+    {
+      "word": "layman",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均指非專業者，俗人所指的非神職人員未被使用，門外漢也與外行人重複。",
+      "fix": "外行人"
+    },
+    {
+      "word": "layout",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "布局與既有的版面配置及室內格局重疊，未形成另一獨立義項。",
+      "fix": "版面配置；格局"
+    },
+    {
+      "word": "lease",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句均指租約文件，沒有租賃行為的用法。",
+      "fix": "租約"
+    },
+    {
+      "word": "legislator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三種稱謂均指立法機關成員，原稿三句都以立法委員表達，無須重複列義。",
+      "fix": "立法委員"
+    },
+    {
+      "word": "lengthy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "冗長與漫長在這些演說、流程與討論情境中同義重複。",
+      "fix": "冗長的"
+    },
+    {
+      "word": "lesbian",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "lesbian couple 的 lesbian 是修飾 couple 的形容詞，不是本欄所標的名詞。",
+      "fix": "The survey asked lesbians about their experiences with health care."
+    },
+    {
+      "word": "lesbian",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這項調查詢問女同性戀者接受醫療服務的經驗。"
+    },
+    {
+      "word": "lesbian",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "lesbian 與 gay、straight 並列修飾 member，應改為明確的名詞用法。",
+      "fix": "The club welcomes lesbians as well as gay and straight people."
+    },
+    {
+      "word": "lesbian",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這個社團歡迎女同性戀者，也歡迎男同性戀者和異性戀者。"
+    },
+    {
+      "word": "lessen",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句使用減輕壓力與減少風險或車流，沒有縮小體積或範圍的用法。",
+      "fix": "減輕；減少"
+    },
+    {
+      "word": "lethal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "致命與致死在三句中均表示會造成死亡，同義重複。",
+      "fix": "致命的"
+    },
+    {
+      "word": "liable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "易於與很可能重複，且應明確區分法律責任與容易遭遇不利情況的用法。",
+      "fix": "負有法律責任的；容易遭遇不利情況的"
+    },
+    {
+      "word": "lieutenant",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "high",
+      "detail": "海軍的 lieutenant 通常對應上尉，原稿未列此義，而少尉未由現有例句明確呈現。",
+      "fix": "中尉；海軍上尉；副手"
+    },
+    {
+      "word": "lieutenant",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "海軍 lieutenant 通常對應上尉，不能沿用陸軍中尉的譯法。",
+      "fix": "我叔叔曾在海軍擔任上尉十年。"
+    },
+    {
+      "word": "lifelong",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "終身與一生在這些持續整個人生的例句中同義重複。",
+      "fix": "終身的"
+    },
+    {
+      "word": "limp",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "一瘸一拐地走是跛行的同義解釋，不必另列義項。",
+      "fix": "跛行"
+    },
+    {
+      "word": "limp",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鬆軟可能指舒服柔軟的質地，蔬菜失去挺度的意思應表達為軟塌。",
+      "fix": "軟弱無力的；軟塌的"
+    },
+    {
+      "word": "liner",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "liner 的船舶義通常指客輪，遊輪會限縮成觀光巡航船，襯墊與內襯也重複。",
+      "fix": "客輪；內襯"
+    },
+    {
+      "word": "liner",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文只交代大型客輪離港，沒有觀光巡航用途的資訊。",
+      "fix": "那艘巨大的客輪一大清早就離開了港口。"
+    },
+    {
+      "word": "linger",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "人物例句均為逗留，氣味例句為久久不散，沒有徘徊走動的用法。",
+      "fix": "逗留；久久不散"
+    },
+    {
+      "word": "lining",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指加在物件內部的襯裡，內層只是同義補述。",
+      "fix": "襯裡"
+    },
+    {
+      "word": "literacy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "識字能力與讀寫能力在基礎 literacy 的例句中重複，另保留特定領域的素養。",
+      "fix": "讀寫能力；素養"
+    },
+    {
+      "word": "literal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "字面的與照字面意思的同義重複，另保留逐字翻譯的用法。",
+      "fix": "字面的；逐字的"
+    },
+    {
+      "word": "literate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句沒有文化素養的用法，而 computer literate 只表示具備使用電腦的知識能力，不等於精通。",
+      "fix": "有讀寫能力的；具備相關知識的"
+    },
+    {
+      "word": "livestock",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "家畜與牲畜在三句中指同一類飼養動物，同義重複。",
+      "fix": "家畜"
+    },
+    {
+      "word": "livestock",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "家畜包含豬等不同食性的動物，不能概括為全部每天都需要新鮮草料。",
+      "fix": "The farmer checks that the livestock have clean water every day."
+    },
+    {
+      "word": "livestock",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "農夫每天都會確認家畜有乾淨的水可喝。"
+    },
+    {
+      "word": "lodge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "山莊與旅舍在住宿例句中重疊，保留小屋與旅舍的區分即可。",
+      "fix": "小屋；旅舍"
+    },
+    {
+      "word": "lodge",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "投宿與借住重複，且漏列魚骨卡在喉嚨的用法。",
+      "fix": "寄宿；提出申訴；卡住"
+    },
+    {
+      "word": "lofty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "lofty goal 在此強調目標遠大，原文沒有特別強調道德高尚。",
+      "fix": "遠大的；高聳的；高傲的"
+    },
+    {
+      "word": "lofty",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "成為醫師的 lofty goal 在此指遠大志向，宜避免加入道德崇高的解讀。",
+      "fix": "她立下了將來成為醫師的遠大目標。"
+    },
+    {
+      "word": "logo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "商標是標誌的特定用途，圖案標識也是同義補述，三句均指視覺標誌。",
+      "fix": "標誌"
+    },
+    {
+      "word": "lonesome",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "寂寞與孤單在人物情緒例句中重複，應與地方偏僻的意思區分。",
+      "fix": "寂寞的；偏僻的"
+    },
+    {
+      "word": "lonesome",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "miles 是英里，原譯數里未保留原文的距離單位。",
+      "fix": "那條偏僻的道路穿過綿延數英里的空曠農地。"
+    },
+    {
+      "word": "longevity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "長壽與壽命重疊，電池例句則應明確指耐久性，持久單獨列為名詞義不夠精確。",
+      "fix": "長壽；耐久性"
+    },
+    {
+      "word": "longevity",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "longevity 指電池的使用壽命，持久力容易被理解為單次充電的續航時間。",
+      "fix": "這支手機電池的使用壽命之長，讓許多顧客印象深刻。"
+    },
+    {
+      "word": "longitude",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "longitude 本身指經度，第一句的經線來自整個 longitude lines 詞組，不應將經線列為單字義。",
+      "fix": "經度"
+    },
+    {
+      "word": "lottery",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "lottery 指樂透或抽籤活動，實體彩券是 lottery ticket，不能混為獨立的紙券義。",
+      "fix": "樂透；抽籤"
+    },
+    {
+      "word": "lottery",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "票券是參加樂透的憑證物件，並非第一義項的樂透活動本身。",
+      "fix": null
+    },
+    {
+      "word": "lotus",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蓮花、荷花與蓮是同一植物的名稱，無須重複列義。",
+      "fix": "蓮花"
+    },
+    {
+      "word": "lotus",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般蓮花由花梗挺出水面，漂浮水面的描述容易與睡蓮混淆。",
+      "fix": "Pink lotus flowers bloomed above the pond's surface during the summer."
+    },
+    {
+      "word": "lotus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "夏天，粉紅色的蓮花在池塘水面上方綻放。"
+    },
+    {
+      "word": "lucrative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "賺錢與獲利豐厚在三句中為同一用法，後者更精確保留報酬豐厚的語意。",
+      "fix": "獲利豐厚的"
+    },
+    {
+      "word": "lure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指以有吸引力的事物引誘，沒有獨立的欺騙情境可支持誘騙義。",
+      "fix": "引誘"
+    },
+    {
+      "word": "lure",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘惑與吸引力在城市及金錢的例句中重複，應與實體誘餌區分。",
+      "fix": "吸引力；誘餌"
+    },
+    {
+      "word": "lush",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "茂盛與蔥鬱重複，且飯店花園例句仍指植被茂盛，並沒有豪華的用法。",
+      "fix": "茂盛的"
+    },
+    {
+      "word": "magnify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "放大與擴大在尺寸或影響增加的用法中重複，保留與誇大的區分即可。",
+      "fix": "放大；誇大"
+    },
+    {
+      "word": "maiden",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名詞義通常指未婚少女，年齡與婚姻狀態不宜拆成兩個重複義項。",
+      "fix": "未婚少女"
+    },
+    {
+      "word": "maiden",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "首次與初次同義重複，maiden name 則指婚前姓氏，不表示當事人目前未婚。",
+      "fix": "首次的；婚前的"
+    },
+    {
+      "word": "majestic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都形容外觀雄偉壯觀，壯麗與威嚴未形成可區別的獨立用法。",
+      "fix": "雄偉的"
+    },
+    {
+      "word": "majesty",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句均指山景或建築的雄偉壯觀，無須再列同義的威嚴，另保留君主尊稱。",
+      "fix": "雄偉；陛下"
+    }
+  ]
+}
