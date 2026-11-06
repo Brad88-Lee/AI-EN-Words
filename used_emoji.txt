@@ -638,3 +638,5 @@
 🍛(curry)
 🧨(firecracker)
 📐(geometry)
+🏇(jockey)
+🦎(lizard)
