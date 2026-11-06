@@ -1,0 +1,925 @@
+{
+  "batch": "N0111",
+  "checked": 50,
+  "reviewed": [
+    "nucleus",
+    "nude",
+    "nurture",
+    "oasis",
+    "oath",
+    "oatmeal",
+    "oblige",
+    "obsess",
+    "obstinate",
+    "occurrence",
+    "octopus",
+    "odor",
+    "offshore",
+    "offspring",
+    "operative",
+    "oppress",
+    "oppression",
+    "ordeal",
+    "organizer",
+    "orient",
+    "oriental",
+    "originate",
+    "ornament",
+    "orthodox",
+    "outbreak",
+    "outgoing",
+    "outing",
+    "outlaw",
+    "outlook",
+    "outnumber",
+    "outrage",
+    "outrageous",
+    "outright",
+    "outset",
+    "outskirts",
+    "overdo",
+    "overhear",
+    "overlap",
+    "overwork",
+    "oyster",
+    "ozone",
+    "paddle",
+    "paperback",
+    "paradox",
+    "paralyze",
+    "pastime",
+    "patriot",
+    "peacock",
+    "peek",
+    "pending"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "nucleus",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "植物細胞核未必位於中央，部分成熟細胞甚至無核，原句的 every 與位置敘述過度概括。",
+      "fix": "The nucleus of a plant cell contains most of its genetic material."
+    },
+    {
+      "word": "nucleus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "植物細胞的細胞核含有大部分的遺傳物質。"
+    },
+    {
+      "word": "nucleus",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般氫原子核只有質子而沒有中子，應限定為大多數原子以免誤導。",
+      "fix": "In most atoms, the nucleus contains both protons and neutrons."
+    },
+    {
+      "word": "nucleus",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "在大多數原子中，原子核同時含有質子與中子。"
+    },
+    {
+      "word": "nurture",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指培育好奇心、植物或才能，養育與扶持未形成另一獨立用法。",
+      "fix": "培育"
+    },
+    {
+      "word": "nurture",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "養育與培育重複，nature 與 nurture 的對比則需包含後天環境的用法。",
+      "fix": "培育；後天環境"
+    },
+    {
+      "word": "oasis",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充駱駝喝水後繼續穿越沙漠的具體情境。",
+      "fix": "Camels drank water at the oasis before continuing across the desert."
+    },
+    {
+      "word": "oasis",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "駱駝在綠洲喝水後，繼續穿越沙漠。"
+    },
+    {
+      "word": "oath",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "oath 指誓言，宣誓是 take an oath 等整個動詞片語表達的行為，不必重複列義。",
+      "fix": "誓言"
+    },
+    {
+      "word": "oatmeal",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "一碗燕麥的查詢通常呈現煮好的燕麥粥，對應第二義，應明確搜尋第一義的乾燕麥片。",
+      "fix": "dry oatmeal"
+    },
+    {
+      "word": "oatmeal",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充燕麥所含纖維與心臟健康的關聯。",
+      "fix": "Oatmeal contains fiber that can help support a healthy heart."
+    },
+    {
+      "word": "oatmeal",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "燕麥片含有有助於維持心臟健康的纖維。"
+    },
+    {
+      "word": "oblige",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句沒有使用已列的幫忙義，改以 happy to oblige 的典型搭配補足。",
+      "fix": "The librarian was happy to oblige when I asked for help."
+    },
+    {
+      "word": "oblige",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我請求協助時，圖書館員很樂意幫忙。"
+    },
+    {
+      "word": "obsess",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為不及物動詞用法，指自己過度掛心，不能只列使他人產生情緒的及物義。",
+      "fix": "使著迷；使心神不寧；過度掛心"
+    },
+    {
+      "word": "obsess",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "obsesses over 在此指過度在意分數，耿耿於懷容易加入不滿或怨懟的語氣。",
+      "fix": "她過度在意成績單上的每個分數。"
+    },
+    {
+      "word": "obstinate",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩項對人物的固執同義重複，第三句污漬則使用難以去除的意思。",
+      "fix": "固執的；難以去除的"
+    },
+    {
+      "word": "occurrence",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "發生與出現在此是同一用法，另保留可數的事件義。",
+      "fix": "發生；事件"
+    },
+    {
+      "word": "octopus",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充章魚用腕探索環境的具體行為。",
+      "fix": "An octopus uses its eight arms to explore its surroundings."
+    },
+    {
+      "word": "octopus",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "章魚用八條腕探索周圍的環境。"
+    },
+    {
+      "word": "odor",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充去除鞋子異味後不留下強烈香氣的情境。",
+      "fix": "This spray removes odor from shoes without leaving a strong scent."
+    },
+    {
+      "word": "odor",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這種噴霧能去除鞋子的異味，不會留下強烈的香氣。"
+    },
+    {
+      "word": "offshore",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "近海與離岸在海域例句重複，第三句銀行帳戶則使用未列的境外義。",
+      "fix": "離岸的；境外的"
+    },
+    {
+      "word": "offshore",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指風從陸地吹向海面，與靜態在離岸處不同，應補列方向義。",
+      "fix": "在離岸處；在海外；向海面"
+    },
+    {
+      "word": "offshore",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充在海灘散步時遇到離岸風的具體情境。",
+      "fix": "A strong wind was blowing offshore as we walked along the beach."
+    },
+    {
+      "word": "offshore",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我們沿著海灘散步時，一陣強風正從陸地吹向海面。"
+    },
+    {
+      "word": "offspring",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "子女與幼獸都是後代的類型，原稿三項重疊且幼獸不能涵蓋第一句幼鳥。",
+      "fix": "後代"
+    },
+    {
+      "word": "offspring",
+      "path": "senses[0].examples[2].zh",
+      "type": "mainland_term",
+      "severity": "medium",
+      "detail": "幼崽偏向中國用語，臺灣教材宜用幼獸。",
+      "fix": "熊貓通常一次只生一隻幼獸。"
+    },
+    {
+      "word": "operative",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "有效與生效在規定例句重複，且漏列 operative word 表示關鍵字的意思。",
+      "fix": "生效的；運作中的；關鍵的"
+    },
+    {
+      "word": "operative",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "operative 本身指作業員，不必限定為技術工人，第一句的技術能力來自 skilled 修飾。",
+      "fix": "作業員；情報員"
+    },
+    {
+      "word": "oppress",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓迫與壓制在三個不公平對待他人的例句中同義重複。",
+      "fix": "壓迫"
+    },
+    {
+      "word": "oppression",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "壓迫與壓制重複，房間氛圍例句則指壓抑感，而非泛指苦悶。",
+      "fix": "壓迫；壓抑感"
+    },
+    {
+      "word": "ordeal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指令人煎熬的經歷，嚴峻考驗是同一用法的譯法。",
+      "fix": "痛苦的經歷"
+    },
+    {
+      "word": "organizer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "主辦人與籌劃者在活動情境重複，保留與實體收納盒的區分即可。",
+      "fix": "籌辦者；收納盒"
+    },
+    {
+      "word": "orient",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指課程針對初學者，不是物體朝向，前兩句也宜明確區分熟悉環境與對準方位。",
+      "fix": "使熟悉環境；使對準方位；針對"
+    },
+    {
+      "word": "oriental",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "東方與東洋在這些亞洲文化事物的情境中重複，東洋也容易被限縮理解為日本。",
+      "fix": "東方的"
+    },
+    {
+      "word": "originate",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均指事物起源，發源與起源重複，沒有主動創始某事的用法。",
+      "fix": "起源"
+    },
+    {
+      "word": "originate",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充火勢從廚房延燒到走廊的具體情境。",
+      "fix": "The fire originated in the kitchen and spread to the hallway."
+    },
+    {
+      "word": "originate",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "火災從廚房開始，並延燒到走廊。"
+    },
+    {
+      "word": "ornament",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "擺飾是裝飾品的一類，三句沒有不同的獨立義項。",
+      "fix": "裝飾品"
+    },
+    {
+      "word": "ornament",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "裝飾與美化在用花、草莓及貼紙點綴物品的情境中重複。",
+      "fix": "裝飾"
+    },
+    {
+      "word": "orthodox",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句涉及正統治療或傳統教法，沒有另外使用態度保守的意思。",
+      "fix": "正統的；傳統的"
+    },
+    {
+      "word": "orthodox",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "現有教法與治療情境沒有藝術或法律內容，核心是是否符合通行做法的抽象概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "outbreak",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "爆發與突然發生在流感及戰爭的例句中為同一用法。",
+      "fix": "爆發"
+    },
+    {
+      "word": "outgoing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句的 outgoing mail 指外寄郵件，不是人外出活動。",
+      "fix": "外向的；離任的；外寄的"
+    },
+    {
+      "word": "outing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "出遊與郊遊在這些短途團體活動中同義重複。",
+      "fix": "出遊"
+    },
+    {
+      "word": "outlaw",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指亡命之徒，歹徒只是同一人物義的泛稱。",
+      "fix": "亡命之徒"
+    },
+    {
+      "word": "outlook",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "展望與前景重複，第三句的天氣預測用法則未列出。",
+      "fix": "前景；看法；預測"
+    },
+    {
+      "word": "outnumber",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "數量上超過與比對方多是同一用法，無須重複列義。",
+      "fix": "數量超過"
+    },
+    {
+      "word": "outnumber",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充具體的人數比例以形成完整比較情境。",
+      "fix": "Girls outnumber boys in our class by two to one."
+    },
+    {
+      "word": "outnumber",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我們班女生人數是男生的兩倍。"
+    },
+    {
+      "word": "outnumber",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充早晨尖峰時段的交通比較情境。",
+      "fix": "Cars outnumber bicycles on this street, especially during the morning rush."
+    },
+    {
+      "word": "outnumber",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這條街上汽車比腳踏車多，尤其在早晨的尖峰時段。"
+    },
+    {
+      "word": "outnumber",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "只有一個班級例句不足以將一般數量比較歸為學校與學習，核心是抽象比較概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "outrage",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "暴行與惡行過窄且重複，outrage 也可指一般令人憤慨的事，應與憤慨情緒區分。",
+      "fix": "憤慨；令人憤慨的事"
+    },
+    {
+      "word": "outrage",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充新規定禁止寵物進入公園的具體內容。",
+      "fix": "The new rule banning pets from parks caused public outrage."
+    },
+    {
+      "word": "outrage",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這項禁止寵物進入公園的新規定引起公憤。"
+    },
+    {
+      "word": "outrage",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句均指憤怒情緒，改以可數的 an outrage 明確支持令人憤慨的事件義。",
+      "fix": "Closing the town's only public library would be an outrage."
+    },
+    {
+      "word": "outrage",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "關閉鎮上唯一的公共圖書館將是一件令人憤慨的事。"
+    },
+    {
+      "word": "outrage",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "激怒與使憤慨在這些不公平事件引起強烈憤怒的情境中同義重複。",
+      "fix": "使憤慨"
+    },
+    {
+      "word": "outrage",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充沒有人幫助車站外受傷男子的具體情境。",
+      "fix": "It outraged her that nobody helped the injured man outside the station."
+    },
+    {
+      "word": "outrage",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "沒有人幫助車站外那名受傷的男子，這讓她感到憤慨。"
+    },
+    {
+      "word": "outrageous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "離譜與荒唐在價格及故事的情境中重疊，另保留令人憤慨的用法。",
+      "fix": "離譜的；令人憤慨的"
+    },
+    {
+      "word": "outright",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "徹底與完全重複，公然未被明確使用，第三句拒絕則是直截了當的意思。",
+      "fix": "完全的；直截了當的"
+    },
+    {
+      "word": "outright",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "買房例句的 outright 指一次付清，完全地未能明確呈現付款方式。",
+      "fix": "直截了當地；當場；一次付清地"
+    },
+    {
+      "word": "outset",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "開始與開端在三個事情起始的例句中同義重複。",
+      "fix": "開始"
+    },
+    {
+      "word": "outskirts",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "市郊與郊區在這些城鎮邊緣地帶的例句中同義重複。",
+      "fix": "郊區"
+    },
+    {
+      "word": "overhear",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偷聽容易被理解為有意竊聽，原有例句均未表達刻意探聽。",
+      "fix": "無意中聽到"
+    },
+    {
+      "word": "overlap",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指時間或圖形重疊，部分相同在此只是重疊的同義補述。",
+      "fix": "重疊"
+    },
+    {
+      "word": "overlap",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "課程內容、圖形及行程都指共有的重疊部分，重複未形成另一獨立義項。",
+      "fix": "重疊部分"
+    },
+    {
+      "word": "overwork",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "過勞與工作過度在三個健康情境中同義重複。",
+      "fix": "過勞"
+    },
+    {
+      "word": "oyster",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "牡蠣與蚵是同一動物的不同稱呼，不是不同義項。",
+      "fix": "牡蠣"
+    },
+    {
+      "word": "ozone",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "臭氧層主要透過吸收紫外線提供保護，strong sunlight 過於籠統，宜明確描述作用。",
+      "fix": "The ozone layer protects us by absorbing much of the sun's ultraviolet radiation."
+    },
+    {
+      "word": "ozone",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "臭氧層吸收大量太陽紫外線，藉此保護我們。"
+    },
+    {
+      "word": "paralyze",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使無法動彈與生理癱瘓重疊，恐懼例句則應明確表達使人僵住的反應。",
+      "fix": "使癱瘓；使僵住"
+    },
+    {
+      "word": "pastime",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "消遣與娛樂在閱讀、釣魚及種花的休閒情境中同義重複。",
+      "fix": "消遣"
+    },
+    {
+      "word": "pastime",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充爺爺在後院種玫瑰的日常情境。",
+      "fix": "My grandfather's favorite pastime is growing roses in his backyard."
+    },
+    {
+      "word": "pastime",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我爺爺最愛的消遣是在後院種玫瑰。"
+    },
+    {
+      "word": "peacock",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "peacock 通常專指雄孔雀，泛稱孔雀會混淆雌雄的英文名稱。",
+      "fix": "雄孔雀"
+    },
+    {
+      "word": "peacock",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "peacock 本已指雄孔雀，male peacock 贅述，改用繁殖季後脫換展示羽毛的情境。",
+      "fix": "A peacock sheds its long tail feathers after the breeding season."
+    },
+    {
+      "word": "peacock",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "繁殖季結束後，雄孔雀的長尾羽會脫落。"
+    },
+    {
+      "word": "peacock",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "羽毛特寫未必呈現雄孔雀本身，應明確搜尋完整的第一義項動物。",
+      "fix": "male peacock"
+    },
+    {
+      "word": "peek",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "偷看與窺視在禮物、鑰匙孔及考卷的情境中同義重複。",
+      "fix": "偷看"
+    },
+    {
+      "word": "peek",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個名詞例句均指短暫看一下，偷看在此重複且容易加入秘密窺看的意思。",
+      "fix": "一瞥"
+    },
+    {
+      "word": "pending",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補充簽證審理與訂機票的關係，使對話情境完整。",
+      "fix": "My visa application is still pending, so I cannot book my flight."
+    },
+    {
+      "word": "pending",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我的簽證申請仍在處理中，所以我還不能訂機票。"
+    },
+    {
+      "word": "pending",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單說在期間太籠統，pending 強調事情尚未完成、仍在等候的時間。",
+      "fix": "在等候期間"
+    },
+    {
+      "word": "nurture",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充父母耐心回答問題以培養好奇心的方式。",
+      "fix": "Parents can nurture their children's curiosity by answering questions patiently."
+    },
+    {
+      "word": "nurture",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "父母可以透過耐心回答問題，培養孩子的好奇心。"
+    },
+    {
+      "word": "offspring",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充子女從同一大學畢業後成為教師的具體情境。",
+      "fix": "The couple's offspring all became teachers after graduating from the same university."
+    },
+    {
+      "word": "offspring",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這對夫婦的子女從同一所大學畢業後，都成為老師。"
+    },
+    {
+      "word": "outlaw",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充禁止一次用塑膠袋以減少海洋污染的目的。",
+      "fix": "Many countries have outlawed single-use plastic bags to reduce ocean pollution."
+    },
+    {
+      "word": "outlaw",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "許多國家為了減少海洋污染，已明令禁止一次用塑膠袋。"
+    },
+    {
+      "word": "outlaw",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充考試期間禁止手機以防止作弊的目的。",
+      "fix": "The school outlawed phones during exams to prevent students from cheating."
+    },
+    {
+      "word": "outlaw",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "學校禁止在考試期間使用手機，以防止學生作弊。"
+    },
+    {
+      "word": "outrage",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充裁判判決與球迷觀看決賽的具體情境。",
+      "fix": "The referee's unfair decision outraged many fans watching the final match."
+    },
+    {
+      "word": "outrage",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "裁判不公平的判決使許多正在觀看決賽的球迷感到憤慨。"
+    },
+    {
+      "word": "overwork",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充讀書時定時休息的具體情境。",
+      "fix": "Don't overwork yourself before the exam; take regular breaks while studying."
+    },
+    {
+      "word": "overwork",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "考試前別讓自己過度勞累；讀書時要定時休息。"
+    },
+    {
+      "word": "overwork",
+      "path": "senses[1].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充過勞影響工作專注力的具體後果。",
+      "fix": "Overwork can cause serious health problems and reduce concentration at work."
+    },
+    {
+      "word": "overwork",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "過勞可能造成嚴重的健康問題，並降低工作時的專注力。"
+    },
+    {
+      "word": "overwork",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充報稅旺季的具體工作情境。",
+      "fix": "Many office workers suffer from overwork during the busy tax season."
+    },
+    {
+      "word": "overwork",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "許多上班族在報稅旺季飽受過勞之苦。"
+    },
+    {
+      "word": "paralyze",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充左腿癱瘓後使用拐杖的生活情境。",
+      "fix": "The accident paralyzed his left leg, so he now uses crutches to walk."
+    },
+    {
+      "word": "paralyze",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "那場意外使他的左腿癱瘓，所以他現在拄拐杖走路。"
+    },
+    {
+      "word": "pending",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充店家等候修復受損屋頂的具體原因。",
+      "fix": "The shop is closed pending repairs to its damaged roof."
+    },
+    {
+      "word": "pending",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這家店在受損屋頂修復完成前暫停營業。"
+    }
+  ]
+}
