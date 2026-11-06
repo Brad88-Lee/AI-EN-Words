@@ -1,0 +1,873 @@
+{
+  "batch": "N0116",
+  "checked": 50,
+  "reviewed": [
+    "swarm",
+    "symmetry",
+    "synonym",
+    "synthetic",
+    "tan",
+    "tedious",
+    "teller",
+    "tempo",
+    "tentative",
+    "terrace",
+    "textile",
+    "thereafter",
+    "thermometer",
+    "tilt",
+    "token",
+    "torrent",
+    "transcript",
+    "transmit",
+    "treasury",
+    "trek",
+    "trifle",
+    "trillion",
+    "tropic",
+    "trout",
+    "trustee",
+    "tuck",
+    "turmoil",
+    "twilight",
+    "unanimous",
+    "unconditional",
+    "underestimate",
+    "underneath",
+    "underway",
+    "unification",
+    "unify",
+    "unveil",
+    "upright",
+    "uprising",
+    "urgency",
+    "usher",
+    "utensil",
+    "utter",
+    "vaccine",
+    "vanilla",
+    "vanity",
+    "veil",
+    "velvet",
+    "versatile",
+    "veterinarian",
+    "veto"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "swarm",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "蜂群是昆蟲群的一類，無須重複列出，另保留比喻一大群人的用法。",
+      "fix": "昆蟲群；一大群"
+    },
+    {
+      "word": "swarm",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是成群圍聚在車旁，不是進入車內，成群湧入的方向限制過窄。",
+      "fix": "成群聚集；擠滿"
+    },
+    {
+      "word": "symmetry",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指形式對稱，均衡可能包含不對稱的視覺平衡，未另有對應例句。",
+      "fix": "對稱"
+    },
+    {
+      "word": "synonym",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "同義字與近義詞在這些英文詞彙例句中都表示意思相同或相近的詞，無須重複列義。",
+      "fix": "同義詞"
+    },
+    {
+      "word": "synthetic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "合成與人造在纖維、皮革及材料的例句中為同一人工製造用法。",
+      "fix": "合成的"
+    },
+    {
+      "word": "tan",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tan 指曬出的棕褐膚色，原譯漂亮膚色未交代曬黑的結果。",
+      "fix": "她從海邊回來時，曬出了一身漂亮的棕褐膚色。"
+    },
+    {
+      "word": "tan",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tan 在此是把皮膚曬黑，不只是未必改變膚色的曬太陽。",
+      "fix": "她喜歡在泳池邊把皮膚曬黑。"
+    },
+    {
+      "word": "tedious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "乏味與冗長無聊在重複工作及會議的情境中重疊，不必另列。",
+      "fix": "乏味的"
+    },
+    {
+      "word": "teller",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "銀行行員範圍過廣，出納員也未限定銀行，teller 通常指在銀行櫃檯處理客戶業務的人。",
+      "fix": "銀行櫃檯行員"
+    },
+    {
+      "word": "tempo",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "音樂 tempo 指演奏速度而非節奏型態，另保留生活步調的比喻義。",
+      "fix": "樂曲速度；步調"
+    },
+    {
+      "word": "tempo",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "steady tempo 要求演奏速度穩定，不是泛指節奏型態不變。",
+      "fix": "我們的鋼琴老師要求我們保持穩定的演奏速度。"
+    },
+    {
+      "word": "tempo",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "節拍器是協助維持演奏速度的工具，不是第一義項的速度本身。",
+      "fix": null
+    },
+    {
+      "word": "tentative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不確定在計畫與微笑情境中只是暫定或試探的泛稱，未形成獨立意思。",
+      "fix": "暫定的；試探性的"
+    },
+    {
+      "word": "tentative",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "tentative agreement 尚待最終確認，不是已確定但僅暫時有效的協議。",
+      "fix": "兩支隊伍達成了一項暫定協議。"
+    },
+    {
+      "word": "terrace",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "露台與陽台在前兩句重疊，terrace 並未另指突出於建物外牆的陽台，保留梯田義即可。",
+      "fix": "露台；梯田"
+    },
+    {
+      "word": "terrace",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the terrace of the mountain 搭配生硬，改用山坡一層層梯田的典型用法。",
+      "fix": "Farmers grow tea on terraces along the mountainside."
+    },
+    {
+      "word": "terrace",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "農夫在山坡的梯田上種茶。"
+    },
+    {
+      "word": "textile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "紡織品與織品在三個布料產品的例句中同義重複。",
+      "fix": "紡織品"
+    },
+    {
+      "word": "thereafter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "此後與從那時起在三個時間順序例句中同義重複。",
+      "fix": "此後"
+    },
+    {
+      "word": "thermometer",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "體溫計是測量身體溫度的溫度計，無須另列為獨立詞義。",
+      "fix": "溫度計"
+    },
+    {
+      "word": "tilt",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傾斜與使歪向一邊為同一動作，應合併並兼顧及物與不及物用法。",
+      "fix": "（使）傾斜"
+    },
+    {
+      "word": "tilt",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "傾斜與歪斜在畫框、頭部及桌面的例句中同義重複。",
+      "fix": "傾斜"
+    },
+    {
+      "word": "tilt",
+      "path": "senses[1].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "表示同意通常用點頭，tilt 不等於 nod，改用瓶身角度改變的具體名詞情境。",
+      "fix": "A slight tilt of the bottle helped the last drops of water flow out."
+    },
+    {
+      "word": "tilt",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "稍微傾斜瓶子，就讓最後幾滴水流了出來。"
+    },
+    {
+      "word": "token",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句 gift token 指禮券，原稿未列此義，紀念品也沒有明確對應例句。",
+      "fix": "代幣；象徵；禮券"
+    },
+    {
+      "word": "torrent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "急流與洪流在水流例句中重複，話語傾瀉也應明確表達比喻大量事物湧來的意思。",
+      "fix": "急流；大量湧來的事物"
+    },
+    {
+      "word": "transcript",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "例句只有學業成績紀錄與演講逐字稿，沒有另外使用文書謄本的意思。",
+      "fix": "成績單；逐字稿"
+    },
+    {
+      "word": "transmit",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "傳送與傳輸重複，第一句電視台直播比賽的用法應明確列為轉播。",
+      "fix": "傳輸；轉播；傳染"
+    },
+    {
+      "word": "treasury",
+      "path": "senses[0].examples[0].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原首兩句都容易理解為財政主管機關，改以國庫支付建橋費用明確支持已列的國庫義。",
+      "fix": "The government paid for the new bridge from the national treasury."
+    },
+    {
+      "word": "treasury",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "政府從國庫撥款支付新橋的建造費用。"
+    },
+    {
+      "word": "trek",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "長途跋涉與艱苦旅程在三個長途步行情境中重複。",
+      "fix": "長途跋涉"
+    },
+    {
+      "word": "trek",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "徒步旅行在這些艱苦長途步行的例句中與長途跋涉重複。",
+      "fix": "長途跋涉"
+    },
+    {
+      "word": "trek",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "風景很值得未清楚交代值得付出的代價，應表達看到景色後覺得跋涉辛苦值得。",
+      "fix": "雖然這趟跋涉很累，但看到這片景色就值得了。"
+    },
+    {
+      "word": "trifle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "瑣事與小事在前兩句同義重複，另保留少量金錢的意思。",
+      "fix": "小事；少量"
+    },
+    {
+      "word": "trifle",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "兒戲單獨作名詞不符合動詞標註，且漏列第三句隨意把玩物件的意思。",
+      "fix": "輕慢對待；隨意把玩"
+    },
+    {
+      "word": "tropic",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "熱帶棕櫚海灘對應第二個熱帶地區義，不是第一個回歸線義。",
+      "fix": null
+    },
+    {
+      "word": "trustee",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "受託人與信託管理人重複，董事也宜限定非營利機構，以免混淆一般公司董事。",
+      "fix": "受託管理人；非營利機構董事"
+    },
+    {
+      "word": "tuck",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "塞進與把塞入同義重複，毯子例句則應明確包含妥善裹好的用法。",
+      "fix": "塞進；裹好"
+    },
+    {
+      "word": "tuck",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "衣服的褶與縫褶在三個裁縫情境中重複，tuck 本指縫固定的褶。",
+      "fix": "縫褶"
+    },
+    {
+      "word": "tuck",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "掖在身上的搭配不順，tuck around 在此指把毯子妥善裹在身體周圍。",
+      "fix": "媽媽替弟弟把毯子裹好。"
+    },
+    {
+      "word": "turmoil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "混亂、騷動與動盪在國家、內心及公司的情境中重疊，合併即可。",
+      "fix": "混亂"
+    },
+    {
+      "word": "twilight",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "薄暮與黃昏在日落時段的用法重複，另保留暮光這種光照意思。",
+      "fix": "黃昏；暮光"
+    },
+    {
+      "word": "unanimous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "全體一致與無異議在決定、支持及表決情境中同義重複。",
+      "fix": "全體一致的"
+    },
+    {
+      "word": "unconditional",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "絕對在愛、錄取及支持的情境中只是無條件的同義表述。",
+      "fix": "無條件的"
+    },
+    {
+      "word": "underestimate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低估與看輕在力量、所需時間及難度的情境中重疊，合併即可。",
+      "fix": "低估"
+    },
+    {
+      "word": "underneath",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "在下面與在底下在三個實體位置關係的例句中同義重複。",
+      "fix": "在下面"
+    },
+    {
+      "word": "underneath",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "在下面與在底下在衣物、箱子及畫作的例句中同義重複。",
+      "fix": "在下面"
+    },
+    {
+      "word": "underneath",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充抬箱子以尋找遺失鑰匙的具體情境。",
+      "fix": "Lift the box and look underneath for the missing key."
+    },
+    {
+      "word": "underneath",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "把箱子抬起來，看看那把遺失的鑰匙是否在下面。"
+    },
+    {
+      "word": "underway",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "進行中的與在進行的在工程、準備及會議的情境中同義重複。",
+      "fix": "進行中的"
+    },
+    {
+      "word": "unification",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "團隊的團結通常用 unity，unification 強調原本分立單位合而為一，改用中性歷史情境呈現。",
+      "fix": "Historians study the unification of several kingdoms into one country."
+    },
+    {
+      "word": "unification",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "歷史學家研究數個王國統一為一個國家的過程。"
+    },
+    {
+      "word": "unify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使聯合與整合在團隊及網站形成整體的情境中重複，另保留統一做法的意思。",
+      "fix": "統一；整合"
+    },
+    {
+      "word": "unveil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "揭開面紗在此只是實體揭幕或公開發表的比喻表述，未形成第三個獨立義項。",
+      "fix": "揭幕；公開發表"
+    },
+    {
+      "word": "unveil",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "揭開畫作容易誤解為打開畫布，unveil 在此指首次公開展示新作。",
+      "fix": "博物館打算在星期五首次公開展示一幅新畫作。"
+    },
+    {
+      "word": "upright",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "直立與挺直在物件或身體姿勢的情境中重複，另保留品格正直的意思。",
+      "fix": "直立的；正直的"
+    },
+    {
+      "word": "upright",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "sat upright 中 upright 修飾坐姿動作，屬副詞，應改為修飾 posture 的形容詞用法。",
+      "fix": "He kept an upright posture while listening carefully to the speaker."
+    },
+    {
+      "word": "upright",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "他仔細聆聽講者時，保持挺直的姿勢。"
+    },
+    {
+      "word": "upright",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "She 與 man 在這個一般人物描述中不一致，且中文代名詞也應與 She 相符。",
+      "fix": "She is an upright person who always tells the truth."
+    },
+    {
+      "word": "upright",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她是個正直的人，總是說實話。"
+    },
+    {
+      "word": "upright",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "筆直地與直立地在站姿、瓶子擺放及坐姿的情境中重複。",
+      "fix": "直立地"
+    },
+    {
+      "word": "uprising",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都談集體反抗統治權威的起義，暴動與反抗在此是同一事件的不同泛稱。",
+      "fix": "起義"
+    },
+    {
+      "word": "urgency",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "緊急與急迫在語氣及情況需要及時處理的情境中重複，合併為明確的名詞義。",
+      "fix": "急迫性"
+    },
+    {
+      "word": "usher",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "招待員在這些劇院或音樂廳情境中就是帶位員，不必重複列義。",
+      "fix": "帶位員"
+    },
+    {
+      "word": "usher",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "引領與帶領在前兩句重複，第三句 usher in changes 則指帶來改變，不只是迎接。",
+      "fix": "引領；帶來"
+    },
+    {
+      "word": "utensil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "器具與用具在餐具及廚房用具的例句中同義重複。",
+      "fix": "用具"
+    },
+    {
+      "word": "utensil",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充餐桌情境以符合例句長度。",
+      "fix": "A fork is an eating utensil found on most dinner tables."
+    },
+    {
+      "word": "utensil",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充情境，完整對應餐桌上的餐具。",
+      "fix": "叉子是一種在大多數餐桌上都能見到的餐具。"
+    },
+    {
+      "word": "utensil",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充洗淨後的收納情境。",
+      "fix": "Please wash the utensils after dinner and put them away."
+    },
+    {
+      "word": "utensil",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充餐具清洗後收好的動作。",
+      "fix": "晚餐後請把餐具洗乾淨並收好。"
+    },
+    {
+      "word": "utter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "完全與十足在災難、寂靜及驚訝的例句中同義重複。",
+      "fix": "完全的"
+    },
+    {
+      "word": "utter",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充寶寶看見母親的完整情境。",
+      "fix": "The baby uttered a happy cry when his mother appeared."
+    },
+    {
+      "word": "utter",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充看見母親時發出叫聲的情境。",
+      "fix": "寶寶看到媽媽出現時，發出了開心的叫聲。"
+    },
+    {
+      "word": "vanilla",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句用到香草精，原中文義未明列這種食品原料。",
+      "fix": "香草；香草口味；香草精"
+    },
+    {
+      "word": "vanity",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "虛榮心與自負在過度看重自身形象的三個例句中重疊。",
+      "fix": "虛榮心"
+    },
+    {
+      "word": "veil",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "薄紗在婚禮例句中與面紗重複，另保留霧與秘密的比喻遮蔽物義。",
+      "fix": "面紗；遮蔽物"
+    },
+    {
+      "word": "velvet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "天鵝絨與絲絨在布料的三個例句中同義重複。",
+      "fix": "天鵝絨"
+    },
+    {
+      "word": "versatile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "多用途與用途廣泛在物品的例句中重複，另保留人的多才多藝義。",
+      "fix": "多才多藝的；多用途的"
+    },
+    {
+      "word": "veterinarian",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充犬隻搔耳的就醫原因。",
+      "fix": "The veterinarian checked our dog's ears because he kept scratching them."
+    },
+    {
+      "word": "veterinarian",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充狗不斷搔耳而接受檢查的情境。",
+      "fix": "因為我們家的狗一直搔耳朵，獸醫便檢查了牠的耳朵。"
+    },
+    {
+      "word": "veto",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都是否決提議或方案，沒有另行使用泛指禁止行為的意思。",
+      "fix": "否決"
+    },
+    {
+      "word": "veto",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充老闆否決設計的原因。",
+      "fix": "My boss vetoed the new design because it was too expensive."
+    },
+    {
+      "word": "veto",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充設計成本過高而遭否決的原因。",
+      "fix": "我的老闆因為成本太高而否決了新的設計。"
+    },
+    {
+      "word": "symmetry",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "The butterfly's wings show perfect symmetry in their colorful patterns."
+    },
+    {
+      "word": "symmetry",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "蝴蝶翅膀上繽紛的圖案呈現完美的對稱。"
+    },
+    {
+      "word": "tedious",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "The meeting was long and tedious, with little useful discussion."
+    },
+    {
+      "word": "tedious",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "這場會議冗長又乏味，幾乎沒有什麼有用的討論。"
+    },
+    {
+      "word": "textile",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "He studies textile design at university and hopes to create new fabrics."
+    },
+    {
+      "word": "textile",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "他在大學讀紡織設計，希望能創造新的布料。"
+    },
+    {
+      "word": "transmit",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "Mosquitoes can transmit diseases to people through their bites."
+    },
+    {
+      "word": "transmit",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "蚊子會透過叮咬把疾病傳染給人。"
+    },
+    {
+      "word": "trifle",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "Don't worry about such a trifle when we have bigger problems."
+    },
+    {
+      "word": "trifle",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "我們還有更大的問題要處理，別為了這點小事煩惱。"
+    },
+    {
+      "word": "trifle",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "Don't trifle with her feelings by making promises you cannot keep."
+    },
+    {
+      "word": "trifle",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "不要許下做不到的承諾，隨意玩弄她的感情。"
+    },
+    {
+      "word": "tropic",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "Bananas grow well in the tropics, where the climate is warm."
+    },
+    {
+      "word": "tropic",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "香蕉在氣候溫暖的熱帶地區生長得很好。"
+    },
+    {
+      "word": "unconditional",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "Parents often give their children unconditional love, even when they make mistakes."
+    },
+    {
+      "word": "unconditional",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "即使孩子犯錯，父母也常給予他們無條件的愛。"
+    },
+    {
+      "word": "vanilla",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句不足七字，補充具體情境以符合例句長度與考試風格。",
+      "fix": "The kitchen smelled sweet like vanilla after she finished baking."
+    },
+    {
+      "word": "vanilla",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充內容，完整對應修正後的例句語意。",
+      "fix": "她烘焙完後，廚房裡聞起來有香草般的甜香。"
+    }
+  ]
+}
