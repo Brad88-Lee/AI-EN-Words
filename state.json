@@ -7,8 +7,8 @@
  "attempt": 2,
  "last_failure_report": "attempts/N0117-A-try1/check_report.md",
  "last_error_signature": "4e98c468d968ccd5",
- "stage_started_at": "2026-11-06T20:33:52+08:00",
- "deadline_at": "2026-11-06T23:33:52+08:00",
+ "stage_started_at": "2026-11-06T20:35:09+08:00",
+ "deadline_at": "2026-11-06T23:35:09+08:00",
  "last_ok_round": "0116",
  "skipped_rounds": [],
  "consecutive_human_rounds": 0,
@@ -363,12 +363,12 @@
   "N0116C": "1020e38b3a3437e8502c5223c963f60e147fd94721819f4e66e44c1c05d209b2"
  },
  "open_issue": null,
- "updated_at": "2026-11-06T20:33:52+08:00",
+ "updated_at": "2026-11-06T20:35:09+08:00",
  "round_stats": {
   "started_at": "2026-11-06T20:30:14+08:00",
   "attempts": {},
   "human_actions": 0,
   "human_in_round": false
  },
- "noncount_streak": 1
+ "noncount_streak": 2
 }
