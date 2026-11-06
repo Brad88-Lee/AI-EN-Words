@@ -645,3 +645,4 @@
 ☢️(radioactive)
 📳(vibrate)
 🦹(villain)
+📧(e-mail)
