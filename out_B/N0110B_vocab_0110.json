@@ -1,0 +1,729 @@
+{
+  "batch": "N0110",
+  "checked": 50,
+  "reviewed": [
+    "manuscript",
+    "maple",
+    "mar",
+    "marginal",
+    "martial",
+    "marvel",
+    "mastery",
+    "mediate",
+    "medieval",
+    "meditate",
+    "meditation",
+    "melancholy",
+    "mentality",
+    "merchandise",
+    "mermaid",
+    "migrant",
+    "mimic",
+    "mingle",
+    "miraculous",
+    "mischievous",
+    "mobilize",
+    "modernization",
+    "modernize",
+    "momentum",
+    "monarch",
+    "monetary",
+    "monotony",
+    "monstrous",
+    "moody",
+    "morale",
+    "motherhood",
+    "motto",
+    "mound",
+    "mourn",
+    "mournful",
+    "muse",
+    "mustache",
+    "mute",
+    "nag",
+    "narrate",
+    "narrator",
+    "nationalism",
+    "navigate",
+    "navigation",
+    "nearsighted",
+    "nickel",
+    "nostril",
+    "notable",
+    "notorious",
+    "novice"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "manuscript",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "手稿與原稿在作者交稿及修稿例句中重複，另保留古老手抄本的意思。",
+      "fix": "手稿；手抄本"
+    },
+    {
+      "word": "mar",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "破壞、損害與毀損均指使事物變差，三句沒有不同的獨立義項。",
+      "fix": "破壞"
+    },
+    {
+      "word": "mar",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "mar 指破壞牆面外觀，不一定是造成髒污。",
+      "fix": "請不要用貼紙破壞牆面外觀。"
+    },
+    {
+      "word": "marginal",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "marginal notes 指頁邊註記，邊緣過於籠統，而不重要未被現有例句獨立使用。",
+      "fix": "微小的；頁邊的"
+    },
+    {
+      "word": "martial",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "軍事與戰爭相關的釋義在戒嚴及軍樂情境重疊，保留與武術用法的區分。",
+      "fix": "軍事的；武術的"
+    },
+    {
+      "word": "martial",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "martial music 可指軍樂，但 martial music parade 的活動名稱搭配不自然，改用樂隊演奏軍樂的情境。",
+      "fix": "The band played martial music as the soldiers marched past."
+    },
+    {
+      "word": "martial",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "樂隊在士兵列隊走過時演奏軍樂。"
+    },
+    {
+      "word": "marvel",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "驚嘆與對事物感到驚奇為同一用法，不必重複列義。",
+      "fix": "驚嘆"
+    },
+    {
+      "word": "marvel",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指令人驚嘆的事物，奇蹟在此也是同一比喻義的譯法。",
+      "fix": "令人驚嘆的事物"
+    },
+    {
+      "word": "mastery",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "精通與熟練在語言及樂器例句中重複，另保留對球的掌控。",
+      "fix": "精通；掌控"
+    },
+    {
+      "word": "mediate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "調解與居中協調在三個爭議處理情境中同義重複。",
+      "fix": "調解"
+    },
+    {
+      "word": "medieval",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "中世紀與中古時代在這些歐洲歷史情境指同一時期。",
+      "fix": "中世紀的"
+    },
+    {
+      "word": "meditate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靜思與沉思在思考目標的例句中重複，另保留冥想的練習用法。",
+      "fix": "冥想；沉思"
+    },
+    {
+      "word": "meditation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "靜坐在例句中是冥想練習的方式，並非另一獨立詞義，另保留沉思用法。",
+      "fix": "冥想；沉思"
+    },
+    {
+      "word": "melancholy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "憂鬱與愁緒在三句中同義重複。",
+      "fix": "憂鬱"
+    },
+    {
+      "word": "mentality",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "思維方式在這些例句中就是心態，心理則太籠統，無須拆列三項。",
+      "fix": "心態"
+    },
+    {
+      "word": "merchandise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指供銷售的商品，貨物是同一用法的泛稱。",
+      "fix": "商品"
+    },
+    {
+      "word": "mermaid",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "此 emoji 為未指定性別的人魚，也可能被理解為男性人魚，無法明確對應女性人魚。",
+      "fix": null
+    },
+    {
+      "word": "migrant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "移居工作者只是移居者的一類，原有三項重疊且容易把 migrant 限縮為跨國移民或勞工。",
+      "fix": "移居者"
+    },
+    {
+      "word": "migrant",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "high",
+      "detail": "migrant families 的 migrant 修飾 families，屬形容詞用法，不符合名詞欄位。",
+      "fix": "The school offers free language classes for recently arrived migrants."
+    },
+    {
+      "word": "migrant",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這所學校為新到的移居者提供免費語言課程。"
+    },
+    {
+      "word": "mimic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "模仿與仿效在聲音及人物模仿的例句中同義重複。",
+      "fix": "模仿"
+    },
+    {
+      "word": "mingle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "混合與相融在氣味例句中重複，應與人際交際的意思區分。",
+      "fix": "交際；混合"
+    },
+    {
+      "word": "miraculous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "奇蹟般與神奇在這些出乎意料的結果中同義重複。",
+      "fix": "奇蹟般的"
+    },
+    {
+      "word": "mischievous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "調皮、淘氣與惡作劇在三句中都是同一愛嬉鬧的性格用法。",
+      "fix": "調皮的"
+    },
+    {
+      "word": "mobilize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動員、調動與組織起來在三個集結人員的情境中同義重複。",
+      "fix": "動員"
+    },
+    {
+      "word": "modernize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句的更新均以現代化為目的，兩個釋義在此同義重複。",
+      "fix": "使現代化"
+    },
+    {
+      "word": "modernize",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原文是讓電腦教室現代化，不是把教室本身變成設備。",
+      "fix": "學校打算讓電腦教室更現代化。"
+    },
+    {
+      "word": "momentum",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "動力與勢頭均指事情持續發展的推動力，另保留物理動量的用法。",
+      "fix": "勢頭；動量"
+    },
+    {
+      "word": "momentum",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "動量取決於質量與速度，僅比較車重不足以判定動量大小，應加入同速條件。",
+      "fix": "At the same speed, a heavy truck has more momentum than a small car."
+    },
+    {
+      "word": "momentum",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "在速度相同時，重型卡車的動量比小汽車大。"
+    },
+    {
+      "word": "monarch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "國王與帝王都是君主的類型，並非不同的獨立義項。",
+      "fix": "君主"
+    },
+    {
+      "word": "monarch",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "王冠是君主佩戴的物件，不是第一義項所指的君主人物。",
+      "fix": "monarch portrait"
+    },
+    {
+      "word": "monetary",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "金融的範圍比 monetary 更廣，現有例句只支持貨幣政策及金錢價值或報酬。",
+      "fix": "貨幣的；金錢的"
+    },
+    {
+      "word": "monotony",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "單調與千篇一律在三種缺乏變化的情境中同義重複。",
+      "fix": "單調"
+    },
+    {
+      "word": "monstrous",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句使用巨大與可怕的用法，沒有明確描寫外貌醜陋的例句。",
+      "fix": "巨大的；可怕的"
+    },
+    {
+      "word": "monstrous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "巨大的塞車搭配不自然，monstrous 在此強調塞車程度嚴重。",
+      "fix": "那場嚴重的塞車持續了三個小時。"
+    },
+    {
+      "word": "morale",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指團體或工作中的士氣，鬥志是同義補述。",
+      "fix": "士氣"
+    },
+    {
+      "word": "motherhood",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "母親的身分與為人母重複，母性則是 maternal instinct 或相關特質，非這三句的身分與經驗義。",
+      "fix": "母親的身分"
+    },
+    {
+      "word": "motto",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原稿漏列第二、三句明確使用的校訓與家訓，格言與座右銘重疊，標語也未被使用。",
+      "fix": "座右銘；校訓；家訓"
+    },
+    {
+      "word": "motto",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補成請對方介紹及解釋家訓的完整對話情境。",
+      "fix": "Could you tell us your family's motto and explain its meaning?"
+    },
+    {
+      "word": "motto",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "你可以告訴我們你們家的家訓，並解釋它的意思嗎？"
+    },
+    {
+      "word": "mound",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句的 mound 指棒球投手丘，泛稱小丘未能明確呈現此運動用法。",
+      "fix": "土堆；投手丘；一堆"
+    },
+    {
+      "word": "mound",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "dig 通常直接搭配洞而非挖掘形成的土堆，改用狗留下土堆的自然描述。",
+      "fix": "The dog left a mound of dirt beside the hole."
+    },
+    {
+      "word": "mound",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "那隻狗在洞旁留下了一堆土。"
+    },
+    {
+      "word": "mourn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "悲痛與為事情哀傷重複，另保留對逝者哀悼的用法。",
+      "fix": "哀悼；哀傷"
+    },
+    {
+      "word": "mournful",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "哀傷與悲痛在音樂、神情及哭聲的例句中同義重複。",
+      "fix": "哀傷的"
+    },
+    {
+      "word": "mournful",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充演奏者與紀念老師的具體情境。",
+      "fix": "The violinist played a mournful tune in memory of her teacher."
+    },
+    {
+      "word": "mournful",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "那位小提琴手演奏了一首哀傷的曲子，紀念她的老師。"
+    },
+    {
+      "word": "mustache",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "八字鬍只是特定造型，小鬍子也未標明位置，mustache 應指上唇的鬍子。",
+      "fix": "上唇的鬍子"
+    },
+    {
+      "word": "mustache",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充每天修剪的日常情境並明確呈現上唇位置。",
+      "fix": "My grandfather has a gray mustache that he trims every morning."
+    },
+    {
+      "word": "mustache",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我爺爺上唇留著灰白色的鬍子，每天早上都會修剪。"
+    },
+    {
+      "word": "mute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沉默與無法說話應區分，無聲電影的例句搭配不自然，修正後不另列無聲義。",
+      "fix": "沉默的；無法說話的"
+    },
+    {
+      "word": "mute",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "無聲電影的慣用語是 silent film，mute film 不是典型搭配，改以角色無法說話呈現形容詞義。",
+      "fix": "The mute character uses sign language to communicate with her friends."
+    },
+    {
+      "word": "mute",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這個無法說話的角色用手語與朋友溝通。"
+    },
+    {
+      "word": "mute",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指把裝置或影音調成靜音，兩項同義重複。",
+      "fix": "使靜音"
+    },
+    {
+      "word": "nag",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不斷催促與嘮叨在前兩句重複，應與背痛持續困擾人的用法區分。",
+      "fix": "嘮叨；持續困擾"
+    },
+    {
+      "word": "nag",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "兩個獨立子句不能只用逗號連接，應改用分號。",
+      "fix": "Stop nagging me about the homework; I'll do it later."
+    },
+    {
+      "word": "nag",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "別再為了作業一直唸我了；我等一下就會寫。"
+    },
+    {
+      "word": "narrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敘述與講述同義重複，旁白單獨作名詞也不符合本欄動詞詞性。",
+      "fix": "敘述；擔任旁白"
+    },
+    {
+      "word": "narrator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "敘述者與講述者重複，旁白也應明確指擔任敘述的人員而非台詞內容。",
+      "fix": "敘述者；旁白人員"
+    },
+    {
+      "word": "nationalism",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指民族主義，國家主義若作同一概念的譯名屬重複，未另有可區分的義項。",
+      "fix": "民族主義"
+    },
+    {
+      "word": "navigate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "航行與導航在星象辨位的例句中重疊，另保留操作介面及應付人際課業的用法。",
+      "fix": "導航；操作；應付"
+    },
+    {
+      "word": "navigation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句均指辨認方位及路線的導航，不是另一個單純移動的航行義。",
+      "fix": "導航；導覽"
+    },
+    {
+      "word": "nearsighted",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原有三句都只用生理近視義，改以忽略未來成本的計畫支持已列的短視義。",
+      "fix": "The committee rejected the nearsighted plan because it ignored future costs."
+    },
+    {
+      "word": "nearsighted",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "委員會否決了這項短視的計畫，因為它忽略了未來的成本。"
+    },
+    {
+      "word": "nickel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充幣制所屬國家，使五分的面額更明確。",
+      "fix": "A nickel is worth five cents in the United States."
+    },
+    {
+      "word": "nickel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "在美國，一枚五分硬幣的面額是五美分。"
+    },
+    {
+      "word": "nostril",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "鼻孔覺得乾乾的搭配不自然，應表達她感到鼻孔乾澀。",
+      "fix": "冷空氣讓她覺得鼻孔乾澀。"
+    },
+    {
+      "word": "nostril",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "照看通常指照顧，不宜用來表達醫師以燈光查看鼻孔內部。",
+      "fix": "醫師用小燈查看每個鼻孔內部。"
+    },
+    {
+      "word": "notable",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "名人與顯要人物在地方名流、影界及晚宴例句中為同一知名人物義。",
+      "fix": "名人"
+    },
+    {
+      "word": "notorious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "惡名昭彰與臭名遠播在三句中同義重複。",
+      "fix": "惡名昭彰的"
+    },
+    {
+      "word": "novice",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "新手與初學者在軟體及樂器學習的例句中同義重複。",
+      "fix": "新手"
+    },
+    {
+      "word": "melancholy",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充音樂勾起往日回憶的情境。",
+      "fix": "The melancholy music brought back old memories and made everyone quiet."
+    },
+    {
+      "word": "melancholy",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "憂傷的音樂勾起往日回憶，讓大家都安靜了下來。"
+    },
+    {
+      "word": "merchandise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充海外長途運送後商品仍完好的情境。",
+      "fix": "The merchandise arrived in perfect condition despite the long journey overseas."
+    },
+    {
+      "word": "merchandise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這批商品雖然經過漫長的海外運送，抵達時仍然完好無損。"
+    },
+    {
+      "word": "miraculous",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充孩子從淹水房屋脫困及救難人員的反應。",
+      "fix": "The child's miraculous escape from the flooded house surprised the rescuers."
+    },
+    {
+      "word": "miraculous",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "那個孩子奇蹟般地從淹水的房屋脫困，讓救難人員感到驚訝。"
+    },
+    {
+      "word": "monetary",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充畫作稀有而具有金錢價值的原因。",
+      "fix": "The painting has great monetary value because it is extremely rare."
+    },
+    {
+      "word": "monetary",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這幅畫因為極為稀有，所以有很高的金錢價值。"
+    },
+    {
+      "word": "motherhood",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充與伴侶分擔育兒責任的具體方式。",
+      "fix": "Many women balance work with motherhood by sharing childcare responsibilities with their partners."
+    },
+    {
+      "word": "motherhood",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "許多女性透過與伴侶分擔育兒責任，兼顧工作與母職。"
+    }
+  ]
+}
