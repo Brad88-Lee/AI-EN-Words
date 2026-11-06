@@ -1,0 +1,433 @@
+{
+  "batch": "N0117",
+  "checked": 50,
+  "reviewed": [
+    "vibrate",
+    "vibration",
+    "vice",
+    "victor",
+    "villa",
+    "villain",
+    "vine",
+    "vineyard",
+    "vitality",
+    "vocation",
+    "vocational",
+    "wag",
+    "walnut",
+    "wardrobe",
+    "warrant",
+    "warranty",
+    "weary",
+    "wharf",
+    "whiskey",
+    "wholesale",
+    "wholesome",
+    "widow",
+    "withhold",
+    "woe",
+    "woodpecker",
+    "workforce",
+    "wrestle",
+    "yearn",
+    "yoga",
+    "zoom",
+    "align",
+    "aluminum",
+    "aspire",
+    "blond",
+    "boxing",
+    "cellular",
+    "chairwoman",
+    "chili",
+    "draught",
+    "equalize",
+    "glamour",
+    "headphone",
+    "invariably",
+    "jolly",
+    "miscellaneous",
+    "n",
+    "psychotherapy",
+    "reliant",
+    "restoration",
+    "shortsighted"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "vibrate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "震動、顫動與振動在手機、窗戶及琴弦的例句中同義重複。",
+      "fix": "振動"
+    },
+    {
+      "word": "vibration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "震動、顫動與振動在火車、手機模式及地面的例句中同義重複。",
+      "fix": "振動"
+    },
+    {
+      "word": "vice",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指不良習慣，未另有一般缺點或整體罪惡的用法。",
+      "fix": "惡習"
+    },
+    {
+      "word": "victor",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "勝利者與優勝者在比賽的三句中同義重複。",
+      "fix": "勝利者"
+    },
+    {
+      "word": "villa",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "度假屋在海邊租屋情境中就是別墅，未形成獨立詞義。",
+      "fix": "別墅"
+    },
+    {
+      "word": "villain",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均描述戲劇中的反派，未另有現實生活壞人的用法。",
+      "fix": "反派角色"
+    },
+    {
+      "word": "vine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "葡萄藤是藤蔓的一種，不必另外列為獨立詞義。",
+      "fix": "藤蔓"
+    },
+    {
+      "word": "vitality",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "生命力與活力在孩子、年長者及街道繁榮的例句中重疊。",
+      "fix": "活力"
+    },
+    {
+      "word": "vocation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使命在護理工作的例句中就是天職，另保留一般職業義。",
+      "fix": "天職；職業"
+    },
+    {
+      "word": "vocational",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句都指學校提供就業技能的訓練，職業與職業教育在此不必重複列出。",
+      "fix": "職業訓練的"
+    },
+    {
+      "word": "wag",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "搖動與擺動尾巴是同一動作，且第三句也用於手指，不宜只限定尾巴。",
+      "fix": "搖動"
+    },
+    {
+      "word": "wardrobe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "衣櫥與衣櫃在前兩句同義重複，另保留個人衣物的集合義。",
+      "fix": "衣櫃；個人衣物"
+    },
+    {
+      "word": "warrant",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是逮捕令而非一般許可證，原義未精確列出這種司法令狀。",
+      "fix": "搜索令；逮捕令；正當理由"
+    },
+    {
+      "word": "warrant",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都指有理由值得或需要某種處置，未使用保證的意思。",
+      "fix": "值得；需要"
+    },
+    {
+      "word": "wharf",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "停泊處是碼頭功能的泛稱，三句沒有另外使用不具碼頭設施的停泊處義。",
+      "fix": "碼頭"
+    },
+    {
+      "word": "wag",
+      "path": "senses[0].examples[1].en",
+      "type": "example_similar",
+      "severity": "medium",
+      "detail": "前兩句都是狗看見主人回家時搖尾巴，改用貓煩躁時甩尾的不同情境。",
+      "fix": "Cats sometimes wag their tails when they feel annoyed."
+    },
+    {
+      "word": "wag",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文更換為貓因煩躁而甩尾的情境。",
+      "fix": "貓有時會在感到煩躁時甩尾巴。"
+    },
+    {
+      "word": "warrant",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "warrants 在此指足以構成理由，原譯需要未清楚傳達反應是否有正當理由。",
+      "fix": "他的報告內容不足以構成做出如此強烈反應的理由。"
+    },
+    {
+      "word": "wholesome",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "健全電影的中文搭配不自然，應明確表達內容健康且適合孩子觀看。",
+      "fix": "這是一部內容健康、適合孩子觀看的電影。"
+    },
+    {
+      "word": "widow",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "寡婦與遺孀都指丈夫已過世的女性，三句沒有另一獨立詞義。",
+      "fix": "寡婦"
+    },
+    {
+      "word": "withhold",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "保留與扣留在薪資及暫緩付款的用法重複，另保留隱瞞資訊義。",
+      "fix": "扣留；隱瞞"
+    },
+    {
+      "word": "withhold",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "withhold pay for taxes 是預扣薪資繳稅，不是泛指為稅金扣留款項。",
+      "fix": "公司可能會預扣你的一部分薪水作為稅款。"
+    },
+    {
+      "word": "woe",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一與第三句的複數 woes 指困境或麻煩，應與悲痛的情緒義區分。",
+      "fix": "悲痛；困境"
+    },
+    {
+      "word": "woe",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "the woe of her family 搭配生硬，改用 full of woe 的典型悲傷表情情境。",
+      "fix": "Her face was full of woe after she received the sad news."
+    },
+    {
+      "word": "woe",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改用收到壞消息後面露悲傷的情境。",
+      "fix": "收到那個令人難過的消息後，她滿臉悲傷。"
+    },
+    {
+      "word": "wrestle",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第一句摔角與扭打重疊，第二句奮力搬動重物的用法則未列出。",
+      "fix": "摔角；奮力搬動；努力解決"
+    },
+    {
+      "word": "yearn",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "渴望與嚮往在鄉間生活、家人及假期的例句中同義重複。",
+      "fix": "渴望"
+    },
+    {
+      "word": "zoom",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句指相機變焦功能，未必指鏡頭本體，原中文義應涵蓋這種功能。",
+      "fix": "嗡嗡聲；變焦功能"
+    },
+    {
+      "word": "align",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "紙張邊緣應表達對齊，另兩句均指使立場或計畫一致，未另用國家彼此結盟的意思。",
+      "fix": "對齊；使一致"
+    },
+    {
+      "word": "aspire",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指對未來成就立下志向，渴望與立志在此重疊。",
+      "fix": "立志"
+    },
+    {
+      "word": "blond",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句都談人的金髮特徵，未使用木材等一般淺色物件的意思。",
+      "fix": "金髮的"
+    },
+    {
+      "word": "boxing",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "拳擊手套是用品，改用拳擊比賽場景直接呈現第一義項的運動。",
+      "fix": "boxing match"
+    },
+    {
+      "word": "chairwoman",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充向員工致謝的公司情境，並明確支持女董事長義。",
+      "fix": "Our chairwoman thanked the employees for their hard work."
+    },
+    {
+      "word": "chairwoman",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充感謝員工辛勤付出的內容。",
+      "fix": "我們的女董事長感謝員工們的辛勤付出。"
+    },
+    {
+      "word": "draught",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "通風與穿堂風在前兩句重疊，後者較精確，另保留喝下一口飲料的意思。",
+      "fix": "穿堂風；一口飲料"
+    },
+    {
+      "word": "equalize",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句是運動比賽扳平比分，原中文義未明列這個常見用法。",
+      "fix": "使相等；扳平比分"
+    },
+    {
+      "word": "glamour",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "魅力與迷人的魔力同義重複，並應明確傳達電影圈、派對及工作的光鮮吸引力。",
+      "fix": "光鮮的魅力"
+    },
+    {
+      "word": "headphone",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "一般整副耳機慣用複數 headphones，原單數用法容易與單邊耳塞混淆。",
+      "fix": "These headphones have a cable that cannot reach my computer."
+    },
+    {
+      "word": "headphone",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改為整副耳機的常見用法與具體情境。",
+      "fix": "這副耳機的線不夠長，接不到我的電腦。"
+    },
+    {
+      "word": "invariably",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "總是與一貫地在遲到、客滿及冬季天氣的例句中同義重複。",
+      "fix": "總是"
+    },
+    {
+      "word": "jolly",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "快樂與愉快在鄰居、音樂及心情的例句中同義重複。",
+      "fix": "快樂的"
+    },
+    {
+      "word": "n",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "whole number 指包含零的非負整數，原譯整數會把負整數也包含在內。",
+      "fix": "在這個方程式中，n 代表任意非負整數。"
+    },
+    {
+      "word": "reliant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "依賴與仰賴在觀光業、母親及手機的例句中同義重複。",
+      "fix": "依賴的"
+    },
+    {
+      "word": "restoration",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "恢復與復原在建築修復及電力恢復的情境中重複，保留實體修復與狀態恢復的區分。",
+      "fix": "修復；恢復"
+    },
+    {
+      "word": "psychotherapy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充青少年因焦慮接受心理治療的具體情境。",
+      "fix": "The hospital offers psychotherapy for teenagers struggling with anxiety."
+    },
+    {
+      "word": "psychotherapy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充青少年受到焦慮困擾的情境。",
+      "fix": "這家醫院為受焦慮困擾的青少年提供心理治療。"
+    }
+  ]
+}
