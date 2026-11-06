@@ -1,0 +1,505 @@
+{
+  "batch": "N0113",
+  "checked": 50,
+  "reviewed": [
+    "puff",
+    "purify",
+    "purity",
+    "quake",
+    "radiant",
+    "radiate",
+    "radioactive",
+    "radish",
+    "radius",
+    "rap",
+    "rash",
+    "ratify",
+    "realization",
+    "reap",
+    "reckless",
+    "reckon",
+    "reconcile",
+    "recreational",
+    "redundancy",
+    "reef",
+    "referee",
+    "referendum",
+    "refine",
+    "reflective",
+    "refreshment",
+    "refute",
+    "rehabilitate",
+    "reign",
+    "rejoice",
+    "relay",
+    "relentless",
+    "reliance",
+    "relic",
+    "remainder",
+    "reminiscent",
+    "renowned",
+    "reproduce",
+    "reptile",
+    "resent",
+    "reside",
+    "respective",
+    "restrain",
+    "restraint",
+    "retort",
+    "retrieve",
+    "revelation",
+    "revival",
+    "revive",
+    "revolt",
+    "revolve"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "puff",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "吸入器是吸入物的來源，宜用 from，原譯吸了一口吸入器也誤把裝置當成吸入物。",
+      "fix": "She took a puff from her inhaler before the race."
+    },
+    {
+      "word": "puff",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她在比賽前用吸入器吸了一口藥。"
+    },
+    {
+      "word": "puff",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "煙霧的一團對應第二個名詞意思，不是第一個一陣風的用法。",
+      "fix": null
+    },
+    {
+      "word": "purify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "淨化與使純淨在水及空氣的例句中同義重複。",
+      "fix": "淨化"
+    },
+    {
+      "word": "radiate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "散發與輻射在熱量向外散出的情境重疊，另保留道路向四周延伸的用法。",
+      "fix": "散發；向四周延伸"
+    },
+    {
+      "word": "radish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "小蘿蔔是蘿蔔的種類或大小描述，並非另一獨立義項。",
+      "fix": "蘿蔔"
+    },
+    {
+      "word": "radius",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句仍指一公里的半徑，範圍來自整個 within a radius 片語，不必另列泛義。",
+      "fix": "半徑"
+    },
+    {
+      "word": "rap",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "除饒舌音樂或歌曲外，rap 也常指短促的輕敲聲，應補入名詞義。",
+      "fix": "饒舌音樂；饒舌歌；輕敲聲"
+    },
+    {
+      "word": "rap",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句都使用音樂義，改用敲門聲的情境支持常見的輕敲聲名詞義。",
+      "fix": "A sharp rap on the classroom door interrupted the lesson."
+    },
+    {
+      "word": "rap",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "教室門上傳來一聲急促的敲門聲，打斷了課程。"
+    },
+    {
+      "word": "rap",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "輕敲與敲打重複，且漏列常見的饒舌演唱動詞義。",
+      "fix": "饒舌演唱；輕敲"
+    },
+    {
+      "word": "rap",
+      "path": "senses[1].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句都為敲打動作，改以練習歌曲節奏支持常見的饒舌演唱義。",
+      "fix": "He learned to rap by practicing the rhythm of his favorite songs."
+    },
+    {
+      "word": "rap",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "他藉由練習最喜愛歌曲的節奏，學習饒舌演唱。"
+    },
+    {
+      "word": "rap",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "饒舌歌手是人物，並非第一個名詞意思所指的音樂類型本身。",
+      "fix": null
+    },
+    {
+      "word": "rash",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "紅疹是皮疹的一種外觀描述，並非另一獨立義項。",
+      "fix": "皮疹"
+    },
+    {
+      "word": "rash",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "輕率與魯莽在決定、承諾及言語的例句中同義重複。",
+      "fix": "輕率的"
+    },
+    {
+      "word": "ratify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "批准與正式通過在協議、條約及規章修改中為同一正式核准程序。",
+      "fix": "正式批准"
+    },
+    {
+      "word": "realization",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "領悟與體認在理解某事的例句中重複，另保留夢想實現的意思。",
+      "fix": "領悟；實現"
+    },
+    {
+      "word": "reap",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "收穫同時重複了實際收割及比喻獲得成果的意思，無須另列。",
+      "fix": "收割；獲得"
+    },
+    {
+      "word": "reckless",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "魯莽與不顧後果在冒險行為及花費的例句中同義重複。",
+      "fix": "魯莽的"
+    },
+    {
+      "word": "reconcile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句是姊妹自行和好的不及物用法，原釋義只有使他人和好，應兼顧兩種動作方向。",
+      "fix": "（使）和好；調和；核對帳目"
+    },
+    {
+      "word": "recreational",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "休閒與娛樂在活動、中心及運動的情境中同義重複。",
+      "fix": "休閒的"
+    },
+    {
+      "word": "redundancy",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "冗餘與多餘重複，且漏列第三句為維持系統可靠度而設置備援的工程用法。",
+      "fix": "贅述；裁員；備援"
+    },
+    {
+      "word": "reef",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "coral reef 明確指第二個珊瑚礁意思，應改查岩礁以對應第一個礁石義。",
+      "fix": "rocky reef"
+    },
+    {
+      "word": "referee",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "referee 除運動裁判外，也常指求職時提供推薦或證明的人，應補列。",
+      "fix": "裁判；推薦人"
+    },
+    {
+      "word": "referee",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原三句都指運動裁判，改以求職申請中的推薦人支持另一常見名詞義。",
+      "fix": "She listed her former manager as a referee on her job application."
+    },
+    {
+      "word": "referee",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她在求職申請中把前主管列為推薦人。"
+    },
+    {
+      "word": "refine",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提煉與精煉在去除糖中雜質的用法重複，另保留文稿潤飾與設計改良。",
+      "fix": "精煉；潤飾；改良"
+    },
+    {
+      "word": "refine",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充工廠精煉粗糖後出貨的具體情境。",
+      "fix": "The factory refines raw sugar before shipping it to stores."
+    },
+    {
+      "word": "refine",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這間工廠先精煉粗糖，再把糖運送到商店。"
+    },
+    {
+      "word": "reflective",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "陷入沉思的心情搭配不順，應直接表達若有所思的狀態。",
+      "fix": "畢業典禮後，他若有所思。"
+    },
+    {
+      "word": "refreshment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "茶點與點心重複，提神飲料容易誤解為刺激性飲品，應區分飲食與恢復活力的意思。",
+      "fix": "茶點；活力的恢復"
+    },
+    {
+      "word": "refreshment",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原句仍為飲品，改以沖涼後恢復精神的情境明確支持另一常見名詞義。",
+      "fix": "The cool shower brought welcome refreshment after a long hike."
+    },
+    {
+      "word": "refreshment",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "長途健行後，沖個涼令人恢復精神，十分舒暢。"
+    },
+    {
+      "word": "refute",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "反駁與駁斥重複，單純否認則未必具有 refute 所表達的駁斥意味。",
+      "fix": "駁斥"
+    },
+    {
+      "word": "refute",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "refuted 比單純否認更強，store 也未限定為分店，應忠實表達駁斥關店傳聞。",
+      "fix": "公司駁斥了將關閉該店的傳聞。"
+    },
+    {
+      "word": "rehabilitate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "復健與恢復健康在人物及野鳥情境重疊，第一句也須涵蓋病患自行康復的不及物用法。",
+      "fix": "（使）康復；修復"
+    },
+    {
+      "word": "reign",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個名詞例句都指君主在位的統治期間，統治是同一時間義的簡稱。",
+      "fix": "統治時期"
+    },
+    {
+      "word": "reign",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "silence reigned 指寂靜籠罩環境，不是某種習俗或做法盛行。",
+      "fix": "統治；籠罩；稱霸"
+    },
+    {
+      "word": "rejoice",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "歡欣與欣喜同義，原三句也未明確描寫另外舉行慶祝活動。",
+      "fix": "歡欣"
+    },
+    {
+      "word": "relay",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "接力與接力賽重複，且漏列常見的電氣裝置繼電器義。",
+      "fix": "接力賽；繼電器；中繼站"
+    },
+    {
+      "word": "relay",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原有兩句都談接力賽，改以感測器偵測移動後啟動馬達的情境支持繼電器義。",
+      "fix": "The relay switches the motor on when the sensor detects movement."
+    },
+    {
+      "word": "relay",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "感測器偵測到移動時，繼電器會啟動馬達。"
+    },
+    {
+      "word": "reliance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "依賴與依靠在手機、觀光業及字典的情境中同義重複。",
+      "fix": "依賴"
+    },
+    {
+      "word": "relic",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "前兩句均為遺留下來的物件，沒有遺跡或古址的用法，另保留過時事物義。",
+      "fix": "遺物；過時的東西"
+    },
+    {
+      "word": "remainder",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "will go to 只交代款項歸向圖書館，沒有明確表示捐贈。",
+      "fix": "剩下的錢將交給學校圖書館。"
+    },
+    {
+      "word": "renowned",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "著名與享有盛名在三句中同義重複。",
+      "fix": "著名的"
+    },
+    {
+      "word": "reptile",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "爬蟲類與爬行動物是同一動物類群的不同名稱。",
+      "fix": "爬蟲類"
+    },
+    {
+      "word": "resent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "怨恨、憤慨與不滿在這些覺得受不公平對待的情境中重疊，合併即可。",
+      "fix": "心懷不滿"
+    },
+    {
+      "word": "resent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "不滿得獨自打掃的句型不順，應清楚表達對必須獨自打掃這件事不滿。",
+      "fix": "他對必須獨自打掃房子感到不滿。"
+    },
+    {
+      "word": "reside",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "居住六個月不能一概判定居留證義務，原句忽略停留或居留身分差異，改用一般居住情境。",
+      "fix": "Foreign researchers who reside in Taiwan often attend local academic conferences."
+    },
+    {
+      "word": "reside",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "居住在臺灣的外籍研究人員經常參加當地的學術研討會。"
+    },
+    {
+      "word": "restraint",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "克制與節制在情緒及支出管理的例句中重複，另保留實體約束裝置。",
+      "fix": "克制；約束裝置"
+    },
+    {
+      "word": "retort",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "回嘴與反駁在三個針鋒相對回答的例句中同義重複。",
+      "fix": "回嘴"
+    },
+    {
+      "word": "revelation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "演講帶來的啟發與參觀農場令人開眼界的意思重疊，另保留秘密揭露的用法。",
+      "fix": "揭露；令人大開眼界的事"
+    }
+  ]
+}
