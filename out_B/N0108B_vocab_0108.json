@@ -1,0 +1,621 @@
+{
+  "batch": "N0108",
+  "checked": 50,
+  "reviewed": [
+    "hemisphere",
+    "heroic",
+    "heroin",
+    "heterosexual",
+    "hierarchy",
+    "hoarse",
+    "homosexual",
+    "honorary",
+    "hospitable",
+    "hospitality",
+    "hospitalize",
+    "hover",
+    "humiliate",
+    "hunch",
+    "hurdle",
+    "hybrid",
+    "hygiene",
+    "hypocrite",
+    "illuminate",
+    "imminent",
+    "imperative",
+    "implicit",
+    "imposing",
+    "imprison",
+    "incline",
+    "inclusive",
+    "incur",
+    "indifference",
+    "indignant",
+    "induce",
+    "infectious",
+    "inflict",
+    "inhabit",
+    "injustice",
+    "inland",
+    "innumerable",
+    "insistence",
+    "instinctive",
+    "intake",
+    "intellect",
+    "intersection",
+    "intervene",
+    "intimacy",
+    "intimidate",
+    "intonation",
+    "intrigue",
+    "invaluable",
+    "inventory",
+    "ironic",
+    "irritable"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "hemisphere",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "半球與後面的兩種半球重複，應直接區分例句中的地球與大腦。",
+      "fix": "地球的半球；大腦的半球"
+    },
+    {
+      "word": "hemisphere",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "完整地球儀未明確呈現第一義項的半球。",
+      "fix": "northern hemisphere globe"
+    },
+    {
+      "word": "heroic",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "英雄般與英勇重複，壯烈未被例句使用，且漏列 heroic effort 的艱苦卓絕義。",
+      "fix": "英勇的；艱苦卓絕的"
+    },
+    {
+      "word": "heroic",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "雨中完成馬拉松的 heroic effort 指艱苦卓絕的努力，英勇的努力搭配不自然。",
+      "fix": "在雨中跑完馬拉松，是一番艱苦卓絕的努力。"
+    },
+    {
+      "word": "hierarchy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三項均指依等級排列的層級體系，義項同義重複。",
+      "fix": "階層體系"
+    },
+    {
+      "word": "hoarse",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沙啞與嘶啞在這些聲音情境中同義重複。",
+      "fix": "沙啞的"
+    },
+    {
+      "word": "hoarse",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "hoarse 通常形容人或聲音，has a hoarse throat 搭配不自然。",
+      "fix": "Her voice became hoarse after she caught a cold last week."
+    },
+    {
+      "word": "hoarse",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "她上週感冒後，聲音變得沙啞。"
+    },
+    {
+      "word": "honorary",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為名譽頭銜或榮譽學位，沒有使用無薪任職的義務義。",
+      "fix": "名譽的；榮譽的"
+    },
+    {
+      "word": "honorary",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "was made 表示被授予身分，原文沒有推選或選舉的資訊。",
+      "fix": "她獲授這個社團的名譽會員身分。"
+    },
+    {
+      "word": "hospitable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "殷勤款待與好客重複，而植物例句指環境適宜生存，不只是宜人。",
+      "fix": "好客的；適宜生存的"
+    },
+    {
+      "word": "hospitalize",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "hospitalize 明確指使病人住院，送醫治療未必包含住院。",
+      "fix": "使住院"
+    },
+    {
+      "word": "hover",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "hover 指停留在空中，不是繞圈飛行的盤旋，並另有在附近徘徊的用法。",
+      "fix": "懸停；徘徊"
+    },
+    {
+      "word": "hover",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "直升機 hover 是在空中懸停，不是盤旋繞行。",
+      "fix": "一架直升機開始在學校操場上空懸停。"
+    },
+    {
+      "word": "hover",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "蜜蜂 hover 指懸停，盤旋會誤導為繞圈飛行。",
+      "fix": "每年春天，蜜蜂都會在花園的花朵旁懸停。"
+    },
+    {
+      "word": "hover",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個名詞例句均指空中懸停，盤旋並非相同動作。",
+      "fix": "懸停"
+    },
+    {
+      "word": "hover",
+      "path": "senses[1].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "相機本身不能自然懸停，需交代搭載相機的無人機並採用典型搭配。",
+      "fix": "The camera drone maintained a steady hover while filming the farm."
+    },
+    {
+      "word": "hover",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "攝影無人機在拍攝農場時保持穩定懸停。"
+    },
+    {
+      "word": "humiliate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使丟臉、使蒙羞與羞辱在三句中沒有不同義項。",
+      "fix": "羞辱"
+    },
+    {
+      "word": "hunch",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "預感與直覺在三句中均指沒有明確證據的直覺判斷，無須重複列義。",
+      "fix": "直覺"
+    },
+    {
+      "word": "hunch",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "前兩個釋義均指弓身，漏列第二句縮起肩膀的動作。",
+      "fix": "弓起身子；縮起肩膀"
+    },
+    {
+      "word": "hurdle",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "障礙與難關為同一比喻義，保留跨欄作為另一用法即可。",
+      "fix": "障礙；跨欄"
+    },
+    {
+      "word": "hybrid",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句只使用生物混種與油電混合車，沒有混合物的例句。",
+      "fix": "混種；油電混合車"
+    },
+    {
+      "word": "hygiene",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆談衛生狀況或習慣，沒有衛生學這門學科的用法。",
+      "fix": "衛生"
+    },
+    {
+      "word": "hygiene",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "was closed 只交代停業，原文未交代由主管機關勒令。",
+      "fix": "那間餐廳因廚房衛生不佳而停業。"
+    },
+    {
+      "word": "hypocrite",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "言行不一的人是對偽君子的同義解釋，不必列為另一義項。",
+      "fix": "偽君子"
+    },
+    {
+      "word": "illuminate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "闡明與使明白在抽象觀念的例句中重複。",
+      "fix": "照亮；闡明"
+    },
+    {
+      "word": "imminent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "即將發生與迫近均表示事件即將到來，沒有不同義項。",
+      "fix": "即將發生的"
+    },
+    {
+      "word": "imminent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "is in imminent danger 表示目前已面臨迫切危險，不是尚未面臨的未來危機。",
+      "fix": "這家公司正面臨迫在眉睫的倒閉危機。"
+    },
+    {
+      "word": "imperative",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句強調絕對必要而非緊急，文法例句則需明確指祈使語氣。",
+      "fix": "絕對必要的；祈使語氣的"
+    },
+    {
+      "word": "imperative",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "學校與學習只涵蓋其中一種文法情境，核心用法是必要性與義務等抽象概念。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "implicit",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "含蓄與不言明在前兩句為同一義項，應去除重複。",
+      "fix": "不言明的；絕對的"
+    },
+    {
+      "word": "imposing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "氣勢逼人與威風凜凜在人物例句重複，宜區分景物宏偉與人物威嚴。",
+      "fix": "宏偉的；威嚴的"
+    },
+    {
+      "word": "imprison",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "監禁與關押同義重複，另保留暴風雨使人受困的用法。",
+      "fix": "監禁；使受困"
+    },
+    {
+      "word": "incline",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個名詞例句均指實際斜坡，沒有傾斜狀態或角度的用法。",
+      "fix": "斜坡"
+    },
+    {
+      "word": "incline",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "傾向、側頭與道路斜坡的例句沒有科學專屬內容，科學不是主要分類。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "inclusive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "包含與包括在內為同一用法，應與包容不同群體的意思區分。",
+      "fix": "包括在內的；包容的"
+    },
+    {
+      "word": "inclusive",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "all-inclusive 作形容詞通常需連字號，但修正後仍須包含獨立目標字，改用 inclusive of 的典型搭配。",
+      "fix": "The tour price is inclusive of all meals and transport."
+    },
+    {
+      "word": "inclusive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "這趟旅遊的價格包含所有餐點與交通費。"
+    },
+    {
+      "word": "incur",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "承擔費用或損失與招致及蒙受重疊，括號補述也不必另列為義項。",
+      "fix": "招致；蒙受"
+    },
+    {
+      "word": "indifference",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "漠不關心、冷淡與不在乎在三句中同義重複，合併為名詞義。",
+      "fix": "冷漠"
+    },
+    {
+      "word": "indignant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "憤慨與憤憤不平在這些因不滿而生氣的情境中同義重複。",
+      "fix": "憤慨的"
+    },
+    {
+      "word": "induce",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "誘使與促使在改變心意的例句中重複，保留與引起生理反應不同的用法。",
+      "fix": "引起；誘使"
+    },
+    {
+      "word": "induce",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "induce sleep 表示使人入睡，不只是引發睡意。",
+      "fix": "有些藥物能在三十分鐘內使人入睡。"
+    },
+    {
+      "word": "inflict",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "施加痛苦或損害與使遭受均為同一使人受苦的動作用法。",
+      "fix": "使遭受"
+    },
+    {
+      "word": "injustice",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不公平、不公正與不義在三句中同義重複。",
+      "fix": "不公正"
+    },
+    {
+      "word": "inland",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "內陸的與靠內陸的在三個例句中均指內陸位置。",
+      "fix": "內陸的"
+    },
+    {
+      "word": "inland",
+      "path": "senses[0].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "high",
+      "detail": "臺中市包含海岸與海灘，原句將臺中稱為沒有海灘的內陸城市並不正確。",
+      "fix": "We stayed in an inland town far from the coast."
+    },
+    {
+      "word": "inland",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "我們住在一座遠離海岸的內陸小鎮。"
+    },
+    {
+      "word": "inland",
+      "path": "senses[1].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三個副詞例句均為向內陸移動，沒有靜態在內陸的用法。",
+      "fix": "向內陸"
+    },
+    {
+      "word": "innumerable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "無數與數不清在這些數量很多的例句中同義重複。",
+      "fix": "無數的"
+    },
+    {
+      "word": "intellect",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "智力與才智重複，且三句均指智力，沒有以 intellect 指某個人的用法。",
+      "fix": "智力"
+    },
+    {
+      "word": "intersection",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "十字路口與交叉口重複，且交集未被例句使用，反而漏列兩條線的交點。",
+      "fix": "交叉路口；交點"
+    },
+    {
+      "word": "intervene",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "介入、干預與插手在三個介入他人事務的例句中同義重複。",
+      "fix": "介入"
+    },
+    {
+      "word": "intimacy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義均指人際間的親密，沒有不同的獨立用法。",
+      "fix": "親密感"
+    },
+    {
+      "word": "intimacy",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "shared intimacy 指共同具有親密情誼，不是分享某項內容，原文也未限定好友只有兩人。",
+      "fix": "這些好友之間有著多年來建立的深厚情誼。"
+    },
+    {
+      "word": "intimidate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "恐嚇與威嚇在第一句重複，另保留未必有意威脅的使人膽怯義。",
+      "fix": "恐嚇；使膽怯"
+    },
+    {
+      "word": "intonation",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個例句均指說話時的語調，音調與抑揚頓挫只是同義補述。",
+      "fix": "語調"
+    },
+    {
+      "word": "intrigue",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "引起興趣與激起好奇心在三句中同義重複。",
+      "fix": "引起興趣"
+    },
+    {
+      "word": "intrigue",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "陰謀與詭計同義重複，保留與神祕感的區分。",
+      "fix": "陰謀；神祕感"
+    },
+    {
+      "word": "intrigue",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充具體感興趣的太空故事內容。",
+      "fix": "Stories about space always intrigue me, especially those about distant planets."
+    },
+    {
+      "word": "intrigue",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "關於太空的故事總是讓我很感興趣，尤其是那些談論遙遠行星的故事。"
+    },
+    {
+      "word": "invaluable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指極有價值，無價與非常寶貴為同義重複。",
+      "fix": "非常寶貴的"
+    },
+    {
+      "word": "inventory",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原句只確認庫存，改以清單列出倉庫物品的用法明確支持存貨清單義。",
+      "fix": "The inventory lists every item currently stored in the warehouse."
+    },
+    {
+      "word": "inventory",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，完整對應新的例句語意。",
+      "fix": "存貨清單列出目前存放在倉庫裡的每一件物品。"
+    },
+    {
+      "word": "ironic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "出人意料不足以表達與預期相反的諷刺，而反諷與諷刺重複。",
+      "fix": "諷刺的"
+    },
+    {
+      "word": "irritable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "易怒、暴躁與煩躁在這些容易不耐煩的情境中同義重複。",
+      "fix": "易怒的"
+    },
+    {
+      "word": "intellect",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充閱讀範圍使情境更完整。",
+      "fix": "Reading a wide range of books helps develop a child's intellect."
+    },
+    {
+      "word": "intellect",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充閱讀各類書籍的情境。",
+      "fix": "廣泛閱讀各類書籍有助於發展孩子的智力。"
+    }
+  ]
+}
