@@ -1,0 +1,729 @@
+{
+  "batch": "N0107",
+  "checked": 50,
+  "reviewed": [
+    "flourish",
+    "flunk",
+    "foe",
+    "folklore",
+    "formidable",
+    "formulate",
+    "forsake",
+    "forthcoming",
+    "fortify",
+    "fowl",
+    "fracture",
+    "fragrant",
+    "frantic",
+    "freak",
+    "friction",
+    "fume",
+    "fury",
+    "fuse",
+    "fuss",
+    "gallop",
+    "garment",
+    "gauge",
+    "geographical",
+    "geometry",
+    "glacier",
+    "glamorous",
+    "gleam",
+    "glitter",
+    "gloom",
+    "goalkeeper",
+    "goodwill",
+    "gorilla",
+    "gospel",
+    "graze",
+    "grease",
+    "groan",
+    "growl",
+    "grumble",
+    "hacker",
+    "hail",
+    "hamper",
+    "handicraft",
+    "harass",
+    "harmonica",
+    "harness",
+    "haunt",
+    "healthful",
+    "hearty",
+    "hedge",
+    "heighten"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "flourish",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "興盛與繁榮在企業及經濟的例句中同義重複。",
+      "fix": "興盛；茁壯"
+    },
+    {
+      "word": "flunk",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "當掉容易混淆學生自己不及格與老師評為不及格，應清楚列出兩種動作方向。",
+      "fix": "考試不及格；使不及格"
+    },
+    {
+      "word": "foe",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆為敵對或有害的一方，泛稱對手可能混淆第一句刻意對比的 friendly rivals。",
+      "fix": "敵人"
+    },
+    {
+      "word": "formidable",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句任務艱鉅義未明列，強大與對手難對付的釋義又重疊。",
+      "fix": "難對付的；艱鉅的；令人敬畏的"
+    },
+    {
+      "word": "forsake",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "捨棄與拋棄、放棄在放下關係、嗜好及生活方式的例句中重複。",
+      "fix": "拋棄；放棄"
+    },
+    {
+      "word": "forthcoming",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "即將出版是即將到來用於書籍的情境，無須重複列義。",
+      "fix": "即將到來的；樂意提供的"
+    },
+    {
+      "word": "fortify",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句指食品添加維生素及礦物質，原未列此義且三個原釋義重疊。",
+      "fix": "加強；添加營養素"
+    },
+    {
+      "word": "fowl",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為食材禽肉，原未列出；家禽與禽類亦重疊，禽鳥可涵蓋野生與飼養者。",
+      "fix": "禽鳥；禽肉"
+    },
+    {
+      "word": "folklore",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "民間傳說是文化內容，書本是承載物，未直接對應第一義本身。",
+      "fix": null
+    },
+    {
+      "word": "folklore",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "folklore 也包括傳統習俗，原譯只限民間傳說而縮窄節慶的來源。",
+      "fix": "許多節慶源自流傳了數百年的民俗文化。"
+    },
+    {
+      "word": "flunk",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句皆為學生自己不及格，改一例示範老師評學生不及格的及物用法。",
+      "fix": "The teacher may flunk students who submit copied work."
+    },
+    {
+      "word": "flunk",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文改以老師評定抄襲作業的學生不及格。",
+      "fix": "老師可能會讓繳交抄襲作業的學生不及格。"
+    },
+    {
+      "word": "fracture",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第三句是不及物的冰面斷裂，原兩義只有使某物斷裂的及物格式。",
+      "fix": "（使）斷裂；骨折"
+    },
+    {
+      "word": "fragrant",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "芬芳的與香的同義重複。",
+      "fix": "芬芳的"
+    },
+    {
+      "word": "frantic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義重疊，辦公室例句指忙亂，不一定是瘋狂。",
+      "fix": "忙亂的；焦急萬分的"
+    },
+    {
+      "word": "friction",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "前兩句皆為物理摩擦力，摩擦與摩擦力在此重疊。",
+      "fix": "摩擦力；不和"
+    },
+    {
+      "word": "fury",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "狂怒與暴怒重複，暴風雨的猛烈義宜用名詞性氣勢表達。",
+      "fix": "狂怒；猛烈的氣勢"
+    },
+    {
+      "word": "fuss",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "大驚小怪與小題大作在本組抱怨用法中重複。",
+      "fix": "大驚小怪；吵鬧"
+    },
+    {
+      "word": "fuss",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "應區分照料病中家人、對頭髮過度操心及孩子吵鬧抱怨，原釋義未完整涵蓋。",
+      "fix": "費心照料；過度操心；吵鬧抱怨"
+    },
+    {
+      "word": "gallop",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為物價快速上升，原釋義未列此比喻義且飛奔與疾馳重複。",
+      "fix": "疾馳；激增"
+    },
+    {
+      "word": "gallop",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "飛奔與疾馳在三句馬匹奔跑用法中同義重複。",
+      "fix": "疾馳"
+    },
+    {
+      "word": "fracture",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "石膏腿只表示治療狀態，改為直接呈現骨折的影像以符合第一義。",
+      "fix": "bone fracture xray"
+    },
+    {
+      "word": "fume",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "原譯空氣難以呼吸搭配不自然，應表達廢氣讓人難以呼吸。",
+      "fix": "工廠排出的廢氣讓人難以呼吸。"
+    },
+    {
+      "word": "fume",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "fumes 是油漆揮發的氣體，原譯僅指感知到的氣味，未完整表達物質。",
+      "fix": "打開窗戶，讓油漆揮發的氣體排出去。"
+    },
+    {
+      "word": "freak",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "freak storm 中 freak 為形容詞，改用 a freak of nature 作明確名詞。",
+      "fix": "The sudden summer snowstorm was a freak of nature."
+    },
+    {
+      "word": "freak",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "夏季突如其來的暴風雪，是罕見的自然現象。"
+    },
+    {
+      "word": "fury",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入被誣指作弊而憤怒的具體情境。",
+      "fix": "His face turned red with fury after he was falsely accused of cheating."
+    },
+    {
+      "word": "fury",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他被誣指作弊後，氣得滿臉通紅。"
+    },
+    {
+      "word": "fuse",
+      "path": "senses[0].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原三句皆為保險絲，改一例示範所列的導火線義。",
+      "fix": "The firework had a long fuse that burned for several seconds."
+    },
+    {
+      "word": "fuse",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "那枚煙火有一條長導火線，燃燒了好幾秒。"
+    },
+    {
+      "word": "fuss",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "原句 cried without any fuss 搭配不自然且中譯漏掉哭泣，改為寶寶不哭鬧地接受檢查。",
+      "fix": "The baby received a checkup without any fuss at the clinic."
+    },
+    {
+      "word": "fuss",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "寶寶在診所接受檢查時，一點也沒哭鬧。"
+    },
+    {
+      "word": "garment",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "衣服與服裝在單件衣物及製造例句中近義重複。",
+      "fix": "衣服"
+    },
+    {
+      "word": "gauge",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "估計與判斷在理解程度及房間大小的例句中重疊。",
+      "fix": "測量；評估"
+    },
+    {
+      "word": "geographical",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指位置與地形，地理學的未另示學科研究義且與地理的重疊。",
+      "fix": "地理的"
+    },
+    {
+      "word": "geometry",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆指學科或課程，未把 geometry 用作物體形狀。",
+      "fix": "幾何學"
+    },
+    {
+      "word": "glacier",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "冰河與冰川為同一地理現象的近義名稱。",
+      "fix": "冰河"
+    },
+    {
+      "word": "glamorous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "迷人與富有魅力近義重複，光鮮迷人可合併呈現禮服、明星生活及豪華飯店的特色。",
+      "fix": "光鮮迷人的"
+    },
+    {
+      "word": "gleam",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原兩個釋義在反光例句中近義重複。",
+      "fix": "閃耀"
+    },
+    {
+      "word": "gleam",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "微光與閃光重疊，第二句用作眼中喜悅神采的比喻義。",
+      "fix": "微光；眼中流露的神采"
+    },
+    {
+      "word": "glitter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "閃閃發光與閃爍在三句中近義重複。",
+      "fix": "閃閃發光"
+    },
+    {
+      "word": "glitter",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "glitter 的光亮義是持續閃耀的光彩，手工材料義則通常為細小亮粉而非大片亮片。",
+      "fix": "閃耀的光彩；亮粉"
+    },
+    {
+      "word": "gloom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "憂鬱與沮喪在輸球後的低落情境中重疊。",
+      "fix": "陰暗；沮喪"
+    },
+    {
+      "word": "geometry",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "第一義為抽象學科幾何學，三角尺只是學習工具。",
+      "fix": null
+    },
+    {
+      "word": "glitter",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞指卡片上的手工材料，對應第二義而非第一義光彩。",
+      "fix": null
+    },
+    {
+      "word": "glitter",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "用於卡片裝飾的 glitter 是亮粉，應與較大的亮片區分。",
+      "fix": "孩子們用亮粉裝飾卡片。"
+    },
+    {
+      "word": "goalkeeper",
+      "path": "emoji",
+      "type": "emoji_bad",
+      "severity": "medium",
+      "detail": "🥅 主要表示球門，容易被理解為球門本身而非第一義的守門員。",
+      "fix": null
+    },
+    {
+      "word": "glitter",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入沿湖散步的具體觀察情境。",
+      "fix": "Stars glittered above the quiet lake as we walked along the shore."
+    },
+    {
+      "word": "glitter",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入沿湖岸散步的情境。",
+      "fix": "我們沿著湖岸散步時，星星在寧靜的湖面上方閃爍。"
+    },
+    {
+      "word": "goodwill",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "善意與友好在學校互贈禮物的情境中近義重複。",
+      "fix": "善意；商譽"
+    },
+    {
+      "word": "gospel",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句從經典朗讀段落，使用福音書義，原釋義未明列。",
+      "fix": "福音；福音書；絕對真理"
+    },
+    {
+      "word": "grease",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "塗油與上油在烤盤及鏈條的例句中同義重複。",
+      "fix": "塗油"
+    },
+    {
+      "word": "groan",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第三句為地板發出低沉嘎吱聲，原釋義只有人的呻吟及抱怨。",
+      "fix": "呻吟；抱怨；嘎吱作響"
+    },
+    {
+      "word": "growl",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二、三句分別指肚子作響及粗聲回答，原兩個吼叫義未完整涵蓋。",
+      "fix": "低吼；咕嚕作響；粗聲說話"
+    },
+    {
+      "word": "growl",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "低吼聲與咆哮聲在這組低沉聲音例句中近義重複。",
+      "fix": "低吼聲"
+    },
+    {
+      "word": "grumble",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抱怨與嘀咕在三句中重疊，合併可保留低聲不滿的語氣。",
+      "fix": "低聲抱怨"
+    },
+    {
+      "word": "grumble",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "抱怨與牢騷在三句中近義重複。",
+      "fix": "牢騷"
+    },
+    {
+      "word": "hail",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "招呼過於籠統，第三句影評人是讚譽電影而非歡呼。",
+      "fix": "下冰雹；招手叫車；讚譽"
+    },
+    {
+      "word": "gorilla",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "gorilla 是大猩猩的種名，不能因是幼體就省去名稱中的大。",
+      "fix": "一隻大猩猩寶寶緊抱著媽媽的背。"
+    },
+    {
+      "word": "groan",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "loud 指聲音響亮，原譯一聲大大的哀嘆搭配生硬。",
+      "fix": "教室後方傳來響亮的哀嘆聲。"
+    },
+    {
+      "word": "hacker",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞泛指使用筆電的人，未指定第一義的駭客身分。",
+      "fix": "computer hacker"
+    },
+    {
+      "word": "gospel",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入查證可靠來源的媒體識讀情境。",
+      "fix": "Don't take everything online as gospel without checking reliable sources."
+    },
+    {
+      "word": "gospel",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入先查證可靠來源的條件。",
+      "fix": "沒有查證可靠來源之前，別把網路上的一切都當成絕對真理。"
+    },
+    {
+      "word": "hamper",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "妨礙與阻礙在三個例句中沒有不同義項。",
+      "fix": "妨礙"
+    },
+    {
+      "word": "hamper",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "野餐籃對應第二個名詞義項，與第一個動詞義項妨礙不符。",
+      "fix": null
+    },
+    {
+      "word": "hamper",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充救援受阻的具體情境。",
+      "fix": "Bad weather hampered the rescue work in the mountains."
+    },
+    {
+      "word": "hamper",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "惡劣的天氣阻礙了山區的救援工作。"
+    },
+    {
+      "word": "handicraft",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "製作手工藝品是活動，原句直接稱作一門課的搭配不自然。",
+      "fix": "Students learn traditional handicrafts in a popular class at our school."
+    },
+    {
+      "word": "handicraft",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "學生在我們學校一門很受歡迎的課程中學習傳統手工藝。"
+    },
+    {
+      "word": "harass",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "騷擾與煩擾在這些反覆糾纏的情境中同義重複。",
+      "fix": "騷擾"
+    },
+    {
+      "word": "harness",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句均指利用資源，駕馭並非獨立且有例句支持的意思。",
+      "fix": "利用"
+    },
+    {
+      "word": "hedge",
+      "path": "senses[1].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原有兩項為同義重複，且漏列常見的規避財務風險用法。",
+      "fix": "含糊其詞；避險"
+    },
+    {
+      "word": "hedge",
+      "path": "senses[1].examples[2].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均為迴避回答，改以常見的財務避險情境補足義項。",
+      "fix": "The company hedged against rising fuel prices by buying futures."
+    },
+    {
+      "word": "hedge",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "公司透過買進期貨，規避燃料價格上漲的風險。"
+    },
+    {
+      "word": "hedge",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充樹籬提供隱私的具體功能。",
+      "fix": "A tall hedge surrounds the garden and gives us privacy."
+    },
+    {
+      "word": "hedge",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "一道高高的樹籬圍著花園，讓我們保有隱私。"
+    },
+    {
+      "word": "hedge",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充修剪後植物生長的情境。",
+      "fix": "Dad trims the hedge every spring before new leaves appear."
+    },
+    {
+      "word": "hedge",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "爸爸每年春天都會在新葉長出之前修剪樹籬。"
+    },
+    {
+      "word": "heighten",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "提高、加強與使加劇在這些強度增加的例句中同義重複。",
+      "fix": "增強"
+    },
+    {
+      "word": "heighten",
+      "path": "senses[0].examples[1].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "heighten 通常搭配意識或感受，直接搭配 safety 不如明確描述安全意識自然。",
+      "fix": "The new rule is meant to heighten awareness of campus safety."
+    },
+    {
+      "word": "heighten",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "這項新規定旨在提高校園安全意識。"
+    },
+    {
+      "word": "geometry",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補充建築師設計的具體對象。",
+      "fix": "Geometry helps architects design strong buildings that can withstand heavy winds."
+    },
+    {
+      "word": "geometry",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文例句修正，完整對應新的語意與情境。",
+      "fix": "幾何學幫助建築師設計能承受強風的堅固建築。"
+    }
+  ]
+}
