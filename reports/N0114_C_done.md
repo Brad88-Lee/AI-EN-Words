@@ -1,0 +1,15 @@
+ROUND: N0114
+STAGE: C
+AGENT: claude
+ATTEMPT: 1
+OUTPUT: out_C/N0114C_vocab_0114.json
+GATE-C: PASS｜筆數 50/50｜套用 54｜跳過 0｜null 0/0
+MODEL: unknown
+REPORTED_AT: 2026-11-06T19:00:00+08:00
+---
+```json
+{"a_count": 50, "c_count": 50, "applied": [{"word": "rigorous", "path": "senses[0].zh"}, {"word": "ripple", "path": "senses[0].zh"}, {"word": "rivalry", "path": "senses[0].zh"}, {"word": "rivalry", "path": "senses[0].examples[2].zh"}, {"word": "rivalry", "path": "topics"}, {"word": "roam", "path": "senses[0].zh"}, {"word": "royalty", "path": "senses[0].zh"}, {"word": "ruthless", "path": "senses[0].zh"}, {"word": "sanitation", "path": "senses[0].zh"}, {"word": "scorn", "path": "senses[0].zh"}, {"word": "scorn", "path": "senses[1].zh"}, {"word": "scorn", "path": "senses[1].examples[2].zh"}, {"word": "scroll", "path": "senses[0].zh"}, {"word": "scroll", "path": "senses[0].examples[1].zh"}, {"word": "scroll", "path": "senses[1].zh"}, {"word": "scrutiny", "path": "senses[0].zh"}, {"word": "sculptor", "path": "senses[0].zh"}, {"word": "seduce", "path": "senses[0].zh"}, {"word": "selective", "path": "senses[0].zh"}, {"word": "selective", "path": "senses[0].examples[0].zh"}, {"word": "serene", "path": "senses[0].zh"}, {"word": "sergeant", "path": "senses[0].zh"}, {"word": "sergeant", "path": "senses[0].examples[2].zh"}, {"word": "serial", "path": "senses[0].zh"}, {"word": "serial", "path": "senses[1].examples[1].en"}, {"word": "serial", "path": "senses[1].examples[1].zh"}, {"word": "serving", "path": "senses[0].zh"}, {"word": "setback", "path": "senses[0].zh"}, {"word": "shred", "path": "senses[0].zh"}, {"word": "shriek", "path": "senses[1].examples[0].en"}, {"word": "shriek", "path": "senses[1].examples[0].zh"}, {"word": "shutter", "path": "senses[0].zh"}, {"word": "shutter", "path": "senses[0].examples[0].zh"}, {"word": "shutter", "path": "senses[0].examples[2].zh"}, {"word": "simplicity", "path": "senses[0].zh"}, {"word": "simplicity", "path": "senses[0].examples[0].zh"}, {"word": "simultaneous", "path": "senses[0].zh"}, {"word": "skeptical", "path": "senses[0].zh"}, {"word": "slash", "path": "senses[1].zh"}, {"word": "slash", "path": "senses[1].examples[1].en"}, {"word": "slash", "path": "senses[1].examples[1].zh"}, {"word": "slash", "path": "senses[0].examples[2].en"}, {"word": "slash", "path": "senses[0].examples[2].zh"}, {"word": "slay", "path": "senses[0].zh"}, {"word": "slay", "path": "senses[0].examples[2].zh"}, {"word": "slay", "path": "senses[0].examples[1].en"}, {"word": "slay", "path": "senses[0].examples[1].zh"}, {"word": "sloppy", "path": "senses[0].examples[2].zh"}, {"word": "slump", "path": "senses[0].zh"}, {"word": "snore", "path": "senses[0].examples[1].en"}, {"word": "snore", "path": "senses[0].examples[1].zh"}, {"word": "snore", "path": "senses[0].examples[2].en"}, {"word": "snore", "path": "senses[0].examples[2].zh"}, {"word": "socialize", "path": "senses[0].zh"}], "skipped": [], "extra_changes": [], "nulls": []}
+```
+---
+A 50 筆、C 50 筆。B 的 54 筆 issue 逐筆驗證後全數套用，無跳過、無 null 類 issue，無額外修改。
+check_batch 與 check_extra 已執行（見 PR）。
