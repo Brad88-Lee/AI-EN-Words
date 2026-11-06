@@ -1,0 +1,891 @@
+{
+  "batch": "N0105",
+  "checked": 50,
+  "reviewed": [
+    "defect",
+    "defiance",
+    "definitive",
+    "dental",
+    "deplete",
+    "deprive",
+    "descent",
+    "despise",
+    "destined",
+    "detach",
+    "detain",
+    "detention",
+    "deter",
+    "devour",
+    "diabetes",
+    "dictator",
+    "dictatorship",
+    "diesel",
+    "differentiate",
+    "diplomacy",
+    "directive",
+    "disable",
+    "disastrous",
+    "disbelief",
+    "discharge",
+    "disciple",
+    "disciplinary",
+    "disclosure",
+    "discomfort",
+    "discreet",
+    "disgrace",
+    "dismay",
+    "dispensable",
+    "dispense",
+    "disposable",
+    "disposal",
+    "dispose",
+    "dissent",
+    "distraction",
+    "distress",
+    "diversify",
+    "diversion",
+    "divert",
+    "dividend",
+    "doom",
+    "drastic",
+    "dressing",
+    "dual",
+    "dubious",
+    "dwarf"
+  ],
+  "gate": {
+    "a_count": 50,
+    "checked": 50,
+    "reviewed_count": 50,
+    "pass": true,
+    "reason": ""
+  },
+  "issues": [
+    {
+      "word": "defect",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "缺陷、瑕疵與缺點在這組產品及設計例句中近義重複。",
+      "fix": "缺陷"
+    },
+    {
+      "word": "defiance",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義在違抗命令及規定的例句中重疊。",
+      "fix": "反抗"
+    },
+    {
+      "word": "definitive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "最終與決定性在答覆、檢驗結論中重疊，確定的較能區別 definitive 與 decisive。",
+      "fix": "確定的；權威性的"
+    },
+    {
+      "word": "deplete",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "耗盡與使枯竭同義重複，保留程度較廣的大量消耗義。",
+      "fix": "耗盡；大量消耗"
+    },
+    {
+      "word": "deprive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "剝奪與使喪失在三句中近義重複。",
+      "fix": "剝奪"
+    },
+    {
+      "word": "descent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第二句是下山的過程而非獨立坡道，下降與下坡、血統與出身各自重疊。",
+      "fix": "下降；血統"
+    },
+    {
+      "word": "despise",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "鄙視與看不起同義重複，保留對等待等事物的厭惡義。",
+      "fix": "鄙視；厭惡"
+    },
+    {
+      "word": "destined",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "第二句為包裹預定送往某處，原釋義缺此義且注定與命中註定重複。",
+      "fix": "注定的；預定送往的"
+    },
+    {
+      "word": "detach",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在紙張、外套帽子與離開人群的例句中重疊。",
+      "fix": "使分離"
+    },
+    {
+      "word": "defiance",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "stood in defiance 表示抗命，原譯加入站在原地不動的具體行為。",
+      "fix": "那個男孩違抗了老師的命令。"
+    },
+    {
+      "word": "definitive",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "definitive result 指確定明確的結論，並非決定事件走向的決定性結果。",
+      "fix": "這項檢驗在兩天後得出了明確的結果。"
+    },
+    {
+      "word": "descent",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞只呈現坡道，改以登山客下降的動作對應第一義。",
+      "fix": "hiker descending mountain"
+    },
+    {
+      "word": "defiance",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入拒絕道歉的反抗情境。",
+      "fix": "She shook her head in defiance and refused to apologize."
+    },
+    {
+      "word": "defiance",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "她搖頭表示反抗，拒絕道歉。"
+    },
+    {
+      "word": "despise",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入藉說謊占便宜的具體行為。",
+      "fix": "He despises people who tell lies to take advantage of others."
+    },
+    {
+      "word": "despise",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他鄙視那些說謊來占別人便宜的人。"
+    },
+    {
+      "word": "despise",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入作弊不公平的原因。",
+      "fix": "Many students despise cheating on exams because it is unfair."
+    },
+    {
+      "word": "despise",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "許多學生鄙視考試作弊，因為這樣不公平。"
+    },
+    {
+      "word": "detention",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "high",
+      "detail": "學校 detention 是受罰留校，不是台灣行政處分中的留校察看。",
+      "fix": "拘留；留校處罰"
+    },
+    {
+      "word": "deter",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義皆指使人因障礙或顧慮而不採取行動，近義重複。",
+      "fix": "使卻步"
+    },
+    {
+      "word": "devour",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "狼吞虎嚥與吞食重疊，貪婪地讀亦非自然的中文釋義。",
+      "fix": "狼吞虎嚥地吃；如飢似渴地閱讀"
+    },
+    {
+      "word": "dictator",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "獨裁者與專制統治者近義重複。",
+      "fix": "獨裁者"
+    },
+    {
+      "word": "dictatorship",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "專政與獨裁統治在這組政治制度例句中重疊。",
+      "fix": "獨裁政權；獨裁統治"
+    },
+    {
+      "word": "differentiate",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "區分與辨別在前兩句中同義重複。",
+      "fix": "區分；使有所不同"
+    },
+    {
+      "word": "diplomacy",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "兩個手腕釋義重疊，第二句指圓融處理人際，而非另一外交制度義。",
+      "fix": "外交；圓融的手腕"
+    },
+    {
+      "word": "detention",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "high",
+      "detail": "被罰留校與留校察看處分不同，原譯錯誤。",
+      "fix": "湯姆因為遲到三次而被罰留校。"
+    },
+    {
+      "word": "diesel",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞為加油機，應直接對應第一義的柴油本身。",
+      "fix": "diesel fuel"
+    },
+    {
+      "word": "devour",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入進食後回到陰涼處的動物活動情境。",
+      "fix": "The lion devoured its prey quickly before returning to the shade."
+    },
+    {
+      "word": "devour",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補入回到陰涼處的後續動作。",
+      "fix": "獅子很快就吞食了獵物，然後回到陰涼處。"
+    },
+    {
+      "word": "directive",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "指令、指示與命令在三句中近義重複。",
+      "fix": "指令"
+    },
+    {
+      "word": "disable",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句皆為裝置或軟體失能，未使用使人身體失能的意思。",
+      "fix": "使失去功能；停用"
+    },
+    {
+      "word": "disastrous",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "慘重與災難性的影響重疊，保留一般糟透結果的比喻義。",
+      "fix": "災難性的；糟糕透頂的"
+    },
+    {
+      "word": "disbelief",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三個釋義在對消息及成績無法相信的例句中重疊。",
+      "fix": "不相信"
+    },
+    {
+      "word": "discharge",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "釋放與准許離開在本組出院用法中重疊，沒有另示另一釋放義。",
+      "fix": "准許離開；解僱；排放"
+    },
+    {
+      "word": "disciple",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "追隨者是門徒與學說信徒的上位概念，與前兩義重疊。",
+      "fix": "門徒；信徒"
+    },
+    {
+      "word": "disclosure",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "揭露與公開近義重複，保留動作與披露內容的區別。",
+      "fix": "揭露；透露的消息"
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "不舒服與不適同義重複，保留心理不安義。",
+      "fix": "不適；不安"
+    },
+    {
+      "word": "discreet",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "謹慎與慎重近義重複，保留不引人注意的低調義。",
+      "fix": "謹慎的；不張揚的"
+    },
+    {
+      "word": "disastrous",
+      "path": "topics",
+      "type": "topics_bad",
+      "severity": "medium",
+      "detail": "本字泛指結果非常糟，三句分屬天氣、烹飪及商業，不應只以天氣作主要分類。",
+      "fix": [
+        "抽象概念與其他"
+      ]
+    },
+    {
+      "word": "discharge",
+      "path": "senses[1].examples[0].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "出院事件不能直接等同一天，改用家人慶祝出院的自然敘述。",
+      "fix": "His family celebrated his discharge from the hospital with a special dinner."
+    },
+    {
+      "word": "discharge",
+      "path": "senses[1].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "家人用一頓特別的晚餐慶祝他出院。"
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入座位狹窄造成不適的原因。",
+      "fix": "The long flight caused great discomfort because the seats were narrow."
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這趟長途飛行因座位狹窄而讓人感到十分不適。"
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入求職面試的具體情境。",
+      "fix": "Questions about his past discomforted him during the job interview."
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "求職面試時，關於他過去的問題讓他感到不安。"
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入缺少保暖衣物的具體條件。",
+      "fix": "Cold weather can discomfort young children who lack warm clothing."
+    },
+    {
+      "word": "discomfort",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "寒冷天氣會讓缺少保暖衣物的幼兒感到不舒服。"
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義皆指名譽受損或丟臉，近義重複。",
+      "fix": "恥辱"
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "使蒙羞與玷辱近義重複。",
+      "fix": "使蒙羞"
+    },
+    {
+      "word": "dismay",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "失望與沮喪在比賽失利及商店關門的情境中重疊。",
+      "fix": "驚愕；沮喪"
+    },
+    {
+      "word": "dispensable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義重疊，dispensable 指可以沒有，不等於必須丟棄。",
+      "fix": "非必要的"
+    },
+    {
+      "word": "dispense",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "三句均未使用 dispense with 的免除或省去義。",
+      "fix": "分發；配藥；施行"
+    },
+    {
+      "word": "disposable",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "用完即丟與一次性在杯子、相機例句中重複。",
+      "fix": "用完即丟的；可自由支配的"
+    },
+    {
+      "word": "disposal",
+      "path": "senses[0].zh",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "處理與丟棄重疊，at your disposal 中的名詞應表使用權，而非整個片語的可自由使用。",
+      "fix": "處理；使用權"
+    },
+    {
+      "word": "dispose",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "處理與丟棄在前兩句 dispose of 的用法中重疊。",
+      "fix": "處理；使傾向於"
+    },
+    {
+      "word": "dissent",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個名詞釋義近義重複。",
+      "fix": "異議"
+    },
+    {
+      "word": "dissent",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "持異議與不同意近義重複。",
+      "fix": "持異議"
+    },
+    {
+      "word": "distress",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "苦惱與痛苦、憂慮重疊，三句分別呈現痛苦、危難及憂慮。",
+      "fix": "痛苦；憂慮；危難"
+    },
+    {
+      "word": "dispense",
+      "path": "image_query",
+      "type": "image_query_bad",
+      "severity": "medium",
+      "detail": "原搜尋詞只表示咖啡販賣機，改以供應咖啡的動作對應第一義。",
+      "fix": "dispensing coffee"
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入承認作弊後離隊的具體情境。",
+      "fix": "He left the team in disgrace after admitting that he cheated."
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "他承認作弊後，蒙羞離開了球隊。"
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入醜聞影響再次當選機會的後果。",
+      "fix": "The scandal disgraced the mayor and damaged his chances of reelection."
+    },
+    {
+      "word": "disgrace",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這起醜聞使市長蒙羞，也損害了他再次當選的機會。"
+    },
+    {
+      "word": "dismay",
+      "path": "senses[1].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入父母原先期待更好成績的原因。",
+      "fix": "Her low grade dismayed her parents, who had expected better results."
+    },
+    {
+      "word": "dismay",
+      "path": "senses[1].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "她的低分讓原本期待更好成績的父母感到失望。"
+    },
+    {
+      "word": "dismay",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入旅客已有重要會議安排的情境。",
+      "fix": "The long delay dismayed many travelers who had important meetings scheduled."
+    },
+    {
+      "word": "dismay",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "漫長的延誤讓許多安排了重要會議的旅客感到沮喪。"
+    },
+    {
+      "word": "dissent",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入異議來自委員會成員的具體情境。",
+      "fix": "The plan passed despite some dissent from members of the committee."
+    },
+    {
+      "word": "dissent",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "儘管委員會部分成員持有異議，這項計畫仍通過了。"
+    },
+    {
+      "word": "distraction",
+      "path": "senses[0].examples[1].en",
+      "type": "zh_wrong",
+      "severity": "medium",
+      "detail": "原前兩句皆指干擾事物，改用開會時分心的例句以涵蓋所列狀態義。",
+      "fix": "Distraction during the meeting caused him to miss several important details."
+    },
+    {
+      "word": "distraction",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "開會時分心，使他漏聽了幾項重要細節。"
+    },
+    {
+      "word": "distress",
+      "path": "senses[0].examples[0].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入孩子找不到母親的焦急情境。",
+      "fix": "The child cried out in distress when he could not find his mother."
+    },
+    {
+      "word": "distress",
+      "path": "senses[0].examples[0].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "孩子找不到媽媽時，焦急地大聲哭喊。"
+    },
+    {
+      "word": "diversify",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "第一句是增加商品種類，未另示跨事業經營，多角化經營與使多樣化重疊。",
+      "fix": "使多樣化；分散投資"
+    },
+    {
+      "word": "diversion",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "轉移與改道、分散注意重疊，第三句的可數名詞宜明確表達轉移注意的手段。",
+      "fix": "改道；消遣；轉移注意的手段"
+    },
+    {
+      "word": "divert",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "改道與使轉向在交通例句中重複。",
+      "fix": "使轉向；轉移"
+    },
+    {
+      "word": "dividend",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "股利與紅利在前兩句股票收益用法中重複。",
+      "fix": "股利；被除數"
+    },
+    {
+      "word": "doom",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "厄運與劫數近義重複，保留城市毀滅的另一用法。",
+      "fix": "厄運；毀滅"
+    },
+    {
+      "word": "doom",
+      "path": "senses[1].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "三句皆指失敗結局，原兩個釋義重疊。",
+      "fix": "使注定失敗"
+    },
+    {
+      "word": "drastic",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "天氣及價格變化宜用劇烈而非競爭上的激烈，徹底未在三句獨立使用。",
+      "fix": "劇烈的；嚴厲的"
+    },
+    {
+      "word": "dressing",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "沙拉醬與調味醬在食物例句中重疊，包紮用的敷料亦可精簡。",
+      "fix": "沙拉醬；敷料"
+    },
+    {
+      "word": "dual",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "原三個釋義皆表示兩個部分或功能，近義重複。",
+      "fix": "雙重的"
+    },
+    {
+      "word": "dubious",
+      "path": "senses[0].zh",
+      "type": "zh_unclear",
+      "severity": "medium",
+      "detail": "應區分對他人說法存疑及事物本身可疑，原前兩義重複且未清楚表達主觀懷疑。",
+      "fix": "懷疑的；可疑的"
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[0].zh",
+      "type": "zh_missing",
+      "severity": "medium",
+      "detail": "原矮人與侏儒重疊，並配合明確名詞例句列出矮生植物及矮星義。",
+      "fix": "矮人；矮生動植物；矮星"
+    },
+    {
+      "word": "doom",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "low",
+      "detail": "表示命定應用注定，註定的字形不正確。",
+      "fix": "缺乏資金使這家新事業注定失敗。"
+    },
+    {
+      "word": "diversify",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅五字，補入分散到不同投資類型的具體方式。",
+      "fix": "Smart investors diversify their savings across several types of investments."
+    },
+    {
+      "word": "diversify",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "聰明的投資人會把儲蓄分散到多種類型的投資中。"
+    },
+    {
+      "word": "drastic",
+      "path": "senses[0].examples[2].en",
+      "type": "example_unnatural",
+      "severity": "medium",
+      "detail": "a drastic amount 搭配不典型，價格大跌宜用 a drastic drop in prices。",
+      "fix": "There was a drastic drop in prices after the sale began."
+    },
+    {
+      "word": "drastic",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "特賣開始後，價格出現了大幅下跌。"
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[0].examples[1].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "dwarf tree 中 dwarf 為形容詞，改用 a dwarf 作明確植物名詞。",
+      "fix": "The apple tree is a dwarf that stays small even when fully grown."
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "這棵蘋果樹是矮生品種，即使完全長成也很小。"
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[0].examples[2].en",
+      "type": "pos_wrong",
+      "severity": "medium",
+      "detail": "dwarf planet 中 dwarf 為形容詞，改用 white dwarf 的矮星名詞用法。",
+      "fix": "Through the telescope, the astronomer observed a faint white dwarf."
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "天文學家透過望遠鏡觀測到一顆暗淡的白矮星。"
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[1].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入山谷地形以形成完整的大小對比情境。",
+      "fix": "The surrounding mountains dwarf the small village at the bottom of the valley."
+    },
+    {
+      "word": "dwarf",
+      "path": "senses[1].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文修正，中文須忠實對應新的例句內容。",
+      "fix": "四周群山讓谷底的小村莊顯得渺小。"
+    },
+    {
+      "word": "diplomacy",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入老師曾在大使館工作的職涯情境。",
+      "fix": "Our teacher studied diplomacy at university and later worked in an embassy."
+    },
+    {
+      "word": "diplomacy",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "我們的老師在大學修讀外交學，後來曾在大使館工作。"
+    },
+    {
+      "word": "disable",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入病毒破壞系統檔案的具體影響。",
+      "fix": "The virus can disable your computer by damaging essential system files."
+    },
+    {
+      "word": "disable",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "這種病毒可能破壞重要的系統檔案，讓你的電腦無法運作。"
+    },
+    {
+      "word": "dispensable",
+      "path": "senses[0].examples[1].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入每位成員都有貢獻的原因。",
+      "fix": "No team member is truly dispensable because everyone contributes something valuable."
+    },
+    {
+      "word": "dispensable",
+      "path": "senses[0].examples[1].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "沒有哪位團隊成員是真正可有可無的，因為每個人都作出有價值的貢獻。"
+    },
+    {
+      "word": "dispense",
+      "path": "senses[0].examples[2].en",
+      "type": "example_style",
+      "severity": "medium",
+      "detail": "原句僅六字，補入不因社會地位而有差別的司法情境。",
+      "fix": "The judge must dispense justice fairly, regardless of a person's social status."
+    },
+    {
+      "word": "dispense",
+      "path": "senses[0].examples[2].zh",
+      "type": "translation_bad",
+      "severity": "medium",
+      "detail": "配合英文補充的具體情境調整中文翻譯。",
+      "fix": "法官必須公平地施行正義，不論當事人的社會地位如何。"
+    }
+  ]
+}
